@@ -1,0 +1,66 @@
+{
+  "weeks": [
+    {
+      "weekOf": "2026-07-06",
+      "summary": "A tooling-heavy week: two major E2E runners shipped flakiness features independently, and the industry survey data backfilled a trend that's been visible anecdotally for a year — QA is now writing evals, not just test cases.",
+      "items": [
+        {
+          "id": "w-2026-07-06-1",
+          "title": "Playwright 1.48 ships built-in flaky-test quarantine",
+          "summary": "Failing tests can now be auto-tagged and re-run in isolation instead of blocking the whole suite.",
+          "url": "https://example.com/playwright-1-48",
+          "source": "Playwright Blog",
+          "category": "test-automation",
+          "publishedAt": "2026-07-11T14:00:00Z",
+          "tags": ["playwright", "flaky-tests"]
+        },
+        {
+          "id": "w-2026-07-06-2",
+          "title": "Survey: 61% of QA teams now maintain an internal LLM eval suite",
+          "summary": "Eval-writing overtook manual exploratory testing as a stated primary duty for the first time.",
+          "url": "https://example.com/state-of-qa-2026",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-07-09T08:00:00Z",
+          "tags": ["survey", "llm-eval"]
+        },
+        {
+          "id": "w-2026-07-06-3",
+          "title": "Kubernetes 1.32 stabilizes in-place pod resource resizing",
+          "summary": "Long-running test environments can be resized without a pod restart, cutting a common source of E2E flakiness.",
+          "url": "https://example.com/k8s-1-32-resize",
+          "source": "Kubernetes Blog",
+          "category": "engineering",
+          "publishedAt": "2026-07-06T12:00:00Z",
+          "tags": ["kubernetes", "infrastructure"]
+        }
+      ]
+    },
+    {
+      "weekOf": "2026-06-29",
+      "summary": "Quieter week dominated by a single essay on shift-left fatigue that generated more discussion than any release did.",
+      "items": [
+        {
+          "id": "w-2026-06-29-1",
+          "title": "Why 'shift-left' quietly became 'shift-everywhere' in 2026",
+          "summary": "Testing responsibilities spread across the whole delivery pipeline instead of just moving earlier in it.",
+          "url": "https://example.com/shift-everywhere",
+          "source": "TestGuild",
+          "category": "qa-practice",
+          "publishedAt": "2026-06-30T10:00:00Z",
+          "tags": ["shift-left", "culture"]
+        },
+        {
+          "id": "w-2026-06-29-2",
+          "title": "Postman adds contract-testing mode against OpenAPI specs",
+          "summary": "Collections can be validated against a live OpenAPI schema on every run.",
+          "url": "https://example.com/postman-contract-testing",
+          "source": "Postman Blog",
+          "category": "tooling",
+          "publishedAt": "2026-06-29T15:45:00Z",
+          "tags": ["postman", "contract-testing"]
+        }
+      ]
+    }
+  ]
+}

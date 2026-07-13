@@ -1,0 +1,43 @@
+import type { Config } from 'tailwindcss';
+
+const config: Config = {
+  content: ['./src/**/*.{ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        // "ink" scale — a dark charcoal-navy, not pure black
+        ink: {
+          950: '#0a0d13',
+          900: '#0b0e14',
+          800: '#12161f',
+          700: '#191f2c',
+          600: '#232838',
+          500: '#323a4d',
+        },
+        paper: {
+          DEFAULT: '#e7e9ee', // primary text
+          muted: '#8b93a7', // secondary text
+          faint: '#7683a0', // tertiary / disabled — tuned to clear WCAG AA (4.5:1) on ink-900
+        },
+        signal: {
+          pass: '#3ecf8e', // test-automation / "live" green
+          pin: '#f5a623', // highlighted / editor's pick amber
+          info: '#5b9df9', // ai / links cyan-blue
+          practice: '#c792ea', // qa-practice violet
+          tool: '#e2777a', // tooling rose
+        },
+      },
+      fontFamily: {
+        serif: ['"IBM Plex Serif"', 'Georgia', 'serif'],
+        sans: ['"IBM Plex Sans"', 'system-ui', 'sans-serif'],
+        mono: ['"IBM Plex Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace'],
+      },
+      maxWidth: {
+        content: '52rem',
+      },
+    },
+  },
+  plugins: [],
+};
+
+export default config;

@@ -1,0 +1,56 @@
+name: Deploy QA News to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+  # Uncomment once this reads from the real PAIOS API instead of local
+  # fixtures — rebuilding on a schedule is how a static export stays fresh.
+  # schedule:
+  #   - cron: '0 6 * * *' # 06:00 UTC daily, matches the Daily Brief cadence
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # No basePath needed: a custom domain (see public/CNAME) serves from
+      # the root, same as a normal site. If you ever drop the custom domain
+      # and fall back to the default username.github.io/qa-news project
+      # page, set NEXT_BASE_PATH=/qa-news as a repo variable instead.
+      - run: npm run build
+        env:
+          NEXT_BASE_PATH: ${{ vars.NEXT_BASE_PATH }}
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

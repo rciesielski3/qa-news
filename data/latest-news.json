@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "id": "n-001",
+      "title": "Playwright 1.48 ships built-in flaky-test quarantine",
+      "summary": "Failing tests can now be auto-tagged and re-run in isolation instead of blocking the whole suite, with a report diffing quarantine hits over time.",
+      "url": "https://example.com/playwright-1-48",
+      "source": "Playwright Blog",
+      "category": "test-automation",
+      "publishedAt": "2026-07-11T14:00:00Z",
+      "tags": ["playwright", "flaky-tests", "release"]
+    },
+    {
+      "id": "n-002",
+      "title": "New benchmark measures agentic coding tools on real bug reports, not katas",
+      "summary": "Researchers replaced synthetic coding puzzles with 400 real GitHub issues, and ranking shifts noticeably once the tasks stop being toy problems.",
+      "url": "https://example.com/agentic-benchmark",
+      "source": "arXiv",
+      "category": "ai",
+      "publishedAt": "2026-07-11T09:30:00Z",
+      "tags": ["benchmarks", "agentic-coding", "llm"]
+    },
+    {
+      "id": "n-003",
+      "title": "Google publishes internal 'test impact analysis' post-mortem",
+      "summary": "A retrospective on why selective test execution rolled out three times before it stuck, with concrete false-negative numbers from each attempt.",
+      "url": "https://example.com/google-tia-postmortem",
+      "source": "Google Testing Blog",
+      "category": "qa-practice",
+      "publishedAt": "2026-07-10T18:00:00Z",
+      "tags": ["test-impact-analysis", "ci", "case-study"]
+    },
+    {
+      "id": "n-004",
+      "title": "k6 adds native browser-based Core Web Vitals checks",
+      "summary": "Load tests can now assert on LCP and INP alongside throughput, closing a long-standing gap between performance and UX testing.",
+      "url": "https://example.com/k6-web-vitals",
+      "source": "Grafana Labs",
+      "category": "tooling",
+      "publishedAt": "2026-07-10T11:15:00Z",
+      "tags": ["k6", "performance", "core-web-vitals"]
+    },
+    {
+      "id": "n-005",
+      "title": "Survey: 61% of QA teams now maintain an internal LLM eval suite",
+      "summary": "The State of QA 2026 survey shows eval-writing overtaking manual exploratory testing as a stated primary duty for the first time.",
+      "url": "https://example.com/state-of-qa-2026",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-07-09T08:00:00Z",
+      "tags": ["survey", "llm-eval", "industry"]
+    },
+    {
+      "id": "n-006",
+      "title": "GitHub Actions adds per-job carbon estimate in run summaries",
+      "summary": "CI runs now surface an estimated CO2e figure next to duration and cost, sourced from runner region and instance type.",
+      "url": "https://example.com/actions-carbon",
+      "source": "GitHub Changelog",
+      "category": "engineering",
+      "publishedAt": "2026-07-09T07:00:00Z",
+      "tags": ["github-actions", "ci", "sustainability"]
+    },
+    {
+      "id": "n-007",
+      "title": "Cypress and Playwright interoperability layer released as a community project",
+      "summary": "A thin adapter lets teams run existing Cypress custom commands inside a Playwright test runner during migration, rather than a big-bang rewrite.",
+      "url": "https://example.com/cypress-playwright-bridge",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-07-08T13:20:00Z",
+      "tags": ["cypress", "playwright", "migration"]
+    },
+    {
+      "id": "n-008",
+      "title": "Anthropic publishes guidance on evaluating agentic tool-use reliability",
+      "summary": "A practical write-up on building eval harnesses for tool-calling agents, with emphasis on distinguishing flaky tools from flaky models.",
+      "url": "https://example.com/agentic-tool-use-evals",
+      "source": "Anthropic Engineering",
+      "category": "ai",
+      "publishedAt": "2026-07-08T09:00:00Z",
+      "tags": ["evals", "agents", "reliability"]
+    },
+    {
+      "id": "n-009",
+      "title": "Postman adds contract-testing mode against OpenAPI specs",
+      "summary": "Collections can now be validated against a live OpenAPI schema on every run, failing fast when an endpoint drifts from its spec.",
+      "url": "https://example.com/postman-contract-testing",
+      "source": "Postman Blog",
+      "category": "tooling",
+      "publishedAt": "2026-07-07T15:45:00Z",
+      "tags": ["postman", "contract-testing", "openapi"]
+    },
+    {
+      "id": "n-010",
+      "title": "Why 'shift-left' quietly became 'shift-everywhere' in 2026",
+      "summary": "An essay tracing how testing responsibilities spread across the whole delivery pipeline instead of just moving earlier in it.",
+      "url": "https://example.com/shift-everywhere",
+      "source": "TestGuild",
+      "category": "qa-practice",
+      "publishedAt": "2026-07-07T10:00:00Z",
+      "tags": ["shift-left", "culture", "opinion"]
+    },
+    {
+      "id": "n-011",
+      "title": "Kubernetes 1.32 stabilizes in-place pod resource resizing",
+      "summary": "Long-running test environments can now have CPU/memory limits adjusted without a pod restart, cutting a common source of E2E test flakiness.",
+      "url": "https://example.com/k8s-1-32-resize",
+      "source": "Kubernetes Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-06T12:00:00Z",
+      "tags": ["kubernetes", "infrastructure", "release"]
+    },
+    {
+      "id": "n-012",
+      "title": "Testim and Mabl both add 'self-healing' diff explanations",
+      "summary": "Both platforms now show a plain-language reason for why a locator was auto-updated, instead of a silent healing action in the run log.",
+      "url": "https://example.com/self-healing-explanations",
+      "source": "SD Times",
+      "category": "test-automation",
+      "publishedAt": "2026-07-06T08:30:00Z",
+      "tags": ["self-healing", "low-code", "locators"]
+    }
+  ]
+}
