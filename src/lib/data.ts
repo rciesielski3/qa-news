@@ -74,7 +74,11 @@ export async function getLatestArticles(): Promise<Article[]> {
     }
   }
   // Fall back to local fixture in public/latest.json
-  const raw = await fs.readFile(path.join(PUBLIC_DIR, 'latest.json'), 'utf-8');
-  const data = JSON.parse(raw) as { articles: Article[] };
-  return data.articles;
+  try {
+    const raw = await fs.readFile(path.join(PUBLIC_DIR, 'latest.json'), 'utf-8');
+    const data = JSON.parse(raw) as { articles: Article[] };
+    return data.articles;
+  } catch {
+    return [];
+  }
 }
