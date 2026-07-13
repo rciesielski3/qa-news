@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import type { DailyBrief, WeeklyHighlight, MonthlyRecap } from './types';
+import type { Article, DailyBrief, WeeklyHighlight, MonthlyRecap } from './types';
 
 // ---------------------------------------------------------------------------
 // Single seam for "read curated data". Tries PAIOS API first (via env var
@@ -14,7 +14,9 @@ import type { DailyBrief, WeeklyHighlight, MonthlyRecap } from './types';
 // ---------------------------------------------------------------------------
 
 const DATA_DIR = path.join(process.cwd(), 'data');
+const PUBLIC_DIR = path.join(process.cwd(), 'public');
 const API_URL = process.env.PAIOS_API_URL;
+const LATEST_JSON_URL = process.env.PAIOS_LATEST_JSON_URL;
 
 async function readJson<T>(file: string): Promise<T> {
   const raw = await fs.readFile(path.join(DATA_DIR, file), 'utf-8');
@@ -56,4 +58,23 @@ export async function getMonthlyRecaps(): Promise<MonthlyRecap[]> {
   if (api) return api.months;
   const data = await readJson<{ months: MonthlyRecap[] }>('monthly-recap.json');
   return data.months;
+}
+
+export async function getLatestArticles(): Promise<Article[]> {
+  // Try Knowledge Layer export endpoint first (PAIOS_LATEST_JSON_URL)
+  if (LATEST_JSON_URL) {
+    try {
+      const res = await fetch(LATEST_JSON_URL, { cache: 'no-store' });
+      if (res.ok) {
+        const data = (await res.json()) as { articles: Article[] };
+        return data.articles;
+      }
+    } catch {
+      // Fall through to local file
+    }
+  }
+  // Fall back to local fixture in public/latest.json
+  const raw = await fs.readFile(path.join(PUBLIC_DIR, 'latest.json'), 'utf-8');
+  const data = JSON.parse(raw) as { articles: Article[] };
+  return data.articles;
 }
