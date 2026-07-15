@@ -40,7 +40,7 @@ export default function FilterBar({
                 onClick={() => onCategorySelect(category)}
                 className={`rounded-full border-2 px-4 py-2 text-sm font-medium transition ${
                   isActive
-                    ? `${bgColor} border-current text-white`
+                    ? `${bgColor} border-current ${textColor}`
                     : `border-current ${textColor} bg-transparent hover:opacity-80`
                 }`}
                 style={

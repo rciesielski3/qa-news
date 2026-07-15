@@ -7,6 +7,7 @@ interface EmptyStateProps {
 export default function EmptyState({ onReset }: EmptyStateProps) {
   return (
     <div className="flex flex-col items-center justify-center py-16">
+      {/* Generic empty state message using standard Tailwind colors (not category-specific) */}
       <p className="text-lg text-gray-600">No articles match these filters</p>
       <button
         onClick={onReset}
