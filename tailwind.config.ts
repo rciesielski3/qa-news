@@ -26,6 +26,24 @@ const config: Config = {
           practice: '#c792ea', // qa-practice violet
           tool: '#e2777a', // tooling rose
         },
+        // 5-category color palette (WCAG AA compliant)
+        category: {
+          'test-automation-bright': '#0EA5E9',
+          'test-automation-text': '#0369A1',
+          'test-automation-bg': '#F0F9FF',
+          'qa-practice-bright': '#A855F7',
+          'qa-practice-text': '#6B21A8',
+          'qa-practice-bg': '#FAF5FF',
+          'tooling-bright': '#F97316',
+          'tooling-text': '#92400E',
+          'tooling-bg': '#FEF3C7',
+          'engineering-bright': '#10B981',
+          'engineering-text': '#065F46',
+          'engineering-bg': '#F0FDF4',
+          'ai-bright': '#06B6D4',
+          'ai-text': '#155E75',
+          'ai-bg': '#F0F9FA',
+        },
       },
       fontFamily: {
         serif: ['"IBM Plex Serif"', 'Georgia', 'serif'],
