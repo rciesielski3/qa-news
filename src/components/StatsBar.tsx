@@ -19,16 +19,16 @@ export default function StatsBar() {
   }, []);
 
   return (
-    <div className="static md:sticky md:top-0 md:z-50 bg-gray-100 px-4 py-3 shadow-sm">
-      <div className="mx-auto flex max-w-7xl items-center justify-between">
-        <div className="font-mono text-sm text-gray-700">
+    <div className="static md:sticky md:top-0 md:z-50 bg-ink-800 px-5 py-2 sm:px-8 sm:py-3 shadow-sm">
+      <div className="mx-auto flex max-w-content flex-col gap-2 items-start sm:items-center sm:justify-between sm:gap-4">
+        <div className="font-mono text-xs sm:text-sm text-paper-muted">
           5 feeds · 1,110 articles · 50 selected
-          {showSampleData && <span className="ml-2 text-xs">(sample data)</span>}
+          {showSampleData && <span className="ml-2">(sample data)</span>}
           · Last update: {lastUpdate}
         </div>
         <Link
           href="/about"
-          className="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline"
+          className="text-xs sm:text-sm font-medium text-signal-info hover:text-signal-pass transition"
         >
           How it works →
         </Link>

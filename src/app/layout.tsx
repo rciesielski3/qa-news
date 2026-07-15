@@ -40,9 +40,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="font-sans">
         <Header />
         <StatsBar />
-        <div className="mx-auto flex min-h-screen max-w-content flex-col px-5 sm:px-8">
-          <main className="flex-1 pb-24">{children}</main>
-          <Footer />
+        <div className="flex min-h-screen flex-col">
+          <main className="flex-1">{children}</main>
+          <footer className="mx-auto w-full max-w-content px-5 py-16 sm:px-8">
+            <Footer />
+          </footer>
         </div>
       </body>
     </html>

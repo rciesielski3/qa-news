@@ -55,8 +55,8 @@ function WeeklyPageContent() {
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <section className="mb-12">
+    <div className="w-full">
+      <section className="mb-8 px-5 sm:mb-12 sm:px-8">
         <DailyBriefCard articles={articles} />
       </section>
 
@@ -70,13 +70,13 @@ function WeeklyPageContent() {
           onClearFilters={clearFilters}
         />
 
-        <div className="py-8">
-          <h2 className="mb-4 text-xl font-bold text-gray-900">
+        <div className="px-5 py-6 sm:px-8 sm:py-8">
+          <h2 className="mb-4 text-base sm:text-lg font-bold text-paper">
             This Week
           </h2>
 
           {isLoading ? (
-            <p className="text-gray-600">Loading articles…</p>
+            <p className="text-paper-muted text-sm">Loading articles…</p>
           ) : filteredArticles.length > 0 ? (
             <ArticleList articles={filteredArticles} dailyPickIds={weeklyPickIds} />
           ) : (

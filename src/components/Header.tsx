@@ -21,11 +21,11 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="border-b border-gray-200 bg-white">
-      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-gray-900">QA News</h1>
-          <nav className="flex gap-2">
+    <header className="border-b border-ink-600 bg-ink-900">
+      <div className="mx-auto max-w-content px-5 py-4 sm:px-8 sm:py-5">
+        <div className="flex items-center justify-between gap-4">
+          <h1 className="text-lg font-bold text-paper sm:text-xl">QA News</h1>
+          <nav className="flex flex-wrap gap-2 justify-end">
             {NAV.map((item) => {
               const active = isActive(pathname, item.href);
               return (
@@ -33,10 +33,10 @@ export default function Header() {
                   key={item.href}
                   href={item.href}
                   aria-current={active ? 'page' : undefined}
-                  className={`rounded border-2 px-4 py-2 font-medium transition ${
+                  className={`rounded border-2 px-3 py-1.5 text-sm font-medium transition sm:px-4 sm:py-2 ${
                     active
-                      ? 'border-blue-500 bg-blue-50 text-blue-900'
-                      : 'border-gray-300 text-gray-600 hover:border-gray-400 hover:text-gray-900'
+                      ? 'border-signal-info bg-signal-info/10 text-signal-info'
+                      : 'border-ink-600 text-paper-muted hover:border-ink-500 hover:text-paper'
                   }`}
                 >
                   {item.label}

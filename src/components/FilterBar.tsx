@@ -24,7 +24,7 @@ export default function FilterBar({
   onClearFilters,
 }: FilterBarProps) {
   return (
-    <div className="border-b border-gray-200 bg-white px-4 py-4">
+    <div className="border-b border-ink-600 bg-ink-900 px-5 py-4 sm:px-8">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         {/* Category buttons */}
         <div className="flex flex-wrap gap-2">
@@ -38,7 +38,7 @@ export default function FilterBar({
               <button
                 key={category}
                 onClick={() => onCategorySelect(category)}
-                className={`rounded-full border-2 px-4 py-2 text-sm font-medium transition ${
+                className={`rounded-full border-2 px-3 py-1.5 text-xs sm:text-sm font-medium transition ${
                   isActive
                     ? `${bgColor} border-current ${textColor}`
                     : `border-current ${textColor} bg-transparent hover:opacity-80`
@@ -68,13 +68,13 @@ export default function FilterBar({
 
         {/* Status and reset */}
         {hasActiveFilters && (
-          <div className="flex items-center gap-3">
-            <span className="text-sm text-gray-700">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-3">
+            <span className="text-xs sm:text-sm text-paper-muted">
               Showing <strong>{articleCount}</strong> of <strong>{totalCount}</strong> articles
             </span>
             <button
               onClick={onClearFilters}
-              className="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline"
+              className="text-xs sm:text-sm font-medium text-signal-info hover:text-signal-pass transition"
             >
               Reset filters
             </button>
