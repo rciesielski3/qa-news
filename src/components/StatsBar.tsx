@@ -19,10 +19,10 @@ export default function StatsBar() {
   }, []);
 
   return (
-    <div className="sticky top-0 z-50 bg-gray-100 px-4 py-3 shadow-sm md:sticky md:top-0">
+    <div className="static md:sticky md:top-0 md:z-50 bg-gray-100 px-4 py-3 shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <div className="font-mono text-sm text-gray-700">
-          5 feeds tracked · 1,110 articles scanned · 50 selected
+          5 feeds · 1,110 articles · 50 selected
           {showSampleData && <span className="ml-2 text-xs">(sample data)</span>}
           · Last update: {lastUpdate}
         </div>
