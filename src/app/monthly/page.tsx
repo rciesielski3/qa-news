@@ -1,60 +1,97 @@
-import { getMonthlyRecaps } from '@/lib/data';
-import SectionEyebrow from '@/components/SectionEyebrow';
-import Pipeline from '@/components/Pipeline';
-import PipelineEntry from '@/components/PipelineEntry';
+'use client';
 
-export const metadata = {
-  title: 'Monthly Recap — QA News',
-};
+import { Suspense, useEffect, useState } from 'react';
+import type { Article, Category } from '@/lib/types';
+import DailyBriefCard from '@/components/DailyBriefCard';
+import FilterBar from '@/components/FilterBar';
+import ArticleList from '@/components/ArticleList';
+import EmptyState from '@/components/EmptyState';
+import { useFiltering } from '@/hooks/useFiltering';
+import { applyFilters } from '@/lib/filtering';
 
-function formatMonth(month: string): string {
-  const [year, m] = month.split('-');
-  return new Date(Number(year), Number(m) - 1, 1).toLocaleDateString('en-US', {
-    month: 'long',
-    year: 'numeric',
-  });
-}
+// `useFiltering` reads the URL via `useSearchParams`, which requires a
+// Suspense boundary above it (Next.js App Router requirement, especially
+// relevant for `output: 'export'` static builds).
+function MonthlyPageContent() {
+  const [articles, setArticles] = useState<Article[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const { filters, updateFilters, clearFilters } = useFiltering();
 
-export default async function MonthlyPage() {
-  const months = await getMonthlyRecaps();
+  useEffect(() => {
+    let cancelled = false;
+
+    fetch('/latest.json')
+      .then((res) => res.json())
+      .then((data: { articles: Article[] }) => {
+        if (!cancelled) {
+          setArticles(data.articles ?? []);
+        }
+      })
+      .catch(() => {
+        // Leave articles empty; the page still renders (with EmptyState-like
+        // zero counts) instead of crashing.
+      })
+      .finally(() => {
+        if (!cancelled) setIsLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  // Monthly Brief is always the first 6 articles, independent of filters.
+  const monthlyPickIds = new Set(articles.slice(0, 6).map((article) => article.id));
+  const filteredArticles = applyFilters(articles, filters);
+  const hasActiveFilters = Boolean(filters.category) || Boolean(filters.tags && filters.tags.length > 0);
+
+  const handleCategorySelect = (category: Category) => {
+    // Clicking the already-active category clears it (toggle off).
+    if (filters.category === category) {
+      updateFilters({ ...filters, category: undefined });
+    } else {
+      updateFilters({ ...filters, category });
+    }
+  };
 
   return (
-    <section className="pt-10">
-      <SectionEyebrow>Monthly Recap</SectionEyebrow>
-      <h1 className="mt-2 font-serif text-2xl font-semibold text-paper sm:text-3xl">
-        The bigger picture
-      </h1>
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="mb-12">
+        <DailyBriefCard articles={articles} />
+      </section>
 
-      {months.map((month, index) => (
-        <div
-          key={month.month}
-          className={index > 0 ? 'mt-14 border-t border-ink-600 pt-10' : ''}
-        >
-          <p className="font-mono text-xs uppercase tracking-widest text-paper-faint">
-            {formatMonth(month.month)}
-          </p>
-          <p className="mt-3 max-w-[62ch] font-serif text-lg leading-relaxed text-paper-muted">
-            {month.summary}
-          </p>
+      <section>
+        <FilterBar
+          selectedCategory={filters.category as Category | undefined}
+          hasActiveFilters={hasActiveFilters}
+          articleCount={filteredArticles.length}
+          totalCount={articles.length}
+          onCategorySelect={handleCategorySelect}
+          onClearFilters={clearFilters}
+        />
 
-          <ul className="mt-6 grid gap-4 sm:grid-cols-3">
-            {month.themes.map((theme) => (
-              <li key={theme.title} className="rounded border border-ink-600 bg-ink-800 p-4">
-                <p className="font-serif text-base font-medium text-paper">{theme.title}</p>
-                <p className="mt-2 text-sm leading-relaxed text-paper-muted">
-                  {theme.description}
-                </p>
-              </li>
-            ))}
-          </ul>
+        <div className="py-8">
+          <h2 className="mb-4 text-xl font-bold text-gray-900">
+            This Month
+          </h2>
 
-          <Pipeline>
-            {month.items.map((article) => (
-              <PipelineEntry key={article.id} article={article} />
-            ))}
-          </Pipeline>
+          {isLoading ? (
+            <p className="text-gray-600">Loading articles…</p>
+          ) : filteredArticles.length > 0 ? (
+            <ArticleList articles={filteredArticles} dailyPickIds={monthlyPickIds} />
+          ) : (
+            <EmptyState onReset={clearFilters} />
+          )}
         </div>
-      ))}
-    </section>
+      </section>
+    </div>
+  );
+}
+
+export default function MonthlyPage() {
+  return (
+    <Suspense fallback={null}>
+      <MonthlyPageContent />
+    </Suspense>
   );
 }
