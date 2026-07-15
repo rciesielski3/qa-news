@@ -86,18 +86,6 @@ export function getCategoryLabel(category: string): string {
   return labels[category] || category
 }
 
-// Legacy aliases for backward compatibility (deprecated, use new functions above)
-export function categoryColor(category: string): string {
-  return getCategoryColor(category)
-}
-
-export function categoryTextColor(category: string): string {
-  return getCategoryTextColor(category)
-}
-
-export function categoryBgColor(category: string): string {
-  return getCategoryBgColor(category)
-}
 
 export function categoryBrightClass(category: string): string {
   return categoryColorClass(category)

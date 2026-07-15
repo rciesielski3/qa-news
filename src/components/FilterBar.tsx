@@ -43,15 +43,6 @@ export default function FilterBar({
                     ? `${bgColor} border-current ${textColor}`
                     : `border-current ${textColor} bg-transparent hover:opacity-80`
                 }`}
-                style={
-                  isActive
-                    ? {
-                        backgroundColor: meta.dot.replace('bg-', '').includes('-')
-                          ? undefined
-                          : undefined,
-                      }
-                    : undefined
-                }
                 aria-pressed={isActive}
               >
                 <span className="flex items-center gap-2">
