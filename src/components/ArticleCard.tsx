@@ -1,6 +1,6 @@
 import type { Article } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/category';
-import { categoryBgClass } from '@/lib/styles';
+import { categoryBgClass, getCategoryTextColor } from '@/lib/styles';
 
 interface ArticleCardProps {
   article: Article;
@@ -14,6 +14,7 @@ export default function ArticleCard({
   compact = false,
 }: ArticleCardProps) {
   const meta = CATEGORY_META[article.category];
+  const categoryTextColor = getCategoryTextColor(article.category);
 
   if (compact) {
     return (
@@ -61,7 +62,7 @@ export default function ArticleCard({
             <span>{article.source}</span>
           </div>
 
-          <h3 className="mt-2 font-serif text-base font-medium leading-snug text-paper">
+          <h3 className="mt-2 font-serif text-base font-medium leading-snug" style={{ color: categoryTextColor }}>
             <a
               href={article.url}
               target="_blank"
