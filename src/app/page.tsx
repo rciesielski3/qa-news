@@ -1,53 +1,97 @@
-import { getDailyBrief, getLatestNews } from '@/lib/data';
-import { formatDayFull } from '@/lib/format';
-import StatusLine from '@/components/StatusLine';
-import SectionEyebrow from '@/components/SectionEyebrow';
-import Pipeline from '@/components/Pipeline';
-import PipelineEntry from '@/components/PipelineEntry';
+'use client';
 
-export default async function HomePage() {
-  const [brief, latest] = await Promise.all([getDailyBrief(), getLatestNews()]);
+import { Suspense, useEffect, useState } from 'react';
+import type { Article, Category } from '@/lib/types';
+import DailyBriefCard from '@/components/DailyBriefCard';
+import FilterBar from '@/components/FilterBar';
+import ArticleList from '@/components/ArticleList';
+import EmptyState from '@/components/EmptyState';
+import { useFiltering } from '@/hooks/useFiltering';
+import { applyFilters } from '@/lib/filtering';
+
+// `useFiltering` reads the URL via `useSearchParams`, which requires a
+// Suspense boundary above it (Next.js App Router requirement, especially
+// relevant for `output: 'export'` static builds).
+function DailyPageContent() {
+  const [articles, setArticles] = useState<Article[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const { filters, updateFilters, clearFilters } = useFiltering();
+
+  useEffect(() => {
+    let cancelled = false;
+
+    fetch('/latest.json')
+      .then((res) => res.json())
+      .then((data: { articles: Article[] }) => {
+        if (!cancelled) {
+          setArticles(data.articles ?? []);
+        }
+      })
+      .catch(() => {
+        // Leave articles empty; the page still renders (with EmptyState-like
+        // zero counts) instead of crashing.
+      })
+      .finally(() => {
+        if (!cancelled) setIsLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  // Daily Brief is always the first 6 articles, independent of filters.
+  const dailyPickIds = new Set(articles.slice(0, 6).map((article) => article.id));
+  const filteredArticles = applyFilters(articles, filters);
+  const hasActiveFilters = Boolean(filters.category) || Boolean(filters.tags && filters.tags.length > 0);
+
+  const handleCategorySelect = (category: Category) => {
+    // Clicking the already-active category clears it (toggle off).
+    if (filters.category === category) {
+      updateFilters({ ...filters, category: undefined });
+    } else {
+      updateFilters({ ...filters, category });
+    }
+  };
 
   return (
-    <>
-      <section className="pt-10">
-        <SectionEyebrow>Daily Brief</SectionEyebrow>
-        <h1 className="mt-2 font-serif text-2xl font-semibold text-paper sm:text-3xl">
-          {formatDayFull(brief.date)}
-        </h1>
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="mb-12">
+        <DailyBriefCard articles={articles} />
+      </section>
 
-        <div className="mt-4 flex flex-wrap items-center gap-3">
-          <StatusLine
-            sourcesScanned={brief.sourcesScanned}
-            storiesSelected={brief.storiesSelected}
-            updatedAt={brief.updatedAt}
-          />
-          <span className="rounded border border-signal-pin/40 bg-signal-pin/10 px-2 py-1 font-mono text-[11px] uppercase tracking-wider text-signal-pin">
-            Sample data
-          </span>
+      <section>
+        <FilterBar
+          selectedCategory={filters.category as Category | undefined}
+          hasActiveFilters={hasActiveFilters}
+          articleCount={filteredArticles.length}
+          totalCount={articles.length}
+          onCategorySelect={handleCategorySelect}
+          onClearFilters={clearFilters}
+        />
+
+        <div className="py-8">
+          <h2 className="mb-4 text-xl font-bold text-gray-900">
+            Latest News — All 50 Selected Articles
+          </h2>
+
+          {isLoading ? (
+            <p className="text-gray-600">Loading articles…</p>
+          ) : filteredArticles.length > 0 ? (
+            <ArticleList articles={filteredArticles} dailyPickIds={dailyPickIds} />
+          ) : (
+            <EmptyState onReset={clearFilters} />
+          )}
         </div>
-
-        <p className="mt-5 max-w-[62ch] font-serif text-lg leading-relaxed text-paper-muted">
-          {brief.lede}
-        </p>
-
-        <Pipeline>
-          {brief.items.map((article) => (
-            <PipelineEntry key={article.id} article={article} />
-          ))}
-        </Pipeline>
       </section>
+    </div>
+  );
+}
 
-      <section className="mt-4 border-t border-ink-600 pt-10">
-        <SectionEyebrow>Latest News</SectionEyebrow>
-        <h2 className="mt-2 font-serif text-2xl font-semibold text-paper">Rolling feed</h2>
-
-        <Pipeline>
-          {latest.map((article) => (
-            <PipelineEntry key={article.id} article={article} />
-          ))}
-        </Pipeline>
-      </section>
-    </>
+export default function DailyPage() {
+  return (
+    <Suspense fallback={null}>
+      <DailyPageContent />
+    </Suspense>
   );
 }

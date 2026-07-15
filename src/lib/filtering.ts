@@ -21,7 +21,7 @@ export type Article = {
   isDailyPick?: boolean;
 };
 
-export function applyFilters(articles: Article[], filters: FilterState): Article[] {
+export function applyFilters<T extends Article>(articles: T[], filters: FilterState): T[] {
   // If no filters, return all articles
   if (!filters.category && (!filters.tags || filters.tags.length === 0)) {
     return articles;
