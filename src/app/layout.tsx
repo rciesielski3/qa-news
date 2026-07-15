@@ -13,6 +13,7 @@ import '@fontsource/ibm-plex-mono/500.css';
 
 import './globals.css';
 import Header from '@/components/Header';
+import StatsBar from '@/components/StatsBar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
@@ -37,8 +38,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="font-sans">
+        <Header />
+        <StatsBar />
         <div className="mx-auto flex min-h-screen max-w-content flex-col px-5 sm:px-8">
-          <Header />
           <main className="flex-1 pb-24">{children}</main>
           <Footer />
         </div>
