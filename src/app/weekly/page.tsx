@@ -4,6 +4,7 @@ import { Suspense, useEffect, useState } from 'react';
 import type { Article, Category } from '@/lib/types';
 import DailyBriefCard from '@/components/DailyBriefCard';
 import FilterBar from '@/components/FilterBar';
+import TagFilterChips from '@/components/TagFilterChips';
 import ArticleList from '@/components/ArticleList';
 import EmptyState from '@/components/EmptyState';
 import { useFiltering } from '@/hooks/useFiltering';
@@ -15,7 +16,7 @@ import { applyFilters } from '@/lib/filtering';
 function WeeklyPageContent() {
   const [articles, setArticles] = useState<Article[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const { filters, updateFilters, clearFilters } = useFiltering();
+  const { filters, updateFilters, toggleTag, clearFilters } = useFiltering();
 
   useEffect(() => {
     let cancelled = false;
@@ -68,6 +69,13 @@ function WeeklyPageContent() {
           totalCount={articles.length}
           onCategorySelect={handleCategorySelect}
           onClearFilters={clearFilters}
+        />
+
+        <TagFilterChips
+          articles={articles}
+          selectedTags={filters.tags || []}
+          onTagToggle={toggleTag}
+          onClear={() => updateFilters({ ...filters, tags: [] })}
         />
 
         <div className="px-5 py-6 sm:px-8 sm:py-8">

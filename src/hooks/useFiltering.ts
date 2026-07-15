@@ -22,9 +22,21 @@ export function useFiltering() {
     router.push(newUrl);
   };
 
+  const updateTags = (tags: string[]) => {
+    updateFilters({ ...filters, tags });
+  };
+
+  const toggleTag = (tag: string) => {
+    const currentTags = filters.tags || [];
+    const newTags = currentTags.includes(tag)
+      ? currentTags.filter((t) => t !== tag)
+      : [...currentTags, tag];
+    updateTags(newTags);
+  };
+
   const clearFilters = () => {
     router.push(window.location.pathname);
   };
 
-  return { filters, updateFilters, clearFilters };
+  return { filters, updateFilters, updateTags, toggleTag, clearFilters };
 }
