@@ -1,9 +1,35 @@
 import type { Category } from './types';
+import { getCategoryColor, getCategoryLabel, categoryColorClass, categoryTextColorClass } from './styles';
 
-export const CATEGORY_META: Record<Category, { label: string; dot: string; text: string }> = {
-  'test-automation': { label: 'test automation', dot: 'bg-signal-pass', text: 'text-signal-pass' },
-  ai: { label: 'ai', dot: 'bg-signal-info', text: 'text-signal-info' },
-  engineering: { label: 'engineering', dot: 'bg-signal-pin', text: 'text-signal-pin' },
-  'qa-practice': { label: 'qa practice', dot: 'bg-signal-practice', text: 'text-signal-practice' },
-  tooling: { label: 'tooling', dot: 'bg-signal-tool', text: 'text-signal-tool' },
+export const CATEGORY_META: Record<Category, { label: string; color: string; dot: string; text: string }> = {
+  'test-automation': {
+    color: getCategoryColor('test-automation'),
+    label: getCategoryLabel('test-automation'),
+    dot: categoryColorClass('test-automation'),
+    text: categoryTextColorClass('test-automation'),
+  },
+  'qa-practice': {
+    color: getCategoryColor('qa-practice'),
+    label: getCategoryLabel('qa-practice'),
+    dot: categoryColorClass('qa-practice'),
+    text: categoryTextColorClass('qa-practice'),
+  },
+  'tooling': {
+    color: getCategoryColor('tooling'),
+    label: getCategoryLabel('tooling'),
+    dot: categoryColorClass('tooling'),
+    text: categoryTextColorClass('tooling'),
+  },
+  'engineering': {
+    color: getCategoryColor('engineering'),
+    label: getCategoryLabel('engineering'),
+    dot: categoryColorClass('engineering'),
+    text: categoryTextColorClass('engineering'),
+  },
+  'ai': {
+    color: getCategoryColor('ai'),
+    label: getCategoryLabel('ai'),
+    dot: categoryColorClass('ai'),
+    text: categoryTextColorClass('ai'),
+  },
 };

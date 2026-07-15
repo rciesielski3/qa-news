@@ -20,13 +20,13 @@ const config: Config = {
           faint: '#7683a0', // tertiary / disabled — tuned to clear WCAG AA (4.5:1) on ink-900
         },
         signal: {
-          pass: '#3ecf8e', // test-automation / "live" green
+          pass: '#3ecf8e', // "live" green — used for links, focus, indicators
           pin: '#f5a623', // highlighted / editor's pick amber
-          info: '#5b9df9', // ai / links cyan-blue
-          practice: '#c792ea', // qa-practice violet
-          tool: '#e2777a', // tooling rose
+          info: '#5b9df9', // links cyan-blue
+          practice: '#c792ea', // alternate interactive color
+          tool: '#e2777a', // alternate interactive color
         },
-        // 5-category color palette (WCAG AA compliant)
+        // 5-category color palette (WCAG AA compliant) — unified source in lib/styles.ts
         category: {
           'test-automation-bright': '#0EA5E9',
           'test-automation-text': '#0369A1',

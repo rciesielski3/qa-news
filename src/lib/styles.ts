@@ -1,126 +1,112 @@
 import type { Category } from './types';
 
-// Color mapping for the 5-category palette (WCAG AA compliant)
-const CATEGORY_COLORS: Record<Category, { bright: string; text: string; bg: string }> = {
+// Unified color palette — single source of truth (WCAG AA compliant)
+export const CATEGORY_COLORS: Record<string, {
+  bright: string
+  text: string
+  bg: string
+  brightClass: string
+  textClass: string
+  bgClass: string
+}> = {
   'test-automation': {
-    bright: '#0EA5E9',
-    text: '#0369A1',
-    bg: '#F0F9FF',
+    bright: '#0EA5E9',      // bright blue for dots, buttons, borders
+    text: '#0369A1',         // dark blue for labels, readable text
+    bg: '#F0F9FF',           // very light blue for backgrounds
+    brightClass: 'bg-blue-400',
+    textClass: 'text-blue-900',
+    bgClass: 'bg-blue-50',
   },
   'qa-practice': {
     bright: '#A855F7',
     text: '#6B21A8',
     bg: '#FAF5FF',
+    brightClass: 'bg-purple-400',
+    textClass: 'text-purple-900',
+    bgClass: 'bg-purple-50',
   },
-  tooling: {
+  'tooling': {
     bright: '#F97316',
     text: '#92400E',
     bg: '#FEF3C7',
+    brightClass: 'bg-orange-400',
+    textClass: 'text-orange-900',
+    bgClass: 'bg-orange-50',
   },
-  engineering: {
+  'engineering': {
     bright: '#10B981',
     text: '#065F46',
     bg: '#F0FDF4',
+    brightClass: 'bg-green-400',
+    textClass: 'text-green-900',
+    bgClass: 'bg-green-50',
   },
-  ai: {
+  'ai': {
     bright: '#06B6D4',
     text: '#155E75',
     bg: '#F0F9FA',
+    brightClass: 'bg-cyan-400',
+    textClass: 'text-cyan-900',
+    bgClass: 'bg-cyan-50',
   },
-};
-
-// Category display labels
-const CATEGORY_LABELS: Record<Category, string> = {
-  'test-automation': 'Test Automation',
-  'qa-practice': 'QA Practice',
-  tooling: 'Tooling',
-  engineering: 'Engineering',
-  ai: 'AI',
-};
-
-/**
- * Get the bright color for a category (hex string)
- * @param category - The category name
- * @returns The bright color hex value
- */
-export function categoryColor(category: string): string {
-  const colors = CATEGORY_COLORS[category as Category];
-  return colors ? colors.bright : '#0EA5E9'; // fallback to test-automation
 }
 
-/**
- * Get the text color for a category (hex string)
- * @param category - The category name
- * @returns The text color hex value
- */
-export function categoryTextColor(category: string): string {
-  const colors = CATEGORY_COLORS[category as Category];
-  return colors ? colors.text : '#0369A1'; // fallback to test-automation
+export function getCategoryColor(category: string): string {
+  return CATEGORY_COLORS[category]?.bright || '#6B7280'
 }
 
-/**
- * Get the background color for a category (hex string)
- * @param category - The category name
- * @returns The background color hex value
- */
-export function categoryBgColor(category: string): string {
-  const colors = CATEGORY_COLORS[category as Category];
-  return colors ? colors.bg : '#F0F9FF'; // fallback to test-automation
+export function getCategoryTextColor(category: string): string {
+  return CATEGORY_COLORS[category]?.text || '#374151'
 }
 
-/**
- * Get the display label for a category
- * @param category - The category name
- * @returns The category display label
- */
+export function getCategoryBgColor(category: string): string {
+  return CATEGORY_COLORS[category]?.bg || '#F9FAFB'
+}
+
+export function categoryColorClass(category: string): string {
+  return CATEGORY_COLORS[category]?.brightClass || 'bg-gray-400'
+}
+
+export function categoryTextColorClass(category: string): string {
+  return CATEGORY_COLORS[category]?.textClass || 'text-gray-900'
+}
+
+export function categoryBgColorClass(category: string): string {
+  return CATEGORY_COLORS[category]?.bgClass || 'bg-gray-50'
+}
+
 export function getCategoryLabel(category: string): string {
-  return CATEGORY_LABELS[category as Category] || 'Unknown';
+  const labels: Record<string, string> = {
+    'test-automation': 'Test Automation',
+    'qa-practice': 'QA Practice',
+    'tooling': 'Tooling',
+    'engineering': 'Engineering',
+    'ai': 'AI',
+  }
+  return labels[category] || category
 }
 
-/**
- * Get the Tailwind class for the bright category color
- * @param category - The category name
- * @returns The Tailwind color class
- */
+// Legacy aliases for backward compatibility (deprecated, use new functions above)
+export function categoryColor(category: string): string {
+  return getCategoryColor(category)
+}
+
+export function categoryTextColor(category: string): string {
+  return getCategoryTextColor(category)
+}
+
+export function categoryBgColor(category: string): string {
+  return getCategoryBgColor(category)
+}
+
 export function categoryBrightClass(category: string): string {
-  const classMap: Record<Category, string> = {
-    'test-automation': 'text-category-test-automation-bright',
-    'qa-practice': 'text-category-qa-practice-bright',
-    tooling: 'text-category-tooling-bright',
-    engineering: 'text-category-engineering-bright',
-    ai: 'text-category-ai-bright',
-  };
-  return classMap[category as Category] || 'text-category-test-automation-bright';
+  return categoryColorClass(category)
 }
 
-/**
- * Get the Tailwind class for the text category color
- * @param category - The category name
- * @returns The Tailwind color class
- */
 export function categoryTextClass(category: string): string {
-  const classMap: Record<Category, string> = {
-    'test-automation': 'text-category-test-automation-text',
-    'qa-practice': 'text-category-qa-practice-text',
-    tooling: 'text-category-tooling-text',
-    engineering: 'text-category-engineering-text',
-    ai: 'text-category-ai-text',
-  };
-  return classMap[category as Category] || 'text-category-test-automation-text';
+  return categoryTextColorClass(category)
 }
 
-/**
- * Get the Tailwind class for the background category color
- * @param category - The category name
- * @returns The Tailwind background color class
- */
 export function categoryBgClass(category: string): string {
-  const classMap: Record<Category, string> = {
-    'test-automation': 'bg-category-test-automation-bg',
-    'qa-practice': 'bg-category-qa-practice-bg',
-    tooling: 'bg-category-tooling-bg',
-    engineering: 'bg-category-engineering-bg',
-    ai: 'bg-category-ai-bg',
-  };
-  return classMap[category as Category] || 'bg-category-test-automation-bg';
+  return categoryBgColorClass(category)
 }
