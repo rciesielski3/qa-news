@@ -1,0 +1,30 @@
+'use client';
+
+import { useSearchParams, useRouter } from 'next/navigation';
+import { useMemo } from 'react';
+import { FilterState, parseFilterParams, serializeFilterParams } from '@/lib/filtering';
+
+export function useFiltering() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+
+  const filters = useMemo(() => {
+    const params: Record<string, string | string[]> = {};
+    searchParams.forEach((value, key) => {
+      params[key] = value;
+    });
+    return parseFilterParams(params);
+  }, [searchParams]);
+
+  const updateFilters = (newFilters: FilterState) => {
+    const params = serializeFilterParams(newFilters);
+    const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
+    router.push(newUrl);
+  };
+
+  const clearFilters = () => {
+    router.push(window.location.pathname);
+  };
+
+  return { filters, updateFilters, clearFilters };
+}
