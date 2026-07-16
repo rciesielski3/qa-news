@@ -293,6 +293,10 @@ a:hover { text-decoration: underline; }
   font-size: 14.5px;
 }
 .brief-item a:hover { color: var(--accent); }
+.brief-item:hover {
+  background: var(--surface-2);
+  border-radius: var(--radius-sm);
+}
 
 .brief-meta {
   display: block;
