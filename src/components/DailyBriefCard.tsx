@@ -16,6 +16,7 @@ export default function DailyBriefCard({ articles }: DailyBriefCardProps) {
         title: article.title,
         category: article.category,
         source: article.source,
+        url: article.url,
         isTopPick: true,
       }))}
     />

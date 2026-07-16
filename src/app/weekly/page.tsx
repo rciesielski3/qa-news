@@ -54,6 +54,7 @@ function WeeklyPageContent() {
             title: article.title,
             category: article.category,
             source: article.source,
+            url: article.url,
             isTopPick: weeklyPickIds.has(article.id),
           }))}
         />

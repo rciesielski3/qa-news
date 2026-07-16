@@ -5,6 +5,7 @@ export interface BriefCardItem {
   title: string;
   category: Category;
   source: string;
+  url: string;
   isTopPick?: boolean;
 }
 
@@ -37,7 +38,7 @@ export default function BriefCard({ title, items }: BriefCardProps) {
             data-cat={item.category}
           >
             <div>
-              <a href="#">{item.title}</a>
+              <a href={item.url}>{item.title}</a>
               <span className="brief-meta">
                 {categoryLabels[item.category]}
                 {item.isTopPick && <span className="toppick">★ Top Pick</span>}
