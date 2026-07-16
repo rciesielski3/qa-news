@@ -93,7 +93,7 @@ function MonthlyPageContent() {
           {isLoading ? (
             <p className="text-paper-muted text-sm">Loading articles…</p>
           ) : filteredArticles.length > 0 ? (
-            <ArticleList articles={filteredArticles} dailyPickIds={monthlyPickIds} />
+            <ArticleList articles={filteredArticles} topPickIds={monthlyPickIds} />
           ) : (
             <EmptyState onReset={clearFilters} />
           )}

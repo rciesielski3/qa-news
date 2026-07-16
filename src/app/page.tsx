@@ -93,7 +93,7 @@ function DailyPageContent() {
           {isLoading ? (
             <p className="text-paper-muted text-sm">Loading articles…</p>
           ) : filteredArticles.length > 0 ? (
-            <ArticleList articles={filteredArticles} dailyPickIds={dailyPickIds} />
+            <ArticleList articles={filteredArticles} topPickIds={dailyPickIds} />
           ) : (
             <EmptyState onReset={clearFilters} />
           )}

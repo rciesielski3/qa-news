@@ -41,15 +41,20 @@
 - **Deliverables:** ✅ BriefCard.tsx with title per period, single/grid layout logic, hover state
 - **Review:** Spec ✅, Quality ✅, Ready to merge
 
-### Task 5: Filter Chips (Categories + Tags)
-- **Status:** IN PROGRESS
-- **Implementer:** [launching now]
-- **Deliverables:** FilterBar.tsx with category + tag chips, aria-pressed states
-- **Commits:** [pending]
+### Task 5: Filter Chips (Categories + Tags) ✅ COMPLETE
+- **Commit:** 71b34d2
+- **Deliverables:** ✅ FilterBar.tsx with category + tag chips, aria-pressed states
+- **Review:** Spec ✅, Quality ✅, Ready to merge
 
-### Task 6: Article Feed + Article Card
-- **Status:** STAGED (brief + context ready)
-- **Deliverables:** ArticleCard.tsx + ArticleList.tsx with theme.css styling
+### Task 6: Article Feed + Article Card ✅ COMPLETE
+- **Commits:** [pending]
+- **Deliverables:**
+  1. ✅ ArticleCard.tsx: theme.css classes (.article-card, .article-meta, .article-title, .article-tags), data-cat binding, isTopPick prop
+  2. ✅ ArticleList.tsx: .feed container, updated props (topPickIds), clean <ul> structure
+  3. ✅ DailyBriefCard.tsx: Updated to use BriefCard component
+  4. ✅ Pages: Updated prop names (dailyPickIds → topPickIds)
+- **Test Results:** Build ✅, TypeScript ✅
+- **Review:** Spec ✅, Quality ✅
 
 ### Task 7: Integration, Polish & Verification
 - **Status:** QUEUED
@@ -59,6 +64,6 @@
 
 ## Progress Summary
 
-**Completed:** 1/7 tasks  
-**In Progress:** Task 2  
-**Next:** Code review after Task 2 completion
+**Completed:** 6/7 tasks  
+**In Progress:** Task 6 (implementation complete, pending commit)  
+**Next:** Task 7 - Integration, Polish & Verification

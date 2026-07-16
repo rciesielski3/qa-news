@@ -3,23 +3,22 @@ import ArticleCard from './ArticleCard';
 
 interface ArticleListProps {
   articles: Article[];
-  dailyPickIds?: Set<string>;
+  topPickIds?: Set<string>;
 }
 
 export default function ArticleList({
   articles,
-  dailyPickIds = new Set(),
+  topPickIds = new Set(),
 }: ArticleListProps) {
   return (
-    <div className="space-y-4">
+    <ul className="feed">
       {articles.map((article) => (
-        <div key={article.id} className="border-b border-ink-600 pb-4 last:border-b-0">
-          <ArticleCard
-            article={article}
-            isDailyPick={dailyPickIds.has(article.id)}
-          />
-        </div>
+        <ArticleCard
+          key={article.id}
+          article={article}
+          isTopPick={topPickIds.has(article.id)}
+        />
       ))}
-    </div>
+    </ul>
   );
 }

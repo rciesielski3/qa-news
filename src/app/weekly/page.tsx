@@ -93,7 +93,7 @@ function WeeklyPageContent() {
           {isLoading ? (
             <p className="text-paper-muted text-sm">Loading articles…</p>
           ) : filteredArticles.length > 0 ? (
-            <ArticleList articles={filteredArticles} dailyPickIds={weeklyPickIds} />
+            <ArticleList articles={filteredArticles} topPickIds={weeklyPickIds} />
           ) : (
             <EmptyState onReset={clearFilters} />
           )}
