@@ -10,6 +10,14 @@ export default function ArticleCard({
   article,
   isTopPick = false,
 }: ArticleCardProps) {
+  const publishedDate = article.publishedAt
+    ? new Date(article.publishedAt).toLocaleDateString('en-US', {
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric',
+      })
+    : null;
+
   return (
     <li>
       <article className="article-card" data-cat={article.category}>
@@ -20,6 +28,11 @@ export default function ArticleCard({
           <span className="sep">·</span>
           <span className="src">{article.source}</span>
         </div>
+
+        {/* Publish date */}
+        {publishedDate && (
+          <div className="article-date">{publishedDate}</div>
+        )}
 
         {/* Title */}
         <h3 className="article-title">

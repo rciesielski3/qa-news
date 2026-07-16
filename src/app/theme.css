@@ -477,6 +477,14 @@ button.chip-tag:hover { border-color: var(--border-strong); color: var(--text); 
 .article-meta .src   { color: var(--text-3); }
 .article-meta .sep   { color: var(--text-3); }
 
+.article-date {
+  margin-top: 3px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-3);
+  letter-spacing: 0.02em;
+}
+
 .article-title {
   margin-top: 5px;
   font-size: 16.5px;
