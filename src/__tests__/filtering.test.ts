@@ -1,9 +1,9 @@
 import { applyFilters, parseFilterParams, serializeFilterParams, type Article } from '@/lib/filtering';
 
 const mockArticles: Article[] = [
-  { id: '1', title: 'Test 1', category: 'ai', tags: ['llm'], url: '#', publishedAt: '2026-07-15' },
-  { id: '2', title: 'Test 2', category: 'testing', tags: ['automation'], url: '#', publishedAt: '2026-07-15' },
-  { id: '3', title: 'Test 3', category: 'ai', tags: ['eval'], url: '#', publishedAt: '2026-07-15' },
+  { id: '1', title: 'Test 1', category: 'ai', tags: ['llm'], url: '#', source: 'Test', publishedAt: '2026-07-15' },
+  { id: '2', title: 'Test 2', category: 'test-automation', tags: ['automation'], url: '#', source: 'Test', publishedAt: '2026-07-15' },
+  { id: '3', title: 'Test 3', category: 'ai', tags: ['eval'], url: '#', source: 'Test', publishedAt: '2026-07-15' },
 ];
 
 describe('filtering', () => {

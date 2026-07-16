@@ -1,8 +1,8 @@
 'use client';
 
 import { Suspense, useEffect, useState } from 'react';
-import type { Article, Category } from '@/lib/types';
-import BriefCard from '@/components/BriefCard';
+import type { Article } from '@/lib/types';
+import TopPickCard from '@/components/TopPickCard';
 import FilterBar from '@/components/FilterBar';
 import ArticleList from '@/components/ArticleList';
 import EmptyState from '@/components/EmptyState';
@@ -27,8 +27,7 @@ function DailyPageContent() {
         }
       })
       .catch(() => {
-        // Leave articles empty; the page still renders (with EmptyState-like
-        // zero counts) instead of crashing.
+        // Empty on error
       })
       .finally(() => {
         if (!cancelled) setIsLoading(false);
@@ -39,28 +38,29 @@ function DailyPageContent() {
     };
   }, []);
 
-  // Daily Brief is the first 3-4 articles from TODAY ONLY, independent of filters.
   const todayArticles = getTodayArticles(articles as any) as Article[];
-  const dailyPickIds = new Set(todayArticles.slice(0, 4).map((article) => article.id));
+  const topPickArticles = todayArticles.slice(0, 3);
+  const topPickIds = new Set(topPickArticles.map((a) => a.id));
   const filteredArticles = applyFilters(todayArticles as any, filters) as Article[];
 
   return (
-    <div className="w-full">
-      <section className="mb-8 sm:mb-12">
-        <BriefCard
-          title="Today's Top Picks"
-          items={todayArticles.slice(0, 4).map((article) => ({
-            id: article.id,
-            title: article.title,
-            category: article.category as Category,
-            url: article.url,
-            isTopPick: dailyPickIds.has(article.id),
-          }))}
-        />
+    <div className="w-full space-y-8">
+      {/* Top Picks Brief */}
+      <section>
+        <h2 className="section-title mb-4">Today's Top Picks</h2>
+        {topPickArticles.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {topPickArticles.map((article, i) => (
+              <TopPickCard key={article.id} article={article} rank={i + 1} />
+            ))}
+          </div>
+        ) : (
+          <p className="text-paper-muted">No top picks for today.</p>
+        )}
       </section>
 
+      {/* Filters */}
       <section>
-        {/* Extract unique tags for tag chips */}
         {todayArticles.length > 0 && (
           <FilterBar
             categories={CATEGORIES_WITH_LABELS}
@@ -78,20 +78,18 @@ function DailyPageContent() {
             shownArticles={filteredArticles.length}
           />
         )}
+      </section>
 
-        <div className="py-6 sm:py-8">
-          <h2 className="section-title">
-            Today's Articles
-          </h2>
-
-          {isLoading ? (
-            <p className="text-2 text-sm">Loading articles…</p>
-          ) : filteredArticles.length > 0 ? (
-            <ArticleList articles={filteredArticles} topPickIds={dailyPickIds} />
-          ) : (
-            <EmptyState onReset={clearFilters} />
-          )}
-        </div>
+      {/* Paginated Article List */}
+      <section>
+        <h2 className="section-title mb-4">All Today's Articles</h2>
+        {isLoading ? (
+          <p className="text-paper-muted">Loading articles…</p>
+        ) : filteredArticles.length > 0 ? (
+          <ArticleList articles={filteredArticles} topPickIds={topPickIds} />
+        ) : (
+          <EmptyState onReset={clearFilters} />
+        )}
       </section>
     </div>
   );

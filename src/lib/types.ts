@@ -8,13 +8,13 @@ export type Category = 'test-automation' | 'ai' | 'engineering' | 'qa-practice' 
 export interface Article {
   id: string;
   title: string;
-  subtitle: string;
-  summary: string;
+  subtitle?: string;
+  summary?: string;
   url: string;
   source: string;
   category: Category;
   publishedAt: string; // ISO 8601 datetime
-  tags: string[];
+  tags?: string[];
 }
 
 export interface DailyBrief {

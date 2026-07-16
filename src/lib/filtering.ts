@@ -1,25 +1,14 @@
 // Filtering logic for the QA News UX redesign.
-//
-// `Article` here is a lightweight shape used by client-side filtering
-// (id, title, category, tags, url, publishedAt, isDailyPick). It is
-// intentionally decoupled from `lib/types.ts`'s `Article` (the PAIOS
-// Knowledge Layer contract) — this one only needs the fields filtering
-// and rendering care about, and stays independent of API schema changes.
+
+import type { Article as TypesArticle, Category } from '@/lib/types';
 
 export type FilterState = {
   category?: string;
   tags?: string[];
 };
 
-export type Article = {
-  id: string;
-  title: string;
-  category: string;
-  tags?: string[];
-  url: string;
-  publishedAt: string;
-  isDailyPick?: boolean;
-};
+// Re-export the full Article type from types.ts
+export type Article = TypesArticle;
 
 /**
  * Filter articles published in the last N days (at start of today UTC, look back N-1 full days).

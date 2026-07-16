@@ -1,8 +1,8 @@
 'use client';
 
 import { Suspense, useEffect, useState } from 'react';
-import type { Article, Category } from '@/lib/types';
-import BriefCard from '@/components/BriefCard';
+import type { Article } from '@/lib/types';
+import TopPickCard from '@/components/TopPickCard';
 import FilterBar from '@/components/FilterBar';
 import ArticleList from '@/components/ArticleList';
 import EmptyState from '@/components/EmptyState';
@@ -26,10 +26,7 @@ function WeeklyPageContent() {
           setArticles(data.articles ?? []);
         }
       })
-      .catch(() => {
-        // Leave articles empty; the page still renders (with EmptyState-like
-        // zero counts) instead of crashing.
-      })
+      .catch(() => {})
       .finally(() => {
         if (!cancelled) setIsLoading(false);
       });
@@ -39,28 +36,27 @@ function WeeklyPageContent() {
     };
   }, []);
 
-  // Weekly Brief is the first 3-4 articles from THIS WEEK (last 7 days), independent of filters.
   const weekArticles = getWeekArticles(articles as any) as Article[];
-  const weeklyPickIds = new Set(weekArticles.slice(0, 4).map((article) => article.id));
+  const topPickArticles = weekArticles.slice(0, 3);
+  const topPickIds = new Set(topPickArticles.map((a) => a.id));
   const filteredArticles = applyFilters(weekArticles as any, filters) as Article[];
 
   return (
-    <div className="w-full">
-      <section className="mb-8 sm:mb-12">
-        <BriefCard
-          title="Weekly Brief — Top Picks"
-          items={weekArticles.slice(0, 4).map((article) => ({
-            id: article.id,
-            title: article.title,
-            category: article.category as Category,
-            url: article.url,
-            isTopPick: weeklyPickIds.has(article.id),
-          }))}
-        />
+    <div className="w-full space-y-8">
+      <section>
+        <h2 className="section-title mb-4">This Week's Top Picks</h2>
+        {topPickArticles.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {topPickArticles.map((article, i) => (
+              <TopPickCard key={article.id} article={article} rank={i + 1} />
+            ))}
+          </div>
+        ) : (
+          <p className="text-paper-muted">No top picks this week.</p>
+        )}
       </section>
 
       <section>
-        {/* Extract unique tags for tag chips */}
         {weekArticles.length > 0 && (
           <FilterBar
             categories={CATEGORIES_WITH_LABELS}
@@ -78,20 +74,17 @@ function WeeklyPageContent() {
             shownArticles={filteredArticles.length}
           />
         )}
+      </section>
 
-        <div className="py-6 sm:py-8">
-          <h2 className="section-title">
-            This Week
-          </h2>
-
-          {isLoading ? (
-            <p className="text-2 text-sm">Loading articles…</p>
-          ) : filteredArticles.length > 0 ? (
-            <ArticleList articles={filteredArticles} topPickIds={weeklyPickIds} />
-          ) : (
-            <EmptyState onReset={clearFilters} />
-          )}
-        </div>
+      <section>
+        <h2 className="section-title mb-4">All This Week's Articles</h2>
+        {isLoading ? (
+          <p className="text-paper-muted">Loading articles…</p>
+        ) : filteredArticles.length > 0 ? (
+          <ArticleList articles={filteredArticles} topPickIds={topPickIds} />
+        ) : (
+          <EmptyState onReset={clearFilters} />
+        )}
       </section>
     </div>
   );
