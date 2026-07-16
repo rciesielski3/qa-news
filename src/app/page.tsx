@@ -2,7 +2,7 @@
 
 import { Suspense, useEffect, useState } from 'react';
 import type { Article, Category } from '@/lib/types';
-import DailyBriefCard from '@/components/DailyBriefCard';
+import BriefCard from '@/components/BriefCard';
 import FilterBar from '@/components/FilterBar';
 import TagFilterChips from '@/components/TagFilterChips';
 import ArticleList from '@/components/ArticleList';
@@ -58,7 +58,16 @@ function DailyPageContent() {
   return (
     <div className="w-full">
       <section className="mb-8 sm:mb-12">
-        <DailyBriefCard articles={articles} />
+        <BriefCard
+          title="Daily Brief — Top Picks"
+          items={articles.slice(0, 6).map((article) => ({
+            id: article.id,
+            title: article.title,
+            category: article.category,
+            source: article.source,
+            isTopPick: dailyPickIds.has(article.id),
+          }))}
+        />
       </section>
 
       <section>
