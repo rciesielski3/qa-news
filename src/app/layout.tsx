@@ -50,7 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             above tolerates the data-theme attribute this script adds. */}
         <script dangerouslySetInnerHTML={{ __html: noFlashScript }} />
       </head>
-      <body className="font-sans">
+      <body>
         <Header />
         <StatsBar />
         <div className="flex min-h-screen flex-col">
