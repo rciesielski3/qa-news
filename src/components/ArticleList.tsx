@@ -1,24 +1,75 @@
+'use client';
+
+import { useState, useEffect } from 'react';
 import type { Article } from '@/lib/types';
-import ArticleCard from './ArticleCard';
+import PipelineEntry from '@/components/PipelineEntry';
+import { paginateArticles, getTotalPages, clampPageNumber, calculateArticlesPerPage } from '@/lib/pagination';
 
 interface ArticleListProps {
   articles: Article[];
   topPickIds?: Set<string>;
 }
 
-export default function ArticleList({
-  articles,
-  topPickIds = new Set(),
-}: ArticleListProps) {
+export default function ArticleList({ articles, topPickIds }: ArticleListProps) {
+  const [pageNumber, setPageNumber] = useState(1);
+  const [articlesPerPage, setArticlesPerPage] = useState(6);
+
+  // Calculate articles per page on mount and resize
+  useEffect(() => {
+    const updateArticlesPerPage = () => {
+      const newPerPage = calculateArticlesPerPage(window.innerHeight);
+      setArticlesPerPage(newPerPage);
+    };
+
+    updateArticlesPerPage();
+    window.addEventListener('resize', updateArticlesPerPage);
+    return () => window.removeEventListener('resize', updateArticlesPerPage);
+  }, []);
+
+  const totalPages = getTotalPages(articles.length, articlesPerPage);
+  const validPageNumber = clampPageNumber(pageNumber, totalPages);
+  const pageArticles = paginateArticles(articles, validPageNumber, articlesPerPage);
+
+  if (articles.length === 0) {
+    return <p className="text-paper-muted">No articles found.</p>;
+  }
+
   return (
-    <ul className="feed">
-      {articles.map((article) => (
-        <ArticleCard
-          key={article.id}
-          article={article}
-          isTopPick={topPickIds.has(article.id)}
-        />
-      ))}
-    </ul>
+    <div className="space-y-4">
+      {/* Articles */}
+      <ul className="space-y-1 min-h-[400px]">
+        {pageArticles.map((article) => (
+          <PipelineEntry
+            key={article.id}
+            article={article}
+          />
+        ))}
+      </ul>
+
+      {/* Pagination controls */}
+      {totalPages > 1 && (
+        <div className="flex items-center justify-center gap-4 py-6 border-t border-ink-600 dark:border-ink-600">
+          <button
+            onClick={() => setPageNumber(Math.max(1, pageNumber - 1))}
+            disabled={pageNumber === 1}
+            className="px-4 py-2 font-mono text-xs uppercase tracking-widest border border-ink-600 rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-ink-700 dark:hover:bg-ink-700 transition-colors"
+          >
+            ← Previous
+          </button>
+
+          <span className="text-sm font-mono text-paper-muted">
+            Page {validPageNumber} of {totalPages}
+          </span>
+
+          <button
+            onClick={() => setPageNumber(Math.min(totalPages, pageNumber + 1))}
+            disabled={pageNumber === totalPages}
+            className="px-4 py-2 font-mono text-xs uppercase tracking-widest border border-ink-600 rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-ink-700 dark:hover:bg-ink-700 transition-colors"
+          >
+            Next →
+          </button>
+        </div>
+      )}
+    </div>
   );
 }
