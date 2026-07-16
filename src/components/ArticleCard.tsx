@@ -46,7 +46,7 @@ export default function ArticleCard({
           <span className="flex-1 leading-snug">{article.title}</span>
         </a>
         <div className="ml-4 flex flex-wrap gap-2">
-          <span className={`text-[11px] font-mono uppercase tracking-wide ${categoryColorClass(article.category)}`}>
+          <span className="text-[11px] font-mono uppercase tracking-wide" style={{ color: getCategoryColor(article.category) }}>
             {meta.label}
           </span>
           {isDailyPick && (
