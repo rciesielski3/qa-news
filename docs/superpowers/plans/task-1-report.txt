@@ -1,0 +1,26 @@
+TASK 1: Add subtitle field to Article type
+=============================================
+
+Status: DONE
+
+What Was Done:
+- Added `subtitle: string;` field to Article interface in src/lib/types.ts
+- Field placed after title field for semantic grouping
+- TypeScript type checking verified with `npx tsc --noEmit`
+- No type errors detected
+
+Changes:
+- src/lib/types.ts: Added subtitle field to Article interface (1 insertion)
+
+Commit Details:
+- Hash: e95796b
+- Message: feat: add subtitle field to Article type
+- Branch: feature/ui-redesign-2026-07-16
+
+Type Check Result:
+- npx tsc --noEmit: PASSED (no errors, no warnings)
+
+Notes:
+- The subtitle field is now part of the Article type contract
+- Existing consumers will need to update their data structures to provide subtitle values
+- Type safety maintained; no breaking changes to other types
