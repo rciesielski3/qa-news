@@ -214,7 +214,7 @@ a:hover { text-decoration: underline; }
 @media (max-width: 640px) {
   .site-header .container {
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     height: auto;
     padding-block: 12px;
     gap: 12px;
@@ -227,6 +227,9 @@ a:hover { text-decoration: underline; }
   .nav-link {
     font-size: 12px;
     padding: 5px 10px;
+  }
+  .site-header .theme-toggle {
+    align-self: center;
   }
 }
 
@@ -392,11 +395,14 @@ a:hover { text-decoration: underline; }
   color: var(--text-2);
   font-family: var(--font-mono);
   font-size: 12px;
-  cursor: pointer;
   transition: border-color var(--transition), color var(--transition),
               background-color var(--transition);
 }
-.chip-tag:hover { border-color: var(--border-strong); color: var(--text); }
+/* Interactive button tag (FilterBar only) */
+button.chip-tag {
+  cursor: pointer;
+}
+button.chip-tag:hover { border-color: var(--border-strong); color: var(--text); }
 .chip-tag[aria-pressed="true"] {
   border-color: var(--accent);
   color: var(--accent);

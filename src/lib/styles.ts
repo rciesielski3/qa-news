@@ -75,7 +75,7 @@ export function categoryBgColorClass(category: string): string {
   return CATEGORY_COLORS[category]?.bgClass || 'bg-gray-50'
 }
 
-export const CATEGORY_LABELS: Record<string, string> = {
+export const CATEGORY_LABELS: Record<Category, string> = {
   'test-automation': 'Test Automation',
   'qa-practice': 'QA Practice',
   'tooling': 'Tooling',
@@ -83,16 +83,16 @@ export const CATEGORY_LABELS: Record<string, string> = {
   'ai': 'AI',
 }
 
-export const CATEGORIES_WITH_LABELS = [
-  { id: 'test-automation' as Category, label: 'Test Automation' },
-  { id: 'qa-practice' as Category, label: 'QA Practice' },
-  { id: 'tooling' as Category, label: 'Tooling' },
-  { id: 'engineering' as Category, label: 'Engineering' },
-  { id: 'ai' as Category, label: 'AI' },
+export const CATEGORIES_WITH_LABELS: Array<{ id: Category; label: string }> = [
+  { id: 'test-automation', label: 'Test Automation' },
+  { id: 'qa-practice', label: 'QA Practice' },
+  { id: 'tooling', label: 'Tooling' },
+  { id: 'engineering', label: 'Engineering' },
+  { id: 'ai', label: 'AI' },
 ]
 
 export function getCategoryLabel(category: string): string {
-  return CATEGORY_LABELS[category] || category
+  return CATEGORY_LABELS[category as Category] || category
 }
 
 
