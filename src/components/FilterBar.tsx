@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import type { Category } from '@/lib/types';
 
 interface FilterBarProps {
@@ -23,6 +24,9 @@ export default function FilterBar({
   totalArticles,
   shownArticles,
 }: FilterBarProps) {
+  const [showAllTags, setShowAllTags] = useState(false);
+  const displayedTags = showAllTags ? availableTags : availableTags.slice(0, 3);
+
   return (
     <div className="filters">
       {/* Category chips row */}
@@ -46,21 +50,33 @@ export default function FilterBar({
       {/* Tag chips row */}
       <div className="chip-row">
         <span className="filters-label">Filter by tags</span>
-        {availableTags.map((tag) => {
-          const isPressed = activeFilters.tags?.includes(tag) ?? false;
-          return (
+        <div>
+          <div className="flex flex-wrap gap-2 pb-2">
+            {displayedTags.map((tag) => {
+              const isPressed = activeFilters.tags?.includes(tag) ?? false;
+              return (
+                <button
+                  key={tag}
+                  className="chip-tag"
+                  aria-pressed={isPressed ? 'true' : 'false'}
+                  onClick={() =>
+                    onTagChange(tag, !isPressed)
+                  }
+                >
+                  {tag}
+                </button>
+              );
+            })}
+          </div>
+          {availableTags.length > 3 && (
             <button
-              key={tag}
-              className="chip-tag"
-              aria-pressed={isPressed ? 'true' : 'false'}
-              onClick={() =>
-                onTagChange(tag, !isPressed)
-              }
+              onClick={() => setShowAllTags(!showAllTags)}
+              className="text-xs text-accent underline"
             >
-              {tag}
+              {showAllTags ? 'Show less' : `Show ${availableTags.length - 3} more`}
             </button>
-          );
-        })}
+          )}
+        </div>
       </div>
 
       {/* Filter status & reset (show only if filters active) */}
