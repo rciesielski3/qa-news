@@ -139,6 +139,14 @@ a:hover { text-decoration: underline; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
 
+/* Text utilities — for page-level copy that isn't covered by a dedicated
+   component class (body already defaults to --text). Never hardcode hex;
+   read these tokens instead. */
+.text-2 { color: var(--text-2); }
+.text-3 { color: var(--text-3); }
+.accent { color: var(--accent); }
+.accent:hover { text-decoration: underline; }
+
 /* --------------------------------------------------------------------------
    3. HEADER + NAV
    -------------------------------------------------------------------------- */

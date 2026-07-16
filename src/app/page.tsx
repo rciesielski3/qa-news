@@ -86,12 +86,12 @@ function DailyPageContent() {
         )}
 
         <div className="py-6 sm:py-8">
-          <h2 className="mb-4 text-base sm:text-lg font-bold text-paper">
+          <h2 className="section-title">
             Latest News — All 50 Selected Articles
           </h2>
 
           {isLoading ? (
-            <p className="text-paper-muted text-sm">Loading articles…</p>
+            <p className="text-2 text-sm">Loading articles…</p>
           ) : filteredArticles.length > 0 ? (
             <ArticleList articles={filteredArticles} topPickIds={dailyPickIds} />
           ) : (
