@@ -21,6 +21,35 @@ export type Article = {
   isDailyPick?: boolean;
 };
 
+/**
+ * Filter articles published in the last N days (at start of today UTC, look back N-1 full days).
+ * @param articles All articles from latest.json
+ * @param daysAgo Number of days to look back (1 = today only, 7 = this week, 30 = this month)
+ */
+export function getArticlesSince(articles: Article[], daysAgo: number): Article[] {
+  const now = new Date();
+  const startOfToday = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+  const cutoff = new Date(startOfToday.getTime() - (daysAgo - 1) * 24 * 60 * 60 * 1000);
+
+  return articles.filter((article) => {
+    if (!article.publishedAt) return false;
+    const pubDate = new Date(article.publishedAt);
+    return pubDate >= cutoff;
+  });
+}
+
+export function getTodayArticles(articles: Article[]): Article[] {
+  return getArticlesSince(articles, 1);
+}
+
+export function getWeekArticles(articles: Article[]): Article[] {
+  return getArticlesSince(articles, 7);
+}
+
+export function getMonthArticles(articles: Article[]): Article[] {
+  return getArticlesSince(articles, 30);
+}
+
 export function applyFilters<T extends Article>(articles: T[], filters: FilterState): T[] {
   // If no filters, return all articles
   if (!filters.category && (!filters.tags || filters.tags.length === 0)) {
