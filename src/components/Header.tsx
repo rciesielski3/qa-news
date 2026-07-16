@@ -40,8 +40,8 @@ export default function Header() {
               </Link>
             );
           })}
-          <ThemeToggle />
         </nav>
+        <ThemeToggle />
       </div>
     </header>
   );

@@ -1,10 +1,10 @@
 import type { Category } from '@/lib/types';
+import { CATEGORY_LABELS } from '@/lib/styles';
 
 export interface BriefCardItem {
   id: string;
   title: string;
   category: Category;
-  source: string;
   url: string;
   isTopPick?: boolean;
 }
@@ -13,15 +13,6 @@ export interface BriefCardProps {
   title: string; // "Daily Brief — Top Picks" | "Weekly Brief — Top Picks" | "Monthly Highlights"
   items: BriefCardItem[];
 }
-
-// Category display name mapping
-const categoryLabels: Record<Category, string> = {
-  'test-automation': 'Test Automation',
-  'qa-practice': 'QA Practice',
-  'tooling': 'Tooling',
-  'engineering': 'Engineering',
-  'ai': 'AI',
-};
 
 export default function BriefCard({ title, items }: BriefCardProps) {
   return (
@@ -40,7 +31,7 @@ export default function BriefCard({ title, items }: BriefCardProps) {
             <div>
               <a href={item.url}>{item.title}</a>
               <span className="brief-meta">
-                {categoryLabels[item.category]}
+                {CATEGORY_LABELS[item.category]}
                 {item.isTopPick && <span className="toppick">★ Top Pick</span>}
               </span>
             </div>

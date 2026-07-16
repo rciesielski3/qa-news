@@ -1,13 +1,14 @@
 'use client';
 
 import { Suspense, useEffect, useState } from 'react';
-import type { Article, Category } from '@/lib/types';
+import type { Article } from '@/lib/types';
 import BriefCard from '@/components/BriefCard';
 import FilterBar from '@/components/FilterBar';
 import ArticleList from '@/components/ArticleList';
 import EmptyState from '@/components/EmptyState';
 import { useFiltering } from '@/hooks/useFiltering';
 import { applyFilters } from '@/lib/filtering';
+import { CATEGORIES_WITH_LABELS } from '@/lib/styles';
 
 // `useFiltering` reads the URL via `useSearchParams`, which requires a
 // Suspense boundary above it (Next.js App Router requirement, especially
@@ -15,7 +16,7 @@ import { applyFilters } from '@/lib/filtering';
 function DailyPageContent() {
   const [articles, setArticles] = useState<Article[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const { filters, updateFilters, toggleTag, clearFilters } = useFiltering();
+  const { filters, updateFilters, clearFilters } = useFiltering();
 
   useEffect(() => {
     let cancelled = false;
@@ -53,7 +54,6 @@ function DailyPageContent() {
             id: article.id,
             title: article.title,
             category: article.category,
-            source: article.source,
             url: article.url,
             isTopPick: dailyPickIds.has(article.id),
           }))}
@@ -64,13 +64,7 @@ function DailyPageContent() {
         {/* Extract unique tags for tag chips */}
         {articles.length > 0 && (
           <FilterBar
-            categories={[
-              { id: 'test-automation' as Category, label: 'Test Automation' },
-              { id: 'qa-practice' as Category, label: 'QA Practice' },
-              { id: 'tooling' as Category, label: 'Tooling' },
-              { id: 'engineering' as Category, label: 'Engineering' },
-              { id: 'ai' as Category, label: 'AI' },
-            ]}
+            categories={CATEGORIES_WITH_LABELS}
             availableTags={Array.from(new Set(articles.flatMap((a) => a.tags || []))).sort()}
             activeFilters={filters}
             onCategoryChange={(category) => updateFilters({ ...filters, category: category ?? undefined })}
