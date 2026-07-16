@@ -1,8 +1,22 @@
 import type { Article } from '@/lib/types';
-import { getCategoryLabel, categoryTextColorClass, getCategoryColor } from '@/lib/styles';
+import { getCategoryLabel, categoryTextColorClass } from '@/lib/styles';
 
 interface PipelineEntryProps {
   article: Article;
+}
+
+function getCategoryColor(category: string): string {
+  const colorMap: Record<string, string> = {
+    'test-automation': '#FF6B9D',
+    'ai-integration': '#4ECDC4',
+    'performance': '#45B7D1',
+    'security': '#F7DC6F',
+    'devops': '#BB8FCE',
+    'frontend': '#85C1E2',
+    'backend': '#F8B88B',
+    'mobile': '#82E0AA',
+  };
+  return colorMap[category] || '#A9A9A9';
 }
 
 export default function PipelineEntry({ article }: PipelineEntryProps) {
