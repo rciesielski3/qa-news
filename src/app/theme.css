@@ -536,7 +536,11 @@ button.chip-tag:hover { border-color: var(--border-strong); color: var(--text); 
   gap: 12px;
 }
 @media (max-width: 900px) { .pipeline { grid-template-columns: 1fr 1fr; } }
-@media (max-width: 520px) { .pipeline { grid-template-columns: 1fr; } }
+@media (max-width: 640px) { .pipeline { grid-template-columns: 1fr; } }
+@media (max-width: 375px) {
+  .pipeline { gap: 8px; }
+  .pipeline-step { padding: 12px; }
+}
 
 .pipeline-step {
   border: 1px solid var(--border);
