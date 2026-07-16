@@ -1,18 +1,16 @@
 'use client';
 
 import { Suspense, useEffect, useState } from 'react';
-import type { Article } from '@/lib/types';
+import type { Article, Category } from '@/lib/types';
 import BriefCard from '@/components/BriefCard';
 import FilterBar from '@/components/FilterBar';
 import ArticleList from '@/components/ArticleList';
 import EmptyState from '@/components/EmptyState';
 import { useFiltering } from '@/hooks/useFiltering';
 import { applyFilters } from '@/lib/filtering';
+import { getMonthArticles } from '@/lib/filtering';
 import { CATEGORIES_WITH_LABELS } from '@/lib/styles';
 
-// `useFiltering` reads the URL via `useSearchParams`, which requires a
-// Suspense boundary above it (Next.js App Router requirement, especially
-// relevant for `output: 'export'` static builds).
 function MonthlyPageContent() {
   const [articles, setArticles] = useState<Article[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -41,19 +39,20 @@ function MonthlyPageContent() {
     };
   }, []);
 
-  // Monthly Brief is always the first 6 articles, independent of filters.
-  const monthlyPickIds = new Set(articles.slice(0, 6).map((article) => article.id));
-  const filteredArticles = applyFilters(articles, filters);
+  // Monthly Brief is the first 3-4 articles from THIS MONTH (last 30 days), independent of filters.
+  const monthArticles = getMonthArticles(articles as any) as Article[];
+  const monthlyPickIds = new Set(monthArticles.slice(0, 4).map((article) => article.id));
+  const filteredArticles = applyFilters(monthArticles as any, filters) as Article[];
 
   return (
     <div className="w-full">
       <section className="mb-8 sm:mb-12">
         <BriefCard
           title="Monthly Highlights"
-          items={articles.slice(0, 6).map((article) => ({
+          items={monthArticles.slice(0, 4).map((article) => ({
             id: article.id,
             title: article.title,
-            category: article.category,
+            category: article.category as Category,
             url: article.url,
             isTopPick: monthlyPickIds.has(article.id),
           }))}
@@ -62,10 +61,10 @@ function MonthlyPageContent() {
 
       <section>
         {/* Extract unique tags for tag chips */}
-        {articles.length > 0 && (
+        {monthArticles.length > 0 && (
           <FilterBar
             categories={CATEGORIES_WITH_LABELS}
-            availableTags={Array.from(new Set(articles.flatMap((a) => a.tags || []))).sort()}
+            availableTags={Array.from(new Set(monthArticles.flatMap((a) => a.tags || []))).sort()}
             activeFilters={filters}
             onCategoryChange={(category) => updateFilters({ ...filters, category: category ?? undefined })}
             onTagChange={(tag, active) => {
@@ -75,7 +74,7 @@ function MonthlyPageContent() {
               updateFilters({ ...filters, tags: newTags.length > 0 ? newTags : undefined });
             }}
             onReset={clearFilters}
-            totalArticles={articles.length}
+            totalArticles={monthArticles.length}
             shownArticles={filteredArticles.length}
           />
         )}
