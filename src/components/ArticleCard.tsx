@@ -1,6 +1,13 @@
 import type { Article } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/category';
-import { categoryBgClass, getCategoryTextColor } from '@/lib/styles';
+import {
+  categoryBgClass,
+  categoryColorClass,
+  categoryTextColorClass,
+  getCategoryColor,
+  getCategoryLabel,
+  getCategoryTextColor,
+} from '@/lib/styles';
 
 interface ArticleCardProps {
   article: Article;
@@ -13,7 +20,14 @@ export default function ArticleCard({
   isDailyPick = false,
   compact = false,
 }: ArticleCardProps) {
-  const meta = CATEGORY_META[article.category];
+  // Fallback for missing category
+  const fallbackMeta = {
+    label: getCategoryLabel(article.category),
+    color: getCategoryColor(article.category),
+    dot: categoryColorClass(article.category),
+    text: categoryTextColorClass(article.category),
+  };
+  const meta = CATEGORY_META[article.category] || fallbackMeta;
   const categoryTextColor = getCategoryTextColor(article.category);
 
   if (compact) {
@@ -32,7 +46,10 @@ export default function ArticleCard({
           <span className="flex-1 leading-snug">{article.title}</span>
         </a>
         <div className="ml-4 flex flex-wrap gap-2">
-          <span className={`text-[11px] font-mono uppercase tracking-wide ${meta.text}`}>
+          <span
+            className="text-[11px] font-mono uppercase tracking-wide"
+            style={{ color: categoryTextColor }}
+          >
             {meta.label}
           </span>
           {isDailyPick && (
@@ -53,7 +70,7 @@ export default function ArticleCard({
           className={`mt-1 flex-shrink-0 h-3 w-3 rounded-full ${meta.dot}`}
         />
         <div className="flex-1 min-w-0">
-          <div className="flex flex-wrap items-center gap-2 font-mono text-[11px] text-paper-faint">
+          <div className="flex flex-wrap items-center gap-2 font-mono text-[11px] text-ink-500">
             <span className={meta.text}>{meta.label}</span>
             {isDailyPick && (
               <span className="text-signal-pin">✦ Top Pick</span>
@@ -74,7 +91,7 @@ export default function ArticleCard({
           </h3>
 
           {article.tags.length > 0 && (
-            <ul className="mt-2 flex flex-wrap gap-2 font-mono text-[10px] text-paper-faint">
+            <ul className="mt-2 flex flex-wrap gap-2 font-mono text-[10px] text-ink-500">
               {article.tags.map((tag) => (
                 <li key={tag} className="rounded border border-ink-600 px-1 py-0.5">
                   {tag}
