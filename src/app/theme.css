@@ -199,6 +199,29 @@ a:hover { text-decoration: underline; }
 }
 .theme-toggle:hover { color: var(--text); border-color: var(--border-strong); }
 
+/* Mobile: header row doesn't fit logo + 4 nav links + toggle below ~640px.
+   Stack instead of forcing horizontal scroll on the whole page. The fixed
+   64px row height only works for the single-row layout, so it's released
+   to auto here. */
+@media (max-width: 640px) {
+  .site-header .container {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    padding-block: 12px;
+    gap: 12px;
+  }
+  .site-title { text-align: center; }
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav-link {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
+
 /* --------------------------------------------------------------------------
    4. STATS BAR — one line, link inline on the right
    -------------------------------------------------------------------------- */
