@@ -1,386 +1,176 @@
 {
-  "date": "2026-07-16",
-  "updatedAt": "2026-07-16T15:53:58.280Z",
-  "items": [
+  "articles": [
     {
-      "id": "lobsters-aHR0cHM6Ly9w",
-      "title": "Empathy and delight mean nothing when the software is disrespectful",
-      "summary": "Comments",
-      "url": "https://productpicnic.beehiiv.com/p/empathy-and-delight-mean-nothing-when-the-software-is-disrespectful",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-15T04:30:14.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "Low Resource Computing 2026",
-      "summary": "Comments",
-      "url": "https://lrc.cs.dartmouth.edu/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-15T02:13:19.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9t",
-      "title": "Full disclosure: Arbitrary code execution in Cursor",
-      "summary": "Comments",
-      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-15T02:02:02.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9u",
-      "title": "A modern HTTP request",
-      "summary": "Comments",
-      "url": "https://nelsonslog.wordpress.com/2026/07/14/a-modern-http-request/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-15T00:34:39.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9h",
-      "title": "The Memory Heist",
-      "summary": "Comments",
-      "url": "https://ayush.digital/blog/the-memory-heist",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-15T00:11:45.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly94",
-      "title": "You should probably check on your smart appliances",
-      "summary": "Comments",
-      "url": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T22:02:25.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9j",
-      "title": "qr-swastika-avoider v0.1.0",
-      "summary": "Comments",
-      "url": "https://crates.io/crates/qr-swastika-avoider",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T21:47:07.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9r",
-      "title": "Native inotify in FreeBSD",
-      "summary": "Comments",
-      "url": "https://klarasystems.com/articles/native-inotify-in-freebsd/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T20:48:51.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9j",
-      "title": "A Trusty Boot Key (Ventoy Alternative), for Bastille Day",
-      "summary": "Comments",
-      "url": "https://codeberg.org/aol/trusty-boot-key",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T18:47:27.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "How I use HTMX with Go",
-      "summary": "Comments",
-      "url": "https://www.alexedwards.net/blog/how-i-use-htmx-with-go",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T18:34:27.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9t",
-      "title": "Measuring input latency on Linux: X11 vs Wayland, VRR, and DXVK",
-      "summary": "Comments",
-      "url": "https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T18:07:13.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9n",
-      "title": "whatcable: macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
-      "summary": "Comments",
-      "url": "https://github.com/darrylmorley/whatcable",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T17:00:52.000Z",
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "Why teens deserve access to safe AI",
+      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-07-16T16:00:00.000Z",
       "tags": [
         "ai"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly90",
-      "title": "Temper Language",
-      "summary": "Comments",
-      "url": "https://temperlang.dev/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T16:56:25.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9z",
-      "title": "Too many words about DIDs",
-      "summary": "Comments",
-      "url": "https://steveklabnik.com/writing/too-many-words-about-dids/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T16:35:18.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9k",
-      "title": "How my images are dithered",
-      "summary": "Comments",
-      "url": "https://dead.garden/blog/how-my-images-are-dithered.html",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T16:00:52.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "google-ai-aHR0cHM6Ly9i",
-      "title": "Celebrating 25 years of visual search innovation",
-      "summary": "Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
-      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
-      "source": "Google AI",
-      "category": "news",
-      "publishedAt": "2026-07-14T16:00:00.000Z",
-      "tags": [
-        "api"
-      ],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "google",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9i",
-      "title": "openQA Testing in KDE Linux",
-      "summary": "Comments",
-      "url": "https://blogs.kde.org/2026/07/13/openqa-testing-in-kde-linux/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T13:46:32.000Z",
-      "tags": [
-        "testing"
-      ],
-      "score": 97,
-      "priority": "CRITICAL",
-      "reason": [
-        "testing",
-        "qa",
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "A broken DNSSEC rollover took down .AL. Now 1.1.1.1 tells you when validation is bypassed",
-      "summary": "When a failed DNSSEC key rollover took down the .AL TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE...",
-      "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
-      "source": "Cloudflare",
-      "category": "news",
-      "publishedAt": "2026-07-14T13:00:00.000Z",
-      "tags": [
-        "rest",
-        "ai"
-      ],
-      "score": 66,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9y",
-      "title": "Beautiful Type Erasure with C++26 Reflection",
-      "summary": "Comments",
-      "url": "https://ryanjk5.github.io/posts/rjk-duck/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T12:58:55.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly96",
-      "title": "Tensor is the might",
-      "summary": "Comments",
-      "url": "https://zserge.com/posts/tensor/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T12:56:11.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9j",
-      "title": "Is x86 ready to ACE it?",
-      "summary": "Comments",
-      "url": "https://chipsandcheese.com/p/is-x86-ready-to-ace-it",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T12:12:01.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "Hating AI in 2026",
-      "summary": "Comments",
-      "url": "https://www.eamoncaddigan.net/posts/ai-in-2026/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T11:34:45.000Z",
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Write utilization now available in ISR Observability",
+      "summary": "The now shows subscribers a write utilization metric, helping identify routes that regenerate often but receive few requests. Write utilization is the ratio of cached requests to ISR writes. For route...",
+      "url": "https://vercel.com/changelog/write-utilization-now-available-in-isr-observability",
+      "source": "Vercel Blog",
+      "category": "qa-practice",
+      "publishedAt": "2026-07-16T00:00:00.000Z",
       "tags": [
         "ai"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9w",
-      "title": "6× faster binary search: from compiled code to mechanical sympathy",
-      "summary": "Comments",
-      "url": "https://pythonspeed.com/articles/branchless-binary-search/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T11:31:30.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Kimi K3 is now available on AI Gateway",
+      "summary": "is now available on AI Gateway.Kimi K3 from Moonshot AIK3 is an open-source model with a 1M-token context window and native visual understanding, accepting text, image, and video inputs.Built for long...",
+      "url": "https://vercel.com/changelog/kimi-k3-is-now-available-on-ai-gateway",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-16T00:00:00.000Z",
+      "tags": [
+        "api",
+        "performance",
+        "ai"
+      ]
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "url": "https://openai.com/index/cars24",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-07-16T00:00:00.000Z",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "cypress-releases-aHR0cHM6Ly9n",
+      "title": "chore: release @cypress/webpack-batteries-included-preprocessor-v4.2.0",
+      "summary": "[skip ci]",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/%40cypress%2Fwebpack-batteries-included-preprocessor-v4.2.0",
+      "source": "Cypress Releases",
+      "category": "test-automation",
+      "publishedAt": "2026-07-15T19:23:30.000Z",
+      "tags": [
+        "cypress",
+        "release"
+      ]
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "The US is advancing AI safety through state and federal action",
+      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-07-15T12:00:00.000Z",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-07-15T10:00:00.000Z",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "How Speechify serves 500,000 dynamic pages to 60 million users on Vercel",
+      "summary": "Speechify on Vercel500,000+ pages served across 40+ languagesCut costs 50% by auto-scaling with Fluid computeZero user impact on bad deploys with Instant Rollbacks started as a tool for people with dy...",
+      "url": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-15T04:00:00.000Z",
+      "tags": [
+        "react",
+        "api",
+        "database",
+        "security",
+        "release",
+        "bug",
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Vercel Connect support in GitHub Tools",
+      "summary": "now has first-class support for through the new subpath. Instead of storing a long-lived personal access token, your agent mints short-lived, scoped GitHub tokens at runtime from a connector. There is...",
+      "url": "https://vercel.com/changelog/vercel-connect-support-in-github-tools",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "tags": [
+        "github",
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Faster, predictable project linking in the Vercel CLI",
+      "summary": "The now resolves your team before discovering projects, then searches for projects only in that team instead of sweeping every team you belong to. Linking is faster and more predictable, and every com...",
+      "url": "https://vercel.com/changelog/faster-predictable-project-linking-in-the-vercel-cli",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "tags": [
+        "github",
+        "release",
+        "update",
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Inkling from Thinking Machines is now available on AI Gateway",
+      "summary": "is now available on AI Gateway.Inkling from Thinking MachinesInkling is a broad generalist model, trained across agentic, reasoning, coding, instruction-following, factuality, vision, and audio tasks ...",
+      "url": "https://vercel.com/changelog/inkling-from-thinking-machines-is-now-available-on-ai-gateway",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "tags": [
+        "api",
+        "performance",
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Vercel Workflows trace viewer now has a minimap",
+      "summary": "The trace viewer for now has a minimap that shows the entire run in one view.Vercel WorkflowsDrag the viewport to pan, resize it to zoom, or drag across the minimap to select a new section. Click anyw...",
+      "url": "https://vercel.com/changelog/vercel-workflows-trace-viewer-now-has-a-minimap",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Chat SDK adds Discord Components V2 support",
+      "summary": "You can now send Discord bot messages with , an opt-in layout system that treats text, images, files, and buttons as flexible components you can arrange in any order.Components V2Set the adapter's opt...",
+      "url": "https://vercel.com/changelog/chat-sdk-adds-discord-components-v2-support",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "tags": [
+        "github",
+        "release",
+        "ai"
       ]
     },
     {
@@ -389,114 +179,105 @@
       "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
       "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
       "source": "OpenAI",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-14T10:00:00.000Z",
       "tags": [
         "ai"
-      ],
-      "score": 96,
-      "priority": "CRITICAL",
-      "reason": [
-        "agent",
-        "openai",
-        "recent"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9m",
-      "title": "Jurassic Park computers in excruciating detail",
-      "summary": "Comments",
-      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T09:24:36.000Z",
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Vercel Blob now supports consistent reads on private storage",
+      "summary": "now supports consistent reads on private storage. Pass to or for a read that reflects the latest write.Vercel BlobuseCache: falseget()presignUrl()A blob written to a fresh pathname has no existing cac...",
+      "url": "https://vercel.com/changelog/vercel-blob-now-supports-consistent-reads-on-private-storage",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "tags": []
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Vercel Plugin now available in VS Code and GitHub Copilot CLI",
+      "summary": "The is now available in VS Code and the GitHub Copilot CLI.Vercel PluginGitHub Copilot now has Vercel platform knowledge on demand, with skills for Next.js, AI SDK, Vercel Functions, and more. The Ver...",
+      "url": "https://vercel.com/changelog/vercel-plugin-now-available-in-vs-code-and-github-copilot-cli",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
       "tags": [
+        "github",
+        "api",
         "ai"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9n",
-      "title": "git-absorb: git commit --fixup, but automatic",
-      "summary": "Comments",
-      "url": "https://github.com/tummychow/git-absorb",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T08:45:13.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Node.js 20 is being deprecated on October 1, 2026",
+      "summary": "Following the Node.js 20 end of life on April 30, 2026, we are deprecating Node.js 20 for Builds and Functions on October 1, 2026.How can I see which of my projects are affected?You can see which of y...",
+      "url": "https://vercel.com/changelog/node-js-20-is-being-deprecated",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "tags": [
+        "node.js",
+        "docker",
+        "security",
+        "update",
+        "ai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly90",
-      "title": "Job queues are deceptively tricky",
-      "summary": "Comments",
-      "url": "https://typesanitizer.com/blog/job-queues.html",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T07:49:04.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Endform joins the Vercel Marketplace",
+      "summary": "is now available on the . It runs your Playwright tests in parallel, so your suite finishes in the time of your slowest test.EndformVercel MarketplaceKey capabilities:Install Endform on the or with th...",
+      "url": "https://vercel.com/changelog/endform-joins-the-vercel-marketplace",
+      "source": "Vercel Blog",
+      "category": "test-automation",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "tags": [
+        "playwright",
+        "api",
+        "ai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9j",
-      "title": "Collection of clock designs",
-      "summary": "Comments",
-      "url": "https://clocks.dev",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T05:33:11.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "AgentMail joins the Vercel Marketplace",
+      "summary": "You can now provision and manage directly from the Vercel Marketplace. AgentMailYour AI agents can send, receive, and respond to email from a real inbox. AgentMail handles the mail servers and deliver...",
+      "url": "https://vercel.com/changelog/agentmail-vercel-marketplace",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "tags": [
+        "api",
+        "ai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "The git history command deserves more attention",
-      "summary": "Comments",
-      "url": "https://lalitm.com/post/git-history/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T03:21:08.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Chat SDK adds X adapter support",
+      "summary": "Chat SDK now supports X, extending its single-codebase approach to Slack, Discord, GitHub, Teams, Telegram, and WhatsApp with the new .X adapterTeams can build bots that reply to public mentions and h...",
+      "url": "https://vercel.com/changelog/chat-sdk-adds-x-adapter-support",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "tags": [
+        "react",
+        "automation",
+        "github",
+        "api"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "fred: A text editor that uses C for everything",
-      "summary": "Comments",
-      "url": "https://www.youtube.com/watch?v=xz5aPCRxsv4",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-14T01:15:04.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Access and share AI Gateway leaderboard data",
+      "summary": "We are making the data behind the open under the . You can now download or query the data through the API endpoint and render any chart as a shareable image.AI Gateway leaderboardsCC BY 4.0 licenselea...",
+      "url": "https://vercel.com/changelog/open-data-and-shareable-charts-for-ai-gateway-leaderboards",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "tags": [
+        "api",
+        "ai"
       ]
     },
     {
@@ -505,14 +286,9 @@
       "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "source": "OpenAI",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-14T00:00:00.000Z",
-      "tags": [],
-      "score": 75,
-      "priority": "HIGH",
-      "reason": [
-        "openai"
-      ]
+      "tags": []
     },
     {
       "id": "openai-aHR0cHM6Ly9v",
@@ -520,236 +296,116 @@
       "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "source": "OpenAI",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-14T00:00:00.000Z",
-      "tags": [],
-      "score": 75,
-      "priority": "HIGH",
-      "reason": [
-        "openai"
-      ]
+      "tags": []
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9i",
-      "title": "Estimating the heights of New Yorkers from their scuff marks",
-      "summary": "Comments",
-      "url": "https://blog.jse.li/posts/smith9street/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-13T23:43:15.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "Should Libraries Log or Propagate Errors?",
-      "summary": "My assumption was always: Applications log (and err), libraries err. Today, I was shocked to learn that various ecosystems love logging things in libraries (such that silencing those logs is even an i...",
-      "url": "https://lobste.rs/s/v3avrp/should_libraries_log_propagate_errors",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-13T21:43:24.000Z",
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Open-weight models surge to 29% of volume, price per token flattens",
+      "summary": "AI Gateway Production Index — July 2026 Every month, routes tens of trillions of tokens between production applications and AI labs, giving us a view of what AI usage actually looks like in today’s en...",
+      "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-13T07:00:00.000Z",
       "tags": [
-        "ai"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "lobste.rs is now running on SQLite",
-      "summary": "This past Saturday, @pushcx and I deployed the SQLite pull request to production. We were waiting till this morning to see how it would react to the Monday traffic spike before making this post. Needl...",
-      "url": "https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-13T20:03:24.000Z",
-      "tags": [
-        "react",
-        "testing",
-        "github",
+        "api",
         "rest",
-        "database",
-        "sql",
-        "performance",
-        "bug",
+        "release",
         "ai"
-      ],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "A Farewell to ARPs: IPv4 Service on IPv6-Only Networks",
-      "summary": "Comments",
-      "url": "https://labs.ripe.net/author/remco-van-mook/a-farewell-to-arps-ipv4-service-on-ipv6-only-networks/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-13T18:47:11.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9o",
-      "title": "Human Emacs",
-      "summary": "LLM-generated contributions free (possible) fork of GNU Emacs. Comments",
-      "url": "https://human-emacs.org/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-13T16:18:36.000Z",
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Agent Runs now show subagent activity on eve projects",
+      "summary": "You can now inspect subagent activity for eve projects in . Agent RunsThe new Subagents tab shows every subagent, organized by which turn started it. Each row shows the prompt, duration, and any failu...",
+      "url": "https://vercel.com/changelog/agent-runs-now-show-subagent-activity-on-eve-projects",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-13T00:00:00.000Z",
       "tags": [
-        "llm"
-      ],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
+        "ai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9n",
-      "title": "Just Let Me Write Digits",
-      "summary": "Comments",
-      "url": "https://gendignoux.com/blog/2026/07/13/input-digits.html",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-13T16:01:28.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9h",
-      "title": "Control the ideas, not the code",
-      "summary": "Comments",
-      "url": "https://antirez.com/news/169",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-13T15:35:04.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly91",
-      "title": "How early SunOS did diskless workstations before NFS",
-      "summary": "Comments",
-      "url": "https://utcc.utoronto.ca/~cks/space/blog/solaris/SunOSDisklessWithoutNFS",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-13T15:23:52.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9h",
-      "title": "Engineering High-Performance Parsers with Data-Oriented Design",
-      "summary": "Comments",
-      "url": "https://arshad.fyi/writings/engineering-high-performance-parsers",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-13T13:20:01.000Z",
-      "tags": [
-        "performance"
-      ],
-      "score": 83,
-      "priority": "HIGH",
-      "reason": [
-        "performance",
-        "lobsters"
-      ]
-    },
-    {
-      "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
-      "summary": "Precursor, our new continuous behavioral validation engine for bot management, offers visibility into how humans and bots actually interact across the full user journey. By turning session-level behav...",
-      "url": "https://blog.cloudflare.com/introducing-precursor/",
-      "source": "Cloudflare",
-      "category": "news",
-      "publishedAt": "2026-07-13T13:00:00.000Z",
-      "tags": [
-        "automation"
-      ],
-      "score": 85,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "cloudflare"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9i",
-      "title": "crates.io: development update",
-      "summary": "Comments",
-      "url": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-13T11:33:27.000Z",
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Manage Vercel Flags targeting rules from the CLI",
+      "summary": "You can now manage targeting rules for through the . With the command, you and your agents can add new rules, move existing ones, and inspect the current ordering without leaving your terminal.Vercel ...",
+      "url": "https://vercel.com/changelog/manage-vercel-flags-targeting-rules-from-the-cli",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-13T00:00:00.000Z",
       "tags": [
         "update"
-      ],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9w",
-      "title": "Quadrupling code performance with a \"useless\" if",
-      "summary": "Comments",
-      "url": "https://purplesyringa.moe/blog/quadrupling-code-performance-with-a-useless-if/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-13T03:33:01.000Z",
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Configure which sources can create deployments with Deployment Policies",
+      "summary": "Deployment Policies are now available and enable teams to restrict which mechanisms, organizations, and repositories are allowed to create deployments.Each policy can be configured per environment at ...",
+      "url": "https://vercel.com/changelog/configure-which-sources-can-create-deployments-with-deployment-policies",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-13T00:00:00.000Z",
       "tags": [
-        "performance"
-      ],
-      "score": 83,
-      "priority": "HIGH",
-      "reason": [
-        "performance",
-        "lobsters"
+        "rest",
+        "ai"
       ]
     },
     {
-      "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Improving Smart Tiered Cache for Public Cloud Regions",
-      "summary": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
-      "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
-      "source": "Cloudflare",
-      "category": "news",
-      "publishedAt": "2026-07-10T13:00:00.000Z",
-      "tags": [],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Web Analytics and Speed Insights are now more cost-efficient",
+      "summary": "and are now almost 10% more cost-efficient for all Pro and Enterprise teams.Web AnalyticsSpeed InsightsInfrastructure and event-processing improvements reduced cost across both products, so page views...",
+      "url": "https://vercel.com/changelog/web-analytics-and-speed-insights-are-now-more-cost-efficient",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-13T00:00:00.000Z",
+      "tags": [
+        "update",
+        "ai"
       ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Seedream 5.0 Pro is now available on AI Gateway",
+      "summary": "Seedream 5.0 Pro is now available on .AI GatewaySeedream 5.0 Pro is an image generation and editing model. It generates images from text, rendering text without spelling errors and following typograph...",
+      "url": "https://vercel.com/changelog/seedream-5-0-pro-is-now-available-on-ai-gateway",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "tags": [
+        "api",
+        "performance",
+        "ai"
+      ]
+    },
+    {
+      "id": "github-engineering-aHR0cHM6Ly9n",
+      "title": "Better tools made Copilot code review worse. Here&#8217;s how we actually improved it.",
+      "summary": "Give an agent better tools and it should do better work. That&rsquo;s the instinct, anyway. When you open a pull request, Copilot code review reads the diff and explores the surrounding code to find t...",
+      "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+      "source": "GitHub Engineering",
+      "category": "tooling",
+      "publishedAt": "2026-07-10T15:57:47.000Z",
+      "tags": [
+        "github",
+        "api",
+        "security",
+        "update",
+        "bug",
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Traces now support Tree and Waterfall views",
+      "summary": "now support Tree and Waterfall views. See span hierarchy, critical path, and timing without leaving the log entry.Traces in Vercel LogsThe Tree view groups spans by parent and child. On load, spans ar...",
+      "url": "https://vercel.com/changelog/traces-now-support-tree-and-waterfall-views",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-10T15:40:00.000Z",
+      "tags": []
     },
     {
       "id": "openai-aHR0cHM6Ly9v",
@@ -757,15 +413,10 @@
       "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
       "url": "https://openai.com/index/deutsche-telekom",
       "source": "OpenAI",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-10T07:00:00.000Z",
       "tags": [
         "ai"
-      ],
-      "score": 75,
-      "priority": "HIGH",
-      "reason": [
-        "openai"
       ]
     },
     {
@@ -774,32 +425,10 @@
       "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
       "url": "https://openai.com/academy/getting-started",
       "source": "OpenAI",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-10T00:00:00.000Z",
       "tags": [
         "ai"
-      ],
-      "score": 75,
-      "priority": "HIGH",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Why we cannot wait for better post-quantum signature algorithms",
-      "summary": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and sh...",
-      "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
-      "source": "Cloudflare",
-      "category": "news",
-      "publishedAt": "2026-07-09T14:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
       ]
     },
     {
@@ -808,15 +437,23 @@
       "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
       "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
       "source": "OpenAI",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-09T13:00:00.000Z",
       "tags": [
         "ai"
-      ],
-      "score": 75,
-      "priority": "HIGH",
-      "reason": [
-        "openai"
+      ]
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "summary": "Details about the OpenAI Bio Bounty program",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "tags": [
+        "bug",
+        "ai"
       ]
     },
     {
@@ -825,14 +462,203 @@
       "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "source": "OpenAI",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-09T10:00:00.000Z",
-      "tags": [],
-      "score": 95,
-      "priority": "CRITICAL",
-      "reason": [
-        "agent",
-        "openai"
+      "tags": []
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "url": "https://openai.com/index/gpt-5-6",
+      "source": "OpenAI",
+      "category": "engineering",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "tags": [
+        "performance"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "You can now deploy Lovable apps to Vercel",
+      "summary": "Vercel now supports applications with zero configuration.LovableTo get started, , then to Vercel. Vercel automatically detects the framework () and deploys your app. Once connected, every change you m...",
+      "url": "https://vercel.com/changelog/you-can-now-deploy-lovable-apps-to-vercel",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Build logs now redact Sensitive Environment Variable values",
+      "summary": "When an Environment Variable is marked Sensitive and has a value 32 characters or longer, Vercel now replaces it with in the deployment's build logs.[REDACTED]The Build Logs view also indicates when r...",
+      "url": "https://vercel.com/changelog/build-logs-now-redact-sensitive-environment-variable-values",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Muse Spark 1.1 is now available on AI Gateway",
+      "summary": "Muse Spark 1.1 from Meta is now available on .AI GatewayIt is a multimodal reasoning model with a 1M token context window built for agentic tasks, accepting text, image, video, PDF, and audio inputs.M...",
+      "url": "https://vercel.com/changelog/muse-spark-1-1-is-now-available-on-ai-gateway",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "tags": [
+        "api",
+        "performance",
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "GPT 5.6 Sol, Luna, and Terra now available on AI Gateway",
+      "summary": "GPT 5.6 is now available on in three models: Sol, Terra, and Luna.AI GatewayGPT 5.6 from OpenAI is now available on AI Gateway in a limited preview, across three models: Sol, Terra, and Luna. All thre...",
+      "url": "https://vercel.com/changelog/gpt-5-6-now-available-on-ai-gateway",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-09T00:00:00.000Z",
+      "tags": [
+        "api",
+        "performance",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "id": "github-engineering-aHR0cHM6Ly9n",
+      "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
+      "summary": "&ldquo;Where are the docs?&rdquo; It&rsquo;s a question nobody on a product team enjoys answering. The honest reply is usually some variant of &ldquo;behind.&rdquo; A writer is staring at a closed pul...",
+      "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
+      "source": "GitHub Engineering",
+      "category": "tooling",
+      "publishedAt": "2026-07-08T21:11:56.000Z",
+      "tags": [
+        "automation",
+        "github",
+        "rest",
+        "security",
+        "release",
+        "update",
+        "feature",
+        "bug",
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "Our approach to government and national security partnerships",
+      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-07-08T13:30:00.000Z",
+      "tags": [
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "Separating signal from noise in coding evaluations",
+      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-07-08T13:00:00.000Z",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "Helping K–12 educators build practical AI skills",
+      "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-07-08T10:00:00.000Z",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Introducing the new Vercel Agent",
+      "summary": "Today we're expanding . It started by triaging alerts and reviewing your pull requests. Now it has a home in your dashboard, where it can investigate production, answer questions about your projects, ...",
+      "url": "https://vercel.com/blog/vercel-agent",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-08T06:00:00.000Z",
+      "tags": [
+        "github",
+        "rest",
+        "performance",
+        "security",
+        "update",
+        "feature",
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Grok 4.5 now available on AI Gateway",
+      "summary": "Grok 4.5 from SpaceXAI is now available on .AI GatewayBuilt for coding, knowledge work, and STEM, the model accepts text and image inputs.Grok 4.5 supports low, medium, and high reasoning levels and d...",
+      "url": "https://vercel.com/changelog/grok-4-5-now-available-on-ai-gateway",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "tags": [
+        "api",
+        "performance",
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Update Project Settings from the Vercel CLI",
+      "summary": "You can now update a project's framework preset and build settings directly from the CLI, without opening the dashboard.Run from a linked project, or pass a project name directly:vercel project update...",
+      "url": "https://vercel.com/changelog/update-project-settings-from-the-vercel-cli",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "tags": [
+        "automation",
+        "api",
+        "update",
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Vercel Microfrontends checks for missing configuration",
+      "summary": "The Microfrontends Config Present prevents broken production routing by blocking any default app deployment that is missing its . This appears alongside other , such as lint and typecheck. deployment ...",
+      "url": "https://vercel.com/changelog/vercel-microfrontends-checks-for-missing-configuration",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Flags SDK now evaluates flags 10x faster",
+      "summary": "and now evaluate multiple feature flags in bulk around 10x faster. Flags SDKVercel FlagsFlag evaluation time improved by reducing microtask queue overhead and creating fewer promises. The improvement ...",
+      "url": "https://vercel.com/changelog/flags-sdk-now-evaluates-flags-10x-faster",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "tags": [
+        "feature",
+        "ai"
       ]
     }
   ]
