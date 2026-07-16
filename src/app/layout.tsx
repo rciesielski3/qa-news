@@ -51,12 +51,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: noFlashScript }} />
       </head>
       <body>
-        <Header />
-        <StatsBar />
-        <div className="flex min-h-screen flex-col">
-          <main className="flex-1">{children}</main>
-          <footer className="mx-auto w-full max-w-content px-5 py-16 sm:px-8">
-            <Footer />
+        <div className="page">
+          <Header />
+          <StatsBar />
+          <main>
+            <div className="container">{children}</div>
+          </main>
+          <footer className="site-footer">
+            <div className="container">
+              <Footer />
+            </div>
           </footer>
         </div>
       </body>

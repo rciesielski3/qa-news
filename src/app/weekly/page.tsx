@@ -57,7 +57,7 @@ function WeeklyPageContent() {
 
   return (
     <div className="w-full">
-      <section className="mb-8 px-5 sm:mb-12 sm:px-8">
+      <section className="mb-8 sm:mb-12">
         <DailyBriefCard articles={articles} />
       </section>
 
@@ -78,7 +78,7 @@ function WeeklyPageContent() {
           onClear={() => updateFilters({ ...filters, tags: [] })}
         />
 
-        <div className="px-5 py-6 sm:px-8 sm:py-8">
+        <div className="py-6 sm:py-8">
           <h2 className="mb-4 text-base sm:text-lg font-bold text-paper">
             This Week
           </h2>

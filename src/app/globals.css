@@ -12,32 +12,14 @@
    imported as a second top-level stylesheet from layout.tsx, after this
    file, which reliably places its plain rules last in the cascade. */
 
-@layer base {
-  html {
-    color-scheme: dark;
-  }
-
-  body {
-    @apply bg-ink-900 text-paper antialiased;
-    background-image: radial-gradient(circle at 50% 0%, rgba(62, 207, 142, 0.06), transparent 45%);
-    background-repeat: no-repeat;
-  }
-
-  ::selection {
-    @apply bg-signal-pass/30 text-paper;
-  }
-
-  a {
-    @apply underline decoration-ink-500 underline-offset-4 transition-colors hover:decoration-signal-pass;
-  }
-
-  /* Visible focus ring everywhere, kept subtle but unambiguous */
-  :focus-visible {
-    outline: 2px solid theme('colors.signal.pass');
-    outline-offset: 2px;
-    border-radius: 2px;
-  }
-}
+/* html/body background+text, ::selection, anchor styling, and the focus
+   ring are all owned by theme.css now (token-driven, theme-aware). The old
+   @layer base rules that used to live here (hardcoded color-scheme: dark,
+   bg-ink-900 body background + green radial gradient, signal-pass focus
+   ring) are removed — they either fought the light theme or duplicated
+   what theme.css already does per-token. Components not yet migrated to
+   theme.css (ArticleCard, FilterBar, etc.) keep working: they use Tailwind
+   utility classes generated from tailwind.config.ts, which is untouched. */
 
 @layer utilities {
   .pipeline-rail {
