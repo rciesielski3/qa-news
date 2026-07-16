@@ -4,7 +4,6 @@ import { Suspense, useEffect, useState } from 'react';
 import type { Article, Category } from '@/lib/types';
 import BriefCard from '@/components/BriefCard';
 import FilterBar from '@/components/FilterBar';
-import TagFilterChips from '@/components/TagFilterChips';
 import ArticleList from '@/components/ArticleList';
 import EmptyState from '@/components/EmptyState';
 import { useFiltering } from '@/hooks/useFiltering';
@@ -44,16 +43,6 @@ function MonthlyPageContent() {
   // Monthly Brief is always the first 6 articles, independent of filters.
   const monthlyPickIds = new Set(articles.slice(0, 6).map((article) => article.id));
   const filteredArticles = applyFilters(articles, filters);
-  const hasActiveFilters = Boolean(filters.category) || Boolean(filters.tags && filters.tags.length > 0);
-
-  const handleCategorySelect = (category: Category) => {
-    // Clicking the already-active category clears it (toggle off).
-    if (filters.category === category) {
-      updateFilters({ ...filters, category: undefined });
-    } else {
-      updateFilters({ ...filters, category });
-    }
-  };
 
   return (
     <div className="w-full">
@@ -71,21 +60,30 @@ function MonthlyPageContent() {
       </section>
 
       <section>
-        <FilterBar
-          selectedCategory={filters.category as Category | undefined}
-          hasActiveFilters={hasActiveFilters}
-          articleCount={filteredArticles.length}
-          totalCount={articles.length}
-          onCategorySelect={handleCategorySelect}
-          onClearFilters={clearFilters}
-        />
-
-        <TagFilterChips
-          articles={articles}
-          selectedTags={filters.tags || []}
-          onTagToggle={toggleTag}
-          onClear={() => updateFilters({ ...filters, tags: [] })}
-        />
+        {/* Extract unique tags for tag chips */}
+        {articles.length > 0 && (
+          <FilterBar
+            categories={[
+              { id: 'test-automation' as Category, label: 'Test Automation' },
+              { id: 'qa-practice' as Category, label: 'QA Practice' },
+              { id: 'tooling' as Category, label: 'Tooling' },
+              { id: 'engineering' as Category, label: 'Engineering' },
+              { id: 'ai' as Category, label: 'AI' },
+            ]}
+            availableTags={Array.from(new Set(articles.flatMap((a) => a.tags || []))).sort()}
+            activeFilters={filters}
+            onCategoryChange={(category) => updateFilters({ ...filters, category: category ?? undefined })}
+            onTagChange={(tag, active) => {
+              const newTags = active
+                ? [...(filters.tags || []), tag]
+                : (filters.tags || []).filter((t) => t !== tag);
+              updateFilters({ ...filters, tags: newTags.length > 0 ? newTags : undefined });
+            }}
+            onReset={clearFilters}
+            totalArticles={articles.length}
+            shownArticles={filteredArticles.length}
+          />
+        )}
 
         <div className="py-6 sm:py-8">
           <h2 className="mb-4 text-base sm:text-lg font-bold text-paper">
