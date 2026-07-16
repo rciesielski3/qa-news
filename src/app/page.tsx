@@ -1,18 +1,16 @@
 'use client';
 
 import { Suspense, useEffect, useState } from 'react';
-import type { Article } from '@/lib/types';
+import type { Article, Category } from '@/lib/types';
 import BriefCard from '@/components/BriefCard';
 import FilterBar from '@/components/FilterBar';
 import ArticleList from '@/components/ArticleList';
 import EmptyState from '@/components/EmptyState';
 import { useFiltering } from '@/hooks/useFiltering';
 import { applyFilters } from '@/lib/filtering';
+import { getTodayArticles } from '@/lib/filtering';
 import { CATEGORIES_WITH_LABELS } from '@/lib/styles';
 
-// `useFiltering` reads the URL via `useSearchParams`, which requires a
-// Suspense boundary above it (Next.js App Router requirement, especially
-// relevant for `output: 'export'` static builds).
 function DailyPageContent() {
   const [articles, setArticles] = useState<Article[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -41,19 +39,20 @@ function DailyPageContent() {
     };
   }, []);
 
-  // Daily Brief is always the first 6 articles, independent of filters.
-  const dailyPickIds = new Set(articles.slice(0, 6).map((article) => article.id));
-  const filteredArticles = applyFilters(articles, filters);
+  // Daily Brief is the first 3-4 articles from TODAY ONLY, independent of filters.
+  const todayArticles = getTodayArticles(articles as any) as Article[];
+  const dailyPickIds = new Set(todayArticles.slice(0, 4).map((article) => article.id));
+  const filteredArticles = applyFilters(todayArticles as any, filters) as Article[];
 
   return (
     <div className="w-full">
       <section className="mb-8 sm:mb-12">
         <BriefCard
-          title="Daily Brief — Top Picks"
-          items={articles.slice(0, 6).map((article) => ({
+          title="Today's Top Picks"
+          items={todayArticles.slice(0, 4).map((article) => ({
             id: article.id,
             title: article.title,
-            category: article.category,
+            category: article.category as Category,
             url: article.url,
             isTopPick: dailyPickIds.has(article.id),
           }))}
@@ -62,10 +61,10 @@ function DailyPageContent() {
 
       <section>
         {/* Extract unique tags for tag chips */}
-        {articles.length > 0 && (
+        {todayArticles.length > 0 && (
           <FilterBar
             categories={CATEGORIES_WITH_LABELS}
-            availableTags={Array.from(new Set(articles.flatMap((a) => a.tags || []))).sort()}
+            availableTags={Array.from(new Set(todayArticles.flatMap((a) => a.tags || []))).sort()}
             activeFilters={filters}
             onCategoryChange={(category) => updateFilters({ ...filters, category: category ?? undefined })}
             onTagChange={(tag, active) => {
@@ -75,14 +74,14 @@ function DailyPageContent() {
               updateFilters({ ...filters, tags: newTags.length > 0 ? newTags : undefined });
             }}
             onReset={clearFilters}
-            totalArticles={articles.length}
+            totalArticles={todayArticles.length}
             shownArticles={filteredArticles.length}
           />
         )}
 
         <div className="py-6 sm:py-8">
           <h2 className="section-title">
-            Latest News — All 50 Selected Articles
+            Today's Articles
           </h2>
 
           {isLoading ? (
