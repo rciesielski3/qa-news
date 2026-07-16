@@ -45,10 +45,16 @@
   --surface:   #FFFFFF;
   --surface-2: #F0F0F3;
   --border:    #D9D9E3;
-  --border-strong: #BFBFCC;
+  /* Darkened from #BFBFCC — the previous value read at ~1.8:1 against
+     --surface, well under the 3:1 WCAG AA minimum for UI-component
+     boundaries (1.4.11). #8C8C99 clears 3.3:1 on white and ~3.1:1 on --bg. */
+  --border-strong: #8C8C99;
 
   --text:      #1A1A1F;
-  --text-2:    #666673;
+  /* Darkened from #666673 — that value cleared 4.5:1 but only barely,
+     and sat too close to --text-3 for a clean two-step hierarchy.
+     #55555F reaches ~7.4:1 on white, giving text/-2/-3 clearer separation. */
+  --text-2:    #55555F;
   --text-3:    #99999F;
 
   --accent:    #2563EB;
@@ -78,8 +84,13 @@
    -------------------------------------------------------------------------- */
 
 :root {
-  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  /* --font-sans / --font-mono are intentionally NOT defined here.
+     next/font (layout.tsx) sets them via the Inter/JetBrains_Mono
+     `.variable` classes on <html>, each already carrying its own
+     generated fallback stack. Redeclaring them on :root would collide
+     at equal specificity (both target <html>) and risk clobbering the
+     self-hosted font depending on injection order. If next/font is ever
+     removed, restore a literal fallback stack here. */
 
   --container: 880px;
   --radius: 8px;

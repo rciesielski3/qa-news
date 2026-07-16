@@ -1,20 +1,23 @@
 import type { Metadata } from 'next';
-
-// Self-hosted via @fontsource (npm packages, not a Google Fonts network
-// fetch). This keeps the build reproducible on any CI runner, including
-// ones without outbound access to fonts.googleapis.com.
-import '@fontsource/ibm-plex-serif/500.css';
-import '@fontsource/ibm-plex-serif/600.css';
-import '@fontsource/ibm-plex-sans/400.css';
-import '@fontsource/ibm-plex-sans/500.css';
-import '@fontsource/ibm-plex-sans/600.css';
-import '@fontsource/ibm-plex-mono/400.css';
-import '@fontsource/ibm-plex-mono/500.css';
+import { Inter, JetBrains_Mono } from 'next/font/google';
 
 import './globals.css';
+import './theme.css';
 import Header from '@/components/Header';
 import StatsBar from '@/components/StatsBar';
 import Footer from '@/components/Footer';
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-sans',
+  display: 'swap',
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  variable: '--font-mono',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'QA News — curated by PAIOS',
@@ -34,9 +37,19 @@ export const metadata: Metadata = {
   },
 };
 
+// Runs before any paint. Reads the saved preference (or falls back to the
+// OS-level light/dark hint) and stamps data-theme on <html> synchronously,
+// so the very first frame already matches the user's theme — no flash.
+const noFlashScript = `(function(){try{var t=localStorage.getItem("qa-news-theme");if(!t){t=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"}document.documentElement.setAttribute("data-theme",t)}catch(e){document.documentElement.setAttribute("data-theme","dark")}})();`;
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
+      <head>
+        {/* Must run before hydration; suppressHydrationWarning on <html>
+            above tolerates the data-theme attribute this script adds. */}
+        <script dangerouslySetInnerHTML={{ __html: noFlashScript }} />
+      </head>
       <body className="font-sans">
         <Header />
         <StatsBar />

@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* theme.css is intentionally NOT @import'd here. Verified empirically:
+   Tailwind's @layer base block below gets flushed into the compiled
+   output AFTER a same-file @import (regardless of the @import's textual
+   position relative to @tailwind base/components/utilities), so an
+   in-file @import would let the old hardcoded dark body{} rule below
+   keep beating theme.css's var(--bg)/var(--text) rule at equal
+   specificity — silently breaking the light theme. Instead, theme.css is
+   imported as a second top-level stylesheet from layout.tsx, after this
+   file, which reliably places its plain rules last in the cascade. */
+
 @layer base {
   html {
     color-scheme: dark;
