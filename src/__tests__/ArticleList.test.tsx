@@ -9,7 +9,7 @@ function makeArticles(prefix: string, count: number): Article[] {
     title: `${prefix} article ${i + 1}`,
     url: `https://example.com/${prefix}-${i + 1}`,
     source: 'Example',
-    category: 'test-automation',
+    category: 'test-automation' as const,
     publishedAt: '2026-07-16T00:00:00Z',
   }));
 }
@@ -124,7 +124,7 @@ describe('Load More button styling', () => {
       title: `Article ${i + 1}`,
       url: `https://example.com/${i + 1}`,
       source: 'Example',
-      category: 'test-automation',
+      category: 'test-automation' as const,
       publishedAt: '2026-07-16T00:00:00Z',
     }));
     render(<ArticleList articles={articles} />);
@@ -140,7 +140,7 @@ describe('Load More button styling', () => {
       title: `Article ${i + 1}`,
       url: `https://example.com/${i + 1}`,
       source: 'Example',
-      category: 'test-automation',
+      category: 'test-automation' as const,
       publishedAt: '2026-07-16T00:00:00Z',
     }));
     render(<ArticleList articles={articles} />);
@@ -155,7 +155,7 @@ describe('Load More button styling', () => {
       title: `Article ${i + 1}`,
       url: `https://example.com/${i + 1}`,
       source: 'Example',
-      category: 'test-automation',
+      category: 'test-automation' as const,
       publishedAt: '2026-07-16T00:00:00Z',
     }));
     render(<ArticleList articles={articles} />);
@@ -171,7 +171,7 @@ describe('Load More button styling', () => {
       title: `Article ${i + 1}`,
       url: `https://example.com/${i + 1}`,
       source: 'Example',
-      category: 'test-automation',
+      category: 'test-automation' as const,
       publishedAt: '2026-07-16T00:00:00Z',
     }));
     render(<ArticleList articles={articles} />);
@@ -187,7 +187,7 @@ describe('Load More button styling', () => {
       title: `Article ${i + 1}`,
       url: `https://example.com/${i + 1}`,
       source: 'Example',
-      category: 'test-automation',
+      category: 'test-automation' as const,
       publishedAt: '2026-07-16T00:00:00Z',
     }));
     render(<ArticleList articles={articles} />);
