@@ -1,42 +1,23 @@
 'use client';
 
-import { Suspense, useEffect, useState } from 'react';
+import { Suspense } from 'react';
 import type { Article } from '@/lib/types';
 import TopPickCard from '@/components/TopPickCard';
+import SkeletonTopPickCard from '@/components/SkeletonTopPickCard';
+import SkeletonPipelineEntry from '@/components/SkeletonPipelineEntry';
 import FilterBar from '@/components/FilterBar';
 import ArticleList from '@/components/ArticleList';
 import EmptyState from '@/components/EmptyState';
+import RefreshIndicator from '@/components/RefreshIndicator';
 import { useFiltering } from '@/hooks/useFiltering';
+import { useArticleData } from '@/hooks/useArticleData';
 import { applyFilters } from '@/lib/filtering';
 import { getTodayArticles } from '@/lib/filtering';
 import { CATEGORIES_WITH_LABELS } from '@/lib/styles';
 
 function DailyPageContent() {
-  const [articles, setArticles] = useState<Article[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const { articles, isLoading, isUsingFallback } = useArticleData();
   const { filters, updateFilters, clearFilters } = useFiltering();
-
-  useEffect(() => {
-    let cancelled = false;
-
-    fetch('/latest.json')
-      .then((res) => res.json())
-      .then((data: { articles: Article[] }) => {
-        if (!cancelled) {
-          setArticles(data.articles ?? []);
-        }
-      })
-      .catch(() => {
-        // Empty on error
-      })
-      .finally(() => {
-        if (!cancelled) setIsLoading(false);
-      });
-
-    return () => {
-      cancelled = true;
-    };
-  }, []);
 
   const todayArticles = getTodayArticles(articles);
   const topPickArticles = todayArticles.slice(0, 3);
@@ -45,10 +26,26 @@ function DailyPageContent() {
 
   return (
     <div className="w-full space-y-8">
+      {/* Refresh Status */}
+      <RefreshIndicator />
+
+      {/* Fallback Indicator */}
+      {isUsingFallback && (
+        <div className="bg-amber-50 dark:bg-amber-950 border border-amber-200 dark:border-amber-700 rounded px-4 py-3 text-sm text-amber-800 dark:text-amber-200">
+          Showing yesterday's articles. Today's refresh coming at 05:00 UTC.
+        </div>
+      )}
+
       {/* Top Picks Brief */}
       <section>
         <h2 className="section-title mb-4">Today's Top Picks</h2>
-        {topPickArticles.length > 0 ? (
+        {isLoading ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <SkeletonTopPickCard />
+            <SkeletonTopPickCard />
+            <SkeletonTopPickCard />
+          </div>
+        ) : topPickArticles.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {topPickArticles.map((article, i) => (
               <TopPickCard key={article.id} article={article} rank={i + 1} />
@@ -78,11 +75,18 @@ function DailyPageContent() {
         />
       </section>
 
-      {/* Paginated Article List */}
+      {/* Article List with Load More */}
       <section>
         <h2 className="section-title mb-4">All Today's Articles</h2>
         {isLoading ? (
-          <p className="text-paper-muted">Loading articles…</p>
+          <ul className="space-y-1">
+            <SkeletonPipelineEntry />
+            <SkeletonPipelineEntry />
+            <SkeletonPipelineEntry />
+            <SkeletonPipelineEntry />
+            <SkeletonPipelineEntry />
+            <SkeletonPipelineEntry />
+          </ul>
         ) : filteredArticles.length > 0 ? (
           <ArticleList articles={filteredArticles} topPickIds={topPickIds} />
         ) : (
