@@ -26,7 +26,7 @@ const faqs = [
   {
     question: 'Can I request sources?',
     answer:
-      'Not yet — this is a planned feature. For now, the 5 feeds are carefully curated for quality and relevance. We focus on maintaining high editorial standards over feed quantity.',
+      'Not yet - this is a planned feature. For now, the 5 feeds are carefully curated for quality and relevance. We focus on maintaining high editorial standards over feed quantity.',
   },
 ];
 

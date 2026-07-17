@@ -19,7 +19,7 @@ export default function AboutPage() {
         <section className="mb-12 sm:mb-16 border-l-4 border-blue-500 dark:border-blue-400 bg-blue-50 dark:bg-blue-950 px-4 py-6 sm:py-8 rounded">
           <h2 className="section-title">What Is QA News</h2>
           <p className="prose mt-2">
-            QA News is a read-only view over the PAIOS Knowledge Layer — a daily digest built specifically for QA
+            QA News is a read-only view over the PAIOS Knowledge Layer - a daily digest built specifically for QA
             engineers, test automation practitioners, and quality-focused engineering teams. Instead of scrolling
             through dozens of feeds and newsletters, you get a single curated stream: the handful of articles each
             day that are actually worth your time.
