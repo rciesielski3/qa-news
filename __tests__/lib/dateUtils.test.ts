@@ -39,8 +39,13 @@ describe('dateUtils', () => {
     expect(todayArticles.map(a => a.id)).toContain('3');
   });
 
-  it('isDayBeforeRefreshTime returns boolean', () => {
+  it('isDayBeforeRefreshTime correctly identifies time windows', () => {
     const result = isDayBeforeRefreshTime();
     expect(typeof result).toBe('boolean');
+
+    // Validate logic: returns true before 05:00 UTC, false after
+    const now = new Date();
+    const isBeforeFive = now.getUTCHours() < 5;
+    expect(result).toBe(isBeforeFive);
   });
 });
