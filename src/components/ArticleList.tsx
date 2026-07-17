@@ -35,11 +35,14 @@ export default function ArticleList({ articles, topPickIds }: ArticleListProps) 
   const validPageNumber = clampPageNumber(pageNumber, totalPages);
   const pageArticles = paginateArticles(listArticles, validPageNumber, articlesPerPage);
 
+  // Generate signature from article IDs to detect content changes (not just length)
+  const articleIdsSignature = listArticles.map((a) => a.id).join(',');
+
   // Reset to page 1 whenever the result set or page size changes, so
   // Previous/Next disabled logic never operates on a stale page number.
   useEffect(() => {
     setPageNumber(1);
-  }, [listArticles.length, articlesPerPage]);
+  }, [articleIdsSignature, articlesPerPage]);
 
   if (listArticles.length === 0) {
     return <p className="text-ink-600 dark:text-paper-muted">No articles found.</p>;
