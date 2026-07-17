@@ -5,7 +5,7 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="w-full px-5 py-8 sm:px-8 sm:py-12">
+    <div className="w-full px-5 py-8 sm:px-8 sm:py-12 bg-gradient-to-br from-paper to-ink-50 dark:from-ink-900 dark:to-ink-800">
         <div className="mx-auto max-w-content">
           {/* Hero Section */}
           <section className="mb-12 sm:mb-16 text-center">
@@ -14,7 +14,7 @@ export default function AboutPage() {
           </section>
 
           {/* Pipeline Visualization */}
-          <section className="mb-12 sm:mb-16">
+          <section className="mb-12 sm:mb-16 border-l-4 border-cyan-500 dark:border-cyan-400 bg-cyan-50 dark:bg-cyan-950 px-4 py-2 rounded">
             <h2 className="section-title">The Curation Pipeline</h2>
             <div className="pipeline">
               {[
@@ -49,7 +49,7 @@ export default function AboutPage() {
           </section>
 
           {/* Key Metrics */}
-          <section className="mb-12 sm:mb-16">
+          <section className="mb-12 sm:mb-16 border-l-4 border-purple-500 dark:border-purple-400 bg-purple-50 dark:bg-purple-950 px-4 py-2 rounded">
             <h2 className="section-title">Key Metrics</h2>
             <div className="metrics">
               <div className="metric-card">
