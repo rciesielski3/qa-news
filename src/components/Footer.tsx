@@ -11,7 +11,7 @@ export default function Footer() {
         © {currentYear} Adateo Rafał Ciesielski
       </p>
       <p className="text-xs text-ink-600 dark:text-ink-400 pt-4 border-t border-ink-200 dark:border-ink-700 mt-4">
-        <a href="mailto:feedback@qa-news.com" className="hover:text-ink-900 dark:hover:text-ink-200 underline">
+        <a href="https://rciesielski.dev/contact" target="_blank" rel="noopener noreferrer" className="hover:text-ink-900 dark:hover:text-ink-200 underline">
           Suggest improvements
         </a>
       </p>
