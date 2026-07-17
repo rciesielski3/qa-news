@@ -17,7 +17,7 @@ export default function TopPickCard({ article, rank }: TopPickCardProps) {
         <span className={`font-mono text-xs uppercase tracking-widest ${categoryTextColorClass(article.category)}`}>
           {getCategoryLabel(article.category)}
         </span>
-        <span className="ml-auto text-xs font-mono uppercase tracking-widest text-ink-500 border border-ink-200 px-2 py-1 rounded dark:text-paper-faint dark:border-ink-600">
+        <span className={`ml-auto text-xs font-mono uppercase tracking-widest px-2 py-1 rounded ${categoryBgColorClass(article.category)} ${categoryTextColorClass(article.category)} border-current`}>
           Top Pick
         </span>
       </div>
