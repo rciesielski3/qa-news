@@ -160,7 +160,9 @@ export default function HowItWorksPage() {
         <section className="border-l-4 border-green-500 dark:border-green-400 bg-green-50 dark:bg-green-950 px-4 py-8 sm:py-12 rounded">
           <div className="section-content-wrapper">
             <h2 className="section-title">Frequently Asked Questions</h2>
-            <FAQAccordion />
+            <div className="w-full px-4 sm:px-6 -mx-4 sm:-mx-6">
+              <FAQAccordion />
+            </div>
           </div>
         </section>
       </div>
