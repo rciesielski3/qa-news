@@ -61,23 +61,21 @@ function DailyPageContent() {
 
       {/* Filters */}
       <section>
-        {todayArticles.length > 0 && (
-          <FilterBar
-            categories={CATEGORIES_WITH_LABELS}
-            availableTags={Array.from(new Set(todayArticles.flatMap((a) => a.tags || []))).sort()}
-            activeFilters={filters}
-            onCategoryChange={(category) => updateFilters({ ...filters, category: category ?? undefined })}
-            onTagChange={(tag, active) => {
-              const newTags = active
-                ? [...(filters.tags || []), tag]
-                : (filters.tags || []).filter((t) => t !== tag);
-              updateFilters({ ...filters, tags: newTags.length > 0 ? newTags : undefined });
-            }}
-            onReset={clearFilters}
-            totalArticles={todayArticles.length}
-            shownArticles={filteredArticles.length}
-          />
-        )}
+        <FilterBar
+          categories={CATEGORIES_WITH_LABELS}
+          availableTags={todayArticles.length > 0 ? Array.from(new Set(todayArticles.flatMap((a) => a.tags || []))).sort() : []}
+          activeFilters={filters}
+          onCategoryChange={(category) => updateFilters({ ...filters, category: category ?? undefined })}
+          onTagChange={(tag, active) => {
+            const newTags = active
+              ? [...(filters.tags || []), tag]
+              : (filters.tags || []).filter((t) => t !== tag);
+            updateFilters({ ...filters, tags: newTags.length > 0 ? newTags : undefined });
+          }}
+          onReset={clearFilters}
+          totalArticles={todayArticles.length}
+          shownArticles={filteredArticles.length}
+        />
       </section>
 
       {/* Paginated Article List */}
