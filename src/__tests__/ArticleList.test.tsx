@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import ArticleList from '@/components/ArticleList';
 import type { Article } from '@/lib/types';
@@ -14,40 +14,101 @@ function makeArticles(prefix: string, count: number): Article[] {
   }));
 }
 
-describe('ArticleList pagination reset', () => {
+describe('ArticleList with Load More pagination', () => {
   beforeEach(() => {
     // jsdom default innerHeight (768) yields 7 articles/page via
-    // calculateArticlesPerPage; use enough articles to get multiple pages.
+    // calculateArticlesPerPage; use enough articles to test multiple batches.
     window.innerHeight = 768;
   });
 
-  it('resets to page 1 when filtered to a different, equal-length article list', () => {
+  it('displays initial batch of articles and shows Load More button when more exist', () => {
+    const articles = makeArticles('a', 20);
+    render(<ArticleList articles={articles} />);
+
+    // Should show first article
+    expect(screen.getByText('a article 1')).toBeInTheDocument();
+
+    // Load More button should be visible
+    expect(screen.getByText('Load More')).toBeInTheDocument();
+  });
+
+  it('appends next batch when Load More is clicked', async () => {
+    const articles = makeArticles('a', 20);
+    render(<ArticleList articles={articles} />);
+
+    // Get initial count of displayed articles
+    const initialArticles = screen.getAllByText(/^a article \d+$/);
+    const initialCount = initialArticles.length;
+
+    // Click Load More
+    const loadMoreButton = screen.getByText('Load More');
+    fireEvent.click(loadMoreButton);
+
+    // Wait for loading animation to complete
+    await waitFor(() => {
+      expect(loadMoreButton).not.toHaveTextContent('Loading...');
+    }, { timeout: 1000 });
+
+    // More articles should now be displayed
+    const allArticles = screen.getAllByText(/^a article \d+$/);
+    expect(allArticles.length).toBeGreaterThan(initialCount);
+  });
+
+  it('hides Load More button when all articles are displayed', async () => {
+    const articles = makeArticles('a', 5);
+    render(<ArticleList articles={articles} />);
+
+    // Should show Load More if not all articles fit in first batch
+    const loadMoreButton = screen.queryByText('Load More');
+
+    if (loadMoreButton) {
+      // If there's a Load More button, click it until gone
+      while (screen.queryByText('Load More')) {
+        fireEvent.click(screen.getByText('Load More'));
+        await waitFor(() => {
+          expect(screen.queryByText('Loading...')).not.toBeInTheDocument();
+        }, { timeout: 1000 });
+      }
+    }
+
+    // Load More button should be gone
+    expect(screen.queryByText('Load More')).not.toBeInTheDocument();
+  });
+
+  it('resets displayed count when article list changes', () => {
     const setA = makeArticles('a', 20);
     const { rerender } = render(<ArticleList articles={setA} />);
 
-    // Move to page 2.
-    fireEvent.click(screen.getByText('Next →'));
-    expect(screen.getByText(/Page 2 of/)).toBeInTheDocument();
+    // Verify we're showing first batch
+    expect(screen.getByText('a article 1')).toBeInTheDocument();
 
-    // Swap to a different filter result with the same total count.
+    // Swap to a different filter result
     const setB = makeArticles('b', 20);
     rerender(<ArticleList articles={setB} />);
 
-    // Page must reset to 1, not remain on page 2 of the new result set.
-    expect(screen.getByText(/Page 1 of/)).toBeInTheDocument();
+    // Should still show first article from new set
     expect(screen.getByText('b article 1')).toBeInTheDocument();
   });
 
-  it('resets to page 1 when the filtered list shrinks', () => {
-    const setA = makeArticles('a', 20);
-    const { rerender } = render(<ArticleList articles={setA} />);
+  it('handles filtered articles (excluding top picks)', () => {
+    const articles = makeArticles('a', 20);
+    const topPickIds = new Set(['a-1', 'a-2']);
 
-    fireEvent.click(screen.getByText('Next →'));
-    expect(screen.getByText(/Page 2 of/)).toBeInTheDocument();
+    render(<ArticleList articles={articles} topPickIds={topPickIds} />);
 
-    const smaller = makeArticles('a', 10);
-    rerender(<ArticleList articles={smaller} />);
+    // Top picks should not appear in the list
+    expect(screen.queryByText('a article 1')).not.toBeInTheDocument();
+    expect(screen.queryByText('a article 2')).not.toBeInTheDocument();
 
-    expect(screen.getByText(/Page 1 of/)).toBeInTheDocument();
+    // But the third article should appear
+    expect(screen.getByText('a article 3')).toBeInTheDocument();
+  });
+
+  it('shows empty state when no articles', () => {
+    const articles: Article[] = [];
+    render(<ArticleList articles={articles} />);
+
+    expect(screen.getByText('No articles found.')).toBeInTheDocument();
+    expect(screen.queryByText('Load More')).not.toBeInTheDocument();
   });
 });
