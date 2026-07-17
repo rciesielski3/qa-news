@@ -101,4 +101,75 @@ describe('TopPickCard', () => {
     const star = screen.getByText('★');
     expect(star).toHaveClass('text-orange-600', 'dark:text-orange-400');
   });
+
+  it('shows subtitle when present, summary otherwise', () => {
+    const articleWithSubtitle: Article = {
+      id: 'test-1',
+      title: 'Test Title',
+      subtitle: 'This is a subtitle',
+      summary: 'This is a summary that should not be shown',
+      url: 'https://example.com',
+      category: 'test-automation' as const,
+      source: 'Test Source',
+      publishedAt: '2026-07-17T00:00:00Z',
+    };
+
+    const { rerender } = render(<TopPickCard article={articleWithSubtitle} rank={1} />);
+
+    // Verify subtitle is shown
+    expect(screen.getByText('This is a subtitle')).toBeInTheDocument();
+
+    // Verify summary is NOT shown
+    expect(screen.queryByText('This is a summary that should not be shown')).not.toBeInTheDocument();
+
+    // Test without subtitle, with summary
+    const articleWithSummaryOnly: Article = {
+      id: 'test-2',
+      title: 'Test Title 2',
+      summary: 'This is a summary',
+      url: 'https://example.com',
+      category: 'ai' as const,
+      source: 'Test Source',
+      publishedAt: '2026-07-17T00:00:00Z',
+    };
+
+    rerender(<TopPickCard article={articleWithSummaryOnly} rank={1} />);
+
+    // Verify summary is shown
+    expect(screen.getByText('This is a summary')).toBeInTheDocument();
+  });
+
+  it('truncates subtitle with line-clamp-2', () => {
+    const article: Article = {
+      id: 'test-1',
+      title: 'Test Title',
+      subtitle: 'Long subtitle text that may wrap to multiple lines',
+      url: 'https://example.com',
+      category: 'test-automation' as const,
+      source: 'Test Source',
+      publishedAt: '2026-07-17T00:00:00Z',
+    };
+
+    render(<TopPickCard article={article} rank={1} />);
+
+    const subtitle = screen.getByText('Long subtitle text that may wrap to multiple lines');
+    expect(subtitle).toHaveClass('line-clamp-2');
+  });
+
+  it('truncates summary with line-clamp-3', () => {
+    const article: Article = {
+      id: 'test-1',
+      title: 'Test Title',
+      summary: 'Long summary text that spans multiple lines with lots of detail',
+      url: 'https://example.com',
+      category: 'engineering' as const,
+      source: 'Test Source',
+      publishedAt: '2026-07-17T00:00:00Z',
+    };
+
+    render(<TopPickCard article={article} rank={1} />);
+
+    const summary = screen.getByText('Long summary text that spans multiple lines with lots of detail');
+    expect(summary).toHaveClass('line-clamp-3');
+  });
 });
