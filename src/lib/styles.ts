@@ -86,6 +86,39 @@ export function categoryBgColorClassDark(category: Category): string {
   return darkMap[category];
 }
 
+export function bgColorLight(color: 'cyan' | 'green' | 'purple' | 'orange' | 'blue'): string {
+  const map: Record<string, string> = {
+    'cyan': 'bg-cyan-50',
+    'green': 'bg-green-50',
+    'purple': 'bg-purple-50',
+    'orange': 'bg-orange-50',
+    'blue': 'bg-blue-50',
+  };
+  return map[color];
+}
+
+export function bgColorLightDark(color: 'cyan' | 'green' | 'purple' | 'orange' | 'blue'): string {
+  const map: Record<string, string> = {
+    'cyan': 'dark:bg-cyan-900',
+    'green': 'dark:bg-green-900',
+    'purple': 'dark:bg-purple-900',
+    'orange': 'dark:bg-orange-900',
+    'blue': 'dark:bg-blue-900',
+  };
+  return map[color];
+}
+
+export function getCategoryColorName(category: Category): 'cyan' | 'green' | 'purple' | 'orange' | 'blue' {
+  const colorMap: Record<Category, 'cyan' | 'green' | 'purple' | 'orange' | 'blue'> = {
+    'ai': 'cyan',
+    'engineering': 'green',
+    'qa-practice': 'purple',
+    'tooling': 'orange',
+    'test-automation': 'blue',
+  };
+  return colorMap[category];
+}
+
 export const CATEGORY_LABELS: Record<Category, string> = {
   'test-automation': 'Test Automation',
   'qa-practice': 'QA Practice',
