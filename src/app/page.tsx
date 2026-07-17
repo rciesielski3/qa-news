@@ -38,7 +38,7 @@ function DailyPageContent() {
 
       {/* Top Picks Brief */}
       <section className="py-5">
-        <h2 className="section-title mb-4 py-3">Today's Top Picks</h2>
+        <h2 className="section-title mb-4 py-5">Today's Top Picks</h2>
         {isLoading ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 content-center">
             <SkeletonTopPickCard />
