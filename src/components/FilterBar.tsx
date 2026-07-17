@@ -25,9 +25,9 @@ export default function FilterBar({
 }: FilterBarProps) {
 
   return (
-    <div className="filters">
+    <div className="filters p-3 border border-ink-200 dark:border-ink-600 rounded">
       {/* Category chips row */}
-      <div className="chip-row">
+      <div className="chip-row items-center">
         <span className="filters-label">Filter by category</span>
         {categories.map((cat) => (
           <button

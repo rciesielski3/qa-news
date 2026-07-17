@@ -47,7 +47,7 @@ function MonthlyPageContent() {
     <div className="w-full space-y-8">
       {/* Top Picks Brief */}
       <section>
-        <h2 className="section-title mb-4">This Month's Top Picks</h2>
+        <h2 className="section-title mb-4 py-3">This Month's Top Picks</h2>
         {topPickArticles.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {topPickArticles.map((article, i) => (

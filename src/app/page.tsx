@@ -38,15 +38,15 @@ function DailyPageContent() {
 
       {/* Top Picks Brief */}
       <section>
-        <h2 className="section-title mb-4">Today's Top Picks</h2>
+        <h2 className="section-title mb-4 py-3">Today's Top Picks</h2>
         {isLoading ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 content-center">
             <SkeletonTopPickCard />
             <SkeletonTopPickCard />
             <SkeletonTopPickCard />
           </div>
         ) : topPickArticles.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 content-center">
             {topPickArticles.map((article, i) => (
               <TopPickCard key={article.id} article={article} rank={i + 1} />
             ))}

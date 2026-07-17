@@ -1,5 +1,5 @@
 import type { Article } from '@/lib/types';
-import { getCategoryLabel, categoryTextColorClass, categoryBgColorClass, categoryBgColorClassDark, bgColorLight, bgColorLightDark, getCategoryColorName } from '@/lib/styles';
+import { getCategoryLabel, categoryTextColorClass, categoryBgColorClass, categoryBgColorDarkInverted, categoryTextColorDarkInverted, getCategoryColorName } from '@/lib/styles';
 
 interface TopPickCardProps {
   article: Article;
@@ -8,9 +8,9 @@ interface TopPickCardProps {
 
 export default function TopPickCard({ article, rank }: TopPickCardProps) {
   return (
-    <div className="rounded-lg border border-ink-200 bg-paper p-6 dark:bg-ink-800 dark:border-ink-600">
+    <div className="flex flex-col items-start justify-center rounded-lg border border-ink-200 bg-paper p-6 dark:bg-ink-800 dark:border-ink-600">
       {/* Header: rank, category, top pick badge */}
-      <div className="flex items-center gap-3 mb-4">
+      <div className="flex items-center justify-start gap-3 mb-4 w-full">
         <span className="flex h-8 w-8 items-center justify-center rounded-full bg-ink-100 font-mono text-sm font-bold text-ink-800 dark:bg-ink-600 dark:text-paper">
           {rank}
         </span>
@@ -23,20 +23,20 @@ export default function TopPickCard({ article, rank }: TopPickCardProps) {
       </div>
 
       {/* Title */}
-      <h3 className="font-serif text-xl font-semibold leading-tight text-ink-800 mb-2 dark:text-paper">
+      <h3 className="font-serif text-xl font-semibold leading-tight text-ink-800 mb-2 dark:text-paper w-full">
         {article.title}
       </h3>
 
       {/* Subtitle */}
       {article.subtitle && (
-        <p className="text-sm text-ink-600 mb-3 dark:text-paper-muted">
+        <p className="text-sm text-ink-600 mb-3 dark:text-paper-muted w-full">
           {article.subtitle}
         </p>
       )}
 
       {/* Summary */}
       {article.summary && (
-        <p className="text-sm leading-relaxed text-ink-600 mb-4 dark:text-paper-muted">
+        <p className="text-sm leading-relaxed text-ink-600 mb-4 dark:text-paper-muted w-full">
           {article.summary}
         </p>
       )}
@@ -46,7 +46,7 @@ export default function TopPickCard({ article, rank }: TopPickCardProps) {
         href={article.url}
         target="_blank"
         rel="noreferrer"
-        className={`inline-flex items-center justify-center rounded px-4 py-2 font-mono text-xs uppercase tracking-widest no-underline transition-opacity ${categoryBgColorClass(article.category)} ${categoryBgColorClassDark(article.category)} ${categoryTextColorClass(article.category)} ${bgColorLight(getCategoryColorName(article.category))} ${bgColorLightDark(getCategoryColorName(article.category))} hover:opacity-90`}
+        className={`inline-flex items-center justify-center rounded h-8 px-4 font-mono text-xs uppercase tracking-widest no-underline transition-opacity ${categoryBgColorClass(article.category)} ${categoryBgColorDarkInverted(article.category)} ${categoryTextColorClass(article.category)} ${categoryTextColorDarkInverted(article.category)} hover:opacity-90`}
       >
         Read Article →
       </a>

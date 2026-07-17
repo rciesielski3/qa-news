@@ -14,7 +14,7 @@ export const CATEGORY_COLORS: Record<string, {
     text: '#0369A1',         // dark blue for labels, readable text
     bg: '#F0F9FF',           // very light blue for backgrounds
     brightClass: 'bg-blue-400',
-    textClass: 'text-blue-900',
+    textClass: 'text-blue-800',
     bgClass: 'bg-blue-50',
   },
   'qa-practice': {
@@ -22,7 +22,7 @@ export const CATEGORY_COLORS: Record<string, {
     text: '#6B21A8',
     bg: '#FAF5FF',
     brightClass: 'bg-purple-400',
-    textClass: 'text-purple-900',
+    textClass: 'text-purple-800',
     bgClass: 'bg-purple-50',
   },
   'tooling': {
@@ -30,7 +30,7 @@ export const CATEGORY_COLORS: Record<string, {
     text: '#92400E',
     bg: '#FEF3C7',
     brightClass: 'bg-orange-400',
-    textClass: 'text-orange-900',
+    textClass: 'text-orange-800',
     bgClass: 'bg-orange-50',
   },
   'engineering': {
@@ -38,7 +38,7 @@ export const CATEGORY_COLORS: Record<string, {
     text: '#065F46',
     bg: '#F0FDF4',
     brightClass: 'bg-green-400',
-    textClass: 'text-green-900',
+    textClass: 'text-green-800',
     bgClass: 'bg-green-50',
   },
   'ai': {
@@ -46,7 +46,7 @@ export const CATEGORY_COLORS: Record<string, {
     text: '#155E75',
     bg: '#F0F9FA',
     brightClass: 'bg-cyan-400',
-    textClass: 'text-cyan-900',
+    textClass: 'text-cyan-800',
     bgClass: 'bg-cyan-50',
   },
 }
@@ -86,6 +86,28 @@ export function categoryBgColorClassDark(category: Category): string {
   return darkMap[category];
 }
 
+export function categoryBgColorDarkInverted(category: Category): string {
+  const darkMap: Record<Category, string> = {
+    'ai': 'dark:bg-cyan-800',
+    'engineering': 'dark:bg-green-800',
+    'qa-practice': 'dark:bg-purple-800',
+    'tooling': 'dark:bg-orange-800',
+    'test-automation': 'dark:bg-blue-800',
+  };
+  return darkMap[category];
+}
+
+export function categoryTextColorDarkInverted(category: Category): string {
+  const darkMap: Record<Category, string> = {
+    'ai': 'dark:text-cyan-100',
+    'engineering': 'dark:text-green-100',
+    'qa-practice': 'dark:text-purple-100',
+    'tooling': 'dark:text-orange-100',
+    'test-automation': 'dark:text-blue-100',
+  };
+  return darkMap[category];
+}
+
 export function bgColorLight(color: 'cyan' | 'green' | 'purple' | 'orange' | 'blue'): string {
   const map: Record<string, string> = {
     'cyan': 'bg-cyan-50',
@@ -99,11 +121,11 @@ export function bgColorLight(color: 'cyan' | 'green' | 'purple' | 'orange' | 'bl
 
 export function bgColorLightDark(color: 'cyan' | 'green' | 'purple' | 'orange' | 'blue'): string {
   const map: Record<string, string> = {
-    'cyan': 'dark:bg-cyan-900',
-    'green': 'dark:bg-green-900',
-    'purple': 'dark:bg-purple-900',
-    'orange': 'dark:bg-orange-900',
-    'blue': 'dark:bg-blue-900',
+    'cyan': 'dark:bg-cyan-100',
+    'green': 'dark:bg-green-100',
+    'purple': 'dark:bg-purple-100',
+    'orange': 'dark:bg-orange-100',
+    'blue': 'dark:bg-blue-100',
   };
   return map[color];
 }

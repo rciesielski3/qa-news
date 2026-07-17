@@ -8,6 +8,7 @@ export type Category = 'test-automation' | 'ai' | 'engineering' | 'qa-practice' 
 export interface Article {
   id: string;
   title: string;
+  description?: string;
   subtitle?: string;
   summary?: string;
   url: string;
