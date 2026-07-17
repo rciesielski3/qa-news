@@ -1,5 +1,5 @@
 import type { Article } from '@/lib/types';
-import { getCategoryLabel, categoryTextColorClass, categoryBgColorClass, categoryBgColorClassDark } from '@/lib/styles';
+import { getCategoryLabel, categoryTextColorClass, categoryBgColorClass } from '@/lib/styles';
 
 interface TopPickCardProps {
   article: Article;
@@ -46,7 +46,7 @@ export default function TopPickCard({ article, rank }: TopPickCardProps) {
         href={article.url}
         target="_blank"
         rel="noreferrer"
-        className={`inline-flex items-center justify-center rounded px-4 py-2 font-mono text-xs uppercase tracking-widest no-underline transition-opacity ${categoryBgColorClass(article.category)} ${categoryBgColorClassDark(article.category)} ${categoryTextColorClass(article.category)} hover:opacity-90`}
+        className={`inline-flex items-center justify-center rounded px-4 py-2 font-mono text-xs uppercase tracking-widest no-underline transition-opacity ${categoryBgColorClass(article.category)} ${categoryTextColorClass(article.category)} hover:opacity-90`}
       >
         Read Article →
       </a>
