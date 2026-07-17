@@ -89,7 +89,7 @@ export default function HowItWorksPage() {
         </section>
 
         {/* Scoring Factors */}
-        <section className="mb-12 sm:mb-16 border-l-4 border-orange-500 dark:border-orange-400 bg-orange-50 dark:bg-orange-950 px-4 py-6 sm:py-8 rounded">
+        <section className="mb-12 sm:mb-16">
           <h2 className="section-title">Scoring Factors</h2>
           <div className="space-y-4">
             <div>
@@ -123,7 +123,7 @@ export default function HowItWorksPage() {
         </section>
 
         {/* Under the Hood */}
-        <section className="mb-12 sm:mb-16 border-l-4 border-yellow-500 dark:border-yellow-400 bg-yellow-50 dark:bg-yellow-950 px-4 py-6 sm:py-8 rounded">
+        <section className="mb-12 sm:mb-16">
           <h2 className="section-title">Under the Hood</h2>
           <ul className="prose space-y-4">
             <li>
