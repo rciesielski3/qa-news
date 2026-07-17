@@ -42,7 +42,7 @@ export function useArticleData(): UseArticleDataResult {
         }
 
         // Otherwise use today's articles (or empty if none)
-        setArticles(todayArticles.length > 0 ? todayArticles : allArticles);
+        setArticles(todayArticles);
         setIsUsingFallback(false);
         setIsLoading(false);
       } catch (error) {

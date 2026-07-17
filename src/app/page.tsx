@@ -19,7 +19,7 @@ function DailyPageContent() {
   const { articles, isLoading, isUsingFallback } = useArticleData();
   const { filters, updateFilters, clearFilters } = useFiltering();
 
-  const todayArticles = getTodayArticles(articles);
+  const todayArticles = articles; // Already filtered by hook
   const topPickArticles = todayArticles.slice(0, 3);
   const topPickIds = new Set(topPickArticles.map((a) => a.id));
   const filteredArticles = applyFilters(todayArticles, filters);
