@@ -10,7 +10,7 @@ export default function TopPickCard({ article, rank }: TopPickCardProps) {
   return (
     <div className="flex flex-col items-center justify-center rounded-lg border border-ink-200 bg-paper p-6 dark:bg-ink-800 dark:border-ink-600">
       {/* Header: rank, category, top pick badge */}
-      <div className="flex items-center gap-3 mb-4">
+      <div className="flex items-center justify-center gap-3 mb-4 text-center">
         <span className="flex h-8 w-8 items-center justify-center rounded-full bg-ink-100 font-mono text-sm font-bold text-ink-800 dark:bg-ink-600 dark:text-paper">
           {rank}
         </span>
@@ -23,20 +23,20 @@ export default function TopPickCard({ article, rank }: TopPickCardProps) {
       </div>
 
       {/* Title */}
-      <h3 className="font-serif text-xl font-semibold leading-tight text-ink-800 mb-2 dark:text-paper">
+      <h3 className="font-serif text-xl font-semibold leading-tight text-ink-800 mb-2 dark:text-paper text-center">
         {article.title}
       </h3>
 
       {/* Subtitle */}
       {article.subtitle && (
-        <p className="text-sm text-ink-600 mb-3 dark:text-paper-muted">
+        <p className="text-sm text-ink-600 mb-3 dark:text-paper-muted text-center">
           {article.subtitle}
         </p>
       )}
 
       {/* Summary */}
       {article.summary && (
-        <p className="text-sm leading-relaxed text-ink-600 mb-4 dark:text-paper-muted">
+        <p className="text-sm leading-relaxed text-ink-600 mb-4 dark:text-paper-muted text-center">
           {article.summary}
         </p>
       )}
