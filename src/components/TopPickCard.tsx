@@ -10,7 +10,7 @@ export default function TopPickCard({ article, rank }: TopPickCardProps) {
   return (
     <div className="flex flex-col items-start justify-center rounded-lg border border-ink-200 bg-paper p-6 dark:bg-ink-800 dark:border-ink-600">
       {/* Header: rank, category, top pick badge */}
-      <div className="flex items-center justify-center gap-3 mb-4 w-full">
+      <div className="flex items-center justify-start gap-3 mb-4 w-full">
         <span className="flex h-8 w-8 items-center justify-center rounded-full bg-ink-100 font-mono text-sm font-bold text-ink-800 dark:bg-ink-600 dark:text-paper">
           {rank}
         </span>
