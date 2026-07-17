@@ -1,14 +1,14 @@
 {
   "date": "2026-07-17",
   "updatedAt": "2026-07-17T09:45:59.156Z",
-  "items": [
+  "articles": [
     {
       "id": "microsoft-devblogs-aHR0cHM6Ly9k",
       "title": "How to test agent skills without hitting real APIs",
       "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing y...",
       "url": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
       "source": "Microsoft DevBlogs",
-      "category": "article",
+      "category": "test-automation",
       "publishedAt": "2026-07-17T09:27:50.000Z",
       "tags": [
         "api"
@@ -26,7 +26,7 @@
       "summary": "Comments",
       "url": "https://blog.poisson.chat/posts/2025-03-30-breadth-first-unfolds.html",
       "source": "Lobsters",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-17T09:16:11.000Z",
       "tags": [
         "ai"
@@ -41,10 +41,10 @@
     {
       "id": "lobsters-aHR0cHM6Ly9s",
       "title": "What are you doing this weekend?",
-      "summary": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
+      "summary": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it\u2019s more than OK to do nothing at all too!",
       "url": "https://lobste.rs/s/1vplvg/what_are_you_doing_this_weekend",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-17T08:31:40.000Z",
       "tags": [],
       "score": 72,
@@ -56,11 +56,11 @@
     },
     {
       "id": "lobsters-aHR0cHM6Ly9o",
-      "title": "PACT: Anonymous Credentials for the Web – Mozilla Hacks",
+      "title": "PACT: Anonymous Credentials for the Web \u2013 Mozilla Hacks",
       "summary": "Comments",
       "url": "https://hacks.mozilla.org/2026/06/pact-anonymous-credentials-for-the-web/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-17T06:01:54.000Z",
       "tags": [],
       "score": 72,
@@ -76,7 +76,7 @@
       "summary": "Comments",
       "url": "https://country-draw.vercel.app/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-17T04:38:25.000Z",
       "tags": [],
       "score": 72,
@@ -92,7 +92,7 @@
       "summary": "Comments",
       "url": "https://www.techtimes.com/articles/320185/20260711/earth-rotation-records-spur-october-vote-avert-negative-leap-second.htm",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-17T02:40:50.000Z",
       "tags": [],
       "score": 71,
@@ -108,7 +108,7 @@
       "summary": "Comments",
       "url": "https://www.fsf.org/blogs/community/stop-the-guard-act",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-17T02:23:49.000Z",
       "tags": [],
       "score": 71,
@@ -124,7 +124,7 @@
       "summary": "Comments",
       "url": "https://uecker.codeberg.page/2026-07-14.html",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-17T01:37:41.000Z",
       "tags": [],
       "score": 71,
@@ -140,7 +140,7 @@
       "summary": "Comments",
       "url": "https://veronicaexplains.net/open-oscar-server/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-17T00:18:37.000Z",
       "tags": [
         "ai"
@@ -158,7 +158,7 @@
       "summary": "Comments",
       "url": "https://goliath32.com/blog/z80.html",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T22:03:22.000Z",
       "tags": [],
       "score": 71,
@@ -174,7 +174,7 @@
       "summary": "Comments",
       "url": "https://www.rocketpoweredjetpants.com/2026/04/were-going-to-make-out-like-bandits/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T18:38:03.000Z",
       "tags": [],
       "score": 70,
@@ -190,7 +190,7 @@
       "summary": "Comments",
       "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T16:43:15.000Z",
       "tags": [],
       "score": 70,
@@ -206,7 +206,7 @@
       "summary": "Comments",
       "url": "https://metaredux.com/posts/2026/07/16/clj-refactor-4-0.html",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T16:43:06.000Z",
       "tags": [],
       "score": 70,
@@ -222,7 +222,7 @@
       "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
       "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
       "source": "OpenAI",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "tags": [
         "ai"
@@ -237,10 +237,10 @@
     {
       "id": "google-ai-aHR0cHM6Ly9i",
       "title": "Connect more of your apps to Search",
-      "summary": "You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
+      "summary": "You\u2019ll be able to securely link and interact with your go-to services directly in AI Mode.",
       "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
       "source": "Google AI",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "tags": [
         "api",
@@ -259,7 +259,7 @@
       "summary": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
       "source": "Google AI",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T16:00:00.000Z",
       "tags": [
         "api",
@@ -278,7 +278,7 @@
       "summary": "Comments",
       "url": "https://turso.tech/blog/a-new-modern-version-of-postgres-in-rust",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T15:39:50.000Z",
       "tags": [
         "database"
@@ -296,7 +296,7 @@
       "summary": "Comments",
       "url": "https://blog.yossarian.net/2026/07/16/README-not",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T13:51:27.000Z",
       "tags": [],
       "score": 69,
@@ -312,7 +312,7 @@
       "summary": "Comments",
       "url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T13:27:20.000Z",
       "tags": [
         "llm"
@@ -330,7 +330,7 @@
       "summary": "I found the basic gdb ui painful and gdb -tui confusing. I love dlv for golang debugging. Before I drop back to printf debugging is there a frontend I should try?",
       "url": "https://lobste.rs/s/76tcpe/what_gdb_frontend_do_you_prefer_linux",
       "source": "Lobsters",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-16T13:12:52.000Z",
       "tags": [
         "bug",
@@ -349,7 +349,7 @@
       "summary": "Comments",
       "url": "https://thecloudlet.github.io/technical/compiler/memory-compiler/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T13:01:06.000Z",
       "tags": [],
       "score": 69,
@@ -365,7 +365,7 @@
       "summary": "Comments",
       "url": "https://rtfeldman.com/rust-to-zig",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T11:31:41.000Z",
       "tags": [],
       "score": 69,
@@ -381,7 +381,7 @@
       "summary": "Comments",
       "url": "https://metacpan.org/dist/perl/view/pod/perldelta.pod",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T11:27:04.000Z",
       "tags": [],
       "score": 69,
@@ -397,7 +397,7 @@
       "summary": "Comments",
       "url": "https://forgejo.org/2026-07-release-v16-0/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-16T10:01:50.000Z",
       "tags": [
         "ai"
@@ -415,7 +415,7 @@
       "summary": "Comments",
       "url": "https://aloysberger.com/posts/guix-packaging-a-binary-as-a-guix-beginner.html",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T09:29:06.000Z",
       "tags": [],
       "score": 68,
@@ -430,7 +430,7 @@
       "summary": "Comments",
       "url": "https://alexgaynor.net/2026/jul/15/you-cant-bugfix-your-way-out-of-the-vulnpocalypse/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T07:28:41.000Z",
       "tags": [
         "bug"
@@ -447,7 +447,7 @@
       "summary": "Comments",
       "url": "https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-16T03:19:34.000Z",
       "tags": [
         "llm"
@@ -464,7 +464,7 @@
       "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
       "url": "https://openai.com/index/cars24",
       "source": "OpenAI",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-16T00:00:00.000Z",
       "tags": [
         "ai"
@@ -482,7 +482,7 @@
       "summary": "Comments",
       "url": "https://crowdhailer.me/2026-07-15/abstracting-effects-with-continuations/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-15T22:57:15.000Z",
       "tags": [],
       "score": 68,
@@ -497,7 +497,7 @@
       "summary": "Comments",
       "url": "https://mort.coffee/home/sqlite-editions/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-15T19:34:54.000Z",
       "tags": [
         "sql"
@@ -514,7 +514,7 @@
       "summary": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can&#8217;...",
       "url": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work/",
       "source": "Microsoft DevBlogs",
-      "category": "article",
+      "category": "ai",
       "publishedAt": "2026-07-15T12:53:13.000Z",
       "tags": [
         "ai"
@@ -528,10 +528,10 @@
     {
       "id": "openai-aHR0cHM6Ly9v",
       "title": "The US is advancing AI safety through state and federal action",
-      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+      "summary": "OpenAI outlines a \u201creverse federalism\u201d approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
       "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
       "source": "OpenAI",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-15T12:00:00.000Z",
       "tags": [
         "ai"
@@ -545,10 +545,10 @@
     {
       "id": "openai-aHR0cHM6Ly9v",
       "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "summary": "Explore GPT-Red, OpenAI\u2019s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
       "source": "OpenAI",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-15T10:00:00.000Z",
       "tags": [
         "ai"
@@ -565,7 +565,7 @@
       "summary": "Comments",
       "url": "https://productpicnic.beehiiv.com/p/empathy-and-delight-mean-nothing-when-the-software-is-disrespectful",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-15T04:30:14.000Z",
       "tags": [],
       "score": 72,
@@ -581,7 +581,7 @@
       "summary": "Comments",
       "url": "https://lrc.cs.dartmouth.edu/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-15T02:13:19.000Z",
       "tags": [],
       "score": 72,
@@ -597,7 +597,7 @@
       "summary": "Comments",
       "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-15T02:02:02.000Z",
       "tags": [],
       "score": 72,
@@ -613,7 +613,7 @@
       "summary": "Comments",
       "url": "https://nelsonslog.wordpress.com/2026/07/14/a-modern-http-request/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-15T00:34:39.000Z",
       "tags": [],
       "score": 71,
@@ -629,7 +629,7 @@
       "summary": "Comments",
       "url": "https://ayush.digital/blog/the-memory-heist",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-15T00:11:45.000Z",
       "tags": [],
       "score": 71,
@@ -645,7 +645,7 @@
       "summary": "Comments",
       "url": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-14T22:02:25.000Z",
       "tags": [],
       "score": 71,
@@ -661,7 +661,7 @@
       "summary": "Comments",
       "url": "https://crates.io/crates/qr-swastika-avoider",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-14T21:47:07.000Z",
       "tags": [],
       "score": 71,
@@ -677,7 +677,7 @@
       "summary": "Comments",
       "url": "https://klarasystems.com/articles/native-inotify-in-freebsd/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-14T20:48:51.000Z",
       "tags": [],
       "score": 71,
@@ -693,7 +693,7 @@
       "summary": "Comments",
       "url": "https://codeberg.org/aol/trusty-boot-key",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-14T18:47:27.000Z",
       "tags": [],
       "score": 70,
@@ -709,7 +709,7 @@
       "summary": "Comments",
       "url": "https://www.alexedwards.net/blog/how-i-use-htmx-with-go",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-14T18:34:27.000Z",
       "tags": [],
       "score": 70,
@@ -725,7 +725,7 @@
       "summary": "Comments",
       "url": "https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-14T18:07:13.000Z",
       "tags": [],
       "score": 70,
@@ -741,7 +741,7 @@
       "summary": "Comments",
       "url": "https://github.com/darrylmorley/whatcable",
       "source": "Lobsters",
-      "category": "news",
+      "category": "ai",
       "publishedAt": "2026-07-14T17:00:52.000Z",
       "tags": [
         "ai"
@@ -759,7 +759,7 @@
       "summary": "Comments",
       "url": "https://temperlang.dev/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-14T16:56:25.000Z",
       "tags": [],
       "score": 70,
@@ -775,7 +775,7 @@
       "summary": "Comments",
       "url": "https://steveklabnik.com/writing/too-many-words-about-dids/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-14T16:35:18.000Z",
       "tags": [],
       "score": 70,
@@ -791,7 +791,7 @@
       "summary": "Comments",
       "url": "https://dead.garden/blog/how-my-images-are-dithered.html",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-14T16:00:52.000Z",
       "tags": [],
       "score": 70,
@@ -804,10 +804,10 @@
     {
       "id": "google-ai-aHR0cHM6Ly9i",
       "title": "Celebrating 25 years of visual search innovation",
-      "summary": "Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
+      "summary": "Google Images is turning 25. Here\u2019s a look back at some major milestones \u2014 and new ways to explore and create visual content.",
       "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
       "source": "Google AI",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-14T16:00:00.000Z",
       "tags": [
         "api"
@@ -824,7 +824,7 @@
       "summary": "Comments",
       "url": "https://blogs.kde.org/2026/07/13/openqa-testing-in-kde-linux/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-14T13:46:32.000Z",
       "tags": [
         "testing"
