@@ -40,16 +40,16 @@ export default function FAQAccordion() {
   const [expanded, setExpanded] = useState<number | null>(null);
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-2">
       {faqs.map((faq, idx) => {
         const isOpen = expanded === idx;
         return (
-          <div key={faq.question} className="border border-ink-200 dark:border-ink-600 rounded">
+          <div key={faq.question} className="border border-ink-200 dark:border-ink-600 rounded bg-ink-50 dark:bg-ink-900">
             <button
               type="button"
               onClick={() => setExpanded(isOpen ? null : idx)}
               aria-expanded={isOpen}
-              className="w-full px-4 py-3 text-left font-semibold text-base hover:bg-ink-50 dark:hover:bg-ink-800 transition-colors flex items-center justify-between"
+              className="w-full px-4 py-3 text-left font-semibold text-base bg-ink-100 dark:bg-ink-800 hover:brightness-95 dark:hover:brightness-110 transition-colors flex items-center justify-between"
             >
               {faq.question}
               <span className="text-sm ml-2" aria-hidden="true">

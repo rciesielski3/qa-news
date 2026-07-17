@@ -16,7 +16,7 @@ export default function AboutPage() {
         </section>
 
         {/* Description */}
-        <section className="mb-12 sm:mb-16 border-l-4 border-blue-500 dark:border-blue-400 bg-blue-50 dark:bg-blue-950 px-4 py-8 sm:py-12 rounded">
+        <section className="mb-12 sm:mb-16 border-l-4 border-blue-500 dark:border-blue-400 bg-blue-50 dark:bg-blue-950 px-4 py-4 sm:py-6 rounded">
           <h2 className="section-title">What Is QA News</h2>
           <p className="prose mt-2">
             QA News is a read-only view over the PAIOS Knowledge Layer - a daily digest built specifically for QA
@@ -27,7 +27,7 @@ export default function AboutPage() {
         </section>
 
         {/* Mission */}
-        <section className="mb-12 sm:mb-16 border-l-4 border-green-500 dark:border-green-400 bg-green-50 dark:bg-green-950 px-4 py-8 sm:py-12 rounded">
+        <section className="mb-12 sm:mb-16 border-l-4 border-green-500 dark:border-green-400 bg-green-50 dark:bg-green-950 px-4 py-4 sm:py-6 rounded">
           <h2 className="section-title">Our Mission</h2>
           <p className="prose mt-2">
             Engineering news is abundant; attention is not. Our mission is to cut through the noise and surface only

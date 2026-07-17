@@ -52,8 +52,8 @@ export default function HowItWorksPage() {
             ].map(({ step, title, description }) => (
               <div key={step} className="pipeline-step flex flex-col items-center justify-center text-center p-4 min-h-[140px]">
                 <div className="num">{step}</div>
-                <h3>{title}</h3>
-                <p>{description}</p>
+                <h3 className="font-semibold text-lg my-2">{title}</h3>
+                <p className="text-sm">{description}</p>
               </div>
             ))}
           </div>
