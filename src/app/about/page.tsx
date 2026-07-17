@@ -36,6 +36,13 @@ export default function AboutPage() {
           </p>
         </section>
 
+        {/* Contact */}
+        <section className="text-center mt-8">
+          <p className="text-sm text-ink-600 dark:text-ink-400">
+            Have feedback? <a href="https://rciesielski.dev/contact" target="_blank" rel="noopener noreferrer" className="text-cyan-600 dark:text-cyan-400 hover:underline font-semibold">Suggest improvements</a>
+          </p>
+        </section>
+
         {/* Call to Action */}
         <section className="text-center">
           <Link

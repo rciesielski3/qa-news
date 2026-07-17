@@ -3,17 +3,11 @@ export default function Footer() {
 
   return (
     <>
-      <p>
-        QA News aggregates QA & testing articles from multiple RSS feeds into a read-only daily brief - articles are fetched, never edited or removed by this app.
+      <p className="text-xs text-ink-600 dark:text-ink-400">
+        QA News: daily briefing of curated QA & testing articles - updated daily at 08:00 UTC
       </p>
-      <p>New Daily Brief every morning at 08:00 UTC.</p>
-      <p className="text-xs text-ink-600 dark:text-ink-400 pt-4 border-t border-ink-200 dark:border-ink-700 mt-4">
+      <p className="text-xs text-ink-600 dark:text-ink-400 pt-3 border-t border-ink-200 dark:border-ink-700 mt-3 text-center">
         © {currentYear} Adateo Rafał Ciesielski
-      </p>
-      <p className="text-xs text-ink-600 dark:text-ink-400 pt-4 border-t border-ink-200 dark:border-ink-700 mt-4">
-        <a href="https://rciesielski.dev/contact" target="_blank" rel="noopener noreferrer" className="hover:text-ink-900 dark:hover:text-ink-200 underline">
-          Suggest improvements
-        </a>
       </p>
     </>
   );
