@@ -33,6 +33,13 @@ export default function PipelineEntry({ article }: PipelineEntryProps) {
           </p>
         )}
 
+        {/* Description */}
+        {article.description && (
+          <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-2">
+            {article.description}
+          </p>
+        )}
+
         {/* Metadata row */}
         <div className="flex items-center gap-2 text-xs font-mono text-ink-400 dark:text-paper-faint">
           <span>{article.source}</span>
