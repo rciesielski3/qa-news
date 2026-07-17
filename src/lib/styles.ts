@@ -86,6 +86,28 @@ export function categoryBgColorClassDark(category: Category): string {
   return darkMap[category];
 }
 
+export function categoryBgColorDarkInverted(category: Category): string {
+  const darkMap: Record<Category, string> = {
+    'ai': 'dark:bg-cyan-800',
+    'engineering': 'dark:bg-green-800',
+    'qa-practice': 'dark:bg-purple-800',
+    'tooling': 'dark:bg-orange-800',
+    'test-automation': 'dark:bg-blue-800',
+  };
+  return darkMap[category];
+}
+
+export function categoryTextColorDarkInverted(category: Category): string {
+  const darkMap: Record<Category, string> = {
+    'ai': 'dark:text-cyan-100',
+    'engineering': 'dark:text-green-100',
+    'qa-practice': 'dark:text-purple-100',
+    'tooling': 'dark:text-orange-100',
+    'test-automation': 'dark:text-blue-100',
+  };
+  return darkMap[category];
+}
+
 export function bgColorLight(color: 'cyan' | 'green' | 'purple' | 'orange' | 'blue'): string {
   const map: Record<string, string> = {
     'cyan': 'bg-cyan-50',

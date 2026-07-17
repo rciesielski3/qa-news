@@ -1,5 +1,5 @@
 import type { Article } from '@/lib/types';
-import { getCategoryLabel, categoryTextColorClass, categoryBgColorClass, categoryBgColorClassDark, getCategoryColor, bgColorLight, bgColorLightDark, getCategoryColorName } from '@/lib/styles';
+import { getCategoryLabel, categoryTextColorClass, categoryBgColorClass, categoryBgColorDarkInverted, categoryTextColorDarkInverted, getCategoryColor } from '@/lib/styles';
 
 interface PipelineEntryProps {
   article: Article;
@@ -55,7 +55,7 @@ export default function PipelineEntry({ article }: PipelineEntryProps) {
         href={article.url}
         target="_blank"
         rel="noreferrer"
-        className={`flex-shrink-0 flex items-center justify-center text-xs font-mono uppercase tracking-widest no-underline px-3 py-1 rounded transition-opacity ${categoryBgColorClass(article.category)} ${categoryBgColorClassDark(article.category)} ${categoryTextColorClass(article.category)} ${bgColorLight(getCategoryColorName(article.category))} ${bgColorLightDark(getCategoryColorName(article.category))} hover:opacity-90`}
+        className={`flex-shrink-0 flex items-center justify-center text-xs font-mono uppercase tracking-widest no-underline px-3 py-1 rounded transition-opacity ${categoryBgColorClass(article.category)} ${categoryBgColorDarkInverted(article.category)} ${categoryTextColorClass(article.category)} ${categoryTextColorDarkInverted(article.category)} hover:opacity-90`}
       >
         Read
       </a>
