@@ -47,9 +47,9 @@ describe('TopPickCard', () => {
     expect(screen.getByText('1')).toBeInTheDocument();
   });
 
-  it('renders Top Pick badge', () => {
+  it('renders star icon for top pick', () => {
     render(<TopPickCard article={testArticle} rank={1} />);
-    expect(screen.getByText('Top Pick')).toBeInTheDocument();
+    expect(screen.getByText('★')).toBeInTheDocument();
   });
 
   it('renders Read Article button', () => {
@@ -86,5 +86,19 @@ describe('TopPickCard', () => {
     render(<TopPickCard article={articleWithBoth} rank={1} />);
     expect(screen.getByText('Test Subtitle')).toBeInTheDocument();
     expect(screen.queryByText('Test Summary')).not.toBeInTheDocument();
+  });
+
+  it('displays star icon instead of "Top Pick" badge text', () => {
+    render(<TopPickCard article={testArticle} rank={1} />);
+
+    // Verify "Top Pick" text is NOT present
+    expect(screen.queryByText('Top Pick')).not.toBeInTheDocument();
+
+    // Verify star icon IS present
+    expect(screen.getByText('★')).toBeInTheDocument();
+
+    // Verify star has orange color
+    const star = screen.getByText('★');
+    expect(star).toHaveClass('text-orange-600', 'dark:text-orange-400');
   });
 });
