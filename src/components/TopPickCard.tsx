@@ -46,7 +46,7 @@ export default function TopPickCard({ article, rank }: TopPickCardProps) {
         href={article.url}
         target="_blank"
         rel="noreferrer"
-        className={`inline-block rounded border px-4 py-2 font-mono text-xs uppercase tracking-widest no-underline transition-colors ${categoryTextColorClass(article.category)} border-current hover:bg-ink-50 dark:hover:bg-ink-700`}
+        className={`inline-flex items-center justify-center rounded px-4 py-2 font-mono text-xs uppercase tracking-widest no-underline transition-opacity ${categoryBgColorClass(article.category)} ${categoryTextColorClass(article.category)} hover:opacity-90`}
       >
         Read Article →
       </a>
