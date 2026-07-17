@@ -27,9 +27,9 @@ describe('TopPickCard', () => {
     expect(screen.getByText('Test subtitle')).toBeInTheDocument();
   });
 
-  it('renders "Top Pick" badge', () => {
+  it('renders star icon for top pick', () => {
     render(<TopPickCard article={mockArticle} rank={1} />);
-    expect(screen.getByText('Top Pick')).toBeInTheDocument();
+    expect(screen.getByText('★')).toBeInTheDocument();
   });
 
   it('renders read article link', () => {
