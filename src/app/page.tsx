@@ -38,10 +38,10 @@ function DailyPageContent() {
     };
   }, []);
 
-  const todayArticles = getTodayArticles(articles as any) as Article[];
+  const todayArticles = getTodayArticles(articles);
   const topPickArticles = todayArticles.slice(0, 3);
   const topPickIds = new Set(topPickArticles.map((a) => a.id));
-  const filteredArticles = applyFilters(todayArticles as any, filters) as Article[];
+  const filteredArticles = applyFilters(todayArticles, filters);
 
   return (
     <div className="w-full space-y-8">

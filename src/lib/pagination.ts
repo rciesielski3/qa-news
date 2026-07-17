@@ -1,17 +1,21 @@
 /**
  * Calculate articles per page based on viewport height.
- * Assumes ~80px per article row + header/filters overhead.
- * Leaves ~100px margin for pagination controls.
+ *
+ * Uses a small fixed overhead for controls/margins rather than trying to
+ * account for the full page chrome. Trade-off: the brief section (top-pick
+ * cards) sits above the list and its height varies by viewport — especially
+ * when the cards stack to a single column on mobile. That section is outside
+ * this utility's control, so a perfect "no vertical scroll" guarantee isn't
+ * possible here; this assumes the brief is above the fold on most screens.
+ * If a strict no-scroll guarantee is ever required, the brief section's
+ * measured height would need to feed into this calculation.
  */
 export function calculateArticlesPerPage(viewportHeight: number): number {
-  const ARTICLE_ROW_HEIGHT = 80;
-  const HEADER_FILTERS_HEIGHT = 300;
-  const PAGINATION_MARGIN = 100;
+  const ARTICLE_HEIGHT = 80;
+  const MIN_OVERHEAD = 200; // Absolute minimum for controls/margins
 
-  const availableHeight = viewportHeight - HEADER_FILTERS_HEIGHT - PAGINATION_MARGIN;
-  const articlesPerPage = Math.max(3, Math.floor(availableHeight / ARTICLE_ROW_HEIGHT));
-
-  return articlesPerPage;
+  const available = Math.max(viewportHeight - MIN_OVERHEAD, ARTICLE_HEIGHT * 3);
+  return Math.max(3, Math.floor(available / ARTICLE_HEIGHT));
 }
 
 /**

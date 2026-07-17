@@ -1,18 +1,25 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
+  darkMode: ['class', '[data-theme="dark"]'],
   content: ['./src/**/*.{ts,tsx}'],
   theme: {
     extend: {
       colors: {
-        // "ink" scale — a dark charcoal-navy, not pure black
+        // "ink" scale — a dark charcoal-navy, not pure black.
+        // Light shades (50–400) support the light theme; dark shades (500–950) the dark theme.
         ink: {
-          950: '#0a0d13',
-          900: '#0b0e14',
-          800: '#12161f',
-          700: '#191f2c',
-          600: '#232838',
+          50: '#f4f5f7',
+          100: '#e7e9ee',
+          200: '#d3d7e0',
+          300: '#aab0c0',
+          400: '#6b7280',
           500: '#323a4d',
+          600: '#232838',
+          700: '#191f2c',
+          800: '#12161f',
+          900: '#0b0e14',
+          950: '#0a0d13',
         },
         paper: {
           DEFAULT: '#e7e9ee', // primary text

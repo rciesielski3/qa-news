@@ -38,10 +38,10 @@ function MonthlyPageContent() {
     };
   }, []);
 
-  const monthArticles = getMonthArticles(articles as any) as Article[];
+  const monthArticles = getMonthArticles(articles);
   const topPickArticles = monthArticles.slice(0, 3);
   const topPickIds = new Set(topPickArticles.map((a) => a.id));
-  const filteredArticles = applyFilters(monthArticles as any, filters) as Article[];
+  const filteredArticles = applyFilters(monthArticles, filters);
 
   return (
     <div className="w-full space-y-8">

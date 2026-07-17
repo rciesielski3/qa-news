@@ -36,10 +36,10 @@ function WeeklyPageContent() {
     };
   }, []);
 
-  const weekArticles = getWeekArticles(articles as any) as Article[];
+  const weekArticles = getWeekArticles(articles);
   const topPickArticles = weekArticles.slice(0, 3);
   const topPickIds = new Set(topPickArticles.map((a) => a.id));
-  const filteredArticles = applyFilters(weekArticles as any, filters) as Article[];
+  const filteredArticles = applyFilters(weekArticles, filters);
 
   return (
     <div className="w-full space-y-8">
