@@ -1,5 +1,5 @@
 import type { Article } from '@/lib/types';
-import { getCategoryLabel, categoryTextColorClass, categoryBgColorClass, categoryBgColorClassDark } from '@/lib/styles';
+import { getCategoryLabel, categoryTextColorClass, categoryBgColorClass, categoryBgColorClassDark, bgColorLight, bgColorLightDark, getCategoryColorName } from '@/lib/styles';
 
 interface TopPickCardProps {
   article: Article;
@@ -14,7 +14,7 @@ export default function TopPickCard({ article, rank }: TopPickCardProps) {
         <span className="flex h-8 w-8 items-center justify-center rounded-full bg-ink-100 font-mono text-sm font-bold text-ink-800 dark:bg-ink-600 dark:text-paper">
           {rank}
         </span>
-        <span className={`font-mono text-xs uppercase tracking-widest ${categoryTextColorClass(article.category)}`}>
+        <span className={`font-mono text-xs uppercase tracking-widest ${categoryTextColorClass(article.category)} dark:brightness-125`}>
           {getCategoryLabel(article.category)}
         </span>
         <span className="inline-block px-2 py-1 rounded-full text-xs font-semibold bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 border border-orange-300 dark:border-orange-700">
@@ -46,7 +46,7 @@ export default function TopPickCard({ article, rank }: TopPickCardProps) {
         href={article.url}
         target="_blank"
         rel="noreferrer"
-        className={`inline-flex items-center justify-center rounded px-4 py-2 font-mono text-xs uppercase tracking-widest no-underline transition-opacity ${categoryBgColorClass(article.category)} ${categoryBgColorClassDark(article.category)} ${categoryTextColorClass(article.category)} hover:opacity-90`}
+        className={`inline-flex items-center justify-center rounded px-4 py-2 font-mono text-xs uppercase tracking-widest no-underline transition-opacity ${categoryBgColorClass(article.category)} ${categoryBgColorClassDark(article.category)} ${categoryTextColorClass(article.category)} ${bgColorLight(getCategoryColorName(article.category))} ${bgColorLightDark(getCategoryColorName(article.category))} hover:opacity-90`}
       >
         Read Article →
       </a>
