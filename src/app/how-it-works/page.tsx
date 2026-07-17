@@ -148,7 +148,7 @@ export default function HowItWorksPage() {
         </section>
 
         {/* FAQ */}
-        <section className="border-l-4 border-green-500 dark:border-green-400 bg-green-50 dark:bg-green-950 px-4 py-6 sm:py-8 rounded">
+        <section className="border-l-4 border-green-500 dark:border-green-400 bg-green-50 dark:bg-green-950 px-4 py-8 sm:py-12 rounded">
           <h2 className="section-title">Frequently Asked Questions</h2>
           <FAQAccordion />
         </section>
