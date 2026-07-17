@@ -112,3 +112,88 @@ describe('ArticleList with Load More pagination', () => {
     expect(screen.queryByText('Load More')).not.toBeInTheDocument();
   });
 });
+
+describe('Load More button styling', () => {
+  beforeEach(() => {
+    window.innerHeight = 768;
+  });
+
+  it('Load More button container has no top border', () => {
+    const articles = Array.from({ length: 20 }, (_, i) => ({
+      id: `article-${i + 1}`,
+      title: `Article ${i + 1}`,
+      url: `https://example.com/${i + 1}`,
+      source: 'Example',
+      category: 'test-automation',
+      publishedAt: '2026-07-16T00:00:00Z',
+    }));
+    render(<ArticleList articles={articles} />);
+
+    const loadMoreBtn = screen.getByRole('button', { name: /Load More/i });
+    const container = loadMoreBtn.parentElement;
+    expect(container).not.toHaveClass('border-t');
+  });
+
+  it('Load More button has hover scale effect', () => {
+    const articles = Array.from({ length: 20 }, (_, i) => ({
+      id: `article-${i + 1}`,
+      title: `Article ${i + 1}`,
+      url: `https://example.com/${i + 1}`,
+      source: 'Example',
+      category: 'test-automation',
+      publishedAt: '2026-07-16T00:00:00Z',
+    }));
+    render(<ArticleList articles={articles} />);
+
+    const loadMoreBtn = screen.getByRole('button', { name: /Load More/i });
+    expect(loadMoreBtn).toHaveClass('hover:scale-105');
+  });
+
+  it('Load More button has hover background color', () => {
+    const articles = Array.from({ length: 20 }, (_, i) => ({
+      id: `article-${i + 1}`,
+      title: `Article ${i + 1}`,
+      url: `https://example.com/${i + 1}`,
+      source: 'Example',
+      category: 'test-automation',
+      publishedAt: '2026-07-16T00:00:00Z',
+    }));
+    render(<ArticleList articles={articles} />);
+
+    const loadMoreBtn = screen.getByRole('button', { name: /Load More/i });
+    const classStr = loadMoreBtn.className;
+    expect(classStr).toMatch(/hover:bg-/);
+  });
+
+  it('Load More button has active state color', () => {
+    const articles = Array.from({ length: 20 }, (_, i) => ({
+      id: `article-${i + 1}`,
+      title: `Article ${i + 1}`,
+      url: `https://example.com/${i + 1}`,
+      source: 'Example',
+      category: 'test-automation',
+      publishedAt: '2026-07-16T00:00:00Z',
+    }));
+    render(<ArticleList articles={articles} />);
+
+    const loadMoreBtn = screen.getByRole('button', { name: /Load More/i });
+    const classStr = loadMoreBtn.className;
+    expect(classStr).toMatch(/active:bg-/);
+  });
+
+  it('Load More button has smooth transition', () => {
+    const articles = Array.from({ length: 20 }, (_, i) => ({
+      id: `article-${i + 1}`,
+      title: `Article ${i + 1}`,
+      url: `https://example.com/${i + 1}`,
+      source: 'Example',
+      category: 'test-automation',
+      publishedAt: '2026-07-16T00:00:00Z',
+    }));
+    render(<ArticleList articles={articles} />);
+
+    const loadMoreBtn = screen.getByRole('button', { name: /Load More/i });
+    expect(loadMoreBtn).toHaveClass('transition-all');
+    expect(loadMoreBtn).toHaveClass('duration-150');
+  });
+});
