@@ -75,6 +75,17 @@ export function categoryBgColorClass(category: string): string {
   return CATEGORY_COLORS[category]?.bgClass || 'bg-gray-50'
 }
 
+export function categoryBgColorClassDark(category: Category): string {
+  const darkMap: Record<Category, string> = {
+    'ai': 'dark:bg-cyan-900',
+    'engineering': 'dark:bg-green-900',
+    'qa-practice': 'dark:bg-purple-900',
+    'tooling': 'dark:bg-orange-900',
+    'test-automation': 'dark:bg-blue-900',
+  };
+  return darkMap[category];
+}
+
 export const CATEGORY_LABELS: Record<Category, string> = {
   'test-automation': 'Test Automation',
   'qa-practice': 'QA Practice',
