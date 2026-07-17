@@ -67,11 +67,11 @@ export default function ArticleList({ articles, topPickIds }: ArticleListProps) 
       </ul>
 
       {hasMore && (
-        <div className="flex justify-center py-6 border-t border-ink-200 dark:border-ink-600">
+        <div className="flex justify-center py-6">
           <button
             onClick={handleLoadMore}
             disabled={isLoadingMore}
-            className="px-6 py-2 font-mono text-xs uppercase tracking-widest border border-ink-200 dark:border-ink-600 rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-ink-50 dark:hover:bg-ink-700 transition-colors"
+            className="px-6 py-2 font-mono text-xs uppercase tracking-widest border border-ink-200 dark:border-ink-600 rounded disabled:opacity-50 disabled:cursor-not-allowed hover:scale-105 hover:bg-ink-100 dark:hover:bg-ink-700 active:bg-ink-200 dark:active:bg-ink-600 transition-all duration-150"
           >
             {isLoadingMore ? 'Loading...' : 'Load More'}
           </button>
