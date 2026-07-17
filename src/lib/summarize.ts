@@ -27,5 +27,14 @@ export function generateSummary(content: string, maxLength: number = 150): strin
     summary += (summary ? ' ' : '') + sentences[i] + '.';
   }
 
-  return summary || content.substring(0, maxLength).trim() + '...';
+  if (!summary) {
+    // Back off to the last whitespace boundary before maxLength so we
+    // never cut a word in half.
+    const truncated = content.substring(0, maxLength);
+    const lastSpace = truncated.lastIndexOf(' ');
+    const safeEnd = lastSpace > 0 ? lastSpace : maxLength;
+    return content.substring(0, safeEnd).trim() + '...';
+  }
+
+  return summary;
 }
