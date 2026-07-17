@@ -99,11 +99,11 @@ export function bgColorLight(color: 'cyan' | 'green' | 'purple' | 'orange' | 'bl
 
 export function bgColorLightDark(color: 'cyan' | 'green' | 'purple' | 'orange' | 'blue'): string {
   const map: Record<string, string> = {
-    'cyan': 'dark:bg-cyan-900',
-    'green': 'dark:bg-green-900',
-    'purple': 'dark:bg-purple-900',
-    'orange': 'dark:bg-orange-900',
-    'blue': 'dark:bg-blue-900',
+    'cyan': 'dark:bg-cyan-100',
+    'green': 'dark:bg-green-100',
+    'purple': 'dark:bg-purple-100',
+    'orange': 'dark:bg-orange-100',
+    'blue': 'dark:bg-blue-100',
   };
   return map[color];
 }
