@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'About QA News',
-  description: 'QA News is a personal AI news curator built for QA engineers — what it is and why it exists.',
+  description: 'QA News is a personal AI news curator built for QA engineers - what it is and why it exists.',
 };
 
 export default function AboutPage() {
@@ -31,7 +31,7 @@ export default function AboutPage() {
           <h2 className="section-title">Our Mission</h2>
           <p className="prose mt-2">
             Engineering news is abundant; attention is not. Our mission is to cut through the noise and surface only
-            what genuinely matters to QA and quality engineering — so you can stay current without spending your day
+            what genuinely matters to QA and quality engineering - so you can stay current without spending your day
             triaging feeds. Quality over quantity, every single day.
           </p>
         </section>

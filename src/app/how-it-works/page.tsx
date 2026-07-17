@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import FAQAccordion from '@/components/FAQAccordion';
 
 export const metadata = {
   title: 'How It Works | QA News Curation Pipeline',
@@ -49,7 +50,7 @@ export default function HowItWorksPage() {
                 description: 'Static site rebuilt and published at 08:00 UTC daily',
               },
             ].map(({ step, title, description }) => (
-              <div key={step} className="pipeline-step">
+              <div key={step} className="pipeline-step flex flex-col items-center justify-center text-center p-4 min-h-[140px]">
                 <div className="num">{step}</div>
                 <h3>{title}</h3>
                 <p>{description}</p>
@@ -62,22 +63,22 @@ export default function HowItWorksPage() {
         <section className="mb-12 sm:mb-16 border-l-4 border-purple-500 dark:border-purple-400 bg-purple-50 dark:bg-purple-950 px-4 py-2 rounded">
           <h2 className="section-title">Key Metrics</h2>
           <div className="metrics">
-            <div className="metric-card">
+            <div className="metric-card flex flex-col items-center justify-center text-center p-4 min-h-[120px]">
               <p className="label">Feeds Tracked</p>
               <p className="value">5</p>
               <p className="note">OpenAI Blog, Google AI, Cloudflare, Microsoft, Lobsters</p>
             </div>
-            <div className="metric-card">
+            <div className="metric-card flex flex-col items-center justify-center text-center p-4 min-h-[120px]">
               <p className="label">Articles Scanned Daily</p>
               <p className="value">1,110</p>
               <p className="note">Aggregate across all sources</p>
             </div>
-            <div className="metric-card">
+            <div className="metric-card flex flex-col items-center justify-center text-center p-4 min-h-[120px]">
               <p className="label">Articles Selected Daily</p>
               <p className="value">50</p>
               <p className="note">4.5% selection rate for quality</p>
             </div>
-            <div className="metric-card">
+            <div className="metric-card flex flex-col items-center justify-center text-center p-4 min-h-[120px]">
               <p className="label">Update Cycle</p>
               <p className="value" style={{ fontSize: '18px' }}>
                 06:00 → 08:00 UTC
@@ -88,7 +89,7 @@ export default function HowItWorksPage() {
         </section>
 
         {/* Scoring Factors */}
-        <section className="mb-12 sm:mb-16">
+        <section className="mb-12 sm:mb-16 border-l-4 border-orange-500 dark:border-orange-400 bg-orange-50 dark:bg-orange-950 px-4 py-6 sm:py-8 rounded">
           <h2 className="section-title">Scoring Factors</h2>
           <div className="space-y-4">
             <div>
@@ -122,70 +123,34 @@ export default function HowItWorksPage() {
         </section>
 
         {/* Under the Hood */}
-        <section className="mb-12 sm:mb-16">
+        <section className="mb-12 sm:mb-16 border-l-4 border-yellow-500 dark:border-yellow-400 bg-yellow-50 dark:bg-yellow-950 px-4 py-6 sm:py-8 rounded">
           <h2 className="section-title">Under the Hood</h2>
           <ul className="prose space-y-4">
             <li>
               <strong>Static site:</strong> Next.js 14 (App Router) built with <code>output: &apos;export&apos;</code>,
-              hosted on GitHub Pages with zero server — no runtime backend to fall over.
+              hosted on GitHub Pages with zero server - no runtime backend to fall over.
             </li>
             <li>
               <strong>Read-only by design:</strong> QA News renders what PAIOS already curated. It fetches, never
               edits or removes articles, and contains no business logic or AI execution of its own.
             </li>
             <li>
-              <strong>One seam:</strong> every page reads through four functions in <code>src/lib/data.ts</code> —
-              Daily Brief, Latest News, Weekly Highlights, Monthly Recaps — so swapping the data source (fixtures
+              <strong>One seam:</strong> every page reads through four functions in <code>src/lib/data.ts</code> -
+              Daily Brief, Latest News, Weekly Highlights, Monthly Recaps - so swapping the data source (fixtures
               today, the PAIOS Public API tomorrow) touches nothing else in the app.
             </li>
             <li>
               <strong>Build-time freshness:</strong> data is fetched once at <code>npm run build</code>, not per
               visitor. A GitHub Actions workflow rebuilds the site on every push, with a daily rebuild planned once
-              the live API ships — no client-side polling.
+              the live API ships - no client-side polling.
             </li>
           </ul>
         </section>
 
         {/* FAQ */}
-        <section className="border-l-4 border-green-500 dark:border-green-400 bg-green-50 dark:bg-green-950 px-4 py-2 rounded">
+        <section className="border-l-4 border-green-500 dark:border-green-400 bg-green-50 dark:bg-green-950 px-4 py-6 sm:py-8 rounded">
           <h2 className="section-title">Frequently Asked Questions</h2>
-          <div className="space-y-6">
-            <div>
-              <h3 className="font-semibold text-base">Why only 50 articles?</h3>
-              <p className="prose mt-2">
-                Quality over quantity. We filter aggressively for signal, removing noise. You get the best 4.5% of
-                articles instead of information overload. This ensures every article has genuine value to your work.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-base">How are articles selected?</h3>
-              <p className="prose mt-2">
-                Multi-factor AI scoring: relevance to QA engineers, freshness, source quality, and novelty. Articles
-                must rank highly across all factors to make the cut. This ensures balanced, high-quality selection.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-base">When does the pipeline run?</h3>
-              <p className="prose mt-2">
-                The pipeline runs daily: feeds are fetched at 06:00 UTC, articles are scored and selected during the
-                next two hours, and results are published at 08:00 UTC. Check back for fresh picks every morning.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-base">What about articles I miss?</h3>
-              <p className="prose mt-2">
-                The QA News archive maintains all articles published over the past weeks. You can browse Weekly and
-                Monthly views to catch up on stories you may have missed.
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-base">Can I request sources?</h3>
-              <p className="prose mt-2">
-                Not yet — this is a planned feature. For now, the 5 feeds are carefully curated for quality and
-                relevance. We focus on maintaining high editorial standards over feed quantity.
-              </p>
-            </div>
-          </div>
+          <FAQAccordion />
         </section>
       </div>
     </div>
