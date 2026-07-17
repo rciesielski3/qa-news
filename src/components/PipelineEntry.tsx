@@ -1,5 +1,5 @@
 import type { Article } from '@/lib/types';
-import { getCategoryLabel, categoryTextColorClass, getCategoryColor } from '@/lib/styles';
+import { getCategoryLabel, categoryTextColorClass, categoryBgColorClass, getCategoryColor } from '@/lib/styles';
 
 interface PipelineEntryProps {
   article: Article;
@@ -55,7 +55,7 @@ export default function PipelineEntry({ article }: PipelineEntryProps) {
         href={article.url}
         target="_blank"
         rel="noreferrer"
-        className={`flex-shrink-0 text-xs font-mono uppercase tracking-widest no-underline px-2 py-1 rounded border ${categoryTextColorClass(article.category)} border-current hover:bg-ink-50 dark:hover:bg-ink-700 transition-colors`}
+        className={`flex-shrink-0 flex items-center justify-center text-xs font-mono uppercase tracking-widest no-underline px-3 py-1 rounded transition-opacity ${categoryBgColorClass(article.category)} ${categoryTextColorClass(article.category)} hover:opacity-90`}
       >
         Read
       </a>

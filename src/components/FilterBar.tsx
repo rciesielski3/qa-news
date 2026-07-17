@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import type { Category } from '@/lib/types';
 
 interface FilterBarProps {
@@ -24,8 +23,6 @@ export default function FilterBar({
   totalArticles,
   shownArticles,
 }: FilterBarProps) {
-  const [showAllTags, setShowAllTags] = useState(false);
-  const displayedTags = showAllTags ? availableTags : availableTags.slice(0, 3);
 
   return (
     <div className="filters">
@@ -50,32 +47,22 @@ export default function FilterBar({
       {/* Tag chips row */}
       <div className="chip-row">
         <span className="filters-label">Filter by tags</span>
-        <div>
-          <div className="flex flex-wrap gap-2 pb-2">
-            {displayedTags.map((tag) => {
-              const isPressed = activeFilters.tags?.includes(tag) ?? false;
-              return (
-                <button
-                  key={tag}
-                  className="chip-tag"
-                  aria-pressed={isPressed ? 'true' : 'false'}
-                  onClick={() =>
-                    onTagChange(tag, !isPressed)
-                  }
-                >
-                  {tag}
-                </button>
-              );
-            })}
-          </div>
-          {availableTags.length > 3 && (
-            <button
-              onClick={() => setShowAllTags(!showAllTags)}
-              className="text-xs text-accent underline"
-            >
-              {showAllTags ? 'Show less' : `Show ${availableTags.length - 3} more`}
-            </button>
-          )}
+        <div className="flex flex-wrap gap-2">
+          {availableTags.map((tag) => {
+            const isPressed = activeFilters.tags?.includes(tag) ?? false;
+            return (
+              <button
+                key={tag}
+                className="chip-tag"
+                aria-pressed={isPressed ? 'true' : 'false'}
+                onClick={() =>
+                  onTagChange(tag, !isPressed)
+                }
+              >
+                {tag}
+              </button>
+            );
+          })}
         </div>
       </div>
 

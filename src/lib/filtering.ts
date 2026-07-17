@@ -1,6 +1,7 @@
 // Filtering logic for the QA News UX redesign.
 
 import type { Article as TypesArticle, Category } from '@/lib/types';
+import { generateSummary } from '@/lib/summarize';
 
 export type FilterState = {
   category?: string;
@@ -20,11 +21,20 @@ export function getArticlesSince(articles: Article[], daysAgo: number): Article[
   const startOfToday = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
   const cutoff = new Date(startOfToday.getTime() - (daysAgo - 1) * 24 * 60 * 60 * 1000);
 
-  return articles.filter((article) => {
-    if (!article.publishedAt) return false;
-    const pubDate = new Date(article.publishedAt);
-    return pubDate >= cutoff;
-  });
+  return articles
+    .filter((article) => {
+      if (!article.publishedAt) return false;
+      const pubDate = new Date(article.publishedAt);
+      return pubDate >= cutoff;
+    })
+    .map((article) => ({
+      ...article,
+      // Normalize to a 2-3 sentence, ~150 char summary. The RSS pipeline
+      // doesn't always cap description length, and articles missing a
+      // summary entirely fall back to the title so the UI never renders
+      // a blank summary field.
+      summary: generateSummary(article.summary || article.title || ''),
+    }));
 }
 
 export function getTodayArticles(articles: Article[]): Article[] {
