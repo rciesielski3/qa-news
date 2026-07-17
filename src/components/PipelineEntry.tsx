@@ -8,7 +8,7 @@ interface PipelineEntryProps {
 
 export default function PipelineEntry({ article }: PipelineEntryProps) {
   return (
-    <Link href={article.url} target="_blank" rel="noreferrer" className="no-underline">
+    <Link href={article.url} target="_blank" rel="noreferrer" className="no-underline hover:no-underline">
       <li className="flex gap-3 py-3 border-b border-ink-200 dark:border-ink-600 group hover:bg-ink-50 dark:hover:bg-ink-800 transition-colors cursor-pointer">
         {/* Category dot */}
         <div className="flex-shrink-0 flex items-start justify-center pt-1">
