@@ -433,11 +433,20 @@ button.chip-tag:hover { border-color: var(--border-strong); color: var(--text); 
    -------------------------------------------------------------------------- */
 
 .section-title {
-  margin-top: 36px;
-  margin-bottom: 16px;
+  margin-top: 0 !important;
+  margin-bottom: 0;
   font-size: 18px;
   font-weight: 650;
   letter-spacing: -0.01em;
+}
+
+/* Section content centering — wrap section-title and content in flex container */
+.section-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
 }
 
 .feed {
