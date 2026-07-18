@@ -6,7 +6,7 @@ export default function StatsBar() {
   return (
     <div className="stats-bar">
       <div className="container">
-        <span>5 feeds · 1,110 articles scanned · 50 selected · updated 05:00 UTC</span>
+        <span>5 feeds · 1,110 articles scanned · 50 selected · updated 06:00 UTC (8:00 AM Warsaw)</span>
         <Link href="/how-it-works" className="stats-link">
           How it works →
         </Link>
