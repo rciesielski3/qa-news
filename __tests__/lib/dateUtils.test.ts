@@ -27,12 +27,18 @@ describe('dateUtils', () => {
   });
 
   it('getArticlesForDate filters articles by date', () => {
-    const articles: Article[] = [
-      { id: '1', title: 'Today', publishedAt: '2026-07-17T10:00:00Z', category: 'ai', url: '', source: '' },
-      { id: '2', title: 'Yesterday', publishedAt: '2026-07-16T10:00:00Z', category: 'ai', url: '', source: '' },
-      { id: '3', title: 'Also Today', publishedAt: '2026-07-17T14:00:00Z', category: 'ai', url: '', source: '' },
-    ];
     const today = getUTCToday();
+    const yesterday = getYesterdayUTC();
+
+    // Create dates relative to today
+    const todayString = today.toISOString().split('T')[0];
+    const yesterdayString = yesterday.toISOString().split('T')[0];
+
+    const articles: Article[] = [
+      { id: '1', title: 'Today morning', publishedAt: `${todayString}T10:00:00Z`, category: 'ai', url: '', source: '' },
+      { id: '2', title: 'Yesterday', publishedAt: `${yesterdayString}T10:00:00Z`, category: 'ai', url: '', source: '' },
+      { id: '3', title: 'Today afternoon', publishedAt: `${todayString}T14:00:00Z`, category: 'ai', url: '', source: '' },
+    ];
     const todayArticles = getArticlesForDate(articles, today);
     expect(todayArticles).toHaveLength(2);
     expect(todayArticles.map(a => a.id)).toContain('1');
