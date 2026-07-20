@@ -1,7 +1,237 @@
 {
-  "date": "2026-07-19",
-  "updatedAt": "2026-07-19T15:58:42.081Z",
+  "date": "2026-07-20",
+  "updatedAt": "2026-07-20T17:45:15.190Z",
   "items": [
+    {
+      "id": "lobsters-aHR0cHM6Ly90",
+      "title": "Building an AmigaOS Development Environment in 2026",
+      "summary": "Comments",
+      "url": "https://turtleware.eu/posts/Building-an-AmigaOS-Development-Environment-in-2026.html",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-20T10:30:01.000Z",
+      "tags": [],
+      "score": 72,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9n",
+      "title": "JSON5E - JSON5 for Humans",
+      "summary": "Comments",
+      "url": "https://github.com/boris-kolpackov/libpdjson5/blob/master/JSON5E.md",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-20T09:02:49.000Z",
+      "tags": [],
+      "score": 72,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9t",
+      "title": "Minimal Git CI using hooks",
+      "summary": "Comments",
+      "url": "https://mccd.space/posts/26-06-29/simple-git-ci",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-20T08:28:45.000Z",
+      "tags": [],
+      "score": 72,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9s",
+      "title": "What are you doing this week?",
+      "summary": "What are you doing this week? Feel free to share! Keep in mind it’s OK to do nothing at all, too.",
+      "url": "https://lobste.rs/s/hq0he3/what_are_you_doing_this_week",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-20T08:25:33.000Z",
+      "tags": [],
+      "score": 72,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9u",
+      "title": "Claude found a counterexample to the Jacobian Conjecture",
+      "summary": "Comments",
+      "url": "https://news.ycombinator.com/item?id=48973869",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-20T07:23:27.000Z",
+      "tags": [],
+      "score": 72,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9t",
+      "title": "Scanline edge-flag algorithm for antialiasing",
+      "summary": "Comments",
+      "url": "https://mlab.taik.fi/~kkallio/antialiasing/EdgeFlagAA.pdf",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-20T07:09:19.000Z",
+      "tags": [],
+      "score": 72,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9u",
+      "title": "Fuzzing for fun - unauthenticated denial of service in snac2",
+      "summary": "Comments",
+      "url": "https://nullenvk.pl/posts/02-snac2-json/",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-20T07:04:16.000Z",
+      "tags": [],
+      "score": 72,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly90",
+      "title": "I wrote an API client for my water-cooled bed",
+      "summary": "Comments",
+      "url": "https://tinkering.xyz/bedctl/",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-20T07:04:02.000Z",
+      "tags": [
+        "api"
+      ],
+      "score": 72,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9j",
+      "title": "email encryption",
+      "summary": "Comments",
+      "url": "https://computer.rip/2026-07-19-email-encryption.html",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-20T05:39:53.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 72,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9w",
+      "title": "Who’s responsible for bug reports on old software versions?",
+      "summary": "Comments",
+      "url": "https://pointieststick.com/2026/07/19/whos-responsible-for-bug-reports-on-old-software-versions/",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-20T02:46:27.000Z",
+      "tags": [
+        "bug"
+      ],
+      "score": 71,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9j",
+      "title": "Cagire - Forth-based live coding sequencer",
+      "summary": "Comments",
+      "url": "https://cagire.raphaelforment.fr",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-20T01:01:25.000Z",
+      "tags": [],
+      "score": 71,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9z",
+      "title": "The Zen of Parallel Programming",
+      "summary": "Comments",
+      "url": "https://smolnero.com/posts/the-zen-of-parallel-programming",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-19T20:19:38.000Z",
+      "tags": [],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9k",
+      "title": "Dependable C",
+      "summary": "Comments",
+      "url": "https://dependablec.org/",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-19T19:45:09.000Z",
+      "tags": [],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly90",
+      "title": "Running microVMs in Proxmox VE, The Easy Way",
+      "summary": "Comments",
+      "url": "https://taoofmac.com/space/blog/2026/06/18/1845",
+      "source": "Lobsters",
+      "category": "news",
+      "publishedAt": "2026-07-19T19:31:26.000Z",
+      "tags": [],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "lobsters",
+        "recent"
+      ]
+    },
     {
       "id": "lobsters-aHR0cHM6Ly93",
       "title": "I Built an Even Better Ropebot Dog",
@@ -27,8 +257,8 @@
       "category": "news",
       "publishedAt": "2026-07-19T14:32:11.000Z",
       "tags": [],
-      "score": 72,
-      "priority": "HIGH",
+      "score": 69,
+      "priority": "MEDIUM",
       "reason": [
         "lobsters",
         "recent"
@@ -61,8 +291,8 @@
       "tags": [
         "ai"
       ],
-      "score": 72,
-      "priority": "HIGH",
+      "score": 69,
+      "priority": "MEDIUM",
       "reason": [
         "lobsters",
         "recent"
@@ -77,8 +307,8 @@
       "category": "news",
       "publishedAt": "2026-07-19T13:21:02.000Z",
       "tags": [],
-      "score": 72,
-      "priority": "HIGH",
+      "score": 69,
+      "priority": "MEDIUM",
       "reason": [
         "lobsters",
         "recent"
@@ -95,8 +325,8 @@
       "tags": [
         "rest"
       ],
-      "score": 72,
-      "priority": "HIGH",
+      "score": 69,
+      "priority": "MEDIUM",
       "reason": [
         "lobsters",
         "recent"
@@ -149,8 +379,8 @@
       "category": "news",
       "publishedAt": "2026-07-19T10:40:29.000Z",
       "tags": [],
-      "score": 72,
-      "priority": "HIGH",
+      "score": 69,
+      "priority": "MEDIUM",
       "reason": [
         "lobsters",
         "recent"
@@ -165,11 +395,10 @@
       "category": "news",
       "publishedAt": "2026-07-19T08:37:50.000Z",
       "tags": [],
-      "score": 71,
-      "priority": "HIGH",
+      "score": 68,
+      "priority": "MEDIUM",
       "reason": [
-        "lobsters",
-        "recent"
+        "lobsters"
       ]
     },
     {
@@ -181,11 +410,10 @@
       "category": "news",
       "publishedAt": "2026-07-19T07:50:55.000Z",
       "tags": [],
-      "score": 71,
-      "priority": "HIGH",
+      "score": 68,
+      "priority": "MEDIUM",
       "reason": [
-        "lobsters",
-        "recent"
+        "lobsters"
       ]
     },
     {
@@ -197,11 +425,10 @@
       "category": "news",
       "publishedAt": "2026-07-19T04:32:58.000Z",
       "tags": [],
-      "score": 71,
-      "priority": "HIGH",
+      "score": 68,
+      "priority": "MEDIUM",
       "reason": [
-        "lobsters",
-        "recent"
+        "lobsters"
       ]
     },
     {
@@ -213,11 +440,10 @@
       "category": "news",
       "publishedAt": "2026-07-19T04:07:17.000Z",
       "tags": [],
-      "score": 71,
-      "priority": "HIGH",
+      "score": 68,
+      "priority": "MEDIUM",
       "reason": [
-        "lobsters",
-        "recent"
+        "lobsters"
       ]
     },
     {
@@ -263,11 +489,10 @@
       "category": "news",
       "publishedAt": "2026-07-18T21:21:41.000Z",
       "tags": [],
-      "score": 69,
+      "score": 68,
       "priority": "MEDIUM",
       "reason": [
-        "lobsters",
-        "recent"
+        "lobsters"
       ]
     },
     {
@@ -381,11 +606,10 @@
       "tags": [
         "ai"
       ],
-      "score": 69,
+      "score": 68,
       "priority": "MEDIUM",
       "reason": [
-        "lobsters",
-        "recent"
+        "lobsters"
       ]
     },
     {
@@ -591,253 +815,6 @@
       "tags": [],
       "score": 69,
       "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "Classic console tech tricks",
-      "summary": "Comments",
-      "url": "https://www.youtube.com/playlist?list=PLLM_oC5K01gS9rqn7PotAOE-fb0zrnvdu",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-17T23:33:21.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "Another Taste of Verse",
-      "summary": "Comments",
-      "url": "https://www.youtube.com/watch?v=QIiU-QGzcqc&list=PLQtDWkrawhsE&index=2",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-17T23:03:22.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9n",
-      "title": "topcoat: A batteries-included framework for building web apps",
-      "summary": "Comments",
-      "url": "https://github.com/tokio-rs/topcoat",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-17T22:45:28.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9i",
-      "title": "Enterprise Haskell at H-E-B",
-      "summary": "Comments",
-      "url": "https://blog.haskell.org/enterprise-haskell-at-h-e-b/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-17T21:51:07.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities ",
-      "summary": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPre...",
-      "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
-      "source": "Cloudflare",
-      "category": "news",
-      "publishedAt": "2026-07-17T21:30:43.000Z",
-      "tags": [
-        "security",
-        "release",
-        "update"
-      ],
-      "score": 105,
-      "priority": "CRITICAL",
-      "reason": [
-        "security",
-        "cloudflare"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9h",
-      "title": "Lobsters Interview with matheusmoreira about Lone Lisp",
-      "summary": "@matheusmoreira (blog) built lone lisp directly on Linux system calls. In this interview, he shares his knowledge of C and the Linux Kernel. How did you get into computing originally? What was your pa...",
-      "url": "https://alexalejandre.com/interviews/interview-with-matheus-moreira/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-17T21:07:10.000Z",
-      "tags": [
-        "javascript",
-        "python",
-        "testing",
-        "github",
-        "api",
-        "rest",
-        "performance",
-        "update",
-        "feature",
-        "bug",
-        "ai"
-      ],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "The Java Story | The Official Documentary",
-      "summary": "Comments",
-      "url": "https://www.youtube.com/watch?v=ZqGSg4b_cZA",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-17T20:55:38.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9q",
-      "title": "Learning a few things about running SQLite",
-      "summary": "Comments",
-      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-17T19:54:44.000Z",
-      "tags": [
-        "sql"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9k",
-      "title": "Faulty Towers, vibe sickness, and the vibe bobsled",
-      "summary": "Comments",
-      "url": "https://dustycloud.org/blog/faulty-towers-vibe-sickness-and-the-vibe-bobsled/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-17T19:53:06.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9t",
-      "title": "We are Changing our Developer Productivity Experiment Design",
-      "summary": "Followup to their 2025 study that showed a 19% decrease in productivity. Data repo. Comments",
-      "url": "https://metr.org/blog/2026-02-24-uplift-update/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-17T12:51:36.000Z",
-      "tags": [
-        "github",
-        "ai"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9m",
-      "title": "Freya 0.4 - Rust GUI library",
-      "summary": "Comments",
-      "url": "https://freyaui.dev/posts/0.4",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-17T11:21:45.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "A scorecard for the AI age",
-      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "source": "OpenAI",
-      "category": "news",
-      "publishedAt": "2026-07-17T10:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 75,
-      "priority": "HIGH",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "microsoft-devblogs-aHR0cHM6Ly9k",
-      "title": "How to test agent skills without hitting real APIs",
-      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing y...",
-      "url": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
-      "source": "Microsoft DevBlogs",
-      "category": "article",
-      "publishedAt": "2026-07-17T09:27:50.000Z",
-      "tags": [
-        "api"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "agent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9i",
-      "title": "Unfolding trees breadth-first in Haskell (2025)",
-      "summary": "Comments",
-      "url": "https://blog.poisson.chat/posts/2025-03-30-breadth-first-unfolds.html",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-17T09:16:11.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 72,
-      "priority": "HIGH",
       "reason": [
         "lobsters",
         "recent"
