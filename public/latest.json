@@ -1,22 +1,229 @@
 {
-  "date": "2026-07-21",
-  "updatedAt": "2026-07-21T10:17:34.961Z",
-  "items": [
+  "articles": [
+    {
+      "id": "lobsters-aHR0cHM6Ly9l",
+      "title": "ECC and DDR5",
+      "summary": "Comments",
+      "url": "https://etbe.coker.com.au/2026/07/19/ecc-ddr5/",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-22T06:19:17.000Z",
+      "tags": []
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9r",
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "summary": "Comments",
+      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-22T05:56:08.000Z",
+      "tags": []
+    },
     {
       "id": "lobsters-aHR0cHM6Ly9q",
-      "title": "Escape IntelliJ: Scala and Kotlin LSPs on Emacs Eglot",
+      "title": "Some more things about Django I've been enjoying",
       "summary": "Comments",
-      "url": "https://jointhefreeworld.org/blog/articles/emacs/emacs-eglot-scala-kotlin/index.html",
+      "url": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/",
       "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-21T10:03:51.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
+      "category": "engineering",
+      "publishedAt": "2026-07-22T02:46:37.000Z",
+      "tags": []
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9z",
+      "title": "Bringing the modern web to the original iPad mini",
+      "summary": "Comments",
+      "url": "https://seg6.space/posts/resurrecting-ipad-mini",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T22:47:54.000Z",
+      "tags": []
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly93",
+      "title": "An Engineer’s Guide to USB Type-C",
+      "summary": "Comments",
+      "url": "https://www.ti.com/lit/eb/slyy228/slyy228.pdf",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T22:38:33.000Z",
+      "tags": []
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9s",
+      "title": "Parallelizing Compilation: In-Process vs Multi-Process",
+      "summary": "I'm not sure if there are already good names for this, but I can't find anything useful when I look online. Obviously, when compiling programs, parallelizing the work is crucial. There seem to be two ...",
+      "url": "https://lobste.rs/s/lzgtkz/parallelizing_compilation_process_vs",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T21:59:43.000Z",
+      "tags": [
+        "ai"
       ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9i",
+      "title": "Your Agentic Workflow's Cache Keepalive Costs 8x Too Much",
+      "summary": "Comments",
+      "url": "https://blog.mempko.com/keeping-the-kv-cache-warm-measuring-prompt-cache-eviction-across-anthropic-openai-and-google/",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T20:44:50.000Z",
+      "tags": []
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9m",
+      "title": "Free Ink · An open ecosystem for e-readers",
+      "summary": "Comments",
+      "url": "https://freeink.org/",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T20:39:54.000Z",
+      "tags": []
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9v",
+      "title": "OpenAI model breaks out of security sandbox, hacks Hugging Face for data to pass test",
+      "summary": "Comments",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "source": "Lobsters",
+      "category": "test-automation",
+      "publishedAt": "2026-07-21T20:38:04.000Z",
+      "tags": [
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9z",
+      "title": "COSMIC DE’s First Seven Months",
+      "summary": "Comments",
+      "url": "https://system76.com/blog/post/cosmic-de-first-seven-months",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T19:57:49.000Z",
+      "tags": []
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9j",
+      "title": "Cosy Language",
+      "summary": "Comments",
+      "url": "https://cosy.com/y26/NL202603.html",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T19:02:41.000Z",
+      "tags": []
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9q",
+      "title": "“No AI” Statements Are Much More Than Mere Statements",
+      "summary": "Comments",
+      "url": "https://journal.james-zhan.com/no-ai-statements/",
+      "source": "Lobsters",
+      "category": "ai",
+      "publishedAt": "2026-07-21T18:02:26.000Z",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9q",
+      "title": "Web-based Jujutsu revset explorer & debugger",
+      "summary": "Comments",
+      "url": "https://juju.bi/tools/revset",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T17:50:36.000Z",
+      "tags": [
+        "bug"
+      ]
+    },
+    {
+      "id": "cypress-releases-aHR0cHM6Ly9n",
+      "title": "v15.19.0",
+      "summary": "Changelog: https://docs.cypress.io/app/references/changelog#15-19-0",
+      "url": "https://github.com/cypress-io/cypress/releases/tag/v15.19.0",
+      "source": "Cypress Releases",
+      "category": "test-automation",
+      "publishedAt": "2026-07-21T17:46:33.000Z",
+      "tags": [
+        "cypress"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly93",
+      "title": "K2 Reference Manual (1998)",
+      "summary": "Comments",
+      "url": "https://web.archive.org/web/20050111142057/http://www.kx.com/technical/documents/kreflite.pdf",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T17:34:01.000Z",
+      "tags": []
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "Introducing the ChatGPT for small business program",
+      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "source": "OpenAI",
+      "category": "tooling",
+      "publishedAt": "2026-07-21T17:00:00.000Z",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9i",
+      "title": "Capture Clauses as Effects",
+      "summary": "Comments",
+      "url": "https://blog.yoshuawuyts.com/capture-clauses-as-effects/#optimizing-for-writes",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T15:52:21.000Z",
+      "tags": []
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9u",
+      "title": "git --end-of-options",
+      "summary": "Comments",
+      "url": "https://nesbitt.io/2026/07/21/end-of-options.html",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T12:31:15.000Z",
+      "tags": []
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9i",
+      "title": "Thoughts On Integers (2023)",
+      "summary": "Comments",
+      "url": "https://blog.xoria.org/integers/",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T12:16:08.000Z",
+      "tags": []
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly90",
+      "title": "GitHub suddenly rejected my SSH key (the fix was a .pub file?!)",
+      "summary": "Comments",
+      "url": "https://thorsell.io/2026/07/21/github-ssh-keys.html",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T10:11:59.000Z",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly9m",
+      "title": "Linux kernel will support $ORIGIN, sort of",
+      "summary": "HN discussions: https://news.ycombinator.com/item?id=48988793 Comments",
+      "url": "https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T10:02:46.000Z",
+      "tags": []
     },
     {
       "id": "lobsters-aHR0cHM6Ly9j",
@@ -24,15 +231,19 @@
       "summary": "Comments",
       "url": "https://codeberg.org/jjba23/ggg",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-21T09:59:57.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
+      "tags": []
+    },
+    {
+      "id": "lobsters-aHR0cHM6Ly91",
+      "title": "Five moments in snapping history",
+      "summary": "Comments",
+      "url": "https://unsung.aresluna.org/five-moments-in-snapping-history/",
+      "source": "Lobsters",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T09:57:39.000Z",
+      "tags": []
     },
     {
       "id": "lobsters-aHR0cHM6Ly9l",
@@ -40,66 +251,53 @@
       "summary": "Comments",
       "url": "https://ervin.ipsquad.net/blog/2026/07/21/kde-for-entreprise-needs-a-strong-pim-infrastructure/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-21T07:20:43.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
+      "tags": []
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "source": "OpenAI",
+      "category": "qa-practice",
+      "publishedAt": "2026-07-21T07:00:00.000Z",
+      "tags": [
+        "security",
+        "ai"
       ]
     },
     {
-      "id": "microsoft-devblogs-aHR0cHM6Ly9k",
-      "title": "How to test agent experience changes without shipping them",
-      "summary": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP s...",
-      "url": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
-      "source": "Microsoft DevBlogs",
-      "category": "article",
-      "publishedAt": "2026-07-21T07:15:12.000Z",
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "How Searchable ships customer-requested features in 30 minutes on Vercel ",
+      "summary": "Searchable on Vercel5x increase in development velocity100+ billion tokens processed Customer-requested features shipped in as little as 30 minutesZero model SDK implementation or API key rotation wit...",
+      "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
+      "source": "Vercel Blog",
+      "category": "tooling",
+      "publishedAt": "2026-07-21T04:00:00.000Z",
       "tags": [
         "api",
+        "feature",
         "ai"
-      ],
-      "score": 99,
-      "priority": "CRITICAL",
-      "reason": [
-        "mcp",
-        "agent",
-        "recent"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "Why l (new runtime for k and q)",
-      "summary": "Comments",
-      "url": "https://lv1.sh/blog/why-l/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-21T06:50:14.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "30 to 70 PRs a Day: How We Managed to Not Wreck Our Systems",
-      "summary": "Comments",
-      "url": "https://www.honeycomb.io/blog/30-70-prs-day-how-we-managed-not-wreck-systems",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-21T06:26:16.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Introducing the new Vercel Agent",
+      "summary": "Today we're expanding . It started by triaging alerts and reviewing your pull requests. Now it has a home in your dashboard, where it can investigate production, answer questions about your projects, ...",
+      "url": "https://vercel.com/blog/vercel-agent",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T04:00:00.000Z",
+      "tags": [
+        "github",
+        "rest",
+        "performance",
+        "security",
+        "update",
+        "feature",
+        "ai"
       ]
     },
     {
@@ -108,15 +306,9 @@
       "summary": "Comments",
       "url": "https://lore.kernel.org/linux-cve-announce/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-21T03:50:28.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
+      "tags": []
     },
     {
       "id": "lobsters-aHR0cHM6Ly9i",
@@ -124,78 +316,98 @@
       "summary": "Comments",
       "url": "https://bellkiosk.website/blog/reasons-to-website.html",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-21T03:02:24.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
+      "tags": []
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Python function bundles now include precompiled bytecode",
+      "summary": "Vercel now compiles Python functions to bytecode at build time. In our benchmarks, cold starts for the median-sized function dropped from .2.8s to 1.3sWhen Python imports a module without cached bytec...",
+      "url": "https://vercel.com/changelog/python-function-bundles-now-include-precompiled-bytecode",
+      "source": "Vercel Blog",
+      "category": "tooling",
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "tags": [
+        "python",
+        "ai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9l",
-      "title": "Using a SSH bastion, but only when I'm touching grass",
-      "summary": "Comments",
-      "url": "https://evertpot.com/ssh-tunnel-if-unresolvable/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-21T02:23:52.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Vercel Connect adds 90+ preset connectors",
+      "summary": "Vercel Connect now includes preset connectors for 90+ services, including Shopify, Okta, Workday, Jira, and Sanity.Preset are predefined configurations for supported services. They reduce manual setup...",
+      "url": "https://vercel.com/changelog/vercel-connect-preset-connectors",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "tags": []
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Vercel MCP now supports purchases",
+      "summary": "now supports purchasing Vercel products. You can:Vercel MCPVercel MCP quotes the price, explains whether the charge is one-time or recurring, and completes the purchase only after you confirm. When an...",
+      "url": "https://vercel.com/changelog/vercel-mcp-now-supports-purchases",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "tags": [
+        "ai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9z",
-      "title": "Secrets Don’t Belong in Config",
-      "summary": "Comments",
-      "url": "https://secretspec.dev/blog/secrets-dont-belong-in-config/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-21T00:09:48.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Laguna S 2.1 is now available on AI Gateway",
+      "summary": "is now available on AI Gateway. There are 2 versions of the model available:Laguna S 2.1 from PoolsideLaguna S 2.1 is an open-weight Mixture-of-Experts model that supports a context window of up to 1M...",
+      "url": "https://vercel.com/changelog/laguna-s-2-1-is-now-available-on-ai-gateway",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "tags": [
+        "api",
+        "performance",
+        "bug",
+        "ai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "An informal tutorial on Joy",
-      "summary": "Comments",
-      "url": "https://www.kevinalbrecht.com/code/joy-mirror/j01tut.html",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T23:16:36.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Gemini 3.6 Flash and Gemini 3.5 Flash-Lite are now available on AI Gateway",
+      "summary": "and are now available on AI Gateway.Gemini 3.6 FlashGemini 3.5 Flash-LiteGemini 3.6 Flash improves quality across coding, agentic tasks, and web development while consuming fewer tokens and making few...",
+      "url": "https://vercel.com/changelog/gemini-3-6-flash-3-5-flash-lite-on-ai-gateway",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "tags": [
+        "api",
+        "performance",
+        "ai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "Opaque, Interoperable Passkey Records",
-      "summary": "Comments",
-      "url": "https://words.filippo.io/passkey-record/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T22:46:53.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Service tiers now available on AI Gateway",
+      "summary": "AI Gateway now supports service tiering. Service tiers let you optimize for latency, throughput, and cost per request to match your use case. Pick a faster tier for interactive workloads (less queuein...",
+      "url": "https://vercel.com/changelog/service-tiers-now-available-on-ai-gateway",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "tags": [
+        "api",
+        "rest",
+        "ai"
+      ]
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "summary": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
+      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -204,194 +416,9 @@
       "summary": "Comments",
       "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
       "source": "Lobsters",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-20T22:16:00.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9y",
-      "title": "How Gnutella Scaled to Handle Query Traffic",
-      "summary": "Comments",
-      "url": "https://rickcarlino.com/notes/p2p/how-gnutella-scaled-to-handle-query-traffic.html",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T21:51:15.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "Postgres 19 Compression: from pglz to LZ4",
-      "summary": "Comments",
-      "url": "https://www.crunchydata.com/blog/postgres-19-compression-from-pglz-to-lz4",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T21:48:43.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Cloudflare Internal DNS is now generally available",
-      "summary": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
-      "url": "https://blog.cloudflare.com/internal-dns/",
-      "source": "Cloudflare",
-      "category": "news",
-      "publishedAt": "2026-07-20T20:59:31.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 67,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9h",
-      "title": "A deep dive into my Forgejo setup",
-      "summary": "Hello folks! I've recently resurrected my will for tech blogging and I thought someone else out there might also be considering setting up a Forgejo instance so I took the time to write about my journ...",
-      "url": "https://a.l3x.in/blog/welcome-to-my-forge/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T16:40:40.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9i",
-      "title": "Type Safe Servant Auth Roles",
-      "summary": "Comments",
-      "url": "https://blog.cofree.coffee/2026-07-20-servant-auth-roles/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T16:07:19.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9m",
-      "title": "InvisiCaps: The Fil-C Capability Model",
-      "summary": "Comments",
-      "url": "https://fil-c.org/invisicaps",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T15:21:15.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "7 Sandbox Escape Vulnerabilities Across 4 Coding Agent Vendors",
-      "summary": "Comments",
-      "url": "https://www.pillar.security/blog/the-week-of-sandbox-escapes",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T14:33:55.000Z",
-      "tags": [],
-      "score": 89,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9k",
-      "title": "Rust for Morello: Always-On Memory Safety, Even in Unsafe Code",
-      "summary": "Comments",
-      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol263-ecoop2023/LIPIcs.ECOOP.2023.39/LIPIcs.ECOOP.2023.39.pdf",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T14:33:37.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9z",
-      "title": "Meta Garbage Collection: Using OCaml's GC to GC Rust",
-      "summary": "Comments",
-      "url": "https://soteria-tools.com/blog/meta-garbage-collection",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T13:58:52.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9n",
-      "title": "Gitolite",
-      "summary": "Comments",
-      "url": "https://gitolite.com/gitolite/index.html",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T12:10:14.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly90",
-      "title": "Building an AmigaOS Development Environment in 2026",
-      "summary": "Comments",
-      "url": "https://turtleware.eu/posts/Building-an-AmigaOS-Development-Environment-in-2026.html",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T10:30:01.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
+      "tags": []
     },
     {
       "id": "openai-aHR0cHM6Ly9v",
@@ -399,420 +426,160 @@
       "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
       "source": "OpenAI",
-      "category": "news",
+      "category": "engineering",
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "tags": [
         "ai"
-      ],
-      "score": 75,
-      "priority": "HIGH",
-      "reason": [
-        "openai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9n",
-      "title": "JSON5E - JSON5 for Humans",
-      "summary": "Comments",
-      "url": "https://github.com/boris-kolpackov/libpdjson5/blob/master/JSON5E.md",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T09:02:49.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9t",
-      "title": "Minimal Git CI using hooks",
-      "summary": "Comments",
-      "url": "https://mccd.space/posts/26-06-29/simple-git-ci",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T08:28:45.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "What are you doing this week?",
-      "summary": "What are you doing this week? Feel free to share! Keep in mind it’s OK to do nothing at all, too.",
-      "url": "https://lobste.rs/s/hq0he3/what_are_you_doing_this_week",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T08:25:33.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9u",
-      "title": "Claude found a counterexample to the Jacobian Conjecture",
-      "summary": "Comments",
-      "url": "https://news.ycombinator.com/item?id=48973869",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T07:23:27.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9t",
-      "title": "Scanline edge-flag algorithm for antialiasing",
-      "summary": "Comments",
-      "url": "https://mlab.taik.fi/~kkallio/antialiasing/EdgeFlagAA.pdf",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T07:09:19.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9u",
-      "title": "Fuzzing for fun - unauthenticated denial of service in snac2",
-      "summary": "Comments",
-      "url": "https://nullenvk.pl/posts/02-snac2-json/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T07:04:16.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly90",
-      "title": "I wrote an API client for my water-cooled bed",
-      "summary": "Comments",
-      "url": "https://tinkering.xyz/bedctl/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T07:04:02.000Z",
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Configure where run state lives in Vercel Workflows",
+      "summary": "now keeps each run's state, queue dispatch, and output streams in a single home region: the region where the run starts by default, or any target region you choose.Vercel WorkflowsA run keeps its home...",
+      "url": "https://vercel.com/changelog/configure-where-run-state-lives-in-vercel-workflows",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-20T00:00:00.000Z",
       "tags": [
-        "api"
-      ],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9j",
-      "title": "email encryption",
-      "summary": "Comments",
-      "url": "https://computer.rip/2026-07-19-email-encryption.html",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T05:39:53.000Z",
-      "tags": [
+        "update",
         "ai"
-      ],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9w",
-      "title": "Who’s responsible for bug reports on old software versions?",
-      "summary": "Comments",
-      "url": "https://pointieststick.com/2026/07/19/whos-responsible-for-bug-reports-on-old-software-versions/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T02:46:27.000Z",
-      "tags": [
-        "bug"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Purge your Remote Cache's build and CI artifacts",
+      "summary": "Team Owners can now clear the team's Remote Cache of all artifacts in one click. This is useful when you believe there are poisoned artifacts in your cache.In your team's Build and Deployment settings...",
+      "url": "https://vercel.com/changelog/purge-your-remote-caches-build-and-ci-artifacts",
+      "source": "Vercel Blog",
+      "category": "tooling",
+      "publishedAt": "2026-07-20T00:00:00.000Z",
+      "tags": []
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9j",
-      "title": "Cagire - Forth-based live coding sequencer",
-      "summary": "Comments",
-      "url": "https://cagire.raphaelforment.fr",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-20T01:01:25.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9z",
-      "title": "The Zen of Parallel Programming",
-      "summary": "Comments",
-      "url": "https://smolnero.com/posts/the-zen-of-parallel-programming",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T20:19:38.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9k",
-      "title": "Dependable C",
-      "summary": "Comments",
-      "url": "https://dependablec.org/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T19:45:09.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly90",
-      "title": "Running microVMs in Proxmox VE, The Easy Way",
-      "summary": "Comments",
-      "url": "https://taoofmac.com/space/blog/2026/06/18/1845",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T19:31:26.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "I Built an Even Better Ropebot Dog",
-      "summary": "Comments",
-      "url": "https://www.youtube.com/watch?v=GFLa1b1juUo",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T14:39:59.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9n",
-      "title": "CodeSizer: Why is that binary so big?",
-      "summary": "Comments",
-      "url": "https://github.com/Wren6991/CodeSizer",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T14:32:11.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "ZTA: Zero Token Architecture",
-      "summary": "Comments",
-      "url": "https://www.youtube.com/watch?v=A7WFt2JQ5sg",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T14:28:24.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9t",
-      "title": "Git email patch review addon for Thunderbird",
-      "summary": "Comments",
-      "url": "https://mccd.space/git/thunderbird-patch-review/file/README.html.html",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T14:02:59.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9h",
-      "title": "Shake Blog",
-      "summary": "Comments",
-      "url": "https://abhin4v.github.io/shake-blog/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T13:21:02.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "What is your favorite blog to read recently?",
-      "summary": "Especially interesting what it adds beyond an academic paper would.",
-      "url": "https://lobste.rs/s/69mche/what_is_your_favorite_blog_read_recently",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T13:14:39.000Z",
-      "tags": [
-        "rest"
-      ],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "Skred is now a MIDI aware synth and drum machine construction kit",
-      "summary": "https://youtu.be/c6hJb0CYRmo?si=FhJRNCzNSdtMAiC- This video has a step-by-step demo of using Skred v0.50.0 as a synth and drum machine construction kit. The video shows a little of MIDI connection stu...",
-      "url": "https://lobste.rs/s/xhjzmc/skred_is_now_midi_aware_synth_drum_machine",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T12:41:16.000Z",
+      "id": "github-engineering-aHR0cHM6Ly9n",
+      "title": "The cost of saying yes has changed",
+      "summary": "The most expensive part of a small feature request used to be writing the code. Now it&rsquo;s usually the meeting about whether or not to write the code. That&rsquo;s a real shift, and it quietly bre...",
+      "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+      "source": "GitHub Engineering",
+      "category": "tooling",
+      "publishedAt": "2026-07-17T16:46:47.000Z",
       "tags": [
         "github",
+        "rest",
         "release",
+        "update",
+        "feature",
         "ai"
-      ],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9n",
-      "title": "Triton language for Alibaba SAIL",
-      "summary": "Comments",
-      "url": "https://github.com/t-head/triton-for-sail",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T11:43:23.000Z",
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "A scorecard for the AI age",
+      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-07-17T10:00:00.000Z",
       "tags": [
         "ai"
-      ],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9z",
-      "title": "The death and rebirth of my home server",
-      "summary": "Comments",
-      "url": "https://sgt.hootr.club/blog/home-server-rebirth/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T10:40:29.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Data downloaded by Vercel Sandbox is now free",
+      "summary": "no longer bills for data it downloads from the internet. Installing packages, cloning a Git repository, or pulling artifacts and datasets from an external source does not count toward Sandbox Data Tra...",
+      "url": "https://vercel.com/changelog/data-downloaded-by-vercel-sandbox-is-now-free",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-17T07:01:00.000Z",
+      "tags": []
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Runtime logs now show cache reasons",
+      "summary": "Runtime logs now show a Cache Reason explaining why a request wasn't a fresh cache hit, for example a time-based or tag-based revalidation. Use cache reasons to debug misses and improve your hit rate....",
+      "url": "https://vercel.com/changelog/runtime-logs-now-show-cache-reasons",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-17T01:00:00.000Z",
+      "tags": [
+        "bug",
+        "ai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9y",
-      "title": "More emulation goodness, an Intel Itanium (IA-64) emulator that boots Windows",
-      "summary": "Comments",
-      "url": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T08:37:50.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "GLM 5.2 is 35% off via Novita on AI Gateway",
+      "summary": "is 35% off on AI Gateway through July 24 when routed through Novita.GLM 5.2To get the discounted rate, set the model to in the and route requests through Novita:zai/glm-5.2AI SDKAfter July 24, the mod...",
+      "url": "https://vercel.com/changelog/glm-5-2-is-35-off-via-novita-on-ai-gateway",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-17T00:01:00.000Z",
+      "tags": [
+        "ai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "Mathematicians still don’t know the fastest way to multiply numbers",
-      "summary": "Comments",
-      "url": "https://www.scientificamerican.com/article/mathematicians-still-dont-know-the-fastest-way-to-multiply-numbers/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T07:50:55.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Optimized CDN caching and deploying of immutable static assets",
+      "summary": "Vercel now reuses static files across deployments for frameworks that output content-addressed assets. It's zero-config: Vercel uses to manage these immutable files alongside your code changes, handli...",
+      "url": "https://vercel.com/changelog/optimized-cdn-caching-and-deploying-of-immutable-static-assets",
+      "source": "Vercel Blog",
+      "category": "tooling",
+      "publishedAt": "2026-07-17T00:00:00.000Z",
+      "tags": [
+        "api",
+        "ai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9u",
-      "title": "The computer at the bottom of a canal",
-      "summary": "Comments",
-      "url": "https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/",
-      "source": "Lobsters",
-      "category": "news",
-      "publishedAt": "2026-07-19T04:32:58.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Vercel Plugin now available in Kimi Code CLI",
+      "summary": "The is now available in the .Vercel PluginKimi Code CLIKimi Code can now draw on Vercel platform knowledge on demand, with skills for Next.js, AI SDK, Vercel Functions, and more. The Vercel Plugin als...",
+      "url": "https://vercel.com/changelog/vercel-plugin-now-available-in-kimi-code-cli",
+      "source": "Vercel Blog",
+      "category": "tooling",
+      "publishedAt": "2026-07-17T00:00:00.000Z",
+      "tags": [
+        "api",
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Chat SDK adds native Slack agent support",
+      "summary": "You can now build native Slack agents with Chat SDK's .Slack adapterThe adapter supports the full , from agent conversations in the Messages tab to suggested prompts, rotating status messages, token-b...",
+      "url": "https://vercel.com/changelog/chat-sdk-adds-native-slack-agent-support",
+      "source": "Vercel Blog",
+      "category": "tooling",
+      "publishedAt": "2026-07-17T00:00:00.000Z",
+      "tags": [
+        "api",
+        "ai"
+      ]
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "Why teens deserve access to safe AI",
+      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-07-16T16:00:00.000Z",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "id": "vercel-blog-aHR0cHM6Ly92",
+      "title": "Write utilization now available in ISR Observability",
+      "summary": "The now shows subscribers a write utilization metric, helping identify routes that regenerate often but receive few requests. Write utilization is the ratio of cached requests to ISR writes. For route...",
+      "url": "https://vercel.com/changelog/write-utilization-now-available-in-isr-observability",
+      "source": "Vercel Blog",
+      "category": "engineering",
+      "publishedAt": "2026-07-16T00:00:00.000Z",
+      "tags": [
+        "ai"
       ]
     }
   ]
