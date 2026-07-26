@@ -76,7 +76,9 @@ export function applyFilters<T extends Article>(articles: T[], filters: FilterSt
 export function parseFilterParams(searchParams: Record<string, string | string[]>): FilterState {
   const category = typeof searchParams.category === 'string' ? searchParams.category : undefined;
   const tagsParam = searchParams.tags;
-  const tags = typeof tagsParam === 'string' ? tagsParam.split(',').filter(Boolean) : undefined;
+  const tags = typeof tagsParam === 'string'
+    ? tagsParam.split(',').map((tag) => tag.trim()).filter(Boolean)
+    : undefined;
 
   return { category, tags };
 }
