@@ -2,18 +2,16 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import FilterBar from '@/components/FilterBar';
-
-// Mock Category type
-type Category = 'all' | 'qaInsights' | 'toolReviews' | 'industryNews';
+import type { Category } from '@/lib/types';
 
 describe('FilterBar Component - Comprehensive RTL Tests', () => {
   // Default props for testing
   const defaultProps = {
     categories: [
-      { id: 'all' as Category, label: 'All Categories' },
-      { id: 'qaInsights' as Category, label: 'QA Insights' },
-      { id: 'toolReviews' as Category, label: 'Tool Reviews' },
-      { id: 'industryNews' as Category, label: 'Industry News' },
+      { id: 'test-automation', label: 'Test Automation' },
+      { id: 'ai', label: 'AI' },
+      { id: 'engineering', label: 'Engineering' },
+      { id: 'qa-practice', label: 'QA Practice' },
     ],
     availableTags: ['javascript', 'typescript', 'react', 'testing', 'automation'],
     activeFilters: { category: undefined, tags: [] },
@@ -58,7 +56,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
     test('renders filter status when category filter is active', () => {
       const props = {
         ...defaultProps,
-        activeFilters: { category: 'qaInsights' as Category, tags: [] },
+        activeFilters: { category: 'ai', tags: [] },
         shownArticles: 25,
       };
 
@@ -90,7 +88,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
     test('renders filter status when both category and tags are active', () => {
       const props = {
         ...defaultProps,
-        activeFilters: { category: 'qaInsights' as Category, tags: ['javascript'] },
+        activeFilters: { category: 'ai', tags: ['javascript'] },
         shownArticles: 8,
       };
 
@@ -107,20 +105,20 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
     test('category buttons have correct aria-pressed state when inactive', () => {
       render(<FilterBar {...defaultProps} />);
 
-      const qaInsightsBtn = screen.getByRole('button', { name: 'QA Insights' });
-      expect(qaInsightsBtn).toHaveAttribute('aria-pressed', 'false');
+      const aiBtn = screen.getByRole('button', { name: 'AI' });
+      expect(aiBtn).toHaveAttribute('aria-pressed', 'false');
     });
 
     test('category button has aria-pressed="true" when active', () => {
       const props = {
         ...defaultProps,
-        activeFilters: { category: 'qaInsights' as Category },
+        activeFilters: { category: 'ai' },
       };
 
       render(<FilterBar {...props} />);
 
-      const qaInsightsBtn = screen.getByRole('button', { name: 'QA Insights' });
-      expect(qaInsightsBtn).toHaveAttribute('aria-pressed', 'true');
+      const aiBtn = screen.getByRole('button', { name: 'AI' });
+      expect(aiBtn).toHaveAttribute('aria-pressed', 'true');
     });
 
     test('clicking category button calls onCategoryChange with category', () => {
@@ -132,10 +130,10 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
 
       render(<FilterBar {...props} />);
 
-      const qaInsightsBtn = screen.getByRole('button', { name: 'QA Insights' });
-      fireEvent.click(qaInsightsBtn);
+      const aiBtn = screen.getByRole('button', { name: 'AI' });
+      fireEvent.click(aiBtn);
 
-      expect(onCategoryChange).toHaveBeenCalledWith('qaInsights');
+      expect(onCategoryChange).toHaveBeenCalledWith('ai');
       expect(onCategoryChange).toHaveBeenCalledTimes(1);
     });
 
@@ -143,13 +141,13 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
       const onCategoryChange = jest.fn();
       const props = {
         ...defaultProps,
-        activeFilters: { category: 'toolReviews' as Category },
+        activeFilters: { category: 'engineering' },
         onCategoryChange,
       };
 
       render(<FilterBar {...props} />);
 
-      const toolReviewsBtn = screen.getByRole('button', { name: 'Tool Reviews' });
+      const toolReviewsBtn = screen.getByRole('button', { name: 'Engineering' });
       fireEvent.click(toolReviewsBtn);
 
       expect(onCategoryChange).toHaveBeenCalledWith(null);
@@ -159,29 +157,29 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
       const onCategoryChange = jest.fn();
       const props = {
         ...defaultProps,
-        activeFilters: { category: 'qaInsights' as Category },
+        activeFilters: { category: 'ai' },
         onCategoryChange,
       };
 
       const { rerender } = render(<FilterBar {...props} />);
 
-      const toolReviewsBtn = screen.getByRole('button', { name: 'Tool Reviews' });
+      const toolReviewsBtn = screen.getByRole('button', { name: 'Engineering' });
       fireEvent.click(toolReviewsBtn);
 
-      expect(onCategoryChange).toHaveBeenCalledWith('toolReviews');
+      expect(onCategoryChange).toHaveBeenCalledWith('engineering');
 
       // Simulate props update
       rerender(
         <FilterBar
           {...props}
-          activeFilters={{ category: 'toolReviews' as Category }}
+          activeFilters={{ category: 'engineering' }}
         />
       );
 
-      const qaInsightsBtn = screen.getByRole('button', { name: 'QA Insights' });
-      const updatedToolReviewsBtn = screen.getByRole('button', { name: 'Tool Reviews' });
+      const aiBtn = screen.getByRole('button', { name: 'AI' });
+      const updatedToolReviewsBtn = screen.getByRole('button', { name: 'Engineering' });
 
-      expect(qaInsightsBtn).toHaveAttribute('aria-pressed', 'false');
+      expect(aiBtn).toHaveAttribute('aria-pressed', 'false');
       expect(updatedToolReviewsBtn).toHaveAttribute('aria-pressed', 'true');
     });
   });
@@ -331,7 +329,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
     test('reset button is visible when category filter is active', () => {
       const props = {
         ...defaultProps,
-        activeFilters: { category: 'qaInsights' as Category },
+        activeFilters: { category: 'ai' },
       };
 
       render(<FilterBar {...props} />);
@@ -354,7 +352,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
       const onReset = jest.fn();
       const props = {
         ...defaultProps,
-        activeFilters: { category: 'qaInsights' as Category, tags: ['javascript'] },
+        activeFilters: { category: 'ai', tags: ['javascript'] },
         onReset,
       };
 
@@ -370,7 +368,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
       const onReset = jest.fn();
       const props = {
         ...defaultProps,
-        activeFilters: { category: 'qaInsights' as Category },
+        activeFilters: { category: 'ai' },
         onReset,
       };
 
@@ -394,7 +392,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
     test('displays correct article count when category filter is active', () => {
       const props = {
         ...defaultProps,
-        activeFilters: { category: 'qaInsights' as Category },
+        activeFilters: { category: 'ai' },
         totalArticles: 100,
         shownArticles: 35,
       };
@@ -469,7 +467,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
     test('handles edge case: all articles shown', () => {
       const props = {
         ...defaultProps,
-        activeFilters: { category: 'all' as Category },
+        activeFilters: { category: 'all' },
         totalArticles: 50,
         shownArticles: 50,
       };
@@ -487,24 +485,24 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
     test('updates category buttons when activeFilters.category changes', () => {
       const props = {
         ...defaultProps,
-        activeFilters: { category: 'qaInsights' as Category },
+        activeFilters: { category: 'ai' },
       };
 
       const { rerender } = render(<FilterBar {...props} />);
 
-      let qaBtn = screen.getByRole('button', { name: 'QA Insights' });
+      let qaBtn = screen.getByRole('button', { name: 'AI' });
       expect(qaBtn).toHaveAttribute('aria-pressed', 'true');
 
       // Update to different category
       rerender(
         <FilterBar
           {...props}
-          activeFilters={{ category: 'toolReviews' as Category }}
+          activeFilters={{ category: 'engineering' }}
         />
       );
 
-      qaBtn = screen.getByRole('button', { name: 'QA Insights' });
-      const trBtn = screen.getByRole('button', { name: 'Tool Reviews' });
+      qaBtn = screen.getByRole('button', { name: 'AI' });
+      const trBtn = screen.getByRole('button', { name: 'Engineering' });
 
       expect(qaBtn).toHaveAttribute('aria-pressed', 'false');
       expect(trBtn).toHaveAttribute('aria-pressed', 'true');
@@ -572,7 +570,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
 
       const { rerender } = render(<FilterBar {...props} />);
 
-      const qaBtn = screen.getByRole('button', { name: 'QA Insights' });
+      const qaBtn = screen.getByRole('button', { name: 'AI' });
       fireEvent.click(qaBtn);
 
       expect(onCategoryChange).toHaveBeenCalledTimes(1);
@@ -586,7 +584,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
         />
       );
 
-      const updatedQaBtn = screen.getByRole('button', { name: 'QA Insights' });
+      const updatedQaBtn = screen.getByRole('button', { name: 'AI' });
       fireEvent.click(updatedQaBtn);
 
       expect(newOnCategoryChange).toHaveBeenCalledTimes(1);
@@ -599,7 +597,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
       const props = {
         ...defaultProps,
         categories: [
-          { id: 'all' as Category, label: 'All & Others' },
+          { id: 'all', label: 'All & Others' },
         ],
       };
 
@@ -649,7 +647,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
 
     test('handles large number of categories', () => {
       const manyCategories = Array.from({ length: 20 }, (_, i) => ({
-        id: `cat${i}` as Category,
+        id: `cat${i}`,
         label: `Category ${i}`,
       }));
 
