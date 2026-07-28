@@ -28,21 +28,28 @@ export function useArticleData(): UseArticleDataResult {
         const today = getUTCToday();
         const todayArticles = getArticlesForDate(allArticles, today);
 
-        // If no today's articles and before refresh time, try fallback
-        if (todayArticles.length === 0 && isDayBeforeRefreshTime()) {
-          const yesterday = getYesterdayUTC();
-          const yesterdayArticles = getArticlesForDate(allArticles, yesterday);
-
-          if (yesterdayArticles.length > 0) {
-            setArticles(yesterdayArticles);
-            setIsUsingFallback(true);
-            setIsLoading(false);
-            return;
-          }
+        // If we have today's articles, use them
+        if (todayArticles.length > 0) {
+          setArticles(todayArticles);
+          setIsUsingFallback(false);
+          setIsLoading(false);
+          return;
         }
 
-        // Otherwise use today's articles (or empty if none)
-        setArticles(todayArticles);
+        // If no today's articles, try fallback to yesterday immediately
+        // (show previous day's data while waiting for fresh data)
+        const yesterday = getYesterdayUTC();
+        const yesterdayArticles = getArticlesForDate(allArticles, yesterday);
+
+        if (yesterdayArticles.length > 0) {
+          setArticles(yesterdayArticles);
+          setIsUsingFallback(true);
+          setIsLoading(false);
+          return;
+        }
+
+        // Otherwise use empty array (no data available at all)
+        setArticles([]);
         setIsUsingFallback(false);
         setIsLoading(false);
       } catch (error) {
