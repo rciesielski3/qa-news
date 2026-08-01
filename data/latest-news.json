@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "updatedAt": "2026-08-01T12:03:01.244Z",
+  "updatedAt": "2026-08-01T12:26:46.233Z",
   "items": [
     {
       "id": "openai-aHR0cHM6Ly9v",
@@ -31,7 +31,7 @@
       "tags": [
         "bug"
       ],
-      "score": 52,
+      "score": 51,
       "priority": "MEDIUM",
       "reason": [
         "recent"
@@ -48,7 +48,7 @@
       "tags": [
         "testing"
       ],
-      "score": 77,
+      "score": 76,
       "priority": "HIGH",
       "reason": [
         "testing",
@@ -64,7 +64,7 @@
       "category": "test-automation",
       "publishedAt": "2026-07-31T15:58:54.000Z",
       "tags": [],
-      "score": 52,
+      "score": 51,
       "priority": "MEDIUM",
       "reason": [
         "recent"
@@ -281,12 +281,11 @@
         "testing",
         "security"
       ],
-      "score": 116,
+      "score": 115,
       "priority": "CRITICAL",
       "reason": [
         "testing",
-        "security",
-        "recent"
+        "security"
       ]
     },
     {
@@ -300,11 +299,9 @@
       "tags": [
         "ai"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
