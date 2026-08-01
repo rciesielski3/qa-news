@@ -1,7 +1,25 @@
 {
   "date": "2026-08-01",
-  "updatedAt": "2026-08-01T09:52:59.568Z",
+  "updatedAt": "2026-08-01T11:48:15.399Z",
   "items": [
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "source": "OpenAI",
+      "category": "test-automation",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 68,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai",
+        "recent"
+      ]
+    },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
       "title": "Slack bug? ",
@@ -64,7 +82,7 @@
         "security",
         "ai"
       ],
-      "score": 107,
+      "score": 106,
       "priority": "CRITICAL",
       "reason": [
         "security",
@@ -83,7 +101,7 @@
       "tags": [
         "ai"
       ],
-      "score": 67,
+      "score": 66,
       "priority": "MEDIUM",
       "reason": [
         "openai",
@@ -101,7 +119,7 @@
       "tags": [
         "ai"
       ],
-      "score": 52,
+      "score": 51,
       "priority": "MEDIUM",
       "reason": [
         "recent"
@@ -116,7 +134,7 @@
       "category": "test-automation",
       "publishedAt": "2026-07-31T14:01:10.000Z",
       "tags": [],
-      "score": 52,
+      "score": 51,
       "priority": "MEDIUM",
       "reason": [
         "recent"
@@ -137,7 +155,7 @@
         "feature",
         "ai"
       ],
-      "score": 52,
+      "score": 51,
       "priority": "MEDIUM",
       "reason": [
         "recent"
@@ -152,7 +170,7 @@
       "category": "test-automation",
       "publishedAt": "2026-07-31T13:37:56.000Z",
       "tags": [],
-      "score": 52,
+      "score": 51,
       "priority": "MEDIUM",
       "reason": [
         "recent"
@@ -167,7 +185,7 @@
       "category": "test-automation",
       "publishedAt": "2026-07-31T13:24:04.000Z",
       "tags": [],
-      "score": 52,
+      "score": 51,
       "priority": "MEDIUM",
       "reason": [
         "recent"
@@ -184,7 +202,7 @@
       "tags": [
         "api"
       ],
-      "score": 62,
+      "score": 61,
       "priority": "MEDIUM",
       "reason": [
         "cloudflare",
@@ -299,11 +317,9 @@
       "tags": [
         "ai"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -314,11 +330,9 @@
       "category": "test-automation",
       "publishedAt": "2026-07-31T07:33:21.000Z",
       "tags": [],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "openai-aHR0cHM6Ly9v",
@@ -331,11 +345,10 @@
       "tags": [
         "ai"
       ],
-      "score": 66,
+      "score": 65,
       "priority": "MEDIUM",
       "reason": [
-        "openai",
-        "recent"
+        "openai"
       ]
     },
     {
@@ -774,24 +787,6 @@
       "priority": "MEDIUM",
       "reason": [
         "recent"
-      ]
-    },
-    {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "source": "OpenAI",
-      "category": "test-automation",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 85,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "openai"
       ]
     }
   ]
