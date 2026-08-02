@@ -1,95 +1,7 @@
 {
   "date": "2026-08-02",
-  "updatedAt": "2026-08-02T06:54:27.068Z",
+  "updatedAt": "2026-08-02T08:25:36.351Z",
   "articles": [
-    {
-      "id": "hacker-news-aHR0cHM6Ly93",
-      "title": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
-      "summary": "",
-      "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-02T04:21:14.000Z",
-      "tags": [
-        "performance"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "hacker-news-aHR0cHM6Ly9j",
-      "title": "Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
-      "summary": "",
-      "url": "https://costperprompt.com/",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-02T01:56:44.000Z",
-      "tags": [
-        "api",
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "selenium-releases-aHR0cHM6Ly9n",
-      "title": "Nightly",
-      "summary": "Commits 6d75941: [bidi] mark BiDi types extensible per spec and update Ruby handling (#17853) (Titus Fortner) #17853 83f26a2: [rb] add browser_family test guard and use it for chromium/safari families...",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium Releases",
-      "category": "tooling",
-      "publishedAt": "2026-08-02T00:33:56.000Z",
-      "tags": [
-        "github",
-        "update",
-        "ai"
-      ],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "hacker-news-aHR0cHM6Ly9t",
-      "title": "AI financial advice is surprisingly good, especially if you ask right questions",
-      "summary": "",
-      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T22:25:12.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "hacker-news-aHR0cHM6Ly9s",
-      "title": "Postmortem for Kernel Soundness Bug #14576",
-      "summary": "",
-      "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T18:32:20.000Z",
-      "tags": [
-        "bug"
-      ],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
       "title": "My learning journey",
@@ -106,76 +18,6 @@
       ]
     },
     {
-      "id": "hacker-news-aHR0cHM6Ly9i",
-      "title": "NetBSD 11.0 Released",
-      "summary": "",
-      "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T17:56:41.000Z",
-      "tags": [
-        "release"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "hacker-news-aHR0cHM6Ly90",
-      "title": "Assessment of open AI math results",
-      "summary": "",
-      "url": "https://twitter.com/stalkermustang/status/2083485500250198453",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T17:08:03.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "hacker-news-aHR0cHM6Ly9m",
-      "title": "Franken.domains: Stitched-Together Domains, Because Every .com Is Taken",
-      "summary": "",
-      "url": "https://franken.domains/",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T16:44:49.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "hacker-news-aHR0cHM6Ly9i",
-      "title": "Pgtestdb's template cloning approach to testing is fast",
-      "summary": "",
-      "url": "https://brandur.org/fragments/pgtestdb",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T16:01:22.000Z",
-      "tags": [
-        "testing"
-      ],
-      "score": 79,
-      "priority": "HIGH",
-      "reason": [
-        "testing",
-        "recent"
-      ]
-    },
-    {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
       "title": "The Day I Lost the Argument and Gained Their Trust",
       "summary": "",
@@ -183,148 +25,6 @@
       "source": "Ministry of Testing",
       "category": "test-automation",
       "publishedAt": "2026-08-01T15:43:21.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 52,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "hacker-news-aHR0cHM6Ly9s",
-      "title": "GitHub has alternatives, but no replacement",
-      "summary": "",
-      "url": "https://lalitm.com/post/github-alternatives/",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T15:39:31.000Z",
-      "tags": [
-        "github"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "hacker-news-aHR0cHM6Ly9h",
-      "title": "Explorative modeling: Train on the best of K guesses",
-      "summary": "",
-      "url": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T15:23:15.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 52,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "hacker-news-aHR0cHM6Ly93",
-      "title": "Charlie Stross – On the non-use of AI in my writing process",
-      "summary": "",
-      "url": "https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T12:56:54.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "hacker-news-aHR0cHM6Ly93",
-      "title": "On the non-use of AI in my writing process",
-      "summary": "",
-      "url": "https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T12:56:54.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "the-hacker-news-aHR0cHM6Ly90",
-      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-      "summary": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform detected the incident on...",
-      "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
-      "source": "The Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T09:03:07.000Z",
-      "tags": [
-        "javascript"
-      ],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "the-hacker-news-aHR0cHM6Ly90",
-      "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-      "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code exe...",
-      "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-      "source": "The Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T07:12:42.000Z",
-      "tags": [
-        "automation",
-        "security",
-        "release",
-        "update",
-        "ai"
-      ],
-      "score": 136,
-      "priority": "CRITICAL",
-      "reason": [
-        "automation",
-        "security",
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "the-hacker-news-aHR0cHM6Ly90",
-      "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
-      "summary": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said...",
-      "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
-      "source": "The Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T06:29:05.000Z",
-      "tags": [
-        "update",
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "hacker-news-aHR0cHM6Ly9t",
-      "title": "Flint: A Visualization Language for the AI Era",
-      "summary": "",
-      "url": "https://microsoft.github.io/flint-chart/",
-      "source": "Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T02:45:09.000Z",
       "tags": [
         "ai"
       ],
@@ -350,21 +50,6 @@
       "reason": [
         "openai"
       ]
-    },
-    {
-      "id": "the-hacker-news-aHR0cHM6Ly90",
-      "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
-      "summary": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan...",
-      "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
-      "source": "The Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-07-31T18:52:04.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -396,24 +81,6 @@
       "priority": "HIGH",
       "reason": [
         "testing"
-      ]
-    },
-    {
-      "id": "the-hacker-news-aHR0cHM6Ly90",
-      "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-      "summary": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber...",
-      "url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-      "source": "The Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-07-31T16:39:31.000Z",
-      "tags": [
-        "security",
-        "ai"
-      ],
-      "score": 90,
-      "priority": "CRITICAL",
-      "reason": [
-        "security"
       ]
     },
     {
@@ -556,27 +223,6 @@
       ]
     },
     {
-      "id": "the-hacker-news-aHR0cHM6Ly90",
-      "title": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined",
-      "summary": "Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of flaws the company fixed across the prior 23 milestones combined...",
-      "url": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
-      "source": "The Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-07-31T12:51:52.000Z",
-      "tags": [
-        "security",
-        "release",
-        "update",
-        "bug"
-      ],
-      "score": 110,
-      "priority": "CRITICAL",
-      "reason": [
-        "security",
-        "release"
-      ]
-    },
-    {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
       "title": "Attend MoTaCon!",
       "summary": "",
@@ -629,24 +275,6 @@
       "reason": []
     },
     {
-      "id": "the-hacker-news-aHR0cHM6Ly90",
-      "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
-      "summary": "An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and ev...",
-      "url": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
-      "source": "The Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-07-31T11:55:00.000Z",
-      "tags": [
-        "security",
-        "release"
-      ],
-      "score": 90,
-      "priority": "CRITICAL",
-      "reason": [
-        "security"
-      ]
-    },
-    {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
       "title": "Observatory Weekly: Understanding exploratory testing, security risks, chatbot transcripts blunders, and more!",
       "summary": "",
@@ -663,38 +291,6 @@
       "reason": [
         "testing",
         "security"
-      ]
-    },
-    {
-      "id": "the-hacker-news-aHR0cHM6Ly90",
-      "title": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
-      "summary": "Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in under six months. Des...",
-      "url": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
-      "source": "The Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-07-31T11:24:59.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "the-hacker-news-aHR0cHM6Ly90",
-      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
-      "summary": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial Telegram instruction, the...",
-      "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-      "source": "The Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-07-31T11:21:27.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "agent"
       ]
     },
     {
@@ -758,23 +354,6 @@
       ]
     },
     {
-      "id": "the-hacker-news-aHR0cHM6Ly90",
-      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
-      "summary": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three ...",
-      "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-      "source": "The Hacker News",
-      "category": "test-automation",
-      "publishedAt": "2026-07-31T06:41:44.000Z",
-      "tags": [
-        "testing",
-        "security",
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
       "id": "openai-aHR0cHM6Ly9v",
       "title": "Disrupting a Criminal Scam Operation",
       "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
@@ -816,6 +395,369 @@
       "score": 50,
       "priority": "MEDIUM",
       "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Learning new (AI) skills",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/learning-new-ai-skills",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T18:38:13.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Community non-determinism",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/software-testing-glossary/community-non-determinism",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T16:44:29.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "The Hippo Campus. Calm before the breeze of conversations ",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/the-hippo-campus-calm-before-the-breeze-of-conversations",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T16:38:04.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "playwright-aHR0cHM6Ly9n",
+      "title": "v1.62.1",
+      "summary": "Bug Fixes #41989 [Regression]: tsconfig \"extends\" bare specifier isn't resolved via node_modules walk-up like tsc (fatal since 1.62) #41998 [Regression]: directory-form tsconfig project references (\"p...",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.62.1",
+      "source": "Playwright",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T16:35:55.000Z",
+      "tags": [
+        "playwright",
+        "github",
+        "bug",
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Showing up takes persevilience",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/showing-up-takes-persevilience",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T16:25:12.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Sunshine for Leeds Chapter Summer Social tonight ",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/sunshine-for-leeds-chapter-summer-social-tonight",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T14:54:07.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Community Infrastructure and The AI Minimum Viable Community",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/community-infrastructure-and-the-ai-minimum-viable-community",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T14:48:41.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Grumps goes to the AI Chapter",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/grumps-goes-to-the-ai-chapter",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T13:55:23.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "martin-fowler-aHR0cHM6Ly9t",
+      "title": "The Economic Benefit of Refactoring",
+      "summary": "Giles Edwards-Alexander does an experiment to see if decomposing a large function helps reduce token costs, suggesting that is may now be possible to measure the economic benefit of refactoring more…",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+      "source": "Martin Fowler",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T13:04:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "cloudflare-aHR0cHM6Ly9i",
+      "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
+      "summary": "We moved cdnjs, serving 9 billion requests a day, entirely onto Cloudflare's Developer Platform. That means we’re running one of the Internet's busiest open-source CDNs on our own building blocks, and...",
+      "url": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T13:00:00.000Z",
+      "tags": [],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare"
+      ]
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "source": "OpenAI",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T10:00:00.000Z",
+      "tags": [
+        "performance",
+        "ai"
+      ],
+      "score": 65,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Friction",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/software-testing-glossary/friction",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T09:54:30.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Content catalogue with 1,000+ sessions",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/content-catalogue-with-1-000-sessions",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T09:12:28.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "The actual selfie!",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/the-actual-selfie",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T08:56:27.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+      "url": "https://openai.com/index/avatarin",
+      "source": "OpenAI",
+      "category": "test-automation",
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 85,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "openai"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Are boundaries the answer to AI in communities?",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/are-boundaries-the-answer-to-ai-in-communities",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-29T17:02:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Inside the MoTaverse's slow pivot from testing community to tech community",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/inside-the-motaverse-s-slow-pivot-from-testing-community-to-tech-community",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-29T15:15:40.000Z",
+      "tags": [
+        "testing"
+      ],
+      "score": 75,
+      "priority": "HIGH",
+      "reason": [
+        "testing"
+      ]
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "source": "OpenAI",
+      "category": "test-automation",
+      "publishedAt": "2026-07-29T15:00:00.000Z",
+      "tags": [
+        "api",
+        "performance",
+        "ai"
+      ],
+      "score": 65,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Quality Engineer III",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/quality-engineer-iii",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-29T13:21:04.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "cloudflare-aHR0cHM6Ly9i",
+      "title": "Post-quantum authentication to origins is now supported",
+      "summary": "Cloudflare now supports post-quantum (PQ) authentication when connecting to customer origin servers via Authenticated Origin Pulls and Custom Origin Trust Store. This is the first step towards providi...",
+      "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-07-29T13:00:00.000Z",
+      "tags": [],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Why we should all be embarrassed by the WebAIM Million Report blog",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/why-we-should-all-be-embarrassed-by-the-webaim-million-report-blog",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-29T12:43:39.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Dr Default persona",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/dr-default-persona",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-29T12:20:57.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Re-enacting the chef's kiss and the good problem of MoT Profiles",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/re-enacting-the-chef-s-kiss-and-the-good-problem-of-mot-profiles",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-29T10:24:26.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "All On-Demand Courses",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/all-on-demand-courses",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-07-29T10:20:16.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
     }
   ]
 }

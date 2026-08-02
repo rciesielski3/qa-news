@@ -6,6 +6,38 @@
       "themes": [],
       "items": [
         {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "My learning journey",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/my-learning-journey",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-01T18:22:36.000Z",
+          "tags": [],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "The Day I Lost the Argument and Gained Their Trust",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/the-day-i-lost-the-argument-and-gained-their-trust",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-01T15:43:21.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
           "id": "openai-aHR0cHM6Ly9v",
           "title": "Ten advances in mathematics and theoretical computer science",
           "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
@@ -16,11 +48,10 @@
           "tags": [
             "ai"
           ],
-          "score": 68,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         }
       ]
@@ -41,11 +72,9 @@
           "tags": [
             "bug"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -58,11 +87,10 @@
           "tags": [
             "testing"
           ],
-          "score": 76,
+          "score": 75,
           "priority": "HIGH",
           "reason": [
-            "testing",
-            "recent"
+            "testing"
           ]
         },
         {
@@ -74,11 +102,9 @@
           "category": "test-automation",
           "publishedAt": "2026-07-31T15:58:54.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "openai-aHR0cHM6Ly9v",
@@ -92,12 +118,11 @@
             "security",
             "ai"
           ],
-          "score": 106,
+          "score": 105,
           "priority": "CRITICAL",
           "reason": [
             "security",
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -111,11 +136,10 @@
           "tags": [
             "ai"
           ],
-          "score": 66,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -129,11 +153,9 @@
           "tags": [
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -144,11 +166,9 @@
           "category": "test-automation",
           "publishedAt": "2026-07-31T14:01:10.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "martin-fowler-aHR0cHM6Ly9t",
@@ -165,11 +185,9 @@
             "feature",
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -180,11 +198,9 @@
           "category": "test-automation",
           "publishedAt": "2026-07-31T13:37:56.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -195,11 +211,9 @@
           "category": "test-automation",
           "publishedAt": "2026-07-31T13:24:04.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "cloudflare-aHR0cHM6Ly9i",
@@ -212,11 +226,10 @@
           "tags": [
             "api"
           ],
-          "score": 61,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -228,11 +241,9 @@
           "category": "test-automation",
           "publishedAt": "2026-07-31T12:39:43.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -243,11 +254,9 @@
           "category": "test-automation",
           "publishedAt": "2026-07-31T12:21:24.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -258,11 +267,9 @@
           "category": "test-automation",
           "publishedAt": "2026-07-31T12:12:01.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -273,11 +280,9 @@
           "category": "test-automation",
           "publishedAt": "2026-07-31T12:00:13.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
