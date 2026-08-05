@@ -6,6 +6,290 @@
       "items": [
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Hot take: Software was bad before AI too",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/hot-take-software-was-bad-before-ai-too",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T20:50:22.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Third-party cyber evaluations involving OpenAI models",
+          "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+          "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T19:00:00.000Z",
+          "tags": [
+            "testing",
+            "security",
+            "ai"
+          ],
+          "score": 133,
+          "priority": "CRITICAL",
+          "reason": [
+            "testing",
+            "security",
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Quality School 001: Spot the difference",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/quality-school-001-spot-the-difference",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T16:06:52.000Z",
+          "tags": [],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Ironing out the bugs",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/ironing-out-the-bugs",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T15:50:27.000Z",
+          "tags": [
+            "bug"
+          ],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "404 stars!",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/404-stars",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T15:43:44.000Z",
+          "tags": [],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "When AI maintains your tests: Designing safe self-healing automation",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/insights/when-ai-maintains-your-tests-designing-safe-self-healing-automation",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T14:17:00.000Z",
+          "tags": [
+            "automation",
+            "ai"
+          ],
+          "score": 77,
+          "priority": "HIGH",
+          "reason": [
+            "automation",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "Run CI/CD for millions of repos — on your platform, on Cloudflare",
+          "summary": "Learn how to build customizable, sandboxed CI/CD pipelines natively on Cloudflare using Workflows, Artifacts, and the CI SDK. We walk through replacing complex YAML configurations with TypeScript work...",
+          "url": "https://blog.cloudflare.com/ci-workflows/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T13:00:00.000Z",
+          "tags": [
+            "typescript",
+            "ci/cd",
+            "ai"
+          ],
+          "score": 92,
+          "priority": "CRITICAL",
+          "reason": [
+            "typescript",
+            "ci/cd",
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "The Agent Development Lifecycle has arrived on Cloudflare",
+          "summary": "Agents can write code faster than teams can review, deploy, and maintain it. Today we’re introducing the Agent Development Lifecycle and the Cloudflare primitives that underpin it",
+          "url": "https://blog.cloudflare.com/agent-development-lifecycle/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T13:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 82,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
+          "summary": "Cloudflare Wallets will provide AI agents with native payments and verifiable identity on the web. Using the x402 protocol, agents can autonomously purchase APIs and content within clear safety guardr...",
+          "url": "https://blog.cloudflare.com/wallets/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T13:00:00.000Z",
+          "tags": [
+            "api",
+            "ai"
+          ],
+          "score": 82,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "How Cloudflare enforces engineering standards using AI",
+          "summary": "We created the Cloudflare Codex, a governed body of engineering standards that AI agents consume across the development lifecycle. By pairing structured RFCs with agentic reviews, teams automatically ...",
+          "url": "https://blog.cloudflare.com/engineering-standards-enforcement/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T13:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 82,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "Introducing: Cloudflare Agents",
+          "summary": "Cloudflare Agents brings all of your deployed agent sessions into a single experience, surfacing key information and insights into how your agents perform at scale.",
+          "url": "https://blog.cloudflare.com/agents-on-cloudflare/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T13:00:00.000Z",
+          "tags": [],
+          "score": 82,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "Your agent can now debug Workers with local tracing",
+          "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required.",
+          "url": "https://blog.cloudflare.com/local-tracing/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T13:00:00.000Z",
+          "tags": [
+            "api",
+            "bug",
+            "ai"
+          ],
+          "score": 82,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
+          "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated...",
+          "url": "https://blog.cloudflare.com/astro-issue-triage/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T13:00:00.000Z",
+          "tags": [
+            "github",
+            "release",
+            "bug",
+            "ai"
+          ],
+          "score": 82,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "title": "Fragments: August  4",
+          "summary": "There’s been a fair bit of publicity of the Open AI “rogue agent” that hacked into Hugging Face. This prompted Anthropic to check what their models were up to and, to my complete lack of surprise, dis...",
+          "url": "https://martinfowler.com/fragments/2026-08-04.html",
+          "source": "Martin Fowler",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T12:08:00.000Z",
+          "tags": [
+            "javascript",
+            "api",
+            "rest",
+            "database",
+            "security",
+            "feature",
+            "ai"
+          ],
+          "score": 72,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "All in-person events",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/all-in-person-events",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T10:51:50.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
           "title": "Scream Testing",
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/scream-testing",
@@ -15,11 +299,42 @@
           "tags": [
             "testing"
           ],
-          "score": 79,
+          "score": 75,
           "priority": "HIGH",
           "reason": [
-            "testing",
-            "recent"
+            "testing"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "New ways to learn and teach with ChatGPT Work and Codex",
+          "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+          "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-08-04T00:00:00.000Z",
+          "tags": [],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Apple is getting this wrong",
+          "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+          "url": "https://openai.com/index/apple-is-getting-this-wrong",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-08-03T22:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
           ]
         },
         {
@@ -31,11 +346,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-03T16:46:26.000Z",
           "tags": [],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -46,11 +359,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-03T15:55:48.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -63,11 +374,9 @@
           "tags": [
             "ai"
           ],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "cypress-aHR0cHM6Ly93",
@@ -82,12 +391,11 @@
             "cypress",
             "automation"
           ],
-          "score": 127,
+          "score": 125,
           "priority": "CRITICAL",
           "reason": [
             "test automation",
-            "automation",
-            "recent"
+            "automation"
           ]
         },
         {
@@ -101,12 +409,11 @@
           "tags": [
             "ai"
           ],
-          "score": 82,
+          "score": 80,
           "priority": "HIGH",
           "reason": [
             "agent",
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -122,12 +429,11 @@
             "python",
             "api"
           ],
-          "score": 82,
+          "score": 80,
           "priority": "HIGH",
           "reason": [
             "agent",
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -141,11 +447,10 @@
           "tags": [
             "ai"
           ],
-          "score": 62,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -160,11 +465,10 @@
             "api",
             "rest"
           ],
-          "score": 62,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -176,11 +480,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-03T12:16:49.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -191,11 +493,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-03T12:03:48.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -206,11 +506,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-03T12:00:45.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -221,11 +519,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-03T11:58:56.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -236,11 +532,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-03T11:56:06.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -251,11 +545,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-03T11:51:00.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -266,11 +558,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-03T11:46:36.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -281,11 +571,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-03T11:45:23.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -298,11 +586,10 @@
           "tags": [
             "performance"
           ],
-          "score": 72,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "qa",
-            "recent"
+            "qa"
           ]
         },
         {
@@ -314,11 +601,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-03T10:40:16.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -379,11 +664,10 @@
           "tags": [
             "ai"
           ],
-          "score": 66,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
