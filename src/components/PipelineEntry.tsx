@@ -28,17 +28,10 @@ export default function PipelineEntry({ article }: PipelineEntryProps) {
             </h4>
           </div>
 
-          {/* Subtitle */}
-          {article.subtitle && (
-            <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-1">
-              {article.subtitle}
-            </p>
-          )}
-
-          {/* Description */}
-          {article.description && (
+          {/* Subtitle: use summary if available, fallback to subtitle/description */}
+          {(article.summary || article.subtitle || article.description) && (
             <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-2">
-              {article.description}
+              {article.summary || article.subtitle || article.description}
             </p>
           )}
 
