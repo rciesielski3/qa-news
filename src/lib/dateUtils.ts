@@ -52,3 +52,40 @@ export function isDayBeforeRefreshTime(): boolean {
 
   return currentMinutesSinceMidnight < refreshTimeMinutes;
 }
+
+export function formatTimeInBothZones(isoString: string): string {
+  const date = new Date(isoString);
+
+  const warsawOffset = 2;
+  const warsawDate = new Date(date.getTime() + warsawOffset * 60 * 60 * 1000);
+  const warsawHours = warsawDate.getUTCHours().toString().padStart(2, '0');
+  const warsawMinutes = warsawDate.getUTCMinutes().toString().padStart(2, '0');
+
+  return `${warsawHours}:${warsawMinutes}`;
+}
+
+export function getNextRefreshTimeWithZones(): {
+  minutesUntil: number;
+  timeString: string;
+  displayString: string;
+} {
+  const result = getNextRefreshTime();
+
+  const now = new Date();
+  const nextRefresh = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), 5, 0, 0));
+  if (now > nextRefresh) {
+    nextRefresh.setUTCDate(nextRefresh.getUTCDate() + 1);
+  }
+
+  const warsawOffset = 2;
+  const warsawDate = new Date(nextRefresh.getTime() + warsawOffset * 60 * 60 * 1000);
+  const warsawHours = warsawDate.getUTCHours().toString().padStart(2, '0');
+  const warsawMinutes = warsawDate.getUTCMinutes().toString().padStart(2, '0');
+  const warsawTime = `${warsawHours}:${warsawMinutes}`;
+
+  return {
+    minutesUntil: result.minutesUntil,
+    timeString: result.timeString,
+    displayString: `at ${warsawTime} GMT+2`
+  };
+}
