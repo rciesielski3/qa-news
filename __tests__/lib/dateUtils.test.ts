@@ -1,4 +1,4 @@
-import { getUTCToday, getYesterdayUTC, getNextRefreshTime, getArticlesForDate, isDayBeforeRefreshTime } from '@/lib/dateUtils';
+import { getUTCToday, getYesterdayUTC, getNextRefreshTime, getArticlesForDate, isDayBeforeRefreshTime, formatTimeInBothZones, getNextRefreshTimeWithZones } from '@/lib/dateUtils';
 import type { Article } from '@/lib/types';
 
 describe('dateUtils', () => {
@@ -53,5 +53,37 @@ describe('dateUtils', () => {
     const now = new Date();
     const isBeforeFive = now.getUTCHours() < 5;
     expect(result).toBe(isBeforeFive);
+  });
+
+  it('formatTimeInBothZones formats ISO string in Warsaw time', () => {
+    const isoString = '2026-08-04T06:53:39.869Z';
+    const result = formatTimeInBothZones(isoString);
+
+    expect(result).toMatch(/\d{2}:\d{2}/);
+    expect(result).toBe('08:53');
+  });
+
+  it('formatTimeInBothZones handles midnight correctly', () => {
+    const isoString = '2026-08-04T02:00:00.000Z';
+    const result = formatTimeInBothZones(isoString);
+
+    expect(result).toBe('04:00');
+  });
+
+  it('formatTimeInBothZones handles edge case near UTC midnight', () => {
+    const isoString = '2026-08-04T23:30:00.000Z';
+    const result = formatTimeInBothZones(isoString);
+
+    expect(result).toMatch(/\d{2}:\d{2}/);
+    expect(result).toBe('01:30');
+  });
+
+  it('getNextRefreshTimeWithZones returns refresh info with display string', () => {
+    const result = getNextRefreshTimeWithZones();
+    expect(result).toHaveProperty('minutesUntil');
+    expect(result).toHaveProperty('timeString');
+    expect(result).toHaveProperty('displayString');
+    expect(result.displayString).toContain('GMT+2');
+    expect(result.displayString).toMatch(/at \d{2}:\d{2} GMT\+2/);
   });
 });
