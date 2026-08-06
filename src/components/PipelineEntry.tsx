@@ -28,19 +28,20 @@ export default function PipelineEntry({ article }: PipelineEntryProps) {
             </h4>
           </div>
 
-          {/* Subtitle */}
-          {article.subtitle && (
+          {/* Subtitle: prioritize subtitle, fallback to summary then description */}
+          {article.subtitle ? (
             <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-1">
               {article.subtitle}
             </p>
-          )}
-
-          {/* Description */}
-          {article.description && (
+          ) : article.summary ? (
+            <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-2">
+              {article.summary}
+            </p>
+          ) : article.description ? (
             <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-2">
               {article.description}
             </p>
-          )}
+          ) : null}
 
           {/* Metadata row */}
           <div className="flex items-center gap-2 text-xs font-mono text-ink-400 dark:text-paper-faint">
