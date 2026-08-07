@@ -1,7 +1,282 @@
 {
-  "date": "2026-08-06",
-  "updatedAt": "2026-08-06T10:29:05.342Z",
+  "date": "2026-08-07",
+  "updatedAt": "2026-08-07T08:49:13.584Z",
   "items": [
+    {
+      "id": "cloudflare-aHR0cHM6Ly9i",
+      "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
+      "summary": "We're honored to announce that Cloudflare is the only vendor that has been recognized as a Visionary in both the 2026 Gartner® Magic Quadrant™ for SASE Platforms and the 2026 Gartner® Magic Quadrant™ ...",
+      "url": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T23:24:51.000Z",
+      "tags": [
+        "security"
+      ],
+      "score": 63,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Genie Coefficient",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/software-testing-glossary/genie-coefficient",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T17:33:46.000Z",
+      "tags": [],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Vibe-code, community platform, whatever: it's about data",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/vibe-code-community-platform-whatever-it-s-about-data",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T17:20:00.000Z",
+      "tags": [],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Leeds MoT Chaper Start Speaking Workshop  ",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/leeds-mot-chaper-start-speaking-workshop",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T16:37:38.000Z",
+      "tags": [],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "A tester walks into a security conference ",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/a-tester-walks-into-a-security-conference",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T16:23:07.000Z",
+      "tags": [
+        "security"
+      ],
+      "score": 91,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Staying positive in a pandemic (a personal story) ",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/staying-positive-in-a-pandemic-a-personal-story",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T16:18:17.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "If you're reading this in 2030...",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/if-you-re-reading-this-in-2030",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T15:54:28.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "cloudflare-aHR0cHM6Ly9i",
+      "title": "The Agent Access Model",
+      "summary": "The Agent Access Model proposes a new architecture to secure task-scoped agents using strict identity brokering, continuous mediation, and stateful trust.",
+      "url": "https://blog.cloudflare.com/the-agent-access-model/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T13:00:41.000Z",
+      "tags": [],
+      "score": 81,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "cloudflare-aHR0cHM6Ly9i",
+      "title": "How we’re rethinking work at Cloudflare with Cloudflare OS",
+      "summary": "We built Cloudflare OS to equip our teams to safely rethink how they get work done with AI. The platform brings together the best of our technologies, from our Compute primitives to our Zero Trust sui...",
+      "url": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T13:00:01.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 61,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "cloudflare-aHR0cHM6Ly9i",
+      "title": "WriteGuard: fine-grained controls for MCP Servers",
+      "summary": "At Cloudflare, we knew we could not depend on every employee to configure every agent perfectly or watch every tool call. Before expanding write access across our own internal MCP servers, we built Wr...",
+      "url": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T13:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 106,
+      "priority": "CRITICAL",
+      "reason": [
+        "mcp",
+        "agent",
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "cloudflare-aHR0cHM6Ly9i",
+      "title": "Cloudflare OS: an open platform for agents, apps, and work",
+      "summary": "Cloudflare OS is an open-source platform that lets everyone in your company build apps, automate work, and safely access internal systems, shaped around what your organization knows and how it operate...",
+      "url": "https://blog.cloudflare.com/cloudflare-os/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T13:00:00.000Z",
+      "tags": [],
+      "score": 81,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "cloudflare-aHR0cHM6Ly9i",
+      "title": "Catching rogue AI behavior with identity-aware analytics",
+      "summary": "Identity-aware AI Gateway is now in open beta. User Insights turns that traffic into a behavioral baseline for every person and agent, and flags insider risk the moment it appears.",
+      "url": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T13:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 81,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Prompt a CV from your MoTaverse Profile",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/prompt-a-cv-from-your-motaverse-profile",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T12:14:50.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Throw back Wednesday! Giz us job goat",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/throw-back-wednesday-giz-us-job-goat",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T10:30:21.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Throwback Wednesday: Behold! The golden circle of testing!",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/throwback-wednesday-behold-the-golden-circle-of-testing",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T10:10:58.000Z",
+      "tags": [
+        "testing"
+      ],
+      "score": 75,
+      "priority": "HIGH",
+      "reason": [
+        "testing"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Add Moments",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/add-moments",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T08:49:11.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "The MoTaverse partner family just got bigger 🙌",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/news/the-motaverse-partner-family-just-got-bigger",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-05T08:01:00.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
       "title": "Hot take: Software was bad before AI too",
@@ -13,11 +288,9 @@
       "tags": [
         "ai"
       ],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "openai-aHR0cHM6Ly9v",
@@ -32,13 +305,12 @@
         "security",
         "ai"
       ],
-      "score": 133,
+      "score": 130,
       "priority": "CRITICAL",
       "reason": [
         "testing",
         "security",
-        "openai",
-        "recent"
+        "openai"
       ]
     },
     {
@@ -50,11 +322,9 @@
       "category": "test-automation",
       "publishedAt": "2026-08-04T16:06:52.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -67,11 +337,9 @@
       "tags": [
         "bug"
       ],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -82,11 +350,9 @@
       "category": "test-automation",
       "publishedAt": "2026-08-04T15:43:44.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -100,11 +366,10 @@
         "automation",
         "ai"
       ],
-      "score": 77,
+      "score": 75,
       "priority": "HIGH",
       "reason": [
-        "automation",
-        "recent"
+        "automation"
       ]
     },
     {
@@ -120,13 +385,12 @@
         "ci/cd",
         "ai"
       ],
-      "score": 92,
+      "score": 90,
       "priority": "CRITICAL",
       "reason": [
         "typescript",
         "ci/cd",
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -140,12 +404,11 @@
       "tags": [
         "ai"
       ],
-      "score": 82,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -160,12 +423,11 @@
         "api",
         "ai"
       ],
-      "score": 82,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -179,12 +441,11 @@
       "tags": [
         "ai"
       ],
-      "score": 82,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -196,12 +457,11 @@
       "category": "test-automation",
       "publishedAt": "2026-08-04T13:00:00.000Z",
       "tags": [],
-      "score": 82,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -217,12 +477,11 @@
         "bug",
         "ai"
       ],
-      "score": 82,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -239,12 +498,11 @@
         "bug",
         "ai"
       ],
-      "score": 82,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -264,11 +522,10 @@
         "feature",
         "ai"
       ],
-      "score": 72,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -280,11 +537,9 @@
       "category": "test-automation",
       "publishedAt": "2026-08-04T10:51:50.000Z",
       "tags": [],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -555,274 +810,6 @@
       "source": "Ministry of Testing",
       "category": "test-automation",
       "publishedAt": "2026-08-03T11:46:36.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Backlog",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/software-testing-glossary/backlog",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-03T11:45:23.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Senior QA Engineer Performance & Scalability",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/jobs/senior-qa-engineer-performance-scalability",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-03T11:07:23.000Z",
-      "tags": [
-        "performance"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "qa"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Attend all virtual events",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/attend-all-virtual-events",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-03T10:40:16.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "In the last seven days you've shown up",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/in-the-last-seven-days-you-ve-shown-up",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-03T10:07:55.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Inside the MoTaverse's slow pivot from testing community to tech community ",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/newsletter/inside-the-motaverse-s-slow-pivot-from-testing-community-to-tech-community",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-03T10:04:00.000Z",
-      "tags": [
-        "testing"
-      ],
-      "score": 76,
-      "priority": "HIGH",
-      "reason": [
-        "testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Earn your Hamster Badge",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/earn-your-hamster-badge",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-03T09:43:01.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "source": "OpenAI",
-      "category": "test-automation",
-      "publishedAt": "2026-08-03T07:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "Circles powers telco personalization with OpenAI technology",
-      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
-      "url": "https://openai.com/index/circles",
-      "source": "OpenAI",
-      "category": "test-automation",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "tags": [
-        "api",
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Welcome to Agents Week",
-      "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agen...",
-      "url": "https://blog.cloudflare.com/agents-week-welcome/",
-      "source": "Cloudflare",
-      "category": "test-automation",
-      "publishedAt": "2026-08-02T16:00:00.000Z",
-      "tags": [
-        "security"
-      ],
-      "score": 120,
-      "priority": "CRITICAL",
-      "reason": [
-        "security",
-        "agent",
-        "cloudflare"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Agentic Data Testing Manager",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/jobs/agentic-data-testing-manager",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-02T11:24:55.000Z",
-      "tags": [
-        "testing"
-      ],
-      "score": 95,
-      "priority": "CRITICAL",
-      "reason": [
-        "testing",
-        "agent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Test Analyst",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/jobs/test-analyst-b323cbe9-13f4-435a-9b37-f06b4ab1aecb",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-02T11:19:03.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "My learning journey",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/my-learning-journey",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T18:22:36.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "The Day I Lost the Argument and Gained Their Trust",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/the-day-i-lost-the-argument-and-gained-their-trust",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T15:43:21.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 52,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-      "url": "https://openai.com/index/ten-advances-in-mathematics",
-      "source": "OpenAI",
-      "category": "test-automation",
-      "publishedAt": "2026-08-01T00:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Slack bug? ",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/slack-bug",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-07-31T17:27:02.000Z",
-      "tags": [
-        "bug"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Trend Watch: Software Testing was down, but now it and Quality Engineering are on the up.",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/trend-watch-software-testing-was-down-but-now-it-and-quality-engineering-are-on-the-up",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-07-31T17:14:56.000Z",
-      "tags": [
-        "testing"
-      ],
-      "score": 75,
-      "priority": "HIGH",
-      "reason": [
-        "testing"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Do you have your Hamster badge yet? ",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/do-you-have-your-hamster-badge-yet",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-07-31T15:58:54.000Z",
       "tags": [],
       "score": 50,
       "priority": "MEDIUM",
