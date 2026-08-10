@@ -1,7 +1,26 @@
 {
   "date": "2026-08-10",
-  "updatedAt": "2026-08-10T12:40:38.416Z",
+  "updatedAt": "2026-08-10T18:11:50.034Z",
   "items": [
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "When AI maintains your tests: Designing safe self-healing automation",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/newsletter/when-ai-maintains-your-tests-designing-safe-self-healing-automation",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-10T11:55:00.000Z",
+      "tags": [
+        "automation",
+        "ai"
+      ],
+      "score": 79,
+      "priority": "HIGH",
+      "reason": [
+        "automation",
+        "recent"
+      ]
+    },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
       "title": "Kind things people have said about me",
@@ -771,24 +790,6 @@
       "score": 50,
       "priority": "MEDIUM",
       "reason": []
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "When AI maintains your tests: Designing safe self-healing automation",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/insights/when-ai-maintains-your-tests-designing-safe-self-healing-automation",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-04T14:17:00.000Z",
-      "tags": [
-        "automation",
-        "ai"
-      ],
-      "score": 75,
-      "priority": "HIGH",
-      "reason": [
-        "automation"
-      ]
     }
   ]
 }
