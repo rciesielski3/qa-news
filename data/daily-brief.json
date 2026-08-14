@@ -1,69 +1,8 @@
 {
-  "date": "2026-07-12",
-  "updatedAt": "2026-07-12T06:00:00Z",
-  "sourcesScanned": 34,
-  "storiesSelected": 6,
-  "lede": "Quiet news day dominated by test-flakiness tooling and a new round of agentic coding benchmarks. Nothing structural, but two releases worth a closer look if you run large E2E suites.",
-  "items": [
-    {
-      "id": "d-2026-07-12-1",
-      "title": "Playwright 1.48 ships built-in flaky-test quarantine",
-      "summary": "Failing tests can now be auto-tagged and re-run in isolation instead of blocking the whole suite, with a report diffing quarantine hits over time.",
-      "url": "https://example.com/playwright-1-48",
-      "source": "Playwright Blog",
-      "category": "test-automation",
-      "publishedAt": "2026-07-11T14:00:00Z",
-      "tags": ["playwright", "flaky-tests", "release"]
-    },
-    {
-      "id": "d-2026-07-12-2",
-      "title": "New benchmark measures agentic coding tools on real bug reports, not katas",
-      "summary": "Researchers replaced synthetic coding puzzles with 400 real GitHub issues, and ranking shifts noticeably once the tasks stop being toy problems.",
-      "url": "https://example.com/agentic-benchmark",
-      "source": "arXiv",
-      "category": "ai",
-      "publishedAt": "2026-07-11T09:30:00Z",
-      "tags": ["benchmarks", "agentic-coding", "llm"]
-    },
-    {
-      "id": "d-2026-07-12-3",
-      "title": "Google publishes internal 'test impact analysis' post-mortem",
-      "summary": "A retrospective on why selective test execution rolled out three times before it stuck, with concrete false-negative numbers from each attempt.",
-      "url": "https://example.com/google-tia-postmortem",
-      "source": "Google Testing Blog",
-      "category": "qa-practice",
-      "publishedAt": "2026-07-10T18:00:00Z",
-      "tags": ["test-impact-analysis", "ci", "case-study"]
-    },
-    {
-      "id": "d-2026-07-12-4",
-      "title": "k6 adds native browser-based Core Web Vitals checks",
-      "summary": "Load tests can now assert on LCP and INP alongside throughput, closing a long-standing gap between performance and UX testing.",
-      "url": "https://example.com/k6-web-vitals",
-      "source": "Grafana Labs",
-      "category": "tooling",
-      "publishedAt": "2026-07-10T11:15:00Z",
-      "tags": ["k6", "performance", "core-web-vitals"]
-    },
-    {
-      "id": "d-2026-07-12-5",
-      "title": "Survey: 61% of QA teams now maintain an internal LLM eval suite",
-      "summary": "The State of QA 2026 survey shows eval-writing overtaking manual exploratory testing as a stated primary duty for the first time.",
-      "url": "https://example.com/state-of-qa-2026",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-07-09T08:00:00Z",
-      "tags": ["survey", "llm-eval", "industry"]
-    },
-    {
-      "id": "d-2026-07-12-6",
-      "title": "GitHub Actions adds per-job carbon estimate in run summaries",
-      "summary": "CI runs now surface an estimated CO2e figure next to duration and cost, sourced from runner region and instance type.",
-      "url": "https://example.com/actions-carbon",
-      "source": "GitHub Changelog",
-      "category": "engineering",
-      "publishedAt": "2026-07-09T07:00:00Z",
-      "tags": ["github-actions", "ci", "sustainability"]
-    }
-  ]
+  "date": "2026-08-14",
+  "updatedAt": "2026-08-14T10:50:15.333Z",
+  "sourcesScanned": 0,
+  "storiesSelected": 0,
+  "lede": "Daily brief of top stories",
+  "items": []
 }
