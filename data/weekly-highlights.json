@@ -5,6 +5,144 @@
       "summary": "",
       "items": [
         {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Proper walking ",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/proper-walking",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-15T15:39:28.000Z",
+          "tags": [],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Humans is human",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/humans-is-human",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-14T14:32:51.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Reality bytes. Meet the teams and terms where they are",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/reality-bytes-meet-the-teams-and-terms-where-they-are",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-14T14:14:54.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "The counterfeit innovator is wildly self-confident. The real one is scared to death. ",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/the-counterfeit-innovator-is-wildly-self-confident-the-real-one-is-scared-to-death",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-14T13:29:31.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Testing at the till ",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/testing-at-the-till",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-14T13:17:37.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 75,
+          "priority": "HIGH",
+          "reason": [
+            "testing"
+          ]
+        },
+        {
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "How Cloudflare detects MCP traffic and helps secure it",
+          "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block di...",
+          "url": "https://blog.cloudflare.com/mcp-security-updates/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-08-14T13:12:12.000Z",
+          "tags": [
+            "security"
+          ],
+          "score": 125,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "mcp",
+            "cloudflare"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Best mentee question ever (for me)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/best-mentee-question-ever-for-me",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-14T13:04:53.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "Secure all your internal vibe-coded applications — in one click",
+          "summary": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
+          "url": "https://blog.cloudflare.com/workers-protected-by-access/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-08-14T13:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 60,
+          "priority": "MEDIUM",
+          "reason": [
+            "cloudflare"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Observatory Weekly: The difference a year makes, keeping the testing boundaries, AI-induced cognitive-behavioural disorders ",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/newsletter/observatory-weekly-the-difference-a-year-makes-keeping-the-testing-boundaries-ai-induced-cognitive-behavioural-disorders",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-14T12:13:00.000Z",
+          "tags": [
+            "testing",
+            "ai"
+          ],
+          "score": 75,
+          "priority": "HIGH",
+          "reason": [
+            "testing"
+          ]
+        },
+        {
           "id": "cloudflare-aHR0cHM6Ly9i",
           "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
           "summary": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
@@ -15,11 +153,10 @@
           "tags": [
             "ai"
           ],
-          "score": 62,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -31,11 +168,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-13T19:31:37.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -46,11 +181,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-13T19:16:22.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -61,11 +194,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-13T16:14:31.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -76,11 +207,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-13T15:49:07.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "cloudflare-aHR0cHM6Ly9i",
@@ -93,11 +222,10 @@
           "tags": [
             "ai"
           ],
-          "score": 61,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -111,11 +239,9 @@
           "tags": [
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "openai-aHR0cHM6Ly9v",
@@ -129,12 +255,11 @@
             "api",
             "ai"
           ],
-          "score": 86,
+          "score": 85,
           "priority": "HIGH",
           "reason": [
             "agent",
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -146,11 +271,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-13T10:54:00.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -163,11 +286,9 @@
           "tags": [
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "openai-aHR0cHM6Ly9v",
@@ -181,11 +302,10 @@
             "api",
             "ai"
           ],
-          "score": 66,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -199,11 +319,10 @@
           "tags": [
             "ai"
           ],
-          "score": 66,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -4130,128 +4249,6 @@
           "source": "OpenAI",
           "category": "test-automation",
           "publishedAt": "2026-07-17T10:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "cypress-aHR0cHM6Ly93",
-          "title": "Cypress Ambassador Spotlight: Javier Flores",
-          "summary": "What motivates you to be a Cypress Ambassador? I want to help grow a strong, practical testing community around Cypress. I show people working code and let them build confidence by doing. That's the s...",
-          "url": "https://www.cypress.io/blog/cypress-ambassador-spotlight-javier-flores/",
-          "source": "Cypress",
-          "category": "test-automation",
-          "publishedAt": "2026-07-16T21:08:08.000Z",
-          "tags": [
-            "testing",
-            "cypress",
-            "rest"
-          ],
-          "score": 75,
-          "priority": "HIGH",
-          "reason": [
-            "testing"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Why teens deserve access to safe AI",
-          "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-          "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-07-16T16:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
-          "title": "The Archaeologist’s Copilot",
-          "summary": "When people think of legacy modernization, most folks aren't imagining the target environment will be Java 8. But this was the challenge facing Nik Malykhin when he needed to run a Java 1.5 codebase o...",
-          "url": "https://martinfowler.com/articles/archaeologist-copilot.html",
-          "source": "Martin Fowler",
-          "category": "test-automation",
-          "publishedAt": "2026-07-16T13:25:00.000Z",
-          "tags": [
-            "docker",
-            "ai",
-            "llm"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "How Codex became a collaborator for OpenAI’s creative team",
-          "summary": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
-          "url": "https://openai.com/index/codex-collaborator-creative-team",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-07-16T07:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "How Cars24 scales conversations and builds faster with OpenAI",
-          "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-          "url": "https://openai.com/index/cars24",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-07-16T00:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 85,
-          "priority": "HIGH",
-          "reason": [
-            "agent",
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "The US is advancing AI safety through state and federal action",
-          "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-          "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-07-15T12:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-          "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-          "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-07-15T10:00:00.000Z",
           "tags": [
             "ai"
           ],
