@@ -1,7 +1,145 @@
 {
   "date": "2026-08-16",
-  "updatedAt": "2026-08-16T08:19:45.920Z",
+  "updatedAt": "2026-08-16T14:14:43.147Z",
   "items": [
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Proper walking ",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/proper-walking",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-15T15:39:28.000Z",
+      "tags": [],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Humans is human",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/humans-is-human",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-14T14:32:51.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Reality bytes. Meet the teams and terms where they are",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/reality-bytes-meet-the-teams-and-terms-where-they-are",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-14T14:14:54.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "The counterfeit innovator is wildly self-confident. The real one is scared to death. ",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/the-counterfeit-innovator-is-wildly-self-confident-the-real-one-is-scared-to-death",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-14T13:29:31.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Testing at the till ",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/testing-at-the-till",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-14T13:17:37.000Z",
+      "tags": [
+        "testing"
+      ],
+      "score": 75,
+      "priority": "HIGH",
+      "reason": [
+        "testing"
+      ]
+    },
+    {
+      "id": "cloudflare-aHR0cHM6Ly9i",
+      "title": "How Cloudflare detects MCP traffic and helps secure it",
+      "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block di...",
+      "url": "https://blog.cloudflare.com/mcp-security-updates/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-08-14T13:12:12.000Z",
+      "tags": [
+        "security"
+      ],
+      "score": 125,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "mcp",
+        "cloudflare"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Best mentee question ever (for me)",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/best-mentee-question-ever-for-me",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-14T13:04:53.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "cloudflare-aHR0cHM6Ly9i",
+      "title": "Secure all your internal vibe-coded applications — in one click",
+      "summary": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
+      "url": "https://blog.cloudflare.com/workers-protected-by-access/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-08-14T13:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Observatory Weekly: The difference a year makes, keeping the testing boundaries, AI-induced cognitive-behavioural disorders ",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/newsletter/observatory-weekly-the-difference-a-year-makes-keeping-the-testing-boundaries-ai-induced-cognitive-behavioural-disorders",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-14T12:13:00.000Z",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "score": 75,
+      "priority": "HIGH",
+      "reason": [
+        "testing"
+      ]
+    },
     {
       "id": "cloudflare-aHR0cHM6Ly9i",
       "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
@@ -13,11 +151,10 @@
       "tags": [
         "ai"
       ],
-      "score": 62,
+      "score": 60,
       "priority": "MEDIUM",
       "reason": [
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -29,11 +166,9 @@
       "category": "test-automation",
       "publishedAt": "2026-08-13T19:31:37.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -44,11 +179,9 @@
       "category": "test-automation",
       "publishedAt": "2026-08-13T19:16:22.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -59,11 +192,9 @@
       "category": "test-automation",
       "publishedAt": "2026-08-13T16:14:31.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -74,11 +205,9 @@
       "category": "test-automation",
       "publishedAt": "2026-08-13T15:49:07.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "cloudflare-aHR0cHM6Ly9i",
@@ -91,11 +220,10 @@
       "tags": [
         "ai"
       ],
-      "score": 61,
+      "score": 60,
       "priority": "MEDIUM",
       "reason": [
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -109,11 +237,9 @@
       "tags": [
         "ai"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "openai-aHR0cHM6Ly9v",
@@ -127,12 +253,11 @@
         "api",
         "ai"
       ],
-      "score": 86,
+      "score": 85,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "openai",
-        "recent"
+        "openai"
       ]
     },
     {
@@ -144,11 +269,9 @@
       "category": "test-automation",
       "publishedAt": "2026-08-13T10:54:00.000Z",
       "tags": [],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -161,11 +284,9 @@
       "tags": [
         "ai"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "openai-aHR0cHM6Ly9v",
@@ -179,11 +300,10 @@
         "api",
         "ai"
       ],
-      "score": 66,
+      "score": 65,
       "priority": "MEDIUM",
       "reason": [
-        "openai",
-        "recent"
+        "openai"
       ]
     },
     {
@@ -197,11 +317,10 @@
       "tags": [
         "ai"
       ],
-      "score": 66,
+      "score": 65,
       "priority": "MEDIUM",
       "reason": [
-        "openai",
-        "recent"
+        "openai"
       ]
     },
     {
@@ -673,152 +792,6 @@
       "priority": "MEDIUM",
       "reason": [
         "openai"
-      ]
-    },
-    {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
-      "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
-      "url": "https://openai.com/index/zapier",
-      "source": "OpenAI",
-      "category": "test-automation",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "tags": [
-        "api",
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-      "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-      "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "source": "OpenAI",
-      "category": "test-automation",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "tags": [],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Kind things people have said about me",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/kind-things-people-have-said-about-me",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-07T15:29:18.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "Responding to the next frontier of critical cyber capabilities",
-      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
-      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "source": "OpenAI",
-      "category": "test-automation",
-      "publishedAt": "2026-08-07T15:20:00.000Z",
-      "tags": [
-        "security",
-        "ai"
-      ],
-      "score": 105,
-      "priority": "CRITICAL",
-      "reason": [
-        "security",
-        "openai"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "The search for the lost code, best chair and the magic of MoTaCon",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/the-search-for-the-lost-code-best-chair-and-the-magic-of-motacon",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-07T14:20:50.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Access Quality Insights",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/access-quality-insights",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-07T13:14:17.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Observatory Weekly: The Zephyr Agent for Rovo, more about testing and less about testers, Ikea's bet on humans, and more!",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/newsletter/observatory-weekly-the-zephyr-agent-for-rovo-more-about-testing-and-less-about-testers-ikea-s-bet-on-humans-and-more",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-08-07T13:04:00.000Z",
-      "tags": [
-        "testing"
-      ],
-      "score": 95,
-      "priority": "CRITICAL",
-      "reason": [
-        "testing",
-        "agent"
-      ]
-    },
-    {
-      "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Unveiling good and bad behaviors on the Agentic Internet",
-      "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, includin...",
-      "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
-      "source": "Cloudflare",
-      "category": "test-automation",
-      "publishedAt": "2026-08-07T13:01:00.000Z",
-      "tags": [],
-      "score": 80,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "cloudflare"
-      ]
-    },
-    {
-      "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
-      "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns nat...",
-      "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
-      "source": "Cloudflare",
-      "category": "test-automation",
-      "publishedAt": "2026-08-07T13:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 60,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
       ]
     }
   ]
