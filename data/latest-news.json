@@ -1,7 +1,25 @@
 {
   "date": "2026-08-17",
-  "updatedAt": "2026-08-17T08:34:13.699Z",
+  "updatedAt": "2026-08-17T11:58:40.394Z",
   "items": [
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "A Sunday With Creativity But Without Testing",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/a-sunday-with-creativity-but-without-testing",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-08-17T01:37:35.000Z",
+      "tags": [
+        "testing"
+      ],
+      "score": 78,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
+        "recent"
+      ]
+    },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
       "title": "Proper walking ",
@@ -11,11 +29,9 @@
       "category": "test-automation",
       "publishedAt": "2026-08-15T15:39:28.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -776,21 +792,6 @@
       "priority": "CRITICAL",
       "reason": [
         "security",
-        "openai"
-      ]
-    },
-    {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "Premium seats are coming to ChatGPT Business",
-      "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
-      "url": "https://openai.com/index/premium-seats-chatgpt-business",
-      "source": "OpenAI",
-      "category": "test-automation",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "tags": [],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
         "openai"
       ]
     }
