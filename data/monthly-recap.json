@@ -7,6 +7,24 @@
       "items": [
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "A Sunday With Creativity But Without Testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/a-sunday-with-creativity-but-without-testing",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-17T01:37:35.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 78,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
           "title": "Proper walking ",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/proper-walking",
@@ -14,11 +32,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-15T15:39:28.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -371,19 +387,6 @@
           "tags": [
             "ai"
           ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Throwback Wednesday: Team day out huddles at MoTaCon",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/throwback-wednesday-team-day-out-huddles-at-motacon",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-08-12T10:51:13.000Z",
-          "tags": [],
           "score": 50,
           "priority": "MEDIUM",
           "reason": []

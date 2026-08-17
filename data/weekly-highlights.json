@@ -1,6 +1,30 @@
 {
   "weeks": [
     {
+      "weekOf": "2026-08-17",
+      "summary": "",
+      "items": [
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "A Sunday With Creativity But Without Testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/a-sunday-with-creativity-but-without-testing",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-08-17T01:37:35.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 78,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        }
+      ]
+    },
+    {
       "weekOf": "2026-08-10",
       "summary": "",
       "items": [
@@ -13,11 +37,9 @@
           "category": "test-automation",
           "publishedAt": "2026-08-15T15:39:28.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -4206,49 +4228,6 @@
           "source": "OpenAI",
           "category": "test-automation",
           "publishedAt": "2026-07-20T10:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        }
-      ]
-    },
-    {
-      "weekOf": "2026-07-13",
-      "summary": "",
-      "items": [
-        {
-          "id": "cloudflare-aHR0cHM6Ly9i",
-          "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities ",
-          "summary": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPre...",
-          "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
-          "source": "Cloudflare",
-          "category": "test-automation",
-          "publishedAt": "2026-07-17T21:30:43.000Z",
-          "tags": [
-            "security",
-            "release",
-            "update"
-          ],
-          "score": 100,
-          "priority": "CRITICAL",
-          "reason": [
-            "security",
-            "cloudflare"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "A scorecard for the AI age",
-          "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-          "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-07-17T10:00:00.000Z",
           "tags": [
             "ai"
           ],
