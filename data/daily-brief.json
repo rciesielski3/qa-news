@@ -1,27 +1,8 @@
 {
-  "date": "2026-08-17",
-  "updatedAt": "2026-08-17T11:58:38.895Z",
+  "date": "2026-09-01",
+  "updatedAt": "2026-09-01T09:27:26.283Z",
   "sourcesScanned": 0,
-  "storiesSelected": 1,
-  "lede": "Daily brief highlighting news topics",
-  "items": [
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "A Sunday With Creativity But Without Testing",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/a-sunday-with-creativity-but-without-testing",
-      "source": "Ministry of Testing",
-      "category": "news",
-      "publishedAt": "2026-08-17T01:37:35.000Z",
-      "tags": [
-        "testing"
-      ],
-      "score": 78,
-      "priority": "HIGH",
-      "reason": [
-        "testing",
-        "recent"
-      ]
-    }
-  ]
+  "storiesSelected": 0,
+  "lede": "Daily brief of top stories",
+  "items": []
 }
