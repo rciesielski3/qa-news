@@ -1,36 +1,127 @@
 {
   "months": [
     {
-      "month": "2026-08",
+      "month": "2026-09",
       "summary": "",
       "themes": [],
       "items": [
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "A Sunday With Creativity But Without Testing",
+          "title": "Luggage by MoT",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/a-sunday-with-creativity-but-without-testing",
+          "url": "https://www.ministryoftesting.com/moments/luggage-by-mot",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-08-17T01:37:35.000Z",
-          "tags": [
-            "testing"
-          ],
-          "score": 78,
-          "priority": "HIGH",
+          "publishedAt": "2026-09-20T12:02:23.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
           "reason": [
-            "testing",
             "recent"
           ]
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Proper walking ",
+          "title": "Featured in Quality People Series by Katalon - Yay!",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/proper-walking",
+          "url": "https://www.ministryoftesting.com/moments/featured-in-quality-people-series-by-katalon-yay",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-08-15T15:39:28.000Z",
+          "publishedAt": "2026-09-20T07:27:29.000Z",
+          "tags": [
+            "feature"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "How to test OTPs",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/how-to-test-otps",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-09-19T22:12:42.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "My first bug bag",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/my-first-bug-bag",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-09-19T15:31:05.000Z",
+          "tags": [
+            "bug"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "AI Chapter is coming up with more exciting events",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/ai-chapter-is-coming-up-with-more-exciting-events",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-09-19T06:35:44.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "cypress-aHR0cHM6Ly93",
+          "title": "Cypress Cloud: Test Replay now masks sensitive form inputs by default",
+          "summary": "Starting today, Test Replay replaces the values of sensitive form fields (passwords and payment details) with asterisks before it captures the DOM before any Test Replay data is uploaded to Cypress Cl...",
+          "url": "https://www.cypress.io/blog/ctest-replay-now-masks-sensitive-form-inputs-by-default/",
+          "source": "Cypress",
+          "category": "test-automation",
+          "publishedAt": "2026-09-18T21:48:31.000Z",
+          "tags": [
+            "cypress",
+            "bug",
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "Saving another 100TB of RAM with math (and Rust)",
+          "summary": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of o...",
+          "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-09-18T17:23:58.000Z",
+          "tags": [],
+          "score": 60,
+          "priority": "MEDIUM",
+          "reason": [
+            "cloudflare"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "A month in quality: Demos, MoTaCon and human connection",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/a-month-in-quality-demos-motacon-and-human-connection",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-09-18T16:00:32.000Z",
           "tags": [],
           "score": 50,
           "priority": "MEDIUM",
@@ -38,12 +129,12 @@
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Humans is human",
+          "title": "Isn't NASA great? And is MoTaCon secretly everywhere?",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/humans-is-human",
+          "url": "https://www.ministryoftesting.com/moments/isn-t-nasa-great-and-is-motacon-secretly-everywhere",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-08-14T14:32:51.000Z",
+          "publishedAt": "2026-09-18T14:32:18.000Z",
           "tags": [],
           "score": 50,
           "priority": "MEDIUM",
@@ -51,12 +142,57 @@
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Reality bytes. Meet the teams and terms where they are",
+          "title": "Where are the humans? Here we are! ",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/reality-bytes-meet-the-teams-and-terms-where-they-are",
+          "url": "https://www.ministryoftesting.com/moments/where-are-the-humans-here-we-are",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-08-14T14:14:54.000Z",
+          "publishedAt": "2026-09-18T13:33:55.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Introducing the Australian Youth Safety Blueprint",
+          "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+          "url": "https://openai.com/index/australian-youth-safety-blueprint",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-09-18T12:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Observatory Weekly: Slop snobs, detecting misuse of AI, hiring is asking for fewer skills, and more!",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/newsletter/observatory-weekly-slop-snobs-detecting-misuse-of-ai-hiring-is-asking-for-fewer-skills-and-more",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-09-18T10:12:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "My first MoT London ",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/my-first-mot-london",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-09-18T09:57:11.000Z",
           "tags": [],
           "score": 50,
           "priority": "MEDIUM",
@@ -64,25 +200,12 @@
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "The counterfeit innovator is wildly self-confident. The real one is scared to death. ",
+          "title": "The people behind the testing",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/the-counterfeit-innovator-is-wildly-self-confident-the-real-one-is-scared-to-death",
+          "url": "https://www.ministryoftesting.com/moments/the-people-behind-the-testing",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-08-14T13:29:31.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Testing at the till ",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/testing-at-the-till",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-08-14T13:17:37.000Z",
+          "publishedAt": "2026-09-17T20:59:56.000Z",
           "tags": [
             "testing"
           ],
@@ -93,62 +216,43 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
-          "title": "How Cloudflare detects MCP traffic and helps secure it",
-          "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block di...",
-          "url": "https://blog.cloudflare.com/mcp-security-updates/",
-          "source": "Cloudflare",
-          "category": "test-automation",
-          "publishedAt": "2026-08-14T13:12:12.000Z",
-          "tags": [
-            "security"
-          ],
-          "score": 125,
-          "priority": "CRITICAL",
-          "reason": [
-            "security",
-            "mcp",
-            "cloudflare"
-          ]
-        },
-        {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Best mentee question ever (for me)",
+          "title": "Just going for it",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/best-mentee-question-ever-for-me",
+          "url": "https://www.ministryoftesting.com/moments/just-going-for-it",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-08-14T13:04:53.000Z",
+          "publishedAt": "2026-09-17T20:48:07.000Z",
           "tags": [],
           "score": 50,
           "priority": "MEDIUM",
           "reason": []
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
-          "title": "Secure all your internal vibe-coded applications — in one click",
-          "summary": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
-          "url": "https://blog.cloudflare.com/workers-protected-by-access/",
-          "source": "Cloudflare",
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "London chapter - AI, Agents and Trailblazers",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/london-chapter-ai-agents-and-trailblazers",
+          "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-08-14T13:00:00.000Z",
+          "publishedAt": "2026-09-17T20:18:03.000Z",
           "tags": [
             "ai"
           ],
-          "score": 60,
-          "priority": "MEDIUM",
+          "score": 70,
+          "priority": "HIGH",
           "reason": [
-            "cloudflare"
+            "agent"
           ]
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Observatory Weekly: The difference a year makes, keeping the testing boundaries, AI-induced cognitive-behavioural disorders ",
+          "title": "Testing AI at MoT Edinburgh",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/newsletter/observatory-weekly-the-difference-a-year-makes-keeping-the-testing-boundaries-ai-induced-cognitive-behavioural-disorders",
+          "url": "https://www.ministryoftesting.com/moments/testing-ai-at-mot-edinburgh",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-08-14T12:13:00.000Z",
+          "publishedAt": "2026-09-17T20:08:01.000Z",
           "tags": [
             "testing",
             "ai"
@@ -160,30 +264,57 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
-          "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
-          "summary": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
-          "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
-          "source": "Cloudflare",
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Actuarity Models at MoT Edinburgh!",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/actuarity-models-at-mot-edinburgh",
+          "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-08-13T19:58:01.000Z",
+          "publishedAt": "2026-09-17T20:02:05.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Steel Thread",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/steel-thread",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-09-17T17:57:50.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "title": "I don't like LLMs",
+          "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly buil...",
+          "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+          "source": "Martin Fowler",
+          "category": "test-automation",
+          "publishedAt": "2026-09-17T13:50:00.000Z",
           "tags": [
-            "ai"
+            "react",
+            "api",
+            "ai",
+            "llm"
           ],
-          "score": 60,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "cloudflare"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "The \"Happy Path\" Gone Wrong",
+          "title": "Isn't it great: community builders are educators and in-person events are back",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/the-happy-path-gone-wrong",
+          "url": "https://www.ministryoftesting.com/media-sessions/isn-t-it-great-community-builders-are-educators-and-in-person-events-are-back",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-08-13T19:31:37.000Z",
+          "publishedAt": "2026-09-17T13:16:31.000Z",
           "tags": [],
           "score": 50,
           "priority": "MEDIUM",
@@ -191,117 +322,82 @@
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Journey Through the Stars",
+          "title": "MoTaCon Spoiler Edition by MoT-NL lands in Groningen",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/journey-through-the-stars",
+          "url": "https://www.ministryoftesting.com/moments/motacon-spoiler-edition-by-mot-nl-lands-in-groningen",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-08-13T19:16:22.000Z",
+          "publishedAt": "2026-09-17T12:12:06.000Z",
           "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Product Manager - Testmo",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/product-manager-testmo",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-08-13T16:14:31.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Thoughts before MoTaCon: The quality institute",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/thoughts-before-motacon-the-quality-institute",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-08-13T15:49:07.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "cloudflare-aHR0cHM6Ly9i",
-          "title": "Certificate Transparency Monitoring is now generally available",
-          "summary": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in ...",
-          "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
-          "source": "Cloudflare",
-          "category": "test-automation",
-          "publishedAt": "2026-08-13T13:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 60,
-          "priority": "MEDIUM",
-          "reason": [
-            "cloudflare"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Feeling amazed to see lot of awards waiting in my inbox",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/feeling-amazed-to-see-lot-of-awards-waiting-in-my-inbox",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-08-13T11:30:50.000Z",
-          "tags": [
-            "ai"
-          ],
           "score": 50,
           "priority": "MEDIUM",
           "reason": []
         },
         {
           "id": "openai-aHR0cHM6Ly9v",
-          "title": "The builder’s guide to GPT‑5.6",
-          "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-          "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+          "title": "How Cooley is accelerating IPO work with ChatGPT",
+          "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+          "url": "https://openai.com/index/cooley-gopublic",
           "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-08-13T11:00:00.000Z",
-          "tags": [
-            "api",
-            "ai"
-          ],
-          "score": 85,
-          "priority": "HIGH",
+          "publishedAt": "2026-09-17T12:00:00.000Z",
+          "tags": [],
+          "score": 65,
+          "priority": "MEDIUM",
           "reason": [
-            "agent",
             "openai"
           ]
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "The courage to be disliked: what it means for community builders",
+          "title": "Senior QA Engineer",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/the-courage-to-be-disliked-what-it-means-for-community-builders",
+          "url": "https://www.ministryoftesting.com/jobs/senior-qa-engineer-c8e2c9fc-036e-4ffd-b0af-e5953038adb3",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-08-13T10:54:00.000Z",
+          "publishedAt": "2026-09-17T10:57:55.000Z",
           "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
+          "score": 70,
+          "priority": "HIGH",
+          "reason": [
+            "qa"
+          ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Help map the AI friction points - Survey",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/help-map-the-ai-friction-points-survey",
-          "source": "Ministry of Testing",
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Introducing Astra for Law",
+          "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+          "url": "https://openai.com/index/astra-for-law",
+          "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-08-13T10:03:15.000Z",
+          "publishedAt": "2026-09-17T00:00:00.000Z",
           "tags": [
             "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        }
+      ]
+    },
+    {
+      "month": "2026-08",
+      "summary": "",
+      "themes": [],
+      "items": [
+        {
+          "id": "cypress-aHR0cHM6Ly93",
+          "title": "Test Replay now redacts sensitive network data before upload",
+          "summary": "Test Replay automatically redacts sensitive values from captured network logs before that data reaches Cypress Cloud. If your team turned Test Replay off in the past because of what your network logs ...",
+          "url": "https://www.cypress.io/blog/test-replay-now-redacts-sensitive-network-data-before-upload/",
+          "source": "Cypress",
+          "category": "test-automation",
+          "publishedAt": "2026-08-31T22:12:34.000Z",
+          "tags": [
+            "cypress",
+            "bug"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -309,14 +405,13 @@
         },
         {
           "id": "openai-aHR0cHM6Ly9v",
-          "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-          "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-          "url": "https://openai.com/index/previewing-ultrafast",
+          "title": "OpenAI supports California’s bill to advance youth AI safety",
+          "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+          "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
           "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-08-13T10:00:00.000Z",
+          "publishedAt": "2026-08-31T07:00:00.000Z",
           "tags": [
-            "api",
             "ai"
           ],
           "score": 65,
@@ -327,12 +422,29 @@
         },
         {
           "id": "openai-aHR0cHM6Ly9v",
-          "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-          "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+          "title": "Polimill builds Japan's next-generation public AI infrastructure",
+          "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+          "url": "https://openai.com/index/polimill",
           "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-08-13T09:00:00.000Z",
+          "publishedAt": "2026-08-31T07:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "A milestone in expanding access to AI",
+          "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-08-31T04:00:00.000Z",
           "tags": [
             "ai"
           ],
@@ -344,113 +456,184 @@
         },
         {
           "id": "cypress-aHR0cHM6Ly93",
-          "title": "Cypress Security Incident: Status and Response",
-          "summary": "Last updated: August 12, 2026. This page is our central record for this incident and will be updated as our investigation progresses. We are writing to provide our users with a continued update on the...",
-          "url": "https://www.cypress.io/blog/cypress-security-incident-status-and-response/",
+          "title": "Cypress Ambassador Spotlight: Sehani Chathurangi",
+          "summary": "Welcome back to the Ambassador Spotlight series! Each edition, we shine a light on one of the testers and builders shaping the Cypress community and the people in it sharing their knowledge through bl...",
+          "url": "https://www.cypress.io/blog/cypress-ambassador-spotlight-sehani-chathurangi/",
           "source": "Cypress",
           "category": "test-automation",
-          "publishedAt": "2026-08-13T00:47:40.000Z",
+          "publishedAt": "2026-08-28T16:06:18.000Z",
           "tags": [
+            "testing",
             "cypress",
-            "security",
-            "update"
-          ],
-          "score": 90,
-          "priority": "CRITICAL",
-          "reason": [
-            "security"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Did someone say Bugs on Bicycles?",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/did-someone-say-bugs-on-bicycles",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-08-12T14:57:59.000Z",
-          "tags": [
-            "bug"
+            "api"
           ],
           "score": 50,
           "priority": "MEDIUM",
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "AI Learning Plan for Testers (Free Resources)",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/ai-learning-plan-for-testers-free-resources",
-          "source": "Ministry of Testing",
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+          "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately decla...",
+          "url": "https://blog.cloudflare.com/botbase-for-operators/",
+          "source": "Cloudflare",
           "category": "test-automation",
-          "publishedAt": "2026-08-12T13:28:57.000Z",
+          "publishedAt": "2026-08-28T12:59:44.000Z",
+          "tags": [
+            "update"
+          ],
+          "score": 80,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "cloudflare"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Our decision on Cursor following its acquisition by SpaceX",
+          "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-08-28T06:00:00.000Z",
           "tags": [
             "ai"
           ],
-          "score": 50,
+          "score": 65,
           "priority": "MEDIUM",
-          "reason": []
-        }
-      ]
-    },
-    {
-      "month": "2026-07",
-      "summary": "",
-      "themes": [],
-      "items": [
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Slack bug? ",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/slack-bug",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-31T17:27:02.000Z",
-          "tags": [
-            "bug"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Trend Watch: Software Testing was down, but now it and Quality Engineering are on the up.",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/trend-watch-software-testing-was-down-but-now-it-and-quality-engineering-are-on-the-up",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-31T17:14:56.000Z",
-          "tags": [
-            "testing"
-          ],
-          "score": 75,
-          "priority": "HIGH",
           "reason": [
-            "testing"
+            "openai"
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Do you have your Hamster badge yet? ",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/do-you-have-your-hamster-badge-yet",
-          "source": "Ministry of Testing",
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Supporting Thailand’s next generation of AI startups",
+          "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+          "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+          "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-07-31T15:58:54.000Z",
-          "tags": [],
+          "publishedAt": "2026-08-28T02:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "title": "Making Your Data Ready for Agentic AI",
+          "summary": "Lots of organizations are excited about what AI can do to streamline their processes, save money, and juice margins. But AI's capabilities are founded on the data that AI accesses, and for many organi...",
+          "url": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html",
+          "source": "Martin Fowler",
+          "category": "test-automation",
+          "publishedAt": "2026-08-27T13:11:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 70,
+          "priority": "HIGH",
+          "reason": [
+            "agent"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+          "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+          "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-08-27T09:00:00.000Z",
+          "tags": [
+            "performance",
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Expanding OpenAI’s presence in Brazil",
+          "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+          "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-08-27T03:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "cypress-aHR0cHM6Ly93",
+          "title": "New: Finish Cypress Cloud runs faster with the Run Completion API",
+          "summary": "Starting now, all Cypress Cloud plans can use the Run Completion API, allowing the Cypress Cloud run to finalize immediately at the end of test recoding, instead of staying open for new tests. Here's ...",
+          "url": "https://www.cypress.io/blog/new-finish-cypress-cloud-runs-faster-with-the-run-completion-api/",
+          "source": "Cypress",
+          "category": "test-automation",
+          "publishedAt": "2026-08-26T18:51:15.000Z",
+          "tags": [
+            "testing",
+            "cypress",
+            "api"
+          ],
           "score": 50,
           "priority": "MEDIUM",
           "reason": []
         },
         {
           "id": "openai-aHR0cHM6Ly9v",
-          "title": "Advancing responsible AI across Europe",
-          "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
-          "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+          "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+          "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+          "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
           "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-07-31T15:00:00.000Z",
+          "publishedAt": "2026-08-26T10:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Learning never stops: How AI makes learning continuous",
+          "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+          "url": "https://openai.com/index/learning-never-stops",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-08-26T10:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "The Hugging Face incident and the road ahead",
+          "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+          "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-08-26T00:00:00.000Z",
           "tags": [
             "security",
             "ai"
@@ -464,12 +647,12 @@
         },
         {
           "id": "openai-aHR0cHM6Ly9v",
-          "title": "Building abundant intelligence",
-          "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
-          "url": "https://openai.com/index/building-abundant-intelligence",
+          "title": "How loveholidays is making everyone a builder with Codex",
+          "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+          "url": "https://openai.com/index/loveholidays",
           "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-07-31T15:00:00.000Z",
+          "publishedAt": "2026-08-26T00:00:00.000Z",
           "tags": [
             "ai"
           ],
@@ -480,88 +663,81 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Oh the anxcitement! Chaos-driven development, AI coding skills, and a new look profile page",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/oh-the-anxcitement-chaos-driven-development-ai-coding-skills-and-a-new-look-profile-page",
-          "source": "Ministry of Testing",
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "The full stack behind abundant intelligence",
+          "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+          "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+          "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-07-31T14:34:18.000Z",
+          "publishedAt": "2026-08-25T07:05:00.000Z",
           "tags": [
             "ai"
           ],
-          "score": 50,
+          "score": 65,
           "priority": "MEDIUM",
-          "reason": []
+          "reason": [
+            "openai"
+          ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Familiar faces",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/familiar-faces",
-          "source": "Ministry of Testing",
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+          "url": "https://openai.com/index/jalapeno-first-results",
+          "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-07-31T14:01:10.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
-          "title": "The Conductor Developer",
-          "summary": "TL;DRWhy I think software development is starting to feel a little more like conducting an orchestra. There’s a shift happening in software development that I don’t think we’re talking about clearly e...",
-          "url": "https://martinfowler.com/rachels-ramblings/conductor-developer.html",
-          "source": "Martin Fowler",
-          "category": "test-automation",
-          "publishedAt": "2026-07-31T13:48:00.000Z",
+          "publishedAt": "2026-08-25T07:00:00.000Z",
           "tags": [
-            "api",
-            "rest",
-            "performance",
-            "feature",
             "ai"
           ],
-          "score": 50,
+          "score": 65,
           "priority": "MEDIUM",
-          "reason": []
+          "reason": [
+            "openai"
+          ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Two Factor Authentication (2FA) ",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/two-factor-authentication-2fa",
-          "source": "Ministry of Testing",
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Disrupting a new covert influence campaign from Russia",
+          "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+          "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-07-31T13:37:56.000Z",
-          "tags": [],
-          "score": 50,
+          "publishedAt": "2026-08-25T00:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
           "priority": "MEDIUM",
-          "reason": []
+          "reason": [
+            "openai"
+          ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "OTP (One Time Passcode) ",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/otp-one-time-passcode",
-          "source": "Ministry of Testing",
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+          "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+          "url": "https://openai.com/index/introducing-admin-plugin",
+          "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-07-31T13:24:04.000Z",
+          "publishedAt": "2026-08-25T00:00:00.000Z",
           "tags": [],
-          "score": 50,
+          "score": 65,
           "priority": "MEDIUM",
-          "reason": []
+          "reason": [
+            "openai"
+          ]
         },
         {
           "id": "cloudflare-aHR0cHM6Ly9i",
-          "title": "An API for MoQ: provision your own isolated relays",
-          "summary": "Last year we made every Cloudflare server a Media over QUIC (MoQ) relay. Now the new provisioning API lets you create your own isolated relay and control who can publish and who can only watch.",
-          "url": "https://blog.cloudflare.com/moq-relays/",
+          "title": "The Cloudflare Blog — brought to you by EmDash",
+          "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
+          "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
           "source": "Cloudflare",
           "category": "test-automation",
-          "publishedAt": "2026-07-31T13:00:00.000Z",
+          "publishedAt": "2026-08-24T19:00:00.000Z",
           "tags": [
-            "api"
+            "performance"
           ],
           "score": 60,
           "priority": "MEDIUM",
@@ -570,128 +746,36 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Attend MoTaCon!",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/attend-motacon",
-          "source": "Ministry of Testing",
+          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "title": "Fragments: August 24",
+          "summary": "I was listening to Ezra Klein’s interview with Helen Toner about the recent OpenAI hack of Hugging Face and the subsequent discovery that there were swarms of agents inside OpenAI doing unsanctioned a...",
+          "url": "https://martinfowler.com/fragments/2026-08-24.html",
+          "source": "Martin Fowler",
           "category": "test-automation",
-          "publishedAt": "2026-07-31T12:39:43.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Chaos-driven development",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/chaos-driven-development",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-31T12:21:24.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Please send me to MoTaCon",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/please-send-me-to-motacon",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-31T12:12:01.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Thank you to the MoTaverse Community",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/thank-you-to-the-motaverse-community",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-31T12:00:13.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Observatory Weekly: Understanding exploratory testing, security risks, chatbot transcripts blunders, and more!",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/newsletter/observatory-weekly-understanding-exploratory-testing-security-risks-chatbot-transcripts-blunders-and-more",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-31T11:51:00.000Z",
+          "publishedAt": "2026-08-24T15:29:00.000Z",
           "tags": [
-            "testing",
-            "security"
+            "api",
+            "rest",
+            "security",
+            "ai",
+            "llm"
           ],
-          "score": 115,
-          "priority": "CRITICAL",
+          "score": 70,
+          "priority": "HIGH",
           "reason": [
-            "testing",
-            "security"
+            "agent"
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Everyday AI coding: skills & plugins in a tester's workflow",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/everyday-ai-coding-skills-plugins-in-a-tester-s-workflow",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-31T10:47:25.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "AI Coding Skills & Plugins - Notes by Rishikesh V.",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/ai-coding-skills-plugins-notes-by-rishikesh-v",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-31T08:14:31.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Punctuation matters. Punctuation. matters.",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/punctuation-matters-punctuation-matters",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-31T07:33:21.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
           "id": "openai-aHR0cHM6Ly9v",
-          "title": "Univé builds an AI-ready workforce",
-          "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-          "url": "https://openai.com/index/unive",
+          "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+          "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+          "url": "https://openai.com/index/gpt-5-6-in-kiro",
           "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-07-31T07:00:00.000Z",
+          "publishedAt": "2026-08-24T12:00:00.000Z",
           "tags": [
+            "performance",
             "ai"
           ],
           "score": 65,
@@ -701,75 +785,22 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Disrupting a Criminal Scam Operation",
-          "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-          "source": "OpenAI",
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "Say it once: introducing Bot Preference Sync",
+          "summary": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaini...",
+          "url": "https://blog.cloudflare.com/bot-preference-sync/",
+          "source": "Cloudflare",
           "category": "test-automation",
-          "publishedAt": "2026-07-31T00:00:00.000Z",
+          "publishedAt": "2026-08-21T23:19:57.000Z",
           "tags": [
             "ai"
           ],
-          "score": 65,
-          "priority": "MEDIUM",
+          "score": 80,
+          "priority": "HIGH",
           "reason": [
-            "openai"
+            "agent",
+            "cloudflare"
           ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Great Summer Social event ",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/great-summer-social-event",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-30T21:02:49.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Happy 10 Hippo",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/happy-10-hippo",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-30T20:54:43.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Learning new (AI) skills",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/learning-new-ai-skills",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-30T18:38:13.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Community non-determinism",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/community-non-determinism",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-07-30T16:44:29.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
         }
       ]
     }
