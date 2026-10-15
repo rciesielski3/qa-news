@@ -1,16 +1,20 @@
 {
-  "date": "2026-10-14",
-  "updatedAt": "2026-10-14T13:51:39.406Z",
+  "date": "2026-10-15",
+  "updatedAt": "2026-10-15T13:05:39.724Z",
   "articles": [
     {
       "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
-      "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inferenc...",
-      "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+      "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+      "summary": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
+      "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
       "source": "Cloudflare",
       "category": "test-automation",
-      "publishedAt": "2026-10-09T18:27:34.000Z",
-      "tags": [],
+      "publishedAt": "2026-10-14T13:00:00.000Z",
+      "tags": [
+        "sql",
+        "bug",
+        "ai"
+      ],
       "score": 64,
       "priority": "MEDIUM",
       "reason": [
@@ -20,12 +24,68 @@
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "From MoTaCon Dinner to $8M: Klarent’s big week",
+      "title": "QA trailblazers are rewriting the rules in the age of AI",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/insights/from-motacon-dinner-to-8m-klarent-s-big-week",
+      "url": "https://www.ministryoftesting.com/media-sessions/qa-trailblazers-are-rewriting-the-rules-in-the-age-of-ai",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-09T16:49:00.000Z",
+      "publishedAt": "2026-10-14T12:31:26.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "qa",
+        "recent"
+      ]
+    },
+    {
+      "id": "playwright-aHR0cHM6Ly9n",
+      "title": "v1.64.1",
+      "summary": "Bug Fixes #43247 [Bug]: _electron.launch intermittently loses a packaged app's first window since 1.64.0 #43242 [Regression]: Chromium 155+ aborts a preflighted cross-origin redirect whenever any rout...",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.1",
+      "source": "Playwright",
+      "category": "test-automation",
+      "publishedAt": "2026-10-14T11:51:33.000Z",
+      "tags": [
+        "playwright",
+        "github",
+        "bug",
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-aHR0cHM6Ly93",
+      "title": "Presentation: How to Find Resilience Bugs in Systems that Don't Exist",
+      "summary": "Hillel Wayne discusses how formal methods principles - such as property strength, state-space verification, and environment assumptions - help software engineers uncover critical architectural bugs ea...",
+      "url": "https://www.infoq.com/presentations/formal-methods-principles/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-14T11:00:00.000Z",
+      "tags": [
+        "bug",
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Clickjacking",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/software-testing-glossary/clickjacking",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-14T10:50:23.000Z",
       "tags": [],
       "score": 54,
       "priority": "MEDIUM",
@@ -35,12 +95,12 @@
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "The WireMock Crew",
+      "title": "Can we actually co-own quality?",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/the-wiremock-crew",
+      "url": "https://www.ministryoftesting.com/media-sessions/can-we-actually-co-own-quality",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-09T16:33:24.000Z",
+      "publishedAt": "2026-10-14T10:46:52.000Z",
       "tags": [],
       "score": 54,
       "priority": "MEDIUM",
@@ -50,12 +110,27 @@
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Build test environments for AI (with AI)",
+      "title": "How to test with a screen reader (WonderProxy blog post)",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/build-test-environments-for-ai-with-ai",
+      "url": "https://www.ministryoftesting.com/moments/how-to-test-with-a-screen-reader-wonderproxy-blog-post",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-09T16:09:38.000Z",
+      "publishedAt": "2026-10-14T10:26:46.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "The tipping point: AI and coding chaos",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/the-tipping-point-ai-and-coding-chaos",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-14T10:06:47.000Z",
       "tags": [
         "ai"
       ],
@@ -67,94 +142,33 @@
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "I need a chair!",
+      "title": "AI-powered testing: supercharging the human tester",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/i-need-a-chair",
+      "url": "https://www.ministryoftesting.com/media-sessions/ai-powered-testing-supercharging-the-human-tester",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-09T16:00:15.000Z",
+      "publishedAt": "2026-10-14T09:56:20.000Z",
       "tags": [
+        "testing",
         "ai"
       ],
-      "score": 54,
-      "priority": "MEDIUM",
+      "score": 79,
+      "priority": "HIGH",
       "reason": [
+        "testing",
         "recent"
       ]
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Community stars shine at MoTaCon festival, with moments to remember",
+      "title": "22 partners and counting 🎉",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/community-stars-shine-at-motacon-festival-with-moments-to-remember",
+      "url": "https://www.ministryoftesting.com/news/22-partners-and-counting",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-09T14:35:09.000Z",
+      "publishedAt": "2026-10-14T09:19:00.000Z",
       "tags": [],
       "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Bug is flying!",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/bug-is-flying",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-09T14:26:03.000Z",
-      "tags": [
-        "bug"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Good people reflect on good times at MoTaCon festival week",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/good-people-reflect-on-good-times-at-motacon-festival-week",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-09T13:26:30.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Deno is joining Cloudflare",
-      "summary": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
-      "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
-      "source": "Cloudflare",
-      "category": "test-automation",
-      "publishedAt": "2026-10-09T12:50:00.000Z",
-      "tags": [],
-      "score": 64,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "When you receive swag you can actually use...",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/when-you-receive-swag-you-can-actually-use",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-09T11:22:14.000Z",
-      "tags": [],
-      "score": 53,
       "priority": "MEDIUM",
       "reason": [
         "recent"
