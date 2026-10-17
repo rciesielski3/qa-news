@@ -6,36 +6,104 @@
       "themes": [],
       "items": [
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
-          "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
-          "summary": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
-          "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
-          "source": "Cloudflare",
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "Grafana Applies SLOs and Error Budgets to AI Agent Behaviour",
+          "summary": "Grafana Labs is proposing a familiar reliability engineering approach for one of the less familiar problems in modern software: how to measure whether an AI agent is actually behaving well. By Craig R...",
+          "url": "https://www.infoq.com/news/2026/10/grafana-slo-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
           "category": "test-automation",
-          "publishedAt": "2026-10-14T13:00:00.000Z",
+          "publishedAt": "2026-10-16T12:00:00.000Z",
           "tags": [
-            "sql",
-            "bug",
             "ai"
           ],
-          "score": 64,
-          "priority": "MEDIUM",
+          "score": 74,
+          "priority": "HIGH",
           "reason": [
-            "cloudflare",
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "Mini book: Evolutionary Architecture in Practice",
+          "summary": "Discover how to keep software evolvable as systems, technology, and teams shift. This edition explores agentic fitness functions for semantic drift, treating human comprehension as a core design metri...",
+          "url": "https://www.infoq.com/minibooks/evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-16T11:30:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules",
+          "summary": "The release of Helidon 27 is the first release that follows the Oracle Tip & Tail Model of Library Development by which the Tip adopts the latest Java technology while the Tail provides a more stable ...",
+          "url": "https://www.infoq.com/news/2026/10/helidon-27-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-16T11:20:00.000Z",
+          "tags": [
+            "rest",
+            "release",
+            "feature",
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "release",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development",
+          "summary": "AWS has introduced two open-source projects for AI agent development: Strands Decider 2B, a small model designed to make decisions within agent workflows, and Strands Box, a sandbox for controlling ag...",
+          "url": "https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-16T10:47:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
             "recent"
           ]
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "QA trailblazers are rewriting the rules in the age of AI",
+          "title": "Anywhere, anytime..?",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/qa-trailblazers-are-rewriting-the-rules-in-the-age-of-ai",
+          "url": "https://www.ministryoftesting.com/moments/anywhere-anytime",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-10-14T12:31:26.000Z",
-          "tags": [
-            "ai"
-          ],
+          "publishedAt": "2026-10-16T09:59:53.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "QA Engineer - Mobile",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/qa-engineer-mobile",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-16T09:04:20.000Z",
+          "tags": [],
           "score": 74,
           "priority": "HIGH",
           "reason": [
@@ -44,167 +112,54 @@
           ]
         },
         {
-          "id": "playwright-aHR0cHM6Ly9n",
-          "title": "v1.64.1",
-          "summary": "Bug Fixes #43247 [Bug]: _electron.launch intermittently loses a packaged app's first window since 1.64.0 #43242 [Regression]: Chromium 155+ aborts a preflighted cross-origin redirect whenever any rout...",
-          "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.1",
-          "source": "Playwright",
-          "category": "test-automation",
-          "publishedAt": "2026-10-14T11:51:33.000Z",
-          "tags": [
-            "playwright",
-            "github",
-            "bug",
-            "ai"
-          ],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
           "id": "infoq-aHR0cHM6Ly93",
-          "title": "Presentation: How to Find Resilience Bugs in Systems that Don't Exist",
-          "summary": "Hillel Wayne discusses how formal methods principles - such as property strength, state-space verification, and environment assumptions - help software engineers uncover critical architectural bugs ea...",
-          "url": "https://www.infoq.com/presentations/formal-methods-principles/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "title": "Chainguard Launches Secure Workspaces and Checks for AI Coding Agents",
+          "summary": "Software supply chain security company Chainguard has announced two beta products for running and testing code written by developers and AI agents. Chainguard Workspaces provides remote development en...",
+          "url": "https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
           "category": "test-automation",
-          "publishedAt": "2026-10-14T11:00:00.000Z",
-          "tags": [
-            "bug",
-            "ai"
-          ],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Clickjacking",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/clickjacking",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-14T10:50:23.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Can we actually co-own quality?",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/can-we-actually-co-own-quality",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-14T10:46:52.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "How to test with a screen reader (WonderProxy blog post)",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/how-to-test-with-a-screen-reader-wonderproxy-blog-post",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-14T10:26:46.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "The tipping point: AI and coding chaos",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/the-tipping-point-ai-and-coding-chaos",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-14T10:06:47.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "AI-powered testing: supercharging the human tester",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/ai-powered-testing-supercharging-the-human-tester",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-14T09:56:20.000Z",
+          "publishedAt": "2026-10-16T09:00:00.000Z",
           "tags": [
             "testing",
+            "security",
             "ai"
           ],
-          "score": 79,
-          "priority": "HIGH",
+          "score": 139,
+          "priority": "CRITICAL",
           "reason": [
             "testing",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "22 partners and counting 🎉",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/news/22-partners-and-counting",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-14T09:19:00.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "infoq-aHR0cHM6Ly93",
-          "title": "Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy",
-          "summary": "Google has introduced support for local models in the Antigravity SDK, enabling developers to build and execute agentic workflows directly on their own machines, while retaining the flexibility to mix...",
-          "url": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "test-automation",
-          "publishedAt": "2026-10-14T09:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 74,
-          "priority": "HIGH",
-          "reason": [
+            "security",
             "agent",
             "recent"
           ]
         },
         {
           "id": "infoq-aHR0cHM6Ly93",
-          "title": "Article: Composable Commerce: Inside Shipt’s Kit Platform",
-          "summary": "Shipt launched its Kits feature, enabling quick assembly of themed grocery bundles for events. The platform architecture lets merchandisers easily create store-aware kits, streamlining previously labo...",
-          "url": "https://www.infoq.com/articles/shipt-composable-commerce-design-ddd/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "title": "Article: Cryptographic Foundation of Mobile ID Systems: An ISO/IEC 18013-5 Enterprise Architecture Blueprint",
+          "summary": "This article provides a framework for asking the right architectural questions before an enterprise commits to an mDL provider or library. It shows which components can be abstracted safely, which tru...",
+          "url": "https://www.infoq.com/articles/enterprise-mobile-id-mdl-blueprint/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
           "category": "test-automation",
-          "publishedAt": "2026-10-14T09:00:00.000Z",
+          "publishedAt": "2026-10-16T09:00:00.000Z",
           "tags": [
-            "feature"
+            "ai"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "From The Traitors to Testers: Why Perspective Matters",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/from-the-traitors-to-testers-why-perspective-matters",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-16T08:59:44.000Z",
+          "tags": [
+            "ai"
           ],
           "score": 54,
           "priority": "MEDIUM",
@@ -214,36 +169,15 @@
         },
         {
           "id": "infoq-aHR0cHM6Ly93",
-          "title": "Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, Hooks, and tsup Migration",
-          "summary": "VoidZero has launched Vite+ 1.0, the first stable version of its JavaScript toolchain. It features a command line tool for managing Node.js, package management, and frontend development from a single ...",
-          "url": "https://www.infoq.com/news/2026/10/cloudflare-viteplus-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
+          "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto on...",
+          "url": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
           "category": "test-automation",
-          "publishedAt": "2026-10-14T06:15:00.000Z",
+          "publishedAt": "2026-10-16T06:02:00.000Z",
           "tags": [
-            "javascript",
-            "node.js",
-            "docker",
-            "update",
-            "feature",
             "ai"
           ],
-          "score": 78,
-          "priority": "HIGH",
-          "reason": [
-            "migration",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Moving off RSAT? The biggest risk might be a test that still passes",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/moving-off-rsat-the-biggest-risk-might-be-a-test-that-still-passes",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-14T06:03:25.000Z",
-          "tags": [],
           "score": 53,
           "priority": "MEDIUM",
           "reason": [
@@ -251,84 +185,184 @@
           ]
         },
         {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "How to test with a screen reader, high level contributors, high well being for remote workers, and more!",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/newsletter/how-to-test-with-a-screen-reader-high-level-contributors-high-well-being-for-remote-workers-and-more",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-16T00:00:00.000Z",
+          "tags": [],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
           "id": "openai-aHR0cHM6Ly9v",
-          "title": "The EU’s next chapter in AI is agentic",
-          "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-          "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+          "title": "Bringing GPT-Rosalind to academic research labs",
+          "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
           "source": "OpenAI",
           "category": "test-automation",
-          "publishedAt": "2026-10-14T00:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 87,
-          "priority": "HIGH",
+          "publishedAt": "2026-10-15T19:00:00.000Z",
+          "tags": [],
+          "score": 67,
+          "priority": "MEDIUM",
           "reason": [
-            "agent",
             "openai",
             "recent"
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "It's time to make",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/it-s-time-to-make",
-          "source": "Ministry of Testing",
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "A fully programmable secure web gateway",
+          "summary": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform.",
+          "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
+          "source": "Cloudflare",
           "category": "test-automation",
-          "publishedAt": "2026-10-13T19:33:24.000Z",
+          "publishedAt": "2026-10-15T17:11:12.000Z",
           "tags": [],
-          "score": 51,
+          "score": 61,
           "priority": "MEDIUM",
           "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Perseverance pays dividends",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/perseverance-pays-dividends",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-13T17:09:58.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
+            "cloudflare",
             "recent"
           ]
         },
         {
           "id": "infoq-aHR0cHM6Ly93",
-          "title": "Backstage 1.55 Adds Scaffolder Task Recovery and Removes Deprecated Catalog APIs",
-          "summary": "Backstage 1.55 adds opt-in recovery for Software Template tasks, resuming crashed or timed-out runs from the last completed step. The release also carries breaking changes to the catalog, search and T...",
-          "url": "https://www.infoq.com/news/2026/10/backstage-1-55-task-recovery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "title": "Instagram Modernized its UI with an AI-Native Architecture, Cutting Token Costs by 33%",
+          "summary": "Instagram Direct migrated its Android UI from the legacy Android View system to Jetpack Compose, creating an AI-native UI codebase that is easier for AI coding agents to understand, modify, and mainta...",
+          "url": "https://www.infoq.com/news/2026/10/instagram-compose-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
           "category": "test-automation",
-          "publishedAt": "2026-10-13T17:00:00.000Z",
+          "publishedAt": "2026-10-15T16:00:00.000Z",
           "tags": [
-            "api",
-            "release"
+            "ai"
           ],
-          "score": 106,
-          "priority": "CRITICAL",
+          "score": 71,
+          "priority": "HIGH",
           "reason": [
-            "breaking",
-            "release",
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "From test cases to AI-ready quality data: why structure matters",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/from-test-cases-to-ai-ready-quality-data-why-structure-matters",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-15T15:52:10.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "AI Risk Deck: Human-Computer Interaction (5)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/insights/ai-risk-deck-human-computer-interaction-5",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-15T15:33:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Brighton Leadership Dinner with TestMu AI, the food was amazing!",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/brighton-leadership-dinner-with-testmu-ai-the-food-was-amazing",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-15T14:40:05.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
             "recent"
           ]
         },
         {
           "id": "cloudflare-aHR0cHM6Ly9i",
-          "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
-          "summary": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on t...",
-          "url": "https://blog.cloudflare.com/d1-control-plane/",
+          "title": "Deploy with Void",
+          "summary": "Introducing Void: an open-source SDK, CLI, and self-hosted platform for building full-stack Vite apps and deploying them to Cloudflare.",
+          "url": "https://blog.cloudflare.com/deploy-with-void/",
           "source": "Cloudflare",
           "category": "test-automation",
-          "publishedAt": "2026-10-13T16:20:18.000Z",
+          "publishedAt": "2026-10-15T14:00:00.000Z",
+          "tags": [],
+          "score": 61,
+          "priority": "MEDIUM",
+          "reason": [
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "cypress-aHR0cHM6Ly93",
+          "title": "How to connect Claude Code to Cypress",
+          "summary": "Claude Code writes better Cypress tests when it knows your conventions, can check its work in a live session, and can see your run history. Learn how to set up Cypress AI Skills, Cloud MCP, and cypres...",
+          "url": "https://www.cypress.io/blog/how-to-connect-claude-code-to-cypress/",
+          "source": "Cypress",
+          "category": "test-automation",
+          "publishedAt": "2026-10-15T13:52:42.000Z",
           "tags": [
-            "database"
+            "cypress",
+            "ai"
+          ],
+          "score": 76,
+          "priority": "HIGH",
+          "reason": [
+            "mcp",
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Teaching students to think and learn through questions",
+          "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+          "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-15T13:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 66,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+          "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
+          "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-10-15T13:00:00.000Z",
+          "tags": [
+            "ai"
           ],
           "score": 61,
           "priority": "MEDIUM",
@@ -339,76 +373,46 @@
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Where on earth are Heleen and Demi? Part 2",
+          "title": "I'd forgotten one of the bugs glowed in the dark",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/where-on-earth-are-heleen-and-demi-part-2",
+          "url": "https://www.ministryoftesting.com/moments/i-d-forgotten-one-of-the-bugs-glowed-in-the-dark",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-10-13T15:42:22.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Where on earth are Heleen and Demi? Part 1",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/where-on-earth-are-heleen-and-demi-part-1",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-13T15:40:17.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Lucky Duck: My second 99-second talk @ MoT Berlin #63",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/lucky-duck-my-second-99-second-talk-mot-berlin-63",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-13T14:26:18.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
-          "title": "The Craft of Practitioner Voice",
-          "summary": "A couple of months ago Jim Highsmith explained how practitioners writing for each other forms a distinct style of writing. He now adds a section to the article with more detail on the craft of how we ...",
-          "url": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
-          "source": "Martin Fowler",
-          "category": "test-automation",
-          "publishedAt": "2026-10-13T14:06:00.000Z",
+          "publishedAt": "2026-10-15T11:41:04.000Z",
           "tags": [
+            "bug"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "Optimizing Software Workflow: Exploring Fundamental Impacts in Technology",
+          "summary": "Software only has value when shipped; faster release cadence matters. Development, deployment, and operations require different thinking, metrics, and investments. There are four impacts in tech: prod...",
+          "url": "https://www.infoq.com/news/2026/10/optimize-software-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-15T11:33:00.000Z",
+          "tags": [
+            "release",
             "ai"
           ],
-          "score": 51,
-          "priority": "MEDIUM",
+          "score": 70,
+          "priority": "HIGH",
           "reason": [
-            "recent"
+            "release"
           ]
         },
         {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
-          "title": "Are Harnesses Worth the Cost?",
-          "summary": "Naresh Jain compares coding agents building the same API service with and without a behavioral harness. A frontier model, GPT-6 Sol, passed every external evaluation either way. But a cost-optimized m...",
-          "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
-          "source": "Martin Fowler",
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "Presentation: What 25 Trillion Tokens Reveal About How Developers Actually Adopt AI Agents",
+          "summary": "Brendan O'Leary discusses how real-world AI adoption depends on building trust rather than chasing model benchmarks. Drawing from 40 trillion tokens of usage data, he explains the four rungs of the AI...",
+          "url": "https://www.infoq.com/presentations/agentic-ai-developer-trust-adoption/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
           "category": "test-automation",
-          "publishedAt": "2026-10-13T13:35:00.000Z",
+          "publishedAt": "2026-10-15T11:00:00.000Z",
           "tags": [
-            "api",
             "ai"
           ],
           "score": 70,
@@ -418,13 +422,13 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
-          "title": "ZCS Command Injection via SNMP Handlers Enables Unauthenticated Remote Code Execution",
-          "summary": "A critical remote command execution vulnerability in the Zimbra Collaboration Suite, identified as CVE-2026-73570, poses risks by allowing unauthorized access to mailbox data and credentials. This fla...",
-          "url": "https://www.infoq.com/news/2026/10/zimbra-command-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "22 years in 22 minutes - lessons learned and how they apply in the AI era",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/22-years-in-22-minutes-lessons-learned-and-how-they-apply-in-the-ai-era",
+          "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-10-13T13:13:00.000Z",
+          "publishedAt": "2026-10-15T10:25:23.000Z",
           "tags": [
             "ai"
           ],
