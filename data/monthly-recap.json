@@ -6,6 +6,84 @@
       "themes": [],
       "items": [
         {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Thunders ⚡️ Swag 💙",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/thunders-swag",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-18T10:20:10.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Quality Engineer",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/quality-engineer-a5960a7c-8f19-4160-a901-ff61c8084c9a",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-17T13:51:53.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Senior QA Engineer",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/senior-qa-engineer-29fa0a18-0eb0-4491-be4e-21ae200bfcf2",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-17T13:47:06.000Z",
+          "tags": [],
+          "score": 71,
+          "priority": "HIGH",
+          "reason": [
+            "qa",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "QA Engineer - Contract",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/qa-engineer-contract",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-17T13:38:39.000Z",
+          "tags": [],
+          "score": 71,
+          "priority": "HIGH",
+          "reason": [
+            "qa",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "QA Engineer",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/qa-engineer-5537d086-6b99-4bb7-8e76-36f76195dfde",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-17T13:37:49.000Z",
+          "tags": [],
+          "score": 71,
+          "priority": "HIGH",
+          "reason": [
+            "qa",
+            "recent"
+          ]
+        },
+        {
           "id": "infoq-aHR0cHM6Ly93",
           "title": "Reverse Engineer Anything Project Brings AI Agents to Binary Analysis",
           "summary": "Reverse Engineer Anything (REA) is an open-source project with over 200K GitHub stars that connects coding agents such as Claude Code and Codex to reverse-engineering tools like Ghidra, Hopper, and ID...",
@@ -18,11 +96,10 @@
             "feature",
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -39,11 +116,9 @@
             "feature",
             "ai"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -54,11 +129,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-17T00:13:41.000Z",
           "tags": [],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -69,11 +142,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T23:56:14.000Z",
           "tags": [],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -84,11 +155,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T23:46:06.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-aHR0cHM6Ly93",
@@ -101,11 +170,10 @@
           "tags": [
             "ai"
           ],
-          "score": 72,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -119,11 +187,10 @@
           "tags": [
             "ai"
           ],
-          "score": 67,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -135,11 +202,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T17:12:12.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -150,11 +215,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T15:08:09.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-aHR0cHM6Ly93",
@@ -167,11 +230,9 @@
           "tags": [
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-aHR0cHM6Ly93",
@@ -185,11 +246,10 @@
             "security",
             "ai"
           ],
-          "score": 71,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -203,11 +263,9 @@
           "tags": [
             "update"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -218,11 +276,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T13:17:16.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -233,11 +289,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T13:10:40.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "cloudflare-aHR0cHM6Ly9i",
@@ -250,11 +304,10 @@
           "tags": [
             "ai"
           ],
-          "score": 61,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -268,11 +321,10 @@
           "tags": [
             "ai"
           ],
-          "score": 71,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -338,87 +390,6 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T09:59:53.000Z",
           "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "QA Engineer - Mobile",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/qa-engineer-mobile",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-16T09:04:20.000Z",
-          "tags": [],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "qa"
-          ]
-        },
-        {
-          "id": "infoq-aHR0cHM6Ly93",
-          "title": "Chainguard Launches Secure Workspaces and Checks for AI Coding Agents",
-          "summary": "Software supply chain security company Chainguard has announced two beta products for running and testing code written by developers and AI agents. Chainguard Workspaces provides remote development en...",
-          "url": "https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "test-automation",
-          "publishedAt": "2026-10-16T09:00:00.000Z",
-          "tags": [
-            "testing",
-            "security",
-            "ai"
-          ],
-          "score": 135,
-          "priority": "CRITICAL",
-          "reason": [
-            "testing",
-            "security",
-            "agent"
-          ]
-        },
-        {
-          "id": "infoq-aHR0cHM6Ly93",
-          "title": "Article: Cryptographic Foundation of Mobile ID Systems: An ISO/IEC 18013-5 Enterprise Architecture Blueprint",
-          "summary": "This article provides a framework for asking the right architectural questions before an enterprise commits to an mDL provider or library. It shows which components can be abstracted safely, which tru...",
-          "url": "https://www.infoq.com/articles/enterprise-mobile-id-mdl-blueprint/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "test-automation",
-          "publishedAt": "2026-10-16T09:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "From The Traitors to Testers: Why Perspective Matters",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/from-the-traitors-to-testers-why-perspective-matters",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-16T08:59:44.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-aHR0cHM6Ly93",
-          "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
-          "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto on...",
-          "url": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "test-automation",
-          "publishedAt": "2026-10-16T06:02:00.000Z",
-          "tags": [
-            "ai"
-          ],
           "score": 50,
           "priority": "MEDIUM",
           "reason": []

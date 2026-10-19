@@ -1,7 +1,85 @@
 {
-  "date": "2026-10-18",
-  "updatedAt": "2026-10-18T12:19:30.123Z",
+  "date": "2026-10-19",
+  "updatedAt": "2026-10-19T15:09:40.945Z",
   "articles": [
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Thunders ⚡️ Swag 💙",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/thunders-swag",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-18T10:20:10.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Quality Engineer",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/quality-engineer-a5960a7c-8f19-4160-a901-ff61c8084c9a",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-17T13:51:53.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Senior QA Engineer",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/senior-qa-engineer-29fa0a18-0eb0-4491-be4e-21ae200bfcf2",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-17T13:47:06.000Z",
+      "tags": [],
+      "score": 71,
+      "priority": "HIGH",
+      "reason": [
+        "qa",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "QA Engineer - Contract",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/qa-engineer-contract",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-17T13:38:39.000Z",
+      "tags": [],
+      "score": 71,
+      "priority": "HIGH",
+      "reason": [
+        "qa",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "QA Engineer",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/qa-engineer-5537d086-6b99-4bb7-8e76-36f76195dfde",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-17T13:37:49.000Z",
+      "tags": [],
+      "score": 71,
+      "priority": "HIGH",
+      "reason": [
+        "qa",
+        "recent"
+      ]
+    },
     {
       "id": "infoq-aHR0cHM6Ly93",
       "title": "Reverse Engineer Anything Project Brings AI Agents to Binary Analysis",
@@ -15,11 +93,10 @@
         "feature",
         "ai"
       ],
-      "score": 74,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -36,11 +113,9 @@
         "feature",
         "ai"
       ],
-      "score": 54,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -51,11 +126,9 @@
       "category": "test-automation",
       "publishedAt": "2026-10-17T00:13:41.000Z",
       "tags": [],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -66,11 +139,9 @@
       "category": "test-automation",
       "publishedAt": "2026-10-16T23:56:14.000Z",
       "tags": [],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -81,11 +152,9 @@
       "category": "test-automation",
       "publishedAt": "2026-10-16T23:46:06.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-aHR0cHM6Ly93",
@@ -98,11 +167,10 @@
       "tags": [
         "ai"
       ],
-      "score": 72,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -116,11 +184,10 @@
       "tags": [
         "ai"
       ],
-      "score": 67,
+      "score": 65,
       "priority": "MEDIUM",
       "reason": [
-        "openai",
-        "recent"
+        "openai"
       ]
     },
     {
@@ -132,11 +199,9 @@
       "category": "test-automation",
       "publishedAt": "2026-10-16T17:12:12.000Z",
       "tags": [],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -147,11 +212,9 @@
       "category": "test-automation",
       "publishedAt": "2026-10-16T15:08:09.000Z",
       "tags": [],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-aHR0cHM6Ly93",
@@ -164,11 +227,9 @@
       "tags": [
         "ai"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-aHR0cHM6Ly93",
@@ -182,11 +243,10 @@
         "security",
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -200,11 +260,9 @@
       "tags": [
         "update"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -215,11 +273,9 @@
       "category": "test-automation",
       "publishedAt": "2026-10-16T13:17:16.000Z",
       "tags": [],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -230,11 +286,9 @@
       "category": "test-automation",
       "publishedAt": "2026-10-16T13:10:40.000Z",
       "tags": [],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "cloudflare-aHR0cHM6Ly9i",
@@ -247,11 +301,10 @@
       "tags": [
         "ai"
       ],
-      "score": 61,
+      "score": 60,
       "priority": "MEDIUM",
       "reason": [
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -265,11 +318,10 @@
       "tags": [
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -735,79 +787,6 @@
       "priority": "CRITICAL",
       "reason": [
         "security"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "AI Chapter - First Giveaway ✅",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/ai-chapter-first-giveaway",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-15T04:57:57.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "url": "https://openai.com/index/sullivan-cromwell",
-      "source": "OpenAI",
-      "category": "test-automation",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Oops, I Missed 1,000 Stars Milestone!",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/oops-i-missed-1-000-stars-milestone",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-14T21:40:47.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Lovely catching up with familiar faces at Motacon! ",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/lovely-catching-up-with-familiar-faces-at-motacon",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-14T21:07:59.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
-      "summary": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
-      "url": "https://blog.cloudflare.com/yandex-outage/",
-      "source": "Cloudflare",
-      "category": "test-automation",
-      "publishedAt": "2026-10-14T20:24:19.000Z",
-      "tags": [],
-      "score": 60,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
       ]
     }
   ]

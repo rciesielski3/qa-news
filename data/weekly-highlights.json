@@ -5,6 +5,84 @@
       "summary": "",
       "items": [
         {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Thunders ⚡️ Swag 💙",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/thunders-swag",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-18T10:20:10.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Quality Engineer",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/quality-engineer-a5960a7c-8f19-4160-a901-ff61c8084c9a",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-17T13:51:53.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Senior QA Engineer",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/senior-qa-engineer-29fa0a18-0eb0-4491-be4e-21ae200bfcf2",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-17T13:47:06.000Z",
+          "tags": [],
+          "score": 71,
+          "priority": "HIGH",
+          "reason": [
+            "qa",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "QA Engineer - Contract",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/qa-engineer-contract",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-17T13:38:39.000Z",
+          "tags": [],
+          "score": 71,
+          "priority": "HIGH",
+          "reason": [
+            "qa",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "QA Engineer",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/qa-engineer-5537d086-6b99-4bb7-8e76-36f76195dfde",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-17T13:37:49.000Z",
+          "tags": [],
+          "score": 71,
+          "priority": "HIGH",
+          "reason": [
+            "qa",
+            "recent"
+          ]
+        },
+        {
           "id": "infoq-aHR0cHM6Ly93",
           "title": "Reverse Engineer Anything Project Brings AI Agents to Binary Analysis",
           "summary": "Reverse Engineer Anything (REA) is an open-source project with over 200K GitHub stars that connects coding agents such as Claude Code and Codex to reverse-engineering tools like Ghidra, Hopper, and ID...",
@@ -17,11 +95,10 @@
             "feature",
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -38,11 +115,9 @@
             "feature",
             "ai"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -53,11 +128,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-17T00:13:41.000Z",
           "tags": [],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -68,11 +141,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T23:56:14.000Z",
           "tags": [],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -83,11 +154,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T23:46:06.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-aHR0cHM6Ly93",
@@ -100,11 +169,10 @@
           "tags": [
             "ai"
           ],
-          "score": 72,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -118,11 +186,10 @@
           "tags": [
             "ai"
           ],
-          "score": 67,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -134,11 +201,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T17:12:12.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -149,11 +214,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T15:08:09.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-aHR0cHM6Ly93",
@@ -166,11 +229,9 @@
           "tags": [
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-aHR0cHM6Ly93",
@@ -184,11 +245,10 @@
             "security",
             "ai"
           ],
-          "score": 71,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -202,11 +262,9 @@
           "tags": [
             "update"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -217,11 +275,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T13:17:16.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -232,11 +288,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-16T13:10:40.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "cloudflare-aHR0cHM6Ly9i",
@@ -249,11 +303,10 @@
           "tags": [
             "ai"
           ],
-          "score": 61,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -267,11 +320,10 @@
           "tags": [
             "ai"
           ],
-          "score": 71,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -3577,201 +3629,6 @@
           "score": 50,
           "priority": "MEDIUM",
           "reason": []
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Introducing the Australian Youth Safety Blueprint",
-          "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-          "url": "https://openai.com/index/australian-youth-safety-blueprint",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-18T12:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Observatory Weekly: Slop snobs, detecting misuse of AI, hiring is asking for fewer skills, and more!",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/newsletter/observatory-weekly-slop-snobs-detecting-misuse-of-ai-hiring-is-asking-for-fewer-skills-and-more",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-09-18T10:12:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "My first MoT London ",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/my-first-mot-london",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-09-18T09:57:11.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "The people behind the testing",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/the-people-behind-the-testing",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-09-17T20:59:56.000Z",
-          "tags": [
-            "testing"
-          ],
-          "score": 75,
-          "priority": "HIGH",
-          "reason": [
-            "testing"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Just going for it",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/just-going-for-it",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-09-17T20:48:07.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "London chapter - AI, Agents and Trailblazers",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/london-chapter-ai-agents-and-trailblazers",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-09-17T20:18:03.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "agent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Testing AI at MoT Edinburgh",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/testing-ai-at-mot-edinburgh",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-09-17T20:08:01.000Z",
-          "tags": [
-            "testing",
-            "ai"
-          ],
-          "score": 75,
-          "priority": "HIGH",
-          "reason": [
-            "testing"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Actuarity Models at MoT Edinburgh!",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/actuarity-models-at-mot-edinburgh",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-09-17T20:02:05.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Steel Thread",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/steel-thread",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-09-17T17:57:50.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
-          "title": "I don't like LLMs",
-          "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly buil...",
-          "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
-          "source": "Martin Fowler",
-          "category": "test-automation",
-          "publishedAt": "2026-09-17T13:50:00.000Z",
-          "tags": [
-            "react",
-            "api",
-            "ai",
-            "llm"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "Isn't it great: community builders are educators and in-person events are back",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/isn-t-it-great-community-builders-are-educators-and-in-person-events-are-back",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-09-17T13:16:31.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
-          "title": "MoTaCon Spoiler Edition by MoT-NL lands in Groningen",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/motacon-spoiler-edition-by-mot-nl-lands-in-groningen",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-09-17T12:12:06.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "How Cooley is accelerating IPO work with ChatGPT",
-          "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-          "url": "https://openai.com/index/cooley-gopublic",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-17T12:00:00.000Z",
-          "tags": [],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
         }
       ]
     }
