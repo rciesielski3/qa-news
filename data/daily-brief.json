@@ -1,18 +1,71 @@
 {
-  "date": "2026-10-19",
-  "updatedAt": "2026-10-19T15:09:39.492Z",
+  "date": "2026-10-20",
+  "updatedAt": "2026-10-20T13:12:58.795Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news topics",
   "items": [
     {
+      "id": "infoq-aHR0cHM6Ly93",
+      "title": "Pinterest Uses Event Time Watermarks to Finalize Petabyte Scale Data Partitions",
+      "summary": "Pinterest has introduced event time-based partition finalization for its database ingestion framework. The mechanism uses Apache Flink to track event time and Apache Iceberg metadata to publish a non-...",
+      "url": "https://www.infoq.com/news/2026/10/pinterest-event-time-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-19T14:37:00.000Z",
+      "tags": [
+        "rest",
+        "database"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-aHR0cHM6Ly93",
+      "title": "JEP 543 Finalizes Structured Concurrency in JDK 28, Ending Seven Preview Rounds",
+      "summary": "JDK 28 finalizes structured concurrency through JEP 543, with no API changes from JDK 27. Teams on JDK 27 only need to drop --enable-preview and recompile. Code written for JDK 25 or 26 must adapt to ...",
+      "url": "https://www.infoq.com/news/2026/10/jep-543-jdk-28/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-19T14:30:00.000Z",
+      "tags": [
+        "api"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "cloudflare-aHR0cHM6Ly9i",
+      "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+      "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
+      "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-10-19T13:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 64,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Thunders ⚡️ Swag 💙",
+      "title": "Customer parking only",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/thunders-swag",
+      "url": "https://www.ministryoftesting.com/moments/customer-parking-only",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-18T10:20:10.000Z",
+      "publishedAt": "2026-10-19T11:57:36.000Z",
       "tags": [],
       "score": 54,
       "priority": "MEDIUM",
@@ -22,61 +75,14 @@
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Quality Engineer",
+      "title": "I was in the Pacific Northwest Software Quality Conference 2026 in Portland to present Lynqa",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/jobs/quality-engineer-a5960a7c-8f19-4160-a901-ff61c8084c9a",
+      "url": "https://www.ministryoftesting.com/moments/i-was-in-the-pacific-northwest-software-quality-conference-2026-in-portland-to-present-lynqa",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-17T13:51:53.000Z",
+      "publishedAt": "2026-10-19T11:34:22.000Z",
       "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Senior QA Engineer",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/jobs/senior-qa-engineer-29fa0a18-0eb0-4491-be4e-21ae200bfcf2",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-17T13:47:06.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "qa",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "QA Engineer - Contract",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/jobs/qa-engineer-contract",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-17T13:38:39.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "qa",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "QA Engineer",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/jobs/qa-engineer-5537d086-6b99-4bb7-8e76-36f76195dfde",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-17T13:37:49.000Z",
-      "tags": [],
-      "score": 71,
+      "score": 74,
       "priority": "HIGH",
       "reason": [
         "qa",
@@ -85,79 +91,95 @@
     },
     {
       "id": "infoq-aHR0cHM6Ly93",
-      "title": "Reverse Engineer Anything Project Brings AI Agents to Binary Analysis",
-      "summary": "Reverse Engineer Anything (REA) is an open-source project with over 200K GitHub stars that connects coding agents such as Claude Code and Codex to reverse-engineering tools like Ghidra, Hopper, and ID...",
-      "url": "https://www.infoq.com/news/2026/10/reverse-engineer-anything/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: From Microservices to Agents: The Next Evolution of Distributed Systems",
+      "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision deco...",
+      "url": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-17T06:28:00.000Z",
+      "publishedAt": "2026-10-19T11:00:00.000Z",
       "tags": [
-        "github",
-        "feature",
+        "update",
         "ai"
       ],
-      "score": 70,
+      "score": 74,
       "priority": "HIGH",
       "reason": [
-        "agent"
+        "agent",
+        "recent"
       ]
     },
     {
       "id": "infoq-aHR0cHM6Ly93",
-      "title": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL",
-      "summary": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhan...",
-      "url": "https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly?",
+      "summary": "Rachel Lee Nabors, former React core team member, dives into the architecture and philosophy behind local-first applications, exploring how small language models (SLMs) running directly on-device can ...",
+      "url": "https://www.infoq.com/podcasts/future-web-apps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-17T06:00:00.000Z",
+      "publishedAt": "2026-10-19T11:00:00.000Z",
       "tags": [
-        "database",
-        "sql",
-        "feature",
+        "react",
+        "ai",
+        "llm"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "An AI-generated test passed. Did it check the right thing?",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/an-ai-generated-test-passed-did-it-check-the-right-thing",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-19T10:40:15.000Z",
+      "tags": [
         "ai"
       ],
-      "score": 50,
+      "score": 54,
       "priority": "MEDIUM",
-      "reason": []
+      "reason": [
+        "recent"
+      ]
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "From the USA to Brighton — Connected by MoT! 💜",
+      "title": "The curious case of the self correcting bug",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/from-the-usa-to-brighton-connected-by-mot",
+      "url": "https://www.ministryoftesting.com/media-sessions/the-curious-case-of-the-self-correcting-bug",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-17T00:13:41.000Z",
-      "tags": [],
-      "score": 50,
+      "publishedAt": "2026-10-19T10:27:03.000Z",
+      "tags": [
+        "bug"
+      ],
+      "score": 54,
       "priority": "MEDIUM",
-      "reason": []
+      "reason": [
+        "recent"
+      ]
     },
     {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Meeting the awesome Rosie Sherry 💜",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/meeting-the-awesome-rosie-sherry",
-      "source": "Ministry of Testing",
+      "id": "infoq-aHR0cHM6Ly93",
+      "title": "EmbeddingGemma 2 Expands Beyond Text to Support Code, Images, Video, and Audio",
+      "summary": "Based on Gemma 4 and released under the Apache 2.0 license, Google's EmbeddingGemma 2 is a compact, open-weight, multimodal embedding model designed to make semantic search and retrieval-augmented gen...",
+      "url": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-16T23:56:14.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Met the Man who makes MOT special ",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/met-the-man-who-makes-mot-special",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-16T23:46:06.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
+      "publishedAt": "2026-10-19T10:00:00.000Z",
+      "tags": [
+        "performance",
+        "release"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "recent"
+      ]
     }
   ]
 }
