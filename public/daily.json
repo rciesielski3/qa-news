@@ -1,101 +1,36 @@
 {
-  "date": "2026-10-20",
-  "updatedAt": "2026-10-20T13:12:58.795Z",
+  "date": "2026-10-22",
+  "updatedAt": "2026-10-22T13:20:54.449Z",
   "articles": [
     {
-      "id": "infoq-aHR0cHM6Ly93",
-      "title": "Pinterest Uses Event Time Watermarks to Finalize Petabyte Scale Data Partitions",
-      "summary": "Pinterest has introduced event time-based partition finalization for its database ingestion framework. The mechanism uses Apache Flink to track event time and Apache Iceberg metadata to publish a non-...",
-      "url": "https://www.infoq.com/news/2026/10/pinterest-event-time-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-19T14:37:00.000Z",
-      "tags": [
-        "rest",
-        "database"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-aHR0cHM6Ly93",
-      "title": "JEP 543 Finalizes Structured Concurrency in JDK 28, Ending Seven Preview Rounds",
-      "summary": "JDK 28 finalizes structured concurrency through JEP 543, with no API changes from JDK 27. Teams on JDK 27 only need to drop --enable-preview and recompile. Code written for JDK 25 or 26 must adapt to ...",
-      "url": "https://www.infoq.com/news/2026/10/jep-543-jdk-28/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-19T14:30:00.000Z",
-      "tags": [
-        "api"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
       "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
-      "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
-      "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+      "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+      "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
+      "url": "https://blog.cloudflare.com/webmcp-commerce/",
       "source": "Cloudflare",
       "category": "test-automation",
-      "publishedAt": "2026-10-19T13:00:00.000Z",
+      "publishedAt": "2026-10-21T13:00:00.000Z",
       "tags": [
         "ai"
       ],
-      "score": 64,
-      "priority": "MEDIUM",
+      "score": 109,
+      "priority": "CRITICAL",
       "reason": [
+        "mcp",
+        "agent",
         "cloudflare",
         "recent"
       ]
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Customer parking only",
+      "title": "🎓 New course: Test GenAI agents by building one",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/customer-parking-only",
+      "url": "https://www.ministryoftesting.com/news/new-course-test-genai-agents-by-building-one",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-19T11:57:36.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "I was in the Pacific Northwest Software Quality Conference 2026 in Portland to present Lynqa",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/i-was-in-the-pacific-northwest-software-quality-conference-2026-in-portland-to-present-lynqa",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-19T11:34:22.000Z",
-      "tags": [],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "qa",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-aHR0cHM6Ly93",
-      "title": "Article: From Microservices to Agents: The Next Evolution of Distributed Systems",
-      "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision deco...",
-      "url": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-19T11:00:00.000Z",
+      "publishedAt": "2026-10-21T12:47:00.000Z",
       "tags": [
-        "update",
         "ai"
       ],
       "score": 74,
@@ -106,34 +41,107 @@
       ]
     },
     {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "OpenAI models are coming to Google Cloud",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "source": "OpenAI",
+      "category": "test-automation",
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 69,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai",
+        "recent"
+      ]
+    },
+    {
       "id": "infoq-aHR0cHM6Ly93",
-      "title": "Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly?",
-      "summary": "Rachel Lee Nabors, former React core team member, dives into the architecture and philosophy behind local-first applications, exploring how small language models (SLMs) running directly on-device can ...",
-      "url": "https://www.infoq.com/podcasts/future-web-apps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article Series: Agentic AI Architecture",
+      "summary": "In this article series, we try to establish agentic AI architecture as a new type of software architecture that will likely dominate the industry for years to come. The articles, written by industry e...",
+      "url": "https://www.infoq.com/articles/agentic-ai-architecture-article-series/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-19T11:00:00.000Z",
+      "publishedAt": "2026-10-21T11:30:00.000Z",
+      "tags": [
+        "api",
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "A reminder that we need to be careful with our test accounts",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/a-reminder-that-we-need-to-be-careful-with-our-test-accounts",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-21T11:29:39.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-aHR0cHM6Ly93",
+      "title": "Presentation: AI is an Amplifier: Scale High Performance, Not Dysfunction",
+      "summary": "Nathen Harvey shares insights from DORA research on AI adoption in software delivery. He explains why AI acts as an amplifier, how the DORA AI Capabilities Model drives outcomes, and why engineering l...",
+      "url": "https://www.infoq.com/presentations/dora-ai-adoption-engineering-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-21T11:00:00.000Z",
+      "tags": [
+        "performance",
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "martin-fowler-aHR0cHM6Ly9t",
+      "title": "Fragments: October 21",
+      "summary": "Gergely Orosz is frustrated at those that entered his explicitly “No AI” essay competition and used AI. He goes on to say: When I start to suspect some part is AI about someone I don’t know: how can I...",
+      "url": "https://martinfowler.com/fragments/2026-10-21.html",
+      "source": "Martin Fowler",
+      "category": "test-automation",
+      "publishedAt": "2026-10-21T10:51:00.000Z",
       "tags": [
         "react",
+        "api",
+        "release",
+        "bug",
         "ai",
         "llm"
       ],
-      "score": 74,
-      "priority": "HIGH",
+      "score": 54,
+      "priority": "MEDIUM",
       "reason": [
-        "agent",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "An AI-generated test passed. Did it check the right thing?",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/an-ai-generated-test-passed-did-it-check-the-right-thing",
-      "source": "Ministry of Testing",
+      "id": "infoq-aHR0cHM6Ly93",
+      "title": "Google SynthID Detector Simplifies Watermark Detection and Expands Support to Other AI Providers",
+      "summary": "Google DeepMind announced the global availability of SynthID Detector, a tool designed to help identify AI-generated content, including media created using AI tools from SynthID partners such as OpenA...",
+      "url": "https://www.infoq.com/news/2026/10/synthid-watermarking-detector/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-19T10:40:15.000Z",
+      "publishedAt": "2026-10-21T10:00:00.000Z",
       "tags": [
+        "security",
         "ai"
       ],
       "score": 54,
@@ -143,38 +151,40 @@
       ]
     },
     {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "The curious case of the self correcting bug",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/the-curious-case-of-the-self-correcting-bug",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-19T10:27:03.000Z",
-      "tags": [
-        "bug"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
       "id": "infoq-aHR0cHM6Ly93",
-      "title": "EmbeddingGemma 2 Expands Beyond Text to Support Code, Images, Video, and Audio",
-      "summary": "Based on Gemma 4 and released under the Apache 2.0 license, Google's EmbeddingGemma 2 is a compact, open-weight, multimodal embedding model designed to make semantic search and retrieval-augmented gen...",
-      "url": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Cilium 1.20 Expands Gateway API and Opens eBPF Datapath for Kubernetes",
+      "summary": "Cilium 1.20 has been released with broader Kubernetes Gateway API support, an extensible eBPF datapath and further work on sidecarless mutual TLS. The release also makes the newer netkit network devic...",
+      "url": "https://www.infoq.com/news/2026/10/cilium-120-kubernetes-networking/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-19T10:00:00.000Z",
+      "publishedAt": "2026-10-21T09:00:00.000Z",
       "tags": [
-        "performance",
+        "kubernetes",
+        "api",
         "release"
       ],
       "score": 74,
       "priority": "HIGH",
       "reason": [
         "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-aHR0cHM6Ly93",
+      "title": "Article: Distributed Spring Batch Without a Message Broker",
+      "summary": "Distributed Spring Batch partitioning already needs a shared, persistent job repository. This article makes that database the whole coordination plane and drops the message broker, sizing work to the ...",
+      "url": "https://www.infoq.com/articles/spring-batch-without-broker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-21T09:00:00.000Z",
+      "tags": [
+        "database",
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
         "recent"
       ]
     }
