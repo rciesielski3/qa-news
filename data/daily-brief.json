@@ -1,38 +1,36 @@
 {
-  "date": "2026-10-22",
-  "updatedAt": "2026-10-22T13:20:54.449Z",
+  "date": "2026-10-23",
+  "updatedAt": "2026-10-23T13:00:13.547Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news topics",
   "items": [
     {
       "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
-      "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
-      "url": "https://blog.cloudflare.com/webmcp-commerce/",
+      "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+      "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our g...",
+      "url": "https://blog.cloudflare.com/k-isms/",
       "source": "Cloudflare",
       "category": "test-automation",
-      "publishedAt": "2026-10-21T13:00:00.000Z",
+      "publishedAt": "2026-10-22T13:00:00.000Z",
       "tags": [
-        "ai"
+        "security"
       ],
-      "score": 109,
-      "priority": "CRITICAL",
+      "score": 64,
+      "priority": "MEDIUM",
       "reason": [
-        "mcp",
-        "agent",
         "cloudflare",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "🎓 New course: Test GenAI agents by building one",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/news/new-course-test-genai-agents-by-building-one",
-      "source": "Ministry of Testing",
+      "id": "infoq-aHR0cHM6Ly93",
+      "title": "Presentation: Actors for Agents: Patterns for Production AI",
+      "summary": "Manju Rajashekhar explains how the actor model solves the complex runtime challenges of production AI agents. By treating agents as distributed systems, he discusses state ownership, message passing, ...",
+      "url": "https://www.infoq.com/presentations/actors-for-production-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-21T12:47:00.000Z",
+      "publishedAt": "2026-10-22T11:00:00.000Z",
       "tags": [
         "ai"
       ],
@@ -44,50 +42,53 @@
       ]
     },
     {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "OpenAI models are coming to Google Cloud",
-      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "source": "OpenAI",
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "Agentic AI Test Execution in Jira and Xray: A New Approach to Manual Testing",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/agentic-ai-test-execution-in-jira-and-xray-a-new-approach-to-manual-testing",
+      "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "publishedAt": "2026-10-22T10:23:39.000Z",
       "tags": [
+        "testing",
         "ai"
       ],
-      "score": 69,
-      "priority": "MEDIUM",
+      "score": 99,
+      "priority": "CRITICAL",
       "reason": [
-        "openai",
+        "testing",
+        "agent",
         "recent"
       ]
     },
     {
       "id": "infoq-aHR0cHM6Ly93",
-      "title": "Article Series: Agentic AI Architecture",
-      "summary": "In this article series, we try to establish agentic AI architecture as a new type of software architecture that will likely dominate the industry for years to come. The articles, written by industry e...",
-      "url": "https://www.infoq.com/articles/agentic-ai-architecture-article-series/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Vercel Labs Open-Sources fx: A Zig Coding Agent Designed to Be Embedded",
+      "summary": "Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questi...",
+      "url": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-21T11:30:00.000Z",
+      "publishedAt": "2026-10-22T09:33:00.000Z",
       "tags": [
-        "api",
+        "release",
         "ai"
       ],
-      "score": 74,
-      "priority": "HIGH",
+      "score": 94,
+      "priority": "CRITICAL",
       "reason": [
         "agent",
+        "release",
         "recent"
       ]
     },
     {
       "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "A reminder that we need to be careful with our test accounts",
+      "title": "Imposter syndrome",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/a-reminder-that-we-need-to-be-careful-with-our-test-accounts",
+      "url": "https://www.ministryoftesting.com/software-testing-glossary/imposter-syndrome",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-21T11:29:39.000Z",
+      "publishedAt": "2026-10-22T09:06:30.000Z",
       "tags": [],
       "score": 54,
       "priority": "MEDIUM",
@@ -97,97 +98,94 @@
     },
     {
       "id": "infoq-aHR0cHM6Ly93",
-      "title": "Presentation: AI is an Amplifier: Scale High Performance, Not Dysfunction",
-      "summary": "Nathen Harvey shares insights from DORA research on AI adoption in software delivery. He explains why AI acts as an amplifier, how the DORA AI Capabilities Model drives outcomes, and why engineering l...",
-      "url": "https://www.infoq.com/presentations/dora-ai-adoption-engineering-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: AI Changes the Data Interface, Not the Query Engine",
+      "summary": "This article presents a disaster-recovery analytics workflow in which an AI agent generates constrained SQL or Python, DuckDB computes reproducible facts from Parquet, and the agent interprets the res...",
+      "url": "https://www.infoq.com/articles/ai-changes-data-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-21T11:00:00.000Z",
+      "publishedAt": "2026-10-22T09:00:00.000Z",
       "tags": [
-        "performance",
+        "python",
+        "sql",
         "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "martin-fowler-aHR0cHM6Ly9t",
-      "title": "Fragments: October 21",
-      "summary": "Gergely Orosz is frustrated at those that entered his explicitly “No AI” essay competition and used AI. He goes on to say: When I start to suspect some part is AI about someone I don’t know: how can I...",
-      "url": "https://martinfowler.com/fragments/2026-10-21.html",
-      "source": "Martin Fowler",
-      "category": "test-automation",
-      "publishedAt": "2026-10-21T10:51:00.000Z",
-      "tags": [
-        "react",
-        "api",
-        "release",
-        "bug",
-        "ai",
-        "llm"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-aHR0cHM6Ly93",
-      "title": "Google SynthID Detector Simplifies Watermark Detection and Expands Support to Other AI Providers",
-      "summary": "Google DeepMind announced the global availability of SynthID Detector, a tool designed to help identify AI-generated content, including media created using AI tools from SynthID partners such as OpenA...",
-      "url": "https://www.infoq.com/news/2026/10/synthid-watermarking-detector/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-21T10:00:00.000Z",
-      "tags": [
-        "security",
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-aHR0cHM6Ly93",
-      "title": "Cilium 1.20 Expands Gateway API and Opens eBPF Datapath for Kubernetes",
-      "summary": "Cilium 1.20 has been released with broader Kubernetes Gateway API support, an extensible eBPF datapath and further work on sidecarless mutual TLS. The release also makes the newer netkit network devic...",
-      "url": "https://www.infoq.com/news/2026/10/cilium-120-kubernetes-networking/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-21T09:00:00.000Z",
-      "tags": [
-        "kubernetes",
-        "api",
-        "release"
       ],
       "score": 74,
       "priority": "HIGH",
       "reason": [
-        "release",
+        "agent",
         "recent"
       ]
     },
     {
       "id": "infoq-aHR0cHM6Ly93",
-      "title": "Article: Distributed Spring Batch Without a Message Broker",
-      "summary": "Distributed Spring Batch partitioning already needs a shared, persistent job repository. This article makes that database the whole coordination plane and drops the message broker, sizing work to the ...",
-      "url": "https://www.infoq.com/articles/spring-batch-without-broker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Harbor Adds Docker Sandboxes to Run Reproducible AI Agent Evals in Isolated MicroVMs",
+      "summary": "Docker announced that Harbor, the open-source agent evaluation framework, now works with Docker Sandboxes. This change allows each evaluation task to run in its own microVM. So, instead of sharing a c...",
+      "url": "https://www.infoq.com/news/2026/10/ai-agents-harbor-docker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-21T09:00:00.000Z",
+      "publishedAt": "2026-10-22T09:00:00.000Z",
       "tags": [
-        "database",
+        "docker",
+        "performance",
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aHR0cHM6Ly93",
+      "title": "The Test Is Green Again. But What Did the AI Agent Change?",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/the-test-is-green-again-but-what-did-the-ai-agent-change",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-22T08:27:16.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-aHR0cHM6Ly93",
+      "title": "Developer Behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready",
+      "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker N...",
+      "url": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-22T07:41:00.000Z",
+      "tags": [
         "ai"
       ],
       "score": 54,
       "priority": "MEDIUM",
       "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "openai-aHR0cHM6Ly9v",
+      "title": "Broad access through consistent standards",
+      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "source": "OpenAI",
+      "category": "test-automation",
+      "publishedAt": "2026-10-21T21:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 67,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai",
         "recent"
       ]
     }
