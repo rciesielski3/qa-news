@@ -6,6 +6,323 @@
       "items": [
         {
           "id": "cloudflare-aHR0cHM6Ly9i",
+          "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+          "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our g...",
+          "url": "https://blog.cloudflare.com/k-isms/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T13:00:00.000Z",
+          "tags": [
+            "security"
+          ],
+          "score": 64,
+          "priority": "MEDIUM",
+          "reason": [
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "Presentation: Actors for Agents: Patterns for Production AI",
+          "summary": "Manju Rajashekhar explains how the actor model solves the complex runtime challenges of production AI agents. By treating agents as distributed systems, he discusses state ownership, message passing, ...",
+          "url": "https://www.infoq.com/presentations/actors-for-production-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T11:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Agentic AI Test Execution in Jira and Xray: A New Approach to Manual Testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/agentic-ai-test-execution-in-jira-and-xray-a-new-approach-to-manual-testing",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T10:23:39.000Z",
+          "tags": [
+            "testing",
+            "ai"
+          ],
+          "score": 99,
+          "priority": "CRITICAL",
+          "reason": [
+            "testing",
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "Vercel Labs Open-Sources fx: A Zig Coding Agent Designed to Be Embedded",
+          "summary": "Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questi...",
+          "url": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T09:33:00.000Z",
+          "tags": [
+            "release",
+            "ai"
+          ],
+          "score": 94,
+          "priority": "CRITICAL",
+          "reason": [
+            "agent",
+            "release",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Imposter syndrome",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/imposter-syndrome",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T09:06:30.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "Article: AI Changes the Data Interface, Not the Query Engine",
+          "summary": "This article presents a disaster-recovery analytics workflow in which an AI agent generates constrained SQL or Python, DuckDB computes reproducible facts from Parquet, and the agent interprets the res...",
+          "url": "https://www.infoq.com/articles/ai-changes-data-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T09:00:00.000Z",
+          "tags": [
+            "python",
+            "sql",
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "Harbor Adds Docker Sandboxes to Run Reproducible AI Agent Evals in Isolated MicroVMs",
+          "summary": "Docker announced that Harbor, the open-source agent evaluation framework, now works with Docker Sandboxes. This change allows each evaluation task to run in its own microVM. So, instead of sharing a c...",
+          "url": "https://www.infoq.com/news/2026/10/ai-agents-harbor-docker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T09:00:00.000Z",
+          "tags": [
+            "docker",
+            "performance",
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "The Test Is Green Again. But What Did the AI Agent Change?",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/the-test-is-green-again-but-what-did-the-ai-agent-change",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T08:27:16.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "Developer Behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready",
+          "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker N...",
+          "url": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T07:41:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Broad access through consistent standards",
+          "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+          "url": "https://openai.com/index/broad-access-through-consistent-standards",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T21:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 67,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Time Series Database (TSDB)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/time-series-database-tsdb",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T18:42:32.000Z",
+          "tags": [
+            "database"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "First Input Delay (FID)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/first-input-delay-fid",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T18:38:17.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Core Web Vitals",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/core-web-vitals",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T18:35:15.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Interaction to Next Paint (INP)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/interaction-to-next-paint-inp",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T18:28:20.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "title": "Largest Contentful Paint (LCP)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/largest-contentful-paint-lcp",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T18:24:44.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "eMudhra Intermediate CA Compromise",
+          "summary": "Private keys for eight eMudhra intermediate CA certificates have been compromised, allowing attackers to forge certificates for any site. The keys were revealed due to low entropy, not through a known...",
+          "url": "https://www.infoq.com/news/2026/10/emudhra-ca-compromise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T17:30:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "How AT&T is rethinking in-house legal work with OpenAI",
+          "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+          "url": "https://openai.com/index/att-legal",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T17:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 66,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-aHR0cHM6Ly93",
+          "title": "Netflix Bridges AWS IAM and Internal Identity with Workload Attestation",
+          "summary": "Netflix has developed a workload attestation mechanism for Apache Spark jobs running on Amazon EMR. The design combines AWS IAM identity with signed claims from Netflix’s control plane before issuing ...",
+          "url": "https://www.infoq.com/news/2026/10/netflix-workload-attestation-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T13:45:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-aHR0cHM6Ly9i",
           "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
           "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
           "url": "https://blog.cloudflare.com/webmcp-commerce/",
@@ -15,13 +332,27 @@
           "tags": [
             "ai"
           ],
-          "score": 109,
+          "score": 105,
           "priority": "CRITICAL",
           "reason": [
             "mcp",
             "agent",
-            "cloudflare",
-            "recent"
+            "cloudflare"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+          "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T13:00:00.000Z",
+          "tags": [],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
           ]
         },
         {
@@ -35,11 +366,10 @@
           "tags": [
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -53,11 +383,10 @@
           "tags": [
             "ai"
           ],
-          "score": 69,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -72,11 +401,10 @@
             "api",
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -88,11 +416,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-21T11:29:39.000Z",
           "tags": [],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-aHR0cHM6Ly93",
@@ -106,11 +432,9 @@
             "performance",
             "ai"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "martin-fowler-aHR0cHM6Ly9t",
@@ -128,11 +452,9 @@
             "ai",
             "llm"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-aHR0cHM6Ly93",
@@ -146,11 +468,9 @@
             "security",
             "ai"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-aHR0cHM6Ly93",
@@ -165,11 +485,10 @@
             "api",
             "release"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "release",
-            "recent"
+            "release"
           ]
         },
         {
@@ -184,11 +503,9 @@
             "database",
             "ai"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -201,11 +518,10 @@
           "tags": [
             "testing"
           ],
-          "score": 79,
+          "score": 75,
           "priority": "HIGH",
           "reason": [
-            "testing",
-            "recent"
+            "testing"
           ]
         },
         {
@@ -221,11 +537,102 @@
             "update",
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "release",
-            "recent"
+            "release"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+          "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T07:00:00.000Z",
+          "tags": [
+            "security",
+            "ai"
+          ],
+          "score": 125,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "agent",
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+          "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+          "url": "https://openai.com/index/building-chatgpt-ad-stack",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T07:00:00.000Z",
+          "tags": [
+            "ai",
+            "llm"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Using thousands of AI agents to uncover new leads in biological data",
+          "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T04:50:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 85,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+          "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+          "url": "https://openai.com/index/empowering-cyber-defenders",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T00:00:00.000Z",
+          "tags": [
+            "security",
+            "ai"
+          ],
+          "score": 105,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-aHR0cHM6Ly9v",
+          "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+          "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+          "url": "https://openai.com/index/cloudflare-cyber",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-21T00:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
           ]
         },
         {
@@ -240,11 +647,10 @@
             "update",
             "ai"
           ],
-          "score": 62,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -256,11 +662,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-20T20:01:19.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -271,11 +675,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-20T16:33:58.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -286,11 +688,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-20T15:21:54.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -301,11 +701,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-20T14:48:31.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -316,11 +714,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-20T14:46:37.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-aHR0cHM6Ly93",
@@ -4253,39 +4649,6 @@
           "category": "test-automation",
           "publishedAt": "2026-09-22T18:00:00.000Z",
           "tags": [],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-          "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-22T12:00:00.000Z",
-          "tags": [],
-          "score": 85,
-          "priority": "HIGH",
-          "reason": [
-            "agent",
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Priorities and principles for effective third party assessments",
-          "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-          "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-22T00:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
           "score": 65,
           "priority": "MEDIUM",
           "reason": [
