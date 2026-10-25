@@ -5,7 +5,578 @@
       "summary": "",
       "items": [
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "infoq-30355e3f6d846bca",
+          "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
+          "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail...",
+          "url": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-24T08:34:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 99,
+          "priority": "CRITICAL",
+          "reason": [
+            "mcp",
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-213a4f7230ff9fac",
+          "title": "Forward Deployed QA",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/forward-deployed-qa",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T23:06:16.000Z",
+          "tags": [],
+          "score": 72,
+          "priority": "HIGH",
+          "reason": [
+            "qa",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-fed3302ab535c8a3",
+          "title": "Forward Deployed Engineers",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/forward-deployed-engineers",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T23:02:01.000Z",
+          "tags": [],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-60f970e1df3b48e3",
+          "title": "Origin Range Requests: Serving large files without range-request tuning",
+          "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in ...",
+          "url": "https://blog.cloudflare.com/origin-range-requests/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T18:22:59.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 62,
+          "priority": "MEDIUM",
+          "reason": [
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-70bdd870b2ac82df",
+          "title": "Bringing post-quantum cryptography to geographically fenced key management",
+          "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict da...",
+          "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T18:06:56.000Z",
+          "tags": [],
+          "score": 61,
+          "priority": "MEDIUM",
+          "reason": [
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-3196bacd61b4a634",
+          "title": "One quality LEGO piece",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/one-quality-lego-piece",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T17:55:16.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-ee4c22366ef7e7ab",
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+          "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T17:00:00.000Z",
+          "tags": [
+            "api",
+            "ai"
+          ],
+          "score": 66,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-c218cf29fe464456",
+          "title": "PHP Dramas, DOG Dexter and BIG Buttons",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/php-dramas-dog-dexter-and-big-buttons",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T15:30:11.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-338b2f425efcf938",
+          "title": "Do you practice CUWI (Community Unscripted With Intention)?",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/do-you-practice-cuwi-community-unscripted-with-intention",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T15:03:06.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-7c8bc9ea01eaa4b2",
+          "title": "CSIRO Uses Serverless Architecture to Query 100x More Genomic Variants on AWS",
+          "summary": "CSIRO has developed Serverless Beacon, a serverless architecture for querying genomic variants without copying VCF files into a central database. The system combines Amazon S3, Lambda, Athena and Dyna...",
+          "url": "https://www.infoq.com/news/2026/10/csiro-serverless-genomic-variant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T14:30:00.000Z",
+          "tags": [
+            "database",
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-3f5493f5e348ab92",
+          "title": "Glue work is team work",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/glue-work-is-team-work",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T13:11:22.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-44a2231cffedfc2a",
+          "title": "Take a moment, in the moment, to post a moment! ",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/take-a-moment-in-the-moment-to-post-a-moment",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T13:02:52.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-794f902b681eaf3c",
+          "title": "AWS Introduces Lambda Web Functions for Node.js Applications",
+          "summary": "AWS recently introduced Lambda Web Functions, allowing developers to run Node.js web applications using frameworks such as Express and Hono directly on Lambda, with support for concurrent requests and...",
+          "url": "https://www.infoq.com/news/2026/10/aws-lambda-web-functions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T12:49:00.000Z",
+          "tags": [
+            "node.js"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-92fdf98964b131f6",
+          "title": "Decter live on TWIQ",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/decter-live-on-twiq",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T12:45:17.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-a039d32840ab5692",
+          "title": "Dexter live on TWIQ",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/dexter-live-on-twiq",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T12:45:17.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-1a4b13f53e0e3d70",
+          "title": "Introducing TWIQ hosts with AI",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/introducing-twiq-hosts-with-ai",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T12:24:22.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-29a88783993b38fd",
+          "title": "Test Manager ",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/test-manager-0ccf21c7-e9f5-4075-ab94-4d05226aa8cc",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T11:49:08.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-e945b7e137ccdd98",
+          "title": "The Bug Is Fixed. So Why Might the Release Still Be at Risk?",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/the-bug-is-fixed-so-why-might-the-release-still-be-at-risk",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T11:06:34.000Z",
+          "tags": [
+            "release",
+            "bug"
+          ],
+          "score": 70,
+          "priority": "HIGH",
+          "reason": [
+            "release"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-64d224b215e43325",
+          "title": "Dog sitting Dexter ",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/dog-sitting-dexter",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T11:02:32.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-cfeb33135bd262e6",
+          "title": "Article: Multi-Cloud FinOps: An Engineering Framework for Cross-Cloud Cost Optimization",
+          "summary": "Multi-cloud flexibility comes with hidden egress costs driven by service placement and communication patterns. This article applies Backend FinOps to cross-cloud architecture, covering cost visibility...",
+          "url": "https://www.infoq.com/articles/multi-cloud-finops-cost-optimization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T11:00:00.000Z",
+          "tags": [
+            "ci/cd"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-29b6f802ae698101",
+          "title": "Presentation: Move Fast, Don’t Break Trust: Shipping Constantly with Humans and Beyond",
+          "summary": "Suhail Patel discusses how Monzo structures its software engineering organization and technical stack to ship safely hundreds of times a day. He shares insights into opinionated microservice abstracti...",
+          "url": "https://www.infoq.com/presentations/monzo-microservices-devex/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T11:00:00.000Z",
+          "tags": [
+            "api",
+            "ai",
+            "llm"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "openai-f8c156dba7886826",
+          "title": "Securing our frontier model training environment",
+          "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T10:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-1358d37bfb4a2306",
+          "title": "Swag at TestBash 2015",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/swag-at-testbash-2015",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T09:20:03.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-b5d9d462dc181e99",
+          "title": "Throwback to 2015 TestBash!",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/throwback-to-2015-testbash",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T09:18:30.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-ee16c827da185972",
+          "title": "Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects",
+          "summary": "AI company Anthropic has launched OSS Scanner, a free, opt-in service to find vulnerabilities in open-source projects. Enrolled maintainers receive periodic security reports generated by the company's...",
+          "url": "https://www.infoq.com/news/2026/10/anthropic-oss-security-scanner/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T09:00:00.000Z",
+          "tags": [
+            "security",
+            "ai"
+          ],
+          "score": 90,
+          "priority": "CRITICAL",
+          "reason": [
+            "security"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-b0b6c9b74e74bc97",
+          "title": "The Rise of Agentic Testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/the-rise-of-agentic-testing",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T08:22:40.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 95,
+          "priority": "CRITICAL",
+          "reason": [
+            "testing",
+            "agent"
+          ]
+        },
+        {
+          "id": "infoq-eef8888b509c20ef",
+          "title": "NgRx 22: Resource Extensions and Dynamic Deep Signals for Angular",
+          "summary": "NgRx 22 adds experimental resource extensions that change Angular's resource behavior, so value() is retained during reloads and no longer throws on errors. It also introduces dynamic deep signals for...",
+          "url": "https://www.infoq.com/news/2026/10/ngrx-22-angular/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T08:08:00.000Z",
+          "tags": [
+            "typescript",
+            "feature",
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-beb48cc8bf3764b3",
+          "title": "Shifting code review \"left, manual of me, clickjacking vulnerabilities, and more!",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/newsletter/shifting-code-review-left-manual-of-me-clickjacking-vulnerabilities-and-more",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T08:04:00.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "openai-1a543055a02f9816",
+          "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+          "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-23T00:00:00.000Z",
+          "tags": [
+            "security",
+            "ai"
+          ],
+          "score": 105,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-891b7e0bbf66f86d",
+          "title": "Build more responsive apps with the Decisions API",
+          "summary": "Fast, focused, low-cost decisions for any application.",
+          "url": "https://openai.com/index/decisions-api",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T19:00:00.000Z",
+          "tags": [
+            "api"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-60021cc3bb1c429d",
+          "title": "Andy Claremont in Brighton",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/andy-claremont-in-brighton",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T18:22:58.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-a8ee482790ecf133",
+          "title": "TWiC live in London, with Andy Claremont",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/twic-live-in-london-with-andy-claremont",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T18:18:25.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-f5c7e6e4a63e538d",
+          "title": "AI Risk List: Socioeconomic & Environmental Impacts (6)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/insights/ai-risk-list-socioeconomic-environmental-impacts-6",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T17:04:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-c0dff3b5d248f403",
+          "title": "Pull Up a Chair with Team ACCELQ: Oracle Testers Talking Shop at Booth #4033",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/pull-up-a-chair-with-team-accelq-oracle-testers-talking-shop-at-booth-4033",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T16:55:04.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-2167e110aa9d455c",
+          "title": "Study Finds AI-generated Code Fails to Boost Productivity Due to Downstream Bottlenecks",
+          "summary": "A recent Harvard study of 718 firms, using the Jellyfish analytics platform, finds that although AI coding assistants and agents increase code volume, this does not translate into a corresponding incr...",
+          "url": "https://www.infoq.com/news/2026/10/jellyfish-ai-productivity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T14:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 70,
+          "priority": "HIGH",
+          "reason": [
+            "agent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-c90651b4e083e985",
+          "title": "TWiC in person: Pivots, pain sponges and purposeful pauses",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/twic-in-person-pivots-pain-sponges-and-purposeful-pauses",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T13:38:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-405699f87f1c0744",
           "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
           "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our g...",
           "url": "https://blog.cloudflare.com/k-isms/",
@@ -15,15 +586,14 @@
           "tags": [
             "security"
           ],
-          "score": 64,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-fabab6563c382eaa",
           "title": "Presentation: Actors for Agents: Patterns for Production AI",
           "summary": "Manju Rajashekhar explains how the actor model solves the complex runtime challenges of production AI agents. By treating agents as distributed systems, he discusses state ownership, message passing, ...",
           "url": "https://www.infoq.com/presentations/actors-for-production-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -33,15 +603,14 @@
           "tags": [
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-983b54ed01ba2d5a",
           "title": "Agentic AI Test Execution in Jira and Xray: A New Approach to Manual Testing",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/agentic-ai-test-execution-in-jira-and-xray-a-new-approach-to-manual-testing",
@@ -52,16 +621,15 @@
             "testing",
             "ai"
           ],
-          "score": 99,
+          "score": 95,
           "priority": "CRITICAL",
           "reason": [
             "testing",
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-511fa85cb889e1f3",
           "title": "Vercel Labs Open-Sources fx: A Zig Coding Agent Designed to Be Embedded",
           "summary": "Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questi...",
           "url": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -72,16 +640,34 @@
             "release",
             "ai"
           ],
-          "score": 94,
+          "score": 90,
           "priority": "CRITICAL",
           "reason": [
             "agent",
-            "release",
-            "recent"
+            "release"
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "infoq-511fa85cb889e1f3",
+          "title": "Vercel Labs Open-Sources fx: a Zig Coding Agent Designed to Be Embedded",
+          "summary": "Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questi...",
+          "url": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T09:33:00.000Z",
+          "tags": [
+            "release",
+            "ai"
+          ],
+          "score": 90,
+          "priority": "CRITICAL",
+          "reason": [
+            "agent",
+            "release"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-43283602149ed8d2",
           "title": "Imposter syndrome",
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/imposter-syndrome",
@@ -89,14 +675,12 @@
           "category": "test-automation",
           "publishedAt": "2026-10-22T09:06:30.000Z",
           "tags": [],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-136c7dbf8d8725f6",
           "title": "Article: AI Changes the Data Interface, Not the Query Engine",
           "summary": "This article presents a disaster-recovery analytics workflow in which an AI agent generates constrained SQL or Python, DuckDB computes reproducible facts from Parquet, and the agent interprets the res...",
           "url": "https://www.infoq.com/articles/ai-changes-data-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -108,15 +692,14 @@
             "sql",
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-b571ce654b9a808a",
           "title": "Harbor Adds Docker Sandboxes to Run Reproducible AI Agent Evals in Isolated MicroVMs",
           "summary": "Docker announced that Harbor, the open-source agent evaluation framework, now works with Docker Sandboxes. This change allows each evaluation task to run in its own microVM. So, instead of sharing a c...",
           "url": "https://www.infoq.com/news/2026/10/ai-agents-harbor-docker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -128,15 +711,14 @@
             "performance",
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-e173c3f16ed51bba",
           "title": "The Test Is Green Again. But What Did the AI Agent Change?",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/the-test-is-green-again-but-what-did-the-ai-agent-change",
@@ -146,15 +728,14 @@
           "tags": [
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-c72a96972d6a8b46",
           "title": "Developer Behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready",
           "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker N...",
           "url": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -164,14 +745,61 @@
           "tags": [
             "ai"
           ],
-          "score": 54,
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-c72a96972d6a8b46",
+          "title": "Developer behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready\"",
+          "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker N...",
+          "url": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T07:41:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "openai-6400feb681472530",
+          "title": "What FDE means at OpenAI",
+          "summary": "What forward deployed engineering means at OpenAI",
+          "url": "https://openai.com/index/forward-deployed-engineering-means",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T06:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "recent"
+            "openai"
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-eda525050cea8fce",
+          "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+          "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+          "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-3f1a11956436b167",
           "title": "Broad access through consistent standards",
           "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
           "url": "https://openai.com/index/broad-access-through-consistent-standards",
@@ -181,15 +809,14 @@
           "tags": [
             "ai"
           ],
-          "score": 67,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-ec408f85d4c51fea",
           "title": "Time Series Database (TSDB)",
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/time-series-database-tsdb",
@@ -199,14 +826,12 @@
           "tags": [
             "database"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-df72f6a559b8030f",
           "title": "First Input Delay (FID)",
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/first-input-delay-fid",
@@ -214,14 +839,12 @@
           "category": "test-automation",
           "publishedAt": "2026-10-21T18:38:17.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-fe7f4956a86d7875",
           "title": "Core Web Vitals",
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/core-web-vitals",
@@ -229,14 +852,12 @@
           "category": "test-automation",
           "publishedAt": "2026-10-21T18:35:15.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-229a461d122a1754",
           "title": "Interaction to Next Paint (INP)",
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/interaction-to-next-paint-inp",
@@ -253,7 +874,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-e438dbca1a557968",
           "title": "Largest Contentful Paint (LCP)",
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/largest-contentful-paint-lcp",
@@ -270,7 +891,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-09544c3eb4dd261d",
           "title": "eMudhra Intermediate CA Compromise",
           "summary": "Private keys for eight eMudhra intermediate CA certificates have been compromised, allowing attackers to forge certificates for any site. The keys were revealed due to low entropy, not through a known...",
           "url": "https://www.infoq.com/news/2026/10/emudhra-ca-compromise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -280,14 +901,12 @@
           "tags": [
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-39cad894cdd240fb",
           "title": "How AT&T is rethinking in-house legal work with OpenAI",
           "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
           "url": "https://openai.com/index/att-legal",
@@ -297,15 +916,14 @@
           "tags": [
             "ai"
           ],
-          "score": 66,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-40d5c1ddf6a063c6",
           "title": "Netflix Bridges AWS IAM and Internal Identity with Workload Attestation",
           "summary": "Netflix has developed a workload attestation mechanism for Apache Spark jobs running on Amazon EMR. The design combines AWS IAM identity with signed claims from Netflix’s control plane before issuing ...",
           "url": "https://www.infoq.com/news/2026/10/netflix-workload-attestation-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -315,14 +933,12 @@
           "tags": [
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-1c5f83daf4c5b5dc",
           "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
           "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
           "url": "https://blog.cloudflare.com/webmcp-commerce/",
@@ -341,7 +957,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-b1215e1aefc04c61",
           "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
           "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
           "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
@@ -356,7 +972,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-fa292da14ad23071",
           "title": "🎓 New course: Test GenAI agents by building one",
           "summary": "",
           "url": "https://www.ministryoftesting.com/news/new-course-test-genai-agents-by-building-one",
@@ -373,7 +989,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-95dedf578de78f3e",
           "title": "OpenAI models are coming to Google Cloud",
           "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
           "url": "https://openai.com/index/openai-models-google-cloud",
@@ -390,7 +1006,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-257dfea8d4ad0c88",
           "title": "Article Series: Agentic AI Architecture",
           "summary": "In this article series, we try to establish agentic AI architecture as a new type of software architecture that will likely dominate the industry for years to come. The articles, written by industry e...",
           "url": "https://www.infoq.com/articles/agentic-ai-architecture-article-series/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -408,7 +1024,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-6e9ff6052a86e6d4",
           "title": "A reminder that we need to be careful with our test accounts",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/a-reminder-that-we-need-to-be-careful-with-our-test-accounts",
@@ -421,7 +1037,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-94d0198aa69f00cf",
           "title": "Presentation: AI is an Amplifier: Scale High Performance, Not Dysfunction",
           "summary": "Nathen Harvey shares insights from DORA research on AI adoption in software delivery. He explains why AI acts as an amplifier, how the DORA AI Capabilities Model drives outcomes, and why engineering l...",
           "url": "https://www.infoq.com/presentations/dora-ai-adoption-engineering-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -437,7 +1053,7 @@
           "reason": []
         },
         {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "id": "martin-fowler-ebf3022769d5aa33",
           "title": "Fragments: October 21",
           "summary": "Gergely Orosz is frustrated at those that entered his explicitly “No AI” essay competition and used AI. He goes on to say: When I start to suspect some part is AI about someone I don’t know: how can I...",
           "url": "https://martinfowler.com/fragments/2026-10-21.html",
@@ -457,7 +1073,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-d34fa0a1bd302135",
           "title": "Google SynthID Detector Simplifies Watermark Detection and Expands Support to Other AI Providers",
           "summary": "Google DeepMind announced the global availability of SynthID Detector, a tool designed to help identify AI-generated content, including media created using AI tools from SynthID partners such as OpenA...",
           "url": "https://www.infoq.com/news/2026/10/synthid-watermarking-detector/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -473,7 +1089,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-dd2e9d3efbf8438b",
           "title": "Cilium 1.20 Expands Gateway API and Opens eBPF Datapath for Kubernetes",
           "summary": "Cilium 1.20 has been released with broader Kubernetes Gateway API support, an extensible eBPF datapath and further work on sidecarless mutual TLS. The release also makes the newer netkit network devic...",
           "url": "https://www.infoq.com/news/2026/10/cilium-120-kubernetes-networking/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -492,7 +1108,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-9cd01429874287ce",
           "title": "Article: Distributed Spring Batch Without a Message Broker",
           "summary": "Distributed Spring Batch partitioning already needs a shared, persistent job repository. This article makes that database the whole coordination plane and drops the message broker, sizing work to the ...",
           "url": "https://www.infoq.com/articles/spring-batch-without-broker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -508,7 +1124,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-3c78cab03e4d56e5",
           "title": "Bring Your Hardest Oracle Testing Problem to ACCELQ, Booth #4033",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/bring-your-hardest-oracle-testing-problem-to-accelq-booth-4033",
@@ -525,7 +1141,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-53ce6b7099b5b44a",
           "title": "Microsoft Previews dotnetup: Toolchain Manager for .NET SDKs and Runtimes",
           "summary": "Microsoft has released a public preview of dotnetup, a cross-platform toolchain manager that installs and updates .NET SDKs and runtimes in the user’s own directory without admin rights. It tracks cha...",
           "url": "https://www.infoq.com/news/2026/10/dotnetup-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -544,7 +1160,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-de9db6f384cbc788",
           "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
           "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
           "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
@@ -564,7 +1180,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-ea92da5c121ecb45",
           "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
           "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
           "url": "https://openai.com/index/building-chatgpt-ad-stack",
@@ -582,7 +1198,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-64ddfb139fec8a1c",
           "title": "Using thousands of AI agents to uncover new leads in biological data",
           "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
           "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
@@ -600,7 +1216,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-e270f5ba4688033d",
           "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
           "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
           "url": "https://openai.com/index/empowering-cyber-defenders",
@@ -619,7 +1235,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-3fe372fb2e8166f0",
           "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
           "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
           "url": "https://openai.com/index/cloudflare-cyber",
@@ -636,7 +1252,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-c78cf468160e1a45",
           "title": "8 eMudhra certificates are compromised. Here's what you need to know",
           "summary": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what cust...",
           "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
@@ -654,7 +1270,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-dfeab9da85060c77",
           "title": "Spelling mistakes in the wild!",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/spelling-mistakes-in-the-wild",
@@ -667,7 +1283,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-f905ce061309384c",
           "title": "Engineering Manager",
           "summary": "",
           "url": "https://www.ministryoftesting.com/jobs/engineering-manager-01f0b278-e27b-45cf-a7dc-503064271830",
@@ -680,7 +1296,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-5449d73fc3c0bf80",
           "title": "Empathy, care and joy in building",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/empathy-care-and-joy-in-building",
@@ -693,7 +1309,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-f0eb4f3b40c6cf32",
           "title": "Bleeding job titles: Our roles are becoming more specialised, not generalised",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/bleeding-job-titles-our-roles-are-becoming-more-specialised-not-generalised",
@@ -706,7 +1322,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-74169946981c6ce8",
           "title": "Not so silently judging your untested merge requests",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/not-so-silently-judging-your-untested-merge-requests",
@@ -719,7 +1335,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-4f2d2536c60c90eb",
           "title": "RiskStorming decks: from swag to experiment",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/riskstorming-decks-from-swag-to-experiment",
@@ -732,7 +1348,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-a241e5f431fe8aa3",
           "title": "GitHub Actions Runner Controller 0.15.0 Targets Reliability at Scale",
           "summary": "GitHub has released Actions Runner Controller (ARC) 0.15.0, introducing reliability, scalability, and observability improvements for organisations running self-hosted GitHub Actions runners on Kuberne...",
           "url": "https://www.infoq.com/news/2026/10/github-runner-controller-0-15/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -752,7 +1368,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-93af49ad1191d611",
           "title": "Presentation: Beyond the Prototype: Scaling Framework Agnostic AI Agent Infrastructure with Ray",
           "summary": "The speakers discuss transitioning AI agents from local FastAPI prototypes to resilient production systems on Kubernetes using Ray. They share operational insights on RayCluster topology, stateful mem...",
           "url": "https://www.infoq.com/presentations/scale-llm-agents-production-ray/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -772,7 +1388,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-a1110c3317b6f340",
           "title": "Hello I'm Eddie Stokes",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/hello-i-m-eddie-stokes",
@@ -785,7 +1401,7 @@
           "reason": []
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-1725d137aa3debc0",
           "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
           "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
           "url": "https://openai.com/index/ted-taylor-restaurant",
@@ -800,7 +1416,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-c63c005150c061a8",
           "title": "99 Seconds at MoTaCon 2026",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/99-seconds-at-motacon-2026",
@@ -813,7 +1429,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-112b37b661ef0afb",
           "title": "TestMuAI 🧸 Swag 🖖",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/testmuai-swag",
@@ -828,7 +1444,7 @@
           "reason": []
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-aa8847d44cbae332",
           "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
           "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
           "url": "https://openai.com/index/terminal-x",
@@ -846,7 +1462,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-1cfb6291fa158d05",
           "title": "OpenAI acquires Orchestra Bio",
           "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
           "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
@@ -863,7 +1479,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-6f2a5070d78725eb",
           "title": "Talent debt",
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/talent-debt",
@@ -876,7 +1492,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-2baed2aa7e47fd1e",
           "title": "Java News Roundup: JEPs for JDK 28, Azul Payara, Gatherers4j, Google ADK, Yupiik, Apache Camel CVEs",
           "summary": "This week's Java roundup for October 12th, 2026, features news highlighting: three OpenJDK JEPs targeted for JDK 28; the October 2026 edition of Azul Payara; point releases of Gatherers4j, Yupiik Fusi...",
           "url": "https://www.infoq.com/news/2026/10/java-news-roundup-oct12-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -894,7 +1510,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-68e2ee5d21f7dc1b",
           "title": "Cutting our inference bill by 68% by being obsessive about optimization",
           "summary": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while s...",
           "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
@@ -911,7 +1527,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-40634a33b7feb1d3",
           "title": "Introducing Clairic, a new System One class of extraction models",
           "summary": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
           "url": "https://blog.cloudflare.com/clairic-extraction-model/",
@@ -928,7 +1544,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-3c10e6db156c14b9",
           "title": "Pinterest Uses Event Time Watermarks to Finalize Petabyte Scale Data Partitions",
           "summary": "Pinterest has introduced event time-based partition finalization for its database ingestion framework. The mechanism uses Apache Flink to track event time and Apache Iceberg metadata to publish a non-...",
           "url": "https://www.infoq.com/news/2026/10/pinterest-event-time-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -944,7 +1560,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-7036fc53eb31bc7c",
           "title": "JEP 543 Finalizes Structured Concurrency in JDK 28, Ending Seven Preview Rounds",
           "summary": "JDK 28 finalizes structured concurrency through JEP 543, with no API changes from JDK 27. Teams on JDK 27 only need to drop --enable-preview and recompile. Code written for JDK 25 or 26 must adapt to ...",
           "url": "https://www.infoq.com/news/2026/10/jep-543-jdk-28/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -959,7 +1575,7 @@
           "reason": []
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-72477d086944244f",
           "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
           "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
           "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
@@ -976,7 +1592,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-1dbe22633003a2af",
           "title": "Advancing coding in low‑resource programming languages",
           "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
           "url": "https://openai.com/index/low-resource-programming-languages",
@@ -995,7 +1611,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-a10ad55a4731d376",
           "title": "Customer parking only",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/customer-parking-only",
@@ -1008,7 +1624,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-e52c8d23b6f060d8",
           "title": "I was in the Pacific Northwest Software Quality Conference 2026 in Portland to present Lynqa",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/i-was-in-the-pacific-northwest-software-quality-conference-2026-in-portland-to-present-lynqa",
@@ -1023,7 +1639,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-c2ffa452ea7f15bc",
           "title": "Article: From Microservices to Agents: The Next Evolution of Distributed Systems",
           "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision deco...",
           "url": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1042,7 +1658,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-ed70e17cee53985a",
           "title": "Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly?",
           "summary": "Rachel Lee Nabors, former React core team member, dives into the architecture and philosophy behind local-first applications, exploring how small language models (SLMs) running directly on-device can ...",
           "url": "https://www.infoq.com/podcasts/future-web-apps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1061,7 +1677,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-c2ffa452ea7f15bc",
           "title": "Article: From Microservices to Agents: the Next Evolution of Distributed Systems",
           "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision deco...",
           "url": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1079,7 +1695,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-ebdfa5a13f85a31c",
           "title": "An AI-generated test passed. Did it check the right thing?",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/an-ai-generated-test-passed-did-it-check-the-right-thing",
@@ -1094,7 +1710,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-f9208d0b1b718231",
           "title": "The curious case of the self correcting bug",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/the-curious-case-of-the-self-correcting-bug",
@@ -1109,7 +1725,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-1c85f41573c24e4c",
           "title": "EmbeddingGemma 2 Expands Beyond Text to Support Code, Images, Video, and Audio",
           "summary": "Based on Gemma 4 and released under the Apache 2.0 license, Google's EmbeddingGemma 2 is a compact, open-weight, multimodal embedding model designed to make semantic search and retrieval-augmented gen...",
           "url": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1128,7 +1744,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-1c85f41573c24e4c",
           "title": "EmbeddingGemma 2 Expands beyond Text to Support Code, Images, Video, and Audio",
           "summary": "Based on Gemma 4 and released under the Apache 2.0 license, Google's EmbeddingGemma 2 is a compact, open-weight, multimodal embedding model designed to make semantic search and retrieval-augmented gen...",
           "url": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1146,7 +1762,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-f118c3f44c661381",
           "title": "Buildkite Adds Scoped Secrets and New Agentic CI Tools",
           "summary": "Continuous integration provider Buildkite has introduced pipeline-scoped secrets and new Model Context Protocol tools for validating pipelines, diagnosing failed builds and repairing webhooks. The com...",
           "url": "https://www.infoq.com/news/2026/10/buildkite-ci-secrets-agentic/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1164,7 +1780,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-c7e50a309f082271",
           "title": ".NET 11 Release Candidate 2: Go-Live License and Updates Across Libraries, F#, MAUI, and WinForms",
           "summary": "Microsoft has released .NET 11 Release Candidate 2 under a go-live license, supported in Visual Studio 2026 Insiders. The release adds incremental CBOR reading, experimental post-quantum cryptography ...",
           "url": "https://www.infoq.com/news/2026/10/dotnet-11-rc-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1184,7 +1800,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-aefc34a2589c4bb9",
           "title": "From test cases to AI-ready quality data: why structure matters ",
           "summary": "",
           "url": "https://www.ministryoftesting.com/newsletter/from-test-cases-to-ai-ready-quality-data-why-structure-matters",
@@ -1199,7 +1815,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-c7e50a309f082271",
           "title": ".NET 11 Release Candidate 2: Go-Live License and Updates across Libraries, F#, MAUI, and WinForms",
           "summary": "Microsoft has released .NET 11 Release Candidate 2 under a go-live license, supported in Visual Studio 2026 Insiders. The release adds incremental CBOR reading, experimental post-quantum cryptography ...",
           "url": "https://www.infoq.com/news/2026/10/dotnet-11-rc-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1218,7 +1834,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-f6f87a3d0bc5b9f5",
           "title": "NestJS 12: ESM Packages, Standard Schema Validation and Native Observability",
           "summary": "NestJS version 12 has been released, transitioning core packages to ESM and adding Standard Schema validation. It updates the CLI and introduces an observability SDK. Key changes include project gener...",
           "url": "https://www.infoq.com/news/2026/10/nestjs-12-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1244,7 +1860,7 @@
       "summary": "",
       "items": [
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-04891d4df8ddd71d",
           "title": "Free Course: Steer AI Agents to Write Tests You Can Trust - Want to co-learn?",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/free-course-steer-ai-agents-to-write-tests-you-can-trust-want-to-co-learn",
@@ -1261,7 +1877,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-5f2e95fe997b49f1",
           "title": "Joyful moment with Clare and Ady - MoTaCon 2026",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/joyful-moment-with-clare-and-ady-motacon-2026",
@@ -1274,7 +1890,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-ea80950c1e30cdf5",
           "title": "Google Adopts Pyrefly for Faster, More Accurate Python Type Checking",
           "summary": "Google has replaced its long-standing Python type checker, Pytype, with Pyrefly, an open-source tool originally developed by Meta. The decision was driven by Pyrefly's advantages, including faster and...",
           "url": "https://www.infoq.com/news/2026/10/google-pyrefly-python/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1290,7 +1906,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-509d8d6fb769181c",
           "title": "AWS Introduces Preview of Well-Architected Agent",
           "summary": "AWS recently announced the preview of the Well-Architected Agent, a service that analyzes environments against Well-Architected best practices and provides prioritized recommendations across cost, sec...",
           "url": "https://www.infoq.com/news/2026/10/aws-well-architected-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1309,7 +1925,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-adae80030bb25685",
           "title": "Thunders ⚡️ Swag 💙",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/thunders-swag",
@@ -1322,7 +1938,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-8fdac4c393e9fbc6",
           "title": "Quality Engineer",
           "summary": "",
           "url": "https://www.ministryoftesting.com/jobs/quality-engineer-a5960a7c-8f19-4160-a901-ff61c8084c9a",
@@ -1335,7 +1951,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-6dc86d10cac280d0",
           "title": "Senior QA Engineer",
           "summary": "",
           "url": "https://www.ministryoftesting.com/jobs/senior-qa-engineer-29fa0a18-0eb0-4491-be4e-21ae200bfcf2",
@@ -1350,7 +1966,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-30bf7a43b332289a",
           "title": "QA Engineer - Contract",
           "summary": "",
           "url": "https://www.ministryoftesting.com/jobs/qa-engineer-contract",
@@ -1365,7 +1981,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-71f03bf121e235cf",
           "title": "QA Engineer",
           "summary": "",
           "url": "https://www.ministryoftesting.com/jobs/qa-engineer-5537d086-6b99-4bb7-8e76-36f76195dfde",
@@ -1380,7 +1996,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-d59f296d7ee5bf6a",
           "title": "Reverse Engineer Anything Project Brings AI Agents to Binary Analysis",
           "summary": "Reverse Engineer Anything (REA) is an open-source project with over 200K GitHub stars that connects coding agents such as Claude Code and Codex to reverse-engineering tools like Ghidra, Hopper, and ID...",
           "url": "https://www.infoq.com/news/2026/10/reverse-engineer-anything/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1399,7 +2015,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-4fc4b2a61375854c",
           "title": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL",
           "summary": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhan...",
           "url": "https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1417,7 +2033,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-c805e753e5e03054",
           "title": "From the USA to Brighton — Connected by MoT! 💜",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/from-the-usa-to-brighton-connected-by-mot",
@@ -1430,7 +2046,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-a83fdd056102476d",
           "title": "Meeting the awesome Rosie Sherry 💜",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/meeting-the-awesome-rosie-sherry",
@@ -1443,7 +2059,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-0dd837d83e05404f",
           "title": "Met the Man who makes MOT special ",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/met-the-man-who-makes-mot-special",
@@ -1456,7 +2072,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-b56675199818a45d",
           "title": "Google EnvHarness Enables Self-Evolving Agents to Learn in Dynamics Environments",
           "summary": "Google researchers open sourced EnvHarness, a framework that dynamically adapts agent-training environments to an agent's weaknesses without modifying the agent, environment, or evaluation system. Acc...",
           "url": "https://www.infoq.com/news/2026/10/envharness-self-evolving-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1473,7 +2089,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-9732b2763df5a67a",
           "title": "How Itaú is building generative AI for its entire customer base",
           "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
           "url": "https://openai.com/index/itau-generative-ai",
@@ -1490,7 +2106,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-823d3da6ceb85e63",
           "title": "Continuous joy",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/continuous-joy",
@@ -1503,7 +2119,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-37d069fa1badd073",
           "title": "Quality Guidance: Be honest, be yourself, sneak it in, add in the fun and 404 Simon",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/quality-guidance-be-honest-be-yourself-sneak-it-in-add-in-the-fun-and-404-simon",
@@ -1516,7 +2132,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-d72ffc34c5dee7bd",
           "title": "Uber Automates Dependency Analysis Across Its Service Mesh",
           "summary": "Uber has developed an automated dependency analysis system that uses RPC middleware and production metrics to correlate caller and downstream failures. The approach classifies dependencies as fail-clo...",
           "url": "https://www.infoq.com/news/2026/10/uber-automated-dependency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1531,7 +2147,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-6ed9a6d104ab3a7c",
           "title": "AI in Production: Panellists Highlight Silent Failures, Harness Engineering, and Agent Governance",
           "summary": "A recent InfoQ webinar examined operational challenges in deploying agentic systems. Key points included issues like semantic and embedding drift, which can lead to significant errors. Experts discuss...",
           "url": "https://www.infoq.com/news/2026/10/ai-systems-production/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1549,7 +2165,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-c5a79d85772bd9f4",
           "title": "Ady asks #6 Updated Mindsets visual heuristic ",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/ady-asks-6-updated-mindsets-visual-heuristic",
@@ -1564,7 +2180,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-7fdf77e2c7e178f6",
           "title": "The hidden leadership of Quality Professionals: skills you only earn when everything goes to hell",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/the-hidden-leadership-of-quality-professionals-skills-you-only-earn-when-everything-goes-to-hell",
@@ -1577,7 +2193,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-c5c2a5c8defecbda",
           "title": "TWIQ 16/10/2026 -  a screen grab of chaos",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/twiq-16-10-2026-a-screen-grab-of-chaos",
@@ -1590,7 +2206,7 @@
           "reason": []
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-1beb66d0b231d0b1",
           "title": "Continuous accountability for Verified bots",
           "summary": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuri...",
           "url": "https://blog.cloudflare.com/verified-bots-accountability/",
@@ -1607,7 +2223,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-253eae0b69ca6b47",
           "title": "Grafana Applies SLOs and Error Budgets to AI Agent Behaviour",
           "summary": "Grafana Labs is proposing a familiar reliability engineering approach for one of the less familiar problems in modern software: how to measure whether an AI agent is actually behaving well. By Craig R...",
           "url": "https://www.infoq.com/news/2026/10/grafana-slo-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1624,7 +2240,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-40b895626d8b162e",
           "title": "Mini book: Evolutionary Architecture in Practice",
           "summary": "Discover how to keep software evolvable as systems, technology, and teams shift. This edition explores agentic fitness functions for semantic drift, treating human comprehension as a core design metri...",
           "url": "https://www.infoq.com/minibooks/evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1641,7 +2257,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-ddaa04e469a52175",
           "title": "Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules",
           "summary": "The release of Helidon 27 is the first release that follows the Oracle Tip & Tail Model of Library Development by which the Tip adopts the latest Java technology while the Tail provides a more stable ...",
           "url": "https://www.infoq.com/news/2026/10/helidon-27-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1661,7 +2277,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-450ebcc956cca3b8",
           "title": "AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development",
           "summary": "AWS has introduced two open-source projects for AI agent development: Strands Decider 2B, a small model designed to make decisions within agent workflows, and Strands Box, a sandbox for controlling ag...",
           "url": "https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1678,7 +2294,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-9b8412edf8a8f83e",
           "title": "Anywhere, anytime..?",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/anywhere-anytime",
@@ -1691,7 +2307,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-f63f2e515628943a",
           "title": "QA Engineer - Mobile",
           "summary": "",
           "url": "https://www.ministryoftesting.com/jobs/qa-engineer-mobile",
@@ -1706,7 +2322,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-65343deaf721efb4",
           "title": "Chainguard Launches Secure Workspaces and Checks for AI Coding Agents",
           "summary": "Software supply chain security company Chainguard has announced two beta products for running and testing code written by developers and AI agents. Chainguard Workspaces provides remote development en...",
           "url": "https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1727,7 +2343,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-19d40f20e28e699f",
           "title": "Article: Cryptographic Foundation of Mobile ID Systems: An ISO/IEC 18013-5 Enterprise Architecture Blueprint",
           "summary": "This article provides a framework for asking the right architectural questions before an enterprise commits to an mDL provider or library. It shows which components can be abstracted safely, which tru...",
           "url": "https://www.infoq.com/articles/enterprise-mobile-id-mdl-blueprint/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1742,7 +2358,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-60152dfeaf190122",
           "title": "From The Traitors to Testers: Why Perspective Matters",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/from-the-traitors-to-testers-why-perspective-matters",
@@ -1757,7 +2373,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-cd70e73df7f858bc",
           "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
           "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto on...",
           "url": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1772,7 +2388,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-2fb4301252303c4d",
           "title": "How to test with a screen reader, high level contributors, high well being for remote workers, and more!",
           "summary": "",
           "url": "https://www.ministryoftesting.com/newsletter/how-to-test-with-a-screen-reader-high-level-contributors-high-well-being-for-remote-workers-and-more",
@@ -1785,7 +2401,7 @@
           "reason": []
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-9e63539289a31c86",
           "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
           "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
           "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
@@ -1801,7 +2417,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-b6756c0a180ee554",
           "title": "Benefit Street Partners answers questions faster with Codex",
           "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
           "url": "https://openai.com/index/benefit-street-partners",
@@ -1816,7 +2432,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-32165ee6af8945a5",
           "title": "Bringing GPT-Rosalind to academic research labs",
           "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
           "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
@@ -1831,7 +2447,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-8d017137f926178e",
           "title": "A fully programmable secure web gateway",
           "summary": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform.",
           "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
@@ -1846,7 +2462,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-a7b63fed9c2be82b",
           "title": "Instagram Modernized its UI with an AI-Native Architecture, Cutting Token Costs by 33%",
           "summary": "Instagram Direct migrated its Android UI from the legacy Android View system to Jetpack Compose, creating an AI-native UI codebase that is easier for AI coding agents to understand, modify, and mainta...",
           "url": "https://www.infoq.com/news/2026/10/instagram-compose-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1863,7 +2479,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-00b5cd7060cd3fba",
           "title": "From test cases to AI-ready quality data: why structure matters",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/from-test-cases-to-ai-ready-quality-data-why-structure-matters",
@@ -1878,7 +2494,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-deb891efe2f78ecb",
           "title": "AI Risk Deck: Human-Computer Interaction (5)",
           "summary": "",
           "url": "https://www.ministryoftesting.com/insights/ai-risk-deck-human-computer-interaction-5",
@@ -1893,7 +2509,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-002658979909f0bc",
           "title": "Brighton Leadership Dinner with TestMu AI, the food was amazing!",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/brighton-leadership-dinner-with-testmu-ai-the-food-was-amazing",
@@ -1908,7 +2524,7 @@
           "reason": []
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-2628c857671d6194",
           "title": "Deploy with Void",
           "summary": "Introducing Void: an open-source SDK, CLI, and self-hosted platform for building full-stack Vite apps and deploying them to Cloudflare.",
           "url": "https://blog.cloudflare.com/deploy-with-void/",
@@ -1923,7 +2539,7 @@
           ]
         },
         {
-          "id": "cypress-aHR0cHM6Ly93",
+          "id": "cypress-bebceb727b8dabf0",
           "title": "How to connect Claude Code to Cypress",
           "summary": "Claude Code writes better Cypress tests when it knows your conventions, can check its work in a live session, and can see your run history. Learn how to set up Cypress AI Skills, Cloud MCP, and cypres...",
           "url": "https://www.cypress.io/blog/how-to-connect-claude-code-to-cypress/",
@@ -1941,7 +2557,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-a60f4a701f887ae8",
           "title": "Teaching students to think and learn through questions",
           "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
           "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
@@ -1958,7 +2574,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-d05f789212e75b03",
           "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
           "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
           "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
@@ -1975,7 +2591,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-b186fc303d48d5f5",
           "title": "I'd forgotten one of the bugs glowed in the dark",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/i-d-forgotten-one-of-the-bugs-glowed-in-the-dark",
@@ -1990,7 +2606,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-617eb1cc0a876311",
           "title": "Optimizing Software Workflow: Exploring Fundamental Impacts in Technology",
           "summary": "Software only has value when shipped; faster release cadence matters. Development, deployment, and operations require different thinking, metrics, and investments. There are four impacts in tech: prod...",
           "url": "https://www.infoq.com/news/2026/10/optimize-software-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2008,7 +2624,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-fc98c9e0d4834c71",
           "title": "Presentation: What 25 Trillion Tokens Reveal About How Developers Actually Adopt AI Agents",
           "summary": "Brendan O'Leary discusses how real-world AI adoption depends on building trust rather than chasing model benchmarks. Drawing from 40 trillion tokens of usage data, he explains the four rungs of the AI...",
           "url": "https://www.infoq.com/presentations/agentic-ai-developer-trust-adoption/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2025,7 +2641,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-9350cc062aff5e19",
           "title": "22 years in 22 minutes - lessons learned and how they apply in the AI era",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/22-years-in-22-minutes-lessons-learned-and-how-they-apply-in-the-ai-era",
@@ -2040,7 +2656,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-15a846a960f5258b",
           "title": "Grafana Tempo 3.1 Adds Query-Based Trace Redaction and Sampling-Aware TraceQL Metrics",
           "summary": "Grafana Labs has released Tempo 3.1, the first minor update to the 3.0 architecture. It adds TLS and additional SASL mechanisms to the Kafka client, lets operators redact traces with a TraceQL query i...",
           "url": "https://www.infoq.com/news/2026/10/grafana-tempo-31/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2058,7 +2674,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-545505b37970d5e8",
           "title": "MoTaCon Crafting!",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/motacon-crafting",
@@ -2071,7 +2687,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-cb8bcaca64956cba",
           "title": "Article: Server-Side DPoP and Token Exchange in Spring Security 7",
           "summary": "Spring Authorization Server now lives inside Spring Security 7 under the same Maven coordinates, so the upgrade is a version bump. This server-side guide covers enabling DPoP and RFC 8693 Token Exchan...",
           "url": "https://www.infoq.com/articles/spring-security-7-server-side-dpop-token-exchange/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2089,7 +2705,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-90c8bbd91395db43",
           "title": "AI Chapter - First Giveaway ✅",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/ai-chapter-first-giveaway",
@@ -2104,7 +2720,7 @@
           "reason": []
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-94eadcab22c41e35",
           "title": "Sullivan & Cromwell brings legal expertise into agreement review",
           "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
           "url": "https://openai.com/index/sullivan-cromwell",
@@ -2121,7 +2737,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-9d86601388ffac11",
           "title": "Oops, I Missed 1,000 Stars Milestone!",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/oops-i-missed-1-000-stars-milestone",
@@ -2134,7 +2750,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-44fd6903f4afa36e",
           "title": "Lovely catching up with familiar faces at Motacon! ",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/lovely-catching-up-with-familiar-faces-at-motacon",
@@ -2147,7 +2763,7 @@
           "reason": []
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-049f752dea89d9de",
           "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
           "summary": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
           "url": "https://blog.cloudflare.com/yandex-outage/",
@@ -2162,7 +2778,7 @@
           ]
         },
         {
-          "id": "cypress-aHR0cHM6Ly93",
+          "id": "cypress-02775577304e0de7",
           "title": "Find elements the way your users do with cy.getByRole()",
           "summary": "Cypress 16.2.0 adds cy.getByRole(), a built-in query that finds elements by role and accessible name. By default, it matches only native elements, so your tests catch a swapped for a . Here&#x2019;s w...",
           "url": "https://www.cypress.io/blog/find-elements-the-way-your-users-do-with-cy-getbyrole/",
@@ -2178,7 +2794,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-cd90a2de0d06e12f",
           "title": "Colour theory for software testing",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/colour-theory-for-software-testing",
@@ -2195,7 +2811,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-37987480b4acff6f",
           "title": "Joy for all: always be inviting, working in seasons, and bridging generations",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/joy-for-all-always-be-inviting-working-in-seasons-and-bridging-generations",
@@ -2208,7 +2824,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-5957e169153e7729",
           "title": "The 99 second talk I didn't get to do at MoTaCon",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/the-99-second-talk-i-didn-t-get-to-do-at-motacon",
@@ -2221,7 +2837,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-59e36494c3cd73c6",
           "title": "Agentic Steel Thread for Test Automation",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/agentic-steel-thread-for-test-automation",
@@ -2240,7 +2856,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-aaed1bec0ca09ad8",
           "title": "The AI Risk Deck: Malicious Use (4)",
           "summary": "",
           "url": "https://www.ministryoftesting.com/insights/the-ai-risk-deck-malicious-use-4",
@@ -2255,7 +2871,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-af4b4d917a000345",
           "title": "Ady asks #5 Mindset chapter draft updated after feedback",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/ady-asks-5-mindset-chapter-draft-updated-after-feedback",
@@ -2270,7 +2886,7 @@
           "reason": []
         },
         {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "id": "martin-fowler-d995256e997e50a5",
           "title": "Build your slide template",
           "summary": "Building a slide template starts with three foundational choices &#x2014; colours, fonts and layouts. Sumeet Gayathri Moghe covers the basics of color theory and how to build a reusable palette, the e...",
           "url": "https://martinfowler.com/articles/never-send-slides/build-your-slide-template.html",
@@ -2283,7 +2899,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-449ef7ceac64f4a8",
           "title": "Meta Extends Confidential Computing to AI Glasses with Private Processing",
           "summary": "Meta has extended Private Processing to AI glasses, using confidential VMs, trusted execution environments, remote attestation, anonymous credentials, OHTTP routing, and TEE-based storage to process A...",
           "url": "https://www.infoq.com/news/2026/10/meta-private-process-ai-glasses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2298,7 +2914,7 @@
           "reason": []
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-9d49354fa5a46a35",
           "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
           "summary": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
           "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
@@ -2317,7 +2933,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-34233d5a13083620",
           "title": "QA trailblazers are rewriting the rules in the age of AI",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/qa-trailblazers-are-rewriting-the-rules-in-the-age-of-ai",
@@ -2334,7 +2950,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-57c3309db5bedcde",
           "title": "Amp puts AI agents to work beyond code with OpenAI models",
           "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
           "url": "https://openai.com/index/amp-beyond-coding",
@@ -2352,7 +2968,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-004cd593adabcd24",
           "title": "SentinelOne cuts malware analysis from weeks to hours",
           "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
           "url": "https://openai.com/index/sentinelone",
@@ -2369,7 +2985,7 @@
           ]
         },
         {
-          "id": "playwright-aHR0cHM6Ly9n",
+          "id": "playwright-2fbd65ca2ce37661",
           "title": "v1.64.1",
           "summary": "Bug Fixes #43247 [Bug]: _electron.launch intermittently loses a packaged app's first window since 1.64.0 #43242 [Regression]: Chromium 155+ aborts a preflighted cross-origin redirect whenever any rout...",
           "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.1",
@@ -2387,7 +3003,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-6209d02f07f53469",
           "title": "Presentation: How to Find Resilience Bugs in Systems that Don't Exist",
           "summary": "Hillel Wayne discusses how formal methods principles - such as property strength, state-space verification, and environment assumptions - help software engineers uncover critical architectural bugs ea...",
           "url": "https://www.infoq.com/presentations/formal-methods-principles/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2403,7 +3019,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-07a0ac6900807235",
           "title": "Clickjacking",
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/clickjacking",
@@ -2418,7 +3034,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-292d8f9b5e5f29b4",
           "title": "Can we actually co-own quality?",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/can-we-actually-co-own-quality",
@@ -2433,7 +3049,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-91519c08c89217b3",
           "title": "How to test with a screen reader (WonderProxy blog post)",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/how-to-test-with-a-screen-reader-wonderproxy-blog-post",
@@ -2448,7 +3064,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-55e73e04c232035b",
           "title": "The tipping point: AI and coding chaos",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/the-tipping-point-ai-and-coding-chaos",
@@ -2465,7 +3081,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-8b2eb22e3f64b372",
           "title": "AI-powered testing: supercharging the human tester",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/ai-powered-testing-supercharging-the-human-tester",
@@ -2484,7 +3100,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-1b73b7fce976c8fe",
           "title": "22 partners and counting 🎉",
           "summary": "",
           "url": "https://www.ministryoftesting.com/news/22-partners-and-counting",
@@ -2499,7 +3115,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-4b98230e0b1eb714",
           "title": "Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy",
           "summary": "Google has introduced support for local models in the Antigravity SDK, enabling developers to build and execute agentic workflows directly on their own machines, while retaining the flexibility to mix...",
           "url": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2517,7 +3133,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-6fbd483f4b1fe14c",
           "title": "Article: Composable Commerce: Inside Shipt’s Kit Platform",
           "summary": "Shipt launched its Kits feature, enabling quick assembly of themed grocery bundles for events. The platform architecture lets merchandisers easily create store-aware kits, streamlining previously labo...",
           "url": "https://www.infoq.com/articles/shipt-composable-commerce-design-ddd/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2534,7 +3150,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-a8b8c31de898145e",
           "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
           "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
           "url": "https://openai.com/index/third-moment-research",
@@ -2554,7 +3170,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-94ee28b93f9d2d83",
           "title": "How Block is building AI-powered security with OpenAI technology",
           "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
           "url": "https://openai.com/index/block-ai-powered-security",
@@ -2573,7 +3189,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-ea45cb69b1596207",
           "title": "Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, Hooks, and tsup Migration",
           "summary": "VoidZero has launched Vite+ 1.0, the first stable version of its JavaScript toolchain. It features a command line tool for managing Node.js, package management, and frontend development from a single ...",
           "url": "https://www.infoq.com/news/2026/10/cloudflare-viteplus-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2596,7 +3212,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-f33810f019dc2e78",
           "title": "Moving off RSAT? The biggest risk might be a test that still passes",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/moving-off-rsat-the-biggest-risk-might-be-a-test-that-still-passes",
@@ -2611,7 +3227,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-200a5d3dd39c6bfb",
           "title": "The EU’s next chapter in AI is agentic",
           "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
           "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
@@ -2629,7 +3245,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-018f706be86e32c2",
           "title": "It's time to make",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/it-s-time-to-make",
@@ -2644,7 +3260,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-87f16d716fd0646d",
           "title": "Perseverance pays dividends",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/perseverance-pays-dividends",
@@ -2659,7 +3275,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-2ce883ec0158f9a4",
           "title": "Backstage 1.55 Adds Scaffolder Task Recovery and Removes Deprecated Catalog APIs",
           "summary": "Backstage 1.55 adds opt-in recovery for Software Template tasks, resuming crashed or timed-out runs from the last completed step. The release also carries breaking changes to the catalog, search and T...",
           "url": "https://www.infoq.com/news/2026/10/backstage-1-55-task-recovery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2679,7 +3295,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-c883d0dbfead6cfe",
           "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
           "summary": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on t...",
           "url": "https://blog.cloudflare.com/d1-control-plane/",
@@ -2696,7 +3312,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-b5346f50e33dc931",
           "title": "Where on earth are Heleen and Demi? Part 2",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/where-on-earth-are-heleen-and-demi-part-2",
@@ -2711,7 +3327,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-ca3fa5dc8a6dfad1",
           "title": "Where on earth are Heleen and Demi? Part 1",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/where-on-earth-are-heleen-and-demi-part-1",
@@ -2726,7 +3342,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-3c18eabe2b188bb0",
           "title": "Lucky Duck: My second 99-second talk @ MoT Berlin #63",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/lucky-duck-my-second-99-second-talk-mot-berlin-63",
@@ -2741,7 +3357,7 @@
           ]
         },
         {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "id": "martin-fowler-b5259ab25a826e95",
           "title": "The Craft of Practitioner Voice",
           "summary": "A couple of months ago Jim Highsmith explained how practitioners writing for each other forms a distinct style of writing. He now adds a section to the article with more detail on the craft of how we ...",
           "url": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
@@ -2756,7 +3372,7 @@
           "reason": []
         },
         {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "id": "martin-fowler-ee6df3f002868714",
           "title": "Are Harnesses Worth the Cost?",
           "summary": "Naresh Jain compares coding agents building the same API service with and without a behavioral harness. A frontier model, GPT-6 Sol, passed every external evaluation either way. But a cost-optimized m...",
           "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
@@ -2774,7 +3390,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-db97e33bd7bf3f94",
           "title": "ZCS Command Injection via SNMP Handlers Enables Unauthenticated Remote Code Execution",
           "summary": "A critical remote command execution vulnerability in the Zimbra Collaboration Suite, identified as CVE-2026-73570, poses risks by allowing unauthorized access to mailbox data and credentials. This fla...",
           "url": "https://www.infoq.com/news/2026/10/zimbra-command-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2789,7 +3405,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-eff5888233c2e655",
           "title": "Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026",
           "summary": "Once AI is in production, code arrives faster than it can be reviewed, token costs rise, evals have to be good enough to act on, and agents need permissions and guardrails. QCon AI New York 2026 (Dece...",
           "url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2807,7 +3423,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-8d45898e533e591d",
           "title": "Higgsfield takes AI video from 1 minute to over 10",
           "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
           "url": "https://openai.com/index/higgsfield-longer-videos-voice",
@@ -2824,7 +3440,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-4171ed545dcac0a2",
           "title": "The AI Risk Deck: Misinformation (3)",
           "summary": "",
           "url": "https://www.ministryoftesting.com/insights/the-ai-risk-deck-misinformation-3",
@@ -2839,7 +3455,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-80361900b7a7238e",
           "title": "AWS Reworks EventBridge Custom Buses for Enterprise-Scale Event-Driven Architectures",
           "summary": "AWS has introduced an enhanced Custom Event Bus for Amazon EventBridge, targeting a problem that often emerges when event-driven architectures move beyond a single team or AWS account: the event infra...",
           "url": "https://www.infoq.com/news/2026/10/aws-eventbridge-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2854,7 +3470,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-ea63651fe688c301",
           "title": "Presentation: How Eve Online Leverages Head Based Sampling to Observe \"Fun\"",
           "summary": "Nicholas Herring shares how EVE Online tackles distributed tracing and observability across a 20-year-old MMO architecture. He discusses leveraging head-based, dynamic exponential moving average (EMA)...",
           "url": "https://www.infoq.com/presentations/eve-observability-head-sampling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2870,7 +3486,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-4ec7abb9672e087f",
           "title": "AI Built It. Can Vibe Testing Prove It Works?",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/ai-built-it-can-vibe-testing-prove-it-works",
@@ -2888,7 +3504,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-c40992dc94eb98b6",
           "title": "Stop guessing, start seeing: the rise of Observability-Driven Testing",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/stop-guessing-start-seeing-the-rise-of-observability-driven-testing",
@@ -2905,7 +3521,7 @@
           ]
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-de1cef5b7abc2d1b",
           "title": "Cloudflare’s OHTTP Gateway Refuses to Decrypt Requests That Arrive through Cloudflare",
           "summary": "Cloudflare has opened a closed beta of its OHTTP Gateway, a managed endpoint that decrypts Oblivious HTTP requests for an origin. The design choice drawing attention is a refusal: the Gateway will not...",
           "url": "https://www.infoq.com/news/2026/10/cloudflare-ohttp-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2918,7 +3534,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-8ea89b210035b8df",
           "title": "Spotify More Than Doubled Monthly Code Changes as AI Accelerated Development",
           "summary": "Spotify reports that AI-assisted development more than doubled monthly merged changes, prompting a review of quality and reliability controls across its engineering organization. The company describes...",
           "url": "https://www.infoq.com/news/2026/10/spotify-ai-quality-controls/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2934,7 +3550,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-81d454d305e02d1c",
           "title": "Ceci n'est pas une bug",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/ceci-n-est-pas-une-bug",
@@ -2949,7 +3565,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-c9e40f46567158ce",
           "title": "API-immunity?",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/api-immunity",
@@ -2964,7 +3580,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-3872a82c6c3f4853",
           "title": "Article: When Should You Use Liquid Clustering? Benchmarking Lakehouse Layout Strategies",
           "summary": "Physical data layout is one of the most consequential decisions in lakehouse engineering. The author compares Liquid Clustering, ZOrdering, and partitioning across four workload types on Delta Lake, u...",
           "url": "https://www.infoq.com/articles/liquid-clustering-lakehouse-layout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2979,7 +3595,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-4c5b50d3e0c72141",
           "title": "Podcast: What Does It Really Mean To Program With AI: A Conversation with Joy Ebertz",
           "summary": "In this podcast, Michael Stiefel spoke to Joy Ebertz about how the use of artificial intelligence is changing the way architects and developers do their jobs. Focusing on the long term success of the ...",
           "url": "https://www.infoq.com/podcasts/what-really-mean-program-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2994,7 +3610,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-fc7421755984b0fa",
           "title": "Presentation: You Can't Trust Your AI Bill. And Neither Can I",
           "summary": "Erik Peterson discusses why AI spend is eclipsing cloud bills, triggering a major software engineering cost crisis. He explains tokenmaxxing, unit economics, forced developer promotions, and why fully...",
           "url": "https://www.infoq.com/presentations/ai-cloud-cost-economics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -3009,7 +3625,7 @@
           "reason": []
         },
         {
-          "id": "infoq-aHR0cHM6Ly93",
+          "id": "infoq-820a726b5e03d8d5",
           "title": "React 19.3: Adds a browser() API, Giving Client-Only Rendering a First-Class Name",
           "summary": "React 19.3 was released on September 9, introducing several features including the react-dom browser() API. This API allows components to opt out of server-side rendering, addressing issues with compo...",
           "url": "https://www.infoq.com/news/2026/10/react-19-3-browser-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -3029,7 +3645,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-d058f830b20fb67d",
           "title": "Stability is a system, not a metric: lessons from scaling mobile test automation",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/stability-is-a-system-not-a-metric-lessons-from-scaling-mobile-test-automation",
@@ -3053,7 +3669,7 @@
       "summary": "",
       "items": [
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-4a9f5b72faa10f5c",
           "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
           "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inferenc...",
           "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
@@ -3068,7 +3684,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-1f62c0789329684b",
           "title": "From MoTaCon Dinner to $8M: Klarent’s big week",
           "summary": "",
           "url": "https://www.ministryoftesting.com/insights/from-motacon-dinner-to-8m-klarent-s-big-week",
@@ -3083,7 +3699,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-be8e4f01f1a5c502",
           "title": "The WireMock Crew",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/the-wiremock-crew",
@@ -3098,7 +3714,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-60b31bf8068c8c86",
           "title": "Build test environments for AI (with AI)",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/build-test-environments-for-ai-with-ai",
@@ -3115,7 +3731,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-a73211125b1aa93c",
           "title": "I need a chair!",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/i-need-a-chair",
@@ -3132,7 +3748,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-b099891403f2a7da",
           "title": "Community stars shine at MoTaCon festival, with moments to remember",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/community-stars-shine-at-motacon-festival-with-moments-to-remember",
@@ -3147,7 +3763,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-dca8143f581ee443",
           "title": "Bug is flying!",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/bug-is-flying",
@@ -3164,7 +3780,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-f06fc9179917330b",
           "title": "Good people reflect on good times at MoTaCon festival week",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/good-people-reflect-on-good-times-at-motacon-festival-week",
@@ -3179,7 +3795,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-3854715ee3f870a4",
           "title": "Deno is joining Cloudflare",
           "summary": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
           "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
@@ -3194,7 +3810,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-068e67b3b213e27a",
           "title": "When you receive swag you can actually use...",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/when-you-receive-swag-you-can-actually-use",
@@ -3209,7 +3825,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-cec3a38bdc7e06f9",
           "title": "Testing the untestable, when quality engineering creates chaos, how to test a chat bot, and more!",
           "summary": "",
           "url": "https://www.ministryoftesting.com/newsletter/testing-the-untestable-when-quality-engineering-creates-chaos-how-to-test-a-chat-bot-and-more",
@@ -3227,7 +3843,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-c325f5433bbe3abb",
           "title": "Synthetic Personas",
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/synthetic-personas",
@@ -3242,7 +3858,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-75ae45503ad5a694",
           "title": "Golden Dataset",
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/golden-dataset",
@@ -3257,7 +3873,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-dc028868781f6341",
           "title": "Exploratory Testing with Teams Facilitator",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/exploratory-testing-with-teams-facilitator",
@@ -3275,7 +3891,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-dd58aa119077d2ab",
           "title": "Testing the untestable: building a strategy for testing AI",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/testing-the-untestable-building-a-strategy-for-testing-ai",
@@ -3294,7 +3910,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-9bf93d58cc35db99",
           "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
           "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
           "url": "https://openai.com/index/asana-browser-agent",
@@ -3310,7 +3926,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-570fe3204556675e",
           "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
           "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
           "url": "https://openai.com/index/sophos",
@@ -3327,7 +3943,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-70a6b95aba697f62",
           "title": "May 15, 2027 isn’t just another date on the Dynamics 365 roadmap.",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/may-15-2027-isn-t-just-another-date-on-the-dynamics-365-roadmap",
@@ -3342,7 +3958,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-2b1091a040844cb9",
           "title": "Leading with attention to event running details",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/leading-with-attention-to-event-running-details",
@@ -3357,7 +3973,7 @@
           "reason": []
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-db7b9e6fe248e314",
           "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
           "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
           "url": "https://openai.com/index/oracle",
@@ -3372,7 +3988,7 @@
           ]
         },
         {
-          "id": "cypress-aHR0cHM6Ly93",
+          "id": "cypress-69eb99a1438b72b8",
           "title": "Cypress Ambassador Spotlight: Darpan Shah",
           "summary": "Welcome back to another Ambassador Spotlight! Each post in this series pulls back the curtain on the testers and builders driving the Cypress community forward, sharing how they got here, what keeps t...",
           "url": "https://www.cypress.io/blog/cypress-ambassador-spotlight-darpan-shah/",
@@ -3389,7 +4005,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-fda348a5b4d774fc",
           "title": "But I'm not a developer: the quality route into head of engineering",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/but-i-m-not-a-developer-the-quality-route-into-head-of-engineering",
@@ -3402,7 +4018,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-261112bbe3f01988",
           "title": "Contextual Practice",
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/contextual-practice",
@@ -3415,7 +4031,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-55affab1078a8311",
           "title": "Is ISTQB Foundation worth anything?",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/is-istqb-foundation-worth-anything",
@@ -3428,7 +4044,7 @@
           "reason": []
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-399e9316859634eb",
           "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
           "summary": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing a...",
           "url": "https://blog.cloudflare.com/radar-redesign/",
@@ -3443,7 +4059,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-855092fba1df7e8a",
           "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
           "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
           "url": "https://openai.com/index/pollo-ai",
@@ -3460,7 +4076,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-45d6a2b79938283a",
           "title": "LegalOn halves Codex costs while maintaining development speed",
           "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
           "url": "https://openai.com/index/legalon-halves-codex-costs",
@@ -3477,7 +4093,7 @@
           ]
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-0ab511fd566470db",
           "title": "When systems stop behaving: controlled chaos in practice",
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/when-systems-stop-behaving-controlled-chaos-in-practice",
@@ -3490,7 +4106,7 @@
           "reason": []
         },
         {
-          "id": "ministry-of-testing-aHR0cHM6Ly93",
+          "id": "ministry-of-testing-2d5e8c7cdcf6e871",
           "title": "Your Inner Bug",
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/your-inner-bug",
@@ -3505,7 +4121,7 @@
           "reason": []
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-d9e485b409fe8517",
           "title": "Disrupting AI-enabled “false front” operations",
           "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
           "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
@@ -3522,7 +4138,7 @@
           ]
         },
         {
-          "id": "playwright-aHR0cHM6Ly9n",
+          "id": "playwright-ad228593a2f01096",
           "title": "v1.64.0",
           "summary": "🧰 WebMCP New page.webmcp and frame.webmcp give access to the tools that a page registers through the experimental WebMCP browser API, so you can test them like any other part of your app: const brows...",
           "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.0",
@@ -3546,7 +4162,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-ab59c26010b6f11d",
           "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
           "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inf...",
           "url": "https://blog.cloudflare.com/agentic-security-operations/",
@@ -3566,7 +4182,7 @@
           ]
         },
         {
-          "id": "cypress-aHR0cHM6Ly93",
+          "id": "cypress-8fdea65bcf5d03b2",
           "title": "Send Cypress Accessibility and UI Coverage results anywhere with webhooks",
           "summary": "Your Accessibility and UI Coverage reports already tell you a lot. The harder part is getting that information in front of the right people at the right time. Starting today, Cypress Cloud webhooks ca...",
           "url": "https://www.cypress.io/blog/send-cypress-accessibility-and-ui-coverage-results-anywhere-with-webhooks/",
@@ -3581,7 +4197,7 @@
           "reason": []
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-661f64ddb5f472a2",
           "title": "Helping teens learn, plan, and shape the future of AI",
           "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
           "url": "https://openai.com/index/teens-learn-and-plan",
@@ -3598,7 +4214,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-4e324623ab7ca6fe",
           "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
           "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
           "url": "https://openai.com/index/radisson",
@@ -3615,7 +4231,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-a097ef0d441a7216",
           "title": "GPT-6 and Intelligent UI for everyone",
           "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
           "url": "https://openai.com/index/gpt-6-for-everyone",
@@ -3630,7 +4246,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-3d9c7800b1392d74",
           "title": "The keys to the Internet change on October 11. Are you ready?",
           "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is re...",
           "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
@@ -3645,7 +4261,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-2896758265cec81d",
           "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
           "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
           "url": "https://openai.com/index/atlassian-partnership",
@@ -3662,7 +4278,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-ebb413cc5359756b",
           "title": "How Jump Trading is scaling quant research with ChatGPT",
           "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
           "url": "https://openai.com/index/jump-trading",
@@ -3679,7 +4295,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-00427e47df5ef306",
           "title": "Sharing AI progress in mathematics",
           "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
           "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
@@ -3697,7 +4313,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-f57eff9c23a4454b",
           "title": "Advancing computer use with Ironclad",
           "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
           "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
@@ -3715,7 +4331,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-d2b5b29b4c815525",
           "title": "Our approach to EU text provenance rules",
           "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
           "url": "https://openai.com/index/eu-text-provenance",
@@ -3732,7 +4348,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-44b03140de4a0c7b",
           "title": "Everything we launched during Birthday Week 2026",
           "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
           "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
@@ -3752,7 +4368,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-9a1667b7b376f49f",
           "title": "One year later: the power of 1.1.1.1 interns",
           "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum securi...",
           "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
@@ -3770,7 +4386,7 @@
           ]
         },
         {
-          "id": "google-testing-blog-aHR0cDovL3Rl",
+          "id": "google-testing-blog-6ac6022bdb3db90f",
           "title": "Two-Way Doors: Don’t Code Yourself into a Corner",
           "summary": "@media only screen and (max-width: 600px) { .body { overflow-x: auto; } .post-content table, .post-content td { width: auto !important; white-space: nowrap; } } This article was adapted from a Google ...",
           "url": "http://testing.googleblog.com/2026/10/two-way-doors-dont-code-yourself-into.html",
@@ -3795,7 +4411,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-2d8e70fb45cef747",
           "title": "Building advertising for the way people use AI",
           "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
           "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
@@ -3812,7 +4428,7 @@
           ]
         },
         {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "id": "martin-fowler-fafe571b74e06e1f",
           "title": "Fragments: October  4",
           "summary": "In response to my last fragments (probably the bit about us worrying if LLMs have consciousness when we when we should be wondering why they don’t have a conscience) “Metalanguage” replied: we shipped...",
           "url": "https://martinfowler.com/fragments/2026-10-04.html",
@@ -3839,7 +4455,7 @@
       "summary": "",
       "items": [
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-cd838e82df4db660",
           "title": "8 major updates to Cloudflare Observability",
           "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pr...",
           "url": "https://blog.cloudflare.com/one-observability-platform/",
@@ -3856,7 +4472,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-c38af6e5cae43e23",
           "title": "A model guide for the GPT-6 family",
           "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
           "url": "https://openai.com/index/practical-guide-building-gpt-6",
@@ -3871,7 +4487,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-f947e9010dad4080",
           "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
           "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
           "url": "https://blog.cloudflare.com/streamline/",
@@ -3888,7 +4504,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-172a27cefb08cdf8",
           "title": "Introducing Web Search API via AI Gateway",
           "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI ...",
           "url": "https://blog.cloudflare.com/introducing-web-search-api/",
@@ -3907,7 +4523,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-67a3a49e3f584ae7",
           "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
           "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
           "url": "https://blog.cloudflare.com/cloudflare-tracing/",
@@ -3925,7 +4541,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-c59c9381120f201a",
           "title": "Follow the thread: a new dashboard to investigate account abuse",
           "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams in...",
           "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
@@ -3944,7 +4560,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-dca4102c0cfdbd9d",
           "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
           "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
           "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
@@ -3959,7 +4575,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-5685295cd7d17a2f",
           "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
           "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on ei...",
           "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
@@ -3976,7 +4592,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-c1771d11cf4029d4",
           "title": "Building for good: How civil society organizations are automating on Cloudflare",
           "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
           "url": "https://blog.cloudflare.com/civil-society-automation/",
@@ -3991,7 +4607,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-3a7c567dce310cad",
           "title": "2026 Birthday week: network performance update",
           "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurem...",
           "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
@@ -4010,7 +4626,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-882596cbc7639eb4",
           "title": "Chatham scales its capital markets expertise with OpenAI",
           "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
           "url": "https://openai.com/index/chatham-financial",
@@ -4028,7 +4644,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-b8087b88cb63ae7f",
           "title": "The eternal complement",
           "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
           "url": "https://openai.com/index/the-eternal-complement",
@@ -4045,7 +4661,7 @@
           ]
         },
         {
-          "id": "cypress-aHR0cHM6Ly93",
+          "id": "cypress-4804a3d290de3355",
           "title": "Skip tests that pass on the current build: Re-run optimization in Cypress Cloud",
           "summary": "When Cypress detects a CI rerun, it can now skip the work that already passed and run only what failed, so you get to green faster, burn fewer CI minutes, and record fewer billable test results. Re-ru...",
           "url": "https://www.cypress.io/blog/skip-tests-that-pass-on-the-current-build-re-run-optimization-in-cypress-cloud/",
@@ -4061,7 +4677,7 @@
           "reason": []
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-637d3dfa247fa816",
           "title": "How Albertsons Companies is reimagining retail from the inside out",
           "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
           "url": "https://openai.com/index/albertsons-reimagining-retail",
@@ -4079,7 +4695,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-c0a0a5f5affd2692",
           "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
           "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that...",
           "url": "https://blog.cloudflare.com/clef-decision-models/",
@@ -4097,7 +4713,7 @@
           ]
         },
         {
-          "id": "cloudflare-aHR0cHM6Ly9i",
+          "id": "cloudflare-874b063792be67e0",
           "title": "One year later: Sovereign AI and the fight for choice",
           "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations gen...",
           "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
@@ -4116,7 +4732,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-2167384f51e2a446",
           "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
           "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
           "url": "https://openai.com/index/the-den-family-social",
@@ -4131,7 +4747,7 @@
           ]
         },
         {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "id": "martin-fowler-231ac6df8b60f0a8",
           "title": "Principles for effective slides",
           "summary": "Not every presentation needs slides, but when they earn their place, they work as a visual channel that complements the speaker rather than replacing them. Sumeet Gayathri Moghe sets out the principle...",
           "url": "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
@@ -4144,7 +4760,7 @@
           "reason": []
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-90249c2a3882c6d3",
           "title": "Disrupting a coordinated model-distillation campaign",
           "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
           "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
@@ -4161,7 +4777,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-061338e668ed6974",
           "title": "Helping small businesses put AI to work",
           "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
           "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
@@ -4178,7 +4794,24 @@
           ]
         },
         {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "id": "openai-d6b9f5e651b1891e",
+          "title": "Introducing GPT-6.1 Sol",
+          "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-09-29T17:00:00.000Z",
+          "tags": [
+            "api"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "martin-fowler-4be9081f9e05fb91",
           "title": "Bliki: Sensible Default",
           "summary": "A Sensible Default is a practice that, absent some overriding context, should be used when carrying out a certain kind of task. In software development such sensible defaults might include things like...",
           "url": "https://martinfowler.com/bliki/SensibleDefault.html",
@@ -4193,7 +4826,7 @@
           "reason": []
         },
         {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "id": "martin-fowler-e9af4baca2be2021",
           "title": "Fragments: September 29",
           "summary": "Simon Willison: The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder We can do amazing things with them, but unlocking their full p...",
           "url": "https://martinfowler.com/fragments/2026-09-29.html",
@@ -4212,7 +4845,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-6071f63e21f64254",
           "title": "DevDay 2026 Recap",
           "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
           "url": "https://openai.com/index/devday-2026-recap",
@@ -4232,24 +4865,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Introducing GPT-6.1 Sol",
-          "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-          "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-29T10:00:00.000Z",
-          "tags": [
-            "api"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-dec620cb7225d243",
           "title": "Introducing dots",
           "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
           "url": "https://openai.com/index/introducing-dots",
@@ -4266,7 +4882,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-50d71cd52400f551",
           "title": "How we will do better for Australia",
           "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
           "url": "https://openai.com/index/how-we-will-do-better-for-australia",
@@ -4283,7 +4899,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-2fc54b690d7b20a2",
           "title": "Towards safety cases for frontier AI training",
           "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
           "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
@@ -4300,7 +4916,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-0adf5bb2a473897d",
           "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
           "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
           "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
@@ -4317,7 +4933,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-833e9419a34f8836",
           "title": "Are you a Codex Original?",
           "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program...",
           "url": "https://openai.com/form/codex-originals",
@@ -4332,7 +4948,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-eb674100bb687fff",
           "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
           "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
           "url": "https://openai.com/index/basis-tax-workbook-with-astra",
@@ -4353,7 +4969,7 @@
       "summary": "",
       "items": [
         {
-          "id": "cypress-aHR0cHM6Ly93",
+          "id": "cypress-1787d8bd7d99b344",
           "title": "Cypress Ambassador Spotlight: Ibukun Micheal Popoola",
           "summary": "Welcome back to the Ambassador Spotlight. Each post in this series hands the mic to one of the people holding up the Cypress community, including where they started, what they believe about testing, a...",
           "url": "https://www.cypress.io/blog/cypress-ambassador-spotlight-ibukun-micheal-popoola/",
@@ -4372,7 +4988,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-9de028fbe46cac8b",
           "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
           "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
           "url": "https://openai.com/index/proaction",
@@ -4387,7 +5003,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-3971cab2d7d4566f",
           "title": "Lowe’s answers millions of home improvement questions with OpenAI",
           "summary": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
           "url": "https://openai.com/index/lowes",
@@ -4404,7 +5020,7 @@
           ]
         },
         {
-          "id": "openai-aHR0cHM6Ly9v",
+          "id": "openai-6c85667bb456be97",
           "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
           "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
           "url": "https://openai.com/index/wayfair",
@@ -4421,7 +5037,7 @@
           ]
         },
         {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "id": "martin-fowler-5dce93a1c80371a2",
           "title": "Fragments: September 24",
           "summary": "Rob Bowley is “flipping tables in his head” with anger at the current media coverage of the danger of AI killing us all The risk I’m worried about isn’t a future machine deciding to wipe us out. It’s ...",
           "url": "https://martinfowler.com/fragments/2026-09-24.html",
@@ -4441,7 +5057,7 @@
           "reason": []
         },
         {
-          "id": "martin-fowler-aHR0cHM6Ly9t",
+          "id": "martin-fowler-049f4e6c926ec9a7",
           "title": "Healthy Feedback",
           "summary": "Human collaboration, like most things, improves with feedback. But it's not obvious how to make feedback effective. Anuja Karnik and Sumeet Gayathri Moghe pass on a bevy of tips for healthy feedback, ...",
           "url": "https://martinfowler.com/articles/healthy-peer-feedback.html",
@@ -4454,206 +5070,6 @@
           "score": 50,
           "priority": "MEDIUM",
           "reason": []
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Two years of OpenAI Academy",
-          "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-          "url": "https://openai.com/index/two-years-of-openai-academy",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-23T16:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-          "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-          "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-23T13:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Sam Altman’s remarks at the United Nations Security Council",
-          "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-          "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-23T12:00:00.000Z",
-          "tags": [
-            "security",
-            "ai"
-          ],
-          "score": 105,
-          "priority": "CRITICAL",
-          "reason": [
-            "security",
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-          "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-          "url": "https://openai.com/index/ringg",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-23T12:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 85,
-          "priority": "HIGH",
-          "reason": [
-            "agent",
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-          "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-          "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-23T12:00:00.000Z",
-          "tags": [],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-          "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-          "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-23T12:00:00.000Z",
-          "tags": [],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Introducing MentalHealthBench",
-          "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-          "url": "https://openai.com/index/introducing-mentalhealthbench",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-23T10:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-          "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-          "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-23T02:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-          "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-          "url": "https://openai.com/index/airbnb-gpt-6-astra",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-23T01:00:00.000Z",
-          "tags": [
-            "bug",
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-          "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-          "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-23T00:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Better prompt caching for GPT-6",
-          "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-          "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-22T21:00:00.000Z",
-          "tags": [],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-aHR0cHM6Ly9v",
-          "title": "Introducing GPT-6 Sol and Luna",
-          "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-22T18:00:00.000Z",
-          "tags": [],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
         }
       ]
     }
