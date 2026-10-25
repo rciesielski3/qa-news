@@ -1,19 +1,69 @@
 {
-  "date": "2026-10-23",
-  "updatedAt": "2026-10-23T13:00:13.547Z",
+  "date": "2026-10-25",
+  "updatedAt": "2026-10-25T12:46:04.298Z",
   "articles": [
     {
-      "id": "cloudflare-aHR0cHM6Ly9i",
-      "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
-      "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our g...",
-      "url": "https://blog.cloudflare.com/k-isms/",
+      "id": "infoq-30355e3f6d846bca",
+      "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
+      "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail...",
+      "url": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-24T08:34:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 99,
+      "priority": "CRITICAL",
+      "reason": [
+        "mcp",
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-213a4f7230ff9fac",
+      "title": "Forward Deployed QA",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/software-testing-glossary/forward-deployed-qa",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-23T23:06:16.000Z",
+      "tags": [],
+      "score": 72,
+      "priority": "HIGH",
+      "reason": [
+        "qa",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-fed3302ab535c8a3",
+      "title": "Forward Deployed Engineers",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/software-testing-glossary/forward-deployed-engineers",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-23T23:02:01.000Z",
+      "tags": [],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "cloudflare-60f970e1df3b48e3",
+      "title": "Origin Range Requests: Serving large files without range-request tuning",
+      "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in ...",
+      "url": "https://blog.cloudflare.com/origin-range-requests/",
       "source": "Cloudflare",
       "category": "test-automation",
-      "publishedAt": "2026-10-22T13:00:00.000Z",
+      "publishedAt": "2026-10-23T18:22:59.000Z",
       "tags": [
-        "security"
+        "ai"
       ],
-      "score": 64,
+      "score": 62,
       "priority": "MEDIUM",
       "reason": [
         "cloudflare",
@@ -21,168 +71,100 @@
       ]
     },
     {
-      "id": "infoq-aHR0cHM6Ly93",
-      "title": "Presentation: Actors for Agents: Patterns for Production AI",
-      "summary": "Manju Rajashekhar explains how the actor model solves the complex runtime challenges of production AI agents. By treating agents as distributed systems, he discusses state ownership, message passing, ...",
-      "url": "https://www.infoq.com/presentations/actors-for-production-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
+      "id": "cloudflare-70bdd870b2ac82df",
+      "title": "Bringing post-quantum cryptography to geographically fenced key management",
+      "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict da...",
+      "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+      "source": "Cloudflare",
       "category": "test-automation",
-      "publishedAt": "2026-10-22T11:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Agentic AI Test Execution in Jira and Xray: A New Approach to Manual Testing",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/agentic-ai-test-execution-in-jira-and-xray-a-new-approach-to-manual-testing",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-22T10:23:39.000Z",
-      "tags": [
-        "testing",
-        "ai"
-      ],
-      "score": 99,
-      "priority": "CRITICAL",
-      "reason": [
-        "testing",
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-aHR0cHM6Ly93",
-      "title": "Vercel Labs Open-Sources fx: A Zig Coding Agent Designed to Be Embedded",
-      "summary": "Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questi...",
-      "url": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-22T09:33:00.000Z",
-      "tags": [
-        "release",
-        "ai"
-      ],
-      "score": 94,
-      "priority": "CRITICAL",
-      "reason": [
-        "agent",
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "Imposter syndrome",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/software-testing-glossary/imposter-syndrome",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-22T09:06:30.000Z",
+      "publishedAt": "2026-10-23T18:06:56.000Z",
       "tags": [],
-      "score": 54,
+      "score": 61,
       "priority": "MEDIUM",
       "reason": [
+        "cloudflare",
         "recent"
       ]
     },
     {
-      "id": "infoq-aHR0cHM6Ly93",
-      "title": "Article: AI Changes the Data Interface, Not the Query Engine",
-      "summary": "This article presents a disaster-recovery analytics workflow in which an AI agent generates constrained SQL or Python, DuckDB computes reproducible facts from Parquet, and the agent interprets the res...",
-      "url": "https://www.infoq.com/articles/ai-changes-data-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-22T09:00:00.000Z",
-      "tags": [
-        "python",
-        "sql",
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-aHR0cHM6Ly93",
-      "title": "Harbor Adds Docker Sandboxes to Run Reproducible AI Agent Evals in Isolated MicroVMs",
-      "summary": "Docker announced that Harbor, the open-source agent evaluation framework, now works with Docker Sandboxes. This change allows each evaluation task to run in its own microVM. So, instead of sharing a c...",
-      "url": "https://www.infoq.com/news/2026/10/ai-agents-harbor-docker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-22T09:00:00.000Z",
-      "tags": [
-        "docker",
-        "performance",
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aHR0cHM6Ly93",
-      "title": "The Test Is Green Again. But What Did the AI Agent Change?",
+      "id": "ministry-of-testing-3196bacd61b4a634",
+      "title": "One quality LEGO piece",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/the-test-is-green-again-but-what-did-the-ai-agent-change",
+      "url": "https://www.ministryoftesting.com/moments/one-quality-lego-piece",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-22T08:27:16.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-aHR0cHM6Ly93",
-      "title": "Developer Behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready",
-      "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker N...",
-      "url": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-22T07:41:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 54,
+      "publishedAt": "2026-10-23T17:55:16.000Z",
+      "tags": [],
+      "score": 51,
       "priority": "MEDIUM",
       "reason": [
         "recent"
       ]
     },
     {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "Broad access through consistent standards",
-      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "id": "openai-ee4c22366ef7e7ab",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "source": "OpenAI",
       "category": "test-automation",
-      "publishedAt": "2026-10-21T21:00:00.000Z",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
       "tags": [
+        "api",
         "ai"
       ],
-      "score": 67,
+      "score": 66,
       "priority": "MEDIUM",
       "reason": [
         "openai",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-c218cf29fe464456",
+      "title": "PHP Dramas, DOG Dexter and BIG Buttons",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/php-dramas-dog-dexter-and-big-buttons",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-23T15:30:11.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-338b2f425efcf938",
+      "title": "Do you practice CUWI (Community Unscripted With Intention)?",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/do-you-practice-cuwi-community-unscripted-with-intention",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-23T15:03:06.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-7c8bc9ea01eaa4b2",
+      "title": "CSIRO Uses Serverless Architecture to Query 100x More Genomic Variants on AWS",
+      "summary": "CSIRO has developed Serverless Beacon, a serverless architecture for querying genomic variants without copying VCF files into a central database. The system combines Amazon S3, Lambda, Athena and Dyna...",
+      "url": "https://www.infoq.com/news/2026/10/csiro-serverless-genomic-variant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-23T14:30:00.000Z",
+      "tags": [
+        "database",
+        "ai"
+      ],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
         "recent"
       ]
     }
