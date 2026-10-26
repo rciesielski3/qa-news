@@ -6,6 +6,53 @@
       "themes": [],
       "items": [
         {
+          "id": "infoq-ae36a57b0072b8da",
+          "title": "PingCAP Breach Exposes Customer Records and Source Code",
+          "summary": "PingCAP recently confirmed unauthorized access to its internal systems and the theft of source code and customer-related data. The attacker, cyber extortion group FulcrumSec, claimed to have stolen 10...",
+          "url": "https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-25T06:27:00.000Z",
+          "tags": [
+            "api",
+            "sql",
+            "ai"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-839ed3637bd9f497",
+          "title": "Building Quality Connections",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/building-quality-connections",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-24T15:16:15.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-bdabc5cd8e1a5a11",
+          "title": "Height debate settled",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/height-debate-settled",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-24T12:45:19.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
           "id": "infoq-30355e3f6d846bca",
           "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
           "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail...",
@@ -16,12 +63,11 @@
           "tags": [
             "ai"
           ],
-          "score": 99,
+          "score": 95,
           "priority": "CRITICAL",
           "reason": [
             "mcp",
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -33,11 +79,10 @@
           "category": "test-automation",
           "publishedAt": "2026-10-23T23:06:16.000Z",
           "tags": [],
-          "score": 72,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "qa",
-            "recent"
+            "qa"
           ]
         },
         {
@@ -49,11 +94,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-23T23:02:01.000Z",
           "tags": [],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "cloudflare-60f970e1df3b48e3",
@@ -66,11 +109,10 @@
           "tags": [
             "ai"
           ],
-          "score": 62,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -82,11 +124,10 @@
           "category": "test-automation",
           "publishedAt": "2026-10-23T18:06:56.000Z",
           "tags": [],
-          "score": 61,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -98,11 +139,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-23T17:55:16.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "openai-ee4c22366ef7e7ab",
@@ -116,11 +155,10 @@
             "api",
             "ai"
           ],
-          "score": 66,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -132,11 +170,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-23T15:30:11.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-338b2f425efcf938",
@@ -147,11 +183,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-23T15:03:06.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-7c8bc9ea01eaa4b2",
@@ -165,11 +199,9 @@
             "database",
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-3f5493f5e348ab92",
@@ -180,11 +212,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-23T13:11:22.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-44a2231cffedfc2a",
@@ -195,11 +225,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-23T13:02:52.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-794f902b681eaf3c",
@@ -212,11 +240,9 @@
           "tags": [
             "node.js"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-92fdf98964b131f6",
@@ -242,11 +268,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-23T12:45:17.000Z",
           "tags": [],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-1a4b13f53e0e3d70",
@@ -259,11 +283,9 @@
           "tags": [
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-29a88783993b38fd",
@@ -356,50 +378,6 @@
           "priority": "MEDIUM",
           "reason": [
             "openai"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-1358d37bfb4a2306",
-          "title": "Swag at TestBash 2015",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/swag-at-testbash-2015",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-23T09:20:03.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-b5d9d462dc181e99",
-          "title": "Throwback to 2015 TestBash!",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/throwback-to-2015-testbash",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-23T09:18:30.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-ee16c827da185972",
-          "title": "Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects",
-          "summary": "AI company Anthropic has launched OSS Scanner, a free, opt-in service to find vulnerabilities in open-source projects. Enrolled maintainers receive periodic security reports generated by the company's...",
-          "url": "https://www.infoq.com/news/2026/10/anthropic-oss-security-scanner/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "test-automation",
-          "publishedAt": "2026-10-23T09:00:00.000Z",
-          "tags": [
-            "security",
-            "ai"
-          ],
-          "score": 90,
-          "priority": "CRITICAL",
-          "reason": [
-            "security"
           ]
         }
       ]
@@ -658,75 +636,6 @@
           "reason": [
             "openai"
           ]
-        },
-        {
-          "id": "openai-3971cab2d7d4566f",
-          "title": "Lowe’s answers millions of home improvement questions with OpenAI",
-          "summary": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
-          "url": "https://openai.com/index/lowes",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-25T07:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-6c85667bb456be97",
-          "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-          "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
-          "url": "https://openai.com/index/wayfair",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-25T00:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "martin-fowler-5dce93a1c80371a2",
-          "title": "Fragments: September 24",
-          "summary": "Rob Bowley is “flipping tables in his head” with anger at the current media coverage of the danger of AI killing us all The risk I’m worried about isn’t a future machine deciding to wipe us out. It’s ...",
-          "url": "https://martinfowler.com/fragments/2026-09-24.html",
-          "source": "Martin Fowler",
-          "category": "test-automation",
-          "publishedAt": "2026-09-24T15:35:00.000Z",
-          "tags": [
-            "python",
-            "api",
-            "rest",
-            "security",
-            "ai",
-            "llm"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "martin-fowler-049f4e6c926ec9a7",
-          "title": "Healthy Feedback",
-          "summary": "Human collaboration, like most things, improves with feedback. But it's not obvious how to make feedback effective. Anuja Karnik and Sumeet Gayathri Moghe pass on a bevy of tips for healthy feedback, ...",
-          "url": "https://martinfowler.com/articles/healthy-peer-feedback.html",
-          "source": "Martin Fowler",
-          "category": "test-automation",
-          "publishedAt": "2026-09-24T14:10:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
         }
       ]
     }
