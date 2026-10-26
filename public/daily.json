@@ -1,7 +1,54 @@
 {
-  "date": "2026-10-25",
-  "updatedAt": "2026-10-25T12:54:28.181Z",
+  "date": "2026-10-26",
+  "updatedAt": "2026-10-26T14:43:35.827Z",
   "articles": [
+    {
+      "id": "infoq-ae36a57b0072b8da",
+      "title": "PingCAP Breach Exposes Customer Records and Source Code",
+      "summary": "PingCAP recently confirmed unauthorized access to its internal systems and the theft of source code and customer-related data. The attacker, cyber extortion group FulcrumSec, claimed to have stolen 10...",
+      "url": "https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-25T06:27:00.000Z",
+      "tags": [
+        "api",
+        "sql",
+        "ai"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-839ed3637bd9f497",
+      "title": "Building Quality Connections",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/building-quality-connections",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-24T15:16:15.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-bdabc5cd8e1a5a11",
+      "title": "Height debate settled",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/height-debate-settled",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-24T12:45:19.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
     {
       "id": "infoq-30355e3f6d846bca",
       "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
@@ -13,12 +60,11 @@
       "tags": [
         "ai"
       ],
-      "score": 99,
+      "score": 95,
       "priority": "CRITICAL",
       "reason": [
         "mcp",
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -30,11 +76,10 @@
       "category": "test-automation",
       "publishedAt": "2026-10-23T23:06:16.000Z",
       "tags": [],
-      "score": 72,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "qa",
-        "recent"
+        "qa"
       ]
     },
     {
@@ -46,11 +91,9 @@
       "category": "test-automation",
       "publishedAt": "2026-10-23T23:02:01.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "cloudflare-60f970e1df3b48e3",
@@ -63,11 +106,10 @@
       "tags": [
         "ai"
       ],
-      "score": 62,
+      "score": 60,
       "priority": "MEDIUM",
       "reason": [
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -79,11 +121,10 @@
       "category": "test-automation",
       "publishedAt": "2026-10-23T18:06:56.000Z",
       "tags": [],
-      "score": 61,
+      "score": 60,
       "priority": "MEDIUM",
       "reason": [
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -95,11 +136,9 @@
       "category": "test-automation",
       "publishedAt": "2026-10-23T17:55:16.000Z",
       "tags": [],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "openai-ee4c22366ef7e7ab",
@@ -113,59 +152,10 @@
         "api",
         "ai"
       ],
-      "score": 66,
+      "score": 65,
       "priority": "MEDIUM",
       "reason": [
-        "openai",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-c218cf29fe464456",
-      "title": "PHP Dramas, DOG Dexter and BIG Buttons",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/php-dramas-dog-dexter-and-big-buttons",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-23T15:30:11.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-338b2f425efcf938",
-      "title": "Do you practice CUWI (Community Unscripted With Intention)?",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/do-you-practice-cuwi-community-unscripted-with-intention",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-23T15:03:06.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-7c8bc9ea01eaa4b2",
-      "title": "CSIRO Uses Serverless Architecture to Query 100x More Genomic Variants on AWS",
-      "summary": "CSIRO has developed Serverless Beacon, a serverless architecture for querying genomic variants without copying VCF files into a central database. The system combines Amazon S3, Lambda, Athena and Dyna...",
-      "url": "https://www.infoq.com/news/2026/10/csiro-serverless-genomic-variant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-23T14:30:00.000Z",
-      "tags": [
-        "database",
-        "ai"
-      ],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
+        "openai"
       ]
     }
   ]
