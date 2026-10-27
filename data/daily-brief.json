@@ -1,39 +1,18 @@
 {
   "date": "2026-10-27",
-  "updatedAt": "2026-10-27T12:50:53.781Z",
+  "updatedAt": "2026-10-27T13:47:41.307Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news topics",
   "items": [
     {
-      "id": "infoq-fbef7bfdcb8f0aba",
-      "title": "Readyon Builds Four Layer Tenant Isolation for Multi Tenant Amazon EKS",
-      "summary": "ReadyOn has detailed a four-layer tenant isolation architecture for its Harmony platform on Amazon EKS. The design combines Kubernetes namespaces, dedicated Karpenter node pools, VPC security groups, ...",
-      "url": "https://www.infoq.com/news/2026/10/readyon-four-layer-isolation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-26T14:07:00.000Z",
-      "tags": [
-        "kubernetes",
-        "database",
-        "security",
-        "ai"
-      ],
-      "score": 94,
-      "priority": "CRITICAL",
-      "reason": [
-        "security",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-e407615edda3db91",
-      "title": "The MoTaverse helps you with squish that imposter syndrome away",
+      "id": "ministry-of-testing-743e8cfcb7f26878",
+      "title": "Timber!  ",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/the-motaverse-helps-you-with-squish-that-imposter-syndrome-away",
+      "url": "https://www.ministryoftesting.com/moments/timber",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-26T12:47:47.000Z",
+      "publishedAt": "2026-10-27T13:24:04.000Z",
       "tags": [],
       "score": 54,
       "priority": "MEDIUM",
@@ -42,13 +21,66 @@
       ]
     },
     {
-      "id": "ministry-of-testing-50738e5301f4e540",
-      "title": "AI Is Shipping Code Faster. Can Your Tests Catch What Changed?",
+      "id": "cloudflare-b98b75e5e3efe8c1",
+      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+      "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to he...",
+      "url": "https://blog.cloudflare.com/php-ctf/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-10-27T13:00:00.000Z",
+      "tags": [
+        "security",
+        "bug"
+      ],
+      "score": 104,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "cloudflare-f21bc890ebec1e8c",
+      "title": "What took the Internet offline in Q3 2026",
+      "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impact...",
+      "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+      "source": "Cloudflare",
+      "category": "test-automation",
+      "publishedAt": "2026-10-27T13:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 64,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-34592672acb91ada",
+      "title": "New Chapter at work",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/ai-is-shipping-code-faster-can-your-tests-catch-what-changed",
+      "url": "https://www.ministryoftesting.com/moments/new-chapter-at-work",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-26T11:55:55.000Z",
+      "publishedAt": "2026-10-27T11:35:17.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-7546b177da9d4a42",
+      "title": "How Anthropic Redesigned Source Control for AI-Driven Development",
+      "summary": "Anthropic recently detailed how it migrated its monorepo from Git to Scion. Scion is a source control system that moves repository operations to the server side and uses content-addressed storage and ...",
+      "url": "https://www.infoq.com/news/2026/10/anthropic-source-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-27T11:25:00.000Z",
       "tags": [
         "ai"
       ],
@@ -59,16 +91,32 @@
       ]
     },
     {
-      "id": "infoq-62111b11e048ea31",
-      "title": "Article: The Evolution of Agentic Harnesses: From Chains to Graph to Code",
-      "summary": "Agentic LLM systems have moved from linear prompt chains to graph-based workflows and, more recently, code-executing harnesses. Chains are simple but fragile, graphs add branching, retries, and valida...",
-      "url": "https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "ministry-of-testing-d824fd6df57f4592",
+      "title": "AI Risk List: System Safety, Failures & Limitations (7)",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/insights/ai-risk-list-system-safety-failures-limitations-7",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-27T10:55:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-b9dd29c107e20436",
+      "title": "AWS Shows Use of AI Agents to Triage Linux Kernel CVEs",
+      "summary": "Engineers from Amazon Web Services (AWS) have described how the team that maintains the Linux kernel for EC2 infrastructure handles kernel CVEs. The process combines an automated filter, an AI agent a...",
+      "url": "https://www.infoq.com/news/2026/10/aws-ai-agents-linux-kernel-cves/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-26T11:00:00.000Z",
+      "publishedAt": "2026-10-27T09:00:00.000Z",
       "tags": [
-        "ai",
-        "llm"
+        "ai"
       ],
       "score": 74,
       "priority": "HIGH",
@@ -78,30 +126,13 @@
       ]
     },
     {
-      "id": "ministry-of-testing-598bfd1da99414c7",
-      "title": "Herding AI cats: What rules do you include in your Instructions to control your ai-assisted development?",
+      "id": "ministry-of-testing-da2b921356b5fc35",
+      "title": "When life imitates art",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/herding-ai-cats-what-rules-do-you-include-in-your-instructions-to-control-your-ai-assisted-development",
+      "url": "https://www.ministryoftesting.com/moments/when-life-imitates-art",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-26T09:26:18.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-8a2fca032a951a3b",
-      "title": "Bleeding job titles: Our roles are becoming more specialised, not generalised",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/newsletter/bleeding-job-titles-our-roles-are-becoming-more-specialised-not-generalised",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-26T08:39:00.000Z",
+      "publishedAt": "2026-10-27T08:58:29.000Z",
       "tags": [],
       "score": 54,
       "priority": "MEDIUM",
@@ -110,76 +141,36 @@
       ]
     },
     {
-      "id": "infoq-38f72e7035968c65",
-      "title": "MCP C# SDK 2.0 Makes HTTP Stateless by Default and Adds Multi Round-Trip Requests",
-      "summary": "Microsoft announced version 2.0 of the official MCP C# SDK, which implements the 2026-07-28 revision of the Model Context Protocol with stateless HTTP servers by default, standardised routing headers ...",
-      "url": "https://www.infoq.com/news/2026/10/MCP-CSharp-SDK-Stateless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-f7b57dce43e0e8af",
+      "title": "Cloudflare and VoidZero Introduce tsrs: An AI-Generated Rust Port of TypeScript",
+      "summary": "Cloudflare, VoidZero and Max Schwenk announced tsrs, an experimental Rust port of the TypeScript compiler, built with the TypeScript team's involvement. Cloudflare claims up to 8x faster checking and ...",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-26T08:00:00.000Z",
+      "publishedAt": "2026-10-27T07:34:00.000Z",
       "tags": [
-        "api",
-        "release"
-      ],
-      "score": 78,
-      "priority": "HIGH",
-      "reason": [
-        "mcp",
-        "recent"
-      ]
-    },
-    {
-      "id": "openai-7e73eebe3e909303",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "source": "OpenAI",
-      "category": "test-automation",
-      "publishedAt": "2026-10-26T07:00:00.000Z",
-      "tags": [
-        "testing",
+        "typescript",
         "ai"
       ],
-      "score": 93,
-      "priority": "CRITICAL",
+      "score": 68,
+      "priority": "MEDIUM",
       "reason": [
-        "testing",
-        "openai",
+        "typescript",
         "recent"
       ]
     },
     {
-      "id": "infoq-54e042a2f8293cf6",
-      "title": "PHP Patches Two Critical RCE Flaws That Were Already Under Attack",
-      "summary": "PHP released 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to fix two critical vulnerabilities allowing unauthenticated remote code execution. Amazon recorded an exploitation attempt four days before the patches...",
-      "url": "https://www.infoq.com/news/2026/10/php-critical-rce-patches/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-e48ea7505a65ba11",
+      "title": "Developers Reporting Double-Digit Weekly Time Savings From AI Fell From 68% to 26%",
+      "summary": "Atlassian’s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less frict...",
+      "url": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-25T18:07:00.000Z",
+      "publishedAt": "2026-10-27T04:45:00.000Z",
       "tags": [
-        "release"
+        "ai"
       ],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-81d4360a64a22917",
-      "title": "PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs",
-      "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS ...",
-      "url": "https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-25T18:00:00.000Z",
-      "tags": [
-        "release",
-        "ai",
-        "llm"
-      ],
-      "score": 51,
+      "score": 53,
       "priority": "MEDIUM",
       "reason": [
         "recent"
