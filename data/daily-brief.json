@@ -1,19 +1,24 @@
 {
-  "date": "2026-10-27",
-  "updatedAt": "2026-10-27T13:47:41.307Z",
+  "date": "2026-10-28",
+  "updatedAt": "2026-10-28T14:45:09.064Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news topics",
   "items": [
     {
-      "id": "ministry-of-testing-743e8cfcb7f26878",
-      "title": "Timber!  ",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/timber",
-      "source": "Ministry of Testing",
+      "id": "infoq-e9a3e9ee976fb916",
+      "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
+      "summary": "Airbnb extended its Chronon feature platform with Push Mode and Near Real-Time Model Transform to update sequence-based recommendation embeddings within seconds. The architecture reduced embedding sta...",
+      "url": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-27T13:24:04.000Z",
-      "tags": [],
+      "publishedAt": "2026-10-28T13:53:00.000Z",
+      "tags": [
+        "testing",
+        "update",
+        "feature",
+        "ai"
+      ],
       "score": 54,
       "priority": "MEDIUM",
       "reason": [
@@ -21,51 +26,90 @@
       ]
     },
     {
-      "id": "cloudflare-b98b75e5e3efe8c1",
-      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-      "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to he...",
-      "url": "https://blog.cloudflare.com/php-ctf/",
-      "source": "Cloudflare",
+      "id": "martin-fowler-f10c14217170b02a",
+      "title": "Fragments: October 28",
+      "summary": "Andrej Karpathy sees a widening gap in how people see LLM capabilities. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of ...",
+      "url": "https://martinfowler.com/fragments/2026-10-28.html",
+      "source": "Martin Fowler",
       "category": "test-automation",
-      "publishedAt": "2026-10-27T13:00:00.000Z",
+      "publishedAt": "2026-10-28T12:55:00.000Z",
+      "tags": [
+        "automation",
+        "api",
+        "security",
+        "update",
+        "ai",
+        "llm",
+        "machine-learning"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-f604fe7b9df78326",
+      "title": "Your UI and API Tests Pass. Follow the Failure They Missed",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/your-ui-and-api-tests-pass-follow-the-failure-they-missed",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-28T11:51:58.000Z",
+      "tags": [
+        "api",
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-ba056714cdb7086f",
+      "title": "Presentation: Wrangling Telemetry at Scale: A Guide to Self-Hosted Observability",
+      "summary": "Colin Douch shares battle-tested strategies for building and scaling self-hosted observability stacks. He explains how to effectively correlate metrics, structured logs, and distributed traces using o...",
+      "url": "https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-28T11:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-8731427655af99dc",
+      "title": "Microsoft's October Security Update Fixes 1,400+ Vulnerabilities, One Exploited in the Wild",
+      "summary": "Microsoft's latest monthly security update addresses 1415 vulnerabilities across multiple products. One vulnerability affecting Windows Shell has been exploited in the wild, while 85 are classified as...",
+      "url": "https://www.infoq.com/news/2026/10/microsoft-october-2026-patch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-28T10:30:00.000Z",
       "tags": [
         "security",
-        "bug"
+        "update"
       ],
-      "score": 104,
+      "score": 94,
       "priority": "CRITICAL",
       "reason": [
         "security",
-        "cloudflare",
         "recent"
       ]
     },
     {
-      "id": "cloudflare-f21bc890ebec1e8c",
-      "title": "What took the Internet offline in Q3 2026",
-      "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impact...",
-      "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
-      "source": "Cloudflare",
-      "category": "test-automation",
-      "publishedAt": "2026-10-27T13:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 64,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-34592672acb91ada",
-      "title": "New Chapter at work",
+      "id": "ministry-of-testing-4d65fa4d2bc10f58",
+      "title": "Do not expect to learn fast. Find joy in the process",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/new-chapter-at-work",
+      "url": "https://www.ministryoftesting.com/moments/do-not-expect-to-learn-fast-find-joy-in-the-process",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-27T11:35:17.000Z",
+      "publishedAt": "2026-10-28T09:47:20.000Z",
       "tags": [],
       "score": 54,
       "priority": "MEDIUM",
@@ -74,14 +118,15 @@
       ]
     },
     {
-      "id": "infoq-7546b177da9d4a42",
-      "title": "How Anthropic Redesigned Source Control for AI-Driven Development",
-      "summary": "Anthropic recently detailed how it migrated its monorepo from Git to Scion. Scion is a source control system that moves repository operations to the server side and uses content-addressed storage and ...",
-      "url": "https://www.infoq.com/news/2026/10/anthropic-source-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-3734b29c8775a8ac",
+      "title": "Chrome Opens Trial for the Email Verification API: Letting Sites Verify Without Sending Emails",
+      "summary": "Google has opened a Chrome origin trial for the Email Verification API, a WICG proposal that lets the browser confirm email ownership without sending a message. Gmail is the first provider. Developers...",
+      "url": "https://www.infoq.com/news/2026/10/chrome-email-verification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-27T11:25:00.000Z",
+      "publishedAt": "2026-10-28T09:32:00.000Z",
       "tags": [
+        "api",
         "ai"
       ],
       "score": 54,
@@ -91,86 +136,56 @@
       ]
     },
     {
-      "id": "ministry-of-testing-d824fd6df57f4592",
-      "title": "AI Risk List: System Safety, Failures & Limitations (7)",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/insights/ai-risk-list-system-safety-failures-limitations-7",
-      "source": "Ministry of Testing",
+      "id": "openai-67c6b18b0a76451d",
+      "title": "Legora is building the agentic operating system for legal work",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "source": "OpenAI",
       "category": "test-automation",
-      "publishedAt": "2026-10-27T10:55:00.000Z",
+      "publishedAt": "2026-10-28T09:30:00.000Z",
       "tags": [
         "ai"
       ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-b9dd29c107e20436",
-      "title": "AWS Shows Use of AI Agents to Triage Linux Kernel CVEs",
-      "summary": "Engineers from Amazon Web Services (AWS) have described how the team that maintains the Linux kernel for EC2 infrastructure handles kernel CVEs. The process combines an automated filter, an AI agent a...",
-      "url": "https://www.infoq.com/news/2026/10/aws-ai-agents-linux-kernel-cves/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-27T09:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 74,
+      "score": 89,
       "priority": "HIGH",
       "reason": [
         "agent",
+        "openai",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-da2b921356b5fc35",
-      "title": "When life imitates art",
+      "id": "ministry-of-testing-92b43cec6eea7813",
+      "title": " New certificate: Rediscover exploratory testing for the age of AI",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/when-life-imitates-art",
+      "url": "https://www.ministryoftesting.com/news/new-certificate-rediscover-exploratory-testing-for-the-age-of-ai",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-27T08:58:29.000Z",
-      "tags": [],
+      "publishedAt": "2026-10-28T09:00:00.000Z",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "score": 79,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-0082254d4803d6b9",
+      "title": "Article: Building an Offline-First AI Coding Tutor for Low-End Android Phones",
+      "summary": "This article is about engineering an offline-first app for low-end devices based on our experience in Nigeria and India. The interesting problems in this space are storage, quota, cold start, and fail...",
+      "url": "https://www.infoq.com/articles/building-offline-first-android-app-low-end-devices/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-28T09:00:00.000Z",
+      "tags": [
+        "rest",
+        "ai"
+      ],
       "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-f7b57dce43e0e8af",
-      "title": "Cloudflare and VoidZero Introduce tsrs: An AI-Generated Rust Port of TypeScript",
-      "summary": "Cloudflare, VoidZero and Max Schwenk announced tsrs, an experimental Rust port of the TypeScript compiler, built with the TypeScript team's involvement. Cloudflare claims up to 8x faster checking and ...",
-      "url": "https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-27T07:34:00.000Z",
-      "tags": [
-        "typescript",
-        "ai"
-      ],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "typescript",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-e48ea7505a65ba11",
-      "title": "Developers Reporting Double-Digit Weekly Time Savings From AI Fell From 68% to 26%",
-      "summary": "Atlassian’s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less frict...",
-      "url": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-27T04:45:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 53,
       "priority": "MEDIUM",
       "reason": [
         "recent"
