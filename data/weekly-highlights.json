@@ -5,6 +5,325 @@
       "summary": "",
       "items": [
         {
+          "id": "martin-fowler-815e9f76383a9012",
+          "title": "Bliki: LLM Voice",
+          "summary": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the loa...",
+          "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+          "source": "Martin Fowler",
+          "category": "test-automation",
+          "publishedAt": "2026-10-29T14:28:00.000Z",
+          "tags": [
+            "react",
+            "rest",
+            "ai",
+            "llm"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "martin-fowler-540b1c17cdd19889",
+          "title": "Why are good developers so wary of agentic development?",
+          "summary": "TL;DRGood developers’ caution about agentic development comes from knowing that built isn’t the same as working in production. I’ve been surprised by how many excellent developers have been hesitant t...",
+          "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
+          "source": "Martin Fowler",
+          "category": "test-automation",
+          "publishedAt": "2026-10-29T13:50:00.000Z",
+          "tags": [
+            "testing",
+            "devops",
+            "rest",
+            "feature",
+            "ai",
+            "machine-learning"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-93dde8cc7b16e732",
+          "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+          "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and th...",
+          "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+          "source": "Cloudflare",
+          "category": "test-automation",
+          "publishedAt": "2026-10-29T12:55:00.000Z",
+          "tags": [],
+          "score": 64,
+          "priority": "MEDIUM",
+          "reason": [
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-788cf89c57392f52",
+          "title": "How to Make Artificial Intelligence More Environmentally Sustainable",
+          "summary": "IT is responsible for about 2 - 4% of all global emissions, and electricity use at Microsoft and Google has climbed because of AI, according to their own reports. Sustainability ought to be a top-leve...",
+          "url": "https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-29T11:41:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-99d5dc21fb759d7f",
+          "title": "QCon AI New York 2026 Program Committee Picks: Agent Identity, Context Costs, and Open-Source Infere",
+          "summary": "Who authorizes an agent’s actions, and how should teams manage growing context costs? The QCon AI New York 2026 program committee shares six session picks that tackle these questions, alongside open-s...",
+          "url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-29T11:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-66f42a1c0c6882a5",
+          "title": "User story",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/user-story",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-29T10:26:23.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-b96b520a2635f90e",
+          "title": "Anthropic Says Nobody Needs a Mental Model of Claude Code. Practitioners Are Testing That",
+          "summary": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents ...",
+          "url": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-29T09:58:00.000Z",
+          "tags": [
+            "testing",
+            "ai"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-3e9a6c48f7097d3a",
+          "title": "Datadog Builds a Specialist AI Model for SRE Investigations",
+          "summary": "Datadog has released Scout, a model trained to investigate production problems. It runs inside Bits Investigation, the company's AI SRE product, where it can pick up an alert, look through telemetry a...",
+          "url": "https://www.infoq.com/news/2026/10/datadog-scout-sre-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-29T09:00:00.000Z",
+          "tags": [
+            "release",
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "release",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-24c0c3b16e918df9",
+          "title": "Cloudflare Introduces Web Search API for AI Applications",
+          "summary": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports b...",
+          "url": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-10-29T07:14:00.000Z",
+          "tags": [
+            "api",
+            "rest",
+            "ai"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-2fff0aae00c88ada",
+          "title": "Sockpuppet Account",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/sockpuppet-account",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-28T19:18:34.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-5edd43827485ca5a",
+          "title": "Machine Check Exception (MCE)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/machine-check-exception-mce",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-28T19:17:50.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-9bbe6c646bae142f",
+          "title": "Linux Unified Key Setup (LUKS)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/linux-unified-key-setup-luks",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-28T19:16:58.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-7e6cf633efc895ba",
+          "title": "Bootloader",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/bootloader",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-28T19:04:50.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-2e7852ea69a57491",
+          "title": "Backdoor",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/backdoor",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-28T19:02:48.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-130428390d42231f",
+          "title": "Black Swan Event",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/black-swan-event",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-28T19:01:41.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-3a41f514491e8f65",
+          "title": "Blue Screen of Death (BSoD)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/blue-screen-of-death-bsod",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-28T19:00:12.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-e21c16eaae121101",
+          "title": "TWiC or Treat: the otherworldly powers of community people",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/twic-or-treat-the-otherworldly-powers-of-community-people",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-28T18:09:00.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-1ae7d9b80665c085",
+          "title": "What Is smoke testing in software testing? Definition, examples, and when to run it",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/insights/what-is-smoke-testing-in-software-testing-definition-examples-and-when-to-run-it",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-28T15:45:00.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 76,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-816384e7b24cbe36",
+          "title": "From test management to quality management systems",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/from-test-management-to-quality-management-systems",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-28T15:40:01.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
           "id": "infoq-e9a3e9ee976fb916",
           "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
           "summary": "Airbnb extended its Chronon feature platform with Push Mode and Near Real-Time Model Transform to update sequence-based recommendation embeddings within seconds. The architecture reduced embedding sta...",
@@ -18,10 +337,26 @@
             "feature",
             "ai"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "openai-a395c7da350b5086",
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-28T13:15:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 85,
+          "priority": "HIGH",
           "reason": [
-            "recent"
+            "agent",
+            "openai"
           ]
         },
         {
@@ -41,11 +376,9 @@
             "llm",
             "machine-learning"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-f604fe7b9df78326",
@@ -59,11 +392,9 @@
             "api",
             "ai"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-ba056714cdb7086f",
@@ -76,11 +407,9 @@
           "tags": [
             "ai"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-8731427655af99dc",
@@ -94,11 +423,27 @@
             "security",
             "update"
           ],
-          "score": 94,
+          "score": 90,
           "priority": "CRITICAL",
           "reason": [
-            "security",
-            "recent"
+            "security"
+          ]
+        },
+        {
+          "id": "openai-e2ed7680c50ae3f0",
+          "title": "The future of the firm",
+          "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+          "url": "https://openai.com/index/the-future-of-the-firm",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-10-28T10:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
           ]
         },
         {
@@ -110,11 +455,9 @@
           "category": "test-automation",
           "publishedAt": "2026-10-28T09:47:20.000Z",
           "tags": [],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-3734b29c8775a8ac",
@@ -128,29 +471,26 @@
             "api",
             "ai"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "openai-67c6b18b0a76451d",
           "title": "Legora is building the agentic operating system for legal work",
           "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-          "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+          "url": "https://openai.com/index/legora",
           "source": "OpenAI",
           "category": "test-automation",
           "publishedAt": "2026-10-28T09:30:00.000Z",
           "tags": [
             "ai"
           ],
-          "score": 89,
+          "score": 85,
           "priority": "HIGH",
           "reason": [
             "agent",
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -165,11 +505,10 @@
             "testing",
             "ai"
           ],
-          "score": 79,
+          "score": 75,
           "priority": "HIGH",
           "reason": [
-            "testing",
-            "recent"
+            "testing"
           ]
         },
         {
@@ -184,11 +523,9 @@
             "rest",
             "ai"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-f59c358a48014f6f",
@@ -201,11 +538,9 @@
           "tags": [
             "ai"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "openai-1e3ebf94e41ebe19",
@@ -218,12 +553,11 @@
           "tags": [
             "ai"
           ],
-          "score": 86,
+          "score": 85,
           "priority": "HIGH",
           "reason": [
             "agent",
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -5748,111 +6082,6 @@
           "publishedAt": "2026-09-29T17:00:00.000Z",
           "tags": [
             "api"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "martin-fowler-4be9081f9e05fb91",
-          "title": "Bliki: Sensible Default",
-          "summary": "A Sensible Default is a practice that, absent some overriding context, should be used when carrying out a certain kind of task. In software development such sensible defaults might include things like...",
-          "url": "https://martinfowler.com/bliki/SensibleDefault.html",
-          "source": "Martin Fowler",
-          "category": "test-automation",
-          "publishedAt": "2026-09-29T13:43:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "martin-fowler-e9af4baca2be2021",
-          "title": "Fragments: September 29",
-          "summary": "Simon Willison: The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder We can do amazing things with them, but unlocking their full p...",
-          "url": "https://martinfowler.com/fragments/2026-09-29.html",
-          "source": "Martin Fowler",
-          "category": "test-automation",
-          "publishedAt": "2026-09-29T12:41:00.000Z",
-          "tags": [
-            "rest",
-            "ai",
-            "llm"
-          ],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "agent"
-          ]
-        },
-        {
-          "id": "openai-6071f63e21f64254",
-          "title": "DevDay 2026 Recap",
-          "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-          "url": "https://openai.com/index/devday-2026-recap",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-29T10:00:00.000Z",
-          "tags": [
-            "api",
-            "security",
-            "ai"
-          ],
-          "score": 105,
-          "priority": "CRITICAL",
-          "reason": [
-            "security",
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-dec620cb7225d243",
-          "title": "Introducing dots",
-          "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-          "url": "https://openai.com/index/introducing-dots",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-29T00:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-50d71cd52400f551",
-          "title": "How we will do better for Australia",
-          "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-          "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-28T19:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-2fc54b690d7b20a2",
-          "title": "Towards safety cases for frontier AI training",
-          "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-          "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-09-28T19:00:00.000Z",
-          "tags": [
-            "ai"
           ],
           "score": 65,
           "priority": "MEDIUM",

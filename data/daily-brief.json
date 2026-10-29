@@ -1,63 +1,78 @@
 {
-  "date": "2026-10-28",
-  "updatedAt": "2026-10-28T14:45:09.064Z",
+  "date": "2026-10-29",
+  "updatedAt": "2026-10-29T14:49:16.824Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news topics",
   "items": [
     {
-      "id": "infoq-e9a3e9ee976fb916",
-      "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
-      "summary": "Airbnb extended its Chronon feature platform with Push Mode and Near Real-Time Model Transform to update sequence-based recommendation embeddings within seconds. The architecture reduced embedding sta...",
-      "url": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-28T13:53:00.000Z",
-      "tags": [
-        "testing",
-        "update",
-        "feature",
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "martin-fowler-f10c14217170b02a",
-      "title": "Fragments: October 28",
-      "summary": "Andrej Karpathy sees a widening gap in how people see LLM capabilities. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of ...",
-      "url": "https://martinfowler.com/fragments/2026-10-28.html",
+      "id": "martin-fowler-815e9f76383a9012",
+      "title": "Bliki: LLM Voice",
+      "summary": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the loa...",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
       "source": "Martin Fowler",
       "category": "test-automation",
-      "publishedAt": "2026-10-28T12:55:00.000Z",
+      "publishedAt": "2026-10-29T14:28:00.000Z",
       "tags": [
-        "automation",
-        "api",
-        "security",
-        "update",
+        "react",
+        "rest",
         "ai",
-        "llm",
+        "llm"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "martin-fowler-540b1c17cdd19889",
+      "title": "Why are good developers so wary of agentic development?",
+      "summary": "TL;DRGood developers’ caution about agentic development comes from knowing that built isn’t the same as working in production. I’ve been surprised by how many excellent developers have been hesitant t...",
+      "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
+      "source": "Martin Fowler",
+      "category": "test-automation",
+      "publishedAt": "2026-10-29T13:50:00.000Z",
+      "tags": [
+        "testing",
+        "devops",
+        "rest",
+        "feature",
+        "ai",
         "machine-learning"
       ],
-      "score": 54,
-      "priority": "MEDIUM",
+      "score": 74,
+      "priority": "HIGH",
       "reason": [
+        "agent",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-f604fe7b9df78326",
-      "title": "Your UI and API Tests Pass. Follow the Failure They Missed",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/your-ui-and-api-tests-pass-follow-the-failure-they-missed",
-      "source": "Ministry of Testing",
+      "id": "cloudflare-93dde8cc7b16e732",
+      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+      "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and th...",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+      "source": "Cloudflare",
       "category": "test-automation",
-      "publishedAt": "2026-10-28T11:51:58.000Z",
+      "publishedAt": "2026-10-29T12:55:00.000Z",
+      "tags": [],
+      "score": 64,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-788cf89c57392f52",
+      "title": "How to Make Artificial Intelligence More Environmentally Sustainable",
+      "summary": "IT is responsible for about 2 - 4% of all global emissions, and electricity use at Microsoft and Google has climbed because of AI, according to their own reports. Sustainability ought to be a top-leve...",
+      "url": "https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-29T11:41:00.000Z",
       "tags": [
-        "api",
         "ai"
       ],
       "score": 54,
@@ -67,49 +82,31 @@
       ]
     },
     {
-      "id": "infoq-ba056714cdb7086f",
-      "title": "Presentation: Wrangling Telemetry at Scale: A Guide to Self-Hosted Observability",
-      "summary": "Colin Douch shares battle-tested strategies for building and scaling self-hosted observability stacks. He explains how to effectively correlate metrics, structured logs, and distributed traces using o...",
-      "url": "https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-99d5dc21fb759d7f",
+      "title": "QCon AI New York 2026 Program Committee Picks: Agent Identity, Context Costs, and Open-Source Infere",
+      "summary": "Who authorizes an agent’s actions, and how should teams manage growing context costs? The QCon AI New York 2026 program committee shares six session picks that tackle these questions, alongside open-s...",
+      "url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-28T11:00:00.000Z",
+      "publishedAt": "2026-10-29T11:00:00.000Z",
       "tags": [
         "ai"
       ],
-      "score": 54,
-      "priority": "MEDIUM",
+      "score": 74,
+      "priority": "HIGH",
       "reason": [
+        "agent",
         "recent"
       ]
     },
     {
-      "id": "infoq-8731427655af99dc",
-      "title": "Microsoft's October Security Update Fixes 1,400+ Vulnerabilities, One Exploited in the Wild",
-      "summary": "Microsoft's latest monthly security update addresses 1415 vulnerabilities across multiple products. One vulnerability affecting Windows Shell has been exploited in the wild, while 85 are classified as...",
-      "url": "https://www.infoq.com/news/2026/10/microsoft-october-2026-patch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "test-automation",
-      "publishedAt": "2026-10-28T10:30:00.000Z",
-      "tags": [
-        "security",
-        "update"
-      ],
-      "score": 94,
-      "priority": "CRITICAL",
-      "reason": [
-        "security",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-4d65fa4d2bc10f58",
-      "title": "Do not expect to learn fast. Find joy in the process",
+      "id": "ministry-of-testing-66f42a1c0c6882a5",
+      "title": "User story",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/do-not-expect-to-learn-fast-find-joy-in-the-process",
+      "url": "https://www.ministryoftesting.com/software-testing-glossary/user-story",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-28T09:47:20.000Z",
+      "publishedAt": "2026-10-29T10:26:23.000Z",
       "tags": [],
       "score": 54,
       "priority": "MEDIUM",
@@ -118,50 +115,13 @@
       ]
     },
     {
-      "id": "infoq-3734b29c8775a8ac",
-      "title": "Chrome Opens Trial for the Email Verification API: Letting Sites Verify Without Sending Emails",
-      "summary": "Google has opened a Chrome origin trial for the Email Verification API, a WICG proposal that lets the browser confirm email ownership without sending a message. Gmail is the first provider. Developers...",
-      "url": "https://www.infoq.com/news/2026/10/chrome-email-verification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-b96b520a2635f90e",
+      "title": "Anthropic Says Nobody Needs a Mental Model of Claude Code. Practitioners Are Testing That",
+      "summary": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents ...",
+      "url": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-28T09:32:00.000Z",
-      "tags": [
-        "api",
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "openai-67c6b18b0a76451d",
-      "title": "Legora is building the agentic operating system for legal work",
-      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-      "source": "OpenAI",
-      "category": "test-automation",
-      "publishedAt": "2026-10-28T09:30:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 89,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "openai",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-92b43cec6eea7813",
-      "title": " New certificate: Rediscover exploratory testing for the age of AI",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/news/new-certificate-rediscover-exploratory-testing-for-the-age-of-ai",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-28T09:00:00.000Z",
+      "publishedAt": "2026-10-29T09:58:00.000Z",
       "tags": [
         "testing",
         "ai"
@@ -174,18 +134,53 @@
       ]
     },
     {
-      "id": "infoq-0082254d4803d6b9",
-      "title": "Article: Building an Offline-First AI Coding Tutor for Low-End Android Phones",
-      "summary": "This article is about engineering an offline-first app for low-end devices based on our experience in Nigeria and India. The interesting problems in this space are storage, quota, cold start, and fail...",
-      "url": "https://www.infoq.com/articles/building-offline-first-android-app-low-end-devices/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-3e9a6c48f7097d3a",
+      "title": "Datadog Builds a Specialist AI Model for SRE Investigations",
+      "summary": "Datadog has released Scout, a model trained to investigate production problems. It runs inside Bits Investigation, the company's AI SRE product, where it can pick up an alert, look through telemetry a...",
+      "url": "https://www.infoq.com/news/2026/10/datadog-scout-sre-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "test-automation",
-      "publishedAt": "2026-10-28T09:00:00.000Z",
+      "publishedAt": "2026-10-29T09:00:00.000Z",
       "tags": [
+        "release",
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-24c0c3b16e918df9",
+      "title": "Cloudflare Introduces Web Search API for AI Applications",
+      "summary": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports b...",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "test-automation",
+      "publishedAt": "2026-10-29T07:14:00.000Z",
+      "tags": [
+        "api",
         "rest",
         "ai"
       ],
-      "score": 54,
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-2fff0aae00c88ada",
+      "title": "Sockpuppet Account",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/software-testing-glossary/sockpuppet-account",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-28T19:18:34.000Z",
+      "tags": [],
+      "score": 51,
       "priority": "MEDIUM",
       "reason": [
         "recent"
