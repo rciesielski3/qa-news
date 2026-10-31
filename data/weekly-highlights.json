@@ -10,7 +10,7 @@
           "summary": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the loa...",
           "url": "https://martinfowler.com/bliki/LLM-Voice.html",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-29T14:28:00.000Z",
           "tags": [
             "react",
@@ -30,7 +30,7 @@
           "summary": "TL;DRGood developers’ caution about agentic development comes from knowing that built isn’t the same as working in production. I’ve been surprised by how many excellent developers have been hesitant t...",
           "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-29T13:50:00.000Z",
           "tags": [
             "testing",
@@ -53,7 +53,7 @@
           "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and th...",
           "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-29T12:55:00.000Z",
           "tags": [],
           "score": 64,
@@ -69,7 +69,7 @@
           "summary": "IT is responsible for about 2 - 4% of all global emissions, and electricity use at Microsoft and Google has climbed because of AI, according to their own reports. Sustainability ought to be a top-leve...",
           "url": "https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-29T11:41:00.000Z",
           "tags": [
             "ai"
@@ -86,7 +86,7 @@
           "summary": "Who authorizes an agent’s actions, and how should teams manage growing context costs? The QCon AI New York 2026 program committee shares six session picks that tackle these questions, alongside open-s...",
           "url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-29T11:00:00.000Z",
           "tags": [
             "ai"
@@ -119,7 +119,7 @@
           "summary": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents ...",
           "url": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-29T09:58:00.000Z",
           "tags": [
             "testing",
@@ -138,7 +138,7 @@
           "summary": "Datadog has released Scout, a model trained to investigate production problems. It runs inside Bits Investigation, the company's AI SRE product, where it can pick up an alert, look through telemetry a...",
           "url": "https://www.infoq.com/news/2026/10/datadog-scout-sre-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-29T09:00:00.000Z",
           "tags": [
             "release",
@@ -157,7 +157,7 @@
           "summary": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports b...",
           "url": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-29T07:14:00.000Z",
           "tags": [
             "api",
@@ -296,7 +296,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/insights/what-is-smoke-testing-in-software-testing-definition-examples-and-when-to-run-it",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-28T15:45:00.000Z",
           "tags": [
             "testing"
@@ -329,7 +329,7 @@
           "summary": "Airbnb extended its Chronon feature platform with Push Mode and Near Real-Time Model Transform to update sequence-based recommendation embeddings within seconds. The architecture reduced embedding sta...",
           "url": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-28T13:53:00.000Z",
           "tags": [
             "testing",
@@ -347,7 +347,7 @@
           "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
           "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-28T13:15:00.000Z",
           "tags": [
             "ai"
@@ -365,7 +365,7 @@
           "summary": "Andrej Karpathy sees a widening gap in how people see LLM capabilities. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of ...",
           "url": "https://martinfowler.com/fragments/2026-10-28.html",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-28T12:55:00.000Z",
           "tags": [
             "automation",
@@ -386,7 +386,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/your-ui-and-api-tests-pass-follow-the-failure-they-missed",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-28T11:51:58.000Z",
           "tags": [
             "api",
@@ -402,7 +402,7 @@
           "summary": "Colin Douch shares battle-tested strategies for building and scaling self-hosted observability stacks. He explains how to effectively correlate metrics, structured logs, and distributed traces using o...",
           "url": "https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-28T11:00:00.000Z",
           "tags": [
             "ai"
@@ -417,7 +417,7 @@
           "summary": "Microsoft's latest monthly security update addresses 1415 vulnerabilities across multiple products. One vulnerability affecting Windows Shell has been exploited in the wild, while 85 are classified as...",
           "url": "https://www.infoq.com/news/2026/10/microsoft-october-2026-patch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-28T10:30:00.000Z",
           "tags": [
             "security",
@@ -435,7 +435,7 @@
           "summary": "How AI might enter the org chart—beneath, beside, and between us.",
           "url": "https://openai.com/index/the-future-of-the-firm",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-28T10:00:00.000Z",
           "tags": [
             "ai"
@@ -465,7 +465,7 @@
           "summary": "Google has opened a Chrome origin trial for the Email Verification API, a WICG proposal that lets the browser confirm email ownership without sending a message. Gmail is the first provider. Developers...",
           "url": "https://www.infoq.com/news/2026/10/chrome-email-verification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-28T09:32:00.000Z",
           "tags": [
             "api",
@@ -481,7 +481,7 @@
           "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
           "url": "https://openai.com/index/legora",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-28T09:30:00.000Z",
           "tags": [
             "ai"
@@ -499,7 +499,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/news/new-certificate-rediscover-exploratory-testing-for-the-age-of-ai",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-28T09:00:00.000Z",
           "tags": [
             "testing",
@@ -517,7 +517,7 @@
           "summary": "This article is about engineering an offline-first app for low-end devices based on our experience in Nigeria and India. The interesting problems in this space are storage, quota, cold start, and fail...",
           "url": "https://www.infoq.com/articles/building-offline-first-android-app-low-end-devices/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-28T09:00:00.000Z",
           "tags": [
             "rest",
@@ -533,7 +533,7 @@
           "summary": "Cloudflare has put Quicksilver, the internal key-value store behind nearly every request it serves, into private beta as a Workers KV mode. Reads resolve in 1.62 ms at p99 against 287 ms for classic K...",
           "url": "https://www.infoq.com/news/2026/10/workers-kv-instant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-28T08:57:00.000Z",
           "tags": [
             "ai"
@@ -548,7 +548,7 @@
           "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
           "url": "https://openai.com/index/retell-ai",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-27T15:00:00.000Z",
           "tags": [
             "ai"
@@ -594,7 +594,7 @@
           "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to he...",
           "url": "https://blog.cloudflare.com/php-ctf/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-27T13:00:00.000Z",
           "tags": [
             "security",
@@ -613,7 +613,7 @@
           "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impact...",
           "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-27T13:00:00.000Z",
           "tags": [
             "ai"
@@ -643,7 +643,7 @@
           "summary": "Anthropic recently detailed how it migrated its monorepo from Git to Scion. Scion is a source control system that moves repository operations to the server side and uses content-addressed storage and ...",
           "url": "https://www.infoq.com/news/2026/10/anthropic-source-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-27T11:25:00.000Z",
           "tags": [
             "ai"
@@ -658,7 +658,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/insights/ai-risk-list-system-safety-failures-limitations-7",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-27T10:55:00.000Z",
           "tags": [
             "ai"
@@ -673,7 +673,7 @@
           "summary": "Engineers from Amazon Web Services (AWS) have described how the team that maintains the Linux kernel for EC2 infrastructure handles kernel CVEs. The process combines an automated filter, an AI agent a...",
           "url": "https://www.infoq.com/news/2026/10/aws-ai-agents-linux-kernel-cves/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-27T09:00:00.000Z",
           "tags": [
             "ai"
@@ -703,7 +703,7 @@
           "summary": "Cloudflare, VoidZero and Max Schwenk announced tsrs, an experimental Rust port of the TypeScript compiler, built with the TypeScript team's involvement. Cloudflare claims up to 8x faster checking and ...",
           "url": "https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-27T07:34:00.000Z",
           "tags": [
             "typescript",
@@ -721,7 +721,7 @@
           "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
           "url": "https://openai.com/index/oracle-apps-in-chatgpt",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-27T07:00:00.000Z",
           "tags": [
             "ai"
@@ -739,7 +739,7 @@
           "summary": "Atlassian’s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less frict...",
           "url": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-27T04:45:00.000Z",
           "tags": [
             "ai"
@@ -756,7 +756,7 @@
           "summary": "Atlassian’s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less frict...",
           "url": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-27T04:45:00.000Z",
           "tags": [
             "ai"
@@ -771,7 +771,7 @@
           "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
           "url": "https://openai.com/index/check-point-daybreak",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-27T00:00:00.000Z",
           "tags": [
             "security",
@@ -790,7 +790,7 @@
           "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
           "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-26T22:01:23.000Z",
           "tags": [
             "bug",
@@ -808,7 +808,7 @@
           "summary": "At AGNTCon + MCPCon North America 2026, the Agentic AI Foundation added OpenSandbox, Open Responses, Agent Skills, and OpenEnv, reaching ten projects in its first year. Keynotes from Anthropic, OpenAI...",
           "url": "https://www.infoq.com/news/2026/10/agntcon-mcpcon-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-26T22:00:00.000Z",
           "tags": [
             "security",
@@ -828,7 +828,7 @@
           "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
           "url": "https://openai.com/index/greptile-code-review-codex-astra",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-26T22:00:00.000Z",
           "tags": [
             "security",
@@ -847,7 +847,7 @@
           "summary": "OpenTofu 1.13 adds convert and assume... functions that let module authors give the planner type and value hints for unknown values, so more expressions resolve during tofu plan. If a value unknown du...",
           "url": "https://www.infoq.com/news/2026/10/opentofu-1-13-unknown-values/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-26T21:26:00.000Z",
           "tags": [],
           "score": 50,
@@ -860,7 +860,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/how-i-use-ai-no-more-spreadsheets-and-the-shift-towards-vibe-coding-internal-apps",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-26T20:12:41.000Z",
           "tags": [
             "ai"
@@ -875,7 +875,7 @@
           "summary": "DigitalOcean has announced the public preview of Learning Services and Agent Data Services, enabling developers to build, evaluate, and continuously improve AI agents within a unified, AI-native, clou...",
           "url": "https://www.infoq.com/news/2026/10/digitalocean-self-improving-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-26T18:00:00.000Z",
           "tags": [
             "ai"
@@ -892,7 +892,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/women-in-observability-london",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-26T16:26:19.000Z",
           "tags": [],
           "score": 50,
@@ -922,7 +922,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/insights/your-ai-transformation-is-yours-to-drive",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-26T15:32:00.000Z",
           "tags": [
             "ai"
@@ -937,7 +937,7 @@
           "summary": "A preview of three November InfoQ online certification cohorts covering production AI systems, retrieval and agent design, engineering team flow, AI roles, and measurement, facilitated by Adi Polak, L...",
           "url": "https://www.infoq.com/news/2026/10/online-cohorts-nov-certification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-26T15:00:00.000Z",
           "tags": [
             "ai"
@@ -955,7 +955,7 @@
           "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
           "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-26T14:30:00.000Z",
           "tags": [
             "ai"
@@ -972,7 +972,7 @@
           "summary": "ReadyOn has detailed a four-layer tenant isolation architecture for its Harmony platform on Amazon EKS. The design combines Kubernetes namespaces, dedicated Karpenter node pools, VPC security groups, ...",
           "url": "https://www.infoq.com/news/2026/10/readyon-four-layer-isolation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-26T14:07:00.000Z",
           "tags": [
             "kubernetes",
@@ -993,7 +993,7 @@
           "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
           "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-26T13:45:00.000Z",
           "tags": [
             "security"
@@ -1025,7 +1025,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/ai-is-shipping-code-faster-can-your-tests-catch-what-changed",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-26T11:55:55.000Z",
           "tags": [
             "ai"
@@ -1040,7 +1040,7 @@
           "summary": "Agentic LLM systems have moved from linear prompt chains to graph-based workflows and, more recently, code-executing harnesses. Chains are simple but fragile, graphs add branching, retries, and valida...",
           "url": "https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-26T11:00:00.000Z",
           "tags": [
             "ai",
@@ -1058,7 +1058,7 @@
           "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
           "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-26T10:00:00.000Z",
           "tags": [
             "ai"
@@ -1075,7 +1075,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/herding-ai-cats-what-rules-do-you-include-in-your-instructions-to-control-your-ai-assisted-development",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-26T09:26:18.000Z",
           "tags": [
             "ai"
@@ -1103,7 +1103,7 @@
           "summary": "Microsoft announced version 2.0 of the official MCP C# SDK, which implements the 2026-07-28 revision of the Model Context Protocol with stateless HTTP servers by default, standardised routing headers ...",
           "url": "https://www.infoq.com/news/2026/10/MCP-CSharp-SDK-Stateless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-26T08:00:00.000Z",
           "tags": [
             "api",
@@ -1121,7 +1121,7 @@
           "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
           "url": "https://openai.com/index/fanatics-streamline-fan-experience",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-26T07:00:00.000Z",
           "tags": [
             "testing",
@@ -1140,7 +1140,7 @@
           "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
           "url": "https://openai.com/index/openai-cut-incident-investigation",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-26T07:00:00.000Z",
           "tags": [
             "security",
@@ -1159,7 +1159,7 @@
           "summary": "Bringing fast and capable computer use to everyone",
           "url": "https://openai.com/index/introducing-gpt-6-1-terra",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-26T00:00:00.000Z",
           "tags": [],
           "score": 65,
@@ -1180,7 +1180,7 @@
           "summary": "PHP released 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to fix two critical vulnerabilities allowing unauthenticated remote code execution. Amazon recorded an exploitation attempt four days before the patches...",
           "url": "https://www.infoq.com/news/2026/10/php-critical-rce-patches/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-25T18:07:00.000Z",
           "tags": [
             "release"
@@ -1198,7 +1198,7 @@
           "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS ...",
           "url": "https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-25T18:00:00.000Z",
           "tags": [
             "release",
@@ -1230,7 +1230,7 @@
           "summary": "PingCAP recently confirmed unauthorized access to its internal systems and the theft of source code and customer-related data. The attacker, cyber extortion group FulcrumSec, claimed to have stolen 10...",
           "url": "https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-25T06:27:00.000Z",
           "tags": [
             "api",
@@ -1273,7 +1273,7 @@
           "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail...",
           "url": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-24T08:34:00.000Z",
           "tags": [
             "ai"
@@ -1291,7 +1291,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/software-testing-glossary/forward-deployed-qa",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-23T23:06:16.000Z",
           "tags": [],
           "score": 70,
@@ -1319,7 +1319,7 @@
           "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in ...",
           "url": "https://blog.cloudflare.com/origin-range-requests/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-23T18:22:59.000Z",
           "tags": [
             "ai"
@@ -1336,7 +1336,7 @@
           "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict da...",
           "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-23T18:06:56.000Z",
           "tags": [],
           "score": 60,
@@ -1364,7 +1364,7 @@
           "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
           "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-23T17:00:00.000Z",
           "tags": [
             "api",
@@ -1408,7 +1408,7 @@
           "summary": "CSIRO has developed Serverless Beacon, a serverless architecture for querying genomic variants without copying VCF files into a central database. The system combines Amazon S3, Lambda, Athena and Dyna...",
           "url": "https://www.infoq.com/news/2026/10/csiro-serverless-genomic-variant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-23T14:30:00.000Z",
           "tags": [
             "database",
@@ -1450,7 +1450,7 @@
           "summary": "AWS recently introduced Lambda Web Functions, allowing developers to run Node.js web applications using frameworks such as Express and Hono directly on Lambda, with support for concurrent requests and...",
           "url": "https://www.infoq.com/news/2026/10/aws-lambda-web-functions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-23T12:49:00.000Z",
           "tags": [
             "node.js"
@@ -1493,7 +1493,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/introducing-twiq-hosts-with-ai",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-23T12:24:22.000Z",
           "tags": [
             "ai"
@@ -1521,7 +1521,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/the-bug-is-fixed-so-why-might-the-release-still-be-at-risk",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-23T11:06:34.000Z",
           "tags": [
             "release",
@@ -1552,7 +1552,7 @@
           "summary": "Multi-cloud flexibility comes with hidden egress costs driven by service placement and communication patterns. This article applies Backend FinOps to cross-cloud architecture, covering cost visibility...",
           "url": "https://www.infoq.com/articles/multi-cloud-finops-cost-optimization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-23T11:00:00.000Z",
           "tags": [
             "ci/cd"
@@ -1567,7 +1567,7 @@
           "summary": "Suhail Patel discusses how Monzo structures its software engineering organization and technical stack to ship safely hundreds of times a day. He shares insights into opinionated microservice abstracti...",
           "url": "https://www.infoq.com/presentations/monzo-microservices-devex/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-23T11:00:00.000Z",
           "tags": [
             "api",
@@ -1584,7 +1584,7 @@
           "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
           "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-23T10:00:00.000Z",
           "tags": [
             "ai"
@@ -1627,7 +1627,7 @@
           "summary": "AI company Anthropic has launched OSS Scanner, a free, opt-in service to find vulnerabilities in open-source projects. Enrolled maintainers receive periodic security reports generated by the company's...",
           "url": "https://www.infoq.com/news/2026/10/anthropic-oss-security-scanner/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-23T09:00:00.000Z",
           "tags": [
             "security",
@@ -1645,7 +1645,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/the-rise-of-agentic-testing",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-23T08:22:40.000Z",
           "tags": [
             "testing"
@@ -1663,7 +1663,7 @@
           "summary": "NgRx 22 adds experimental resource extensions that change Angular's resource behavior, so value() is retained during reloads and no longer throws on errors. It also introduces dynamic deep signals for...",
           "url": "https://www.infoq.com/news/2026/10/ngrx-22-angular/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-23T08:08:00.000Z",
           "tags": [
             "typescript",
@@ -1693,7 +1693,7 @@
           "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
           "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-23T00:00:00.000Z",
           "tags": [
             "security",
@@ -1712,7 +1712,7 @@
           "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
           "url": "https://openai.com/index/anima",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-23T00:00:00.000Z",
           "tags": [
             "ai"
@@ -1729,7 +1729,7 @@
           "summary": "Fast, focused, low-cost decisions for any application.",
           "url": "https://openai.com/index/decisions-api",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-22T19:00:00.000Z",
           "tags": [
             "api"
@@ -1772,7 +1772,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/insights/ai-risk-list-socioeconomic-environmental-impacts-6",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-22T17:04:00.000Z",
           "tags": [
             "ai"
@@ -1802,7 +1802,7 @@
           "summary": "A recent Harvard study of 718 firms, using the Jellyfish analytics platform, finds that although AI coding assistants and agents increase code volume, this does not translate into a corresponding incr...",
           "url": "https://www.infoq.com/news/2026/10/jellyfish-ai-productivity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-22T14:00:00.000Z",
           "tags": [
             "ai"
@@ -1836,7 +1836,7 @@
           "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our g...",
           "url": "https://blog.cloudflare.com/k-isms/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-22T13:00:00.000Z",
           "tags": [
             "security"
@@ -1853,7 +1853,7 @@
           "summary": "Manju Rajashekhar explains how the actor model solves the complex runtime challenges of production AI agents. By treating agents as distributed systems, he discusses state ownership, message passing, ...",
           "url": "https://www.infoq.com/presentations/actors-for-production-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-22T11:00:00.000Z",
           "tags": [
             "ai"
@@ -1870,7 +1870,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/agentic-ai-test-execution-in-jira-and-xray-a-new-approach-to-manual-testing",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-22T10:23:39.000Z",
           "tags": [
             "testing",
@@ -1889,7 +1889,7 @@
           "summary": "Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questi...",
           "url": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-22T09:33:00.000Z",
           "tags": [
             "release",
@@ -1908,7 +1908,7 @@
           "summary": "Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questi...",
           "url": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-22T09:33:00.000Z",
           "tags": [
             "release",
@@ -1940,7 +1940,7 @@
           "summary": "This article presents a disaster-recovery analytics workflow in which an AI agent generates constrained SQL or Python, DuckDB computes reproducible facts from Parquet, and the agent interprets the res...",
           "url": "https://www.infoq.com/articles/ai-changes-data-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-22T09:00:00.000Z",
           "tags": [
             "python",
@@ -1959,7 +1959,7 @@
           "summary": "Docker announced that Harbor, the open-source agent evaluation framework, now works with Docker Sandboxes. This change allows each evaluation task to run in its own microVM. So, instead of sharing a c...",
           "url": "https://www.infoq.com/news/2026/10/ai-agents-harbor-docker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-22T09:00:00.000Z",
           "tags": [
             "docker",
@@ -1978,7 +1978,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/the-test-is-green-again-but-what-did-the-ai-agent-change",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-22T08:27:16.000Z",
           "tags": [
             "ai"
@@ -1995,7 +1995,7 @@
           "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker N...",
           "url": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-22T07:41:00.000Z",
           "tags": [
             "ai"
@@ -2010,7 +2010,7 @@
           "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker N...",
           "url": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-22T07:41:00.000Z",
           "tags": [
             "ai"
@@ -2025,7 +2025,7 @@
           "summary": "What forward deployed engineering means at OpenAI",
           "url": "https://openai.com/index/forward-deployed-engineering-means",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-22T06:00:00.000Z",
           "tags": [
             "ai"
@@ -2042,7 +2042,7 @@
           "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
           "url": "https://openai.com/index/uber-chatgpt-work-rollout",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-22T00:00:00.000Z",
           "tags": [
             "ai"
@@ -2059,7 +2059,7 @@
           "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
           "url": "https://openai.com/index/broad-access-through-consistent-standards",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-21T21:00:00.000Z",
           "tags": [
             "ai"
@@ -2151,7 +2151,7 @@
           "summary": "Private keys for eight eMudhra intermediate CA certificates have been compromised, allowing attackers to forge certificates for any site. The keys were revealed due to low entropy, not through a known...",
           "url": "https://www.infoq.com/news/2026/10/emudhra-ca-compromise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-21T17:30:00.000Z",
           "tags": [
             "ai"
@@ -2166,7 +2166,7 @@
           "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
           "url": "https://openai.com/index/att-legal",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-21T17:00:00.000Z",
           "tags": [
             "ai"
@@ -2183,7 +2183,7 @@
           "summary": "Gergely Orosz is frustrated at those that entered his explicitly “No AI” essay competition and used AI. He goes on to say: When I start to suspect some part is AI about someone I don’t know: how can I...",
           "url": "https://martinfowler.com/fragments/2026-10-21.html",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-21T16:51:00.000Z",
           "tags": [
             "react",
@@ -2203,7 +2203,7 @@
           "summary": "Netflix has developed a workload attestation mechanism for Apache Spark jobs running on Amazon EMR. The design combines AWS IAM identity with signed claims from Netflix’s control plane before issuing ...",
           "url": "https://www.infoq.com/news/2026/10/netflix-workload-attestation-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-21T13:45:00.000Z",
           "tags": [
             "ai"
@@ -2218,7 +2218,7 @@
           "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
           "url": "https://blog.cloudflare.com/webmcp-commerce/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-21T13:00:00.000Z",
           "tags": [
             "ai"
@@ -2237,7 +2237,7 @@
           "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
           "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-21T13:00:00.000Z",
           "tags": [],
           "score": 65,
@@ -2269,7 +2269,7 @@
           "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
           "url": "https://openai.com/index/openai-models-google-cloud",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-21T12:00:00.000Z",
           "tags": [
             "ai"
@@ -2286,7 +2286,7 @@
           "summary": "In this article series, we try to establish agentic AI architecture as a new type of software architecture that will likely dominate the industry for years to come. The articles, written by industry e...",
           "url": "https://www.infoq.com/articles/agentic-ai-architecture-article-series/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-21T11:30:00.000Z",
           "tags": [
             "api",
@@ -2317,7 +2317,7 @@
           "summary": "Nathen Harvey shares insights from DORA research on AI adoption in software delivery. He explains why AI acts as an amplifier, how the DORA AI Capabilities Model drives outcomes, and why engineering l...",
           "url": "https://www.infoq.com/presentations/dora-ai-adoption-engineering-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-21T11:00:00.000Z",
           "tags": [
             "performance",
@@ -2333,7 +2333,7 @@
           "summary": "Google DeepMind announced the global availability of SynthID Detector, a tool designed to help identify AI-generated content, including media created using AI tools from SynthID partners such as OpenA...",
           "url": "https://www.infoq.com/news/2026/10/synthid-watermarking-detector/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-21T10:00:00.000Z",
           "tags": [
             "security",
@@ -2349,7 +2349,7 @@
           "summary": "Cilium 1.20 has been released with broader Kubernetes Gateway API support, an extensible eBPF datapath and further work on sidecarless mutual TLS. The release also makes the newer netkit network devic...",
           "url": "https://www.infoq.com/news/2026/10/cilium-120-kubernetes-networking/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-21T09:00:00.000Z",
           "tags": [
             "kubernetes",
@@ -2368,7 +2368,7 @@
           "summary": "Distributed Spring Batch partitioning already needs a shared, persistent job repository. This article makes that database the whole coordination plane and drops the message broker, sizing work to the ...",
           "url": "https://www.infoq.com/articles/spring-batch-without-broker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-21T09:00:00.000Z",
           "tags": [
             "database",
@@ -2384,7 +2384,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/bring-your-hardest-oracle-testing-problem-to-accelq-booth-4033",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-21T08:56:50.000Z",
           "tags": [
             "testing"
@@ -2401,7 +2401,7 @@
           "summary": "Microsoft has released a public preview of dotnetup, a cross-platform toolchain manager that installs and updates .NET SDKs and runtimes in the user’s own directory without admin rights. It tracks cha...",
           "url": "https://www.infoq.com/news/2026/10/dotnetup-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-21T08:15:00.000Z",
           "tags": [
             "release",
@@ -2420,7 +2420,7 @@
           "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
           "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-21T07:00:00.000Z",
           "tags": [
             "security",
@@ -2440,7 +2440,7 @@
           "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
           "url": "https://openai.com/index/building-chatgpt-ad-stack",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-21T07:00:00.000Z",
           "tags": [
             "ai",
@@ -2458,7 +2458,7 @@
           "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
           "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-21T04:50:00.000Z",
           "tags": [
             "ai"
@@ -2476,7 +2476,7 @@
           "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
           "url": "https://openai.com/index/empowering-cyber-defenders",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-21T00:00:00.000Z",
           "tags": [
             "security",
@@ -2495,7 +2495,7 @@
           "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
           "url": "https://openai.com/index/cloudflare-cyber",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-21T00:00:00.000Z",
           "tags": [
             "ai"
@@ -2512,7 +2512,7 @@
           "summary": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what cust...",
           "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-20T22:20:16.000Z",
           "tags": [
             "update",
@@ -2543,7 +2543,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/jobs/engineering-manager-01f0b278-e27b-45cf-a7dc-503064271830",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-20T16:33:58.000Z",
           "tags": [],
           "score": 50,
@@ -2595,7 +2595,7 @@
           "summary": "GitHub has released Actions Runner Controller (ARC) 0.15.0, introducing reliability, scalability, and observability improvements for organisations running self-hosted GitHub Actions runners on Kuberne...",
           "url": "https://www.infoq.com/news/2026/10/github-runner-controller-0-15/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-20T12:00:00.000Z",
           "tags": [
             "github",
@@ -2615,7 +2615,7 @@
           "summary": "The speakers discuss transitioning AI agents from local FastAPI prototypes to resilient production systems on Kubernetes using Ray. They share operational insights on RayCluster topology, stateful mem...",
           "url": "https://www.infoq.com/presentations/scale-llm-agents-production-ray/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-20T11:00:00.000Z",
           "tags": [
             "kubernetes",
@@ -2648,7 +2648,7 @@
           "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
           "url": "https://openai.com/index/ted-taylor-restaurant",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-20T10:00:00.000Z",
           "tags": [],
           "score": 65,
@@ -2691,7 +2691,7 @@
           "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
           "url": "https://openai.com/index/terminal-x",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-20T07:00:00.000Z",
           "tags": [
             "ai"
@@ -2709,7 +2709,7 @@
           "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
           "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-20T00:00:00.000Z",
           "tags": [
             "ai"
@@ -2739,7 +2739,7 @@
           "summary": "This week's Java roundup for October 12th, 2026, features news highlighting: three OpenJDK JEPs targeted for JDK 28; the October 2026 edition of Azul Payara; point releases of Gatherers4j, Yupiik Fusi...",
           "url": "https://www.infoq.com/news/2026/10/java-news-roundup-oct12-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-19T20:00:00.000Z",
           "tags": [
             "release",
@@ -2757,7 +2757,7 @@
           "summary": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while s...",
           "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-19T19:12:53.000Z",
           "tags": [
             "ai"
@@ -2774,7 +2774,7 @@
           "summary": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
           "url": "https://blog.cloudflare.com/clairic-extraction-model/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-19T17:48:26.000Z",
           "tags": [
             "ai"
@@ -2791,7 +2791,7 @@
           "summary": "Pinterest has introduced event time-based partition finalization for its database ingestion framework. The mechanism uses Apache Flink to track event time and Apache Iceberg metadata to publish a non-...",
           "url": "https://www.infoq.com/news/2026/10/pinterest-event-time-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-19T14:37:00.000Z",
           "tags": [
             "rest",
@@ -2807,7 +2807,7 @@
           "summary": "JDK 28 finalizes structured concurrency through JEP 543, with no API changes from JDK 27. Teams on JDK 27 only need to drop --enable-preview and recompile. Code written for JDK 25 or 26 must adapt to ...",
           "url": "https://www.infoq.com/news/2026/10/jep-543-jdk-28/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-19T14:30:00.000Z",
           "tags": [
             "api"
@@ -2822,7 +2822,7 @@
           "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
           "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-19T13:00:00.000Z",
           "tags": [
             "ai"
@@ -2839,7 +2839,7 @@
           "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
           "url": "https://openai.com/index/low-resource-programming-languages",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-19T12:00:00.000Z",
           "tags": [
             "sql",
@@ -2886,7 +2886,7 @@
           "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision deco...",
           "url": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-19T11:00:00.000Z",
           "tags": [
             "update",
@@ -2905,7 +2905,7 @@
           "summary": "Rachel Lee Nabors, former React core team member, dives into the architecture and philosophy behind local-first applications, exploring how small language models (SLMs) running directly on-device can ...",
           "url": "https://www.infoq.com/podcasts/future-web-apps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-19T11:00:00.000Z",
           "tags": [
             "react",
@@ -2924,7 +2924,7 @@
           "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision deco...",
           "url": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-19T11:00:00.000Z",
           "tags": [
             "update",
@@ -2957,7 +2957,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/the-curious-case-of-the-self-correcting-bug",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-19T10:27:03.000Z",
           "tags": [
             "bug"
@@ -2972,7 +2972,7 @@
           "summary": "Based on Gemma 4 and released under the Apache 2.0 license, Google's EmbeddingGemma 2 is a compact, open-weight, multimodal embedding model designed to make semantic search and retrieval-augmented gen...",
           "url": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-19T10:00:00.000Z",
           "tags": [
             "performance",
@@ -2991,7 +2991,7 @@
           "summary": "Based on Gemma 4 and released under the Apache 2.0 license, Google's EmbeddingGemma 2 is a compact, open-weight, multimodal embedding model designed to make semantic search and retrieval-augmented gen...",
           "url": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-19T10:00:00.000Z",
           "tags": [
             "performance",
@@ -3009,7 +3009,7 @@
           "summary": "Continuous integration provider Buildkite has introduced pipeline-scoped secrets and new Model Context Protocol tools for validating pipelines, diagnosing failed builds and repairing webhooks. The com...",
           "url": "https://www.infoq.com/news/2026/10/buildkite-ci-secrets-agentic/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-19T09:00:00.000Z",
           "tags": [
             "github",
@@ -3027,7 +3027,7 @@
           "summary": "Microsoft has released .NET 11 Release Candidate 2 under a go-live license, supported in Visual Studio 2026 Insiders. The release adds incremental CBOR reading, experimental post-quantum cryptography ...",
           "url": "https://www.infoq.com/news/2026/10/dotnet-11-rc-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-19T08:00:00.000Z",
           "tags": [
             "api",
@@ -3062,7 +3062,7 @@
           "summary": "Microsoft has released .NET 11 Release Candidate 2 under a go-live license, supported in Visual Studio 2026 Insiders. The release adds incremental CBOR reading, experimental post-quantum cryptography ...",
           "url": "https://www.infoq.com/news/2026/10/dotnet-11-rc-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-19T08:00:00.000Z",
           "tags": [
             "api",
@@ -3081,7 +3081,7 @@
           "summary": "NestJS version 12 has been released, transitioning core packages to ESM and adding Standard Schema validation. It updates the CLI and introduces an observability SDK. Key changes include project gener...",
           "url": "https://www.infoq.com/news/2026/10/nestjs-12-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-19T06:31:00.000Z",
           "tags": [
             "node.js",
@@ -3107,7 +3107,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/free-course-steer-ai-agents-to-write-tests-you-can-trust-want-to-co-learn",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-18T19:22:05.000Z",
           "tags": [
             "ai"
@@ -3137,7 +3137,7 @@
           "summary": "Google has replaced its long-standing Python type checker, Pytype, with Pyrefly, an open-source tool originally developed by Meta. The decision was driven by Pyrefly's advantages, including faster and...",
           "url": "https://www.infoq.com/news/2026/10/google-pyrefly-python/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-18T15:00:00.000Z",
           "tags": [
             "python",
@@ -3153,7 +3153,7 @@
           "summary": "AWS recently announced the preview of the Well-Architected Agent, a service that analyzes environments against Well-Architected best practices and provides prioritized recommendations across cost, sec...",
           "url": "https://www.infoq.com/news/2026/10/aws-well-architected-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-18T14:29:00.000Z",
           "tags": [
             "performance",
@@ -3198,7 +3198,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/jobs/senior-qa-engineer-29fa0a18-0eb0-4491-be4e-21ae200bfcf2",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-17T13:47:06.000Z",
           "tags": [],
           "score": 70,
@@ -3213,7 +3213,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/jobs/qa-engineer-contract",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-17T13:38:39.000Z",
           "tags": [],
           "score": 70,
@@ -3228,7 +3228,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/jobs/qa-engineer-5537d086-6b99-4bb7-8e76-36f76195dfde",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-17T13:37:49.000Z",
           "tags": [],
           "score": 70,
@@ -3243,7 +3243,7 @@
           "summary": "Reverse Engineer Anything (REA) is an open-source project with over 200K GitHub stars that connects coding agents such as Claude Code and Codex to reverse-engineering tools like Ghidra, Hopper, and ID...",
           "url": "https://www.infoq.com/news/2026/10/reverse-engineer-anything/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-17T06:28:00.000Z",
           "tags": [
             "github",
@@ -3262,7 +3262,7 @@
           "summary": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhan...",
           "url": "https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-17T06:00:00.000Z",
           "tags": [
             "database",
@@ -3319,7 +3319,7 @@
           "summary": "Google researchers open sourced EnvHarness, a framework that dynamically adapts agent-training environments to an agent's weaknesses without modifying the agent, environment, or evaluation system. Acc...",
           "url": "https://www.infoq.com/news/2026/10/envharness-self-evolving-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-16T19:00:00.000Z",
           "tags": [
             "ai"
@@ -3336,7 +3336,7 @@
           "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
           "url": "https://openai.com/index/itau-generative-ai",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-16T19:00:00.000Z",
           "tags": [
             "ai"
@@ -3379,7 +3379,7 @@
           "summary": "Uber has developed an automated dependency analysis system that uses RPC middleware and production metrics to correlate caller and downstream failures. The approach classifies dependencies as fail-clo...",
           "url": "https://www.infoq.com/news/2026/10/uber-automated-dependency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-16T14:39:00.000Z",
           "tags": [
             "ai"
@@ -3394,7 +3394,7 @@
           "summary": "A recent InfoQ webinar examined operational challenges in deploying agentic systems. Key points included issues like semantic and embedding drift, which can lead to significant errors. Experts discuss...",
           "url": "https://www.infoq.com/news/2026/10/ai-systems-production/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-16T14:14:00.000Z",
           "tags": [
             "security",
@@ -3453,7 +3453,7 @@
           "summary": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuri...",
           "url": "https://blog.cloudflare.com/verified-bots-accountability/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-16T13:00:00.000Z",
           "tags": [
             "ai"
@@ -3470,7 +3470,7 @@
           "summary": "Grafana Labs is proposing a familiar reliability engineering approach for one of the less familiar problems in modern software: how to measure whether an AI agent is actually behaving well. By Craig R...",
           "url": "https://www.infoq.com/news/2026/10/grafana-slo-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-16T12:00:00.000Z",
           "tags": [
             "ai"
@@ -3487,7 +3487,7 @@
           "summary": "Discover how to keep software evolvable as systems, technology, and teams shift. This edition explores agentic fitness functions for semantic drift, treating human comprehension as a core design metri...",
           "url": "https://www.infoq.com/minibooks/evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-16T11:30:00.000Z",
           "tags": [
             "ai"
@@ -3504,7 +3504,7 @@
           "summary": "The release of Helidon 27 is the first release that follows the Oracle Tip & Tail Model of Library Development by which the Tip adopts the latest Java technology while the Tail provides a more stable ...",
           "url": "https://www.infoq.com/news/2026/10/helidon-27-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-16T11:20:00.000Z",
           "tags": [
             "rest",
@@ -3524,7 +3524,7 @@
           "summary": "AWS has introduced two open-source projects for AI agent development: Strands Decider 2B, a small model designed to make decisions within agent workflows, and Strands Box, a sandbox for controlling ag...",
           "url": "https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-16T10:47:00.000Z",
           "tags": [
             "ai"
@@ -3554,7 +3554,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/jobs/qa-engineer-mobile",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-16T09:04:20.000Z",
           "tags": [],
           "score": 70,
@@ -3569,7 +3569,7 @@
           "summary": "Software supply chain security company Chainguard has announced two beta products for running and testing code written by developers and AI agents. Chainguard Workspaces provides remote development en...",
           "url": "https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-16T09:00:00.000Z",
           "tags": [
             "testing",
@@ -3590,7 +3590,7 @@
           "summary": "This article provides a framework for asking the right architectural questions before an enterprise commits to an mDL provider or library. It shows which components can be abstracted safely, which tru...",
           "url": "https://www.infoq.com/articles/enterprise-mobile-id-mdl-blueprint/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-16T09:00:00.000Z",
           "tags": [
             "ai"
@@ -3620,7 +3620,7 @@
           "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto on...",
           "url": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-16T06:02:00.000Z",
           "tags": [
             "ai"
@@ -3648,7 +3648,7 @@
           "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
           "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-16T00:00:00.000Z",
           "tags": [],
           "score": 85,
@@ -3664,7 +3664,7 @@
           "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
           "url": "https://openai.com/index/benefit-street-partners",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-16T00:00:00.000Z",
           "tags": [],
           "score": 65,
@@ -3679,7 +3679,7 @@
           "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the...",
           "url": "https://openai.com/index/grupo-boticario",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-16T00:00:00.000Z",
           "tags": [
             "ai"
@@ -3697,7 +3697,7 @@
           "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
           "url": "https://openai.com/index/localiza-generative-ai",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-16T00:00:00.000Z",
           "tags": [
             "api",
@@ -3716,7 +3716,7 @@
           "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
           "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-15T19:00:00.000Z",
           "tags": [],
           "score": 65,
@@ -3731,7 +3731,7 @@
           "summary": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform.",
           "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-15T17:11:12.000Z",
           "tags": [],
           "score": 60,
@@ -3746,7 +3746,7 @@
           "summary": "Instagram Direct migrated its Android UI from the legacy Android View system to Jetpack Compose, creating an AI-native UI codebase that is easier for AI coding agents to understand, modify, and mainta...",
           "url": "https://www.infoq.com/news/2026/10/instagram-compose-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-15T16:00:00.000Z",
           "tags": [
             "ai"
@@ -3778,7 +3778,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/insights/ai-risk-deck-human-computer-interaction-5",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-15T15:33:00.000Z",
           "tags": [
             "ai"
@@ -3793,7 +3793,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/brighton-leadership-dinner-with-testmu-ai-the-food-was-amazing",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-15T14:40:05.000Z",
           "tags": [
             "ai"
@@ -3808,7 +3808,7 @@
           "summary": "Introducing Void: an open-source SDK, CLI, and self-hosted platform for building full-stack Vite apps and deploying them to Cloudflare.",
           "url": "https://blog.cloudflare.com/deploy-with-void/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-15T14:00:00.000Z",
           "tags": [],
           "score": 60,
@@ -3823,7 +3823,7 @@
           "summary": "Claude Code writes better Cypress tests when it knows your conventions, can check its work in a live session, and can see your run history. Learn how to set up Cypress AI Skills, Cloud MCP, and cypres...",
           "url": "https://www.cypress.io/blog/how-to-connect-claude-code-to-cypress/",
           "source": "Cypress",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-15T13:52:42.000Z",
           "tags": [
             "cypress",
@@ -3841,7 +3841,7 @@
           "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
           "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-15T13:00:00.000Z",
           "tags": [
             "ai"
@@ -3858,7 +3858,7 @@
           "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
           "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-15T13:00:00.000Z",
           "tags": [
             "ai"
@@ -3890,7 +3890,7 @@
           "summary": "Software only has value when shipped; faster release cadence matters. Development, deployment, and operations require different thinking, metrics, and investments. There are four impacts in tech: prod...",
           "url": "https://www.infoq.com/news/2026/10/optimize-software-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-15T11:33:00.000Z",
           "tags": [
             "release",
@@ -3908,7 +3908,7 @@
           "summary": "Brendan O'Leary discusses how real-world AI adoption depends on building trust rather than chasing model benchmarks. Drawing from 40 trillion tokens of usage data, he explains the four rungs of the AI...",
           "url": "https://www.infoq.com/presentations/agentic-ai-developer-trust-adoption/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-15T11:00:00.000Z",
           "tags": [
             "ai"
@@ -3925,7 +3925,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/22-years-in-22-minutes-lessons-learned-and-how-they-apply-in-the-ai-era",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-15T10:25:23.000Z",
           "tags": [
             "ai"
@@ -3940,7 +3940,7 @@
           "summary": "Grafana Labs has released Tempo 3.1, the first minor update to the 3.0 architecture. It adds TLS and additional SASL mechanisms to the Kafka client, lets operators redact traces with a TraceQL query i...",
           "url": "https://www.infoq.com/news/2026/10/grafana-tempo-31/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-15T10:00:00.000Z",
           "tags": [
             "release",
@@ -3971,7 +3971,7 @@
           "summary": "Spring Authorization Server now lives inside Spring Security 7 under the same Maven coordinates, so the upgrade is a version bump. This server-side guide covers enabling DPoP and RFC 8693 Token Exchan...",
           "url": "https://www.infoq.com/articles/spring-security-7-server-side-dpop-token-exchange/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-15T09:00:00.000Z",
           "tags": [
             "security",
@@ -3989,7 +3989,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/ai-chapter-first-giveaway",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-15T04:57:57.000Z",
           "tags": [
             "ai"
@@ -4004,7 +4004,7 @@
           "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
           "url": "https://openai.com/index/sullivan-cromwell",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-15T00:00:00.000Z",
           "tags": [
             "ai"
@@ -4047,7 +4047,7 @@
           "summary": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
           "url": "https://blog.cloudflare.com/yandex-outage/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-14T20:24:19.000Z",
           "tags": [],
           "score": 60,
@@ -4078,7 +4078,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/colour-theory-for-software-testing",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-14T17:25:13.000Z",
           "tags": [
             "testing"
@@ -4140,7 +4140,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/insights/the-ai-risk-deck-malicious-use-4",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-14T14:36:00.000Z",
           "tags": [
             "ai"
@@ -4170,7 +4170,7 @@
           "summary": "Building a slide template starts with three foundational choices &#x2014; colours, fonts and layouts. Sumeet Gayathri Moghe covers the basics of color theory and how to build a reusable palette, the e...",
           "url": "https://martinfowler.com/articles/never-send-slides/build-your-slide-template.html",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-14T14:20:00.000Z",
           "tags": [],
           "score": 50,
@@ -4183,7 +4183,7 @@
           "summary": "Meta has extended Private Processing to AI glasses, using confidential VMs, trusted execution environments, remote attestation, anonymous credentials, OHTTP routing, and TEE-based storage to process A...",
           "url": "https://www.infoq.com/news/2026/10/meta-private-process-ai-glasses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-14T13:57:00.000Z",
           "tags": [
             "ai"
@@ -4198,7 +4198,7 @@
           "summary": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
           "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-14T13:00:00.000Z",
           "tags": [
             "sql",
@@ -4217,7 +4217,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/qa-trailblazers-are-rewriting-the-rules-in-the-age-of-ai",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-14T12:31:26.000Z",
           "tags": [
             "ai"
@@ -4234,7 +4234,7 @@
           "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
           "url": "https://openai.com/index/amp-beyond-coding",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-14T12:00:00.000Z",
           "tags": [
             "ai"
@@ -4252,7 +4252,7 @@
           "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
           "url": "https://openai.com/index/sentinelone",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-14T12:00:00.000Z",
           "tags": [
             "ai"
@@ -4269,7 +4269,7 @@
           "summary": "Bug Fixes #43247 [Bug]: _electron.launch intermittently loses a packaged app's first window since 1.64.0 #43242 [Regression]: Chromium 155+ aborts a preflighted cross-origin redirect whenever any rout...",
           "url": "https://github.com/microsoft/playwright/releases/tag/v1.64.1",
           "source": "Playwright",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-14T11:51:33.000Z",
           "tags": [
             "playwright",
@@ -4287,7 +4287,7 @@
           "summary": "Hillel Wayne discusses how formal methods principles - such as property strength, state-space verification, and environment assumptions - help software engineers uncover critical architectural bugs ea...",
           "url": "https://www.infoq.com/presentations/formal-methods-principles/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-14T11:00:00.000Z",
           "tags": [
             "bug",
@@ -4348,7 +4348,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/the-tipping-point-ai-and-coding-chaos",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-14T10:06:47.000Z",
           "tags": [
             "ai"
@@ -4365,7 +4365,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/ai-powered-testing-supercharging-the-human-tester",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-14T09:56:20.000Z",
           "tags": [
             "testing",
@@ -4399,7 +4399,7 @@
           "summary": "Google has introduced support for local models in the Antigravity SDK, enabling developers to build and execute agentic workflows directly on their own machines, while retaining the flexibility to mix...",
           "url": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-14T09:00:00.000Z",
           "tags": [
             "ai"
@@ -4417,7 +4417,7 @@
           "summary": "Shipt launched its Kits feature, enabling quick assembly of themed grocery bundles for events. The platform architecture lets merchandisers easily create store-aware kits, streamlining previously labo...",
           "url": "https://www.infoq.com/articles/shipt-composable-commerce-design-ddd/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-14T09:00:00.000Z",
           "tags": [
             "feature"
@@ -4434,7 +4434,7 @@
           "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
           "url": "https://openai.com/index/third-moment-research",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-14T07:00:00.000Z",
           "tags": [
             "security",
@@ -4454,7 +4454,7 @@
           "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
           "url": "https://openai.com/index/block-ai-powered-security",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-14T07:00:00.000Z",
           "tags": [
             "security",
@@ -4473,7 +4473,7 @@
           "summary": "VoidZero has launched Vite+ 1.0, the first stable version of its JavaScript toolchain. It features a command line tool for managing Node.js, package management, and frontend development from a single ...",
           "url": "https://www.infoq.com/news/2026/10/cloudflare-viteplus-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-14T06:15:00.000Z",
           "tags": [
             "javascript",
@@ -4511,7 +4511,7 @@
           "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
           "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-14T00:00:00.000Z",
           "tags": [
             "ai"
@@ -4559,7 +4559,7 @@
           "summary": "Backstage 1.55 adds opt-in recovery for Software Template tasks, resuming crashed or timed-out runs from the last completed step. The release also carries breaking changes to the catalog, search and T...",
           "url": "https://www.infoq.com/news/2026/10/backstage-1-55-task-recovery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-13T17:00:00.000Z",
           "tags": [
             "api",
@@ -4579,7 +4579,7 @@
           "summary": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on t...",
           "url": "https://blog.cloudflare.com/d1-control-plane/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-13T16:20:18.000Z",
           "tags": [
             "database"
@@ -4641,7 +4641,7 @@
           "summary": "A couple of months ago Jim Highsmith explained how practitioners writing for each other forms a distinct style of writing. He now adds a section to the article with more detail on the craft of how we ...",
           "url": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-13T14:06:00.000Z",
           "tags": [
             "ai"
@@ -4656,7 +4656,7 @@
           "summary": "Naresh Jain compares coding agents building the same API service with and without a behavioral harness. A frontier model, GPT-6 Sol, passed every external evaluation either way. But a cost-optimized m...",
           "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-13T13:35:00.000Z",
           "tags": [
             "api",
@@ -4674,7 +4674,7 @@
           "summary": "A critical remote command execution vulnerability in the Zimbra Collaboration Suite, identified as CVE-2026-73570, poses risks by allowing unauthorized access to mailbox data and credentials. This fla...",
           "url": "https://www.infoq.com/news/2026/10/zimbra-command-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-13T13:13:00.000Z",
           "tags": [
             "ai"
@@ -4689,7 +4689,7 @@
           "summary": "Once AI is in production, code arrives faster than it can be reviewed, token costs rise, evals have to be good enough to act on, and agents need permissions and guardrails. QCon AI New York 2026 (Dece...",
           "url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-13T12:00:00.000Z",
           "tags": [
             "ai",
@@ -4707,7 +4707,7 @@
           "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
           "url": "https://openai.com/index/higgsfield-longer-videos-voice",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-13T12:00:00.000Z",
           "tags": [
             "ai"
@@ -4724,7 +4724,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/insights/the-ai-risk-deck-misinformation-3",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-13T12:00:00.000Z",
           "tags": [
             "ai"
@@ -4739,7 +4739,7 @@
           "summary": "AWS has introduced an enhanced Custom Event Bus for Amazon EventBridge, targeting a problem that often emerges when event-driven architectures move beyond a single team or AWS account: the event infra...",
           "url": "https://www.infoq.com/news/2026/10/aws-eventbridge-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-13T12:00:00.000Z",
           "tags": [
             "ai"
@@ -4754,7 +4754,7 @@
           "summary": "Nicholas Herring shares how EVE Online tackles distributed tracing and observability across a 20-year-old MMO architecture. He discusses leveraging head-based, dynamic exponential moving average (EMA)...",
           "url": "https://www.infoq.com/presentations/eve-observability-head-sampling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-13T11:00:00.000Z",
           "tags": [
             "performance",
@@ -4770,7 +4770,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/ai-built-it-can-vibe-testing-prove-it-works",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-13T10:47:32.000Z",
           "tags": [
             "testing",
@@ -4788,7 +4788,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/stop-guessing-start-seeing-the-rise-of-observability-driven-testing",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-13T09:27:43.000Z",
           "tags": [
             "testing"
@@ -4805,7 +4805,7 @@
           "summary": "Cloudflare has opened a closed beta of its OHTTP Gateway, a managed endpoint that decrypts Oblivious HTTP requests for an origin. The design choice drawing attention is a refusal: the Gateway will not...",
           "url": "https://www.infoq.com/news/2026/10/cloudflare-ohttp-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-13T06:44:00.000Z",
           "tags": [],
           "score": 50,
@@ -4818,7 +4818,7 @@
           "summary": "Spotify reports that AI-assisted development more than doubled monthly merged changes, prompting a review of quality and reliability controls across its engineering organization. The company describes...",
           "url": "https://www.infoq.com/news/2026/10/spotify-ai-quality-controls/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-12T13:57:00.000Z",
           "tags": [
             "testing",
@@ -4834,7 +4834,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/ceci-n-est-pas-une-bug",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-12T12:37:14.000Z",
           "tags": [
             "bug"
@@ -4849,7 +4849,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/api-immunity",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-12T11:36:30.000Z",
           "tags": [
             "api"
@@ -4864,7 +4864,7 @@
           "summary": "Physical data layout is one of the most consequential decisions in lakehouse engineering. The author compares Liquid Clustering, ZOrdering, and partitioning across four workload types on Delta Lake, u...",
           "url": "https://www.infoq.com/articles/liquid-clustering-lakehouse-layout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-12T11:00:00.000Z",
           "tags": [
             "ai"
@@ -4879,7 +4879,7 @@
           "summary": "In this podcast, Michael Stiefel spoke to Joy Ebertz about how the use of artificial intelligence is changing the way architects and developers do their jobs. Focusing on the long term success of the ...",
           "url": "https://www.infoq.com/podcasts/what-really-mean-program-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-12T11:00:00.000Z",
           "tags": [
             "ai"
@@ -4894,7 +4894,7 @@
           "summary": "Erik Peterson discusses why AI spend is eclipsing cloud bills, triggering a major software engineering cost crisis. He explains tokenmaxxing, unit economics, forced developer promotions, and why fully...",
           "url": "https://www.infoq.com/presentations/ai-cloud-cost-economics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-12T11:00:00.000Z",
           "tags": [
             "ai"
@@ -4909,7 +4909,7 @@
           "summary": "React 19.3 was released on September 9, introducing several features including the react-dom browser() API. This API allows components to opt out of server-side rendering, addressing issues with compo...",
           "url": "https://www.infoq.com/news/2026/10/react-19-3-browser-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-12T10:52:00.000Z",
           "tags": [
             "react",
@@ -4953,7 +4953,7 @@
           "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inferenc...",
           "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-09T18:27:34.000Z",
           "tags": [],
           "score": 60,
@@ -5047,7 +5047,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/bug-is-flying",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-09T14:26:03.000Z",
           "tags": [
             "bug"
@@ -5079,7 +5079,7 @@
           "summary": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
           "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-09T12:50:00.000Z",
           "tags": [],
           "score": 60,
@@ -5157,7 +5157,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/exploratory-testing-with-teams-facilitator",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-09T10:55:22.000Z",
           "tags": [
             "testing"
@@ -5175,7 +5175,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/testing-the-untestable-building-a-strategy-for-testing-ai",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-09T09:55:37.000Z",
           "tags": [
             "testing",
@@ -5194,7 +5194,7 @@
           "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
           "url": "https://openai.com/index/asana-browser-agent",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-09T07:00:00.000Z",
           "tags": [],
           "score": 85,
@@ -5210,7 +5210,7 @@
           "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
           "url": "https://openai.com/index/sophos",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-09T07:00:00.000Z",
           "tags": [
             "ai"
@@ -5257,7 +5257,7 @@
           "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
           "url": "https://openai.com/index/oracle",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-08T16:00:00.000Z",
           "tags": [],
           "score": 65,
@@ -5289,7 +5289,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/media-sessions/but-i-m-not-a-developer-the-quality-route-into-head-of-engineering",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-08T14:45:00.000Z",
           "tags": [],
           "score": 50,
@@ -5328,7 +5328,7 @@
           "summary": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing a...",
           "url": "https://blog.cloudflare.com/radar-redesign/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-08T13:00:00.000Z",
           "tags": [],
           "score": 60,
@@ -5343,7 +5343,7 @@
           "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
           "url": "https://openai.com/index/pollo-ai",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-08T12:00:00.000Z",
           "tags": [
             "ai"
@@ -5360,7 +5360,7 @@
           "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
           "url": "https://openai.com/index/legalon-halves-codex-costs",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-08T12:00:00.000Z",
           "tags": [
             "ai"
@@ -5390,7 +5390,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/your-inner-bug",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-08T07:43:06.000Z",
           "tags": [
             "bug"
@@ -5405,7 +5405,7 @@
           "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
           "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-08T00:00:00.000Z",
           "tags": [
             "ai"
@@ -5446,7 +5446,7 @@
           "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inf...",
           "url": "https://blog.cloudflare.com/agentic-security-operations/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-07T16:30:36.000Z",
           "tags": [
             "security",
@@ -5481,7 +5481,7 @@
           "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
           "url": "https://openai.com/index/teens-learn-and-plan",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-07T12:00:00.000Z",
           "tags": [
             "ai"
@@ -5498,7 +5498,7 @@
           "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
           "url": "https://openai.com/index/radisson",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-07T07:00:00.000Z",
           "tags": [
             "ai"
@@ -5515,7 +5515,7 @@
           "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
           "url": "https://openai.com/index/gpt-6-for-everyone",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-07T00:00:00.000Z",
           "tags": [],
           "score": 65,
@@ -5545,7 +5545,7 @@
           "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
           "url": "https://openai.com/index/atlassian-partnership",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-06T16:00:00.000Z",
           "tags": [
             "ai"
@@ -5562,7 +5562,7 @@
           "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
           "url": "https://openai.com/index/jump-trading",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-06T12:00:00.000Z",
           "tags": [
             "ai"
@@ -5579,7 +5579,7 @@
           "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
           "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-06T12:00:00.000Z",
           "tags": [
             "github",
@@ -5597,7 +5597,7 @@
           "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
           "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-06T10:00:00.000Z",
           "tags": [
             "ai"
@@ -5615,7 +5615,7 @@
           "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
           "url": "https://openai.com/index/eu-text-provenance",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-05T15:00:00.000Z",
           "tags": [
             "ai"
@@ -5632,7 +5632,7 @@
           "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
           "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-05T13:00:00.000Z",
           "tags": [
             "security",
@@ -5652,7 +5652,7 @@
           "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum securi...",
           "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-05T13:00:00.000Z",
           "tags": [
             "security",
@@ -5670,7 +5670,7 @@
           "summary": "@media only screen and (max-width: 600px) { .body { overflow-x: auto; } .post-content table, .post-content td { width: auto !important; white-space: nowrap; } } This article was adapted from a Google ...",
           "url": "http://testing.googleblog.com/2026/10/two-way-doors-dont-code-yourself-into.html",
           "source": "Google Testing Blog",
-          "category": "engineering",
+          "category": "test-automation",
           "publishedAt": "2026-10-05T12:47:12.909Z",
           "tags": [
             "testing",
@@ -5695,7 +5695,7 @@
           "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
           "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-05T10:00:00.000Z",
           "tags": [
             "ai"
@@ -5712,7 +5712,7 @@
           "summary": "In response to my last fragments (probably the bit about us worrying if LLMs have consciousness when we when we should be wondering why they don’t have a conscience) “Metalanguage” replied: we shipped...",
           "url": "https://martinfowler.com/fragments/2026-10-04.html",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-05T04:28:00.000Z",
           "tags": [
             "python",
@@ -5739,7 +5739,7 @@
           "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pr...",
           "url": "https://blog.cloudflare.com/one-observability-platform/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-02T18:00:00.000Z",
           "tags": [
             "update"
@@ -5756,7 +5756,7 @@
           "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
           "url": "https://openai.com/index/practical-guide-building-gpt-6",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-02T16:15:00.000Z",
           "tags": [],
           "score": 65,
@@ -5771,7 +5771,7 @@
           "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
           "url": "https://blog.cloudflare.com/streamline/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-02T16:13:45.000Z",
           "tags": [
             "ai"
@@ -5788,7 +5788,7 @@
           "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI ...",
           "url": "https://blog.cloudflare.com/introducing-web-search-api/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-02T13:28:10.000Z",
           "tags": [
             "api",
@@ -5807,7 +5807,7 @@
           "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
           "url": "https://blog.cloudflare.com/cloudflare-tracing/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-02T13:00:00.000Z",
           "tags": [
             "security"
@@ -5825,7 +5825,7 @@
           "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams in...",
           "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-02T13:00:00.000Z",
           "tags": [
             "security",
@@ -5844,7 +5844,7 @@
           "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
           "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-02T13:00:00.000Z",
           "tags": [],
           "score": 60,
@@ -5859,7 +5859,7 @@
           "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on ei...",
           "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-02T13:00:00.000Z",
           "tags": [
             "ai"
@@ -5876,7 +5876,7 @@
           "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
           "url": "https://blog.cloudflare.com/civil-society-automation/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-02T13:00:00.000Z",
           "tags": [],
           "score": 60,
@@ -5891,7 +5891,7 @@
           "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurem...",
           "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-02T13:00:00.000Z",
           "tags": [
             "performance",
@@ -5910,7 +5910,7 @@
           "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
           "url": "https://openai.com/index/chatham-financial",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-02T00:00:00.000Z",
           "tags": [
             "api",
@@ -5928,7 +5928,7 @@
           "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
           "url": "https://openai.com/index/the-eternal-complement",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-01T17:00:00.000Z",
           "tags": [
             "ai"
@@ -5961,7 +5961,7 @@
           "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
           "url": "https://openai.com/index/albertsons-reimagining-retail",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-01T16:00:00.000Z",
           "tags": [
             "api",
@@ -5979,7 +5979,7 @@
           "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that...",
           "url": "https://blog.cloudflare.com/clef-decision-models/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-01T15:34:02.000Z",
           "tags": [
             "ai"
@@ -5997,7 +5997,7 @@
           "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations gen...",
           "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-01T13:04:19.000Z",
           "tags": [
             "security",
@@ -6016,7 +6016,7 @@
           "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
           "url": "https://openai.com/index/the-den-family-social",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-01T00:00:00.000Z",
           "tags": [],
           "score": 65,
@@ -6031,7 +6031,7 @@
           "summary": "Not every presentation needs slides, but when they earn their place, they work as a visual channel that complements the speaker rather than replacing them. Sumeet Gayathri Moghe sets out the principle...",
           "url": "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-09-30T14:14:00.000Z",
           "tags": [],
           "score": 50,
@@ -6044,7 +6044,7 @@
           "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
           "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-09-30T10:30:00.000Z",
           "tags": [
             "ai"
@@ -6061,7 +6061,7 @@
           "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
           "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-09-30T10:00:00.000Z",
           "tags": [
             "ai"
@@ -6078,7 +6078,7 @@
           "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
           "url": "https://openai.com/index/introducing-gpt-6-1-sol",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-09-29T17:00:00.000Z",
           "tags": [
             "api"

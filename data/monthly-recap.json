@@ -11,7 +11,7 @@
           "summary": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the loa...",
           "url": "https://martinfowler.com/bliki/LLM-Voice.html",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-29T14:28:00.000Z",
           "tags": [
             "react",
@@ -31,7 +31,7 @@
           "summary": "TL;DRGood developers’ caution about agentic development comes from knowing that built isn’t the same as working in production. I’ve been surprised by how many excellent developers have been hesitant t...",
           "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-29T13:50:00.000Z",
           "tags": [
             "testing",
@@ -54,7 +54,7 @@
           "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and th...",
           "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
           "source": "Cloudflare",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-29T12:55:00.000Z",
           "tags": [],
           "score": 64,
@@ -70,7 +70,7 @@
           "summary": "IT is responsible for about 2 - 4% of all global emissions, and electricity use at Microsoft and Google has climbed because of AI, according to their own reports. Sustainability ought to be a top-leve...",
           "url": "https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-29T11:41:00.000Z",
           "tags": [
             "ai"
@@ -87,7 +87,7 @@
           "summary": "Who authorizes an agent’s actions, and how should teams manage growing context costs? The QCon AI New York 2026 program committee shares six session picks that tackle these questions, alongside open-s...",
           "url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-29T11:00:00.000Z",
           "tags": [
             "ai"
@@ -120,7 +120,7 @@
           "summary": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents ...",
           "url": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-29T09:58:00.000Z",
           "tags": [
             "testing",
@@ -139,7 +139,7 @@
           "summary": "Datadog has released Scout, a model trained to investigate production problems. It runs inside Bits Investigation, the company's AI SRE product, where it can pick up an alert, look through telemetry a...",
           "url": "https://www.infoq.com/news/2026/10/datadog-scout-sre-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-29T09:00:00.000Z",
           "tags": [
             "release",
@@ -158,7 +158,7 @@
           "summary": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports b...",
           "url": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-29T07:14:00.000Z",
           "tags": [
             "api",
@@ -297,7 +297,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/insights/what-is-smoke-testing-in-software-testing-definition-examples-and-when-to-run-it",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-28T15:45:00.000Z",
           "tags": [
             "testing"
@@ -330,7 +330,7 @@
           "summary": "Airbnb extended its Chronon feature platform with Push Mode and Near Real-Time Model Transform to update sequence-based recommendation embeddings within seconds. The architecture reduced embedding sta...",
           "url": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-28T13:53:00.000Z",
           "tags": [
             "testing",
@@ -348,7 +348,7 @@
           "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
           "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-28T13:15:00.000Z",
           "tags": [
             "ai"
@@ -366,7 +366,7 @@
           "summary": "Andrej Karpathy sees a widening gap in how people see LLM capabilities. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of ...",
           "url": "https://martinfowler.com/fragments/2026-10-28.html",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-10-28T12:55:00.000Z",
           "tags": [
             "automation",
@@ -387,7 +387,7 @@
           "summary": "",
           "url": "https://www.ministryoftesting.com/moments/your-ui-and-api-tests-pass-follow-the-failure-they-missed",
           "source": "Ministry of Testing",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-28T11:51:58.000Z",
           "tags": [
             "api",
@@ -403,7 +403,7 @@
           "summary": "Colin Douch shares battle-tested strategies for building and scaling self-hosted observability stacks. He explains how to effectively correlate metrics, structured logs, and distributed traces using o...",
           "url": "https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-10-28T11:00:00.000Z",
           "tags": [
             "ai"
@@ -418,7 +418,7 @@
           "summary": "Microsoft's latest monthly security update addresses 1415 vulnerabilities across multiple products. One vulnerability affecting Windows Shell has been exploited in the wild, while 85 are classified as...",
           "url": "https://www.infoq.com/news/2026/10/microsoft-october-2026-patch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-10-28T10:30:00.000Z",
           "tags": [
             "security",
@@ -443,7 +443,7 @@
           "summary": "Not every presentation needs slides, but when they earn their place, they work as a visual channel that complements the speaker rather than replacing them. Sumeet Gayathri Moghe sets out the principle...",
           "url": "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
           "source": "Martin Fowler",
-          "category": "test-automation",
+          "category": "engineering",
           "publishedAt": "2026-09-30T14:14:00.000Z",
           "tags": [],
           "score": 50,
@@ -456,7 +456,7 @@
           "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
           "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-09-30T10:30:00.000Z",
           "tags": [
             "ai"
@@ -473,7 +473,7 @@
           "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
           "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "ai",
           "publishedAt": "2026-09-30T10:00:00.000Z",
           "tags": [
             "ai"
@@ -490,7 +490,7 @@
           "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
           "url": "https://openai.com/index/introducing-gpt-6-1-sol",
           "source": "OpenAI",
-          "category": "test-automation",
+          "category": "qa-practice",
           "publishedAt": "2026-09-29T17:00:00.000Z",
           "tags": [
             "api"
