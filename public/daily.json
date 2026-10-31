@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T15:26:03.329Z",
+  "updatedAt": "2026-10-31T20:01:49.218Z",
   "articles": [
     {
       "id": "martin-fowler-815e9f76383a9012",
@@ -8,7 +8,7 @@
       "summary": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the loa...",
       "url": "https://martinfowler.com/bliki/LLM-Voice.html",
       "source": "Martin Fowler",
-      "category": "test-automation",
+      "category": "ai",
       "publishedAt": "2026-10-29T14:28:00.000Z",
       "tags": [
         "react",
@@ -28,7 +28,7 @@
       "summary": "TL;DRGood developers’ caution about agentic development comes from knowing that built isn’t the same as working in production. I’ve been surprised by how many excellent developers have been hesitant t...",
       "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
       "source": "Martin Fowler",
-      "category": "test-automation",
+      "category": "engineering",
       "publishedAt": "2026-10-29T13:50:00.000Z",
       "tags": [
         "testing",
@@ -51,7 +51,7 @@
       "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and th...",
       "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
       "source": "Cloudflare",
-      "category": "test-automation",
+      "category": "engineering",
       "publishedAt": "2026-10-29T12:55:00.000Z",
       "tags": [],
       "score": 64,
@@ -67,7 +67,7 @@
       "summary": "IT is responsible for about 2 - 4% of all global emissions, and electricity use at Microsoft and Google has climbed because of AI, according to their own reports. Sustainability ought to be a top-leve...",
       "url": "https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "test-automation",
+      "category": "ai",
       "publishedAt": "2026-10-29T11:41:00.000Z",
       "tags": [
         "ai"
@@ -84,7 +84,7 @@
       "summary": "Who authorizes an agent’s actions, and how should teams manage growing context costs? The QCon AI New York 2026 program committee shares six session picks that tackle these questions, alongside open-s...",
       "url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "test-automation",
+      "category": "ai",
       "publishedAt": "2026-10-29T11:00:00.000Z",
       "tags": [
         "ai"
@@ -117,7 +117,7 @@
       "summary": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents ...",
       "url": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "test-automation",
+      "category": "ai",
       "publishedAt": "2026-10-29T09:58:00.000Z",
       "tags": [
         "testing",
@@ -136,7 +136,7 @@
       "summary": "Datadog has released Scout, a model trained to investigate production problems. It runs inside Bits Investigation, the company's AI SRE product, where it can pick up an alert, look through telemetry a...",
       "url": "https://www.infoq.com/news/2026/10/datadog-scout-sre-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "test-automation",
+      "category": "ai",
       "publishedAt": "2026-10-29T09:00:00.000Z",
       "tags": [
         "release",
@@ -155,7 +155,7 @@
       "summary": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports b...",
       "url": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "test-automation",
+      "category": "tooling",
       "publishedAt": "2026-10-29T07:14:00.000Z",
       "tags": [
         "api",
