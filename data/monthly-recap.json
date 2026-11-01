@@ -1,112 +1,18 @@
 {
   "months": [
     {
-      "month": "2026-10",
+      "month": "2026-11",
       "summary": "",
       "themes": [],
       "items": [
         {
-          "id": "martin-fowler-815e9f76383a9012",
-          "title": "Bliki: LLM Voice",
-          "summary": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the loa...",
-          "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-          "source": "Martin Fowler",
-          "category": "ai",
-          "publishedAt": "2026-10-29T14:28:00.000Z",
-          "tags": [
-            "react",
-            "rest",
-            "ai",
-            "llm"
-          ],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "martin-fowler-540b1c17cdd19889",
-          "title": "Why are good developers so wary of agentic development?",
-          "summary": "TL;DRGood developers’ caution about agentic development comes from knowing that built isn’t the same as working in production. I’ve been surprised by how many excellent developers have been hesitant t...",
-          "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
-          "source": "Martin Fowler",
-          "category": "engineering",
-          "publishedAt": "2026-10-29T13:50:00.000Z",
-          "tags": [
-            "testing",
-            "devops",
-            "rest",
-            "feature",
-            "ai",
-            "machine-learning"
-          ],
-          "score": 74,
-          "priority": "HIGH",
-          "reason": [
-            "agent",
-            "recent"
-          ]
-        },
-        {
-          "id": "cloudflare-93dde8cc7b16e732",
-          "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
-          "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and th...",
-          "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
-          "source": "Cloudflare",
-          "category": "engineering",
-          "publishedAt": "2026-10-29T12:55:00.000Z",
-          "tags": [],
-          "score": 64,
-          "priority": "MEDIUM",
-          "reason": [
-            "cloudflare",
-            "recent"
-          ]
-        },
-        {
-          "id": "infoq-788cf89c57392f52",
-          "title": "How to Make Artificial Intelligence More Environmentally Sustainable",
-          "summary": "IT is responsible for about 2 - 4% of all global emissions, and electricity use at Microsoft and Google has climbed because of AI, according to their own reports. Sustainability ought to be a top-leve...",
-          "url": "https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "ai",
-          "publishedAt": "2026-10-29T11:41:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "infoq-99d5dc21fb759d7f",
-          "title": "QCon AI New York 2026 Program Committee Picks: Agent Identity, Context Costs, and Open-Source Infere",
-          "summary": "Who authorizes an agent’s actions, and how should teams manage growing context costs? The QCon AI New York 2026 program committee shares six session picks that tackle these questions, alongside open-s...",
-          "url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "ai",
-          "publishedAt": "2026-10-29T11:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 74,
-          "priority": "HIGH",
-          "reason": [
-            "agent",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-66f42a1c0c6882a5",
-          "title": "User story",
+          "id": "ministry-of-testing-9f38728287bf1c11",
+          "title": "Quality leadership",
           "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/user-story",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/quality-leadership",
           "source": "Ministry of Testing",
           "category": "test-automation",
-          "publishedAt": "2026-10-29T10:26:23.000Z",
+          "publishedAt": "2026-11-01T12:48:38.000Z",
           "tags": [],
           "score": 54,
           "priority": "MEDIUM",
@@ -115,54 +21,46 @@
           ]
         },
         {
-          "id": "infoq-b96b520a2635f90e",
-          "title": "Anthropic Says Nobody Needs a Mental Model of Claude Code. Practitioners Are Testing That",
-          "summary": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents ...",
-          "url": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "ai",
-          "publishedAt": "2026-10-29T09:58:00.000Z",
-          "tags": [
-            "testing",
-            "ai"
-          ],
-          "score": 79,
-          "priority": "HIGH",
+          "id": "ministry-of-testing-ab1022f1fa30b989",
+          "title": "Hotel booked for MoTaCon 2027",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/hotel-booked-for-motacon-2027",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-01T12:43:32.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
           "reason": [
-            "testing",
             "recent"
           ]
         },
         {
-          "id": "infoq-3e9a6c48f7097d3a",
-          "title": "Datadog Builds a Specialist AI Model for SRE Investigations",
-          "summary": "Datadog has released Scout, a model trained to investigate production problems. It runs inside Bits Investigation, the company's AI SRE product, where it can pick up an alert, look through telemetry a...",
-          "url": "https://www.infoq.com/news/2026/10/datadog-scout-sre-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
+          "id": "ministry-of-testing-78f2c7688a83c93b",
+          "title": "AI Literacy",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/ai-literacy",
+          "source": "Ministry of Testing",
           "category": "ai",
-          "publishedAt": "2026-10-29T09:00:00.000Z",
+          "publishedAt": "2026-11-01T12:22:50.000Z",
           "tags": [
-            "release",
             "ai"
           ],
-          "score": 74,
-          "priority": "HIGH",
+          "score": 54,
+          "priority": "MEDIUM",
           "reason": [
-            "release",
             "recent"
           ]
         },
         {
-          "id": "infoq-24c0c3b16e918df9",
-          "title": "Cloudflare Introduces Web Search API for AI Applications",
-          "summary": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports b...",
-          "url": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "id": "infoq-a8628cd75d0c6b68",
+          "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
+          "summary": "Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC...",
+          "url": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "tooling",
-          "publishedAt": "2026-10-29T07:14:00.000Z",
+          "category": "engineering",
+          "publishedAt": "2026-11-01T08:03:00.000Z",
           "tags": [
-            "api",
-            "rest",
             "ai"
           ],
           "score": 53,
@@ -172,333 +70,412 @@
           ]
         },
         {
-          "id": "ministry-of-testing-2fff0aae00c88ada",
-          "title": "Sockpuppet Account",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/sockpuppet-account",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-28T19:18:34.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-5edd43827485ca5a",
-          "title": "Machine Check Exception (MCE)",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/machine-check-exception-mce",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-28T19:17:50.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-9bbe6c646bae142f",
-          "title": "Linux Unified Key Setup (LUKS)",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/linux-unified-key-setup-luks",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-28T19:16:58.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-7e6cf633efc895ba",
-          "title": "Bootloader",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/bootloader",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-28T19:04:50.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-2e7852ea69a57491",
-          "title": "Backdoor",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/backdoor",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-28T19:02:48.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-130428390d42231f",
-          "title": "Black Swan Event",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/black-swan-event",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-28T19:01:41.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-3a41f514491e8f65",
-          "title": "Blue Screen of Death (BSoD)",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/software-testing-glossary/blue-screen-of-death-bsod",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-28T19:00:12.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-e21c16eaae121101",
-          "title": "TWiC or Treat: the otherworldly powers of community people",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/twic-or-treat-the-otherworldly-powers-of-community-people",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-28T18:09:00.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-1ae7d9b80665c085",
-          "title": "What Is smoke testing in software testing? Definition, examples, and when to run it",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/insights/what-is-smoke-testing-in-software-testing-definition-examples-and-when-to-run-it",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-10-28T15:45:00.000Z",
-          "tags": [
-            "testing"
-          ],
-          "score": 76,
-          "priority": "HIGH",
-          "reason": [
-            "testing",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-816384e7b24cbe36",
-          "title": "From test management to quality management systems",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/from-test-management-to-quality-management-systems",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-28T15:40:01.000Z",
-          "tags": [],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "infoq-e9a3e9ee976fb916",
-          "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
-          "summary": "Airbnb extended its Chronon feature platform with Push Mode and Near Real-Time Model Transform to update sequence-based recommendation embeddings within seconds. The architecture reduced embedding sta...",
-          "url": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "id": "infoq-55de4d87e0a96ab1",
+          "title": "File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers",
+          "summary": "AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Available for macOS, Windows, an...",
+          "url": "https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "ai",
-          "publishedAt": "2026-10-28T13:53:00.000Z",
+          "category": "tooling",
+          "publishedAt": "2026-11-01T06:32:00.000Z",
           "tags": [
-            "testing",
-            "update",
-            "feature",
+            "performance",
+            "release",
             "ai"
           ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "openai-a395c7da350b5086",
-          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-          "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-28T13:15:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 85,
+          "score": 73,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "openai"
+            "release",
+            "recent"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "month": "2026-10",
+      "summary": "",
+      "themes": [],
+      "items": [
         {
-          "id": "martin-fowler-f10c14217170b02a",
-          "title": "Fragments: October 28",
-          "summary": "Andrej Karpathy sees a widening gap in how people see LLM capabilities. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of ...",
-          "url": "https://martinfowler.com/fragments/2026-10-28.html",
-          "source": "Martin Fowler",
-          "category": "ai",
-          "publishedAt": "2026-10-28T12:55:00.000Z",
-          "tags": [
-            "automation",
-            "api",
-            "security",
-            "update",
-            "ai",
-            "llm",
-            "machine-learning"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-f604fe7b9df78326",
-          "title": "Your UI and API Tests Pass. Follow the Failure They Missed",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/your-ui-and-api-tests-pass-follow-the-failure-they-missed",
-          "source": "Ministry of Testing",
-          "category": "tooling",
-          "publishedAt": "2026-10-28T11:51:58.000Z",
-          "tags": [
-            "api",
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-ba056714cdb7086f",
-          "title": "Presentation: Wrangling Telemetry at Scale: A Guide to Self-Hosted Observability",
-          "summary": "Colin Douch shares battle-tested strategies for building and scaling self-hosted observability stacks. He explains how to effectively correlate metrics, structured logs, and distributed traces using o...",
-          "url": "https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "id": "infoq-81dd87e1180dc3d9",
+          "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
+          "summary": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Ke...",
+          "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
           "category": "engineering",
-          "publishedAt": "2026-10-28T11:00:00.000Z",
+          "publishedAt": "2026-10-31T19:56:00.000Z",
           "tags": [
             "ai"
           ],
-          "score": 50,
+          "score": 51,
           "priority": "MEDIUM",
-          "reason": []
+          "reason": [
+            "recent"
+          ]
         },
         {
-          "id": "infoq-8731427655af99dc",
-          "title": "Microsoft's October Security Update Fixes 1,400+ Vulnerabilities, One Exploited in the Wild",
-          "summary": "Microsoft's latest monthly security update addresses 1415 vulnerabilities across multiple products. One vulnerability affecting Windows Shell has been exploited in the wild, while 85 are classified as...",
-          "url": "https://www.infoq.com/news/2026/10/microsoft-october-2026-patch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "id": "infoq-1010c387fc09a746",
+          "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
+          "summary": "There was a flurry of activity during the week of October 19th, 2026, highlighting: first release candidates of: Spring Boot, Spring Framework, Spring Data, Spring Cloud, Spring Security, Spring for G...",
+          "url": "https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "tooling",
+          "publishedAt": "2026-10-31T13:30:00.000Z",
+          "tags": [
+            "rest",
+            "graphql",
+            "security",
+            "release",
+            "ai"
+          ],
+          "score": 110,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "release"
+          ]
+        },
+        {
+          "id": "infoq-67c0aa9f2eabe278",
+          "title": "LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced",
+          "summary": "LocalStack has opened its Azure emulator to a free public preview, running Azure services locally and accepting existing ARM, Bicep, and Terraform without rewrites. Its own documentation reports parti...",
+          "url": "https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
           "category": "qa-practice",
-          "publishedAt": "2026-10-28T10:30:00.000Z",
+          "publishedAt": "2026-10-31T07:57:00.000Z",
           "tags": [
-            "security",
-            "update"
+            "rest",
+            "security"
           ],
           "score": 90,
           "priority": "CRITICAL",
           "reason": [
             "security"
           ]
-        }
-      ]
-    },
-    {
-      "month": "2026-09",
-      "summary": "",
-      "themes": [],
-      "items": [
+        },
         {
-          "id": "martin-fowler-231ac6df8b60f0a8",
-          "title": "Principles for effective slides",
-          "summary": "Not every presentation needs slides, but when they earn their place, they work as a visual channel that complements the speaker rather than replacing them. Sumeet Gayathri Moghe sets out the principle...",
-          "url": "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
-          "source": "Martin Fowler",
-          "category": "engineering",
-          "publishedAt": "2026-09-30T14:14:00.000Z",
+          "id": "infoq-f8d56f0a9d3662bc",
+          "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+          "summary": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak ...",
+          "url": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-10-31T06:20:00.000Z",
+          "tags": [
+            "security",
+            "bug",
+            "ai"
+          ],
+          "score": 110,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "agent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-88a44e9f4c3ac68c",
+          "title": "From Script Writer to Test Strategist",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/from-script-writer-to-test-strategist",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T20:16:47.000Z",
           "tags": [],
           "score": 50,
           "priority": "MEDIUM",
           "reason": []
         },
         {
-          "id": "openai-90249c2a3882c6d3",
-          "title": "Disrupting a coordinated model-distillation campaign",
-          "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-          "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-09-30T10:30:00.000Z",
+          "id": "cloudflare-46377df52764d6fd",
+          "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+          "summary": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempt...",
+          "url": "https://blog.cloudflare.com/emudhra-patching/",
+          "source": "Cloudflare",
+          "category": "engineering",
+          "publishedAt": "2026-10-30T17:38:50.000Z",
           "tags": [
+            "rest",
             "ai"
           ],
-          "score": 65,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "openai"
+            "cloudflare"
           ]
         },
         {
-          "id": "openai-061338e668ed6974",
-          "title": "Helping small businesses put AI to work",
-          "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-          "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-09-30T10:00:00.000Z",
+          "id": "ministry-of-testing-8c771b44f07a28c1",
+          "title": "What's your superpower?",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/what-s-your-superpower",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T15:23:13.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-2c4a3fcb753b3816",
+          "title": "The Ahh Test",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/the-ahh-test",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T15:13:53.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-78a16ecceeb8d4e7",
+          "title": "ISO 9001\t",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/iso-9001",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T15:09:54.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-af087328f6d29f48",
+          "title": "This Week in Quivering: Spooky stories, scary bugs and mystical powers",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/this-week-in-quivering-spooky-stories-scary-bugs-and-mystical-powers",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T15:07:33.000Z",
+          "tags": [
+            "bug"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-1cafd267364ff2dd",
+          "title": "Quality Architect",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/quality-architect",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T15:04:43.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-5c6808e51caa841a",
+          "title": "Quality Control",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/quality-control",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T15:03:32.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-81d882452609bcc6",
+          "title": "This Week in Quality - We'll help you find your voice",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/this-week-in-quality-we-ll-help-you-find-your-voice",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T14:47:08.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-9100c69556a0edba",
+          "title": "Quality Planning",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/quality-planning",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T14:32:55.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-79ceb5a60c5fcd7a",
+          "title": "Quality Enablement Lead",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/quality-enablement-lead",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T14:30:31.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-24a298a5811408f0",
+          "title": "Product risk",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/product-risk",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T14:25:15.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-8155924c7b155e0e",
+          "title": "Quality Orchestration",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/quality-orchestration",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T14:24:13.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "cloudflare-4d4206ade98bad0a",
+          "title": "Cloudflare services for private origins is now generally available",
+          "summary": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+          "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
+          "source": "Cloudflare",
+          "category": "engineering",
+          "publishedAt": "2026-10-30T14:23:43.000Z",
           "tags": [
             "ai"
           ],
-          "score": 65,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "openai"
+            "cloudflare"
           ]
         },
         {
-          "id": "openai-d6b9f5e651b1891e",
-          "title": "Introducing GPT-6.1 Sol",
-          "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-          "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-          "source": "OpenAI",
-          "category": "qa-practice",
-          "publishedAt": "2026-09-29T17:00:00.000Z",
+          "id": "ministry-of-testing-f125f2cf0459ed0a",
+          "title": "Quality Management System (QMS)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/quality-management-system-qms",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T14:21:43.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-e6ab5b2d6d1fa4eb",
+          "title": "DoorDash Cuts Grocery Reorder Latency from 16 to 2 Seconds with AI Agents",
+          "summary": "DoorDash reduced grocery reorder latency from 16 to 2 seconds by precomputing recurring purchase needs using batch LLM inference and deterministic validation. Live catalog resolution keeps product sel...",
+          "url": "https://www.infoq.com/news/2026/10/doordash-ai-grocery-reorder/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-10-30T13:31:00.000Z",
+          "tags": [
+            "ai",
+            "llm"
+          ],
+          "score": 70,
+          "priority": "HIGH",
+          "reason": [
+            "agent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-98e4dc5b423adc00",
+          "title": "One Extra API Call. Every Page Load. No Red Tests.",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/one-extra-api-call-every-page-load-no-red-tests",
+          "source": "Ministry of Testing",
+          "category": "tooling",
+          "publishedAt": "2026-10-30T12:58:38.000Z",
           "tags": [
             "api"
           ],
-          "score": 65,
+          "score": 50,
           "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-514a6c1be9335a22",
+          "title": "Test scenario",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/software-testing-glossary/test-scenario",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T12:37:09.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-e4ae2b32c9e450ed",
+          "title": "Test automation, AI and the gap between industry talk and reality",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/test-automation-ai-and-the-gap-between-industry-talk-and-reality",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-10-30T12:01:20.000Z",
+          "tags": [
+            "automation",
+            "ai"
+          ],
+          "score": 125,
+          "priority": "CRITICAL",
           "reason": [
-            "openai"
+            "test automation",
+            "automation"
+          ]
+        },
+        {
+          "id": "infoq-2febbf6833872577",
+          "title": "Presentation: The Ladder Is Missing Rungs: Engineering Progression When AI Ate the Middle",
+          "summary": "Alasdair Allan discusses empirical research from METR and Anthropic on AI coding adoption. He explains the \"supervision paradox,\" where reliance on AI tools disrupts junior skill development, risks in...",
+          "url": "https://www.infoq.com/presentations/ai-software-engineering-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-10-30T11:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "ministry-of-testing-4e146ae8a88f4c24",
+          "title": "38 lessons from building AI products, AI myths, and the trouble with systems integration testing, and more!",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/newsletter/38-lessons-from-building-ai-products-ai-myths-and-the-trouble-with-systems-integration-testing-and-more",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-10-30T10:05:00.000Z",
+          "tags": [
+            "testing",
+            "ai"
+          ],
+          "score": 105,
+          "priority": "CRITICAL",
+          "reason": [
+            "integration testing",
+            "testing"
           ]
         }
       ]

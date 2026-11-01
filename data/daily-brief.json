@@ -1,112 +1,18 @@
 {
-  "date": "2026-10-31",
-  "updatedAt": "2026-10-31T20:01:49.218Z",
+  "date": "2026-11-01",
+  "updatedAt": "2026-11-01T14:41:37.707Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news topics",
   "items": [
     {
-      "id": "martin-fowler-815e9f76383a9012",
-      "title": "Bliki: LLM Voice",
-      "summary": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the loa...",
-      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-      "source": "Martin Fowler",
-      "category": "ai",
-      "publishedAt": "2026-10-29T14:28:00.000Z",
-      "tags": [
-        "react",
-        "rest",
-        "ai",
-        "llm"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "martin-fowler-540b1c17cdd19889",
-      "title": "Why are good developers so wary of agentic development?",
-      "summary": "TL;DRGood developers’ caution about agentic development comes from knowing that built isn’t the same as working in production. I’ve been surprised by how many excellent developers have been hesitant t...",
-      "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
-      "source": "Martin Fowler",
-      "category": "engineering",
-      "publishedAt": "2026-10-29T13:50:00.000Z",
-      "tags": [
-        "testing",
-        "devops",
-        "rest",
-        "feature",
-        "ai",
-        "machine-learning"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "cloudflare-93dde8cc7b16e732",
-      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
-      "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and th...",
-      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
-      "source": "Cloudflare",
-      "category": "engineering",
-      "publishedAt": "2026-10-29T12:55:00.000Z",
-      "tags": [],
-      "score": 64,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-788cf89c57392f52",
-      "title": "How to Make Artificial Intelligence More Environmentally Sustainable",
-      "summary": "IT is responsible for about 2 - 4% of all global emissions, and electricity use at Microsoft and Google has climbed because of AI, according to their own reports. Sustainability ought to be a top-leve...",
-      "url": "https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-29T11:41:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-99d5dc21fb759d7f",
-      "title": "QCon AI New York 2026 Program Committee Picks: Agent Identity, Context Costs, and Open-Source Infere",
-      "summary": "Who authorizes an agent’s actions, and how should teams manage growing context costs? The QCon AI New York 2026 program committee shares six session picks that tackle these questions, alongside open-s...",
-      "url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-29T11:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-66f42a1c0c6882a5",
-      "title": "User story",
+      "id": "ministry-of-testing-9f38728287bf1c11",
+      "title": "Quality leadership",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/software-testing-glossary/user-story",
+      "url": "https://www.ministryoftesting.com/software-testing-glossary/quality-leadership",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-10-29T10:26:23.000Z",
+      "publishedAt": "2026-11-01T12:48:38.000Z",
       "tags": [],
       "score": 54,
       "priority": "MEDIUM",
@@ -115,54 +21,46 @@
       ]
     },
     {
-      "id": "infoq-b96b520a2635f90e",
-      "title": "Anthropic Says Nobody Needs a Mental Model of Claude Code. Practitioners Are Testing That",
-      "summary": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents ...",
-      "url": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-29T09:58:00.000Z",
-      "tags": [
-        "testing",
-        "ai"
-      ],
-      "score": 79,
-      "priority": "HIGH",
+      "id": "ministry-of-testing-ab1022f1fa30b989",
+      "title": "Hotel booked for MoTaCon 2027",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/hotel-booked-for-motacon-2027",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-01T12:43:32.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
       "reason": [
-        "testing",
         "recent"
       ]
     },
     {
-      "id": "infoq-3e9a6c48f7097d3a",
-      "title": "Datadog Builds a Specialist AI Model for SRE Investigations",
-      "summary": "Datadog has released Scout, a model trained to investigate production problems. It runs inside Bits Investigation, the company's AI SRE product, where it can pick up an alert, look through telemetry a...",
-      "url": "https://www.infoq.com/news/2026/10/datadog-scout-sre-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
+      "id": "ministry-of-testing-78f2c7688a83c93b",
+      "title": "AI Literacy",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/software-testing-glossary/ai-literacy",
+      "source": "Ministry of Testing",
       "category": "ai",
-      "publishedAt": "2026-10-29T09:00:00.000Z",
+      "publishedAt": "2026-11-01T12:22:50.000Z",
       "tags": [
-        "release",
         "ai"
       ],
-      "score": 74,
-      "priority": "HIGH",
+      "score": 54,
+      "priority": "MEDIUM",
       "reason": [
-        "release",
         "recent"
       ]
     },
     {
-      "id": "infoq-24c0c3b16e918df9",
-      "title": "Cloudflare Introduces Web Search API for AI Applications",
-      "summary": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports b...",
-      "url": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-a8628cd75d0c6b68",
+      "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
+      "summary": "Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC...",
+      "url": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-10-29T07:14:00.000Z",
+      "category": "engineering",
+      "publishedAt": "2026-11-01T08:03:00.000Z",
       "tags": [
-        "api",
-        "rest",
         "ai"
       ],
       "score": 53,
@@ -172,19 +70,114 @@
       ]
     },
     {
-      "id": "ministry-of-testing-2fff0aae00c88ada",
-      "title": "Sockpuppet Account",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/software-testing-glossary/sockpuppet-account",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-28T19:18:34.000Z",
-      "tags": [],
+      "id": "infoq-55de4d87e0a96ab1",
+      "title": "File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers",
+      "summary": "AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Available for macOS, Windows, an...",
+      "url": "https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-01T06:32:00.000Z",
+      "tags": [
+        "performance",
+        "release",
+        "ai"
+      ],
+      "score": 73,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-81dd87e1180dc3d9",
+      "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
+      "summary": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Ke...",
+      "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-10-31T19:56:00.000Z",
+      "tags": [
+        "ai"
+      ],
       "score": 51,
       "priority": "MEDIUM",
       "reason": [
         "recent"
       ]
+    },
+    {
+      "id": "infoq-1010c387fc09a746",
+      "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
+      "summary": "There was a flurry of activity during the week of October 19th, 2026, highlighting: first release candidates of: Spring Boot, Spring Framework, Spring Data, Spring Cloud, Spring Security, Spring for G...",
+      "url": "https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-10-31T13:30:00.000Z",
+      "tags": [
+        "rest",
+        "graphql",
+        "security",
+        "release",
+        "ai"
+      ],
+      "score": 110,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "release"
+      ]
+    },
+    {
+      "id": "infoq-67c0aa9f2eabe278",
+      "title": "LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced",
+      "summary": "LocalStack has opened its Azure emulator to a free public preview, running Azure services locally and accepting existing ARM, Bicep, and Terraform without rewrites. Its own documentation reports parti...",
+      "url": "https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "qa-practice",
+      "publishedAt": "2026-10-31T07:57:00.000Z",
+      "tags": [
+        "rest",
+        "security"
+      ],
+      "score": 90,
+      "priority": "CRITICAL",
+      "reason": [
+        "security"
+      ]
+    },
+    {
+      "id": "infoq-f8d56f0a9d3662bc",
+      "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+      "summary": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak ...",
+      "url": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-10-31T06:20:00.000Z",
+      "tags": [
+        "security",
+        "bug",
+        "ai"
+      ],
+      "score": 110,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "agent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-88a44e9f4c3ac68c",
+      "title": "From Script Writer to Test Strategist",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/from-script-writer-to-test-strategist",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-10-30T20:16:47.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     }
   ]
 }
