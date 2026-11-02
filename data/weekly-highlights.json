@@ -1,6 +1,420 @@
 {
   "weeks": [
     {
+      "weekOf": "2026-11-02",
+      "summary": "",
+      "items": [
+        {
+          "id": "infoq-11ca873347a5c4a7",
+          "title": "Java News Roundup: TornadoVM 8.0, JNoSQL, Endive, JReleaser, JBang, LangChain4j, Quarkus Almanac",
+          "summary": "This week's Java roundup for October 26th, 2026, features news highlighting: the GA release of TornadoVM 8.0; point releases of JNoSQL, Endive, JBang, JReleaser and LangChain4j; a maintenance release ...",
+          "url": "https://www.infoq.com/news/2026/11/java-news-roundup-oct26-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "tooling",
+          "publishedAt": "2026-11-02T17:00:00.000Z",
+          "tags": [
+            "react",
+            "sql",
+            "release",
+            "feature",
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "release",
+            "recent"
+          ]
+        },
+        {
+          "id": "cypress-f9722f0ad26ce772",
+          "title": "How to choose the right Cypress plugins for your project",
+          "summary": "Most Cypress plugins are npm packages you maintain separately from Cypress. Learn how to read the Cypress plugin directory, check a plugin against your project and security review, integrate it correc...",
+          "url": "https://www.cypress.io/blog/how-to-choose-the-right-cypress-plugins-for-your-project/",
+          "source": "Cypress",
+          "category": "tooling",
+          "publishedAt": "2026-11-02T16:41:49.000Z",
+          "tags": [
+            "cypress",
+            "security",
+            "ai"
+          ],
+          "score": 94,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-5d33ed0c66ace544",
+          "title": "Introducing the Grid Protectors Program",
+          "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+          "url": "https://openai.com/index/grid-protectors-program",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-02T15:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 69,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-e973574d2c0722d9",
+          "title": "Uber Builds MCP Gateway to Govern Access to 800+ Servers and 5,000+ AI Agent Tools",
+          "summary": "Uber has built an MCP Gateway to standardize how AI agents discover and invoke internal services across more than 800 MCP servers and 5,000 tools. The gateway separates tool registration from runtime ...",
+          "url": "https://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-02T13:53:00.000Z",
+          "tags": [
+            "api",
+            "ai"
+          ],
+          "score": 99,
+          "priority": "CRITICAL",
+          "reason": [
+            "mcp",
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-1c63ea72abf159b0",
+          "title": "Podcast: Educating an Architect: A Conversation with Luca Mezzalira",
+          "summary": "In this podcast, Michael Stiefel spoke to Luca Mezzalira about software architecture as a socio-technical discipline that balances technological design with an organization's social and managerial con...",
+          "url": "https://www.infoq.com/podcasts/educating-architect-conversation-luca-mezzalira/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T11:00:00.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-21dc7f672820704b",
+          "title": "Only under specific conditions..",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/only-under-specific-conditions",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-02T09:56:34.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-c65cf1b489399691",
+          "title": "Your QA Automation May Be Stuck at Stage Three",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/your-qa-automation-may-be-stuck-at-stage-three",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-02T09:52:46.000Z",
+          "tags": [
+            "automation"
+          ],
+          "score": 98,
+          "priority": "CRITICAL",
+          "reason": [
+            "automation",
+            "qa",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-208f1ec6d232bbdf",
+          "title": "Shopify Overexposed Scans GKE Ingresses and Cloud Run for Exposure",
+          "summary": "Shopify has introduced Overexposed. This internal scanner locates Kubernetes Ingresses on GKE and Cloud Run services. It checks for those that are accessible from the internet without authentication B...",
+          "url": "https://www.infoq.com/news/2026/11/shopify-kubernetes-ingresses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T09:00:00.000Z",
+          "tags": [
+            "kubernetes"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-dd2caf29784d9767",
+          "title": "Engineering Manager - Ads | SoundCloud",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-ads-soundcloud",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:55.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-26e5c7803f8475a3",
+          "title": "Engineering Manager, AI Platform | Harvey - Jobs",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-ai-platform-harvey-jobs",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:53.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-3ae6a4973bf3dc05",
+          "title": "Senior Engineering Manager, Software Engineering | zillow",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/senior-engineering-manager-software-engineering-zillow",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:52.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-4792da0f434e81f9",
+          "title": "Engineering Manager - Myworkdayjobs.com | Company 1 - The Manufacturers Life Insurance Company",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-myworkdayjobs-com-company-1-the-manufacturers-life-insurance-company",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:50.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-ad9daf9ad542ae32",
+          "title": "Engineering Manager, Product Foundations | Justworks",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-product-foundations-justworks",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:49.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-19c4bf0ffe5c7829",
+          "title": "Sr Test Engineering Manager - Myworkdayjobs.com | 335 Flextronics International USA, Inc.",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/sr-test-engineering-manager-myworkdayjobs-com-335-flextronics-international-usa-inc",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-02T08:04:49.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-f0f97bb9eae60760",
+          "title": "Software Engineering Manager - Cloud Security (Hybrid) | CrowdStrike, Inc.",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/software-engineering-manager-cloud-security-hybrid-crowdstrike-inc",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-02T08:04:48.000Z",
+          "tags": [
+            "security"
+          ],
+          "score": 93,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-fee55f5aa3889063",
+          "title": "Mechanical Engineering Manager - Myworkdayjobs.com | kiongroup",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/mechanical-engineering-manager-myworkdayjobs-com-kiongroup",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:46.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-e8063807520b57a8",
+          "title": "Software Engineering Manager, SVP - Finance and Operations Technology | blackstone",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/software-engineering-manager-svp-finance-and-operations-technology-blackstone",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:46.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-450b29e09076bb47",
+          "title": "Engineering Manager - Myworkdayjobs.com | 00160 LEIDOS AUSTRALIA PTY LTD.",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-myworkdayjobs-com-00160-leidos-australia-pty-ltd",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:45.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-5ad7583d46f3f03a",
+          "title": "Engineering Manager - Controls Engineering - Remote | Jabil Inc.",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-controls-engineering-remote-jabil-inc",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:44.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-58935548892b550f",
+          "title": "Engineering Manager - Myworkdayjobs.com | *US AMR-Jones Lang LaSalle Americas, Inc.",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-myworkdayjobs-com-us-amr-jones-lang-lasalle-americas-inc",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:43.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-e938c7ddb92a5884",
+          "title": "Engineering Manager - Personalization (Hybrid - Seattle) | Nordstrom Inc",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-personalization-hybrid-seattle-nordstrom-inc",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:42.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-3c3026bf8f9c60e7",
+          "title": "PLM & Digital Engineering Manager - Myworkdayjobs.com | Orlaco Products B.V.",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/plm-digital-engineering-manager-myworkdayjobs-com-orlaco-products-b-v",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:41.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-c0f2b03caef0416d",
+          "title": "Software Engineering Manager, AI Platforms - Myworkdayjobs.com | coke",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/software-engineering-manager-ai-platforms-myworkdayjobs-com-coke",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:41.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-c043a1cf0ff79037",
+          "title": "Engineering Manager, Data Center Operations | Cloudflare",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-data-center-operations-cloudflare",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:40.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-79647eb8acf7f095",
+          "title": "Solutions Engineering Manager, Central | Glean",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/jobs/solutions-engineering-manager-central-glean",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T08:04:39.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        }
+      ]
+    },
+    {
       "weekOf": "2026-10-26",
       "summary": "",
       "items": [
@@ -62,11 +476,9 @@
           "tags": [
             "ai"
           ],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-55de4d87e0a96ab1",
@@ -81,11 +493,10 @@
             "release",
             "ai"
           ],
-          "score": 73,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "release",
-            "recent"
+            "release"
           ]
         },
         {
@@ -99,11 +510,9 @@
           "tags": [
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-1010c387fc09a746",
@@ -6389,61 +6798,6 @@
           "score": 50,
           "priority": "MEDIUM",
           "reason": []
-        }
-      ]
-    },
-    {
-      "weekOf": "2026-09-28",
-      "summary": "",
-      "items": [
-        {
-          "id": "cloudflare-cd838e82df4db660",
-          "title": "8 major updates to Cloudflare Observability",
-          "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pr...",
-          "url": "https://blog.cloudflare.com/one-observability-platform/",
-          "source": "Cloudflare",
-          "category": "engineering",
-          "publishedAt": "2026-10-02T18:00:00.000Z",
-          "tags": [
-            "update"
-          ],
-          "score": 60,
-          "priority": "MEDIUM",
-          "reason": [
-            "cloudflare"
-          ]
-        },
-        {
-          "id": "openai-c38af6e5cae43e23",
-          "title": "A model guide for the GPT-6 family",
-          "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-          "url": "https://openai.com/index/practical-guide-building-gpt-6",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-02T16:15:00.000Z",
-          "tags": [],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "cloudflare-f947e9010dad4080",
-          "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
-          "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
-          "url": "https://blog.cloudflare.com/streamline/",
-          "source": "Cloudflare",
-          "category": "tooling",
-          "publishedAt": "2026-10-02T16:13:45.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 60,
-          "priority": "MEDIUM",
-          "reason": [
-            "cloudflare"
-          ]
         }
       ]
     }
