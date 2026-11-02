@@ -1,7 +1,415 @@
 {
-  "date": "2026-11-01",
-  "updatedAt": "2026-11-01T14:41:38.874Z",
+  "date": "2026-11-02",
+  "updatedAt": "2026-11-02T17:39:02.921Z",
   "items": [
+    {
+      "id": "infoq-11ca873347a5c4a7",
+      "title": "Java News Roundup: TornadoVM 8.0, JNoSQL, Endive, JReleaser, JBang, LangChain4j, Quarkus Almanac",
+      "summary": "This week's Java roundup for October 26th, 2026, features news highlighting: the GA release of TornadoVM 8.0; point releases of JNoSQL, Endive, JBang, JReleaser and LangChain4j; a maintenance release ...",
+      "url": "https://www.infoq.com/news/2026/11/java-news-roundup-oct26-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-02T17:00:00.000Z",
+      "tags": [
+        "react",
+        "sql",
+        "release",
+        "feature",
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "cypress-f9722f0ad26ce772",
+      "title": "How to choose the right Cypress plugins for your project",
+      "summary": "Most Cypress plugins are npm packages you maintain separately from Cypress. Learn how to read the Cypress plugin directory, check a plugin against your project and security review, integrate it correc...",
+      "url": "https://www.cypress.io/blog/how-to-choose-the-right-cypress-plugins-for-your-project/",
+      "source": "Cypress",
+      "category": "tooling",
+      "publishedAt": "2026-11-02T16:41:49.000Z",
+      "tags": [
+        "cypress",
+        "security",
+        "ai"
+      ],
+      "score": 94,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "recent"
+      ]
+    },
+    {
+      "id": "openai-5d33ed0c66ace544",
+      "title": "Introducing the Grid Protectors Program",
+      "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-02T15:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 69,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-e973574d2c0722d9",
+      "title": "Uber Builds MCP Gateway to Govern Access to 800+ Servers and 5,000+ AI Agent Tools",
+      "summary": "Uber has built an MCP Gateway to standardize how AI agents discover and invoke internal services across more than 800 MCP servers and 5,000 tools. The gateway separates tool registration from runtime ...",
+      "url": "https://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-02T13:53:00.000Z",
+      "tags": [
+        "api",
+        "ai"
+      ],
+      "score": 99,
+      "priority": "CRITICAL",
+      "reason": [
+        "mcp",
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-1c63ea72abf159b0",
+      "title": "Podcast: Educating an Architect: A Conversation with Luca Mezzalira",
+      "summary": "In this podcast, Michael Stiefel spoke to Luca Mezzalira about software architecture as a socio-technical discipline that balances technological design with an organization's social and managerial con...",
+      "url": "https://www.infoq.com/podcasts/educating-architect-conversation-luca-mezzalira/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T11:00:00.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-21dc7f672820704b",
+      "title": "Only under specific conditions..",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/only-under-specific-conditions",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-02T09:56:34.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-c65cf1b489399691",
+      "title": "Your QA Automation May Be Stuck at Stage Three",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/your-qa-automation-may-be-stuck-at-stage-three",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-02T09:52:46.000Z",
+      "tags": [
+        "automation"
+      ],
+      "score": 98,
+      "priority": "CRITICAL",
+      "reason": [
+        "automation",
+        "qa",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-208f1ec6d232bbdf",
+      "title": "Shopify Overexposed Scans GKE Ingresses and Cloud Run for Exposure",
+      "summary": "Shopify has introduced Overexposed. This internal scanner locates Kubernetes Ingresses on GKE and Cloud Run services. It checks for those that are accessible from the internet without authentication B...",
+      "url": "https://www.infoq.com/news/2026/11/shopify-kubernetes-ingresses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T09:00:00.000Z",
+      "tags": [
+        "kubernetes"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-dd2caf29784d9767",
+      "title": "Engineering Manager - Ads | SoundCloud",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/engineering-manager-ads-soundcloud",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:55.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-26e5c7803f8475a3",
+      "title": "Engineering Manager, AI Platform | Harvey - Jobs",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/engineering-manager-ai-platform-harvey-jobs",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:53.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-3ae6a4973bf3dc05",
+      "title": "Senior Engineering Manager, Software Engineering | zillow",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/senior-engineering-manager-software-engineering-zillow",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:52.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-4792da0f434e81f9",
+      "title": "Engineering Manager - Myworkdayjobs.com | Company 1 - The Manufacturers Life Insurance Company",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/engineering-manager-myworkdayjobs-com-company-1-the-manufacturers-life-insurance-company",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:50.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-ad9daf9ad542ae32",
+      "title": "Engineering Manager, Product Foundations | Justworks",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/engineering-manager-product-foundations-justworks",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:49.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-19c4bf0ffe5c7829",
+      "title": "Sr Test Engineering Manager - Myworkdayjobs.com | 335 Flextronics International USA, Inc.",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/sr-test-engineering-manager-myworkdayjobs-com-335-flextronics-international-usa-inc",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-02T08:04:49.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-f0f97bb9eae60760",
+      "title": "Software Engineering Manager - Cloud Security (Hybrid) | CrowdStrike, Inc.",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/software-engineering-manager-cloud-security-hybrid-crowdstrike-inc",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-02T08:04:48.000Z",
+      "tags": [
+        "security"
+      ],
+      "score": 93,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-fee55f5aa3889063",
+      "title": "Mechanical Engineering Manager - Myworkdayjobs.com | kiongroup",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/mechanical-engineering-manager-myworkdayjobs-com-kiongroup",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:46.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-e8063807520b57a8",
+      "title": "Software Engineering Manager, SVP - Finance and Operations Technology | blackstone",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/software-engineering-manager-svp-finance-and-operations-technology-blackstone",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:46.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-450b29e09076bb47",
+      "title": "Engineering Manager - Myworkdayjobs.com | 00160 LEIDOS AUSTRALIA PTY LTD.",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/engineering-manager-myworkdayjobs-com-00160-leidos-australia-pty-ltd",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:45.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-5ad7583d46f3f03a",
+      "title": "Engineering Manager - Controls Engineering - Remote | Jabil Inc.",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/engineering-manager-controls-engineering-remote-jabil-inc",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:44.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-58935548892b550f",
+      "title": "Engineering Manager - Myworkdayjobs.com | *US AMR-Jones Lang LaSalle Americas, Inc.",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/engineering-manager-myworkdayjobs-com-us-amr-jones-lang-lasalle-americas-inc",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:43.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-e938c7ddb92a5884",
+      "title": "Engineering Manager - Personalization (Hybrid - Seattle) | Nordstrom Inc",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/engineering-manager-personalization-hybrid-seattle-nordstrom-inc",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:42.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-3c3026bf8f9c60e7",
+      "title": "PLM & Digital Engineering Manager - Myworkdayjobs.com | Orlaco Products B.V.",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/plm-digital-engineering-manager-myworkdayjobs-com-orlaco-products-b-v",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:41.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-c0f2b03caef0416d",
+      "title": "Software Engineering Manager, AI Platforms - Myworkdayjobs.com | coke",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/software-engineering-manager-ai-platforms-myworkdayjobs-com-coke",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:41.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-c043a1cf0ff79037",
+      "title": "Engineering Manager, Data Center Operations | Cloudflare",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/engineering-manager-data-center-operations-cloudflare",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:40.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-79647eb8acf7f095",
+      "title": "Solutions Engineering Manager, Central | Glean",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/jobs/solutions-engineering-manager-central-glean",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T08:04:39.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
     {
       "id": "ministry-of-testing-9f38728287bf1c11",
       "title": "Quality leadership",
@@ -60,11 +468,9 @@
       "tags": [
         "ai"
       ],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-55de4d87e0a96ab1",
@@ -79,11 +485,10 @@
         "release",
         "ai"
       ],
-      "score": 73,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "recent"
+        "release"
       ]
     },
     {
@@ -97,11 +502,9 @@
       "tags": [
         "ai"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-1010c387fc09a746",
@@ -385,433 +788,6 @@
       "priority": "HIGH",
       "reason": [
         "agent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-98e4dc5b423adc00",
-      "title": "One Extra API Call. Every Page Load. No Red Tests.",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/one-extra-api-call-every-page-load-no-red-tests",
-      "source": "Ministry of Testing",
-      "category": "tooling",
-      "publishedAt": "2026-10-30T12:58:38.000Z",
-      "tags": [
-        "api"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-514a6c1be9335a22",
-      "title": "Test scenario",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/software-testing-glossary/test-scenario",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-30T12:37:09.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-e4ae2b32c9e450ed",
-      "title": "Test automation, AI and the gap between industry talk and reality",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/test-automation-ai-and-the-gap-between-industry-talk-and-reality",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-30T12:01:20.000Z",
-      "tags": [
-        "automation",
-        "ai"
-      ],
-      "score": 125,
-      "priority": "CRITICAL",
-      "reason": [
-        "test automation",
-        "automation"
-      ]
-    },
-    {
-      "id": "infoq-2febbf6833872577",
-      "title": "Presentation: The Ladder Is Missing Rungs: Engineering Progression When AI Ate the Middle",
-      "summary": "Alasdair Allan discusses empirical research from METR and Anthropic on AI coding adoption. He explains the \"supervision paradox,\" where reliance on AI tools disrupts junior skill development, risks in...",
-      "url": "https://www.infoq.com/presentations/ai-software-engineering-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-10-30T11:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-4e146ae8a88f4c24",
-      "title": "38 lessons from building AI products, AI myths, and the trouble with systems integration testing, and more!",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/newsletter/38-lessons-from-building-ai-products-ai-myths-and-the-trouble-with-systems-integration-testing-and-more",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-10-30T10:05:00.000Z",
-      "tags": [
-        "testing",
-        "ai"
-      ],
-      "score": 105,
-      "priority": "CRITICAL",
-      "reason": [
-        "integration testing",
-        "testing"
-      ]
-    },
-    {
-      "id": "infoq-26ec52e13120a435",
-      "title": "Netflix Titus Adds Single-Tenant VM Isolation for Containers",
-      "summary": "Netflix has added single-tenant Titus, a mode that runs one task alone on its own right-sized EC2 instance. The Compute/Platform team still owns and patches the host, so application teams keep the sam...",
-      "url": "https://www.infoq.com/news/2026/10/netflix-titus-kubernetes-microvm/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-10-30T10:00:00.000Z",
-      "tags": [
-        "kubernetes",
-        "api",
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "openai-84abd1857de5dfd9",
-      "title": "Making it easier for websites to express AI training preferences",
-      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-10-30T09:30:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "openai-a86d24c59c826150",
-      "title": "Community safety report and new protections for teens",
-      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-10-30T09:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "infoq-ca9278f2ddc2eb39",
-      "title": "Article: InfoQ AI, ML and Data Engineering Trends Report - 2026",
-      "summary": "This InfoQ Trends Report offers readers a comprehensive overview of emerging trends and technologies in the areas of AI, ML, and Data Engineering. This report summarizes the InfoQ editorial team’s and...",
-      "url": "https://www.infoq.com/articles/ai-ml-data-engineering-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-10-30T09:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-41d7e18bf1ba75e9",
-      "title": "Podcast: AI, ML, and Data Engineering InfoQ Trends Report 2026",
-      "summary": "In this episode, members of the InfoQ AI and ML editorial staff and friends of InfoQ discuss the current trends in the domain of AI, ML and Data Engineering. One of the regular features of InfoQ are t...",
-      "url": "https://www.infoq.com/podcasts/ai-ml-data-engineering-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-10-30T09:00:00.000Z",
-      "tags": [
-        "feature",
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-c0b2dd9017f55f71",
-      "title": "Microsoft Retires Azure Deployment Environments with No Replacement Product",
-      "summary": "Azure Deployment Environments retires on February 22, 2027 and Microsoft names no successor, telling teams to use Bicep or ARM templates directly. Microsoft Dev Box follows on September 18, 2028, poin...",
-      "url": "https://www.infoq.com/news/2026/10/ade-dev-box-retirement/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-10-30T08:13:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "openai-574dbaf7fc8731e4",
-      "title": "Fair use benefits everyone",
-      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-      "url": "https://openai.com/index/fair-use-benefits-everyone",
-      "source": "OpenAI",
-      "category": "qa-practice",
-      "publishedAt": "2026-10-30T00:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "openai-9349f418e7bc7ab4",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "url": "https://openai.com/index/updated-model-spec",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-10-29T17:00:00.000Z",
-      "tags": [
-        "update",
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "cypress-a8c66100f577fae6",
-      "title": "Cypress Ambassador Spotlight: Kevin Korenhof",
-      "summary": "Welcome back to another Ambassador Spotlight. Every post in this series introduces you to one of the people quietly holding up the Cypress community, including where they started, what they believe ab...",
-      "url": "https://www.cypress.io/blog/cypress-ambassador-spotlight-kevin-korenhof/",
-      "source": "Cypress",
-      "category": "test-automation",
-      "publishedAt": "2026-10-29T16:19:00.000Z",
-      "tags": [
-        "testing",
-        "cypress",
-        "automation"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "martin-fowler-815e9f76383a9012",
-      "title": "Bliki: LLM Voice",
-      "summary": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the loa...",
-      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
-      "source": "Martin Fowler",
-      "category": "ai",
-      "publishedAt": "2026-10-29T14:28:00.000Z",
-      "tags": [
-        "react",
-        "rest",
-        "ai",
-        "llm"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "martin-fowler-540b1c17cdd19889",
-      "title": "Why are good developers so wary of agentic development?",
-      "summary": "TL;DRGood developers’ caution about agentic development comes from knowing that built isn’t the same as working in production. I’ve been surprised by how many excellent developers have been hesitant t...",
-      "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
-      "source": "Martin Fowler",
-      "category": "engineering",
-      "publishedAt": "2026-10-29T13:50:00.000Z",
-      "tags": [
-        "testing",
-        "devops",
-        "rest",
-        "feature",
-        "ai",
-        "machine-learning"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "agent"
-      ]
-    },
-    {
-      "id": "cloudflare-93dde8cc7b16e732",
-      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
-      "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and th...",
-      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
-      "source": "Cloudflare",
-      "category": "engineering",
-      "publishedAt": "2026-10-29T12:55:00.000Z",
-      "tags": [],
-      "score": 60,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
-      ]
-    },
-    {
-      "id": "infoq-788cf89c57392f52",
-      "title": "How to Make Artificial Intelligence More Environmentally Sustainable",
-      "summary": "IT is responsible for about 2 - 4% of all global emissions, and electricity use at Microsoft and Google has climbed because of AI, according to their own reports. Sustainability ought to be a top-leve...",
-      "url": "https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-29T11:41:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-99d5dc21fb759d7f",
-      "title": "QCon AI New York 2026 Program Committee Picks: Agent Identity, Context Costs, and Open-Source Infere",
-      "summary": "Who authorizes an agent’s actions, and how should teams manage growing context costs? The QCon AI New York 2026 program committee shares six session picks that tackle these questions, alongside open-s...",
-      "url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-29T11:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-66f42a1c0c6882a5",
-      "title": "User story",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/software-testing-glossary/user-story",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-29T10:26:23.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-b96b520a2635f90e",
-      "title": "Anthropic Says Nobody Needs a Mental Model of Claude Code. Practitioners Are Testing That",
-      "summary": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents ...",
-      "url": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-29T09:58:00.000Z",
-      "tags": [
-        "testing",
-        "ai"
-      ],
-      "score": 79,
-      "priority": "HIGH",
-      "reason": [
-        "testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-3e9a6c48f7097d3a",
-      "title": "Datadog Builds a Specialist AI Model for SRE Investigations",
-      "summary": "Datadog has released Scout, a model trained to investigate production problems. It runs inside Bits Investigation, the company's AI SRE product, where it can pick up an alert, look through telemetry a...",
-      "url": "https://www.infoq.com/news/2026/10/datadog-scout-sre-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-29T09:00:00.000Z",
-      "tags": [
-        "release",
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "openai-0f01adb2acab0a67",
-      "title": "How we detect frontier model misalignment",
-      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-10-29T09:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 85,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "openai"
-      ]
-    },
-    {
-      "id": "infoq-24c0c3b16e918df9",
-      "title": "Cloudflare Introduces Web Search API for AI Applications",
-      "summary": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports b...",
-      "url": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-10-29T07:14:00.000Z",
-      "tags": [
-        "api",
-        "rest",
-        "ai"
-      ],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "openai-d948735545c20cf3",
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-10-29T07:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
       ]
     }
   ]
