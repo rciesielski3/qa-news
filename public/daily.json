@@ -1,180 +1,160 @@
 {
-  "date": "2026-11-02",
-  "updatedAt": "2026-11-02T17:39:01.917Z",
+  "date": "2026-11-03",
+  "updatedAt": "2026-11-03T15:39:03.857Z",
   "articles": [
     {
-      "id": "infoq-11ca873347a5c4a7",
-      "title": "Java News Roundup: TornadoVM 8.0, JNoSQL, Endive, JReleaser, JBang, LangChain4j, Quarkus Almanac",
-      "summary": "This week's Java roundup for October 26th, 2026, features news highlighting: the GA release of TornadoVM 8.0; point releases of JNoSQL, Endive, JBang, JReleaser and LangChain4j; a maintenance release ...",
-      "url": "https://www.infoq.com/news/2026/11/java-news-roundup-oct26-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-02T17:00:00.000Z",
-      "tags": [
-        "react",
-        "sql",
-        "release",
-        "feature",
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "cypress-f9722f0ad26ce772",
-      "title": "How to choose the right Cypress plugins for your project",
-      "summary": "Most Cypress plugins are npm packages you maintain separately from Cypress. Learn how to read the Cypress plugin directory, check a plugin against your project and security review, integrate it correc...",
-      "url": "https://www.cypress.io/blog/how-to-choose-the-right-cypress-plugins-for-your-project/",
-      "source": "Cypress",
-      "category": "tooling",
-      "publishedAt": "2026-11-02T16:41:49.000Z",
-      "tags": [
-        "cypress",
-        "security",
-        "ai"
-      ],
-      "score": 94,
-      "priority": "CRITICAL",
-      "reason": [
-        "security",
-        "recent"
-      ]
-    },
-    {
-      "id": "openai-5d33ed0c66ace544",
-      "title": "Introducing the Grid Protectors Program",
-      "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-11-02T15:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-e973574d2c0722d9",
-      "title": "Uber Builds MCP Gateway to Govern Access to 800+ Servers and 5,000+ AI Agent Tools",
-      "summary": "Uber has built an MCP Gateway to standardize how AI agents discover and invoke internal services across more than 800 MCP servers and 5,000 tools. The gateway separates tool registration from runtime ...",
-      "url": "https://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-02T13:53:00.000Z",
-      "tags": [
-        "api",
-        "ai"
-      ],
-      "score": 99,
-      "priority": "CRITICAL",
-      "reason": [
-        "mcp",
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-1c63ea72abf159b0",
-      "title": "Podcast: Educating an Architect: A Conversation with Luca Mezzalira",
-      "summary": "In this podcast, Michael Stiefel spoke to Luca Mezzalira about software architecture as a socio-technical discipline that balances technological design with an organization's social and managerial con...",
-      "url": "https://www.infoq.com/podcasts/educating-architect-conversation-luca-mezzalira/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-02T11:00:00.000Z",
-      "tags": [],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-21dc7f672820704b",
-      "title": "Only under specific conditions..",
+      "id": "ministry-of-testing-7ef9c2037f7fc05a",
+      "title": "Fresh eyes testing",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/only-under-specific-conditions",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-02T09:56:34.000Z",
-      "tags": [],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-c65cf1b489399691",
-      "title": "Your QA Automation May Be Stuck at Stage Three",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/your-qa-automation-may-be-stuck-at-stage-three",
+      "url": "https://www.ministryoftesting.com/glossary/fresh-eyes-testing",
       "source": "Ministry of Testing",
       "category": "qa-practice",
-      "publishedAt": "2026-11-02T09:52:46.000Z",
+      "publishedAt": "2026-11-03T14:40:24.000Z",
       "tags": [
-        "automation"
+        "testing"
       ],
-      "score": 98,
-      "priority": "CRITICAL",
+      "score": 79,
+      "priority": "HIGH",
       "reason": [
-        "automation",
-        "qa",
+        "testing",
         "recent"
       ]
     },
     {
-      "id": "infoq-208f1ec6d232bbdf",
-      "title": "Shopify Overexposed Scans GKE Ingresses and Cloud Run for Exposure",
-      "summary": "Shopify has introduced Overexposed. This internal scanner locates Kubernetes Ingresses on GKE and Cloud Run services. It checks for those that are accessible from the internet without authentication B...",
-      "url": "https://www.infoq.com/news/2026/11/shopify-kubernetes-ingresses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-02T09:00:00.000Z",
+      "id": "ministry-of-testing-990d1c8221865c9a",
+      "title": "Escaped bug",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/escaped-bug",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-03T14:40:15.000Z",
       "tags": [
-        "kubernetes"
+        "bug"
       ],
-      "score": 53,
+      "score": 54,
       "priority": "MEDIUM",
       "reason": [
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-dd2caf29784d9767",
-      "title": "Engineering Manager - Ads | SoundCloud",
+      "id": "ministry-of-testing-3dd67a8f4de061bd",
+      "title": "Combinatorial explosion",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/jobs/engineering-manager-ads-soundcloud",
+      "url": "https://www.ministryoftesting.com/glossary/combinatorial-explosion",
       "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-02T08:04:55.000Z",
+      "category": "test-automation",
+      "publishedAt": "2026-11-03T14:40:07.000Z",
       "tags": [],
-      "score": 53,
+      "score": 54,
       "priority": "MEDIUM",
       "reason": [
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-26e5c7803f8475a3",
-      "title": "Engineering Manager, AI Platform | Harvey - Jobs",
+      "id": "ministry-of-testing-6751f49359cb02fe",
+      "title": "Corner case",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/jobs/engineering-manager-ai-platform-harvey-jobs",
+      "url": "https://www.ministryoftesting.com/glossary/corner-case",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-03T14:39:55.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-582a30308b8a8217",
+      "title": "Context-driven testing",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/context-driven-testing",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-03T14:39:46.000Z",
+      "tags": [
+        "testing"
+      ],
+      "score": 79,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-a913c28f0c0f658f",
+      "title": "Ubiquitous language",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/ubiquitous-language",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-03T14:39:38.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-b262059d8c4ca9da",
+      "title": "Sequence diagram",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/sequence-diagram",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-03T14:39:29.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-6f3f03160f0f4798",
+      "title": "Controllability",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/controllability",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-03T14:39:18.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-a13d1a6bb3eb7b1e",
+      "title": "Red-green-refactor",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/red-green-refactor",
       "source": "Ministry of Testing",
       "category": "engineering",
-      "publishedAt": "2026-11-02T08:04:53.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 53,
+      "publishedAt": "2026-11-03T14:39:09.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-c950f987f7591f34",
+      "title": "Leaky abstraction",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/leaky-abstraction",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-03T14:39:01.000Z",
+      "tags": [],
+      "score": 54,
       "priority": "MEDIUM",
       "reason": [
         "recent"

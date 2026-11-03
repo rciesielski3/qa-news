@@ -6,59 +6,394 @@
       "themes": [],
       "items": [
         {
-          "id": "infoq-11ca873347a5c4a7",
-          "title": "Java News Roundup: TornadoVM 8.0, JNoSQL, Endive, JReleaser, JBang, LangChain4j, Quarkus Almanac",
-          "summary": "This week's Java roundup for October 26th, 2026, features news highlighting: the GA release of TornadoVM 8.0; point releases of JNoSQL, Endive, JBang, JReleaser and LangChain4j; a maintenance release ...",
-          "url": "https://www.infoq.com/news/2026/11/java-news-roundup-oct26-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "tooling",
-          "publishedAt": "2026-11-02T17:00:00.000Z",
+          "id": "ministry-of-testing-7ef9c2037f7fc05a",
+          "title": "Fresh eyes testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/fresh-eyes-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:40:24.000Z",
           "tags": [
-            "react",
-            "sql",
-            "release",
-            "feature",
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-990d1c8221865c9a",
+          "title": "Escaped bug",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/escaped-bug",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:40:15.000Z",
+          "tags": [
+            "bug"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-3dd67a8f4de061bd",
+          "title": "Combinatorial explosion",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/combinatorial-explosion",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:40:07.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-6751f49359cb02fe",
+          "title": "Corner case",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/corner-case",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:39:55.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-582a30308b8a8217",
+          "title": "Context-driven testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/context-driven-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:39:46.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-a913c28f0c0f658f",
+          "title": "Ubiquitous language",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/ubiquitous-language",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:39:38.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-b262059d8c4ca9da",
+          "title": "Sequence diagram",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/sequence-diagram",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:39:29.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-6f3f03160f0f4798",
+          "title": "Controllability",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/controllability",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:39:18.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-a13d1a6bb3eb7b1e",
+          "title": "Red-green-refactor",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/red-green-refactor",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-03T14:39:09.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-c950f987f7591f34",
+          "title": "Leaky abstraction",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/leaky-abstraction",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:39:01.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-7740140bb3ef32e0",
+          "title": "Testing versus checking",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/testing-versus-checking",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:38:51.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-7fbb23a25597201b",
+          "title": "Risk model",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/risk-model",
+          "source": "Ministry of Testing",
+          "category": "ai",
+          "publishedAt": "2026-11-03T14:38:44.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-641997fbe44a77ee",
+          "title": "Unknown unknowns",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/unknown-unknowns",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:38:35.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-9ab4d410eae5957f",
+          "title": "Known unknowns",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/known-unknowns",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:38:28.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-0ffe9218be8c46a2",
+          "title": "Uncertainty (in testing)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/uncertainty-in-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:38:20.000Z",
+          "tags": [
+            "testing",
+            "ai"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-7cb8f1032643f3a5",
+          "title": "Independent testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/independent-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:38:13.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-d1b4e09e027e12ea",
+          "title": "Going native",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/going-native",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:38:05.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-03ae1f7a5e568be0",
+          "title": "Code comprehension",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/code-comprehension",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:37:56.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-3681c468b2ced252",
+          "title": "Weekend Testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/weekend-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:36:43.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-f70a9db1b8065e66",
+          "title": "BBST (Black Box Software Testing)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/bbst-black-box-software-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:36:32.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-e581154108f523de",
+          "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities ",
+          "summary": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+          "url": "https://blog.cloudflare.com/zero-wire/",
+          "source": "Cloudflare",
+          "category": "engineering",
+          "publishedAt": "2026-11-03T14:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 64,
+          "priority": "MEDIUM",
+          "reason": [
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-f549f9397629c969",
+          "title": "LinkedIn Uses OpenTelemetry to Trace the Member Journey from Tap to Backend",
+          "summary": "LinkedIn has built an OpenTelemetry-based telemetry platform that connects what members do in its iOS, Android, and web applications with the backend services processing those interactions. By Craig R...",
+          "url": "https://www.infoq.com/news/2026/11/linkedin-opentelemetry-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T12:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-5986909f3d35aef6",
+          "title": "Presentation: Beyond the Harness: Canvas for AI Agents",
+          "summary": "Nimisha Asthagiri shares how applying proven product engineering and architecture principles creates a bounded canvas for AI agents. She explains how this model provides agents with bounded autonomy, ...",
+          "url": "https://www.infoq.com/presentations/canvas-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-03T11:00:00.000Z",
+          "tags": [
             "ai"
           ],
           "score": 74,
           "priority": "HIGH",
           "reason": [
-            "release",
+            "agent",
             "recent"
           ]
         },
         {
-          "id": "cypress-f9722f0ad26ce772",
-          "title": "How to choose the right Cypress plugins for your project",
-          "summary": "Most Cypress plugins are npm packages you maintain separately from Cypress. Learn how to read the Cypress plugin directory, check a plugin against your project and security review, integrate it correc...",
-          "url": "https://www.cypress.io/blog/how-to-choose-the-right-cypress-plugins-for-your-project/",
-          "source": "Cypress",
-          "category": "tooling",
-          "publishedAt": "2026-11-02T16:41:49.000Z",
-          "tags": [
-            "cypress",
-            "security",
-            "ai"
-          ],
-          "score": 94,
-          "priority": "CRITICAL",
-          "reason": [
-            "security",
-            "recent"
-          ]
-        },
-        {
-          "id": "openai-5d33ed0c66ace544",
-          "title": "Introducing the Grid Protectors Program",
-          "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-          "url": "https://openai.com/index/grid-protectors-program",
+          "id": "openai-fc87a45dcfbf03d4",
+          "title": "Heimstaden is changing residential real estate management with AI",
+          "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+          "url": "https://openai.com/index/heimstaden",
           "source": "OpenAI",
           "category": "ai",
-          "publishedAt": "2026-11-02T15:00:00.000Z",
+          "publishedAt": "2026-11-03T08:00:00.000Z",
           "tags": [
             "ai"
           ],
-          "score": 69,
+          "score": 68,
           "priority": "MEDIUM",
           "reason": [
             "openai",
@@ -66,350 +401,22 @@
           ]
         },
         {
-          "id": "infoq-e973574d2c0722d9",
-          "title": "Uber Builds MCP Gateway to Govern Access to 800+ Servers and 5,000+ AI Agent Tools",
-          "summary": "Uber has built an MCP Gateway to standardize how AI agents discover and invoke internal services across more than 800 MCP servers and 5,000 tools. The gateway separates tool registration from runtime ...",
-          "url": "https://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "ai",
-          "publishedAt": "2026-11-02T13:53:00.000Z",
+          "id": "openai-0d297090385ad5a7",
+          "title": "Preparing our next security sprint to harden OpenAI",
+          "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-11-02T18:00:00.000Z",
           "tags": [
-            "api",
+            "security",
             "ai"
           ],
-          "score": 99,
-          "priority": "CRITICAL",
-          "reason": [
-            "mcp",
-            "agent",
-            "recent"
-          ]
-        },
-        {
-          "id": "infoq-1c63ea72abf159b0",
-          "title": "Podcast: Educating an Architect: A Conversation with Luca Mezzalira",
-          "summary": "In this podcast, Michael Stiefel spoke to Luca Mezzalira about software architecture as a socio-technical discipline that balances technological design with an organization's social and managerial con...",
-          "url": "https://www.infoq.com/podcasts/educating-architect-conversation-luca-mezzalira/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T11:00:00.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-21dc7f672820704b",
-          "title": "Only under specific conditions..",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/only-under-specific-conditions",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-02T09:56:34.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-c65cf1b489399691",
-          "title": "Your QA Automation May Be Stuck at Stage Three",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/your-qa-automation-may-be-stuck-at-stage-three",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-02T09:52:46.000Z",
-          "tags": [
-            "automation"
-          ],
-          "score": 98,
-          "priority": "CRITICAL",
-          "reason": [
-            "automation",
-            "qa",
-            "recent"
-          ]
-        },
-        {
-          "id": "infoq-208f1ec6d232bbdf",
-          "title": "Shopify Overexposed Scans GKE Ingresses and Cloud Run for Exposure",
-          "summary": "Shopify has introduced Overexposed. This internal scanner locates Kubernetes Ingresses on GKE and Cloud Run services. It checks for those that are accessible from the internet without authentication B...",
-          "url": "https://www.infoq.com/news/2026/11/shopify-kubernetes-ingresses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T09:00:00.000Z",
-          "tags": [
-            "kubernetes"
-          ],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-dd2caf29784d9767",
-          "title": "Engineering Manager - Ads | SoundCloud",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-ads-soundcloud",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:55.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-26e5c7803f8475a3",
-          "title": "Engineering Manager, AI Platform | Harvey - Jobs",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-ai-platform-harvey-jobs",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:53.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-3ae6a4973bf3dc05",
-          "title": "Senior Engineering Manager, Software Engineering | zillow",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/senior-engineering-manager-software-engineering-zillow",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:52.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-4792da0f434e81f9",
-          "title": "Engineering Manager - Myworkdayjobs.com | Company 1 - The Manufacturers Life Insurance Company",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-myworkdayjobs-com-company-1-the-manufacturers-life-insurance-company",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:50.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-ad9daf9ad542ae32",
-          "title": "Engineering Manager, Product Foundations | Justworks",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-product-foundations-justworks",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:49.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-19c4bf0ffe5c7829",
-          "title": "Sr Test Engineering Manager - Myworkdayjobs.com | 335 Flextronics International USA, Inc.",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/sr-test-engineering-manager-myworkdayjobs-com-335-flextronics-international-usa-inc",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-02T08:04:49.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-f0f97bb9eae60760",
-          "title": "Software Engineering Manager - Cloud Security (Hybrid) | CrowdStrike, Inc.",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/software-engineering-manager-cloud-security-hybrid-crowdstrike-inc",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-02T08:04:48.000Z",
-          "tags": [
-            "security"
-          ],
-          "score": 93,
+          "score": 106,
           "priority": "CRITICAL",
           "reason": [
             "security",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-fee55f5aa3889063",
-          "title": "Mechanical Engineering Manager - Myworkdayjobs.com | kiongroup",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/mechanical-engineering-manager-myworkdayjobs-com-kiongroup",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:46.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-e8063807520b57a8",
-          "title": "Software Engineering Manager, SVP - Finance and Operations Technology | blackstone",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/software-engineering-manager-svp-finance-and-operations-technology-blackstone",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:46.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-450b29e09076bb47",
-          "title": "Engineering Manager - Myworkdayjobs.com | 00160 LEIDOS AUSTRALIA PTY LTD.",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-myworkdayjobs-com-00160-leidos-australia-pty-ltd",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:45.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-5ad7583d46f3f03a",
-          "title": "Engineering Manager - Controls Engineering - Remote | Jabil Inc.",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-controls-engineering-remote-jabil-inc",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:44.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-58935548892b550f",
-          "title": "Engineering Manager - Myworkdayjobs.com | *US AMR-Jones Lang LaSalle Americas, Inc.",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-myworkdayjobs-com-us-amr-jones-lang-lasalle-americas-inc",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:43.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-e938c7ddb92a5884",
-          "title": "Engineering Manager - Personalization (Hybrid - Seattle) | Nordstrom Inc",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-personalization-hybrid-seattle-nordstrom-inc",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:42.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-3c3026bf8f9c60e7",
-          "title": "PLM & Digital Engineering Manager - Myworkdayjobs.com | Orlaco Products B.V.",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/plm-digital-engineering-manager-myworkdayjobs-com-orlaco-products-b-v",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:41.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-c0f2b03caef0416d",
-          "title": "Software Engineering Manager, AI Platforms - Myworkdayjobs.com | coke",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/software-engineering-manager-ai-platforms-myworkdayjobs-com-coke",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:41.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-c043a1cf0ff79037",
-          "title": "Engineering Manager, Data Center Operations | Cloudflare",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/engineering-manager-data-center-operations-cloudflare",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:40.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-79647eb8acf7f095",
-          "title": "Solutions Engineering Manager, Central | Glean",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/solutions-engineering-manager-central-glean",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-02T08:04:39.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
+            "openai",
             "recent"
           ]
         }
@@ -423,6 +430,21 @@
         {
           "id": "infoq-81dd87e1180dc3d9",
           "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
+          "summary": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Ke...",
+          "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-10-31T19:56:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-81dd87e1180dc3d9",
+          "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta without Attribute-Based Encryption",
           "summary": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Ke...",
           "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
@@ -780,25 +802,6 @@
           "score": 50,
           "priority": "MEDIUM",
           "reason": []
-        },
-        {
-          "id": "ministry-of-testing-4e146ae8a88f4c24",
-          "title": "38 lessons from building AI products, AI myths, and the trouble with systems integration testing, and more!",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/newsletter/38-lessons-from-building-ai-products-ai-myths-and-the-trouble-with-systems-integration-testing-and-more",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-10-30T10:05:00.000Z",
-          "tags": [
-            "testing",
-            "ai"
-          ],
-          "score": 105,
-          "priority": "CRITICAL",
-          "reason": [
-            "integration testing",
-            "testing"
-          ]
         }
       ]
     }
