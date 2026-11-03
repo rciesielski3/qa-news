@@ -5,6 +5,442 @@
       "summary": "",
       "items": [
         {
+          "id": "ministry-of-testing-7ef9c2037f7fc05a",
+          "title": "Fresh eyes testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/fresh-eyes-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:40:24.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-990d1c8221865c9a",
+          "title": "Escaped bug",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/escaped-bug",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:40:15.000Z",
+          "tags": [
+            "bug"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-3dd67a8f4de061bd",
+          "title": "Combinatorial explosion",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/combinatorial-explosion",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:40:07.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-6751f49359cb02fe",
+          "title": "Corner case",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/corner-case",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:39:55.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-582a30308b8a8217",
+          "title": "Context-driven testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/context-driven-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:39:46.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-a913c28f0c0f658f",
+          "title": "Ubiquitous language",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/ubiquitous-language",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:39:38.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-b262059d8c4ca9da",
+          "title": "Sequence diagram",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/sequence-diagram",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:39:29.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-6f3f03160f0f4798",
+          "title": "Controllability",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/controllability",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:39:18.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-a13d1a6bb3eb7b1e",
+          "title": "Red-green-refactor",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/red-green-refactor",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-03T14:39:09.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-c950f987f7591f34",
+          "title": "Leaky abstraction",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/leaky-abstraction",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:39:01.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-7740140bb3ef32e0",
+          "title": "Testing versus checking",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/testing-versus-checking",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:38:51.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-7fbb23a25597201b",
+          "title": "Risk model",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/risk-model",
+          "source": "Ministry of Testing",
+          "category": "ai",
+          "publishedAt": "2026-11-03T14:38:44.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-641997fbe44a77ee",
+          "title": "Unknown unknowns",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/unknown-unknowns",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:38:35.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-9ab4d410eae5957f",
+          "title": "Known unknowns",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/known-unknowns",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:38:28.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-0ffe9218be8c46a2",
+          "title": "Uncertainty (in testing)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/uncertainty-in-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:38:20.000Z",
+          "tags": [
+            "testing",
+            "ai"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-7cb8f1032643f3a5",
+          "title": "Independent testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/independent-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:38:13.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-d1b4e09e027e12ea",
+          "title": "Going native",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/going-native",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:38:05.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-03ae1f7a5e568be0",
+          "title": "Code comprehension",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/code-comprehension",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T14:37:56.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-3681c468b2ced252",
+          "title": "Weekend Testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/weekend-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:36:43.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-f70a9db1b8065e66",
+          "title": "BBST (Black Box Software Testing)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/bbst-black-box-software-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T14:36:32.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-e581154108f523de",
+          "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities ",
+          "summary": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+          "url": "https://blog.cloudflare.com/zero-wire/",
+          "source": "Cloudflare",
+          "category": "engineering",
+          "publishedAt": "2026-11-03T14:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 64,
+          "priority": "MEDIUM",
+          "reason": [
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-f549f9397629c969",
+          "title": "LinkedIn Uses OpenTelemetry to Trace the Member Journey from Tap to Backend",
+          "summary": "LinkedIn has built an OpenTelemetry-based telemetry platform that connects what members do in its iOS, Android, and web applications with the backend services processing those interactions. By Craig R...",
+          "url": "https://www.infoq.com/news/2026/11/linkedin-opentelemetry-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T12:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-5986909f3d35aef6",
+          "title": "Presentation: Beyond the Harness: Canvas for AI Agents",
+          "summary": "Nimisha Asthagiri shares how applying proven product engineering and architecture principles creates a bounded canvas for AI agents. She explains how this model provides agents with bounded autonomy, ...",
+          "url": "https://www.infoq.com/presentations/canvas-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-03T11:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-fc87a45dcfbf03d4",
+          "title": "Heimstaden is changing residential real estate management with AI",
+          "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+          "url": "https://openai.com/index/heimstaden",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-03T08:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 68,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-0d297090385ad5a7",
+          "title": "Preparing our next security sprint to harden OpenAI",
+          "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-11-02T18:00:00.000Z",
+          "tags": [
+            "security",
+            "ai"
+          ],
+          "score": 106,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-bca108e4c77bd86b",
+          "title": "Rewarding defenders with bigger bug bounties",
+          "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+          "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+          "source": "OpenAI",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-02T18:00:00.000Z",
+          "tags": [
+            "security",
+            "bug",
+            "ai"
+          ],
+          "score": 106,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "openai",
+            "recent"
+          ]
+        },
+        {
           "id": "infoq-11ca873347a5c4a7",
           "title": "Java News Roundup: TornadoVM 8.0, JNoSQL, Endive, JReleaser, JBang, LangChain4j, Quarkus Almanac",
           "summary": "This week's Java roundup for October 26th, 2026, features news highlighting: the GA release of TornadoVM 8.0; point releases of JNoSQL, Endive, JBang, JReleaser and LangChain4j; a maintenance release ...",
@@ -19,7 +455,7 @@
             "feature",
             "ai"
           ],
-          "score": 74,
+          "score": 71,
           "priority": "HIGH",
           "reason": [
             "release",
@@ -39,11 +475,28 @@
             "security",
             "ai"
           ],
-          "score": 94,
+          "score": 91,
           "priority": "CRITICAL",
           "reason": [
             "security",
             "recent"
+          ]
+        },
+        {
+          "id": "openai-277870ffc8d71544",
+          "title": "Scaling Git at OpenAI",
+          "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+          "url": "https://openai.com/index/scaling-git-at-openai",
+          "source": "OpenAI",
+          "category": "engineering",
+          "publishedAt": "2026-11-02T15:30:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
           ]
         },
         {
@@ -57,11 +510,10 @@
           "tags": [
             "ai"
           ],
-          "score": 69,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -76,12 +528,11 @@
             "api",
             "ai"
           ],
-          "score": 99,
+          "score": 95,
           "priority": "CRITICAL",
           "reason": [
             "mcp",
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -93,11 +544,9 @@
           "category": "engineering",
           "publishedAt": "2026-11-02T11:00:00.000Z",
           "tags": [],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-21dc7f672820704b",
@@ -144,10 +593,25 @@
           "tags": [
             "kubernetes"
           ],
-          "score": 53,
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "openai-5a014341bc3fc0f1",
+          "title": "LifeVal",
+          "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+          "url": "https://openai.com/index/lifeval",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-02T09:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "recent"
+            "openai"
           ]
         },
         {
@@ -411,6 +875,42 @@
           "reason": [
             "recent"
           ]
+        },
+        {
+          "id": "openai-945f879ef3a469b4",
+          "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+          "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+          "url": "https://openai.com/index/dan-driscoll-joins-openai",
+          "source": "OpenAI",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "tags": [
+            "security",
+            "ai"
+          ],
+          "score": 105,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-4094d4340f9e66f9",
+          "title": "Qodo builds context into AI code review with Codex",
+          "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+          "url": "https://openai.com/index/qodo-codex-plugin",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
         }
       ]
     },
@@ -481,6 +981,21 @@
           "reason": []
         },
         {
+          "id": "infoq-a8628cd75d0c6b68",
+          "title": "AWS Capacity Largely Sold out through 2027, with On-Demand Headroom Reserved",
+          "summary": "Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC...",
+          "url": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-01T08:03:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
           "id": "infoq-55de4d87e0a96ab1",
           "title": "File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers",
           "summary": "AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Available for macOS, Windows, an...",
@@ -502,6 +1017,21 @@
         {
           "id": "infoq-81dd87e1180dc3d9",
           "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
+          "summary": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Ke...",
+          "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-10-31T19:56:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-81dd87e1180dc3d9",
+          "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta without Attribute-Based Encryption",
           "summary": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Ke...",
           "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
@@ -4405,7 +4935,7 @@
         {
           "id": "openai-9732b2763df5a67a",
           "title": "How Itaú is building generative AI for its entire customer base",
-          "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+          "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees—in one of Brazil’s most regulated sectors.",
           "url": "https://openai.com/index/itau-generative-ai",
           "source": "OpenAI",
           "category": "ai",
