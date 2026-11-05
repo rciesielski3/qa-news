@@ -5,6 +5,279 @@
       "summary": "",
       "items": [
         {
+          "id": "martin-fowler-8723077df145ba3d",
+          "title": "The Data Product Platform Navigator",
+          "summary": "Many organizations adopting data mesh and data products face a common challenge. They may be tasked with building a self-service platform for data products and data mesh from scratch, or they may have...",
+          "url": "https://martinfowler.com/articles/data-product-platform-nav.html",
+          "source": "Martin Fowler",
+          "category": "engineering",
+          "publishedAt": "2026-11-05T14:11:00.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-c015647452754f82",
+          "title": "Building a Culture for a Kubernetes-Based Platform in a Bank",
+          "summary": "In banking, open source can earn trust by running real workloads, as Marcy Paramonova and Stéphane Cusin explained in their talk Building Cloud Native Culture in a Bank at KubeCon & CloudNativeCon Eur...",
+          "url": "https://www.infoq.com/news/2026/11/culture-kubernetes-bank/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-05T11:11:00.000Z",
+          "tags": [
+            "kubernetes",
+            "ai"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-3ff61a062a8b3195",
+          "title": "Presentation: Zero Trust Agent Systems that Pass Audits and Still Ship",
+          "summary": "Advait Patel shares a playbook for securing AI agent systems in production. He discusses moving defense boundaries from the prompt to the tool layer, enforcing scoped workload identities, and mitigati...",
+          "url": "https://www.infoq.com/presentations/zero-trust-ai-agents-production-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-05T11:00:00.000Z",
+          "tags": [
+            "security",
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-25fa4dd18ec78a48",
+          "title": "Setting a new standard for responsible AI infrastructure",
+          "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+          "source": "OpenAI",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-05T02:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 67,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-b0b08ef17bcac3db",
+          "title": "Inkitt Builds a One-Shot PR Creator with Resumable Agent Orchestration",
+          "summary": "Inkitt built a one-shot pull request creator that automates small, low-risk code changes from task intake to draft PR creation. Its event-driven orchestrator persists workflow state, coordinates short...",
+          "url": "https://www.infoq.com/news/2026/11/inkitt-one-shot-pr-creator-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-04T14:36:00.000Z",
+          "tags": [
+            "rest",
+            "ai"
+          ],
+          "score": 70,
+          "priority": "HIGH",
+          "reason": [
+            "agent"
+          ]
+        },
+        {
+          "id": "openai-1be4fdd8e6ca80f0",
+          "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+          "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+          "url": "https://openai.com/index/openai-to-acquire-pierre",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-04T14:30:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "cloudflare-d13fbfe75d78ae19",
+          "title": "See the agents, set the terms: new visibility and control for personal agents",
+          "summary": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage persona...",
+          "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+          "source": "Cloudflare",
+          "category": "ai",
+          "publishedAt": "2026-11-04T14:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 80,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "cloudflare"
+          ]
+        },
+        {
+          "id": "infoq-3e3b12ab42cbecaf",
+          "title": "Presentation: Panel: Who Builds the Frontend Now? (And What Breaks When They Do)",
+          "summary": "The panelists explain how AI tools and vibe coding reshape frontend and mobile engineering. They share insights on evolving junior developer roles, managing AI-generated code review fatigue, designing...",
+          "url": "https://www.infoq.com/presentations/panel-ai-frontend-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-04T11:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-f1ecc8bd09f940ac",
+          "title": "Docker Urges Isolation and Governance for AI Agent Security",
+          "summary": "Docker has published a guide to five security risks that arise when AI agents are allowed to browse, run code and call tools with limited human oversight. They argue that the autonomy that makes agent...",
+          "url": "https://www.infoq.com/news/2026/11/docker-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-04T09:00:00.000Z",
+          "tags": [
+            "docker",
+            "security",
+            "ai"
+          ],
+          "score": 110,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "agent"
+          ]
+        },
+        {
+          "id": "infoq-ca7a7d9364ed2f7a",
+          "title": "Article: The App Is Just the Tip: What It Takes to Build Mobile Infrastructure at Scale",
+          "summary": "What determines whether your app feels fast, ships often, and stays stable at scale is not the app itself. It is what sits behind it. This article is about that layer: what it does, why it exists, wha...",
+          "url": "https://www.infoq.com/articles/mobile-app-infrastructure-at-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-04T09:00:00.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "openai-fbaa86a829ad59fd",
+          "title": "A thousand fewer paths to root",
+          "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "source": "OpenAI",
+          "category": "engineering",
+          "publishedAt": "2026-11-04T08:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-a3433e936d2c04bf",
+          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+          "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+          "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-04T07:00:00.000Z",
+          "tags": [
+            "security",
+            "ai"
+          ],
+          "score": 105,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-295354ff422b0d4d",
+          "title": "Introducing Images 2.6",
+          "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+          "url": "https://openai.com/index/introducing-images-2-6",
+          "source": "OpenAI",
+          "category": "tooling",
+          "publishedAt": "2026-11-04T00:00:00.000Z",
+          "tags": [
+            "api"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-981785a01550309d",
+          "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+          "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+          "url": "https://openai.com/index/devrev-enterprise-self-service",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-04T00:00:00.000Z",
+          "tags": [],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "infoq-b7a2d4db97647304",
+          "title": "Google Launches LiteRT Tensor API for Building, Customizing, and Optimizing ML Models for On-Device",
+          "summary": "Google has introduced the LiteRT Tensor API, a lightweight C++ API that allows developers to build, customize, and optimize machine learning models directly for on-device execution. According to Googl...",
+          "url": "https://www.infoq.com/news/2026/11/litert-tensor-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "tooling",
+          "publishedAt": "2026-11-03T19:00:00.000Z",
+          "tags": [
+            "api"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-c1282433896351cf",
+          "title": "Vitest 5: Prioritises Performance with a Shared Vite Server, Trace View, and Stricter Test Defaults",
+          "summary": "Vitest 5.0 focuses on speed, with reported gains of 8 to 25 percent in most setups and up to 53 percent in VM pools. It adds a vitest doctor command, Browser Mode Trace View, and vi.when. Defaults are...",
+          "url": "https://www.infoq.com/news/2026/11/vite-5-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T16:47:00.000Z",
+          "tags": [
+            "node.js",
+            "vitest",
+            "performance",
+            "release",
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
           "id": "ministry-of-testing-7ef9c2037f7fc05a",
           "title": "Fresh eyes testing",
           "summary": "",
@@ -339,11 +612,10 @@
           "tags": [
             "ai"
           ],
-          "score": 64,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -357,10 +629,23 @@
           "tags": [
             "ai"
           ],
-          "score": 54,
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "openai-25493a43cba550c7",
+          "title": "Accelerating engineering for the physical world",
+          "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+          "source": "OpenAI",
+          "category": "engineering",
+          "publishedAt": "2026-11-03T12:00:00.000Z",
+          "tags": [],
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "recent"
+            "openai"
           ]
         },
         {
@@ -374,11 +659,10 @@
           "tags": [
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -392,11 +676,46 @@
           "tags": [
             "ai"
           ],
-          "score": 68,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-34e7d62615202d0d",
+          "title": "How Cisco defends at machine speed with OpenAI",
+          "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+          "url": "https://openai.com/index/cisco-cyber",
+          "source": "OpenAI",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-03T08:00:00.000Z",
+          "tags": [
+            "security",
+            "ai"
+          ],
+          "score": 105,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-019edb616369c332",
+          "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+          "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+          "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-03T00:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
           ]
         },
         {
@@ -411,12 +730,11 @@
             "security",
             "ai"
           ],
-          "score": 106,
+          "score": 105,
           "priority": "CRITICAL",
           "reason": [
             "security",
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -432,12 +750,11 @@
             "bug",
             "ai"
           ],
-          "score": 106,
+          "score": 105,
           "priority": "CRITICAL",
           "reason": [
             "security",
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -455,11 +772,10 @@
             "feature",
             "ai"
           ],
-          "score": 71,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "release",
-            "recent"
+            "release"
           ]
         },
         {
@@ -475,11 +791,10 @@
             "security",
             "ai"
           ],
-          "score": 91,
+          "score": 90,
           "priority": "CRITICAL",
           "reason": [
-            "security",
-            "recent"
+            "security"
           ]
         },
         {
@@ -1773,6 +2088,23 @@
           ]
         },
         {
+          "id": "openai-16681fd606d5f699",
+          "title": "Evernote turns AI-driven discovery into paid subscriptions",
+          "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+          "url": "https://openai.com/ads/customers/evernote",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-10-28T19:40:49.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
           "id": "ministry-of-testing-2fff0aae00c88ada",
           "title": "Sockpuppet Account",
           "summary": "",
@@ -2489,6 +2821,21 @@
           ]
         },
         {
+          "id": "openai-35e334c198740f74",
+          "title": "Introducing GPT-6.1 Terra",
+          "summary": "Delivering fast and capable computer use at scale",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+          "source": "OpenAI",
+          "category": "engineering",
+          "publishedAt": "2026-10-26T18:00:00.000Z",
+          "tags": [],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
           "id": "ministry-of-testing-21e76deb0a4b8e14",
           "title": "Women in Observability London",
           "summary": "",
@@ -2752,21 +3099,6 @@
           "priority": "CRITICAL",
           "reason": [
             "security",
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-35e334c198740f74",
-          "title": "Introducing GPT-6.1 Terra",
-          "summary": "Bringing fast and capable computer use to everyone",
-          "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-26T00:00:00.000Z",
-          "tags": [],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
             "openai"
           ]
         }
@@ -7157,177 +7489,6 @@
           "reason": [
             "openai"
           ]
-        },
-        {
-          "id": "openai-ebb413cc5359756b",
-          "title": "How Jump Trading is scaling quant research with ChatGPT",
-          "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-          "url": "https://openai.com/index/jump-trading",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-00427e47df5ef306",
-          "title": "Sharing AI progress in mathematics",
-          "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-06T12:00:00.000Z",
-          "tags": [
-            "github",
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-f57eff9c23a4454b",
-          "title": "Advancing computer use with Ironclad",
-          "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-          "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-06T10:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 85,
-          "priority": "HIGH",
-          "reason": [
-            "agent",
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-d2b5b29b4c815525",
-          "title": "Our approach to EU text provenance rules",
-          "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-          "url": "https://openai.com/index/eu-text-provenance",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-05T15:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "cloudflare-44b03140de4a0c7b",
-          "title": "Everything we launched during Birthday Week 2026",
-          "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
-          "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-          "source": "Cloudflare",
-          "category": "qa-practice",
-          "publishedAt": "2026-10-05T13:00:00.000Z",
-          "tags": [
-            "security",
-            "ai"
-          ],
-          "score": 120,
-          "priority": "CRITICAL",
-          "reason": [
-            "security",
-            "agent",
-            "cloudflare"
-          ]
-        },
-        {
-          "id": "cloudflare-9a1667b7b376f49f",
-          "title": "One year later: the power of 1.1.1.1 interns",
-          "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum securi...",
-          "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-          "source": "Cloudflare",
-          "category": "engineering",
-          "publishedAt": "2026-10-05T13:00:00.000Z",
-          "tags": [
-            "security",
-            "ai"
-          ],
-          "score": 60,
-          "priority": "MEDIUM",
-          "reason": [
-            "cloudflare"
-          ]
-        },
-        {
-          "id": "google-testing-blog-6ac6022bdb3db90f",
-          "title": "Two-Way Doors: Don’t Code Yourself into a Corner",
-          "summary": "@media only screen and (max-width: 600px) { .body { overflow-x: auto; } .post-content table, .post-content td { width: auto !important; white-space: nowrap; } } This article was adapted from a Google ...",
-          "url": "http://testing.googleblog.com/2026/10/two-way-doors-dont-code-yourself-into.html",
-          "source": "Google Testing Blog",
-          "category": "test-automation",
-          "publishedAt": "2026-10-05T12:47:12.909Z",
-          "tags": [
-            "testing",
-            "api",
-            "rest",
-            "database",
-            "performance",
-            "release",
-            "update",
-            "feature",
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "google"
-          ]
-        },
-        {
-          "id": "openai-2d8e70fb45cef747",
-          "title": "Building advertising for the way people use AI",
-          "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-05T10:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "martin-fowler-fafe571b74e06e1f",
-          "title": "Fragments: October  4",
-          "summary": "In response to my last fragments (probably the bit about us worrying if LLMs have consciousness when we when we should be wondering why they don’t have a conscience) “Metalanguage” replied: we shipped...",
-          "url": "https://martinfowler.com/fragments/2026-10-04.html",
-          "source": "Martin Fowler",
-          "category": "engineering",
-          "publishedAt": "2026-10-05T04:28:00.000Z",
-          "tags": [
-            "python",
-            "rest",
-            "security",
-            "release",
-            "bug",
-            "ai",
-            "llm"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
         }
       ]
     }
