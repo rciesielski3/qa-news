@@ -6,6 +6,279 @@
       "themes": [],
       "items": [
         {
+          "id": "martin-fowler-8723077df145ba3d",
+          "title": "The Data Product Platform Navigator",
+          "summary": "Many organizations adopting data mesh and data products face a common challenge. They may be tasked with building a self-service platform for data products and data mesh from scratch, or they may have...",
+          "url": "https://martinfowler.com/articles/data-product-platform-nav.html",
+          "source": "Martin Fowler",
+          "category": "engineering",
+          "publishedAt": "2026-11-05T14:11:00.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-c015647452754f82",
+          "title": "Building a Culture for a Kubernetes-Based Platform in a Bank",
+          "summary": "In banking, open source can earn trust by running real workloads, as Marcy Paramonova and Stéphane Cusin explained in their talk Building Cloud Native Culture in a Bank at KubeCon & CloudNativeCon Eur...",
+          "url": "https://www.infoq.com/news/2026/11/culture-kubernetes-bank/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-05T11:11:00.000Z",
+          "tags": [
+            "kubernetes",
+            "ai"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-3ff61a062a8b3195",
+          "title": "Presentation: Zero Trust Agent Systems that Pass Audits and Still Ship",
+          "summary": "Advait Patel shares a playbook for securing AI agent systems in production. He discusses moving defense boundaries from the prompt to the tool layer, enforcing scoped workload identities, and mitigati...",
+          "url": "https://www.infoq.com/presentations/zero-trust-ai-agents-production-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-05T11:00:00.000Z",
+          "tags": [
+            "security",
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-25fa4dd18ec78a48",
+          "title": "Setting a new standard for responsible AI infrastructure",
+          "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+          "source": "OpenAI",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-05T02:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 67,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-b0b08ef17bcac3db",
+          "title": "Inkitt Builds a One-Shot PR Creator with Resumable Agent Orchestration",
+          "summary": "Inkitt built a one-shot pull request creator that automates small, low-risk code changes from task intake to draft PR creation. Its event-driven orchestrator persists workflow state, coordinates short...",
+          "url": "https://www.infoq.com/news/2026/11/inkitt-one-shot-pr-creator-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-04T14:36:00.000Z",
+          "tags": [
+            "rest",
+            "ai"
+          ],
+          "score": 70,
+          "priority": "HIGH",
+          "reason": [
+            "agent"
+          ]
+        },
+        {
+          "id": "openai-1be4fdd8e6ca80f0",
+          "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+          "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+          "url": "https://openai.com/index/openai-to-acquire-pierre",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-04T14:30:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "cloudflare-d13fbfe75d78ae19",
+          "title": "See the agents, set the terms: new visibility and control for personal agents",
+          "summary": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage persona...",
+          "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+          "source": "Cloudflare",
+          "category": "ai",
+          "publishedAt": "2026-11-04T14:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 80,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "cloudflare"
+          ]
+        },
+        {
+          "id": "infoq-3e3b12ab42cbecaf",
+          "title": "Presentation: Panel: Who Builds the Frontend Now? (And What Breaks When They Do)",
+          "summary": "The panelists explain how AI tools and vibe coding reshape frontend and mobile engineering. They share insights on evolving junior developer roles, managing AI-generated code review fatigue, designing...",
+          "url": "https://www.infoq.com/presentations/panel-ai-frontend-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-04T11:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-f1ecc8bd09f940ac",
+          "title": "Docker Urges Isolation and Governance for AI Agent Security",
+          "summary": "Docker has published a guide to five security risks that arise when AI agents are allowed to browse, run code and call tools with limited human oversight. They argue that the autonomy that makes agent...",
+          "url": "https://www.infoq.com/news/2026/11/docker-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-04T09:00:00.000Z",
+          "tags": [
+            "docker",
+            "security",
+            "ai"
+          ],
+          "score": 110,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "agent"
+          ]
+        },
+        {
+          "id": "infoq-ca7a7d9364ed2f7a",
+          "title": "Article: The App Is Just the Tip: What It Takes to Build Mobile Infrastructure at Scale",
+          "summary": "What determines whether your app feels fast, ships often, and stays stable at scale is not the app itself. It is what sits behind it. This article is about that layer: what it does, why it exists, wha...",
+          "url": "https://www.infoq.com/articles/mobile-app-infrastructure-at-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-04T09:00:00.000Z",
+          "tags": [],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "openai-fbaa86a829ad59fd",
+          "title": "A thousand fewer paths to root",
+          "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "source": "OpenAI",
+          "category": "engineering",
+          "publishedAt": "2026-11-04T08:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-a3433e936d2c04bf",
+          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+          "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+          "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-04T07:00:00.000Z",
+          "tags": [
+            "security",
+            "ai"
+          ],
+          "score": 105,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-295354ff422b0d4d",
+          "title": "Introducing Images 2.6",
+          "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+          "url": "https://openai.com/index/introducing-images-2-6",
+          "source": "OpenAI",
+          "category": "tooling",
+          "publishedAt": "2026-11-04T00:00:00.000Z",
+          "tags": [
+            "api"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-981785a01550309d",
+          "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+          "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+          "url": "https://openai.com/index/devrev-enterprise-self-service",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-04T00:00:00.000Z",
+          "tags": [],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
+          ]
+        },
+        {
+          "id": "infoq-b7a2d4db97647304",
+          "title": "Google Launches LiteRT Tensor API for Building, Customizing, and Optimizing ML Models for On-Device",
+          "summary": "Google has introduced the LiteRT Tensor API, a lightweight C++ API that allows developers to build, customize, and optimize machine learning models directly for on-device execution. According to Googl...",
+          "url": "https://www.infoq.com/news/2026/11/litert-tensor-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "tooling",
+          "publishedAt": "2026-11-03T19:00:00.000Z",
+          "tags": [
+            "api"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "infoq-c1282433896351cf",
+          "title": "Vitest 5: Prioritises Performance with a Shared Vite Server, Trace View, and Stricter Test Defaults",
+          "summary": "Vitest 5.0 focuses on speed, with reported gains of 8 to 25 percent in most setups and up to 53 percent in VM pools. It adds a vitest doctor command, Browser Mode Trace View, and vi.when. Defaults are...",
+          "url": "https://www.infoq.com/news/2026/11/vite-5-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "test-automation",
+          "publishedAt": "2026-11-03T16:47:00.000Z",
+          "tags": [
+            "node.js",
+            "vitest",
+            "performance",
+            "release",
+            "ai"
+          ],
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
           "id": "ministry-of-testing-7ef9c2037f7fc05a",
           "title": "Fresh eyes testing",
           "summary": "",
@@ -145,278 +418,6 @@
           "score": 54,
           "priority": "MEDIUM",
           "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-c950f987f7591f34",
-          "title": "Leaky abstraction",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/leaky-abstraction",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-03T14:39:01.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-7740140bb3ef32e0",
-          "title": "Testing versus checking",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/testing-versus-checking",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-03T14:38:51.000Z",
-          "tags": [
-            "testing"
-          ],
-          "score": 79,
-          "priority": "HIGH",
-          "reason": [
-            "testing",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-7fbb23a25597201b",
-          "title": "Risk model",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/risk-model",
-          "source": "Ministry of Testing",
-          "category": "ai",
-          "publishedAt": "2026-11-03T14:38:44.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-641997fbe44a77ee",
-          "title": "Unknown unknowns",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/unknown-unknowns",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-03T14:38:35.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-9ab4d410eae5957f",
-          "title": "Known unknowns",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/known-unknowns",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-03T14:38:28.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-0ffe9218be8c46a2",
-          "title": "Uncertainty (in testing)",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/uncertainty-in-testing",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-03T14:38:20.000Z",
-          "tags": [
-            "testing",
-            "ai"
-          ],
-          "score": 79,
-          "priority": "HIGH",
-          "reason": [
-            "testing",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-7cb8f1032643f3a5",
-          "title": "Independent testing",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/independent-testing",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-03T14:38:13.000Z",
-          "tags": [
-            "testing"
-          ],
-          "score": 79,
-          "priority": "HIGH",
-          "reason": [
-            "testing",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-d1b4e09e027e12ea",
-          "title": "Going native",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/going-native",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-03T14:38:05.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-03ae1f7a5e568be0",
-          "title": "Code comprehension",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/code-comprehension",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-03T14:37:56.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-3681c468b2ced252",
-          "title": "Weekend Testing",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/weekend-testing",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-03T14:36:43.000Z",
-          "tags": [
-            "testing"
-          ],
-          "score": 79,
-          "priority": "HIGH",
-          "reason": [
-            "testing",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-f70a9db1b8065e66",
-          "title": "BBST (Black Box Software Testing)",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/bbst-black-box-software-testing",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-03T14:36:32.000Z",
-          "tags": [
-            "testing"
-          ],
-          "score": 79,
-          "priority": "HIGH",
-          "reason": [
-            "testing",
-            "recent"
-          ]
-        },
-        {
-          "id": "cloudflare-e581154108f523de",
-          "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities ",
-          "summary": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
-          "url": "https://blog.cloudflare.com/zero-wire/",
-          "source": "Cloudflare",
-          "category": "engineering",
-          "publishedAt": "2026-11-03T14:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 64,
-          "priority": "MEDIUM",
-          "reason": [
-            "cloudflare",
-            "recent"
-          ]
-        },
-        {
-          "id": "infoq-f549f9397629c969",
-          "title": "LinkedIn Uses OpenTelemetry to Trace the Member Journey from Tap to Backend",
-          "summary": "LinkedIn has built an OpenTelemetry-based telemetry platform that connects what members do in its iOS, Android, and web applications with the backend services processing those interactions. By Craig R...",
-          "url": "https://www.infoq.com/news/2026/11/linkedin-opentelemetry-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "test-automation",
-          "publishedAt": "2026-11-03T12:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "infoq-5986909f3d35aef6",
-          "title": "Presentation: Beyond the Harness: Canvas for AI Agents",
-          "summary": "Nimisha Asthagiri shares how applying proven product engineering and architecture principles creates a bounded canvas for AI agents. She explains how this model provides agents with bounded autonomy, ...",
-          "url": "https://www.infoq.com/presentations/canvas-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "engineering",
-          "publishedAt": "2026-11-03T11:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 74,
-          "priority": "HIGH",
-          "reason": [
-            "agent",
-            "recent"
-          ]
-        },
-        {
-          "id": "openai-fc87a45dcfbf03d4",
-          "title": "Heimstaden is changing residential real estate management with AI",
-          "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-          "url": "https://openai.com/index/heimstaden",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-11-03T08:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 68,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai",
-            "recent"
-          ]
-        },
-        {
-          "id": "openai-0d297090385ad5a7",
-          "title": "Preparing our next security sprint to harden OpenAI",
-          "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-          "source": "OpenAI",
-          "category": "test-automation",
-          "publishedAt": "2026-11-02T18:00:00.000Z",
-          "tags": [
-            "security",
-            "ai"
-          ],
-          "score": 106,
-          "priority": "CRITICAL",
-          "reason": [
-            "security",
-            "openai",
             "recent"
           ]
         }

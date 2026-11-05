@@ -1,143 +1,15 @@
 {
-  "date": "2026-11-03",
-  "updatedAt": "2026-11-03T15:39:03.857Z",
+  "date": "2026-11-05",
+  "updatedAt": "2026-11-05T15:58:38.318Z",
   "articles": [
     {
-      "id": "ministry-of-testing-7ef9c2037f7fc05a",
-      "title": "Fresh eyes testing",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/fresh-eyes-testing",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-03T14:40:24.000Z",
-      "tags": [
-        "testing"
-      ],
-      "score": 79,
-      "priority": "HIGH",
-      "reason": [
-        "testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-990d1c8221865c9a",
-      "title": "Escaped bug",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/escaped-bug",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-03T14:40:15.000Z",
-      "tags": [
-        "bug"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-3dd67a8f4de061bd",
-      "title": "Combinatorial explosion",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/combinatorial-explosion",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-03T14:40:07.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-6751f49359cb02fe",
-      "title": "Corner case",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/corner-case",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-03T14:39:55.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-582a30308b8a8217",
-      "title": "Context-driven testing",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/context-driven-testing",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-03T14:39:46.000Z",
-      "tags": [
-        "testing"
-      ],
-      "score": 79,
-      "priority": "HIGH",
-      "reason": [
-        "testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-a913c28f0c0f658f",
-      "title": "Ubiquitous language",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/ubiquitous-language",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-03T14:39:38.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-b262059d8c4ca9da",
-      "title": "Sequence diagram",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/sequence-diagram",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-03T14:39:29.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-6f3f03160f0f4798",
-      "title": "Controllability",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/controllability",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-03T14:39:18.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-a13d1a6bb3eb7b1e",
-      "title": "Red-green-refactor",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/red-green-refactor",
-      "source": "Ministry of Testing",
+      "id": "martin-fowler-8723077df145ba3d",
+      "title": "The Data Product Platform Navigator",
+      "summary": "Many organizations adopting data mesh and data products face a common challenge. They may be tasked with building a self-service platform for data products and data mesh from scratch, or they may have...",
+      "url": "https://martinfowler.com/articles/data-product-platform-nav.html",
+      "source": "Martin Fowler",
       "category": "engineering",
-      "publishedAt": "2026-11-03T14:39:09.000Z",
+      "publishedAt": "2026-11-05T14:11:00.000Z",
       "tags": [],
       "score": 54,
       "priority": "MEDIUM",
@@ -146,19 +18,160 @@
       ]
     },
     {
-      "id": "ministry-of-testing-c950f987f7591f34",
-      "title": "Leaky abstraction",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/leaky-abstraction",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-03T14:39:01.000Z",
-      "tags": [],
+      "id": "infoq-c015647452754f82",
+      "title": "Building a Culture for a Kubernetes-Based Platform in a Bank",
+      "summary": "In banking, open source can earn trust by running real workloads, as Marcy Paramonova and Stéphane Cusin explained in their talk Building Cloud Native Culture in a Bank at KubeCon & CloudNativeCon Eur...",
+      "url": "https://www.infoq.com/news/2026/11/culture-kubernetes-bank/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-05T11:11:00.000Z",
+      "tags": [
+        "kubernetes",
+        "ai"
+      ],
       "score": 54,
       "priority": "MEDIUM",
       "reason": [
         "recent"
       ]
+    },
+    {
+      "id": "infoq-3ff61a062a8b3195",
+      "title": "Presentation: Zero Trust Agent Systems that Pass Audits and Still Ship",
+      "summary": "Advait Patel shares a playbook for securing AI agent systems in production. He discusses moving defense boundaries from the prompt to the tool layer, enforcing scoped workload identities, and mitigati...",
+      "url": "https://www.infoq.com/presentations/zero-trust-ai-agents-production-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-05T11:00:00.000Z",
+      "tags": [
+        "security",
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "openai-25fa4dd18ec78a48",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "source": "OpenAI",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-05T02:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 67,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-b0b08ef17bcac3db",
+      "title": "Inkitt Builds a One-Shot PR Creator with Resumable Agent Orchestration",
+      "summary": "Inkitt built a one-shot pull request creator that automates small, low-risk code changes from task intake to draft PR creation. Its event-driven orchestrator persists workflow state, coordinates short...",
+      "url": "https://www.infoq.com/news/2026/11/inkitt-one-shot-pr-creator-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-04T14:36:00.000Z",
+      "tags": [
+        "rest",
+        "ai"
+      ],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "agent"
+      ]
+    },
+    {
+      "id": "openai-1be4fdd8e6ca80f0",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-04T14:30:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 65,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai"
+      ]
+    },
+    {
+      "id": "cloudflare-d13fbfe75d78ae19",
+      "title": "See the agents, set the terms: new visibility and control for personal agents",
+      "summary": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage persona...",
+      "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+      "source": "Cloudflare",
+      "category": "ai",
+      "publishedAt": "2026-11-04T14:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 80,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "cloudflare"
+      ]
+    },
+    {
+      "id": "infoq-3e3b12ab42cbecaf",
+      "title": "Presentation: Panel: Who Builds the Frontend Now? (And What Breaks When They Do)",
+      "summary": "The panelists explain how AI tools and vibe coding reshape frontend and mobile engineering. They share insights on evolving junior developer roles, managing AI-generated code review fatigue, designing...",
+      "url": "https://www.infoq.com/presentations/panel-ai-frontend-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-04T11:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "infoq-f1ecc8bd09f940ac",
+      "title": "Docker Urges Isolation and Governance for AI Agent Security",
+      "summary": "Docker has published a guide to five security risks that arise when AI agents are allowed to browse, run code and call tools with limited human oversight. They argue that the autonomy that makes agent...",
+      "url": "https://www.infoq.com/news/2026/11/docker-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-04T09:00:00.000Z",
+      "tags": [
+        "docker",
+        "security",
+        "ai"
+      ],
+      "score": 110,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "agent"
+      ]
+    },
+    {
+      "id": "infoq-ca7a7d9364ed2f7a",
+      "title": "Article: The App Is Just the Tip: What It Takes to Build Mobile Infrastructure at Scale",
+      "summary": "What determines whether your app feels fast, ships often, and stays stable at scale is not the app itself. It is what sits behind it. This article is about that layer: what it does, why it exists, wha...",
+      "url": "https://www.infoq.com/articles/mobile-app-infrastructure-at-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-04T09:00:00.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     }
   ]
 }
