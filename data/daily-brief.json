@@ -1,171 +1,18 @@
 {
-  "date": "2026-11-06",
-  "updatedAt": "2026-11-06T15:35:22.364Z",
+  "date": "2026-11-07",
+  "updatedAt": "2026-11-07T14:34:42.691Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news topics",
   "items": [
     {
-      "id": "ministry-of-testing-4748ad5900d7e31d",
-      "title": "The CI/CD pipeline of people",
+      "id": "ministry-of-testing-91414d260e2c8aeb",
+      "title": "Team Chartering",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/the-ci-cd-pipeline-of-people",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-06T14:57:12.000Z",
-      "tags": [
-        "ci/cd"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "ci/cd",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-55fb16a36f48a88c",
-      "title": "Yelp Combines Native and Server-Driven UI for Its AI Assistant",
-      "summary": "Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supp...",
-      "url": "https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-06T14:25:00.000Z",
-      "tags": [
-        "release",
-        "update",
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-51e1abeafce65c7a",
-      "title": "Synthetic testers vs real users: what AI testing can and can't tell you",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/synthetic-testers-vs-real-users-what-ai-testing-can-and-can-t-tell-you",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-06T14:15:16.000Z",
-      "tags": [
-        "testing",
-        "ai"
-      ],
-      "score": 79,
-      "priority": "HIGH",
-      "reason": [
-        "testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "cloudflare-a4dbacf967e62059",
-      "title": "The post-quantum future of web privacy",
-      "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cry...",
-      "url": "https://blog.cloudflare.com/vole-mole/",
-      "source": "Cloudflare",
-      "category": "engineering",
-      "publishedAt": "2026-11-06T14:00:00.000Z",
-      "tags": [],
-      "score": 64,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-346baa1b588204c9",
-      "title": "Context rot, performance testing within Cypress,  becoming indispensable in the age of AI, and more!",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/newsletter/context-rot-performance-testing-within-cypress-becoming-indispensable-in-the-age-of-ai-and-more",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-06T12:59:00.000Z",
-      "tags": [
-        "testing",
-        "cypress",
-        "performance",
-        "ai"
-      ],
-      "score": 109,
-      "priority": "CRITICAL",
-      "reason": [
-        "testing",
-        "performance testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-3025130a1b556c04",
-      "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
-      "summary": "GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available while expanding how external AI ag...",
-      "url": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-06T12:00:00.000Z",
-      "tags": [
-        "devops",
-        "release",
-        "ai"
-      ],
-      "score": 119,
-      "priority": "CRITICAL",
-      "reason": [
-        "mcp",
-        "agent",
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-0488e687b01d9181",
-      "title": "Could Your QA Team Add This Test Without Calling a Developer?",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/could-your-qa-team-add-this-test-without-calling-a-developer",
+      "url": "https://www.ministryoftesting.com/glossary/team-chartering",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-11-06T11:43:13.000Z",
-      "tags": [],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "qa",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-f49a2d5c8752742e",
-      "title": "TypeScript 7.1 Beta: Restores the Compiler API and Makes Vue and Svelte First-Class",
-      "summary": "TypeScript 7.1 Beta, announced October 20, 2026, restores the compiler API removed in 7.0, now split into separate entry points. It adds content mappers, letting tools like Vue check non-standard file...",
-      "url": "https://www.infoq.com/news/2026/11/typescript-7-1-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-06T11:06:00.000Z",
-      "tags": [
-        "typescript",
-        "api",
-        "rest",
-        "ai"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "typescript",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-4437462ab3bba69f",
-      "title": "Presentation: The Socio-Technical Staff+ Engineer: Architecture, Culture and Organisational Change",
-      "summary": "Vanessa Formicola shares how technical leaders can move beyond \"wishful architecture\" by practicing holistic socio-technical engineering. She discusses why engineering leaders must account for organiz...",
-      "url": "https://www.infoq.com/presentations/sociotechnical-staff-engineer-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-06T11:00:00.000Z",
+      "publishedAt": "2026-11-07T14:25:05.000Z",
       "tags": [],
       "score": 54,
       "priority": "MEDIUM",
@@ -174,16 +21,134 @@
       ]
     },
     {
-      "id": "infoq-767e1af485c46278",
-      "title": "AWS Ships Continuum for Code Vulnerabilities",
-      "summary": "AWS has made Continuum for code vulnerabilities generally available in two regions. The service proves exploitability by running real exploits in a sandbox, then opens fixes as pull requests. Publishe...",
-      "url": "https://www.infoq.com/news/2026/11/aws-continuum-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
+      "id": "ministry-of-testing-8237b3cd90f224e8",
+      "title": "STRIDE",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/stride",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:25:00.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-a30aab12057c6dcb",
+      "title": "Scale of Influence",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/scale-of-influence",
+      "source": "Ministry of Testing",
       "category": "engineering",
-      "publishedAt": "2026-11-06T10:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
+      "publishedAt": "2026-11-07T14:24:55.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-6e66dccee72e8e46",
+      "title": "Responsible Disclosure",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/responsible-disclosure",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:48.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-b1b9e972eb888d02",
+      "title": "Real User Monitoring (RUM)",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/real-user-monitoring-rum",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-07T14:24:41.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-625e3c64679f7d53",
+      "title": "RAG Status",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/rag-status",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:36.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-5426e9a28f32cbc9",
+      "title": "Quality Metrics",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/quality-metrics",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:28.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-8881dceb5e0c8ed3",
+      "title": "Leading and Lagging Quality Indicators",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/leading-and-lagging-quality-indicators",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:16.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-71589b910d18aa57",
+      "title": "Knowing-Doing Gap",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/knowing-doing-gap",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:07.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-48202f52292a29eb",
+      "title": "Impact Framework",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/impact-framework",
+      "source": "Ministry of Testing",
+      "category": "tooling",
+      "publishedAt": "2026-11-07T14:23:57.000Z",
+      "tags": [],
       "score": 54,
       "priority": "MEDIUM",
       "reason": [
