@@ -19,7 +19,7 @@ export function useFiltering() {
   const updateFilters = (newFilters: FilterState) => {
     const params = serializeFilterParams(newFilters);
     const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
-    router.push(newUrl);
+    router.push(newUrl, { scroll: false });
   };
 
   const updateTags = (tags: string[]) => {
@@ -35,7 +35,7 @@ export function useFiltering() {
   };
 
   const clearFilters = () => {
-    router.push(window.location.pathname);
+    router.push(window.location.pathname, { scroll: false });
   };
 
   return { filters, updateFilters, updateTags, toggleTag, clearFilters };
