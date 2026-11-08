@@ -1,841 +1,830 @@
 {
-  "date": "2026-07-17",
-  "updatedAt": "2026-07-17T09:45:59.156Z",
+  "date": "2026-11-07",
+  "updatedAt": "2026-11-07T14:34:43.880Z",
   "articles": [
     {
-      "id": "microsoft-devblogs-aHR0cHM6Ly9k",
-      "title": "How to test agent skills without hitting real APIs",
-      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing y...",
-      "url": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
-      "source": "Microsoft DevBlogs",
+      "id": "ministry-of-testing-91414d260e2c8aeb",
+      "title": "Team Chartering",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/team-chartering",
+      "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-07-17T09:27:50.000Z",
+      "publishedAt": "2026-11-07T14:25:05.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-8237b3cd90f224e8",
+      "title": "STRIDE",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/stride",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:25:00.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-a30aab12057c6dcb",
+      "title": "Scale of Influence",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/scale-of-influence",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-07T14:24:55.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-6e66dccee72e8e46",
+      "title": "Responsible Disclosure",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/responsible-disclosure",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:48.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-b1b9e972eb888d02",
+      "title": "Real User Monitoring (RUM)",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/real-user-monitoring-rum",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-07T14:24:41.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-625e3c64679f7d53",
+      "title": "RAG Status",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/rag-status",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:36.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-5426e9a28f32cbc9",
+      "title": "Quality Metrics",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/quality-metrics",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:28.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-8881dceb5e0c8ed3",
+      "title": "Leading and Lagging Quality Indicators",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/leading-and-lagging-quality-indicators",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:16.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-71589b910d18aa57",
+      "title": "Knowing-Doing Gap",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/knowing-doing-gap",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:07.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-48202f52292a29eb",
+      "title": "Impact Framework",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/impact-framework",
+      "source": "Ministry of Testing",
+      "category": "tooling",
+      "publishedAt": "2026-11-07T14:23:57.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-d5338a62937b1728",
+      "title": "Emotional Review",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/emotional-review",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:23:48.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-5ea6fa8961c22dfe",
+      "title": "Business Rule",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/business-rule",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:23:37.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-ed4597ed80e495ea",
+      "title": "Attack Vector",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/attack-vector",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:23:25.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-37b72881eb28d212",
+      "title": "Application Performance Monitoring (APM)",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/application-performance-monitoring-apm",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-07T14:23:18.000Z",
       "tags": [
+        "performance"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-593b3ba791ca4d10",
+      "title": "API Workflow Testing",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/api-workflow-testing",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-07T14:23:07.000Z",
+      "tags": [
+        "testing",
         "api"
+      ],
+      "score": 79,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-ec4e129fda6902b6",
+      "title": "Abuse Case",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/abuse-case",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:22:58.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-08ac8479d10d4eac",
+      "title": "Testability Smell",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/testability-smell",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T12:39:56.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-602c1d98546e0895",
+      "title": "You Build It, You Run It",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/you-build-it-you-run-it",
+      "source": "Ministry of Testing",
+      "category": "tooling",
+      "publishedAt": "2026-11-07T12:35:53.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-a0b75e3c4a479c6c",
+      "title": "XY Problem",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/xy-problem",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T12:35:31.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-0a859ceea8901bcf",
+      "title": "Tester Experience",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/tester-experience",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T12:35:29.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-0083e326f79cd552",
+      "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
+      "summary": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To addres...",
+      "url": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-07T11:00:00.000Z",
+      "tags": [
+        "release",
+        "ai"
       ],
       "score": 74,
       "priority": "HIGH",
       "reason": [
-        "agent",
+        "release",
         "recent"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9i",
-      "title": "Unfolding trees breadth-first in Haskell (2025)",
-      "summary": "Comments",
-      "url": "https://blog.poisson.chat/posts/2025-03-30-breadth-first-unfolds.html",
-      "source": "Lobsters",
-      "category": "ai",
-      "publishedAt": "2026-07-17T09:16:11.000Z",
+      "id": "infoq-9a9ecd1b7f0f2b85",
+      "title": "Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL",
+      "summary": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the gra...",
+      "url": "https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-07T09:49:00.000Z",
       "tags": [
+        "sql",
+        "release"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-d9abc4fc12e937c0",
+      "title": "Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets",
+      "summary": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog ...",
+      "url": "https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-07T06:54:00.000Z",
+      "tags": [
+        "typescript",
+        "release",
         "ai"
       ],
-      "score": 72,
+      "score": 88,
       "priority": "HIGH",
       "reason": [
-        "lobsters",
+        "typescript",
+        "release",
         "recent"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "What are you doing this weekend?",
-      "summary": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it\u2019s more than OK to do nothing at all too!",
-      "url": "https://lobste.rs/s/1vplvg/what_are_you_doing_this_weekend",
-      "source": "Lobsters",
+      "id": "ministry-of-testing-4748ad5900d7e31d",
+      "title": "The CI/CD pipeline of people",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/the-ci-cd-pipeline-of-people",
+      "source": "Ministry of Testing",
       "category": "engineering",
-      "publishedAt": "2026-07-17T08:31:40.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9o",
-      "title": "PACT: Anonymous Credentials for the Web \u2013 Mozilla Hacks",
-      "summary": "Comments",
-      "url": "https://hacks.mozilla.org/2026/06/pact-anonymous-credentials-for-the-web/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-17T06:01:54.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9j",
-      "title": "Country Draw",
-      "summary": "Comments",
-      "url": "https://country-draw.vercel.app/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-17T04:38:25.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "Earth Rotation Records Spur October Vote to Avert Negative Leap Second",
-      "summary": "Comments",
-      "url": "https://www.techtimes.com/articles/320185/20260711/earth-rotation-records-spur-october-vote-avert-negative-leap-second.htm",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-17T02:40:50.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "Stop the GUARD Act and age verification laws worldwide",
-      "summary": "Comments",
-      "url": "https://www.fsf.org/blogs/community/stop-the-guard-act",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-17T02:23:49.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly91",
-      "title": "Using GCC's Nested Functions with Wide Pointers and no Trampolines II",
-      "summary": "Comments",
-      "url": "https://uecker.codeberg.page/2026-07-14.html",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-17T01:37:41.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly92",
-      "title": "Here's how I host my own AIM server",
-      "summary": "Comments",
-      "url": "https://veronicaexplains.net/open-oscar-server/",
-      "source": "Lobsters",
-      "category": "ai",
-      "publishedAt": "2026-07-17T00:18:37.000Z",
+      "publishedAt": "2026-11-06T14:57:12.000Z",
       "tags": [
+        "ci/cd"
+      ],
+      "score": 69,
+      "priority": "MEDIUM",
+      "reason": [
+        "ci/cd",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-55fb16a36f48a88c",
+      "title": "Yelp Combines Native and Server-Driven UI for Its AI Assistant",
+      "summary": "Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supp...",
+      "url": "https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-06T14:25:00.000Z",
+      "tags": [
+        "release",
+        "update",
         "ai"
       ],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9n",
-      "title": "The Zilog Z80 has turned 50",
-      "summary": "Comments",
-      "url": "https://goliath32.com/blog/z80.html",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T22:03:22.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "We're Going to Make Out Like Bandits",
-      "summary": "Comments",
-      "url": "https://www.rocketpoweredjetpants.com/2026/04/were-going-to-make-out-like-bandits/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T18:38:03.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9v",
-      "title": "Microsoft Comic Chat is now open source",
-      "summary": "Comments",
-      "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T16:43:15.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9t",
-      "title": "clj-refactor.el 4.0",
-      "summary": "Comments",
-      "url": "https://metaredux.com/posts/2026/07/16/clj-refactor-4-0.html",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T16:43:06.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "Why teens deserve access to safe AI",
-      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-07-16T16:00:00.000Z",
+      "id": "ministry-of-testing-51e1abeafce65c7a",
+      "title": "Synthetic testers vs real users: what AI testing can and can't tell you",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/synthetic-testers-vs-real-users-what-ai-testing-can-and-can-t-tell-you",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-06T14:15:16.000Z",
       "tags": [
+        "testing",
         "ai"
       ],
-      "score": 77,
+      "score": 79,
       "priority": "HIGH",
       "reason": [
-        "openai",
+        "testing",
         "recent"
       ]
     },
     {
-      "id": "google-ai-aHR0cHM6Ly9i",
-      "title": "Connect more of your apps to Search",
-      "summary": "You\u2019ll be able to securely link and interact with your go-to services directly in AI Mode.",
-      "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-      "source": "Google AI",
-      "category": "ai",
-      "publishedAt": "2026-07-16T16:00:00.000Z",
+      "id": "cloudflare-a4dbacf967e62059",
+      "title": "The post-quantum future of web privacy",
+      "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cry...",
+      "url": "https://blog.cloudflare.com/vole-mole/",
+      "source": "Cloudflare",
+      "category": "engineering",
+      "publishedAt": "2026-11-06T14:00:00.000Z",
+      "tags": [],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-346baa1b588204c9",
+      "title": "Context rot, performance testing within Cypress,  becoming indispensable in the age of AI, and more!",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/newsletter/context-rot-performance-testing-within-cypress-becoming-indispensable-in-the-age-of-ai-and-more",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-06T12:59:00.000Z",
       "tags": [
-        "api",
+        "testing",
+        "cypress",
+        "performance",
         "ai"
       ],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "google",
-        "recent"
-      ]
-    },
-    {
-      "id": "google-ai-aHR0cHM6Ly9i",
-      "title": "Create, edit and star in videos with two Google Vids updates",
-      "summary": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
-      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "source": "Google AI",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T16:00:00.000Z",
-      "tags": [
-        "api",
-        "update"
-      ],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "google",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly90",
-      "title": "We're building Postgres in Rust. Using the LLVM of databases",
-      "summary": "Comments",
-      "url": "https://turso.tech/blog/a-new-modern-version-of-postgres-in-rust",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T15:39:50.000Z",
-      "tags": [
-        "database"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9i",
-      "title": "README, not",
-      "summary": "Comments",
-      "url": "https://blog.yossarian.net/2026/07/16/README-not",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T13:51:27.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "The LLM Critics Are Right. I Use LLMs Anyway",
-      "summary": "Comments",
-      "url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T13:27:20.000Z",
-      "tags": [
-        "llm"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "What gdb frontend do you prefer (linux)",
-      "summary": "I found the basic gdb ui painful and gdb -tui confusing. I love dlv for golang debugging. Before I drop back to printf debugging is there a frontend I should try?",
-      "url": "https://lobste.rs/s/76tcpe/what_gdb_frontend_do_you_prefer_linux",
-      "source": "Lobsters",
-      "category": "ai",
-      "publishedAt": "2026-07-16T13:12:52.000Z",
-      "tags": [
-        "bug",
-        "ai"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly90",
-      "title": "What \"Memory Compiler\" Actually Means: From Bitcells to GDS Tiling",
-      "summary": "Comments",
-      "url": "https://thecloudlet.github.io/technical/compiler/memory-compiler/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T13:01:06.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9y",
-      "title": "How Our Rust-to-Zig Rewrite is Going",
-      "summary": "Comments",
-      "url": "https://rtfeldman.com/rust-to-zig",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T11:31:41.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9t",
-      "title": "perldelta - what is new for perl v5.44.0",
-      "summary": "Comments",
-      "url": "https://metacpan.org/dist/perl/view/pod/perldelta.pod",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T11:27:04.000Z",
-      "tags": [],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9m",
-      "title": "Forgejo v16.0 is available",
-      "summary": "Comments",
-      "url": "https://forgejo.org/2026-07-release-v16-0/",
-      "source": "Lobsters",
-      "category": "ai",
-      "publishedAt": "2026-07-16T10:01:50.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9h",
-      "title": "Guix: creating a package from a binary",
-      "summary": "Comments",
-      "url": "https://aloysberger.com/posts/guix-packaging-a-binary-as-a-guix-beginner.html",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T09:29:06.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9h",
-      "title": "You can't bug fix your way out of the vulnpocalypse",
-      "summary": "Comments",
-      "url": "https://alexgaynor.net/2026/jul/15/you-cant-bugfix-your-way-out-of-the-vulnpocalypse/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T07:28:41.000Z",
-      "tags": [
-        "bug"
-      ],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "Linus Torvalds on LLM usage in kernel development",
-      "summary": "Comments",
-      "url": "https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-16T03:19:34.000Z",
-      "tags": [
-        "llm"
-      ],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "How Cars24 scales conversations and builds faster with OpenAI",
-      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-      "url": "https://openai.com/index/cars24",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-07-16T00:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 95,
+      "score": 109,
       "priority": "CRITICAL",
       "reason": [
+        "testing",
+        "performance testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-3025130a1b556c04",
+      "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
+      "summary": "GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available while expanding how external AI ag...",
+      "url": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-06T12:00:00.000Z",
+      "tags": [
+        "devops",
+        "release",
+        "ai"
+      ],
+      "score": 115,
+      "priority": "CRITICAL",
+      "reason": [
+        "mcp",
         "agent",
+        "release"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-0488e687b01d9181",
+      "title": "Could Your QA Team Add This Test Without Calling a Developer?",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/could-your-qa-team-add-this-test-without-calling-a-developer",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-06T11:43:13.000Z",
+      "tags": [],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "qa",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-f49a2d5c8752742e",
+      "title": "TypeScript 7.1 Beta: Restores the Compiler API and Makes Vue and Svelte First-Class",
+      "summary": "TypeScript 7.1 Beta, announced October 20, 2026, restores the compiler API removed in 7.0, now split into separate entry points. It adds content mappers, letting tools like Vue check non-standard file...",
+      "url": "https://www.infoq.com/news/2026/11/typescript-7-1-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-06T11:06:00.000Z",
+      "tags": [
+        "typescript",
+        "api",
+        "rest",
+        "ai"
+      ],
+      "score": 65,
+      "priority": "MEDIUM",
+      "reason": [
+        "typescript"
+      ]
+    },
+    {
+      "id": "infoq-4437462ab3bba69f",
+      "title": "Presentation: The Socio-Technical Staff+ Engineer: Architecture, Culture and Organisational Change",
+      "summary": "Vanessa Formicola shares how technical leaders can move beyond \"wishful architecture\" by practicing holistic socio-technical engineering. She discusses why engineering leaders must account for organiz...",
+      "url": "https://www.infoq.com/presentations/sociotechnical-staff-engineer-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-06T11:00:00.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "infoq-767e1af485c46278",
+      "title": "AWS Ships Continuum for Code Vulnerabilities",
+      "summary": "AWS has made Continuum for code vulnerabilities generally available in two regions. The service proves exploitability by running real exploits in a sandbox, then opens fixes as pull requests. Publishe...",
+      "url": "https://www.infoq.com/news/2026/11/aws-continuum-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-06T10:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "ministry-of-testing-cf5c7c5ac7a9f3e4",
+      "title": "Share how your QA team works: True Platform UX research interview ($30 gift card)",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/share-how-your-qa-team-works-true-platform-ux-research-interview-30-gift-card",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-06T09:32:50.000Z",
+      "tags": [],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "qa",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-710e2923402d3145",
+      "title": "The Evolution of Manual Testing: Katalon AI Test Runner webinar (16 Nov)",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/the-evolution-of-manual-testing-katalon-ai-test-runner-webinar-16-nov",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-06T09:23:24.000Z",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "score": 78,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-af81005e7438f089",
+      "title": "Article: Identity as an Architectural Concern: Enterprise IAM Beyond Authentication",
+      "summary": "The way you design your identities will drive your data models, your service scope, and your revocation policies; enterprise identity management is thus an architectural problem, not an afterthought. ...",
+      "url": "https://www.infoq.com/articles/identity-as-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-06T09:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "infoq-3f80c5d08300b699",
+      "title": "GitHub Actions Lockfiles Reach GA to Secure Workflow Dependencies",
+      "summary": "GitHub has made workflow dependency lockfiles for GitHub Actions generally available on October 28, 2026, two weeks after the feature entered public preview. Workflows can maintain clear tag and branc...",
+      "url": "https://www.infoq.com/news/2026/11/github-actions-lockfiles-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-06T09:00:00.000Z",
+      "tags": [
+        "github",
+        "feature",
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "openai-a0a44ed09dc9a108",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI",
+      "category": "test-automation",
+      "publishedAt": "2026-11-06T08:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 65,
+      "priority": "MEDIUM",
+      "reason": [
         "openai"
       ]
     },
     {
-      "id": "lobsters-aHR0cHM6Ly9j",
-      "title": "Abstracting effects with continuations",
-      "summary": "Comments",
-      "url": "https://crowdhailer.me/2026-07-15/abstracting-effects-with-continuations/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-15T22:57:15.000Z",
-      "tags": [],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9t",
-      "title": "SQLite should have (Rust-style) editions",
-      "summary": "Comments",
-      "url": "https://mort.coffee/home/sqlite-editions/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-15T19:34:54.000Z",
-      "tags": [
-        "sql"
-      ],
-      "score": 68,
-      "priority": "MEDIUM",
-      "reason": [
-        "lobsters"
-      ]
-    },
-    {
-      "id": "microsoft-devblogs-aHR0cHM6Ly9k",
-      "title": "Building AX evals that actually work",
-      "summary": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can&#8217;...",
-      "url": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work/",
-      "source": "Microsoft DevBlogs",
+      "id": "infoq-f81891ad643c9180",
+      "title": "Edera's Object Capability Bounded Authority Promises to Isolate Credentials From AI Agent Workloads",
+      "summary": "Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hypervisor-enforced capabilities l...",
+      "url": "https://www.infoq.com/news/2026/11/ai-credentials-isolation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
       "category": "ai",
-      "publishedAt": "2026-07-15T12:53:13.000Z",
+      "publishedAt": "2026-11-06T06:06:00.000Z",
       "tags": [
+        "api",
+        "security",
+        "release",
         "ai"
       ],
-      "score": 70,
-      "priority": "HIGH",
+      "score": 135,
+      "priority": "CRITICAL",
       "reason": [
+        "security",
+        "mcp",
         "agent"
       ]
     },
     {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "The US is advancing AI safety through state and federal action",
-      "summary": "OpenAI outlines a \u201creverse federalism\u201d approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "id": "openai-5f721228af3682c2",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
       "source": "OpenAI",
       "category": "ai",
-      "publishedAt": "2026-07-15T12:00:00.000Z",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
       "tags": [
         "ai"
       ],
-      "score": 75,
+      "score": 85,
       "priority": "HIGH",
+      "reason": [
+        "agent",
+        "openai"
+      ]
+    },
+    {
+      "id": "openai-bbd492caba72ca54",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "source": "OpenAI",
+      "category": "tooling",
+      "publishedAt": "2026-11-05T20:00:00.000Z",
+      "tags": [],
+      "score": 65,
+      "priority": "MEDIUM",
       "reason": [
         "openai"
       ]
     },
     {
-      "id": "openai-aHR0cHM6Ly9v",
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "summary": "Explore GPT-Red, OpenAI\u2019s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-07-15T10:00:00.000Z",
+      "id": "ministry-of-testing-ae48a4d381963b12",
+      "title": "Retrospective Action",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/retrospective-action",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-05T19:12:43.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-1595ae417c09d85e",
+      "title": "Quality Management",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/quality-management",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-05T19:12:38.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-9ad1b45cc1902850",
+      "title": "Rework",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/rework",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-05T19:12:32.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-5264a5657ae92df5",
+      "title": "Firefighting",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/firefighting",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-05T19:12:24.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-f74430edafba0434",
+      "title": "QMS Mapping Exercise",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/qms-mapping-exercise",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-05T19:12:10.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-e66404b8bb3dc131",
+      "title": "Absence of Friction",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/absence-of-friction",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-05T19:12:05.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-ca26ea88a961aba9",
+      "title": "Continuous Improvement",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/continuous-improvement",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-05T19:11:58.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-bcdb799e79c39cbf",
+      "title": "What is a quality management system? An introduction for software teams",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/insights/what-is-a-quality-management-system-an-introduction-for-software-teams",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-05T19:06:00.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "playwright-5750753d8910b463",
+      "title": "v1.65.0",
+      "summary": "🥟 Run tests with Bun The test runner now runs under Bun. Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the --bun flag, because with...",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
+      "source": "Playwright",
+      "category": "test-automation",
+      "publishedAt": "2026-11-05T18:25:45.000Z",
       "tags": [
+        "typescript",
+        "node.js",
+        "playwright",
+        "docker",
+        "api",
+        "rest",
+        "feature",
         "ai"
       ],
-      "score": 75,
+      "score": 85,
       "priority": "HIGH",
       "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9w",
-      "title": "Empathy and delight mean nothing when the software is disrespectful",
-      "summary": "Comments",
-      "url": "https://productpicnic.beehiiv.com/p/empathy-and-delight-mean-nothing-when-the-software-is-disrespectful",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-15T04:30:14.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9s",
-      "title": "Low Resource Computing 2026",
-      "summary": "Comments",
-      "url": "https://lrc.cs.dartmouth.edu/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-15T02:13:19.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9t",
-      "title": "Full disclosure: Arbitrary code execution in Cursor",
-      "summary": "Comments",
-      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-15T02:02:02.000Z",
-      "tags": [],
-      "score": 72,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9u",
-      "title": "A modern HTTP request",
-      "summary": "Comments",
-      "url": "https://nelsonslog.wordpress.com/2026/07/14/a-modern-http-request/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-15T00:34:39.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9h",
-      "title": "The Memory Heist",
-      "summary": "Comments",
-      "url": "https://ayush.digital/blog/the-memory-heist",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-15T00:11:45.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly94",
-      "title": "You should probably check on your smart appliances",
-      "summary": "Comments",
-      "url": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-14T22:02:25.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9j",
-      "title": "qr-swastika-avoider v0.1.0",
-      "summary": "Comments",
-      "url": "https://crates.io/crates/qr-swastika-avoider",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-14T21:47:07.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9r",
-      "title": "Native inotify in FreeBSD",
-      "summary": "Comments",
-      "url": "https://klarasystems.com/articles/native-inotify-in-freebsd/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-14T20:48:51.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9j",
-      "title": "A Trusty Boot Key (Ventoy Alternative), for Bastille Day",
-      "summary": "Comments",
-      "url": "https://codeberg.org/aol/trusty-boot-key",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-14T18:47:27.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly93",
-      "title": "How I use HTMX with Go",
-      "summary": "Comments",
-      "url": "https://www.alexedwards.net/blog/how-i-use-htmx-with-go",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-14T18:34:27.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9t",
-      "title": "Measuring input latency on Linux: X11 vs Wayland, VRR, and DXVK",
-      "summary": "Comments",
-      "url": "https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-14T18:07:13.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9n",
-      "title": "whatcable: macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
-      "summary": "Comments",
-      "url": "https://github.com/darrylmorley/whatcable",
-      "source": "Lobsters",
-      "category": "ai",
-      "publishedAt": "2026-07-14T17:00:52.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly90",
-      "title": "Temper Language",
-      "summary": "Comments",
-      "url": "https://temperlang.dev/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-14T16:56:25.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9z",
-      "title": "Too many words about DIDs",
-      "summary": "Comments",
-      "url": "https://steveklabnik.com/writing/too-many-words-about-dids/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-14T16:35:18.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9k",
-      "title": "How my images are dithered",
-      "summary": "Comments",
-      "url": "https://dead.garden/blog/how-my-images-are-dithered.html",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-14T16:00:52.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "lobsters",
-        "recent"
-      ]
-    },
-    {
-      "id": "google-ai-aHR0cHM6Ly9i",
-      "title": "Celebrating 25 years of visual search innovation",
-      "summary": "Google Images is turning 25. Here\u2019s a look back at some major milestones \u2014 and new ways to explore and create visual content.",
-      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
-      "source": "Google AI",
-      "category": "engineering",
-      "publishedAt": "2026-07-14T16:00:00.000Z",
-      "tags": [
-        "api"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "google"
-      ]
-    },
-    {
-      "id": "lobsters-aHR0cHM6Ly9i",
-      "title": "openQA Testing in KDE Linux",
-      "summary": "Comments",
-      "url": "https://blogs.kde.org/2026/07/13/openqa-testing-in-kde-linux/",
-      "source": "Lobsters",
-      "category": "engineering",
-      "publishedAt": "2026-07-14T13:46:32.000Z",
-      "tags": [
-        "testing"
-      ],
-      "score": 97,
-      "priority": "CRITICAL",
-      "reason": [
-        "testing",
-        "qa",
-        "lobsters",
-        "recent"
+        "playwright",
+        "typescript"
       ]
     }
   ]

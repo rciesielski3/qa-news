@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-07",
+  "updatedAt": "2026-11-07T14:34:42.691Z",
+  "articles": [
+    {
+      "id": "ministry-of-testing-91414d260e2c8aeb",
+      "title": "Team Chartering",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/team-chartering",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:25:05.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-8237b3cd90f224e8",
+      "title": "STRIDE",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/stride",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:25:00.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-a30aab12057c6dcb",
+      "title": "Scale of Influence",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/scale-of-influence",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-07T14:24:55.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-6e66dccee72e8e46",
+      "title": "Responsible Disclosure",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/responsible-disclosure",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:48.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-b1b9e972eb888d02",
+      "title": "Real User Monitoring (RUM)",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/real-user-monitoring-rum",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-07T14:24:41.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-625e3c64679f7d53",
+      "title": "RAG Status",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/rag-status",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:36.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-5426e9a28f32cbc9",
+      "title": "Quality Metrics",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/quality-metrics",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:28.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-8881dceb5e0c8ed3",
+      "title": "Leading and Lagging Quality Indicators",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/leading-and-lagging-quality-indicators",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:16.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-71589b910d18aa57",
+      "title": "Knowing-Doing Gap",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/knowing-doing-gap",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T14:24:07.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-48202f52292a29eb",
+      "title": "Impact Framework",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/impact-framework",
+      "source": "Ministry of Testing",
+      "category": "tooling",
+      "publishedAt": "2026-11-07T14:23:57.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    }
+  ]
+}

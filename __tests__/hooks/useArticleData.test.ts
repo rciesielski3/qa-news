@@ -17,10 +17,11 @@ describe('useArticleData', () => {
         publishedAt: new Date().toISOString(),
       },
     ];
+    const mockUpdatedAt = '2026-08-04T06:53:39.869Z';
 
     global.fetch = jest.fn(() =>
       Promise.resolve({
-        json: () => Promise.resolve({ articles: mockArticles }),
+        json: () => Promise.resolve({ articles: mockArticles, updatedAt: mockUpdatedAt }),
       } as Response),
     );
 
@@ -33,6 +34,7 @@ describe('useArticleData', () => {
     });
 
     expect(Array.isArray(result.current.articles)).toBe(true);
+    expect(result.current.updatedAt).toBe(mockUpdatedAt);
   });
 
   it('includes isUsingFallback flag', async () => {

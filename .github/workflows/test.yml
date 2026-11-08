@@ -1,0 +1,49 @@
+name: Test
+
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'public/**'
+      - 'src/**'
+      - 'tests/**'
+      - 'jest.config.js'
+      - 'package.json'
+      - '.github/workflows/test.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test -- --coverage
+
+      - name: Validate export data
+        run: |
+          echo "Validating export data files..."
+          test -f public/latest.json || (echo "❌ public/latest.json missing" && exit 1)
+          test -f data/latest-news.json || (echo "❌ data/latest-news.json missing" && exit 1)
+
+          # Validate JSON structure
+          node -e "const f=require('./public/latest.json'); console.log('✅ public/latest.json valid JSON')" || exit 1
+          node -e "const f=require('./data/latest-news.json'); console.log('✅ data/latest-news.json valid JSON')" || exit 1
+
+          # Check article count
+          ARTICLE_COUNT=$(jq 'length' public/latest.json)
+          echo "✅ Articles in export: $ARTICLE_COUNT"
+
+          if [ "$ARTICLE_COUNT" -lt 1 ]; then
+            echo "⚠️  Warning: Very few articles in export ($ARTICLE_COUNT)"
+          fi
