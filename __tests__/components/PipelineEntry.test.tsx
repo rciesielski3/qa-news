@@ -14,10 +14,11 @@ describe('PipelineEntry', () => {
 
   const summary = 'Summary text that is long enough.';
 
-  it('renders the subtitle derived from the summary', () => {
+  it('derives the subtitle from the description, not the summary, and shows the text once', () => {
     render(<PipelineEntry article={{ ...baseArticle, summary, description: 'Another description.' }} />);
-    expect(screen.getByText(summary)).toBeInTheDocument();
+    expect(screen.queryByText(summary)).not.toBeInTheDocument();
     expect(screen.getByText('Another description.')).toBeInTheDocument();
+    expect(screen.queryAllByText('Another description.')).toHaveLength(1);
   });
 
   it('hides the subtitle when the description contains it (case-insensitive)', () => {

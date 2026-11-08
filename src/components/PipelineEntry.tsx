@@ -9,9 +9,16 @@ interface PipelineEntryProps {
 
 export default function PipelineEntry({ article }: PipelineEntryProps) {
   const subtitle = getArticleSubtitle(article);
+  const descriptionText = article.description?.trim() ?? '';
+  const subtitleIsDescription =
+    subtitle !== '' && subtitle.toLowerCase() === descriptionText.toLowerCase();
   // Skip the subtitle when the description below already contains it.
-  const description = article.description?.trim().toLowerCase() ?? '';
-  const showSubtitle = subtitle !== '' && !description.includes(subtitle.toLowerCase());
+  // Exception: when they are identical, the subtitle is the one shown.
+  const showSubtitle =
+    subtitle !== '' &&
+    (subtitleIsDescription || !descriptionText.toLowerCase().includes(subtitle.toLowerCase()));
+  // The description repeats the subtitle only when it is the subtitle's source.
+  const showDescription = descriptionText !== '' && !subtitleIsDescription;
 
   return (
     <Link href={article.url} target="_blank" rel="noreferrer" className="no-underline hover:no-underline">
@@ -42,7 +49,7 @@ export default function PipelineEntry({ article }: PipelineEntryProps) {
           )}
 
           {/* Description */}
-          {article.description && (
+          {showDescription && (
             <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-2">
               {article.description}
             </p>

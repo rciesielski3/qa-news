@@ -59,6 +59,38 @@ describe('PipelineEntry', () => {
     expect(screen.getByText('Test description')).toBeInTheDocument();
   });
 
+  it('uses description as subtitle source and ignores summary when description is present', () => {
+    const article: Article = {
+      ...mockArticle,
+      description: 'Long description text. Another sentence here. Third sentence.',
+      summary: 'Test summary',
+    };
+    render(<PipelineEntry article={article} />);
+    expect(screen.getByText('Long description text. Another sentence here. Third sentence.')).toBeInTheDocument();
+    expect(screen.queryAllByText(/Long description text/)).toHaveLength(1);
+    expect(screen.queryByText('Test summary')).not.toBeInTheDocument();
+  });
+
+  it('shows explicit subtitle and description when they differ', () => {
+    const article: Article = {
+      ...mockArticle,
+      subtitle: 'Explicit subtitle.',
+      description: 'Description text here.',
+    };
+    render(<PipelineEntry article={article} />);
+    expect(screen.getByText('Explicit subtitle.')).toBeInTheDocument();
+    expect(screen.getByText('Description text here.')).toBeInTheDocument();
+  });
+
+  it('does not duplicate text when description is the subtitle source', () => {
+    const article: Article = {
+      ...mockArticle,
+      description: 'Only description text here.',
+    };
+    render(<PipelineEntry article={article} />);
+    expect(screen.queryAllByText('Only description text here.')).toHaveLength(1);
+  });
+
   it('renders nothing when all text fields are empty', () => {
     render(<PipelineEntry article={mockArticle} />);
     expect(screen.queryByText('Test subtitle')).not.toBeInTheDocument();
