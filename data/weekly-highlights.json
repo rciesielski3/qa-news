@@ -8510,38 +8510,6 @@
           "reason": [
             "recent"
           ]
-        },
-        {
-          "id": "ministry-of-testing-b099891403f2a7da",
-          "title": "Community stars shine at MoTaCon festival, with moments to remember",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/community-stars-shine-at-motacon-festival-with-moments-to-remember",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-09T14:35:09.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-dca8143f581ee443",
-          "title": "Bug is flying!",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/bug-is-flying",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-10-09T14:26:03.000Z",
-          "tags": [
-            "bug"
-          ],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
         }
       ]
     }
