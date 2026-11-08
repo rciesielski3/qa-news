@@ -1,4 +1,5 @@
 import type { Article } from '@/lib/types';
+import { getArticleSubtitle } from '@/lib/summarize';
 import { getCategoryLabel, categoryTextColorClass, categoryBgColorClass, categoryBgColorDarkInverted, categoryTextColorDarkInverted, getCategoryColorName } from '@/lib/styles';
 
 interface TopPickCardProps {
@@ -7,6 +8,8 @@ interface TopPickCardProps {
 }
 
 export default function TopPickCard({ article, rank }: TopPickCardProps) {
+  const subtitle = getArticleSubtitle(article);
+
   return (
     <div className="flex flex-col justify-between min-h-[280px] rounded-lg border border-ink-200 bg-paper p-6 dark:bg-ink-800 dark:border-ink-600">
       {/* Header: rank, category, top pick badge */}
@@ -29,16 +32,12 @@ export default function TopPickCard({ article, rank }: TopPickCardProps) {
           {article.title}
         </h3>
 
-        {/* Subtitle or Summary (conditional) */}
-        {article.subtitle ? (
-          <p className="text-sm text-ink-600 mb-3 dark:text-paper-muted w-full line-clamp-2">
-            {article.subtitle}
+        {/* Subtitle: 1-2 sentences about the article */}
+        {subtitle && (
+          <p className="text-sm leading-relaxed text-ink-600 mb-3 dark:text-paper-muted w-full line-clamp-2">
+            {subtitle}
           </p>
-        ) : article.summary ? (
-          <p className="text-sm leading-relaxed text-ink-600 mb-4 dark:text-paper-muted w-full line-clamp-3">
-            {article.summary}
-          </p>
-        ) : null}
+        )}
       </div>
 
       {/* Read Article Button */}

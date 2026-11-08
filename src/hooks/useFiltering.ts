@@ -1,12 +1,13 @@
 'use client';
 
-import { useSearchParams, useRouter } from 'next/navigation';
+import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 import { useMemo } from 'react';
 import { FilterState, parseFilterParams, serializeFilterParams } from '@/lib/filtering';
 
 export function useFiltering() {
   const searchParams = useSearchParams();
   const router = useRouter();
+  const pathname = usePathname();
 
   const filters = useMemo(() => {
     const params: Record<string, string | string[]> = {};
@@ -18,8 +19,8 @@ export function useFiltering() {
 
   const updateFilters = (newFilters: FilterState) => {
     const params = serializeFilterParams(newFilters);
-    const newUrl = `${window.location.pathname}${params.toString() ? `?${params.toString()}` : ''}`;
-    router.push(newUrl);
+    const newUrl = `${pathname}${params.toString() ? `?${params.toString()}` : ''}`;
+    router.push(newUrl, { scroll: false });
   };
 
   const updateTags = (tags: string[]) => {
@@ -35,7 +36,7 @@ export function useFiltering() {
   };
 
   const clearFilters = () => {
-    router.push(window.location.pathname);
+    router.push(pathname, { scroll: false });
   };
 
   return { filters, updateFilters, updateTags, toggleTag, clearFilters };

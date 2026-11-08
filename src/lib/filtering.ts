@@ -29,7 +29,6 @@
  */
 
 import type { Article as TypesArticle, Category } from '@/lib/types';
-import { generateSummary } from '@/lib/summarize';
 
 export type FilterState = {
   category?: string;
@@ -44,14 +43,11 @@ export type Article = TypesArticle;
  *
  * **Case Sensitivity:** Not applicable — this function filters by date only.
  *
- * **Note on Summary Normalization:**
- * This function normalizes article summaries to 2-3 sentences (~150 chars) using {@link generateSummary}.
- * This is separate from category/tag case normalization; it ensures consistent display in the UI
- * even when RSS descriptions vary in length.
+ * Summaries are not modified; they are passed through as upstream wrote them.
  *
  * @param articles All articles from latest.json
  * @param daysAgo Number of days to look back (1 = today only, 7 = this week, 30 = this month)
- * @returns Articles published within the specified date range, with normalized summaries
+ * @returns Articles published within the specified date range
  *
  * @example
  * // Get articles from the last 7 days
@@ -62,20 +58,14 @@ export function getArticlesSince(articles: Article[], daysAgo: number): Article[
   const startOfToday = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
   const cutoff = new Date(startOfToday.getTime() - (daysAgo - 1) * 24 * 60 * 60 * 1000);
 
-  return articles
-    .filter((article) => {
-      if (!article.publishedAt) return false;
-      const pubDate = new Date(article.publishedAt);
-      return pubDate >= cutoff;
-    })
-    .map((article) => ({
-      ...article,
-      // Normalize to a 2-3 sentence, ~150 char summary. The RSS pipeline
-      // doesn't always cap description length, and articles missing a
-      // summary entirely fall back to the title so the UI never renders
-      // a blank summary field.
-      summary: generateSummary(article.summary || article.title || ''),
-    }));
+  // Articles are returned unchanged. Summaries are used raw so the subtitle
+  // derivation (getArticleSubtitle) sees the upstream text; rewriting them
+  // here split abbreviations and version numbers ("U.S.", "v2.0").
+  return articles.filter((article) => {
+    if (!article.publishedAt) return false;
+    const pubDate = new Date(article.publishedAt);
+    return pubDate >= cutoff;
+  });
 }
 
 /**

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Article } from '@/lib/types';
+import { getArticleSubtitle } from '@/lib/summarize';
 import { getCategoryLabel, categoryTextColorClass, categoryBgColorClass, categoryBgColorDarkInverted, categoryTextColorDarkInverted, getCategoryColor } from '@/lib/styles';
 
 interface PipelineEntryProps {
@@ -7,6 +8,11 @@ interface PipelineEntryProps {
 }
 
 export default function PipelineEntry({ article }: PipelineEntryProps) {
+  const subtitle = getArticleSubtitle(article);
+  // Skip the subtitle when the description below already contains it.
+  const description = article.description?.trim().toLowerCase() ?? '';
+  const showSubtitle = subtitle !== '' && !description.includes(subtitle.toLowerCase());
+
   return (
     <Link href={article.url} target="_blank" rel="noreferrer" className="no-underline hover:no-underline">
       <li className="flex gap-3 py-3 items-center border-b border-ink-200 dark:border-ink-600 group hover:bg-ink-50 dark:hover:bg-ink-800 transition-colors cursor-pointer">
@@ -28,20 +34,19 @@ export default function PipelineEntry({ article }: PipelineEntryProps) {
             </h4>
           </div>
 
-          {/* Subtitle: prioritize subtitle, fallback to summary then description */}
-          {article.subtitle ? (
-            <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-1">
-              {article.subtitle}
-            </p>
-          ) : article.summary ? (
+          {/* Subtitle */}
+          {showSubtitle && (
             <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-2">
-              {article.summary}
+              {subtitle}
             </p>
-          ) : article.description ? (
+          )}
+
+          {/* Description */}
+          {article.description && (
             <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-2">
               {article.description}
             </p>
-          ) : null}
+          )}
 
           {/* Metadata row */}
           <div className="flex items-center gap-2 text-xs font-mono text-ink-400 dark:text-paper-faint">

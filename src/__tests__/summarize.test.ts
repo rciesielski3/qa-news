@@ -1,4 +1,4 @@
-import { generateSummary } from '@/lib/summarize';
+import { generateSummary, getArticleSubtitle } from '@/lib/summarize';
 
 describe('generateSummary', () => {
   it('returns empty string for empty input', () => {
@@ -39,5 +39,80 @@ describe('generateSummary', () => {
     const content = 'This is a test sentence. Another sentence here.';
     const result = generateSummary(content, 30);
     expect(result.length).toBeLessThanOrEqual(34); // 30 + '...'
+  });
+});
+
+describe('getArticleSubtitle', () => {
+  it('prefers an explicit subtitle over summary', () => {
+    expect(
+      getArticleSubtitle({ subtitle: 'Explicit subtitle.', summary: 'Summary text that is long enough.' }),
+    ).toBe('Explicit subtitle.');
+  });
+
+  it('falls through to summary when subtitle is whitespace only', () => {
+    expect(
+      getArticleSubtitle({ subtitle: '   ', summary: 'Summary text that is long enough.' }),
+    ).toBe('Summary text that is long enough.');
+  });
+
+  it('strips a trailing "..." from summary', () => {
+    expect(getArticleSubtitle({ summary: 'Truncated upstream text...' })).toBe('Truncated upstream text');
+  });
+
+  it('strips a trailing "…" from summary', () => {
+    expect(getArticleSubtitle({ summary: 'Truncated upstream text…' })).toBe('Truncated upstream text');
+  });
+
+  it('returns empty string for text under 10 characters', () => {
+    expect(getArticleSubtitle({ summary: 'Comments' })).toBe('');
+  });
+
+  it('returns empty string when summary is undefined', () => {
+    expect(getArticleSubtitle({})).toBe('');
+  });
+
+  it('caps the subtitle at two sentences', () => {
+    expect(
+      getArticleSubtitle({ summary: 'First sentence here. Second sentence here. Third sentence here.' }),
+    ).toBe('First sentence here. Second sentence here.');
+  });
+
+  it('does not split on periods inside abbreviations or version numbers', () => {
+    expect(
+      getArticleSubtitle({
+        summary: 'Dr. Lee shipped v2.0 in the U.S. today. J. Doe agreed with e.g. the plan. Third one here.',
+      }),
+    ).toBe('Dr. Lee shipped v2.0 in the U.S. today. J. Doe agreed with e.g. the plan.');
+  });
+
+  it('keeps the second real sentence when the first contains an abbreviation', () => {
+    expect(
+      getArticleSubtitle({ summary: 'The U.S. team shipped v2.0 today. It was a large release. Third one here.' }),
+    ).toBe('The U.S. team shipped v2.0 today. It was a large release.');
+  });
+
+  it('does not return punctuation-only text', () => {
+    expect(getArticleSubtitle({ summary: '!!!!!!!!!!!!!!' })).toBe('');
+  });
+
+  it('handles a 100k-character run of dots quickly', () => {
+    const start = Date.now();
+    expect(getArticleSubtitle({ summary: '.'.repeat(100000) })).toBe('');
+    expect(Date.now() - start).toBeLessThan(500);
+  });
+
+  it('returns empty string when the subtitle equals the title (case-insensitive, trimmed)', () => {
+    expect(
+      getArticleSubtitle({ title: '  Same Headline Here ', summary: 'same headline here' }),
+    ).toBe('');
+    expect(
+      getArticleSubtitle({ title: 'Same Headline Here', subtitle: 'SAME HEADLINE HERE' }),
+    ).toBe('');
+  });
+
+  it('keeps the subtitle when it differs from the title', () => {
+    expect(
+      getArticleSubtitle({ title: 'Headline', summary: 'A different body of text.' }),
+    ).toBe('A different body of text.');
   });
 });
