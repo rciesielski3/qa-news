@@ -1,7 +1,373 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T14:10:40.496Z",
+  "updatedAt": "2026-11-08T14:21:15.339Z",
   "articles": [
+    {
+      "id": "infoq-a79db40329ff0cce",
+      "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
+      "summary": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull ...",
+      "description": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model, is not well suited to an environment where AI agents generate, review, and iterate on code at high speed. By Sergio De Simone",
+      "url": "https://www.infoq.com/news/2026/11/entire-git-forge-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-08T11:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-ce56f75893c74cae",
+      "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
+      "summary": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It...",
+      "description": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It sits beside the Google-managed VMware Engine and matches customer-operated offerings from AWS and Oracle, shifting lifecycle, patching and Broadcom licensing back to the customer.",
+      "url": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-08T07:16:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-0b2081a7493b512f",
+      "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+      "summary": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and ...",
+      "description": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
+      "url": "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-08T06:34:00.000Z",
+      "tags": [
+        "database",
+        "sql"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-ea883100378b7cc9",
+      "title": "Two-Layered Test Framework",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/two-layered-test-framework",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:43:55.000Z",
+      "tags": [],
+      "score": 83,
+      "priority": "HIGH",
+      "reason": [
+        "test framework",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-f513a0f1c989d98e",
+      "title": "Tool Comparison Matrix",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/tool-comparison-matrix",
+      "source": "Ministry of Testing",
+      "category": "tooling",
+      "publishedAt": "2026-11-08T02:43:48.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-907b8b92b4dad4a1",
+      "title": "Tool Awareness",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/tool-awareness",
+      "source": "Ministry of Testing",
+      "category": "tooling",
+      "publishedAt": "2026-11-08T02:43:37.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-6443092cf9a2f549",
+      "title": "Test Automation Wrapper",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/test-automation-wrapper",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:43:15.000Z",
+      "tags": [
+        "automation"
+      ],
+      "score": 128,
+      "priority": "CRITICAL",
+      "reason": [
+        "test automation",
+        "automation",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-2ef47f00e40e32cf",
+      "title": "Team Personal Map",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/team-personal-map",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:43:07.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-ac787a7ced65be7a",
+      "title": "Systemic Consensing",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/systemic-consensing",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:42:58.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-80095c6dd3056976",
+      "title": "Shared Service Testing",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/shared-service-testing",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-08T02:42:51.000Z",
+      "tags": [
+        "testing"
+      ],
+      "score": 78,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-ac21a0aacc399d01",
+      "title": "Servant Leadership",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/servant-leadership",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:42:41.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-4d3ff9294e486a9b",
+      "title": "SDK Mocking",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/sdk-mocking",
+      "source": "Ministry of Testing",
+      "category": "tooling",
+      "publishedAt": "2026-11-08T02:42:35.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-2df712aa10372d01",
+      "title": "Remote Test Execution",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/remote-test-execution",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:42:21.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-5cc9dad1bfad01c5",
+      "title": "Relay Node",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/relay-node",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:42:17.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-f4abbf3df530615f",
+      "title": "Power Interest Grid",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/power-interest-grid",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:42:11.000Z",
+      "tags": [
+        "rest"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-9aeb87679b2d635e",
+      "title": "Leadership Philosophy",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/leadership-philosophy",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:42:05.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-7f9985d4e71c335c",
+      "title": "Interpersonal Risk Taking",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/interpersonal-risk-taking",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:41:58.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-0718c83d1e49d153",
+      "title": "Implicit Goals",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/implicit-goals",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:41:53.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-790eeba78774319d",
+      "title": "Hexagonal Architecture",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/hexagonal-architecture",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-08T02:41:48.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-52e20c5398878c1e",
+      "title": "Fist to Five",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/fist-to-five",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:41:42.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-16135e096ec6aeb5",
+      "title": "First Follower",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/first-follower",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:41:36.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-3b8c649166876c0b",
+      "title": "Feedback Model",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/feedback-model",
+      "source": "Ministry of Testing",
+      "category": "ai",
+      "publishedAt": "2026-11-08T02:41:32.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-77238842c18628c0",
+      "title": "Dynamic Grid",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/dynamic-grid",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:41:26.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
     {
       "id": "ministry-of-testing-91414d260e2c8aeb",
       "title": "Team Chartering",
@@ -312,6 +678,7 @@
       "id": "infoq-0083e326f79cd552",
       "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
       "summary": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To addres...",
+      "description": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges, they implemented a layered defense strategy to prevent, detect, and contain crashes throughout the development and release lifecycle. By Sergio De Simone",
       "url": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "tooling",
@@ -320,17 +687,17 @@
         "release",
         "ai"
       ],
-      "score": 74,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "recent"
+        "release"
       ]
     },
     {
       "id": "infoq-9a9ecd1b7f0f2b85",
       "title": "Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL",
       "summary": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the gra...",
+      "description": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the graph-based approach used by pgvector’s HNSW index, reducing memory requirements and index build times. By Renato Losio",
       "url": "https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "tooling",
@@ -339,17 +706,17 @@
         "sql",
         "release"
       ],
-      "score": 74,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "recent"
+        "release"
       ]
     },
     {
       "id": "infoq-d9abc4fc12e937c0",
       "title": "Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets",
       "summary": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog ...",
+      "description": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog protocols, custom publish commands, and branch-based prereleases. Changesets v3, released in August 2026, closed many earlier gaps, though differences remain. By Daniel Curtis",
       "url": "https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "tooling",
@@ -359,12 +726,11 @@
         "release",
         "ai"
       ],
-      "score": 88,
+      "score": 85,
       "priority": "HIGH",
       "reason": [
         "typescript",
-        "release",
-        "recent"
+        "release"
       ]
     },
     {
@@ -389,6 +755,7 @@
       "id": "infoq-55fb16a36f48a88c",
       "title": "Yelp Combines Native and Server-Driven UI for Its AI Assistant",
       "summary": "Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supp...",
+      "description": "Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supports backend-driven chat interactions, and enables faster UI updates without new app releases. Yelp also discusses cross-platform challenges and reuse for its Biz Ask Anything pilot. By Leela Kumili",
       "url": "https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "tooling",
@@ -425,6 +792,7 @@
       "id": "cloudflare-a4dbacf967e62059",
       "title": "The post-quantum future of web privacy",
       "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cry...",
+      "description": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
       "url": "https://blog.cloudflare.com/vole-mole/",
       "source": "Cloudflare",
       "category": "engineering",
@@ -434,397 +802,6 @@
       "priority": "MEDIUM",
       "reason": [
         "cloudflare"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-346baa1b588204c9",
-      "title": "Context rot, performance testing within Cypress,  becoming indispensable in the age of AI, and more!",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/newsletter/context-rot-performance-testing-within-cypress-becoming-indispensable-in-the-age-of-ai-and-more",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-06T12:59:00.000Z",
-      "tags": [
-        "testing",
-        "cypress",
-        "performance",
-        "ai"
-      ],
-      "score": 109,
-      "priority": "CRITICAL",
-      "reason": [
-        "testing",
-        "performance testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-3025130a1b556c04",
-      "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
-      "summary": "GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available while expanding how external AI ag...",
-      "url": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-06T12:00:00.000Z",
-      "tags": [
-        "devops",
-        "release",
-        "ai"
-      ],
-      "score": 115,
-      "priority": "CRITICAL",
-      "reason": [
-        "mcp",
-        "agent",
-        "release"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-0488e687b01d9181",
-      "title": "Could Your QA Team Add This Test Without Calling a Developer?",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/could-your-qa-team-add-this-test-without-calling-a-developer",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-06T11:43:13.000Z",
-      "tags": [],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "qa",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-f49a2d5c8752742e",
-      "title": "TypeScript 7.1 Beta: Restores the Compiler API and Makes Vue and Svelte First-Class",
-      "summary": "TypeScript 7.1 Beta, announced October 20, 2026, restores the compiler API removed in 7.0, now split into separate entry points. It adds content mappers, letting tools like Vue check non-standard file...",
-      "url": "https://www.infoq.com/news/2026/11/typescript-7-1-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-06T11:06:00.000Z",
-      "tags": [
-        "typescript",
-        "api",
-        "rest",
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "typescript"
-      ]
-    },
-    {
-      "id": "infoq-4437462ab3bba69f",
-      "title": "Presentation: The Socio-Technical Staff+ Engineer: Architecture, Culture and Organisational Change",
-      "summary": "Vanessa Formicola shares how technical leaders can move beyond \"wishful architecture\" by practicing holistic socio-technical engineering. She discusses why engineering leaders must account for organiz...",
-      "url": "https://www.infoq.com/presentations/sociotechnical-staff-engineer-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-06T11:00:00.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-767e1af485c46278",
-      "title": "AWS Ships Continuum for Code Vulnerabilities",
-      "summary": "AWS has made Continuum for code vulnerabilities generally available in two regions. The service proves exploitability by running real exploits in a sandbox, then opens fixes as pull requests. Publishe...",
-      "url": "https://www.infoq.com/news/2026/11/aws-continuum-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-06T10:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-cf5c7c5ac7a9f3e4",
-      "title": "Share how your QA team works: True Platform UX research interview ($30 gift card)",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/share-how-your-qa-team-works-true-platform-ux-research-interview-30-gift-card",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-06T09:32:50.000Z",
-      "tags": [],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "qa",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-710e2923402d3145",
-      "title": "The Evolution of Manual Testing: Katalon AI Test Runner webinar (16 Nov)",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/the-evolution-of-manual-testing-katalon-ai-test-runner-webinar-16-nov",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-06T09:23:24.000Z",
-      "tags": [
-        "testing",
-        "ai"
-      ],
-      "score": 78,
-      "priority": "HIGH",
-      "reason": [
-        "testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-af81005e7438f089",
-      "title": "Article: Identity as an Architectural Concern: Enterprise IAM Beyond Authentication",
-      "summary": "The way you design your identities will drive your data models, your service scope, and your revocation policies; enterprise identity management is thus an architectural problem, not an afterthought. ...",
-      "url": "https://www.infoq.com/articles/identity-as-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-06T09:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-3f80c5d08300b699",
-      "title": "GitHub Actions Lockfiles Reach GA to Secure Workflow Dependencies",
-      "summary": "GitHub has made workflow dependency lockfiles for GitHub Actions generally available on October 28, 2026, two weeks after the feature entered public preview. Workflows can maintain clear tag and branc...",
-      "url": "https://www.infoq.com/news/2026/11/github-actions-lockfiles-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-06T09:00:00.000Z",
-      "tags": [
-        "github",
-        "feature",
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "openai-a0a44ed09dc9a108",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "source": "OpenAI",
-      "category": "test-automation",
-      "publishedAt": "2026-11-06T08:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "infoq-f81891ad643c9180",
-      "title": "Edera's Object Capability Bounded Authority Promises to Isolate Credentials From AI Agent Workloads",
-      "summary": "Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hypervisor-enforced capabilities l...",
-      "url": "https://www.infoq.com/news/2026/11/ai-credentials-isolation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-06T06:06:00.000Z",
-      "tags": [
-        "api",
-        "security",
-        "release",
-        "ai"
-      ],
-      "score": 135,
-      "priority": "CRITICAL",
-      "reason": [
-        "security",
-        "mcp",
-        "agent"
-      ]
-    },
-    {
-      "id": "openai-5f721228af3682c2",
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 85,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "openai"
-      ]
-    },
-    {
-      "id": "openai-bbd492caba72ca54",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "source": "OpenAI",
-      "category": "tooling",
-      "publishedAt": "2026-11-05T20:00:00.000Z",
-      "tags": [],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-ae48a4d381963b12",
-      "title": "Retrospective Action",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/retrospective-action",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-05T19:12:43.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-1595ae417c09d85e",
-      "title": "Quality Management",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/quality-management",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-05T19:12:38.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-9ad1b45cc1902850",
-      "title": "Rework",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/rework",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-05T19:12:32.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-5264a5657ae92df5",
-      "title": "Firefighting",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/firefighting",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-05T19:12:24.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-f74430edafba0434",
-      "title": "QMS Mapping Exercise",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/qms-mapping-exercise",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-05T19:12:10.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-e66404b8bb3dc131",
-      "title": "Absence of Friction",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/absence-of-friction",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-05T19:12:05.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-ca26ea88a961aba9",
-      "title": "Continuous Improvement",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/continuous-improvement",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-05T19:11:58.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-bcdb799e79c39cbf",
-      "title": "What is a quality management system? An introduction for software teams",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/insights/what-is-a-quality-management-system-an-introduction-for-software-teams",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-05T19:06:00.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "playwright-5750753d8910b463",
-      "title": "v1.65.0",
-      "summary": "🥟 Run tests with Bun The test runner now runs under Bun. Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the --bun flag, because with...",
-      "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
-      "source": "Playwright",
-      "category": "test-automation",
-      "publishedAt": "2026-11-05T18:25:45.000Z",
-      "tags": [
-        "typescript",
-        "node.js",
-        "playwright",
-        "docker",
-        "api",
-        "rest",
-        "feature",
-        "ai"
-      ],
-      "score": 85,
-      "priority": "HIGH",
-      "reason": [
-        "playwright",
-        "typescript"
       ]
     }
   ]

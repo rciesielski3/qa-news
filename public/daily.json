@@ -1,154 +1,173 @@
 {
   "date": "2026-11-08",
-  "updatedAt": "2026-11-08T14:10:39.548Z",
+  "updatedAt": "2026-11-08T14:21:13.944Z",
   "articles": [
     {
-      "id": "ministry-of-testing-91414d260e2c8aeb",
-      "title": "Team Chartering",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/team-chartering",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-07T14:25:05.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-8237b3cd90f224e8",
-      "title": "STRIDE",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/stride",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-07T14:25:00.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-a30aab12057c6dcb",
-      "title": "Scale of Influence",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/scale-of-influence",
-      "source": "Ministry of Testing",
+      "id": "infoq-a79db40329ff0cce",
+      "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
+      "summary": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull ...",
+      "description": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model, is not well suited to an environment where AI agents generate, review, and iterate on code at high speed. By Sergio De Simone",
+      "url": "https://www.infoq.com/news/2026/11/entire-git-forge-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
       "category": "engineering",
-      "publishedAt": "2026-11-07T14:24:55.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
+      "publishedAt": "2026-11-08T11:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
       "reason": [
+        "agent",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-6e66dccee72e8e46",
-      "title": "Responsible Disclosure",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/responsible-disclosure",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-07T14:24:48.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-b1b9e972eb888d02",
-      "title": "Real User Monitoring (RUM)",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/real-user-monitoring-rum",
-      "source": "Ministry of Testing",
+      "id": "infoq-ce56f75893c74cae",
+      "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
+      "summary": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It...",
+      "description": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It sits beside the Google-managed VMware Engine and matches customer-operated offerings from AWS and Oracle, shifting lifecycle, patching and Broadcom licensing back to the customer.",
+      "url": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
       "category": "engineering",
-      "publishedAt": "2026-11-07T14:24:41.000Z",
-      "tags": [],
-      "score": 54,
+      "publishedAt": "2026-11-08T07:16:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 53,
       "priority": "MEDIUM",
       "reason": [
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-625e3c64679f7d53",
-      "title": "RAG Status",
+      "id": "infoq-0b2081a7493b512f",
+      "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+      "summary": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and ...",
+      "description": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
+      "url": "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-08T06:34:00.000Z",
+      "tags": [
+        "database",
+        "sql"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-ea883100378b7cc9",
+      "title": "Two-Layered Test Framework",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/rag-status",
+      "url": "https://www.ministryoftesting.com/glossary/two-layered-test-framework",
       "source": "Ministry of Testing",
       "category": "test-automation",
-      "publishedAt": "2026-11-07T14:24:36.000Z",
+      "publishedAt": "2026-11-08T02:43:55.000Z",
       "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
+      "score": 83,
+      "priority": "HIGH",
       "reason": [
+        "test framework",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-5426e9a28f32cbc9",
-      "title": "Quality Metrics",
+      "id": "ministry-of-testing-f513a0f1c989d98e",
+      "title": "Tool Comparison Matrix",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/quality-metrics",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-07T14:24:28.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-8881dceb5e0c8ed3",
-      "title": "Leading and Lagging Quality Indicators",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/leading-and-lagging-quality-indicators",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-07T14:24:16.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-71589b910d18aa57",
-      "title": "Knowing-Doing Gap",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/knowing-doing-gap",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-07T14:24:07.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-48202f52292a29eb",
-      "title": "Impact Framework",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/glossary/impact-framework",
+      "url": "https://www.ministryoftesting.com/glossary/tool-comparison-matrix",
       "source": "Ministry of Testing",
       "category": "tooling",
-      "publishedAt": "2026-11-07T14:23:57.000Z",
+      "publishedAt": "2026-11-08T02:43:48.000Z",
       "tags": [],
-      "score": 54,
+      "score": 53,
       "priority": "MEDIUM",
       "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-907b8b92b4dad4a1",
+      "title": "Tool Awareness",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/tool-awareness",
+      "source": "Ministry of Testing",
+      "category": "tooling",
+      "publishedAt": "2026-11-08T02:43:37.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-6443092cf9a2f549",
+      "title": "Test Automation Wrapper",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/test-automation-wrapper",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:43:15.000Z",
+      "tags": [
+        "automation"
+      ],
+      "score": 128,
+      "priority": "CRITICAL",
+      "reason": [
+        "test automation",
+        "automation",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-2ef47f00e40e32cf",
+      "title": "Team Personal Map",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/team-personal-map",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:43:07.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-ac787a7ced65be7a",
+      "title": "Systemic Consensing",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/systemic-consensing",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T02:42:58.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-80095c6dd3056976",
+      "title": "Shared Service Testing",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/glossary/shared-service-testing",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-08T02:42:51.000Z",
+      "tags": [
+        "testing"
+      ],
+      "score": 78,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
         "recent"
       ]
     }
