@@ -1,10 +1,11 @@
 import { renderHook, act } from '@testing-library/react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { useFiltering } from '@/hooks/useFiltering';
 
 jest.mock('next/navigation', () => ({
   useRouter: jest.fn(),
   useSearchParams: jest.fn(),
+  usePathname: jest.fn(),
 }));
 
 describe('useFiltering', () => {
@@ -14,6 +15,7 @@ describe('useFiltering', () => {
     jest.clearAllMocks();
     (useRouter as jest.Mock).mockReturnValue({ push });
     (useSearchParams as jest.Mock).mockReturnValue(new URLSearchParams());
+    (usePathname as jest.Mock).mockReturnValue('/weekly');
   });
 
   it('updateFilters pushes the new URL with scroll: false', () => {
@@ -23,7 +25,7 @@ describe('useFiltering', () => {
       result.current.updateFilters({ category: 'ai' });
     });
 
-    expect(push).toHaveBeenCalledWith(`${window.location.pathname}?category=ai`, { scroll: false });
+    expect(push).toHaveBeenCalledWith('/weekly?category=ai', { scroll: false });
   });
 
   it('clearFilters pushes the bare path with scroll: false', () => {
@@ -33,6 +35,6 @@ describe('useFiltering', () => {
       result.current.clearFilters();
     });
 
-    expect(push).toHaveBeenCalledWith(window.location.pathname, { scroll: false });
+    expect(push).toHaveBeenCalledWith('/weekly', { scroll: false });
   });
 });
