@@ -31,7 +31,8 @@ describe('PipelineEntry', () => {
         }}
       />,
     );
-    expect(screen.queryByText(summary)).not.toBeInTheDocument();
+    // Subtitle and description both start with the same text; only one may render.
+    expect(screen.queryAllByText(/Intro line/i)).toHaveLength(1);
     expect(screen.getByText(/More detail\.$/)).toBeInTheDocument();
   });
 
