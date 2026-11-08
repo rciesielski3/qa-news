@@ -73,7 +73,7 @@ describe('PipelineEntry', () => {
     };
     const { container } = render(<PipelineEntry article={articleWithSubtitle} />);
     const subtitleElement = screen.getByText('Test subtitle') as HTMLElement;
-    expect(subtitleElement.className).toMatch(/line-clamp-1/);
+    expect(subtitleElement.className).toMatch(/line-clamp-2/);
   });
 
   it('applies line-clamp-2 for summary', () => {
