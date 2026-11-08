@@ -9,9 +9,9 @@ interface PipelineEntryProps {
 
 export default function PipelineEntry({ article }: PipelineEntryProps) {
   const subtitle = getArticleSubtitle(article);
-  // Skip the subtitle when it would repeat the description below it.
-  const showSubtitle =
-    subtitle !== '' && subtitle.toLowerCase() !== article.description?.trim().toLowerCase();
+  // Skip the subtitle when the description below already contains it.
+  const description = article.description?.trim().toLowerCase() ?? '';
+  const showSubtitle = subtitle !== '' && !description.includes(subtitle.toLowerCase());
 
   return (
     <Link href={article.url} target="_blank" rel="noreferrer" className="no-underline hover:no-underline">

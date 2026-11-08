@@ -1,10 +1,10 @@
-// Normalizes article text into a short, consistent summary.
+// Text helpers for article summaries and subtitles in QA News.
 //
 // The RSS pipeline that feeds QA News (ChiefofStaff repo) does not always
-// supply a summary sized for the UI — some feed descriptions run well past
-// 150 characters. This util trims text down to 2-3 sentences within a
-// character budget so summaries render consistently across TopPickCard and
-// the article list, regardless of how long the upstream text was.
+// supply a summary sized for the UI, so some feed descriptions run well past
+// 150 characters. `generateSummary` trims text to 2-3 sentences within a
+// character budget. It is no longer used by app code (only its unit tests
+// call it); `getArticleSubtitle` is what the UI uses.
 
 /**
  * Generate a short summary (2-3 sentences, capped at `maxLength` characters)
@@ -39,15 +39,22 @@ export function generateSummary(content: string, maxLength: number = 150): strin
   return summary;
 }
 
+/** Only the first part of a summary is scanned for sentences (bounds regex work). */
+const SUBTITLE_SCAN_LIMIT = 1000;
+
+/** Abbreviations whose period does not end a sentence (lowercase, without the trailing dot). */
+const ABBREVIATIONS = new Set([
+  'dr', 'mr', 'mrs', 'ms', 'prof', 'sr', 'jr', 'st', 'vs', 'etc', 'inc', 'ltd', 'co', 'no',
+  'e.g', 'i.e',
+]);
+
+const LETTER_OR_DIGIT = /[\p{L}\p{N}]/u;
+
 /**
  * Subtitle shown under an article title: the first 1-2 sentences of the
  * article's own text. Prefers an explicit `subtitle`; otherwise derives one
  * from `summary`. Returns '' when there is nothing meaningful to show
- * (no text, too short, or the same text as the title).
- *
- * A sentence ends at [.!?]+ only when followed by whitespace or end of text,
- * so "U.S." and "v2.0" stay intact. Abbreviations followed by a space
- * (e.g. "Dr. Smith") still end a sentence; no abbreviation list is kept.
+ * (no text, too short, no letters or digits, or the same text as the title).
  */
 export function getArticleSubtitle(article: {
   title?: string;
@@ -57,21 +64,49 @@ export function getArticleSubtitle(article: {
   const explicit = article.subtitle?.trim();
   const derived = explicit || deriveSubtitle(article.summary);
 
-  if (!derived) return '';
+  if (!derived || !LETTER_OR_DIGIT.test(derived)) return '';
   if (article.title && derived.toLowerCase() === article.title.trim().toLowerCase()) return '';
   return derived;
 }
 
 function deriveSubtitle(summary: string | undefined): string {
-  // Drop trailing ellipsis left by upstream truncation before splitting.
-  const text = (summary ?? '').replace(/\.{3}\s*$|…\s*$/, '').trim();
+  // Cap the input before matching; long punctuation runs make matching expensive.
+  // Then drop trailing ellipsis left by upstream truncation.
+  const text = (summary ?? '').slice(0, SUBTITLE_SCAN_LIMIT).replace(/\.{3}\s*$|…\s*$/, '').trim();
   if (text.length < 10) return '';
 
-  const sentences = text.match(/[\s\S]+?(?:[.!?]+(?=\s|$)|$)/g) ?? [];
+  return splitSentences(text).slice(0, 2).join(' ');
+}
 
-  return sentences
-    .map((s) => s.trim())
-    .filter((s) => s.length > 0)
-    .slice(0, 2)
-    .join(' ');
+/**
+ * Split at [.!?]+ followed by whitespace or end of text, except for a period
+ * after an abbreviation or a single-letter initial ("U.S.", "J. Doe", "Dr. Smith").
+ * Uses lookahead only, no lookbehind, for Safari compatibility.
+ */
+function splitSentences(text: string): string[] {
+  const boundary = /[.!?]+(?=\s|$)/g;
+  const sentences: string[] = [];
+  let start = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = boundary.exec(text)) !== null) {
+    if (match[0] === '.' && isNonTerminalPeriod(text, match.index)) continue;
+    const end = match.index + match[0].length;
+    sentences.push(text.slice(start, end));
+    start = end;
+  }
+  if (start < text.length) sentences.push(text.slice(start));
+
+  return sentences.map((s) => s.trim()).filter((s) => s.length > 0);
+}
+
+function isNonTerminalPeriod(text: string, periodIndex: number): boolean {
+  // The word directly before the period, e.g. "U.S" or "Dr".
+  let start = periodIndex;
+  while (start > 0 && !/\s/.test(text[start - 1])) start--;
+  const word = text.slice(start, periodIndex).replace(/^[^A-Za-z0-9]+/, '');
+
+  // Single-letter initial ("J") or the last letter of "U.S" / "J.R".
+  if (/(^|[^A-Za-z])[A-Z]$/.test(word)) return true;
+  return ABBREVIATIONS.has(word.toLowerCase());
 }

@@ -79,8 +79,26 @@ describe('getArticleSubtitle', () => {
 
   it('does not split on periods inside abbreviations or version numbers', () => {
     expect(
-      getArticleSubtitle({ summary: 'Release v2.0 reached the U.S. market this week.' }),
-    ).toBe('Release v2.0 reached the U.S. market this week.');
+      getArticleSubtitle({
+        summary: 'Dr. Lee shipped v2.0 in the U.S. today. J. Doe agreed with e.g. the plan. Third one here.',
+      }),
+    ).toBe('Dr. Lee shipped v2.0 in the U.S. today. J. Doe agreed with e.g. the plan.');
+  });
+
+  it('keeps the second real sentence when the first contains an abbreviation', () => {
+    expect(
+      getArticleSubtitle({ summary: 'The U.S. team shipped v2.0 today. It was a large release. Third one here.' }),
+    ).toBe('The U.S. team shipped v2.0 today. It was a large release.');
+  });
+
+  it('does not return punctuation-only text', () => {
+    expect(getArticleSubtitle({ summary: '!!!!!!!!!!!!!!' })).toBe('');
+  });
+
+  it('handles a 100k-character run of dots quickly', () => {
+    const start = Date.now();
+    expect(getArticleSubtitle({ summary: '.'.repeat(100000) })).toBe('');
+    expect(Date.now() - start).toBeLessThan(500);
   });
 
   it('returns empty string when the subtitle equals the title (case-insensitive, trimmed)', () => {

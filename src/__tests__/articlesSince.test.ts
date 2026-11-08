@@ -18,11 +18,11 @@ function makeArticle(overrides: Partial<Article>): Article {
 
 describe('getArticlesSince', () => {
   it('keeps the raw summary text so abbreviations and versions are not split', () => {
-    const raw = 'The U.S. team shipped v2.0 today. It was a large release.';
+    const raw = 'The U.S. team shipped v2.0 today. It was a large release. Dr. Lee agreed.';
     const [result] = getArticlesSince([makeArticle({ summary: raw })], 7);
 
     expect(result.summary).toBe(raw);
-    expect(getArticleSubtitle(result)).toBe('The U.S. team shipped v2.0 today.');
+    expect(getArticleSubtitle(result)).toBe('The U.S. team shipped v2.0 today. It was a large release.');
   });
 
   it('does not substitute the title when summary is missing', () => {
