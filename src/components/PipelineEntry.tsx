@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Article } from '@/lib/types';
+import { getArticleSubtitle } from '@/lib/summarize';
 import { getCategoryLabel, categoryTextColorClass, categoryBgColorClass, categoryBgColorDarkInverted, categoryTextColorDarkInverted, getCategoryColor } from '@/lib/styles';
 
 interface PipelineEntryProps {
@@ -29,9 +30,9 @@ export default function PipelineEntry({ article }: PipelineEntryProps) {
           </div>
 
           {/* Subtitle */}
-          {article.subtitle && (
-            <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-1">
-              {article.subtitle}
+          {getArticleSubtitle(article) && (
+            <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-2">
+              {getArticleSubtitle(article)}
             </p>
           )}
 

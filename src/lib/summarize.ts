@@ -38,3 +38,25 @@ export function generateSummary(content: string, maxLength: number = 150): strin
 
   return summary;
 }
+
+/**
+ * Subtitle shown under an article title: the first 1-2 sentences of the
+ * article's own text. Prefers an explicit `subtitle`; otherwise derives one
+ * from `summary`. Returns '' when there is nothing meaningful to show
+ * (e.g. feed noise such as a bare "Comments").
+ */
+export function getArticleSubtitle(article: { subtitle?: string; summary?: string }): string {
+  if (article.subtitle?.trim()) return article.subtitle.trim();
+
+  // Drop trailing ellipsis left by upstream truncation before splitting.
+  const text = (article.summary ?? '').replace(/\.{3}\s*$|…\s*$/, '').trim();
+  if (text.length < 10) return '';
+
+  const sentences = text
+    .split(/(?<=[.!?])\s+/)
+    .map((s) => s.trim())
+    .filter((s) => s.length > 0)
+    .slice(0, 2);
+
+  return sentences.join(' ');
+}

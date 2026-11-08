@@ -156,7 +156,7 @@ describe('TopPickCard', () => {
     expect(subtitle).toHaveClass('line-clamp-2');
   });
 
-  it('truncates summary with line-clamp-3', () => {
+  it('truncates summary with line-clamp-2', () => {
     const article: Article = {
       id: 'test-1',
       title: 'Test Title',
@@ -170,6 +170,6 @@ describe('TopPickCard', () => {
     render(<TopPickCard article={article} rank={1} />);
 
     const summary = screen.getByText('Long summary text that spans multiple lines with lots of detail');
-    expect(summary).toHaveClass('line-clamp-3');
+    expect(summary).toHaveClass('line-clamp-2');
   });
 });
