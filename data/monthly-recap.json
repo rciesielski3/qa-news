@@ -6,6 +6,372 @@
       "themes": [],
       "items": [
         {
+          "id": "infoq-a79db40329ff0cce",
+          "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
+          "summary": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull ...",
+          "description": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model, is not well suited to an environment where AI agents generate, review, and iterate on code at high speed. By Sergio De Simone",
+          "url": "https://www.infoq.com/news/2026/11/entire-git-forge-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-08T11:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-ce56f75893c74cae",
+          "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
+          "summary": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It...",
+          "description": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It sits beside the Google-managed VMware Engine and matches customer-operated offerings from AWS and Oracle, shifting lifecycle, patching and Broadcom licensing back to the customer.",
+          "url": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-08T07:16:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-0b2081a7493b512f",
+          "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+          "summary": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and ...",
+          "description": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
+          "url": "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-08T06:34:00.000Z",
+          "tags": [
+            "database",
+            "sql"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-ea883100378b7cc9",
+          "title": "Two-Layered Test Framework",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/two-layered-test-framework",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:43:55.000Z",
+          "tags": [],
+          "score": 83,
+          "priority": "HIGH",
+          "reason": [
+            "test framework",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-f513a0f1c989d98e",
+          "title": "Tool Comparison Matrix",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/tool-comparison-matrix",
+          "source": "Ministry of Testing",
+          "category": "tooling",
+          "publishedAt": "2026-11-08T02:43:48.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-907b8b92b4dad4a1",
+          "title": "Tool Awareness",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/tool-awareness",
+          "source": "Ministry of Testing",
+          "category": "tooling",
+          "publishedAt": "2026-11-08T02:43:37.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-6443092cf9a2f549",
+          "title": "Test Automation Wrapper",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/test-automation-wrapper",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:43:15.000Z",
+          "tags": [
+            "automation"
+          ],
+          "score": 128,
+          "priority": "CRITICAL",
+          "reason": [
+            "test automation",
+            "automation",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-2ef47f00e40e32cf",
+          "title": "Team Personal Map",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/team-personal-map",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:43:07.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-ac787a7ced65be7a",
+          "title": "Systemic Consensing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/systemic-consensing",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:42:58.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-80095c6dd3056976",
+          "title": "Shared Service Testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/shared-service-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-08T02:42:51.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 78,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-ac21a0aacc399d01",
+          "title": "Servant Leadership",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/servant-leadership",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:42:41.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-4d3ff9294e486a9b",
+          "title": "SDK Mocking",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/sdk-mocking",
+          "source": "Ministry of Testing",
+          "category": "tooling",
+          "publishedAt": "2026-11-08T02:42:35.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-2df712aa10372d01",
+          "title": "Remote Test Execution",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/remote-test-execution",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:42:21.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-5cc9dad1bfad01c5",
+          "title": "Relay Node",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/relay-node",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:42:17.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-f4abbf3df530615f",
+          "title": "Power Interest Grid",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/power-interest-grid",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:42:11.000Z",
+          "tags": [
+            "rest"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-9aeb87679b2d635e",
+          "title": "Leadership Philosophy",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/leadership-philosophy",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:42:05.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-7f9985d4e71c335c",
+          "title": "Interpersonal Risk Taking",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/interpersonal-risk-taking",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:41:58.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-0718c83d1e49d153",
+          "title": "Implicit Goals",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/implicit-goals",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:41:53.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-790eeba78774319d",
+          "title": "Hexagonal Architecture",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/hexagonal-architecture",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-08T02:41:48.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-52e20c5398878c1e",
+          "title": "Fist to Five",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/fist-to-five",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:41:42.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-16135e096ec6aeb5",
+          "title": "First Follower",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/first-follower",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:41:36.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-3b8c649166876c0b",
+          "title": "Feedback Model",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/feedback-model",
+          "source": "Ministry of Testing",
+          "category": "ai",
+          "publishedAt": "2026-11-08T02:41:32.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-77238842c18628c0",
+          "title": "Dynamic Grid",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/glossary/dynamic-grid",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-08T02:41:26.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
           "id": "ministry-of-testing-91414d260e2c8aeb",
           "title": "Team Chartering",
           "summary": "",
@@ -34,376 +400,6 @@
           "reason": [
             "recent"
           ]
-        },
-        {
-          "id": "ministry-of-testing-a30aab12057c6dcb",
-          "title": "Scale of Influence",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/scale-of-influence",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-07T14:24:55.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-6e66dccee72e8e46",
-          "title": "Responsible Disclosure",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/responsible-disclosure",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-07T14:24:48.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-b1b9e972eb888d02",
-          "title": "Real User Monitoring (RUM)",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/real-user-monitoring-rum",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-07T14:24:41.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-625e3c64679f7d53",
-          "title": "RAG Status",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/rag-status",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-07T14:24:36.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-5426e9a28f32cbc9",
-          "title": "Quality Metrics",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/quality-metrics",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-07T14:24:28.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-8881dceb5e0c8ed3",
-          "title": "Leading and Lagging Quality Indicators",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/leading-and-lagging-quality-indicators",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-07T14:24:16.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-71589b910d18aa57",
-          "title": "Knowing-Doing Gap",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/knowing-doing-gap",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-07T14:24:07.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-48202f52292a29eb",
-          "title": "Impact Framework",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/impact-framework",
-          "source": "Ministry of Testing",
-          "category": "tooling",
-          "publishedAt": "2026-11-07T14:23:57.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-d5338a62937b1728",
-          "title": "Emotional Review",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/emotional-review",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-07T14:23:48.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-5ea6fa8961c22dfe",
-          "title": "Business Rule",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/business-rule",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-07T14:23:37.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-ed4597ed80e495ea",
-          "title": "Attack Vector",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/attack-vector",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-07T14:23:25.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-37b72881eb28d212",
-          "title": "Application Performance Monitoring (APM)",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/application-performance-monitoring-apm",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-07T14:23:18.000Z",
-          "tags": [
-            "performance"
-          ],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-593b3ba791ca4d10",
-          "title": "API Workflow Testing",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/api-workflow-testing",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-07T14:23:07.000Z",
-          "tags": [
-            "testing",
-            "api"
-          ],
-          "score": 79,
-          "priority": "HIGH",
-          "reason": [
-            "testing",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-ec4e129fda6902b6",
-          "title": "Abuse Case",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/abuse-case",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-07T14:22:58.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-08ac8479d10d4eac",
-          "title": "Testability Smell",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/testability-smell",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-07T12:39:56.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-602c1d98546e0895",
-          "title": "You Build It, You Run It",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/you-build-it-you-run-it",
-          "source": "Ministry of Testing",
-          "category": "tooling",
-          "publishedAt": "2026-11-07T12:35:53.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-a0b75e3c4a479c6c",
-          "title": "XY Problem",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/xy-problem",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-07T12:35:31.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-0a859ceea8901bcf",
-          "title": "Tester Experience",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/glossary/tester-experience",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-11-07T12:35:29.000Z",
-          "tags": [],
-          "score": 54,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "infoq-0083e326f79cd552",
-          "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
-          "summary": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To addres...",
-          "url": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "tooling",
-          "publishedAt": "2026-11-07T11:00:00.000Z",
-          "tags": [
-            "release",
-            "ai"
-          ],
-          "score": 74,
-          "priority": "HIGH",
-          "reason": [
-            "release",
-            "recent"
-          ]
-        },
-        {
-          "id": "infoq-9a9ecd1b7f0f2b85",
-          "title": "Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL",
-          "summary": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the gra...",
-          "url": "https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "tooling",
-          "publishedAt": "2026-11-07T09:49:00.000Z",
-          "tags": [
-            "sql",
-            "release"
-          ],
-          "score": 74,
-          "priority": "HIGH",
-          "reason": [
-            "release",
-            "recent"
-          ]
-        },
-        {
-          "id": "infoq-d9abc4fc12e937c0",
-          "title": "Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets",
-          "summary": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog ...",
-          "url": "https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "tooling",
-          "publishedAt": "2026-11-07T06:54:00.000Z",
-          "tags": [
-            "typescript",
-            "release",
-            "ai"
-          ],
-          "score": 88,
-          "priority": "HIGH",
-          "reason": [
-            "typescript",
-            "release",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-4748ad5900d7e31d",
-          "title": "The CI/CD pipeline of people",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/the-ci-cd-pipeline-of-people",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-06T14:57:12.000Z",
-          "tags": [
-            "ci/cd"
-          ],
-          "score": 69,
-          "priority": "MEDIUM",
-          "reason": [
-            "ci/cd",
-            "recent"
-          ]
-        },
-        {
-          "id": "infoq-55fb16a36f48a88c",
-          "title": "Yelp Combines Native and Server-Driven UI for Its AI Assistant",
-          "summary": "Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supp...",
-          "url": "https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "tooling",
-          "publishedAt": "2026-11-06T14:25:00.000Z",
-          "tags": [
-            "release",
-            "update",
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
         }
       ]
     },
@@ -519,6 +515,7 @@
           "id": "cloudflare-46377df52764d6fd",
           "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
           "summary": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempt...",
+          "description": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
           "url": "https://blog.cloudflare.com/emudhra-patching/",
           "source": "Cloudflare",
           "category": "engineering",
@@ -682,6 +679,7 @@
           "id": "cloudflare-4d4206ade98bad0a",
           "title": "Cloudflare services for private origins is now generally available",
           "summary": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+          "description": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
           "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
           "source": "Cloudflare",
           "category": "engineering",
