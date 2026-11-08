@@ -53,16 +53,19 @@ const LETTER_OR_DIGIT = /[\p{L}\p{N}]/u;
 /**
  * Subtitle shown under an article title: the first 1-2 sentences of the
  * article's own text. Prefers an explicit `subtitle`; otherwise derives one
- * from `summary`. Returns '' when there is nothing meaningful to show
+ * from `description`, and falls back to `summary` only when there is no
+ * description. Returns '' when there is nothing meaningful to show
  * (no text, too short, no letters or digits, or the same text as the title).
  */
 export function getArticleSubtitle(article: {
   title?: string;
   subtitle?: string;
+  description?: string;
   summary?: string;
 }): string {
   const explicit = article.subtitle?.trim();
-  const derived = explicit || deriveSubtitle(article.summary);
+  const hasDescription = (article.description?.trim() ?? '') !== '';
+  const derived = explicit || deriveSubtitle(hasDescription ? article.description : article.summary);
 
   if (!derived || !LETTER_OR_DIGIT.test(derived)) return '';
   if (article.title && derived.toLowerCase() === article.title.trim().toLowerCase()) return '';

@@ -49,6 +49,27 @@ describe('getArticleSubtitle', () => {
     ).toBe('Explicit subtitle.');
   });
 
+  it('derives the subtitle from description when subtitle is missing', () => {
+    expect(
+      getArticleSubtitle({ description: 'Description text here. Second sentence here. Third one.', summary: 'Summary text here.' }),
+    ).toBe('Description text here. Second sentence here.');
+  });
+
+  it('uses summary only when description is missing', () => {
+    expect(
+      getArticleSubtitle({ description: '   ', summary: 'Summary text that is long enough.' }),
+    ).toBe('Summary text that is long enough.');
+    expect(
+      getArticleSubtitle({ description: 'Hi.', summary: 'Summary text that is long enough.' }),
+    ).toBe('');
+  });
+
+  it('prefers an explicit subtitle over description', () => {
+    expect(
+      getArticleSubtitle({ subtitle: 'Explicit subtitle.', description: 'Description text here.' }),
+    ).toBe('Explicit subtitle.');
+  });
+
   it('falls through to summary when subtitle is whitespace only', () => {
     expect(
       getArticleSubtitle({ subtitle: '   ', summary: 'Summary text that is long enough.' }),

@@ -9,9 +9,19 @@ interface PipelineEntryProps {
 
 export default function PipelineEntry({ article }: PipelineEntryProps) {
   const subtitle = getArticleSubtitle(article);
+  // Compare whitespace-normalized, case-insensitive text so newlines or
+  // double spaces in the RSS description cannot hide a duplicate.
+  const norm = (text: string) => text.replace(/\s+/g, ' ').trim().toLowerCase();
+  const subtitleNorm = norm(subtitle);
+  const descriptionNorm = norm(article.description ?? '');
+  const subtitleIsDescription = subtitleNorm !== '' && subtitleNorm === descriptionNorm;
   // Skip the subtitle when the description below already contains it.
-  const description = article.description?.trim().toLowerCase() ?? '';
-  const showSubtitle = subtitle !== '' && !description.includes(subtitle.toLowerCase());
+  // Exception: when they are identical, the subtitle is the one shown.
+  const showSubtitle =
+    subtitleNorm !== '' &&
+    (subtitleIsDescription || !descriptionNorm.includes(subtitleNorm));
+  // The description repeats the subtitle only when it is the subtitle's source.
+  const showDescription = descriptionNorm !== '' && !subtitleIsDescription;
 
   return (
     <Link href={article.url} target="_blank" rel="noreferrer" className="no-underline hover:no-underline">
@@ -42,7 +52,7 @@ export default function PipelineEntry({ article }: PipelineEntryProps) {
           )}
 
           {/* Description */}
-          {article.description && (
+          {showDescription && (
             <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-2">
               {article.description}
             </p>
