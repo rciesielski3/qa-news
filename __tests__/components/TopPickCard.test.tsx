@@ -156,7 +156,7 @@ describe('TopPickCard', () => {
     expect(subtitle).toHaveClass('line-clamp-2');
   });
 
-  it('truncates summary with line-clamp-2', () => {
+  it('truncates summary-derived subtitle with line-clamp-2', () => {
     const article: Article = {
       id: 'test-1',
       title: 'Test Title',

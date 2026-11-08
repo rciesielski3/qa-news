@@ -8,6 +8,11 @@ interface PipelineEntryProps {
 }
 
 export default function PipelineEntry({ article }: PipelineEntryProps) {
+  const subtitle = getArticleSubtitle(article);
+  // Skip the subtitle when it would repeat the description below it.
+  const showSubtitle =
+    subtitle !== '' && subtitle.toLowerCase() !== article.description?.trim().toLowerCase();
+
   return (
     <Link href={article.url} target="_blank" rel="noreferrer" className="no-underline hover:no-underline">
       <li className="flex gap-3 py-3 items-center border-b border-ink-200 dark:border-ink-600 group hover:bg-ink-50 dark:hover:bg-ink-800 transition-colors cursor-pointer">
@@ -30,9 +35,9 @@ export default function PipelineEntry({ article }: PipelineEntryProps) {
           </div>
 
           {/* Subtitle */}
-          {getArticleSubtitle(article) && (
+          {showSubtitle && (
             <p className="text-xs text-ink-600 dark:text-paper-muted mb-2 line-clamp-2">
-              {getArticleSubtitle(article)}
+              {subtitle}
             </p>
           )}
 

@@ -8,6 +8,8 @@ interface TopPickCardProps {
 }
 
 export default function TopPickCard({ article, rank }: TopPickCardProps) {
+  const subtitle = getArticleSubtitle(article);
+
   return (
     <div className="flex flex-col justify-between min-h-[280px] rounded-lg border border-ink-200 bg-paper p-6 dark:bg-ink-800 dark:border-ink-600">
       {/* Header: rank, category, top pick badge */}
@@ -31,9 +33,9 @@ export default function TopPickCard({ article, rank }: TopPickCardProps) {
         </h3>
 
         {/* Subtitle: 1-2 sentences about the article */}
-        {getArticleSubtitle(article) && (
+        {subtitle && (
           <p className="text-sm leading-relaxed text-ink-600 mb-3 dark:text-paper-muted w-full line-clamp-2">
-            {getArticleSubtitle(article)}
+            {subtitle}
           </p>
         )}
       </div>

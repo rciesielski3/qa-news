@@ -43,20 +43,35 @@ export function generateSummary(content: string, maxLength: number = 150): strin
  * Subtitle shown under an article title: the first 1-2 sentences of the
  * article's own text. Prefers an explicit `subtitle`; otherwise derives one
  * from `summary`. Returns '' when there is nothing meaningful to show
- * (e.g. feed noise such as a bare "Comments").
+ * (no text, too short, or the same text as the title).
+ *
+ * A sentence ends at [.!?]+ only when followed by whitespace or end of text,
+ * so "U.S." and "v2.0" stay intact. Abbreviations followed by a space
+ * (e.g. "Dr. Smith") still end a sentence; no abbreviation list is kept.
  */
-export function getArticleSubtitle(article: { subtitle?: string; summary?: string }): string {
-  if (article.subtitle?.trim()) return article.subtitle.trim();
+export function getArticleSubtitle(article: {
+  title?: string;
+  subtitle?: string;
+  summary?: string;
+}): string {
+  const explicit = article.subtitle?.trim();
+  const derived = explicit || deriveSubtitle(article.summary);
 
+  if (!derived) return '';
+  if (article.title && derived.toLowerCase() === article.title.trim().toLowerCase()) return '';
+  return derived;
+}
+
+function deriveSubtitle(summary: string | undefined): string {
   // Drop trailing ellipsis left by upstream truncation before splitting.
-  const text = (article.summary ?? '').replace(/\.{3}\s*$|…\s*$/, '').trim();
+  const text = (summary ?? '').replace(/\.{3}\s*$|…\s*$/, '').trim();
   if (text.length < 10) return '';
 
-  const sentences = text
-    .split(/(?<=[.!?])\s+/)
+  const sentences = text.match(/[\s\S]+?(?:[.!?]+(?=\s|$)|$)/g) ?? [];
+
+  return sentences
     .map((s) => s.trim())
     .filter((s) => s.length > 0)
-    .slice(0, 2);
-
-  return sentences.join(' ');
+    .slice(0, 2)
+    .join(' ');
 }
