@@ -2,7 +2,7 @@
   "weeks": [
     {
       "weekOf": "2026-11-09",
-      "summary": "",
+      "summary": "26 stories. Top stories: Google Releases Gemini 4 Argon for Robotics Control, Simulation, and Policy Improvement; Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security; 100 Badges earned. Top categories: test-automation (12), qa-practice (6), ai (4).",
       "items": [
         {
           "id": "infoq-6c8c5f900bb2f403",
@@ -443,7 +443,7 @@
     },
     {
       "weekOf": "2026-11-02",
-      "summary": "",
+      "summary": "165 stories. Top stories: Entire's Git Forge Rethinks Git Collaboration for Coding Agents; Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal; Cloudflare Scales D1 Control Plane to Millions of Databases. Top categories: test-automation (61), engineering (41), ai (25).",
       "items": [
         {
           "id": "infoq-a79db40329ff0cce",
@@ -3197,7 +3197,7 @@
     },
     {
       "weekOf": "2026-10-26",
-      "summary": "",
+      "summary": "115 stories. Top stories: Quality leadership; Hotel booked for MoTaCon 2027; AI Literacy. Top categories: ai (38), test-automation (36), engineering (22).",
       "items": [
         {
           "id": "ministry-of-testing-9f38728287bf1c11",
@@ -5104,7 +5104,7 @@
     },
     {
       "weekOf": "2026-10-19",
-      "summary": "",
+      "summary": "120 stories. Top stories: PHP Patches Two Critical RCE Flaws That Were Already Under Attack; PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs; Scareware. Top categories: test-automation (40), ai (30), engineering (27).",
       "items": [
         {
           "id": "infoq-54e042a2f8293cf6",
@@ -7076,7 +7076,7 @@
     },
     {
       "weekOf": "2026-10-12",
-      "summary": "",
+      "summary": "115 stories. Top stories: Free Course: Steer AI Agents to Write Tests You Can Trust - Want to co-learn?; Joyful moment with Clare and Ady - MoTaCon 2026; Google Adopts Pyrefly for Faster, More Accurate Python Type Checking. Top categories: test-automation (35), ai (30), tooling (18).",
       "items": [
         {
           "id": "ministry-of-testing-04891d4df8ddd71d",
