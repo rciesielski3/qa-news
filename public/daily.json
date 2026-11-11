@@ -1,120 +1,89 @@
 {
-  "date": "2026-11-10",
-  "updatedAt": "2026-11-10T20:38:57.913Z",
+  "date": "2026-11-11",
+  "updatedAt": "2026-11-11T15:42:16.807Z",
   "articles": [
     {
-      "id": "martin-fowler-e05115fe9bc7cc15",
-      "title": "Fragments: November 10",
-      "summary": "It’s that time of the year when the November Thoughtworks Technology Radar appears. Again my colleagues have taken a sweep of the technologies that our teams have used in the field, and pulled togethe...",
-      "description": "It’s that time of the year when the November Thoughtworks Technology Radar appears. Again my colleagues have taken a sweep of the technologies that our teams have used in the field, and pulled together a summary of what’s popped up in the last six months. It’s been a busy half-year, one that again has been dominated by AI, and that’s reflected in the many AI blips on the radar.",
-      "url": "https://martinfowler.com/fragments/2026-11-10.html",
-      "source": "Martin Fowler",
-      "category": "ai",
-      "publishedAt": "2026-11-10T14:30:00.000Z",
-      "tags": [
-        "github",
-        "api",
-        "security",
-        "ai",
-        "llm"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "martin-fowler-409e41c640fc45ee",
-      "title": "Long-horizon agents and durable execution",
-      "summary": "Long-horizon agents can automate complex tasks that take days or weeks to complete and involve multiple exchanges with people and external systems. Many things can go wrong during this time, including...",
-      "description": "Long-horizon agents can automate complex tasks that take days or weeks to complete and involve multiple exchanges with people and external systems. Many things can go wrong during this time, including process crashes, network failures, and unanticipated real-world behavior.",
-      "url": "https://martinfowler.com/articles/durable-execution-agents.html",
-      "source": "Martin Fowler",
-      "category": "ai",
-      "publishedAt": "2026-11-10T14:10:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "openai-0f0020abcf733229",
-      "title": "Helping caregivers use AI in everyday life",
-      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "description": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "id": "openai-65b96c238445cded",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "description": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "source": "OpenAI",
-      "category": "tooling",
-      "publishedAt": "2026-11-10T12:00:00.000Z",
+      "category": "ai",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
       "tags": [
         "ai"
       ],
-      "score": 69,
-      "priority": "MEDIUM",
+      "score": 71,
+      "priority": "HIGH",
       "reason": [
         "openai",
         "recent"
       ]
     },
     {
-      "id": "infoq-e70c7e543efbd8a4",
-      "title": "Pinterest and Intel Take Open-Source Profiling to Internet Scale",
-      "summary": "Pinterest has partnered with Intel to extend gProfiler, an open-source continuous profiler that provides production performance visibility across an internet-scale fleet of infrastructure. By Craig Ri...",
-      "description": "Pinterest has partnered with Intel to extend gProfiler, an open-source continuous profiler that provides production performance visibility across an internet-scale fleet of infrastructure. By Craig Risi",
-      "url": "https://www.infoq.com/news/2026/11/pinterest-intel-profiling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-10T12:00:00.000Z",
+      "id": "martin-fowler-c84536febb2f56f5",
+      "title": "Tests as data: ensuring AI-generated code does what we want",
+      "summary": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against funct...",
+      "description": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors.",
+      "url": "https://martinfowler.com/articles/tests-as-data.html",
+      "source": "Martin Fowler",
+      "category": "test-automation",
+      "publishedAt": "2026-11-11T15:17:00.000Z",
       "tags": [
-        "rest",
-        "performance",
+        "testing",
         "ai"
       ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "storybook-releases-65e193fc0833e0cb",
-      "title": "v10.6.7",
-      "summary": "10.6.7 Community: Support prerelease community frameworks in init - #37203, thanks @Sidnioulz! MCP: Publish the composition schema a hosted Storybook actually serves - #37290, thanks @Sidnioulz!",
-      "description": "10.6.7 Community: Support prerelease community frameworks in init - #37203, thanks @Sidnioulz! MCP: Publish the composition schema a hosted Storybook actually serves - #37290, thanks @Sidnioulz!",
-      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.6.7",
-      "source": "Storybook Releases",
-      "category": "tooling",
-      "publishedAt": "2026-11-10T11:48:02.000Z",
-      "tags": [
-        "github",
-        "release"
-      ],
-      "score": 99,
+      "score": 134,
       "priority": "CRITICAL",
       "reason": [
-        "mcp",
-        "release",
+        "automated testing",
+        "testing",
+        "agent",
         "recent"
       ]
     },
     {
-      "id": "infoq-0675c40e97e8288d",
-      "title": "Presentation: Batch Intelligence at Scale: Cost-Efficient Multi-Agent LLM Workflows with Built-In Resilience",
-      "summary": "Aditya Mulik explains how Walmart Global Tech deployed multi-agent LLM workflows across 4,700 stores for nightly batch inventory forecasting. He discusses tackling production hurdles - schema violatio...",
-      "description": "Aditya Mulik explains how Walmart Global Tech deployed multi-agent LLM workflows across 4,700 stores for nightly batch inventory forecasting. He discusses tackling production hurdles - schema violations, cross-department data mismatches, and network drops - via MCP grounding and loop agents, while slashing cloud inference costs from $100k+ to $10k per month shifting from PTUs to pay-as-you-go.",
-      "url": "https://www.infoq.com/presentations/scaling-multi-agent-llm-batch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "ministry-of-testing-8e0b9a3b56405e75",
+      "title": "Quality engineering at the DVSA: rebuilding a test team for depth",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/quality-engineering-at-the-dvsa-rebuilding-a-test-team-for-depth",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-11T15:13:01.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-7eb4664df19f4d80",
+      "title": "How to test a hotfix by Hanisha Arora",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/how-to-test-a-hotfix-by-hanisha-arora",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-11T14:46:26.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-b390e6ff3a344433",
+      "title": "JioHotstar Benchmarks Knowledge Bases for AI Coding Agents",
+      "summary": "JioHotstar evaluated 6 approaches to code retrieval for AI coding agents using SWE, CodeScale Bench, and an internal question-answering harness. Structural search performed well on concrete tasks, whi...",
+      "description": "JioHotstar evaluated 6 approaches to code retrieval for AI coding agents using SWE, CodeScale Bench, and an internal question-answering harness. Structural search performed well on concrete tasks, while semantic retrieval helped with ambiguous requirements. The findings highlight trade-offs in accuracy, token use, and tool design, underscoring the need to match retrieval tools to task types.",
+      "url": "https://www.infoq.com/news/2026/11/jiohotstar-codingagent-retrieval/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "ai",
-      "publishedAt": "2026-11-10T11:00:00.000Z",
+      "publishedAt": "2026-11-11T14:28:00.000Z",
       "tags": [
-        "ai",
-        "llm"
+        "ai"
       ],
       "score": 74,
       "priority": "HIGH",
@@ -124,74 +93,97 @@
       ]
     },
     {
-      "id": "openai-69d4d9d74efa0162",
-      "title": "Closing the AI guidance gap in education",
-      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-      "description": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "source": "OpenAI",
+      "id": "cloudflare-b4c8fa961fce9edf",
+      "title": "Choosing QuePaxa, an unusual consensus algorithm",
+      "summary": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+      "description": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+      "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+      "source": "Cloudflare",
       "category": "ai",
-      "publishedAt": "2026-11-10T09:00:00.000Z",
+      "publishedAt": "2026-11-11T14:24:46.000Z",
       "tags": [
         "ai"
       ],
-      "score": 68,
+      "score": 64,
       "priority": "MEDIUM",
       "reason": [
-        "openai",
+        "cloudflare",
         "recent"
       ]
     },
     {
-      "id": "infoq-a72aececf12f6f5e",
-      "title": "Article: LLM Reliability Layers Under Test: Accuracy, Yield, and the Limits of Verification",
-      "summary": "Verification layers sort outputs by trust rather than fixing errors. In a benchmark of six reliability layers, voting and self-correction failed to recover accuracy - they only withheld doubtful recor...",
-      "description": "Verification layers sort outputs by trust rather than fixing errors. In a benchmark of six reliability layers, voting and self-correction failed to recover accuracy - they only withheld doubtful records. Production systems gain more reliability by replacing generation with deterministic lookups, tracking yield over raw accuracy, and resolving extraction bottlenecks before stacking checks.",
-      "url": "https://www.infoq.com/articles/llm-reliability-layers-limits-accuracy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-8d54d9b8da3150f7",
+      "title": "How LinkedIn, Netflix & DoorDash Run Agents, Evals & Inference in Production: QCon AI New York 2026",
+      "summary": "QCon AI New York has published its full program for December 15–16, 2026. Engineers from LinkedIn, Netflix, DoorDash, Figma, Pinterest, Honeycomb, Harvey, Google DeepMind and OpenAI describe AI system...",
+      "description": "QCon AI New York has published its full program for December 15–16, 2026. Engineers from LinkedIn, Netflix, DoorDash, Figma, Pinterest, Honeycomb, Harvey, Google DeepMind and OpenAI describe AI systems they run in production. Talks cover agent permissions and guardrails, eval loops, inference cost, AI code review, and team adoption. By Artenisa Chatziou",
+      "url": "https://www.infoq.com/news/2026/11/qcon-ai-newyork-2026-program/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-10T09:00:00.000Z",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-a57121d50fbee07e",
-      "title": "Google Cloud Spend Caps Reach General Availability with API and Monthly Resets",
-      "summary": "Google Cloud has made spend caps on Cloud Billing Budgets generally available, pausing new usage of a service in a project once a monthly budget is hit, without deleting resources. GA adds an API, est...",
-      "description": "Google Cloud has made spend caps on Cloud Billing Budgets generally available, pausing new usage of a service in a project once a monthly budget is hit, without deleting resources. GA adds an API, estimated live costs, and automatic monthly resets, but caps cover only the Gemini API, the Agent Platform, Cloud Run, and Cloud Run functions, and overages during enforcement delays are still billed.",
-      "url": "https://www.infoq.com/news/2026/11/google-cloud-spend-caps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-10T08:39:00.000Z",
-      "tags": [
-        "api",
-        "ai"
-      ],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-bf3a8d085e5df01c",
-      "title": "A proud moment for ACCELQ team: we’re now a Silver Partner on the Coupa App Marketplace!",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/a-proud-moment-for-accelq-team-we-re-now-a-silver-partner-on-the-coupa-app-marketplace",
-      "source": "Ministry of Testing",
       "category": "engineering",
-      "publishedAt": "2026-11-10T07:18:19.000Z",
-      "tags": [],
+      "publishedAt": "2026-11-11T11:00:00.000Z",
+      "tags": [
+        "rest",
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-a527b3da4180fb76",
+      "title": "Presentation: Uncorking Queueing Bottlenecks with OpenTelemetry",
+      "summary": "Oli Lane and Julian Wreford share how Gearset replaced guesswork in distributed asynchronous queues with OpenTelemetry tracing. They explain why traditional metrics fall short, how to implement user-c...",
+      "description": "Oli Lane and Julian Wreford share how Gearset replaced guesswork in distributed asynchronous queues with OpenTelemetry tracing. They explain why traditional metrics fall short, how to implement user-centric SLOs based on latency distributions, and share practical debugging tips to help senior developers, software architects, and engineering leaders improve system reliability and team culture.",
+      "url": "https://www.infoq.com/presentations/opentelemetry-queue-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-11T11:00:00.000Z",
+      "tags": [
+        "bug",
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-d751108161f9e785",
+      "title": "Article: The iOS Crash We Could Not Reproduce",
+      "summary": "This article describes the investigation to find the root cause of a production crash in a large-scale iOS consumer app that had no clean stack trace. The crash occurred intermittently and resisted ev...",
+      "description": "This article describes the investigation to find the root cause of a production crash in a large-scale iOS consumer app that had no clean stack trace. The crash occurred intermittently and resisted every local reproduction attempt. The final code change was small, but identifying the root cause required turning a vague SIGBUS report into a controlled set of experiments. By Abhishek Gang Deb",
+      "url": "https://www.infoq.com/articles/ios-crash-sigbus-debugging-experiment/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-11T09:00:00.000Z",
+      "tags": [
+        "bug"
+      ],
       "score": 53,
       "priority": "MEDIUM",
       "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-2cc65c81aff079f4",
+      "title": "The Next Evolution of Manual Testing: Introducing Katalon AI Test Runner (live launch, Nov 16)",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/the-next-evolution-of-manual-testing-introducing-katalon-ai-test-runner-live-launch-nov-16",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-11T08:57:30.000Z",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "score": 78,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
         "recent"
       ]
     }

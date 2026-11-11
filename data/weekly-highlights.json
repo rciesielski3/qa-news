@@ -2,8 +2,291 @@
   "weeks": [
     {
       "weekOf": "2026-11-09",
-      "summary": "46 stories. Top stories: Fragments: November 10; Long-horizon agents and durable execution; Helping caregivers use AI in everyday life. Top categories: engineering (15), ai (12), tooling (9).",
+      "summary": "63 stories. Top stories: Gilbert + Tobin rethinks the business of law with AI; Tests as data: ensuring AI-generated code does what we want; Quality engineering at the DVSA: rebuilding a test team for depth. Top categories: ai (19), engineering (17), tooling (12).",
       "items": [
+        {
+          "id": "openai-65b96c238445cded",
+          "title": "Gilbert + Tobin rethinks the business of law with AI",
+          "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+          "description": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+          "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 71,
+          "priority": "HIGH",
+          "reason": [
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "martin-fowler-c84536febb2f56f5",
+          "title": "Tests as data: ensuring AI-generated code does what we want",
+          "summary": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against funct...",
+          "description": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors.",
+          "url": "https://martinfowler.com/articles/tests-as-data.html",
+          "source": "Martin Fowler",
+          "category": "test-automation",
+          "publishedAt": "2026-11-11T15:17:00.000Z",
+          "tags": [
+            "testing",
+            "ai"
+          ],
+          "score": 134,
+          "priority": "CRITICAL",
+          "reason": [
+            "automated testing",
+            "testing",
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-8e0b9a3b56405e75",
+          "title": "Quality engineering at the DVSA: rebuilding a test team for depth",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/quality-engineering-at-the-dvsa-rebuilding-a-test-team-for-depth",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-11T15:13:01.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-7eb4664df19f4d80",
+          "title": "How to test a hotfix by Hanisha Arora",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/how-to-test-a-hotfix-by-hanisha-arora",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-11T14:46:26.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-b390e6ff3a344433",
+          "title": "JioHotstar Benchmarks Knowledge Bases for AI Coding Agents",
+          "summary": "JioHotstar evaluated 6 approaches to code retrieval for AI coding agents using SWE, CodeScale Bench, and an internal question-answering harness. Structural search performed well on concrete tasks, whi...",
+          "description": "JioHotstar evaluated 6 approaches to code retrieval for AI coding agents using SWE, CodeScale Bench, and an internal question-answering harness. Structural search performed well on concrete tasks, while semantic retrieval helped with ambiguous requirements. The findings highlight trade-offs in accuracy, token use, and tool design, underscoring the need to match retrieval tools to task types.",
+          "url": "https://www.infoq.com/news/2026/11/jiohotstar-codingagent-retrieval/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-11T14:28:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-b4c8fa961fce9edf",
+          "title": "Choosing QuePaxa, an unusual consensus algorithm",
+          "summary": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+          "description": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+          "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+          "source": "Cloudflare",
+          "category": "ai",
+          "publishedAt": "2026-11-11T14:24:46.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 64,
+          "priority": "MEDIUM",
+          "reason": [
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-8d54d9b8da3150f7",
+          "title": "How LinkedIn, Netflix & DoorDash Run Agents, Evals & Inference in Production: QCon AI New York 2026",
+          "summary": "QCon AI New York has published its full program for December 15–16, 2026. Engineers from LinkedIn, Netflix, DoorDash, Figma, Pinterest, Honeycomb, Harvey, Google DeepMind and OpenAI describe AI system...",
+          "description": "QCon AI New York has published its full program for December 15–16, 2026. Engineers from LinkedIn, Netflix, DoorDash, Figma, Pinterest, Honeycomb, Harvey, Google DeepMind and OpenAI describe AI systems they run in production. Talks cover agent permissions and guardrails, eval loops, inference cost, AI code review, and team adoption. By Artenisa Chatziou",
+          "url": "https://www.infoq.com/news/2026/11/qcon-ai-newyork-2026-program/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-11T11:00:00.000Z",
+          "tags": [
+            "rest",
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-a527b3da4180fb76",
+          "title": "Presentation: Uncorking Queueing Bottlenecks with OpenTelemetry",
+          "summary": "Oli Lane and Julian Wreford share how Gearset replaced guesswork in distributed asynchronous queues with OpenTelemetry tracing. They explain why traditional metrics fall short, how to implement user-c...",
+          "description": "Oli Lane and Julian Wreford share how Gearset replaced guesswork in distributed asynchronous queues with OpenTelemetry tracing. They explain why traditional metrics fall short, how to implement user-centric SLOs based on latency distributions, and share practical debugging tips to help senior developers, software architects, and engineering leaders improve system reliability and team culture.",
+          "url": "https://www.infoq.com/presentations/opentelemetry-queue-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-11T11:00:00.000Z",
+          "tags": [
+            "bug",
+            "ai"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-d751108161f9e785",
+          "title": "Article: The iOS Crash We Could Not Reproduce",
+          "summary": "This article describes the investigation to find the root cause of a production crash in a large-scale iOS consumer app that had no clean stack trace. The crash occurred intermittently and resisted ev...",
+          "description": "This article describes the investigation to find the root cause of a production crash in a large-scale iOS consumer app that had no clean stack trace. The crash occurred intermittently and resisted every local reproduction attempt. The final code change was small, but identifying the root cause required turning a vague SIGBUS report into a controlled set of experiments. By Abhishek Gang Deb",
+          "url": "https://www.infoq.com/articles/ios-crash-sigbus-debugging-experiment/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-11T09:00:00.000Z",
+          "tags": [
+            "bug"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-2cc65c81aff079f4",
+          "title": "The Next Evolution of Manual Testing: Introducing Katalon AI Test Runner (live launch, Nov 16)",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/the-next-evolution-of-manual-testing-introducing-katalon-ai-test-runner-live-launch-nov-16",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-11T08:57:30.000Z",
+          "tags": [
+            "testing",
+            "ai"
+          ],
+          "score": 78,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-29f16f5a409ae0a2",
+          "title": "Early access: help us put the AI Test Runner Agent on TestOps to the test",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/early-access-help-us-put-the-ai-test-runner-agent-on-testops-to-the-test",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-11T08:48:12.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 73,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-ac94b61a25ade5ed",
+          "title": "ChatGPT Plus for veterans and servicemembers",
+          "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "description": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-11T08:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 68,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "selenium-releases-a16d302add79223c",
+          "title": "Nightly",
+          "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
+          "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
+          "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+          "source": "Selenium Releases",
+          "category": "tooling",
+          "publishedAt": "2026-11-11T00:18:34.000Z",
+          "tags": [
+            "testing",
+            "github",
+            "api",
+            "release",
+            "update",
+            "ai"
+          ],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-57bee0befbad1b27",
+          "title": "Cloudflare Makes Basin Serverless Analytics Generally Available",
+          "summary": "Cloudflare has announced the general availability of Basin, a serverless analytics platform built on Apache Iceberg and R2 Object Storage. The managed service supports open data formats and integrates...",
+          "description": "Cloudflare has announced the general availability of Basin, a serverless analytics platform built on Apache Iceberg and R2 Object Storage. The managed service supports open data formats and integrates with tools such as DuckDB, Snowflake, and Apache Spark, with no data egress fees. By Renato Losio",
+          "url": "https://www.infoq.com/news/2026/11/cloudflare-basin-analytics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-10T19:14:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-07d08833d4c26a0d",
+          "title": "Google Finds that Technical Debt Can Derail Coding Agents Through \"Agent Distraction\"",
+          "summary": "In a recent article, Google senior staff software engineer Sam Saccone and senior staff data scientist Madhuri Garikapati highlighted the cost of agent distraction, where AI coding agents get derailed...",
+          "description": "In a recent article, Google senior staff software engineer Sam Saccone and senior staff data scientist Madhuri Garikapati highlighted the cost of agent distraction, where AI coding agents get derailed by stale technical debt, such as old TODO comments, obsolete bug references, and outdated specs, leading them to embark on unrequested \"side-quests\". By Sergio De Simone",
+          "url": "https://www.infoq.com/news/2026/11/google-agent-distraction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-10T18:00:00.000Z",
+          "tags": [
+            "bug",
+            "ai"
+          ],
+          "score": 71,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
         {
           "id": "martin-fowler-e05115fe9bc7cc15",
           "title": "Fragments: November 10",
@@ -20,11 +303,9 @@
             "ai",
             "llm"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "martin-fowler-409e41c640fc45ee",
@@ -38,11 +319,10 @@
           "tags": [
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -57,11 +337,10 @@
           "tags": [
             "ai"
           ],
-          "score": 69,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -78,11 +357,9 @@
             "performance",
             "ai"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "storybook-releases-65e193fc0833e0cb",
@@ -97,12 +374,11 @@
             "github",
             "release"
           ],
-          "score": 99,
+          "score": 95,
           "priority": "CRITICAL",
           "reason": [
             "mcp",
-            "release",
-            "recent"
+            "release"
           ]
         },
         {
@@ -118,11 +394,28 @@
             "ai",
             "llm"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
+          ]
+        },
+        {
+          "id": "openai-991ad48e8559b2fe",
+          "title": "Introducing Businesses in ChatGPT",
+          "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+          "description": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-10T10:00:00.000Z",
+          "tags": [
+            "rest"
+          ],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
           ]
         },
         {
@@ -137,11 +430,10 @@
           "tags": [
             "ai"
           ],
-          "score": 68,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -157,11 +449,9 @@
             "ai",
             "llm"
           ],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-a57121d50fbee07e",
@@ -176,10 +466,27 @@
             "api",
             "ai"
           ],
-          "score": 53,
+          "score": 50,
+          "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "openai-9092d5eb66f29547",
+          "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+          "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+          "description": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+          "url": "https://openai.com/index/singapore-airlines-travel-work",
+          "source": "OpenAI",
+          "category": "tooling",
+          "publishedAt": "2026-11-10T08:00:00.000Z",
+          "tags": [
+            "api",
+            "ai"
+          ],
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "recent"
+            "openai"
           ]
         },
         {
@@ -209,11 +516,10 @@
           "tags": [
             "ai"
           ],
-          "score": 68,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -229,33 +535,30 @@
             "typescript",
             "release"
           ],
-          "score": 88,
+          "score": 85,
           "priority": "HIGH",
           "reason": [
             "typescript",
-            "release",
-            "recent"
+            "release"
           ]
         },
         {
-          "id": "selenium-releases-a16d302add79223c",
-          "title": "Nightly",
-          "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
-          "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
-          "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-          "source": "Selenium Releases",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-10T00:16:43.000Z",
+          "id": "openai-37e4452e64c861cf",
+          "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+          "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+          "description": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+          "url": "https://openai.com/index/cogent-security",
+          "source": "OpenAI",
+          "category": "tooling",
+          "publishedAt": "2026-11-10T00:00:00.000Z",
           "tags": [
-            "testing",
-            "github",
-            "api",
             "ai"
           ],
-          "score": 52,
-          "priority": "MEDIUM",
+          "score": 85,
+          "priority": "HIGH",
           "reason": [
-            "recent"
+            "agent",
+            "openai"
           ]
         },
         {
@@ -277,12 +580,11 @@
             "feature",
             "ai"
           ],
-          "score": 86,
+          "score": 85,
           "priority": "HIGH",
           "reason": [
             "playwright",
-            "typescript",
-            "recent"
+            "typescript"
           ]
         },
         {
@@ -297,11 +599,10 @@
           "tags": [
             "ai"
           ],
-          "score": 66,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -317,11 +618,10 @@
             "release",
             "feature"
           ],
-          "score": 71,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "release",
-            "recent"
+            "release"
           ]
         },
         {
@@ -7762,7 +8062,7 @@
     },
     {
       "weekOf": "2026-10-12",
-      "summary": "120 stories. Top stories: v10.1.0; Free Course: Steer AI Agents to Write Tests You Can Trust - Want to co-learn?; Joyful moment with Clare and Ady - MoTaCon 2026. Top categories: engineering (36), ai (35), qa-practice (20).",
+      "summary": "111 stories. Top stories: v10.1.0; Free Course: Steer AI Agents to Write Tests You Can Trust - Want to co-learn?; Joyful moment with Clare and Ady - MoTaCon 2026. Top categories: ai (34), engineering (34), tooling (18).",
       "items": [
         {
           "id": "webdriverio-releases-e110663b1b53dcf9",
@@ -9582,158 +9882,6 @@
           "score": 50,
           "priority": "MEDIUM",
           "reason": []
-        },
-        {
-          "id": "infoq-8ea89b210035b8df",
-          "title": "Spotify More Than Doubled Monthly Code Changes as AI Accelerated Development",
-          "summary": "Spotify reports that AI-assisted development more than doubled monthly merged changes, prompting a review of quality and reliability controls across its engineering organization. The company describes...",
-          "url": "https://www.infoq.com/news/2026/10/spotify-ai-quality-controls/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "qa-practice",
-          "publishedAt": "2026-10-12T13:57:00.000Z",
-          "tags": [
-            "testing",
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-81d454d305e02d1c",
-          "title": "Ceci n'est pas une bug",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/ceci-n-est-pas-une-bug",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-10-12T12:37:14.000Z",
-          "tags": [
-            "bug"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "grafana-k6-releases-386e8f1cfab35054",
-          "title": "v1.8.2",
-          "summary": "k6 v1.8.2 is here! This patch release includes: Security updates for gRPC, golang.org/x/net, golang.org/x/crypto, OpenTelemetry, and the Go toolchain Security updates #6294 Updates the Go toolchain di...",
-          "description": "k6 v1.8.2 is here! This patch release includes: Security updates for gRPC, golang.org/x/net, golang.org/x/crypto, OpenTelemetry, and the Go toolchain Security updates #6294 Updates the Go toolchain directive to go1.25.13. #6364, #6365, #6386 and #6387 Update google.golang.org/grpc to v1.83.2. #6352 Updates golang.org/x/crypto to v0.56.0.",
-          "url": "https://github.com/grafana/k6/releases/tag/v1.8.2",
-          "source": "Grafana k6 Releases",
-          "category": "qa-practice",
-          "publishedAt": "2026-10-12T12:32:28.000Z",
-          "tags": [
-            "github",
-            "security",
-            "release",
-            "update",
-            "ai"
-          ],
-          "score": 110,
-          "priority": "CRITICAL",
-          "reason": [
-            "security",
-            "release"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-c9e40f46567158ce",
-          "title": "API-immunity?",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/api-immunity",
-          "source": "Ministry of Testing",
-          "category": "tooling",
-          "publishedAt": "2026-10-12T11:36:30.000Z",
-          "tags": [
-            "api"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-3872a82c6c3f4853",
-          "title": "Article: When Should You Use Liquid Clustering? Benchmarking Lakehouse Layout Strategies",
-          "summary": "Physical data layout is one of the most consequential decisions in lakehouse engineering. The author compares Liquid Clustering, ZOrdering, and partitioning across four workload types on Delta Lake, u...",
-          "url": "https://www.infoq.com/articles/liquid-clustering-lakehouse-layout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "engineering",
-          "publishedAt": "2026-10-12T11:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-4c5b50d3e0c72141",
-          "title": "Podcast: What Does It Really Mean To Program With AI: A Conversation with Joy Ebertz",
-          "summary": "In this podcast, Michael Stiefel spoke to Joy Ebertz about how the use of artificial intelligence is changing the way architects and developers do their jobs. Focusing on the long term success of the ...",
-          "url": "https://www.infoq.com/podcasts/what-really-mean-program-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "ai",
-          "publishedAt": "2026-10-12T11:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-fc7421755984b0fa",
-          "title": "Presentation: You Can't Trust Your AI Bill. And Neither Can I",
-          "summary": "Erik Peterson discusses why AI spend is eclipsing cloud bills, triggering a major software engineering cost crisis. He explains tokenmaxxing, unit economics, forced developer promotions, and why fully...",
-          "url": "https://www.infoq.com/presentations/ai-cloud-cost-economics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "engineering",
-          "publishedAt": "2026-10-12T11:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-820a726b5e03d8d5",
-          "title": "React 19.3: Adds a browser() API, Giving Client-Only Rendering a First-Class Name",
-          "summary": "React 19.3 was released on September 9, introducing several features including the react-dom browser() API. This API allows components to opt out of server-side rendering, addressing issues with compo...",
-          "url": "https://www.infoq.com/news/2026/10/react-19-3-browser-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "tooling",
-          "publishedAt": "2026-10-12T10:52:00.000Z",
-          "tags": [
-            "react",
-            "api",
-            "release",
-            "feature"
-          ],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "release"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-d058f830b20fb67d",
-          "title": "Stability is a system, not a metric: lessons from scaling mobile test automation",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/stability-is-a-system-not-a-metric-lessons-from-scaling-mobile-test-automation",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-12T10:37:07.000Z",
-          "tags": [
-            "automation"
-          ],
-          "score": 125,
-          "priority": "CRITICAL",
-          "reason": [
-            "test automation",
-            "automation"
-          ]
         }
       ]
     }
