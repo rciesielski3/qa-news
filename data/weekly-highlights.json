@@ -2,7 +2,7 @@
   "weeks": [
     {
       "weekOf": "2026-11-09",
-      "summary": "63 stories. Top stories: Gilbert + Tobin rethinks the business of law with AI; Tests as data: ensuring AI-generated code does what we want; Quality engineering at the DVSA: rebuilding a test team for depth. Top categories: ai (19), engineering (17), tooling (12).",
+      "summary": "63 stories. Latest: Gilbert + Tobin rethinks the business of law with AI; Tests as data: ensuring AI-generated code does what we want; Quality engineering at the DVSA: rebuilding a test team for depth. Top categories: ai (19), engineering (17), tooling (12).",
       "items": [
         {
           "id": "openai-65b96c238445cded",
@@ -1136,7 +1136,7 @@
     },
     {
       "weekOf": "2026-11-02",
-      "summary": "171 stories. Top stories: Entire's Git Forge Rethinks Git Collaboration for Coding Agents; Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal; Cloudflare Scales D1 Control Plane to Millions of Databases. Top categories: engineering (86), ai (28), qa-practice (24).",
+      "summary": "171 stories. Latest: Entire's Git Forge Rethinks Git Collaboration for Coding Agents; Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal; Cloudflare Scales D1 Control Plane to Millions of Databases. Top categories: engineering (86), ai (28), qa-practice (24).",
       "items": [
         {
           "id": "infoq-a79db40329ff0cce",
@@ -4015,7 +4015,7 @@
     },
     {
       "weekOf": "2026-10-26",
-      "summary": "119 stories. Top stories: Quality leadership; Hotel booked for MoTaCon 2027; AI Literacy. Top categories: ai (46), engineering (41), qa-practice (15).",
+      "summary": "119 stories. Latest: Quality leadership; Hotel booked for MoTaCon 2027; AI Literacy. Top categories: ai (46), engineering (41), qa-practice (15).",
       "items": [
         {
           "id": "ministry-of-testing-9f38728287bf1c11",
@@ -6004,7 +6004,7 @@
     },
     {
       "weekOf": "2026-10-19",
-      "summary": "124 stories. Top stories: PHP Patches Two Critical RCE Flaws That Were Already Under Attack; PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs; Scareware. Top categories: engineering (43), ai (42), tooling (17).",
+      "summary": "124 stories. Latest: PHP Patches Two Critical RCE Flaws That Were Already Under Attack; PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs; Scareware. Top categories: engineering (43), ai (42), tooling (17).",
       "items": [
         {
           "id": "infoq-54e042a2f8293cf6",
@@ -8062,7 +8062,7 @@
     },
     {
       "weekOf": "2026-10-12",
-      "summary": "111 stories. Top stories: v10.1.0; Free Course: Steer AI Agents to Write Tests You Can Trust - Want to co-learn?; Joyful moment with Clare and Ady - MoTaCon 2026. Top categories: ai (34), engineering (34), tooling (18).",
+      "summary": "111 stories. Latest: v10.1.0; Free Course: Steer AI Agents to Write Tests You Can Trust - Want to co-learn?; Joyful moment with Clare and Ady - MoTaCon 2026. Top categories: ai (34), engineering (34), tooling (18).",
       "items": [
         {
           "id": "webdriverio-releases-e110663b1b53dcf9",
