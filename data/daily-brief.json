@@ -1,152 +1,143 @@
 {
-  "date": "2026-11-11",
-  "updatedAt": "2026-11-11T16:49:40.400Z",
+  "date": "2026-11-12",
+  "updatedAt": "2026-11-12T16:25:41.858Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
-  "lede": "Daily brief highlighting news topics",
+  "lede": "Daily brief highlighting news and release topics",
   "items": [
     {
-      "id": "openai-65b96c238445cded",
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "description": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "source": "OpenAI",
+      "id": "ministry-of-testing-52811f8d7f7d3d9a",
+      "title": "Learning about how to talk to AI - AI Chapter Event",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/learning-about-how-to-talk-to-ai-ai-chapter-event",
+      "source": "Ministry of Testing",
       "category": "ai",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "publishedAt": "2026-11-12T16:11:26.000Z",
       "tags": [
         "ai"
       ],
-      "score": 71,
-      "priority": "HIGH",
+      "score": 54,
+      "priority": "MEDIUM",
       "reason": [
-        "openai",
         "recent"
       ]
     },
     {
-      "id": "martin-fowler-c84536febb2f56f5",
-      "title": "Tests as data: ensuring AI-generated code does what we want",
-      "summary": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against funct...",
-      "description": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors.",
-      "url": "https://martinfowler.com/articles/tests-as-data.html",
-      "source": "Martin Fowler",
-      "category": "test-automation",
-      "publishedAt": "2026-11-11T15:17:00.000Z",
+      "id": "ministry-of-testing-0f31ee4f2213a27a",
+      "title": "Hello Security World",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/hello-security-world",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-12T15:45:52.000Z",
       "tags": [
-        "testing",
-        "ai"
+        "security"
       ],
-      "score": 134,
+      "score": 94,
       "priority": "CRITICAL",
       "reason": [
-        "automated testing",
+        "security",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-34df7050ff0afc14",
+      "title": "AI quality orchestration: how testing and quality engineering teams coordinate people, agents, evidence and decisions",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/insights/ai-quality-orchestration-how-testing-and-quality-engineering-teams-coordinate-people-agents-evidence-and-decisions",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-12T15:44:00.000Z",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "score": 99,
+      "priority": "CRITICAL",
+      "reason": [
         "testing",
         "agent",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-8e0b9a3b56405e75",
-      "title": "Quality engineering at the DVSA: rebuilding a test team for depth",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/quality-engineering-at-the-dvsa-rebuilding-a-test-team-for-depth",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-11T15:13:01.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-7eb4664df19f4d80",
-      "title": "How to test a hotfix by Hanisha Arora",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/how-to-test-a-hotfix-by-hanisha-arora",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-11T14:46:26.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-b390e6ff3a344433",
-      "title": "JioHotstar Benchmarks Knowledge Bases for AI Coding Agents",
-      "summary": "JioHotstar evaluated 6 approaches to code retrieval for AI coding agents using SWE, CodeScale Bench, and an internal question-answering harness. Structural search performed well on concrete tasks, whi...",
-      "description": "JioHotstar evaluated 6 approaches to code retrieval for AI coding agents using SWE, CodeScale Bench, and an internal question-answering harness. Structural search performed well on concrete tasks, while semantic retrieval helped with ambiguous requirements. The findings highlight trade-offs in accuracy, token use, and tool design, underscoring the need to match retrieval tools to task types.",
-      "url": "https://www.infoq.com/news/2026/11/jiohotstar-codingagent-retrieval/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
+      "id": "martin-fowler-a339a892849fa448",
+      "title": "Bliki: Generated Glossary",
+      "summary": "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to ...",
+      "description": "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to an LLM because they aren't in its training set, making it harder for the LLM to be effective when doing tasks in that domain.",
+      "url": "https://martinfowler.com/bliki/GeneratedGlossary.html",
+      "source": "Martin Fowler",
       "category": "ai",
-      "publishedAt": "2026-11-11T14:28:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "cloudflare-b4c8fa961fce9edf",
-      "title": "Choosing QuePaxa, an unusual consensus algorithm",
-      "summary": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
-      "description": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
-      "url": "https://blog.cloudflare.com/choosing-quepaxa/",
-      "source": "Cloudflare",
-      "category": "ai",
-      "publishedAt": "2026-11-11T14:24:46.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 64,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-8d54d9b8da3150f7",
-      "title": "How LinkedIn, Netflix & DoorDash Run Agents, Evals & Inference in Production: QCon AI New York 2026",
-      "summary": "QCon AI New York has published its full program for December 15–16, 2026. Engineers from LinkedIn, Netflix, DoorDash, Figma, Pinterest, Honeycomb, Harvey, Google DeepMind and OpenAI describe AI system...",
-      "description": "QCon AI New York has published its full program for December 15–16, 2026. Engineers from LinkedIn, Netflix, DoorDash, Figma, Pinterest, Honeycomb, Harvey, Google DeepMind and OpenAI describe AI systems they run in production. Talks cover agent permissions and guardrails, eval loops, inference cost, AI code review, and team adoption. By Artenisa Chatziou",
-      "url": "https://www.infoq.com/news/2026/11/qcon-ai-newyork-2026-program/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-11T11:00:00.000Z",
+      "publishedAt": "2026-11-12T14:15:00.000Z",
       "tags": [
         "rest",
-        "ai"
+        "ai",
+        "llm"
       ],
-      "score": 74,
-      "priority": "HIGH",
+      "score": 54,
+      "priority": "MEDIUM",
       "reason": [
-        "agent",
         "recent"
       ]
     },
     {
-      "id": "infoq-a527b3da4180fb76",
-      "title": "Presentation: Uncorking Queueing Bottlenecks with OpenTelemetry",
-      "summary": "Oli Lane and Julian Wreford share how Gearset replaced guesswork in distributed asynchronous queues with OpenTelemetry tracing. They explain why traditional metrics fall short, how to implement user-c...",
-      "description": "Oli Lane and Julian Wreford share how Gearset replaced guesswork in distributed asynchronous queues with OpenTelemetry tracing. They explain why traditional metrics fall short, how to implement user-centric SLOs based on latency distributions, and share practical debugging tips to help senior developers, software architects, and engineering leaders improve system reliability and team culture.",
-      "url": "https://www.infoq.com/presentations/opentelemetry-queue-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
+      "id": "grafana-k6-releases-a2b11e5bf338e8fd",
+      "title": "v2.4.0",
+      "summary": "k6 v2.4.0 is here 🎉! This release includes: Experimental tracing of test runs, scenarios, VUs, and iterations. Ed25519 signatures and X25519 key agreement in WebCrypto. Credential-header redaction fo...",
+      "description": "k6 v2.4.0 is here 🎉! This release includes: Experimental tracing of test runs, scenarios, VUs, and iterations. Ed25519 signatures and X25519 key agreement in WebCrypto. Credential-header redaction for HTTP and gRPC debug logs. Structured gRPC error details. Fixes for browser selectors, JavaScript memory leaks, and asynchronous error reporting.",
+      "url": "https://github.com/grafana/k6/releases/tag/v2.4.0",
+      "source": "Grafana k6 Releases",
       "category": "qa-practice",
-      "publishedAt": "2026-11-11T11:00:00.000Z",
+      "publishedAt": "2026-11-12T13:27:33.000Z",
       "tags": [
+        "javascript",
+        "github",
+        "docker",
+        "api",
+        "security",
+        "release",
+        "update",
+        "feature",
         "bug",
         "ai"
       ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-4bfcb303e084cabe",
+      "title": "How do we scale testing?",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/how-do-we-scale-testing",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-12T12:10:05.000Z",
+      "tags": [
+        "testing"
+      ],
+      "score": 79,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-157413b864e99e0d",
+      "title": "Technical Debt is Social; it is the Price of Learning by Doing",
+      "summary": "Technical debt is not necessarily a sign of poor engineering. It can be the price of learning through software in use. As AI accelerates code production beyond our capacity to understand code and cont...",
+      "description": "Technical debt is not necessarily a sign of poor engineering. It can be the price of learning through software in use. As AI accelerates code production beyond our capacity to understand code and context, technical debt increasingly becomes a sociotechnical challenge. By Ben Linders",
+      "url": "https://www.infoq.com/news/2026/11/tech-debt-learning-doing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-12T11:05:00.000Z",
+      "tags": [
+        "ai"
+      ],
       "score": 54,
       "priority": "MEDIUM",
       "reason": [
@@ -154,39 +145,58 @@
       ]
     },
     {
-      "id": "infoq-d751108161f9e785",
-      "title": "Article: The iOS Crash We Could Not Reproduce",
-      "summary": "This article describes the investigation to find the root cause of a production crash in a large-scale iOS consumer app that had no clean stack trace. The crash occurred intermittently and resisted ev...",
-      "description": "This article describes the investigation to find the root cause of a production crash in a large-scale iOS consumer app that had no clean stack trace. The crash occurred intermittently and resisted every local reproduction attempt. The final code change was small, but identifying the root cause required turning a vague SIGBUS report into a controlled set of experiments. By Abhishek Gang Deb",
-      "url": "https://www.infoq.com/articles/ios-crash-sigbus-debugging-experiment/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-175e8503d370127a",
+      "title": "Presentation: Opening the Black Box: Critical Explainability for AI Agent Tool Selection with Kiji Inspector",
+      "summary": "Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial chain-of-t...",
+      "description": "Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial chain-of-thought narratives, he discusses causal ablation, layer activation extraction via patched vLLM engines, and production monitoring workflows for software architects and senior engineering leaders.",
+      "url": "https://www.infoq.com/presentations/explainable-ai-llm-agent-decisions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-11T09:00:00.000Z",
+      "category": "ai",
+      "publishedAt": "2026-11-12T11:00:00.000Z",
       "tags": [
-        "bug"
+        "ai",
+        "llm"
       ],
-      "score": 53,
-      "priority": "MEDIUM",
+      "score": 74,
+      "priority": "HIGH",
       "reason": [
+        "agent",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-2cc65c81aff079f4",
-      "title": "The Next Evolution of Manual Testing: Introducing Katalon AI Test Runner (live launch, Nov 16)",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/the-next-evolution-of-manual-testing-introducing-katalon-ai-test-runner-live-launch-nov-16",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-11T08:57:30.000Z",
+      "id": "infoq-6f56437957c345b6",
+      "title": "Azure Logic Apps Standard Gets a Local CLI in Preview",
+      "summary": "Microsoft has released a public preview of the logicapp extension for the Azure CLI, adding local project creation, workflow authoring, a runtime lifecycle, connector management, run inspection, and t...",
+      "description": "Microsoft has released a public preview of the logicapp extension for the Azure CLI, adding local project creation, workflow authoring, a runtime lifecycle, connector management, run inspection, and test scaffolding for Logic Apps Standard, work that previously required the VS Code extension. The product team pitches the terminal surface as determinism for AI-assisted development.",
+      "url": "https://www.infoq.com/news/2026/11/logic-apps-local-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-12T10:23:00.000Z",
       "tags": [
-        "testing",
+        "release",
         "ai"
       ],
-      "score": 78,
+      "score": 73,
       "priority": "HIGH",
       "reason": [
-        "testing",
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-fef010d5cb1fdbac",
+      "title": "Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs",
+      "summary": "Google Cloud has open-sourced TPU Sync, a native C++ library that moves KV cache blocks and model weights between TPU HBM, host DRAM, shared storage, and the data center network. By Daniel Dominguez",
+      "description": "Google Cloud has open-sourced TPU Sync, a native C++ library that moves KV cache blocks and model weights between TPU HBM, host DRAM, shared storage, and the data center network. By Daniel Dominguez",
+      "url": "https://www.infoq.com/news/2026/11/google-tpu-sync/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-12T10:06:00.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
         "recent"
       ]
     }
