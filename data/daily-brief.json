@@ -1,19 +1,20 @@
 {
-  "date": "2026-11-12",
-  "updatedAt": "2026-11-12T16:25:41.858Z",
+  "date": "2026-11-13",
+  "updatedAt": "2026-11-13T15:47:05.444Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news and release topics",
   "items": [
     {
-      "id": "ministry-of-testing-52811f8d7f7d3d9a",
-      "title": "Learning about how to talk to AI - AI Chapter Event",
+      "id": "ministry-of-testing-926946a9909ebf67",
+      "title": "AI-Powered Performance Reviews",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/learning-about-how-to-talk-to-ai-ai-chapter-event",
+      "url": "https://www.ministryoftesting.com/moments/ai-powered-performance-reviews",
       "source": "Ministry of Testing",
-      "category": "ai",
-      "publishedAt": "2026-11-12T16:11:26.000Z",
+      "category": "engineering",
+      "publishedAt": "2026-11-13T15:40:42.000Z",
       "tags": [
+        "performance",
         "ai"
       ],
       "score": 54,
@@ -23,121 +24,146 @@
       ]
     },
     {
-      "id": "ministry-of-testing-0f31ee4f2213a27a",
-      "title": "Hello Security World",
+      "id": "ministry-of-testing-7293405de78ee934",
+      "title": "Behind the scenes at MoT: strong women, small humans, and men with no ego",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/hello-security-world",
+      "url": "https://www.ministryoftesting.com/moments/behind-the-scenes-at-mot-strong-women-small-humans-and-men-with-no-ego",
       "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-12T15:45:52.000Z",
-      "tags": [
-        "security"
-      ],
-      "score": 94,
-      "priority": "CRITICAL",
+      "category": "engineering",
+      "publishedAt": "2026-11-13T14:07:50.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
       "reason": [
-        "security",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-34df7050ff0afc14",
-      "title": "AI quality orchestration: how testing and quality engineering teams coordinate people, agents, evidence and decisions",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/insights/ai-quality-orchestration-how-testing-and-quality-engineering-teams-coordinate-people-agents-evidence-and-decisions",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-12T15:44:00.000Z",
+      "id": "cloudflare-40ec4dab142d1c85",
+      "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+      "summary": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+      "description": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+      "url": "https://blog.cloudflare.com/spend-management/",
+      "source": "Cloudflare",
+      "category": "engineering",
+      "publishedAt": "2026-11-13T14:00:00.000Z",
+      "tags": [],
+      "score": 64,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-9a6aeb1d6b898270",
+      "title": "Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures",
+      "summary": "Google has open-sourced AQuA, a reference implementation that analyzes production AI agent sessions, verifies recurring failure patterns, and investigates root causes against deployed source snapshots...",
+      "description": "Google has open-sourced AQuA, a reference implementation that analyzes production AI agent sessions, verifies recurring failure patterns, and investigates root causes against deployed source snapshots. In a 32-session replay, developers reduced seat selection bypasses from 15 sessions to two and dietary preference omissions from seven to zero after prompt changes. By Leela Kumili",
+      "url": "https://www.infoq.com/news/2026/11/google-ambient-agent-prod/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-13T13:53:00.000Z",
       "tags": [
-        "testing",
         "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "grafana-k6-releases-3e2b8bb9f1a8876e",
+      "title": "v1.8.3",
+      "summary": "k6 v1.8.3 is here! This patch release includes: A browser fix for clicking a missing element handle Security updates for golang.org/x/net and github.com/klauspost/compress Updates to the JavaScript ru...",
+      "description": "k6 v1.8.3 is here! This patch release includes: A browser fix for clicking a missing element handle Security updates for golang.org/x/net and github.com/klauspost/compress Updates to the JavaScript runtime and other dependencies Security updates #6667 Updates golang.org/x/net to v0.62.0 and github.com/klauspost/compress to v1.20.4 to address known vulnerabilities.",
+      "url": "https://github.com/grafana/k6/releases/tag/v1.8.3",
+      "source": "Grafana k6 Releases",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-13T13:35:31.000Z",
+      "tags": [
+        "javascript",
+        "github",
+        "security",
+        "release",
+        "update",
+        "bug",
+        "ai"
+      ],
+      "score": 114,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-16238dceeef03051",
+      "title": "Netflix Turns Operational Data Into a Knowledge Graph for AI-Driven Observability",
+      "summary": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
+      "description": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
+      "url": "https://www.infoq.com/news/2026/11/netflix-ai-driven-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-50c89cf3eb3f6672",
+      "title": "Roundtable: What is like to be a solo-quality-enforcer?",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/roundtable-what-is-like-to-be-a-solo-quality-enforcer",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-13T11:59:42.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-a0a409a2fedce2bf",
+      "title": "Your Guide to End-to-End Automation That Supports Release Decisions",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/your-guide-to-end-to-end-automation-that-supports-release-decisions",
+      "source": "Ministry of Testing",
+      "category": "tooling",
+      "publishedAt": "2026-11-13T11:54:41.000Z",
+      "tags": [
+        "automation",
+        "release"
       ],
       "score": 99,
       "priority": "CRITICAL",
       "reason": [
-        "testing",
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "martin-fowler-a339a892849fa448",
-      "title": "Bliki: Generated Glossary",
-      "summary": "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to ...",
-      "description": "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to an LLM because they aren't in its training set, making it harder for the LLM to be effective when doing tasks in that domain.",
-      "url": "https://martinfowler.com/bliki/GeneratedGlossary.html",
-      "source": "Martin Fowler",
-      "category": "ai",
-      "publishedAt": "2026-11-12T14:15:00.000Z",
-      "tags": [
-        "rest",
-        "ai",
-        "llm"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "grafana-k6-releases-a2b11e5bf338e8fd",
-      "title": "v2.4.0",
-      "summary": "k6 v2.4.0 is here 🎉! This release includes: Experimental tracing of test runs, scenarios, VUs, and iterations. Ed25519 signatures and X25519 key agreement in WebCrypto. Credential-header redaction fo...",
-      "description": "k6 v2.4.0 is here 🎉! This release includes: Experimental tracing of test runs, scenarios, VUs, and iterations. Ed25519 signatures and X25519 key agreement in WebCrypto. Credential-header redaction for HTTP and gRPC debug logs. Structured gRPC error details. Fixes for browser selectors, JavaScript memory leaks, and asynchronous error reporting.",
-      "url": "https://github.com/grafana/k6/releases/tag/v2.4.0",
-      "source": "Grafana k6 Releases",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-12T13:27:33.000Z",
-      "tags": [
-        "javascript",
-        "github",
-        "docker",
-        "api",
-        "security",
-        "release",
-        "update",
-        "feature",
-        "bug",
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
+        "automation",
         "release",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-4bfcb303e084cabe",
-      "title": "How do we scale testing?",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/how-do-we-scale-testing",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-12T12:10:05.000Z",
-      "tags": [
-        "testing"
-      ],
-      "score": 79,
-      "priority": "HIGH",
-      "reason": [
-        "testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-157413b864e99e0d",
-      "title": "Technical Debt is Social; it is the Price of Learning by Doing",
-      "summary": "Technical debt is not necessarily a sign of poor engineering. It can be the price of learning through software in use. As AI accelerates code production beyond our capacity to understand code and cont...",
-      "description": "Technical debt is not necessarily a sign of poor engineering. It can be the price of learning through software in use. As AI accelerates code production beyond our capacity to understand code and context, technical debt increasingly becomes a sociotechnical challenge. By Ben Linders",
-      "url": "https://www.infoq.com/news/2026/11/tech-debt-learning-doing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-cff036020c720af8",
+      "title": "Presentation: The Influence Toolkit",
+      "summary": "Henry Wilson shares actionable tools from the BBC Sounds re-architecture to help senior engineering leaders drive technical strategy. He discusses building buy-in, navigating active resistors, using R...",
+      "description": "Henry Wilson shares actionable tools from the BBC Sounds re-architecture to help senior engineering leaders drive technical strategy. He discusses building buy-in, navigating active resistors, using RFCs and ADRs, and balancing tradeoffs - showing that effective software architecture is fundamentally about communication, relationship-building, and organizational influence. By Henry Wilson",
+      "url": "https://www.infoq.com/presentations/bbc-software-architecture-influence/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "engineering",
-      "publishedAt": "2026-11-12T11:05:00.000Z",
-      "tags": [
-        "ai"
-      ],
+      "publishedAt": "2026-11-13T11:00:00.000Z",
+      "tags": [],
       "score": 54,
       "priority": "MEDIUM",
       "reason": [
@@ -145,54 +171,13 @@
       ]
     },
     {
-      "id": "infoq-175e8503d370127a",
-      "title": "Presentation: Opening the Black Box: Critical Explainability for AI Agent Tool Selection with Kiji Inspector",
-      "summary": "Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial chain-of-t...",
-      "description": "Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial chain-of-thought narratives, he discusses causal ablation, layer activation extraction via patched vLLM engines, and production monitoring workflows for software architects and senior engineering leaders.",
-      "url": "https://www.infoq.com/presentations/explainable-ai-llm-agent-decisions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-12T11:00:00.000Z",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-6f56437957c345b6",
-      "title": "Azure Logic Apps Standard Gets a Local CLI in Preview",
-      "summary": "Microsoft has released a public preview of the logicapp extension for the Azure CLI, adding local project creation, workflow authoring, a runtime lifecycle, connector management, run inspection, and t...",
-      "description": "Microsoft has released a public preview of the logicapp extension for the Azure CLI, adding local project creation, workflow authoring, a runtime lifecycle, connector management, run inspection, and test scaffolding for Logic Apps Standard, work that previously required the VS Code extension. The product team pitches the terminal surface as determinism for AI-assisted development.",
-      "url": "https://www.infoq.com/news/2026/11/logic-apps-local-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-12T10:23:00.000Z",
-      "tags": [
-        "release",
-        "ai"
-      ],
-      "score": 73,
-      "priority": "HIGH",
-      "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-fef010d5cb1fdbac",
-      "title": "Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs",
-      "summary": "Google Cloud has open-sourced TPU Sync, a native C++ library that moves KV cache blocks and model weights between TPU HBM, host DRAM, shared storage, and the data center network. By Daniel Dominguez",
-      "description": "Google Cloud has open-sourced TPU Sync, a native C++ library that moves KV cache blocks and model weights between TPU HBM, host DRAM, shared storage, and the data center network. By Daniel Dominguez",
-      "url": "https://www.infoq.com/news/2026/11/google-tpu-sync/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-12T10:06:00.000Z",
+      "id": "ministry-of-testing-514f4dc545684ae2",
+      "title": "Finally an official Trowser contributor.",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/finally-an-official-trowser-contributor",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-13T09:07:00.000Z",
       "tags": [],
       "score": 53,
       "priority": "MEDIUM",
