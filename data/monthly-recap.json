@@ -2,9 +2,231 @@
   "months": [
     {
       "month": "2026-11",
-      "summary": "25 stories. Latest: AI-Powered Performance Reviews; Behind the scenes at MoT: strong women, small humans, and men with no ego; Introducing Spend Management: Spending limits and alerts for Cloudflare. Top categories: engineering (8), ai (6), qa-practice (5).",
+      "summary": "25 stories. Latest: Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules; Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions; Open Source DocumentDB 1.0 Reaches General Availability. Top categories: engineering (8), tooling (8), ai (5).",
       "themes": [],
       "items": [
+        {
+          "id": "infoq-e09d2116e70d9f23",
+          "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules",
+          "summary": "Node.js 26.10.0 adds util.debounce() and util.throttle(), plus util.markPromiseAsHandled(), to the core library. It also introduces crypto.parsePKCS12() for reading .p12 and .pfx bundles, and extends ...",
+          "description": "Node.js 26.10.0 adds util.debounce() and util.throttle(), plus util.markPromiseAsHandled(), to the core library. It also introduces crypto.parsePKCS12() for reading .p12 and .pfx bundles, and extends the experimental Virtual File System to node:ffi. The additions reduce the need for some userland dependencies. Node.js 26 is now Active LTS. By Daniel Curtis",
+          "url": "https://www.infoq.com/news/2026/11/nodejs-debounce-throttle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "tooling",
+          "publishedAt": "2026-11-14T08:03:00.000Z",
+          "tags": [
+            "node.js"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-ca8bf836b85be553",
+          "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
+          "summary": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per ...",
+          "description": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per request with a header or query parameter. New versions can change defaults, error formats, and IAM checks without touching /v1 callers, a model Azure Resource Manager and Stripe have used for years.",
+          "url": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "tooling",
+          "publishedAt": "2026-11-14T07:27:00.000Z",
+          "tags": [
+            "api",
+            "ai"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-45ae8699d36e57cd",
+          "title": "Open Source DocumentDB 1.0 Reaches General Availability",
+          "summary": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, ...",
+          "description": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries work without changes. By Renato Losio",
+          "url": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "tooling",
+          "publishedAt": "2026-11-14T06:37:00.000Z",
+          "tags": [
+            "database",
+            "sql",
+            "release",
+            "ai"
+          ],
+          "score": 73,
+          "priority": "HIGH",
+          "reason": [
+            "release",
+            "recent"
+          ]
+        },
+        {
+          "id": "selenium-releases-a16d302add79223c",
+          "title": "Nightly",
+          "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
+          "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
+          "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+          "source": "Selenium Releases",
+          "category": "tooling",
+          "publishedAt": "2026-11-14T00:16:05.000Z",
+          "tags": [
+            "testing",
+            "github",
+            "api",
+            "rest",
+            "release",
+            "update",
+            "ai"
+          ],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "playwright-d1bcbccd3ba83257",
+          "title": "v1.65.1",
+          "summary": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one colum...",
+          "description": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ Browser Versions Chromium 159.0.8154.6 Mozilla Firefox 159.0 WebKit 27.2",
+          "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
+          "source": "Playwright",
+          "category": "test-automation",
+          "publishedAt": "2026-11-13T21:46:58.000Z",
+          "tags": [
+            "playwright",
+            "github",
+            "bug",
+            "ai"
+          ],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-5ab783dcdbdb11e3",
+          "title": "Kitesurf is now open source",
+          "summary": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+          "description": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+          "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+          "source": "Cloudflare",
+          "category": "ai",
+          "publishedAt": "2026-11-13T20:20:21.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 81,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "cloudflare-a009bbdbfbe6de47",
+          "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+          "summary": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recom...",
+          "description": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+          "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+          "source": "Cloudflare",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-13T19:26:07.000Z",
+          "tags": [
+            "testing",
+            "security",
+            "ai"
+          ],
+          "score": 156,
+          "priority": "CRITICAL",
+          "reason": [
+            "testing",
+            "penetration testing",
+            "security",
+            "cloudflare",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-762faedb4c877435",
+          "title": "Murky outlook: Building the context AI can’t gather for you",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/media-sessions/murky-outlook-building-the-context-ai-can-t-gather-for-you",
+          "source": "Ministry of Testing",
+          "category": "ai",
+          "publishedAt": "2026-11-13T17:16:18.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-588c3b2cae9e4d43",
+          "title": "CREQ: Context, requirements, examples and questions",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/creq-context-requirements-examples-and-questions",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-13T16:39:17.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-6066d12c95819605",
+          "title": "Siri AI Developer Preview Lets iOS, iPadOS, and macOS Apps Integrate with Siri",
+          "summary": "Apple released the Siri AI Developer Preview in the 27.3 beta releases of its operating systems, enabling developers and apps to integrate with the assistant and hand off actions to it. During the Pre...",
+          "description": "Apple released the Siri AI Developer Preview in the 27.3 beta releases of its operating systems, enabling developers and apps to integrate with the assistant and hand off actions to it. During the Preview, access to Siri AI is restricted to developer builds and internal TestFlight testers. By Sergio De Simone",
+          "url": "https://www.infoq.com/news/2026/11/apple-siri-ai-integration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "tooling",
+          "publishedAt": "2026-11-13T16:00:00.000Z",
+          "tags": [
+            "rest",
+            "release",
+            "ai"
+          ],
+          "score": 71,
+          "priority": "HIGH",
+          "reason": [
+            "release",
+            "recent"
+          ]
+        },
+        {
+          "id": "storybook-releases-e2517d4f653632a1",
+          "title": "v11.0.0-beta.3",
+          "summary": "11.0.0-beta.3 Angular: Reject partial loglevel matches - #37044, thanks @subhwastaken! Build: List the correct templates that failed to generate outside CI - #37342, thanks @HarshRajSinghania! Builder...",
+          "description": "11.0.0-beta.3 Angular: Reject partial loglevel matches - #37044, thanks @subhwastaken! Build: List the correct templates that failed to generate outside CI - #37342, thanks @HarshRajSinghania! Builder-Vite: Write files registered with addWatchFile to preview-stats.json - #37032, thanks @BenjaminMercier19! CLI: Default sandbox command to initializing Storybook - #37348, thanks @Sun-Wukhan!",
+          "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-beta.3",
+          "source": "Storybook Releases",
+          "category": "tooling",
+          "publishedAt": "2026-11-13T15:53:13.000Z",
+          "tags": [
+            "github",
+            "performance",
+            "release",
+            "ai"
+          ],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
         {
           "id": "ministry-of-testing-926946a9909ebf67",
           "title": "AI-Powered Performance Reviews",
@@ -17,9 +239,27 @@
             "performance",
             "ai"
           ],
-          "score": 54,
+          "score": 51,
           "priority": "MEDIUM",
           "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-7d4d71d056da0286",
+          "title": "Introducing ChatGPT Wallet",
+          "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+          "description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-13T15:00:00.000Z",
+          "tags": [],
+          "score": 86,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "openai",
             "recent"
           ]
         },
@@ -32,11 +272,9 @@
           "category": "engineering",
           "publishedAt": "2026-11-13T14:07:50.000Z",
           "tags": [],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "cloudflare-40ec4dab142d1c85",
@@ -48,11 +286,10 @@
           "category": "engineering",
           "publishedAt": "2026-11-13T14:00:00.000Z",
           "tags": [],
-          "score": 64,
+          "score": 60,
           "priority": "MEDIUM",
           "reason": [
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -67,11 +304,10 @@
           "tags": [
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -92,12 +328,11 @@
             "bug",
             "ai"
           ],
-          "score": 114,
+          "score": 110,
           "priority": "CRITICAL",
           "reason": [
             "security",
-            "release",
-            "recent"
+            "release"
           ]
         },
         {
@@ -112,11 +347,10 @@
           "tags": [
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -128,11 +362,9 @@
           "category": "engineering",
           "publishedAt": "2026-11-13T11:59:42.000Z",
           "tags": [],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-a0a409a2fedce2bf",
@@ -146,12 +378,11 @@
             "automation",
             "release"
           ],
-          "score": 99,
+          "score": 95,
           "priority": "CRITICAL",
           "reason": [
             "automation",
-            "release",
-            "recent"
+            "release"
           ]
         },
         {
@@ -164,11 +395,9 @@
           "category": "engineering",
           "publishedAt": "2026-11-13T11:00:00.000Z",
           "tags": [],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-514f4dc545684ae2",
@@ -179,11 +408,9 @@
           "category": "engineering",
           "publishedAt": "2026-11-13T09:07:00.000Z",
           "tags": [],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-b1f6b4476def0b05",
@@ -198,10 +425,27 @@
             "api",
             "ai"
           ],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
+          "reason": []
+        },
+        {
+          "id": "openai-a99dfdd20d85acbb",
+          "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+          "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+          "url": "https://openai.com/business/customer-stories/shield",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-13T08:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 85,
+          "priority": "HIGH",
           "reason": [
-            "recent"
+            "agent",
+            "openai"
           ]
         },
         {
@@ -216,266 +460,10 @@
           "tags": [
             "playwright"
           ],
-          "score": 73,
-          "priority": "HIGH",
-          "reason": [
-            "playwright",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-f16800660386e291",
-          "title": "A Proud Moment for ACCELQ: We’re on the Workday Marketplace!",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/a-proud-moment-for-accelq-we-re-on-the-workday-marketplace",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-13T06:05:20.000Z",
-          "tags": [],
-          "score": 53,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "selenium-releases-a16d302add79223c",
-          "title": "Nightly",
-          "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
-          "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
-          "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-          "source": "Selenium Releases",
-          "category": "tooling",
-          "publishedAt": "2026-11-13T00:17:54.000Z",
-          "tags": [
-            "testing",
-            "github",
-            "api",
-            "rest",
-            "release",
-            "update",
-            "ai"
-          ],
-          "score": 52,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "cypress-a0eb65c9ecedca25",
-          "title": "Multi-tab testing in Cypress: @cypress/puppeteer 1.0 is generally available",
-          "summary": "Cypress runs each test in one tab, so flows that open a new tab or popup have been hard to test. @cypress/puppeteer 1.0 is now generally available, with a stable API, Puppeteer v24, and a new multi-ta...",
-          "description": "Cypress runs each test in one tab, so flows that open a new tab or popup have been hard to test. @cypress/puppeteer 1.0 is now generally available, with a stable API, Puppeteer v24, and a new multi-tab testing guide. See what changed and how to upgrade from 0.1.x.",
-          "url": "https://www.cypress.io/blog/cypress-puppeteer-ga/",
-          "source": "Cypress",
-          "category": "test-automation",
-          "publishedAt": "2026-11-12T20:55:15.000Z",
-          "tags": [
-            "testing",
-            "cypress",
-            "api",
-            "ai"
-          ],
-          "score": 76,
-          "priority": "HIGH",
-          "reason": [
-            "testing",
-            "recent"
-          ]
-        },
-        {
-          "id": "openai-67672a694e389b29",
-          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-          "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-          "description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-          "url": "https://openai.com/business/customer-stories/amplitude",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-11-12T20:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 86,
-          "priority": "HIGH",
-          "reason": [
-            "agent",
-            "openai",
-            "recent"
-          ]
-        },
-        {
-          "id": "cypress-3297db692a3f469d",
-          "title": "Cypress Ambassador Spotlight: Cuong Le",
-          "summary": "Welcome back to our Ambassador Spotlight series! With every blog, we sit down with one of the people who make the Cypress community what it is. We ask where they started, how they think about testing,...",
-          "description": "Welcome back to our Ambassador Spotlight series! With every blog, we sit down with one of the people who make the Cypress community what it is. We ask where they started, how they think about testing, and what they've learned along the way. Want to know more about the Ambassador program? Learn more here.",
-          "url": "https://www.cypress.io/blog/cypress-ambassador-spotlight-cuong-le/",
-          "source": "Cypress",
-          "category": "test-automation",
-          "publishedAt": "2026-11-12T17:08:46.000Z",
-          "tags": [
-            "testing",
-            "cypress",
-            "automation",
-            "feature",
-            "ai"
-          ],
-          "score": 76,
-          "priority": "HIGH",
-          "reason": [
-            "testing",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-5103fef0df82780d",
-          "title": "How to talk to AI",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/how-to-talk-to-ai",
-          "source": "Ministry of Testing",
-          "category": "ai",
-          "publishedAt": "2026-11-12T17:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-52811f8d7f7d3d9a",
-          "title": "Learning about how to talk to AI - AI Chapter Event",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/learning-about-how-to-talk-to-ai-ai-chapter-event",
-          "source": "Ministry of Testing",
-          "category": "ai",
-          "publishedAt": "2026-11-12T16:11:26.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 51,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-0f31ee4f2213a27a",
-          "title": "Hello Security World",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/hello-security-world",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-12T15:45:52.000Z",
-          "tags": [
-            "security"
-          ],
-          "score": 91,
-          "priority": "CRITICAL",
-          "reason": [
-            "security",
-            "recent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-34df7050ff0afc14",
-          "title": "AI quality orchestration: how testing and quality engineering teams coordinate people, agents, evidence and decisions",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/insights/ai-quality-orchestration-how-testing-and-quality-engineering-teams-coordinate-people-agents-evidence-and-decisions",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-12T15:44:00.000Z",
-          "tags": [
-            "testing",
-            "ai"
-          ],
-          "score": 95,
-          "priority": "CRITICAL",
-          "reason": [
-            "testing",
-            "agent"
-          ]
-        },
-        {
-          "id": "martin-fowler-a339a892849fa448",
-          "title": "Bliki: Generated Glossary",
-          "summary": "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to ...",
-          "description": "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to an LLM because they aren't in its training set, making it harder for the LLM to be effective when doing tasks in that domain.",
-          "url": "https://martinfowler.com/bliki/GeneratedGlossary.html",
-          "source": "Martin Fowler",
-          "category": "ai",
-          "publishedAt": "2026-11-12T14:15:00.000Z",
-          "tags": [
-            "rest",
-            "ai",
-            "llm"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "grafana-k6-releases-a2b11e5bf338e8fd",
-          "title": "v2.4.0",
-          "summary": "k6 v2.4.0 is here 🎉! This release includes: Experimental tracing of test runs, scenarios, VUs, and iterations. Ed25519 signatures and X25519 key agreement in WebCrypto. Credential-header redaction fo...",
-          "description": "k6 v2.4.0 is here 🎉! This release includes: Experimental tracing of test runs, scenarios, VUs, and iterations. Ed25519 signatures and X25519 key agreement in WebCrypto. Credential-header redaction for HTTP and gRPC debug logs. Structured gRPC error details. Fixes for browser selectors, JavaScript memory leaks, and asynchronous error reporting.",
-          "url": "https://github.com/grafana/k6/releases/tag/v2.4.0",
-          "source": "Grafana k6 Releases",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-12T13:27:33.000Z",
-          "tags": [
-            "javascript",
-            "github",
-            "docker",
-            "api",
-            "security",
-            "release",
-            "update",
-            "feature",
-            "bug",
-            "ai"
-          ],
           "score": 70,
           "priority": "HIGH",
           "reason": [
-            "release"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-4bfcb303e084cabe",
-          "title": "How do we scale testing?",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/how-do-we-scale-testing",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-11-12T12:10:05.000Z",
-          "tags": [
-            "testing"
-          ],
-          "score": 75,
-          "priority": "HIGH",
-          "reason": [
-            "testing"
-          ]
-        },
-        {
-          "id": "openai-b9840fd67063a36a",
-          "title": "Gondola doubles revenue as its team builds more with Codex",
-          "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-          "description": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-          "url": "https://openai.com/business/customer-stories/gondola",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-11-12T12:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
+            "playwright"
           ]
         }
       ]
