@@ -2,8 +2,102 @@
   "weeks": [
     {
       "weekOf": "2026-11-09",
-      "summary": "114 stories. Latest: Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules; Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions; Open Source DocumentDB 1.0 Reaches General Availability. Top categories: ai (40), engineering (28), tooling (23).",
+      "summary": "118 stories. Latest: Anthropic Outlines Its AI-Powered Code Review Process for Claude Code; A Goal I Shared, An Opportunity I Found; Cloudflare Introduces Private Origins for Application Services. Top categories: ai (43), engineering (29), tooling (23).",
       "items": [
+        {
+          "id": "infoq-c27a281947e76042",
+          "title": "Anthropic Outlines Its AI-Powered Code Review Process for Claude Code",
+          "summary": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered ...",
+          "description": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and risk-based human approval, aiming to reduce manual review time without increasing regressions or production incidents. By Robert Krzaczyński",
+          "url": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-15T09:55:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-384418abf2a68cce",
+          "title": "A Goal I Shared, An Opportunity I Found",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/a-goal-i-shared-an-opportunity-i-found",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-15T07:31:05.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-0f5f6fc13472c187",
+          "title": "Cloudflare Introduces Private Origins for Application Services",
+          "summary": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or o...",
+          "description": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or opening inbound firewall ports. Private-to-private connectivity is not yet supported. By Renato Losio",
+          "url": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-15T06:18:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-ded18058d114a6a3",
+          "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
+          "summary": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools wo...",
+          "description": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of intentional backdooring, the report is a reminder that, even for self-hosted agents based on open-weight models, egress risks exist and need mitigation.",
+          "url": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-15T02:42:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "selenium-releases-a16d302add79223c",
+          "title": "Nightly",
+          "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
+          "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
+          "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+          "source": "Selenium Releases",
+          "category": "tooling",
+          "publishedAt": "2026-11-15T00:16:18.000Z",
+          "tags": [
+            "testing",
+            "github",
+            "api",
+            "rest",
+            "release",
+            "update",
+            "ai"
+          ],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
         {
           "id": "infoq-e09d2116e70d9f23",
           "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules",
@@ -16,11 +110,9 @@
           "tags": [
             "node.js"
           ],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-ca8bf836b85be553",
@@ -35,11 +127,9 @@
             "api",
             "ai"
           ],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-45ae8699d36e57cd",
@@ -56,35 +146,10 @@
             "release",
             "ai"
           ],
-          "score": 73,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "release",
-            "recent"
-          ]
-        },
-        {
-          "id": "selenium-releases-a16d302add79223c",
-          "title": "Nightly",
-          "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
-          "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
-          "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-          "source": "Selenium Releases",
-          "category": "tooling",
-          "publishedAt": "2026-11-14T00:16:05.000Z",
-          "tags": [
-            "testing",
-            "github",
-            "api",
-            "rest",
-            "release",
-            "update",
-            "ai"
-          ],
-          "score": 52,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
+            "release"
           ]
         },
         {
@@ -102,11 +167,9 @@
             "bug",
             "ai"
           ],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "cloudflare-5ab783dcdbdb11e3",
@@ -120,12 +183,11 @@
           "tags": [
             "ai"
           ],
-          "score": 81,
+          "score": 80,
           "priority": "HIGH",
           "reason": [
             "agent",
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -142,14 +204,13 @@
             "security",
             "ai"
           ],
-          "score": 156,
+          "score": 155,
           "priority": "CRITICAL",
           "reason": [
             "testing",
             "penetration testing",
             "security",
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -198,11 +259,10 @@
             "release",
             "ai"
           ],
-          "score": 71,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "release",
-            "recent"
+            "release"
           ]
         },
         {
@@ -220,11 +280,9 @@
             "release",
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-926946a9909ebf67",
@@ -254,12 +312,11 @@
           "category": "ai",
           "publishedAt": "2026-11-13T15:00:00.000Z",
           "tags": [],
-          "score": 86,
+          "score": 85,
           "priority": "HIGH",
           "reason": [
             "agent",
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -8968,7 +9025,7 @@
     },
     {
       "weekOf": "2026-10-12",
-      "summary": "48 stories. Latest: v10.1.0; Free Course: Steer AI Agents to Write Tests You Can Trust - Want to co-learn?; Joyful moment with Clare and Ady - MoTaCon 2026. Top categories: ai (18), engineering (14), tooling (7).",
+      "summary": "19 stories. Latest: v10.1.0; Free Course: Steer AI Agents to Write Tests You Can Trust - Want to co-learn?; Joyful moment with Clare and Ady - MoTaCon 2026. Top categories: engineering (8), ai (6), qa-practice (3).",
       "items": [
         {
           "id": "webdriverio-releases-e110663b1b53dcf9",
@@ -9262,480 +9319,6 @@
           "category": "engineering",
           "publishedAt": "2026-10-16T15:08:09.000Z",
           "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-d72ffc34c5dee7bd",
-          "title": "Uber Automates Dependency Analysis Across Its Service Mesh",
-          "summary": "Uber has developed an automated dependency analysis system that uses RPC middleware and production metrics to correlate caller and downstream failures. The approach classifies dependencies as fail-clo...",
-          "url": "https://www.infoq.com/news/2026/10/uber-automated-dependency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "tooling",
-          "publishedAt": "2026-10-16T14:39:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-6ed9a6d104ab3a7c",
-          "title": "AI in Production: Panellists Highlight Silent Failures, Harness Engineering, and Agent Governance",
-          "summary": "A recent InfoQ webinar examined operational challenges in deploying agentic systems. Key points included issues like semantic and embedding drift, which can lead to significant errors. Experts discuss...",
-          "url": "https://www.infoq.com/news/2026/10/ai-systems-production/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "ai",
-          "publishedAt": "2026-10-16T14:14:00.000Z",
-          "tags": [
-            "security",
-            "ai"
-          ],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "agent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-c5a79d85772bd9f4",
-          "title": "Ady asks #6 Updated Mindsets visual heuristic ",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/ady-asks-6-updated-mindsets-visual-heuristic",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-10-16T13:44:57.000Z",
-          "tags": [
-            "update"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-7fdf77e2c7e178f6",
-          "title": "The hidden leadership of Quality Professionals: skills you only earn when everything goes to hell",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/the-hidden-leadership-of-quality-professionals-skills-you-only-earn-when-everything-goes-to-hell",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-10-16T13:17:16.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-c5c2a5c8defecbda",
-          "title": "TWIQ 16/10/2026 -  a screen grab of chaos",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/twiq-16-10-2026-a-screen-grab-of-chaos",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-10-16T13:10:40.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "cloudflare-1beb66d0b231d0b1",
-          "title": "Continuous accountability for Verified bots",
-          "summary": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuri...",
-          "url": "https://blog.cloudflare.com/verified-bots-accountability/",
-          "source": "Cloudflare",
-          "category": "ai",
-          "publishedAt": "2026-10-16T13:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 60,
-          "priority": "MEDIUM",
-          "reason": [
-            "cloudflare"
-          ]
-        },
-        {
-          "id": "infoq-253eae0b69ca6b47",
-          "title": "Grafana Applies SLOs and Error Budgets to AI Agent Behaviour",
-          "summary": "Grafana Labs is proposing a familiar reliability engineering approach for one of the less familiar problems in modern software: how to measure whether an AI agent is actually behaving well. By Craig R...",
-          "url": "https://www.infoq.com/news/2026/10/grafana-slo-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "ai",
-          "publishedAt": "2026-10-16T12:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "agent"
-          ]
-        },
-        {
-          "id": "infoq-40b895626d8b162e",
-          "title": "Mini book: Evolutionary Architecture in Practice",
-          "summary": "Discover how to keep software evolvable as systems, technology, and teams shift. This edition explores agentic fitness functions for semantic drift, treating human comprehension as a core design metri...",
-          "url": "https://www.infoq.com/minibooks/evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "engineering",
-          "publishedAt": "2026-10-16T11:30:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "agent"
-          ]
-        },
-        {
-          "id": "infoq-ddaa04e469a52175",
-          "title": "Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules",
-          "summary": "The release of Helidon 27 is the first release that follows the Oracle Tip & Tail Model of Library Development by which the Tip adopts the latest Java technology while the Tail provides a more stable ...",
-          "url": "https://www.infoq.com/news/2026/10/helidon-27-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "tooling",
-          "publishedAt": "2026-10-16T11:20:00.000Z",
-          "tags": [
-            "rest",
-            "release",
-            "feature",
-            "ai"
-          ],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "release"
-          ]
-        },
-        {
-          "id": "infoq-450ebcc956cca3b8",
-          "title": "AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development",
-          "summary": "AWS has introduced two open-source projects for AI agent development: Strands Decider 2B, a small model designed to make decisions within agent workflows, and Strands Box, a sandbox for controlling ag...",
-          "url": "https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "ai",
-          "publishedAt": "2026-10-16T10:47:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "agent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-9b8412edf8a8f83e",
-          "title": "Anywhere, anytime..?",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/anywhere-anytime",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-10-16T09:59:53.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-f63f2e515628943a",
-          "title": "QA Engineer - Mobile",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/jobs/qa-engineer-mobile",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-10-16T09:04:20.000Z",
-          "tags": [],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "qa"
-          ]
-        },
-        {
-          "id": "infoq-65343deaf721efb4",
-          "title": "Chainguard Launches Secure Workspaces and Checks for AI Coding Agents",
-          "summary": "Software supply chain security company Chainguard has announced two beta products for running and testing code written by developers and AI agents. Chainguard Workspaces provides remote development en...",
-          "url": "https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "qa-practice",
-          "publishedAt": "2026-10-16T09:00:00.000Z",
-          "tags": [
-            "testing",
-            "security",
-            "ai"
-          ],
-          "score": 135,
-          "priority": "CRITICAL",
-          "reason": [
-            "testing",
-            "security",
-            "agent"
-          ]
-        },
-        {
-          "id": "infoq-19d40f20e28e699f",
-          "title": "Article: Cryptographic Foundation of Mobile ID Systems: An ISO/IEC 18013-5 Enterprise Architecture Blueprint",
-          "summary": "This article provides a framework for asking the right architectural questions before an enterprise commits to an mDL provider or library. It shows which components can be abstracted safely, which tru...",
-          "url": "https://www.infoq.com/articles/enterprise-mobile-id-mdl-blueprint/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "tooling",
-          "publishedAt": "2026-10-16T09:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-60152dfeaf190122",
-          "title": "From The Traitors to Testers: Why Perspective Matters",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/from-the-traitors-to-testers-why-perspective-matters",
-          "source": "Ministry of Testing",
-          "category": "qa-practice",
-          "publishedAt": "2026-10-16T08:59:44.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-cd70e73df7f858bc",
-          "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
-          "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto on...",
-          "url": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "engineering",
-          "publishedAt": "2026-10-16T06:02:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-2fb4301252303c4d",
-          "title": "How to test with a screen reader, high level contributors, high well being for remote workers, and more!",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/newsletter/how-to-test-with-a-screen-reader-high-level-contributors-high-well-being-for-remote-workers-and-more",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-16T00:00:00.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "openai-9e63539289a31c86",
-          "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-          "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-          "description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-          "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-16T00:00:00.000Z",
-          "tags": [],
-          "score": 85,
-          "priority": "HIGH",
-          "reason": [
-            "agent",
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-b6756c0a180ee554",
-          "title": "Benefit Street Partners answers questions faster with Codex",
-          "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-          "description": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-          "url": "https://openai.com/index/benefit-street-partners",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-16T00:00:00.000Z",
-          "tags": [],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-86dbfdb5b436c283",
-          "title": "How Grupo Boticário uses AI to strengthen human connections",
-          "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the...",
-          "description": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
-          "url": "https://openai.com/index/grupo-boticario",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-16T00:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 85,
-          "priority": "HIGH",
-          "reason": [
-            "agent",
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-d3b9ba6f7bd01af0",
-          "title": "How Localiza reorganized work around generative AI",
-          "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
-          "description": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
-          "url": "https://openai.com/index/localiza-generative-ai",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-16T00:00:00.000Z",
-          "tags": [
-            "api",
-            "ai"
-          ],
-          "score": 85,
-          "priority": "HIGH",
-          "reason": [
-            "agent",
-            "openai"
-          ]
-        },
-        {
-          "id": "openai-32165ee6af8945a5",
-          "title": "Bringing GPT-Rosalind to academic research labs",
-          "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-          "description": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-10-15T19:00:00.000Z",
-          "tags": [],
-          "score": 65,
-          "priority": "MEDIUM",
-          "reason": [
-            "openai"
-          ]
-        },
-        {
-          "id": "cloudflare-8d017137f926178e",
-          "title": "A fully programmable secure web gateway",
-          "summary": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform.",
-          "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
-          "source": "Cloudflare",
-          "category": "tooling",
-          "publishedAt": "2026-10-15T17:11:12.000Z",
-          "tags": [],
-          "score": 60,
-          "priority": "MEDIUM",
-          "reason": [
-            "cloudflare"
-          ]
-        },
-        {
-          "id": "infoq-a7b63fed9c2be82b",
-          "title": "Instagram Modernized its UI with an AI-Native Architecture, Cutting Token Costs by 33%",
-          "summary": "Instagram Direct migrated its Android UI from the legacy Android View system to Jetpack Compose, creating an AI-native UI codebase that is easier for AI coding agents to understand, modify, and mainta...",
-          "url": "https://www.infoq.com/news/2026/10/instagram-compose-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "ai",
-          "publishedAt": "2026-10-15T16:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "agent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-00b5cd7060cd3fba",
-          "title": "From test cases to AI-ready quality data: why structure matters",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/media-sessions/from-test-cases-to-ai-ready-quality-data-why-structure-matters",
-          "source": "Ministry of Testing",
-          "category": "test-automation",
-          "publishedAt": "2026-10-15T15:52:10.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-deb891efe2f78ecb",
-          "title": "AI Risk Deck: Human-Computer Interaction (5)",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/insights/ai-risk-deck-human-computer-interaction-5",
-          "source": "Ministry of Testing",
-          "category": "ai",
-          "publishedAt": "2026-10-15T15:33:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "ministry-of-testing-002658979909f0bc",
-          "title": "Brighton Leadership Dinner with TestMu AI, the food was amazing!",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/brighton-leadership-dinner-with-testmu-ai-the-food-was-amazing",
-          "source": "Ministry of Testing",
-          "category": "ai",
-          "publishedAt": "2026-10-15T14:40:05.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "vitest-releases-f50f132e5b1fcf89",
-          "title": "v5.0.5",
-          "summary": "🐞 Bug Fixes Keep vite default fs.deny with api token file - by @hi-ogawa, Hiroshi Ogawa and Claude Opus 5.5 in #11578 (28dc1) Handle quoted file names in --changed - by @sheremet-va in #11583 (14921)...",
-          "description": "🐞 Bug Fixes Keep vite default fs.deny with api token file - by @hi-ogawa, Hiroshi Ogawa and Claude Opus 5.5 in #11578 (28dc1) Handle quoted file names in --changed - by @sheremet-va in #11583 (14921) Add data to the import.meta.hot stub - by @sheremet-va in #11590 (3a828) Set skip in skipIf, ignore undefined options - by @sheremet-va in #11591 (d523a) Skip builtin loading in async leak...",
-          "url": "https://github.com/vitest-dev/vitest/releases/tag/v5.0.5",
-          "source": "Vitest Releases",
-          "category": "tooling",
-          "publishedAt": "2026-10-15T14:37:01.000Z",
-          "tags": [
-            "vitest",
-            "github",
-            "api",
-            "release",
-            "bug",
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "vitest-releases-d8484cc00cacd3c9",
-          "title": "v4.1.12",
-          "summary": "🐞 Bug Fixes mocker: Harden manual and redirect mocks [backport to v4] - by @sheremet-va in #11580 (b8253) View changes on GitHub",
-          "description": "🐞 Bug Fixes mocker: Harden manual and redirect mocks [backport to v4] - by @sheremet-va in #11580 (b8253) View changes on GitHub",
-          "url": "https://github.com/vitest-dev/vitest/releases/tag/v4.1.12",
-          "source": "Vitest Releases",
-          "category": "test-automation",
-          "publishedAt": "2026-10-15T14:36:29.000Z",
-          "tags": [
-            "vitest",
-            "github",
-            "bug",
-            "ai"
-          ],
           "score": 50,
           "priority": "MEDIUM",
           "reason": []

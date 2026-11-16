@@ -1,10 +1,104 @@
 {
-  "date": "2026-11-15",
-  "updatedAt": "2026-11-15T09:23:26.985Z",
+  "date": "2026-11-16",
+  "updatedAt": "2026-11-16T05:49:35.390Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news and release topics",
   "items": [
+    {
+      "id": "infoq-c27a281947e76042",
+      "title": "Anthropic Outlines Its AI-Powered Code Review Process for Claude Code",
+      "summary": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered ...",
+      "description": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and risk-based human approval, aiming to reduce manual review time without increasing regressions or production incidents. By Robert Krzaczyński",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-15T09:55:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-384418abf2a68cce",
+      "title": "A Goal I Shared, An Opportunity I Found",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/a-goal-i-shared-an-opportunity-i-found",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-15T07:31:05.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-0f5f6fc13472c187",
+      "title": "Cloudflare Introduces Private Origins for Application Services",
+      "summary": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or o...",
+      "description": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or opening inbound firewall ports. Private-to-private connectivity is not yet supported. By Renato Losio",
+      "url": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-15T06:18:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-ded18058d114a6a3",
+      "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
+      "summary": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools wo...",
+      "description": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of intentional backdooring, the report is a reminder that, even for self-hosted agents based on open-weight models, egress risks exist and need mitigation.",
+      "url": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-15T02:42:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "selenium-releases-a16d302add79223c",
+      "title": "Nightly",
+      "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
+      "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-15T00:16:18.000Z",
+      "tags": [
+        "testing",
+        "github",
+        "api",
+        "rest",
+        "release",
+        "update",
+        "ai"
+      ],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
     {
       "id": "infoq-e09d2116e70d9f23",
       "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules",
@@ -17,11 +111,9 @@
       "tags": [
         "node.js"
       ],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-ca8bf836b85be553",
@@ -36,11 +128,9 @@
         "api",
         "ai"
       ],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-45ae8699d36e57cd",
@@ -57,35 +147,10 @@
         "release",
         "ai"
       ],
-      "score": 73,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "selenium-releases-a16d302add79223c",
-      "title": "Nightly",
-      "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
-      "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium Releases",
-      "category": "tooling",
-      "publishedAt": "2026-11-14T00:16:05.000Z",
-      "tags": [
-        "testing",
-        "github",
-        "api",
-        "rest",
-        "release",
-        "update",
-        "ai"
-      ],
-      "score": 52,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
+        "release"
       ]
     },
     {
@@ -103,11 +168,9 @@
         "bug",
         "ai"
       ],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "cloudflare-5ab783dcdbdb11e3",
@@ -121,89 +184,11 @@
       "tags": [
         "ai"
       ],
-      "score": 81,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "cloudflare",
-        "recent"
-      ]
-    },
-    {
-      "id": "cloudflare-a009bbdbfbe6de47",
-      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
-      "summary": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recom...",
-      "description": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
-      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
-      "source": "Cloudflare",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-13T19:26:07.000Z",
-      "tags": [
-        "testing",
-        "security",
-        "ai"
-      ],
-      "score": 156,
-      "priority": "CRITICAL",
-      "reason": [
-        "testing",
-        "penetration testing",
-        "security",
-        "cloudflare",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-762faedb4c877435",
-      "title": "Murky outlook: Building the context AI can’t gather for you",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/murky-outlook-building-the-context-ai-can-t-gather-for-you",
-      "source": "Ministry of Testing",
-      "category": "ai",
-      "publishedAt": "2026-11-13T17:16:18.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-588c3b2cae9e4d43",
-      "title": "CREQ: Context, requirements, examples and questions",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/creq-context-requirements-examples-and-questions",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-13T16:39:17.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-6066d12c95819605",
-      "title": "Siri AI Developer Preview Lets iOS, iPadOS, and macOS Apps Integrate with Siri",
-      "summary": "Apple released the Siri AI Developer Preview in the 27.3 beta releases of its operating systems, enabling developers and apps to integrate with the assistant and hand off actions to it. During the Pre...",
-      "description": "Apple released the Siri AI Developer Preview in the 27.3 beta releases of its operating systems, enabling developers and apps to integrate with the assistant and hand off actions to it. During the Preview, access to Siri AI is restricted to developer builds and internal TestFlight testers. By Sergio De Simone",
-      "url": "https://www.infoq.com/news/2026/11/apple-siri-ai-integration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-13T16:00:00.000Z",
-      "tags": [
-        "rest",
-        "release",
-        "ai"
-      ],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "release",
-        "recent"
+        "cloudflare"
       ]
     }
   ]
