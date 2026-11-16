@@ -1,16 +1,94 @@
 {
   "date": "2026-11-16",
-  "updatedAt": "2026-11-16T10:59:48.729Z",
+  "updatedAt": "2026-11-16T17:39:43.524Z",
   "articles": [
     {
-      "id": "infoq-c27a281947e76042",
-      "title": "Anthropic Outlines Its AI-Powered Code Review Process for Claude Code",
-      "summary": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered ...",
-      "description": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and risk-based human approval, aiming to reduce manual review time without increasing regressions or production incidents. By Robert Krzaczyński",
-      "url": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "openai-2d7a5d6b20fff3cd",
+      "title": "Broadening access to AI for scientists",
+      "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "description": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 69,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai",
+        "recent"
+      ]
+    },
+    {
+      "id": "openai-dd659f011024f04f",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "description": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 69,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-32ebe60d98b34a7b",
+      "title": "If Bug were an iceberg...BugBerg?",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/if-bug-were-an-iceberg-bugberg",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-16T15:28:25.000Z",
+      "tags": [
+        "bug"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-1163349a882ce8fa",
+      "title": "Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J",
+      "summary": "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of ...",
+      "description": "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of Spring AI and Spring Boot; first release candidates of Hibernate ORM and Hibernate Reactive; fourth milestone release of GlassFish; and the second milestone release of Apache TomEE. By Michael Redlich",
+      "url": "https://www.infoq.com/news/2026/11/java-news-roundup-nov09-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "ai",
-      "publishedAt": "2026-11-15T09:55:00.000Z",
+      "publishedAt": "2026-11-16T15:25:00.000Z",
+      "tags": [
+        "react",
+        "release",
+        "feature",
+        "ai",
+        "llm"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-2b6d1f4408c492f7",
+      "title": "Uber’s Legal AI Agent Cuts Contract Review Time by 20% with Rules and RAG",
+      "summary": "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system r...",
+      "description": "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system reports more than 20% lower average contract review time and 91% accuracy in AI-generated decisions. Uber is exploring agentic harnesses, skills, legal ontologies, and knowledge graphs. By Leela Kumili",
+      "url": "https://www.infoq.com/news/2026/11/uber-legal-redlining-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-16T14:37:00.000Z",
       "tags": [
         "ai"
       ],
@@ -22,170 +100,96 @@
       ]
     },
     {
-      "id": "ministry-of-testing-384418abf2a68cce",
-      "title": "A Goal I Shared, An Opportunity I Found",
+      "id": "ministry-of-testing-8a2f47c159e53d8a",
+      "title": "Learning with the system: breaking down the silos in how we learn and grow",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/a-goal-i-shared-an-opportunity-i-found",
+      "url": "https://www.ministryoftesting.com/moments/learning-with-the-system-breaking-down-the-silos-in-how-we-learn-and-grow",
       "source": "Ministry of Testing",
       "category": "engineering",
-      "publishedAt": "2026-11-15T07:31:05.000Z",
+      "publishedAt": "2026-11-16T13:29:23.000Z",
       "tags": [],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-0f5f6fc13472c187",
-      "title": "Cloudflare Introduces Private Origins for Application Services",
-      "summary": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or o...",
-      "description": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or opening inbound firewall ports. Private-to-private connectivity is not yet supported. By Renato Losio",
-      "url": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-15T06:18:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-ded18058d114a6a3",
-      "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
-      "summary": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools wo...",
-      "description": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of intentional backdooring, the report is a reminder that, even for self-hosted agents based on open-weight models, egress risks exist and need mitigation.",
-      "url": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-15T02:42:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 52,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "selenium-releases-a16d302add79223c",
-      "title": "Nightly",
-      "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
-      "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium Releases",
-      "category": "tooling",
-      "publishedAt": "2026-11-15T00:16:18.000Z",
-      "tags": [
-        "testing",
-        "github",
-        "api",
-        "rest",
-        "release",
-        "update",
-        "ai"
-      ],
-      "score": 52,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-e09d2116e70d9f23",
-      "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules",
-      "summary": "Node.js 26.10.0 adds util.debounce() and util.throttle(), plus util.markPromiseAsHandled(), to the core library. It also introduces crypto.parsePKCS12() for reading .p12 and .pfx bundles, and extends ...",
-      "description": "Node.js 26.10.0 adds util.debounce() and util.throttle(), plus util.markPromiseAsHandled(), to the core library. It also introduces crypto.parsePKCS12() for reading .p12 and .pfx bundles, and extends the experimental Virtual File System to node:ffi. The additions reduce the need for some userland dependencies. Node.js 26 is now Active LTS. By Daniel Curtis",
-      "url": "https://www.infoq.com/news/2026/11/nodejs-debounce-throttle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-14T08:03:00.000Z",
-      "tags": [
-        "node.js"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-ca8bf836b85be553",
-      "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
-      "summary": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per ...",
-      "description": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per request with a header or query parameter. New versions can change defaults, error formats, and IAM checks without touching /v1 callers, a model Azure Resource Manager and Stripe have used for years.",
-      "url": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-14T07:27:00.000Z",
-      "tags": [
-        "api",
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-45ae8699d36e57cd",
-      "title": "Open Source DocumentDB 1.0 Reaches General Availability",
-      "summary": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, ...",
-      "description": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries work without changes. By Renato Losio",
-      "url": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-14T06:37:00.000Z",
-      "tags": [
-        "database",
-        "sql",
-        "release",
-        "ai"
-      ],
-      "score": 70,
+      "score": 89,
       "priority": "HIGH",
       "reason": [
-        "release"
+        "breaking",
+        "recent"
       ]
     },
     {
-      "id": "playwright-d1bcbccd3ba83257",
-      "title": "v1.65.1",
-      "summary": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one colum...",
-      "description": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ Browser Versions Chromium 159.0.8154.6 Mozilla Firefox 159.0 WebKit 27.2",
-      "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
-      "source": "Playwright",
-      "category": "test-automation",
-      "publishedAt": "2026-11-13T21:46:58.000Z",
+      "id": "infoq-61827bff0150a72b",
+      "title": "Airbnb Introduces CASTLE for Training Natural Language Search Models with Synthetic Data",
+      "summary": "Airbnb researchers have introduced CASTLE, a framework designed to address the cold-start problem in natural language search. The approach uses de-identified booking sessions and large language models...",
+      "description": "Airbnb researchers have introduced CASTLE, a framework designed to address the cold-start problem in natural language search. The approach uses de-identified booking sessions and large language models (LLMs) to jointly generate synthetic search queries and relevance labels, enabling model training before sufficient real search traffic is available. By Robert Krzaczyński",
+      "url": "https://www.infoq.com/news/2026/11/airbnb-castle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-16T12:25:00.000Z",
       "tags": [
-        "playwright",
-        "github",
-        "bug",
-        "ai"
+        "ai",
+        "llm"
       ],
-      "score": 50,
+      "score": 54,
       "priority": "MEDIUM",
-      "reason": []
+      "reason": [
+        "recent"
+      ]
     },
     {
-      "id": "cloudflare-5ab783dcdbdb11e3",
-      "title": "Kitesurf is now open source",
-      "summary": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
-      "description": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
-      "url": "https://blog.cloudflare.com/kitesurf-open-source/",
-      "source": "Cloudflare",
+      "id": "openai-d91fd06de7b8771e",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "description": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "source": "OpenAI",
       "category": "ai",
-      "publishedAt": "2026-11-13T20:20:21.000Z",
+      "publishedAt": "2026-11-16T12:00:00.000Z",
       "tags": [
         "ai"
       ],
-      "score": 80,
+      "score": 69,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-0e9ac986514e8aa5",
+      "title": "Podcast: Getting CRA Compliant Hardens the Code and Gets Your Company Closer to Digital Sovereignty",
+      "summary": "In this episode, Christopher \"CRob\" Robinson, CTO of OpenSSF, Akrites and Chief Security Architect of the Linux Foundation, explores the state of software supply chain security amid multiple security ...",
+      "description": "In this episode, Christopher \"CRob\" Robinson, CTO of OpenSSF, Akrites and Chief Security Architect of the Linux Foundation, explores the state of software supply chain security amid multiple security incidents and explains how tools like Scorecard, the Security Baseline framework, and SLSA help harden software. By Christopher Robinson",
+      "url": "https://www.infoq.com/podcasts/company-closer-digital-sovereignty/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-16T11:00:00.000Z",
+      "tags": [
+        "security",
+        "ai"
+      ],
+      "score": 93,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-1bd149295de94814",
+      "title": "Article: Governed Autonomous Intelligence for Mission-Critical Utility",
+      "summary": "The article describes an architecture for agentic AI in regulated utility operations. Agents reason and propose actions, but a deterministic policy gate and a governed tool gateway control execution, ...",
+      "description": "The article describes an architecture for agentic AI in regulated utility operations. Agents reason and propose actions, but a deterministic policy gate and a governed tool gateway control execution, with human approval where required. It covers an AWS reference implementation, grounding in runbooks, governed prediction, outcome validation, audit evidence, and phased autonomy. By Purnang Borah",
+      "url": "https://www.infoq.com/articles/utility-governed-autonomous-intelligence-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-16T11:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 73,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "cloudflare"
+        "recent"
       ]
     }
   ]
