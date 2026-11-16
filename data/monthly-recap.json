@@ -2,9 +2,103 @@
   "months": [
     {
       "month": "2026-11",
-      "summary": "25 stories. Latest: Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules; Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions; Open Source DocumentDB 1.0 Reaches General Availability. Top categories: engineering (8), tooling (8), ai (5).",
+      "summary": "25 stories. Latest: Anthropic Outlines Its AI-Powered Code Review Process for Claude Code; A Goal I Shared, An Opportunity I Found; Cloudflare Introduces Private Origins for Application Services. Top categories: engineering (8), ai (7), tooling (7).",
       "themes": [],
       "items": [
+        {
+          "id": "infoq-c27a281947e76042",
+          "title": "Anthropic Outlines Its AI-Powered Code Review Process for Claude Code",
+          "summary": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered ...",
+          "description": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and risk-based human approval, aiming to reduce manual review time without increasing regressions or production incidents. By Robert Krzaczyński",
+          "url": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-15T09:55:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-384418abf2a68cce",
+          "title": "A Goal I Shared, An Opportunity I Found",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/a-goal-i-shared-an-opportunity-i-found",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-15T07:31:05.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-0f5f6fc13472c187",
+          "title": "Cloudflare Introduces Private Origins for Application Services",
+          "summary": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or o...",
+          "description": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or opening inbound firewall ports. Private-to-private connectivity is not yet supported. By Renato Losio",
+          "url": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-15T06:18:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-ded18058d114a6a3",
+          "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
+          "summary": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools wo...",
+          "description": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of intentional backdooring, the report is a reminder that, even for self-hosted agents based on open-weight models, egress risks exist and need mitigation.",
+          "url": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-15T02:42:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "selenium-releases-a16d302add79223c",
+          "title": "Nightly",
+          "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
+          "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
+          "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+          "source": "Selenium Releases",
+          "category": "tooling",
+          "publishedAt": "2026-11-15T00:16:18.000Z",
+          "tags": [
+            "testing",
+            "github",
+            "api",
+            "rest",
+            "release",
+            "update",
+            "ai"
+          ],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
         {
           "id": "infoq-e09d2116e70d9f23",
           "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules",
@@ -17,11 +111,9 @@
           "tags": [
             "node.js"
           ],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-ca8bf836b85be553",
@@ -36,11 +128,9 @@
             "api",
             "ai"
           ],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-45ae8699d36e57cd",
@@ -57,35 +147,10 @@
             "release",
             "ai"
           ],
-          "score": 73,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "release",
-            "recent"
-          ]
-        },
-        {
-          "id": "selenium-releases-a16d302add79223c",
-          "title": "Nightly",
-          "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
-          "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
-          "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-          "source": "Selenium Releases",
-          "category": "tooling",
-          "publishedAt": "2026-11-14T00:16:05.000Z",
-          "tags": [
-            "testing",
-            "github",
-            "api",
-            "rest",
-            "release",
-            "update",
-            "ai"
-          ],
-          "score": 52,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
+            "release"
           ]
         },
         {
@@ -103,11 +168,9 @@
             "bug",
             "ai"
           ],
-          "score": 52,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "cloudflare-5ab783dcdbdb11e3",
@@ -121,12 +184,11 @@
           "tags": [
             "ai"
           ],
-          "score": 81,
+          "score": 80,
           "priority": "HIGH",
           "reason": [
             "agent",
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -143,14 +205,13 @@
             "security",
             "ai"
           ],
-          "score": 156,
+          "score": 155,
           "priority": "CRITICAL",
           "reason": [
             "testing",
             "penetration testing",
             "security",
-            "cloudflare",
-            "recent"
+            "cloudflare"
           ]
         },
         {
@@ -199,11 +260,10 @@
             "release",
             "ai"
           ],
-          "score": 71,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "release",
-            "recent"
+            "release"
           ]
         },
         {
@@ -221,11 +281,9 @@
             "release",
             "ai"
           ],
-          "score": 51,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-926946a9909ebf67",
@@ -255,12 +313,11 @@
           "category": "ai",
           "publishedAt": "2026-11-13T15:00:00.000Z",
           "tags": [],
-          "score": 86,
+          "score": 85,
           "priority": "HIGH",
           "reason": [
             "agent",
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -398,73 +455,6 @@
           "score": 50,
           "priority": "MEDIUM",
           "reason": []
-        },
-        {
-          "id": "ministry-of-testing-514f4dc545684ae2",
-          "title": "Finally an official Trowser contributor.",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/finally-an-official-trowser-contributor",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-11-13T09:07:00.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-b1f6b4476def0b05",
-          "title": "Podcast: Doing The Right Thing: Accountability In The Age Of AI Coding Summary",
-          "summary": "In this podcast, Shane Hastie, Lead Editor for Culture & Methods, spoke to Hugo Venturini about who is accountable when AI writes the code, how AI is reshaping code review and traditional engineering ...",
-          "description": "In this podcast, Shane Hastie, Lead Editor for Culture & Methods, spoke to Hugo Venturini about who is accountable when AI writes the code, how AI is reshaping code review and traditional engineering roles, and how leaders build a culture of transparency and psychological safety. By Hugo Venturini",
-          "url": "https://www.infoq.com/podcasts/accountability-age-ai-coding-summary/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "tooling",
-          "publishedAt": "2026-11-13T09:00:00.000Z",
-          "tags": [
-            "api",
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "openai-a99dfdd20d85acbb",
-          "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-          "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-          "description": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-          "url": "https://openai.com/business/customer-stories/shield",
-          "source": "OpenAI",
-          "category": "ai",
-          "publishedAt": "2026-11-13T08:00:00.000Z",
-          "tags": [
-            "ai"
-          ],
-          "score": 85,
-          "priority": "HIGH",
-          "reason": [
-            "agent",
-            "openai"
-          ]
-        },
-        {
-          "id": "infoq-57afc0ccb7cf2ce2",
-          "title": "Dropbox Shares How Its In-House Cookie Auditor Tests Consent Behaviour Across 200+ Web Surfaces",
-          "summary": "Dropbox engineers described a Playwright-based auditor that checks cookie consent behavior across more than 200 web surfaces. It runs three tests per page: US visitor, EU visitor, and Global Privacy C...",
-          "description": "Dropbox engineers described a Playwright-based auditor that checks cookie consent behavior across more than 200 web surfaces. It runs three tests per page: US visitor, EU visitor, and Global Privacy Control signal. Cookie rules are kept outside the code. A companion tool finds live URLs. Weekly reports separate likely violations from false positives. By Daniel Curtis",
-          "url": "https://www.infoq.com/news/2026/11/dropbox-cookie-auditor/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "test-automation",
-          "publishedAt": "2026-11-13T06:15:00.000Z",
-          "tags": [
-            "playwright"
-          ],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "playwright"
-          ]
         }
       ]
     },

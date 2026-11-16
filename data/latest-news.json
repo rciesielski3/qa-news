@@ -1,7 +1,101 @@
 {
-  "date": "2026-11-15",
-  "updatedAt": "2026-11-15T09:23:28.516Z",
+  "date": "2026-11-16",
+  "updatedAt": "2026-11-16T05:49:37.086Z",
   "items": [
+    {
+      "id": "infoq-c27a281947e76042",
+      "title": "Anthropic Outlines Its AI-Powered Code Review Process for Claude Code",
+      "summary": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered ...",
+      "description": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and risk-based human approval, aiming to reduce manual review time without increasing regressions or production incidents. By Robert Krzaczyński",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-15T09:55:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-384418abf2a68cce",
+      "title": "A Goal I Shared, An Opportunity I Found",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/a-goal-i-shared-an-opportunity-i-found",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-15T07:31:05.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-0f5f6fc13472c187",
+      "title": "Cloudflare Introduces Private Origins for Application Services",
+      "summary": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or o...",
+      "description": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or opening inbound firewall ports. Private-to-private connectivity is not yet supported. By Renato Losio",
+      "url": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-15T06:18:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-ded18058d114a6a3",
+      "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
+      "summary": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools wo...",
+      "description": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of intentional backdooring, the report is a reminder that, even for self-hosted agents based on open-weight models, egress risks exist and need mitigation.",
+      "url": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-15T02:42:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "selenium-releases-a16d302add79223c",
+      "title": "Nightly",
+      "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
+      "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-15T00:16:18.000Z",
+      "tags": [
+        "testing",
+        "github",
+        "api",
+        "rest",
+        "release",
+        "update",
+        "ai"
+      ],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
     {
       "id": "infoq-e09d2116e70d9f23",
       "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules",
@@ -14,11 +108,9 @@
       "tags": [
         "node.js"
       ],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-ca8bf836b85be553",
@@ -33,11 +125,9 @@
         "api",
         "ai"
       ],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-45ae8699d36e57cd",
@@ -54,35 +144,10 @@
         "release",
         "ai"
       ],
-      "score": 73,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "selenium-releases-a16d302add79223c",
-      "title": "Nightly",
-      "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
-      "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium Releases",
-      "category": "tooling",
-      "publishedAt": "2026-11-14T00:16:05.000Z",
-      "tags": [
-        "testing",
-        "github",
-        "api",
-        "rest",
-        "release",
-        "update",
-        "ai"
-      ],
-      "score": 52,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
+        "release"
       ]
     },
     {
@@ -100,11 +165,9 @@
         "bug",
         "ai"
       ],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "cloudflare-5ab783dcdbdb11e3",
@@ -118,12 +181,11 @@
       "tags": [
         "ai"
       ],
-      "score": 81,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -140,14 +202,13 @@
         "security",
         "ai"
       ],
-      "score": 156,
+      "score": 155,
       "priority": "CRITICAL",
       "reason": [
         "testing",
         "penetration testing",
         "security",
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -196,11 +257,10 @@
         "release",
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "recent"
+        "release"
       ]
     },
     {
@@ -218,11 +278,9 @@
         "release",
         "ai"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-926946a9909ebf67",
@@ -252,12 +310,11 @@
       "category": "ai",
       "publishedAt": "2026-11-13T15:00:00.000Z",
       "tags": [],
-      "score": 86,
+      "score": 85,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "openai",
-        "recent"
+        "openai"
       ]
     },
     {
@@ -836,76 +893,6 @@
       "publishedAt": "2026-11-12T09:00:00.000Z",
       "tags": [
         "kubernetes"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "openai-65b96c238445cded",
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "description": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "openai-d7c1da8cb7dc41da",
-      "title": "Supporting research on AI and children’s safety",
-      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "description": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "url": "https://openai.com/index/children-first-declaration",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "on-test-automation-795ec981313cef46",
-      "title": "Not everybody is an AI expert - and that’s fine",
-      "summary": "This post was previously published through my newsletter on November 9, 2026. From time to time, I will republish newsletter issues on my blog here if I think people (and search engines) might benefit...",
-      "description": "This post was previously published through my newsletter on November 9, 2026. From time to time, I will republish newsletter issues on my blog here if I think people (and search engines) might benefit from it. If you want to read everything I’ve written once it is posted, I recommend signing up for the newsletter.",
-      "url": "https://www.ontestautomation.com/not-everybody-is-an-ai-expert-and-thats-fine/",
-      "source": "On Test Automation",
-      "category": "ai",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "tags": [
-        "testing",
-        "automation",
-        "ai",
-        "llm"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-62d63434885b5c31",
-      "title": "Even more AI efficiencies, Medium’s TK and quiet belonging in community",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/even-more-ai-efficiencies-medium-s-tk-and-quiet-belonging-in-community",
-      "source": "Ministry of Testing",
-      "category": "ai",
-      "publishedAt": "2026-11-11T18:18:00.000Z",
-      "tags": [
-        "ai"
       ],
       "score": 50,
       "priority": "MEDIUM",
