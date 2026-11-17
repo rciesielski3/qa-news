@@ -2,8 +2,497 @@
   "weeks": [
     {
       "weekOf": "2026-11-16",
-      "summary": "22 stories. Latest: Broadening access to AI for scientists; Strengthening the fight against online child sexual abuse with new tools and support; If Bug were an iceberg...BugBerg?. Top categories: ai (12), qa-practice (3), tooling (3).",
+      "summary": "50 stories. Latest: v5.1.1; BugBerg: What people see testing as versus what testing actually involves; The Bugberg: The invisible weight of being a builder. Top categories: ai (14), qa-practice (14), engineering (10).",
       "items": [
+        {
+          "id": "vitest-releases-43c6806208d25a19",
+          "title": "v5.1.1",
+          "summary": "🚀 Features cache: Add fs module cache env variables - by @sheremet-va in #11859 (708c0) 🐞 Bug Fixes Rerun on file changes after a config restart - by @magurotuna in #11772 and #11829 (289ca) Avoid l...",
+          "description": "🚀 Features cache: Add fs module cache env variables - by @sheremet-va in #11859 (708c0) 🐞 Bug Fixes Rerun on file changes after a config restart - by @magurotuna in #11772 and #11829 (289ca) Avoid leaking the context expect - by @sheremet-va in #11845 (3c967) Report fixture teardown errors once - by @sheremet-va in #11857 (6b167) Improve diffs for asymmetric matchers - by @sheremet-va in...",
+          "url": "https://github.com/vitest-dev/vitest/releases/tag/v5.1.1",
+          "source": "Vitest Releases",
+          "category": "tooling",
+          "publishedAt": "2026-11-17T17:03:02.000Z",
+          "tags": [
+            "vitest",
+            "github",
+            "rest",
+            "performance",
+            "feature",
+            "bug",
+            "ai",
+            "release"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-b5d542e45562da73",
+          "title": "BugBerg: What people see testing as versus what testing actually involves",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/bugberg-what-people-see-testing-as-versus-what-testing-actually-involves",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-17T16:53:53.000Z",
+          "tags": [
+            "testing",
+            "bug"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-7b51e896d22c12f8",
+          "title": "The Bugberg: The invisible weight of being a builder",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/the-bugberg-the-invisible-weight-of-being-a-builder",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-17T16:06:25.000Z",
+          "tags": [
+            "bug"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-41a53c90fe6a8cff",
+          "title": "Parasoft MeetUp in Amsterdam",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/parasoft-meetup-in-amsterdam",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-17T15:11:11.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-9e486d5dad245553",
+          "title": "Bugberg: What lurks beneath",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/bugberg-what-lurks-beneath",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-17T15:10:57.000Z",
+          "tags": [
+            "bug"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-686df0a2038eb136",
+          "title": "19th meetup of MoT Athens chapter",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/19th-meetup-of-mot-athens-chapter",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-17T14:52:33.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "martin-fowler-64322f58dae65d1f",
+          "title": "Deterministic Simulation Testing",
+          "summary": "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how determin...",
+          "description": "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how deterministic simulation testing addresses this by replacing real clocks, networks, and storage with simulated components driven by a single-threaded execution loop.",
+          "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+          "source": "Martin Fowler",
+          "category": "test-automation",
+          "publishedAt": "2026-11-17T14:33:00.000Z",
+          "tags": [
+            "testing",
+            "ai"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-ac22427c0a10a763",
+          "title": "Bugberg of ilities",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/bugberg-of-ilities",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-17T14:00:27.000Z",
+          "tags": [
+            "bug"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-ddbbfc1164fedfca",
+          "title": "9 reflections on being a solo quality engineer",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/insights/9-reflections-on-being-a-solo-quality-engineer",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-17T12:50:00.000Z",
+          "tags": [],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-83cce513e67f6517",
+          "title": "The BugBerg: Beyond the Surface of Software Testing",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/the-bugberg-beyond-the-surface-of-software-testing",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-17T12:29:52.000Z",
+          "tags": [
+            "testing",
+            "bug"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-dca7333efb6fe829",
+          "title": "Qwik 2.0 RC: Replaces HTML Comment Markers for Faster Reactivity and Out-of-Order Streaming",
+          "summary": "Qwik 2.0 Release Candidate, published on 1 October 2026, replaces v1's HTML comment markers with two script blocks that hold state and virtual node data. It adds experimental out-of-order streaming, a...",
+          "description": "Qwik 2.0 Release Candidate, published on 1 October 2026, replaces v1's HTML comment markers with two script blocks that hold state and virtual node data. It adds experimental out-of-order streaming, async useComputed$, and cacheable route loaders. Qwik's benchmarks show v2 at 1.23x vanilla JavaScript, versus 2.59x for v1. A migration command is provided. By Daniel Curtis",
+          "url": "https://www.infoq.com/news/2026/11/quik-2-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "tooling",
+          "publishedAt": "2026-11-17T12:25:00.000Z",
+          "tags": [
+            "javascript",
+            "react"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "release",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-c310f05bdd6f15fe",
+          "title": "Datadog Brings Production Experimentation to AI Agent Observability",
+          "summary": "Datadog is extending its Agent Observability platform with Online Experiments, allowing engineering teams to compare AI agent versions against real production traffic rather than relying exclusively o...",
+          "description": "Datadog is extending its Agent Observability platform with Online Experiments, allowing engineering teams to compare AI agent versions against real production traffic rather than relying exclusively on predefined evaluation datasets. By Craig Risi",
+          "url": "https://www.infoq.com/news/2026/11/datadog-ai-agent-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-17T12:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-e715034833e4517c",
+          "title": "The Bugberg challenge: show us what lurks beneath your bugs",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/news/the-bugberg-challenge-show-us-what-lurks-beneath-your-bugs",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-17T12:00:00.000Z",
+          "tags": [
+            "bug"
+          ],
+          "score": 54,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-e0c08e1adcec1c46",
+          "title": "Microsoft Releases .NET 11: C# 15 Union Types, Native AOT CLI Host, and CoreCLR by Default in MAUI",
+          "summary": "Microsoft has released .NET 11, a Standard Term Support release with two years of support. It ships C# 15 with union types and closed hierarchies, a Native AOT CLI host, a preview of Runtime Async, Zs...",
+          "description": "Microsoft has released .NET 11, a Standard Term Support release with two years of support. It ships C# 15 with union types and closed hierarchies, a Native AOT CLI host, a preview of Runtime Async, Zstandard compression, asynchronous validation and OpenAPI 3.2 in ASP.NET Core, CoreCLR as the default runtime in .NET MAUI, and EF Core 11 with experimental vector search. By Almir Vuk",
+          "url": "https://www.infoq.com/news/2026/11/dotnet-11-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "tooling",
+          "publishedAt": "2026-11-17T11:50:00.000Z",
+          "tags": [
+            "api"
+          ],
+          "score": 74,
+          "priority": "HIGH",
+          "reason": [
+            "release",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-501d51dbf73f3e5c",
+          "title": "The Bugberg: where the root cause lies, and how exploratory testing is always there",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/the-bugberg-where-the-root-cause-lies-and-how-exploratory-testing-is-always-there",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-17T11:40:42.000Z",
+          "tags": [
+            "testing",
+            "bug"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-32dce5dde1bdef0f",
+          "title": "We want to hear from you: State of Testing™ 2027",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/we-want-to-hear-from-you-state-of-testing-2027",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-17T11:10:01.000Z",
+          "tags": [
+            "testing"
+          ],
+          "score": 79,
+          "priority": "HIGH",
+          "reason": [
+            "testing",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-104e97f33dfc3e20",
+          "title": "Production AI, Architecture Trade-offs & Team Design: InfoQ Opens Registration for 6 January Cohorts",
+          "summary": "From agent reliability to architecture decisions and delivery bottlenecks, InfoQ’s January 2027 cohorts give senior practitioners five weeks to examine current challenges, test approaches in their own...",
+          "description": "From agent reliability to architecture decisions and delivery bottlenecks, InfoQ’s January 2027 cohorts give senior practitioners five weeks to examine current challenges, test approaches in their own work, and compare results with peers. By Artenisa Chatziou",
+          "url": "https://www.infoq.com/news/2026/11/onlinecohort-jan27-certification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-17T11:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 73,
+          "priority": "HIGH",
+          "reason": [
+            "agent",
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-818229adfee301d9",
+          "title": "Presentation: Scaling LLM-Based Ranking Systems for Latency-Critical Search & Recommendation Workloads",
+          "summary": "Sundara Raman Ramachandran shares how LinkedIn productionizes LLM ranking under strict P99 latency SLAs. He discusses distilling a 7B model down to 400M parameters, compressing job contexts into singl...",
+          "description": "Sundara Raman Ramachandran shares how LinkedIn productionizes LLM ranking under strict P99 latency SLAs. He discusses distilling a 7B model down to 400M parameters, compressing job contexts into single-token embeddings for a 10x throughput leap, and eliminating hidden system bottlenecks - from custom flash attention masks to Python GIL workarounds, gc.freeze, and non-blocking CUDA memory copies.",
+          "url": "https://www.infoq.com/presentations/scale-llm-ranking-systems-linkedin/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "ai",
+          "publishedAt": "2026-11-17T11:00:00.000Z",
+          "tags": [
+            "python",
+            "llm"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-ba9d7118776cc79c",
+          "title": "When driving from A to B, very rarely is A or B the highlight of your trip",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/when-driving-from-a-to-b-very-rarely-is-a-or-b-the-highlight-of-your-trip",
+          "source": "Ministry of Testing",
+          "category": "engineering",
+          "publishedAt": "2026-11-17T10:39:48.000Z",
+          "tags": [],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "infoq-8607f7c04e11b84f",
+          "title": "Ten Years On, Google Updates the SRE Book for the AI Era",
+          "summary": "Google has announced a completely rewritten second edition of Site Reliability Engineering: How Google Runs Production Systems, ten years after the original book was published by O'Reilly Media. The u...",
+          "description": "Google has announced a completely rewritten second edition of Site Reliability Engineering: How Google Runs Production Systems, ten years after the original book was published by O'Reilly Media. The update reframes SRE around modern cloud architectures, platform engineering and AI workloads, while retaining the discipline's original emphasis on applying software engineering to operations.",
+          "url": "https://www.infoq.com/news/2026/11/google-sre-book-ai-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "source": "InfoQ",
+          "category": "engineering",
+          "publishedAt": "2026-11-17T09:00:00.000Z",
+          "tags": [
+            "update",
+            "ai"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-82a4d565371c10c9",
+          "title": "The First AI-Generated Test Is Easy. What About the Next Hundred?",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/the-first-ai-generated-test-is-easy-what-about-the-next-hundred",
+          "source": "Ministry of Testing",
+          "category": "test-automation",
+          "publishedAt": "2026-11-17T08:12:56.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 53,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "selenium-releases-a16d302add79223c",
+          "title": "Nightly",
+          "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
+          "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
+          "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+          "source": "Selenium Releases",
+          "category": "tooling",
+          "publishedAt": "2026-11-17T00:17:29.000Z",
+          "tags": [
+            "testing",
+            "github",
+            "api",
+            "rest",
+            "update",
+            "ai",
+            "release"
+          ],
+          "score": 52,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-0e7f690aa4ff229b",
+          "title": "Strengthening NATO and allied cyber defenses with AI",
+          "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+          "description": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "source": "OpenAI",
+          "category": "test-automation",
+          "publishedAt": "2026-11-17T00:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 67,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "openai-3b3be741a87f5e21",
+          "title": "Introducing OpenAI for Chile",
+          "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+          "description": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+          "url": "https://openai.com/index/introducing-openai-for-chile",
+          "source": "OpenAI",
+          "category": "tooling",
+          "publishedAt": "2026-11-17T00:00:00.000Z",
+          "tags": [
+            "ai"
+          ],
+          "score": 67,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-d8d10a91d28a316e",
+          "title": "Building Denver’s QA Community with David Ingraham",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/building-denver-s-qa-community-with-david-ingraham",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-16T23:35:45.000Z",
+          "tags": [],
+          "score": 72,
+          "priority": "HIGH",
+          "reason": [
+            "qa",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-0ccbd205b3a2d6ca",
+          "title": "Denver QA meetup with Leslie Brooks",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/denver-qa-meetup-with-leslie-brooks",
+          "source": "Ministry of Testing",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-16T23:23:50.000Z",
+          "tags": [],
+          "score": 72,
+          "priority": "HIGH",
+          "reason": [
+            "qa",
+            "recent"
+          ]
+        },
+        {
+          "id": "ministry-of-testing-7b094317c946d0a7",
+          "title": "Perspective framework - Person perspective",
+          "summary": "",
+          "url": "https://www.ministryoftesting.com/moments/perspective-framework-person-perspective",
+          "source": "Ministry of Testing",
+          "category": "tooling",
+          "publishedAt": "2026-11-16T22:16:37.000Z",
+          "tags": [],
+          "score": 51,
+          "priority": "MEDIUM",
+          "reason": [
+            "recent"
+          ]
+        },
         {
           "id": "openai-2d7a5d6b20fff3cd",
           "title": "Broadening access to AI for scientists",
@@ -16,11 +505,10 @@
           "tags": [
             "ai"
           ],
-          "score": 69,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -35,11 +523,10 @@
           "tags": [
             "ai"
           ],
-          "score": 69,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -53,11 +540,9 @@
           "tags": [
             "bug"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "infoq-1163349a882ce8fa",
@@ -74,11 +559,10 @@
             "ai",
             "llm"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "release",
-            "recent"
+            "release"
           ]
         },
         {
@@ -93,11 +577,10 @@
           "tags": [
             "ai"
           ],
-          "score": 74,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -109,11 +592,10 @@
           "category": "engineering",
           "publishedAt": "2026-11-16T13:29:23.000Z",
           "tags": [],
-          "score": 89,
+          "score": 85,
           "priority": "HIGH",
           "reason": [
-            "breaking",
-            "recent"
+            "breaking"
           ]
         },
         {
@@ -129,11 +611,9 @@
             "ai",
             "llm"
           ],
-          "score": 54,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "openai-d91fd06de7b8771e",
@@ -147,11 +627,10 @@
           "tags": [
             "ai"
           ],
-          "score": 69,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -167,11 +646,10 @@
             "security",
             "ai"
           ],
-          "score": 93,
+          "score": 90,
           "priority": "CRITICAL",
           "reason": [
-            "security",
-            "recent"
+            "security"
           ]
         },
         {
@@ -186,11 +664,10 @@
           "tags": [
             "ai"
           ],
-          "score": 73,
+          "score": 70,
           "priority": "HIGH",
           "reason": [
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -207,12 +684,11 @@
             "api",
             "ai"
           ],
-          "score": 98,
+          "score": 95,
           "priority": "CRITICAL",
           "reason": [
             "testing",
-            "agent",
-            "recent"
+            "agent"
           ]
         },
         {
@@ -228,11 +704,9 @@
             "github",
             "performance"
           ],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "ministry-of-testing-0c89c2df4e1cbbf1",
@@ -250,20 +724,38 @@
           ]
         },
         {
+          "id": "openai-b82b64ef90f76e66",
+          "title": "How Revolut raises ambition without lowering the bar",
+          "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+          "description": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+          "url": "https://openai.com/business/customer-stories/revolut",
+          "source": "OpenAI",
+          "category": "qa-practice",
+          "publishedAt": "2026-11-16T09:30:00.000Z",
+          "tags": [
+            "security",
+            "ai"
+          ],
+          "score": 105,
+          "priority": "CRITICAL",
+          "reason": [
+            "security",
+            "openai"
+          ]
+        },
+        {
           "id": "infoq-ac8f573389b501de",
           "title": "AWS Nitro Sandboxes Put Each EKS Pod in Its Own MicroVM with One RuntimeClass Field",
           "summary": "AWS has launched Nitro Sandboxes, running each opted-in EKS pod, ECS task or EC2 workload in its own Firecracker microVM with a separate kernel, enabled by one runtimeClassName field at no extra charg...",
           "description": "AWS has launched Nitro Sandboxes, running each opted-in EKS pod, ECS task or EC2 workload in its own Firecracker microVM with a separate kernel, enabled by one runtimeClassName field at no extra charge. A confidential mode adds attestation-gated key release. The documentation lists the trade-offs: no GPU passthrough, at most five sandboxes per vCPU, and half the compute on SMT instances.",
           "url": "https://www.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
           "source": "InfoQ",
-          "category": "tooling",
+          "category": "engineering",
           "publishedAt": "2026-11-16T09:07:00.000Z",
           "tags": [],
-          "score": 53,
+          "score": 50,
           "priority": "MEDIUM",
-          "reason": [
-            "recent"
-          ]
+          "reason": []
         },
         {
           "id": "openai-ff7833693fa2a067",
@@ -277,11 +769,10 @@
           "tags": [
             "ai"
           ],
-          "score": 68,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -331,11 +822,10 @@
           "tags": [
             "ai"
           ],
-          "score": 68,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -347,12 +837,11 @@
           "category": "ai",
           "publishedAt": "2026-11-16T06:00:00.000Z",
           "tags": [],
-          "score": 88,
+          "score": 85,
           "priority": "HIGH",
           "reason": [
             "agent",
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -365,36 +854,11 @@
           "category": "ai",
           "publishedAt": "2026-11-16T06:00:00.000Z",
           "tags": [],
-          "score": 88,
+          "score": 85,
           "priority": "HIGH",
           "reason": [
             "agent",
-            "openai",
-            "recent"
-          ]
-        },
-        {
-          "id": "selenium-releases-a16d302add79223c",
-          "title": "Nightly",
-          "summary": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Moch...",
-          "description": "What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command ids atomically by @AutomatedTester in #18262 [py] Add WebDriver cookie type...",
-          "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-          "source": "Selenium Releases",
-          "category": "tooling",
-          "publishedAt": "2026-11-16T00:18:03.000Z",
-          "tags": [
-            "testing",
-            "github",
-            "api",
-            "rest",
-            "update",
-            "ai",
-            "release"
-          ],
-          "score": 52,
-          "priority": "MEDIUM",
-          "reason": [
-            "recent"
+            "openai"
           ]
         },
         {
@@ -409,11 +873,26 @@
           "tags": [
             "ai"
           ],
-          "score": 67,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
+          ]
+        },
+        {
+          "id": "openai-3d4aeac88b69acfa",
+          "title": "At Holiday Extras, dots get to work before anyone asks",
+          "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+          "description": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+          "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+          "source": "OpenAI",
+          "category": "ai",
+          "publishedAt": "2026-11-16T00:00:00.000Z",
+          "tags": [],
+          "score": 65,
+          "priority": "MEDIUM",
+          "reason": [
+            "openai"
           ]
         }
       ]
@@ -434,11 +913,10 @@
           "tags": [
             "ai"
           ],
-          "score": 66,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -453,11 +931,10 @@
           "tags": [
             "ai"
           ],
-          "score": 66,
+          "score": 65,
           "priority": "MEDIUM",
           "reason": [
-            "openai",
-            "recent"
+            "openai"
           ]
         },
         {
@@ -7446,7 +7923,7 @@
     },
     {
       "weekOf": "2026-10-19",
-      "summary": "124 stories. Latest: PHP Patches Two Critical RCE Flaws That Were Already Under Attack; PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs; Scareware. Top categories: ai (45), engineering (41), tooling (20).",
+      "summary": "124 stories. Latest: PHP Patches Two Critical RCE Flaws That Were Already Under Attack; PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs; Scareware. Top categories: ai (46), engineering (41), tooling (19).",
       "items": [
         {
           "id": "infoq-54e042a2f8293cf6",
@@ -8503,7 +8980,7 @@
           "description": "Gergely Orosz is frustrated at those that entered his explicitly “No AI” essay competition and used AI. He goes on to say: When I start to suspect some part is AI about someone I don’t know: how can I tell how much of it is? And how much time and effort do I want to invest to figure out?",
           "url": "https://martinfowler.com/fragments/2026-10-21.html",
           "source": "Martin Fowler",
-          "category": "tooling",
+          "category": "ai",
           "publishedAt": "2026-10-21T16:51:00.000Z",
           "tags": [
             "react",
@@ -9490,7 +9967,7 @@
     },
     {
       "weekOf": "2026-10-12",
-      "summary": "6 stories. Latest: v10.1.0; Free Course: Steer AI Agents to Write Tests You Can Trust - Want to co-learn?; Joyful moment with Clare and Ady - MoTaCon 2026. Top categories: ai (2), engineering (2), tooling (2).",
+      "summary": "2 stories. Latest: v10.1.0; Free Course: Steer AI Agents to Write Tests You Can Trust - Want to co-learn?. Top categories: ai (1), tooling (1).",
       "items": [
         {
           "id": "webdriverio-releases-e110663b1b53dcf9",
@@ -9532,67 +10009,6 @@
           "reason": [
             "agent"
           ]
-        },
-        {
-          "id": "ministry-of-testing-5f2e95fe997b49f1",
-          "title": "Joyful moment with Clare and Ady - MoTaCon 2026",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/joyful-moment-with-clare-and-ady-motacon-2026",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-10-18T15:15:24.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-ea80950c1e30cdf5",
-          "title": "Google Adopts Pyrefly for Faster, More Accurate Python Type Checking",
-          "summary": "Google has replaced its long-standing Python type checker, Pytype, with Pyrefly, an open-source tool originally developed by Meta. The decision was driven by Pyrefly's advantages, including faster and...",
-          "url": "https://www.infoq.com/news/2026/10/google-pyrefly-python/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "tooling",
-          "publishedAt": "2026-10-18T15:00:00.000Z",
-          "tags": [
-            "python",
-            "ai"
-          ],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
-        },
-        {
-          "id": "infoq-509d8d6fb769181c",
-          "title": "AWS Introduces Preview of Well-Architected Agent",
-          "summary": "AWS recently announced the preview of the Well-Architected Agent, a service that analyzes environments against Well-Architected best practices and provides prioritized recommendations across cost, sec...",
-          "url": "https://www.infoq.com/news/2026/10/aws-well-architected-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "source": "InfoQ",
-          "category": "ai",
-          "publishedAt": "2026-10-18T14:29:00.000Z",
-          "tags": [
-            "performance",
-            "security",
-            "ai"
-          ],
-          "score": 70,
-          "priority": "HIGH",
-          "reason": [
-            "agent"
-          ]
-        },
-        {
-          "id": "ministry-of-testing-adae80030bb25685",
-          "title": "Thunders ⚡️ Swag 💙",
-          "summary": "",
-          "url": "https://www.ministryoftesting.com/moments/thunders-swag",
-          "source": "Ministry of Testing",
-          "category": "engineering",
-          "publishedAt": "2026-10-18T10:20:10.000Z",
-          "tags": [],
-          "score": 50,
-          "priority": "MEDIUM",
-          "reason": []
         }
       ]
     }
