@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "updatedAt": "2026-11-17T07:32:17.737Z",
+  "updatedAt": "2026-11-17T08:23:11.506Z",
   "items": [
     {
       "id": "openai-2d7a5d6b20fff3cd",
@@ -68,7 +68,6 @@
       "publishedAt": "2026-11-16T15:25:00.000Z",
       "tags": [
         "react",
-        "release",
         "feature",
         "ai",
         "llm"
@@ -257,9 +256,7 @@
       "source": "InfoQ",
       "category": "tooling",
       "publishedAt": "2026-11-16T09:07:00.000Z",
-      "tags": [
-        "release"
-      ],
+      "tags": [],
       "score": 53,
       "priority": "MEDIUM",
       "reason": [
@@ -388,9 +385,9 @@
         "github",
         "api",
         "rest",
-        "release",
         "update",
-        "ai"
+        "ai",
+        "release"
       ],
       "score": 52,
       "priority": "MEDIUM",
@@ -631,7 +628,6 @@
       "tags": [
         "database",
         "sql",
-        "release",
         "ai"
       ],
       "score": 70,
@@ -647,13 +643,14 @@
       "description": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ Browser Versions Chromium 159.0.8154.6 Mozilla Firefox 159.0 WebKit 27.2",
       "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
       "source": "Playwright",
-      "category": "test-automation",
+      "category": "tooling",
       "publishedAt": "2026-11-13T21:46:58.000Z",
       "tags": [
         "playwright",
         "github",
         "bug",
-        "ai"
+        "ai",
+        "release"
       ],
       "score": 50,
       "priority": "MEDIUM",
@@ -744,7 +741,6 @@
       "publishedAt": "2026-11-13T16:00:00.000Z",
       "tags": [
         "rest",
-        "release",
         "ai"
       ],
       "score": 70,
@@ -765,8 +761,8 @@
       "tags": [
         "github",
         "performance",
-        "release",
-        "ai"
+        "ai",
+        "release"
       ],
       "score": 50,
       "priority": "MEDIUM",
@@ -861,16 +857,16 @@
       "description": "k6 v1.8.3 is here! This patch release includes: A browser fix for clicking a missing element handle Security updates for golang.org/x/net and github.com/klauspost/compress Updates to the JavaScript runtime and other dependencies Security updates #6667 Updates golang.org/x/net to v0.62.0 and github.com/klauspost/compress to v1.20.4 to address known vulnerabilities.",
       "url": "https://github.com/grafana/k6/releases/tag/v1.8.3",
       "source": "Grafana k6 Releases",
-      "category": "qa-practice",
+      "category": "tooling",
       "publishedAt": "2026-11-13T13:35:31.000Z",
       "tags": [
         "javascript",
         "github",
         "security",
-        "release",
         "update",
         "bug",
-        "ai"
+        "ai",
+        "release"
       ],
       "score": 110,
       "priority": "CRITICAL",

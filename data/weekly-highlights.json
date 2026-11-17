@@ -70,7 +70,6 @@
           "publishedAt": "2026-11-16T15:25:00.000Z",
           "tags": [
             "react",
-            "release",
             "feature",
             "ai",
             "llm"
@@ -259,9 +258,7 @@
           "source": "InfoQ",
           "category": "tooling",
           "publishedAt": "2026-11-16T09:07:00.000Z",
-          "tags": [
-            "release"
-          ],
+          "tags": [],
           "score": 53,
           "priority": "MEDIUM",
           "reason": [
@@ -390,9 +387,9 @@
             "github",
             "api",
             "rest",
-            "release",
             "update",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 52,
           "priority": "MEDIUM",
@@ -423,7 +420,7 @@
     },
     {
       "weekOf": "2026-11-09",
-      "summary": "123 stories. Latest: A step toward defining the Standard Model on a lattice; Our new blog for science; Uber's Secure AI Framework Governs Autonomous AI Agents across Their Lifecycle. Top categories: ai (46), engineering (30), tooling (24).",
+      "summary": "123 stories. Latest: A step toward defining the Standard Model on a lattice; Our new blog for science; Uber's Secure AI Framework Governs Autonomous AI Agents across Their Lifecycle. Top categories: ai (46), engineering (30), tooling (28).",
       "items": [
         {
           "id": "openai-2e8f421d2ee2a3df",
@@ -639,7 +636,6 @@
           "tags": [
             "database",
             "sql",
-            "release",
             "ai"
           ],
           "score": 70,
@@ -655,13 +651,14 @@
           "description": "Bug Fixes #43936 [Regression]: decorated class with a static field fails to load in 1.65 (\"_initClass is not a function\") with useDefineForClassFields: false #43934 [Bug]: Test locations are one column off under Bun 1.4.4+ Browser Versions Chromium 159.0.8154.6 Mozilla Firefox 159.0 WebKit 27.2",
           "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.1",
           "source": "Playwright",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-11-13T21:46:58.000Z",
           "tags": [
             "playwright",
             "github",
             "bug",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -752,7 +749,6 @@
           "publishedAt": "2026-11-13T16:00:00.000Z",
           "tags": [
             "rest",
-            "release",
             "ai"
           ],
           "score": 70,
@@ -773,8 +769,8 @@
           "tags": [
             "github",
             "performance",
-            "release",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -869,16 +865,16 @@
           "description": "k6 v1.8.3 is here! This patch release includes: A browser fix for clicking a missing element handle Security updates for golang.org/x/net and github.com/klauspost/compress Updates to the JavaScript runtime and other dependencies Security updates #6667 Updates golang.org/x/net to v0.62.0 and github.com/klauspost/compress to v1.20.4 to address known vulnerabilities.",
           "url": "https://github.com/grafana/k6/releases/tag/v1.8.3",
           "source": "Grafana k6 Releases",
-          "category": "qa-practice",
+          "category": "tooling",
           "publishedAt": "2026-11-13T13:35:31.000Z",
           "tags": [
             "javascript",
             "github",
             "security",
-            "release",
             "update",
             "bug",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 110,
           "priority": "CRITICAL",
@@ -927,8 +923,7 @@
           "category": "tooling",
           "publishedAt": "2026-11-13T11:54:41.000Z",
           "tags": [
-            "automation",
-            "release"
+            "automation"
           ],
           "score": 95,
           "priority": "CRITICAL",
@@ -1184,7 +1179,7 @@
           "description": "k6 v2.4.0 is here 🎉! This release includes: Experimental tracing of test runs, scenarios, VUs, and iterations. Ed25519 signatures and X25519 key agreement in WebCrypto. Credential-header redaction for HTTP and gRPC debug logs. Structured gRPC error details. Fixes for browser selectors, JavaScript memory leaks, and asynchronous error reporting.",
           "url": "https://github.com/grafana/k6/releases/tag/v2.4.0",
           "source": "Grafana k6 Releases",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-11-12T13:27:33.000Z",
           "tags": [
             "javascript",
@@ -1192,11 +1187,11 @@
             "docker",
             "api",
             "security",
-            "release",
             "update",
             "feature",
             "bug",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 70,
           "priority": "HIGH",
@@ -1284,7 +1279,6 @@
           "category": "tooling",
           "publishedAt": "2026-11-12T10:23:00.000Z",
           "tags": [
-            "release",
             "ai"
           ],
           "score": 70,
@@ -1374,7 +1368,8 @@
             "react",
             "github",
             "api",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -1991,8 +1986,7 @@
           "category": "tooling",
           "publishedAt": "2026-11-10T06:33:00.000Z",
           "tags": [
-            "typescript",
-            "release"
+            "typescript"
           ],
           "score": 85,
           "priority": "HIGH",
@@ -2027,7 +2021,7 @@
           "description": "🥟 Run tests with Bun The test runner now runs under Bun. Bun transpiles your TypeScript test files itself, so Playwright does not use Babel or its compilation cache. Pass the --bun flag, because without it bunx playwright test runs on Node.js: bunx --bun playwright test Our CI runs the test runner tests under Bun 1.4.3 on Linux. Some features work differently under Bun: There is no watch mode.",
           "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
           "source": "Playwright",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-11-09T21:03:39.000Z",
           "tags": [
             "typescript",
@@ -2037,7 +2031,8 @@
             "api",
             "rest",
             "feature",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 85,
           "priority": "HIGH",
@@ -2074,7 +2069,6 @@
           "category": "tooling",
           "publishedAt": "2026-11-09T18:40:00.000Z",
           "tags": [
-            "release",
             "feature"
           ],
           "score": 70,
@@ -2092,9 +2086,7 @@
           "source": "InfoQ",
           "category": "ai",
           "publishedAt": "2026-11-09T15:44:00.000Z",
-          "tags": [
-            "release"
-          ],
+          "tags": [],
           "score": 70,
           "priority": "HIGH",
           "reason": [
@@ -2115,9 +2107,9 @@
             "vitest",
             "github",
             "api",
-            "release",
             "update",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -2582,7 +2574,6 @@
             "javascript",
             "react",
             "database",
-            "release",
             "ai"
           ],
           "score": 70,
@@ -2595,7 +2586,7 @@
     },
     {
       "weekOf": "2026-11-02",
-      "summary": "171 stories. Latest: Entire's Git Forge Rethinks Git Collaboration for Coding Agents; Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal; Cloudflare Scales D1 Control Plane to Millions of Databases. Top categories: engineering (76), ai (31), qa-practice (31).",
+      "summary": "171 stories. Latest: Entire's Git Forge Rethinks Git Collaboration for Coding Agents; Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal; Cloudflare Scales D1 Control Plane to Millions of Databases. Top categories: engineering (75), ai (30), qa-practice (28).",
       "items": [
         {
           "id": "infoq-a79db40329ff0cce",
@@ -3274,7 +3265,6 @@
           "category": "tooling",
           "publishedAt": "2026-11-07T11:00:00.000Z",
           "tags": [
-            "release",
             "ai"
           ],
           "score": 70,
@@ -3293,8 +3283,7 @@
           "category": "tooling",
           "publishedAt": "2026-11-07T09:49:00.000Z",
           "tags": [
-            "sql",
-            "release"
+            "sql"
           ],
           "score": 70,
           "priority": "HIGH",
@@ -3313,7 +3302,6 @@
           "publishedAt": "2026-11-07T06:54:00.000Z",
           "tags": [
             "typescript",
-            "release",
             "ai"
           ],
           "score": 85,
@@ -3334,7 +3322,6 @@
           "publishedAt": "2026-11-07T06:54:00.000Z",
           "tags": [
             "typescript",
-            "release",
             "ai"
           ],
           "score": 85,
@@ -3372,7 +3359,6 @@
           "category": "tooling",
           "publishedAt": "2026-11-06T14:25:00.000Z",
           "tags": [
-            "release",
             "update",
             "ai"
           ],
@@ -3390,7 +3376,6 @@
           "category": "tooling",
           "publishedAt": "2026-11-06T14:25:00.000Z",
           "tags": [
-            "release",
             "update",
             "ai"
           ],
@@ -3466,7 +3451,6 @@
           "publishedAt": "2026-11-06T12:00:00.000Z",
           "tags": [
             "devops",
-            "release",
             "ai"
           ],
           "score": 115,
@@ -3642,7 +3626,6 @@
           "tags": [
             "api",
             "security",
-            "release",
             "ai"
           ],
           "score": 135,
@@ -3665,7 +3648,6 @@
           "tags": [
             "api",
             "security",
-            "release",
             "ai"
           ],
           "score": 135,
@@ -3683,7 +3665,7 @@
           "description": "v10.2.0 (2026-11-06) 💥 Breaking Change wdio-cucumber-framework, wdio-cucumberjs-json-reporter #16236 fix(@wdio/cucumber-framework): use the values of Cucumber profiles, default strict to true, and report BeforeAll / AfterAll as hooks of the feature (@plum117) create-wdio, eslint-plugin-wdio, wdio-ai-service, wdio-allure-reporter, wdio-appium-service, wdio-browser-runner, wdio-cli,...",
           "url": "https://github.com/webdriverio/webdriverio/releases/tag/v10.2.0",
           "source": "WebdriverIO Releases",
-          "category": "qa-practice",
+          "category": "tooling",
           "publishedAt": "2026-11-06T02:02:23.000Z",
           "tags": [
             "node.js",
@@ -3695,7 +3677,8 @@
             "update",
             "feature",
             "bug",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 85,
           "priority": "HIGH",
@@ -3935,11 +3918,12 @@
           "description": "10.6.6 Core: Let StackBlitz embed the dev server again - #37176, thanks @kasperpeulen! Telemetry: Add VRT packages - #37124, thanks @shilman!",
           "url": "https://github.com/storybookjs/storybook/releases/tag/v10.6.6",
           "source": "Storybook Releases",
-          "category": "ai",
+          "category": "tooling",
           "publishedAt": "2026-11-05T16:30:11.000Z",
           "tags": [
             "github",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -4373,11 +4357,12 @@
           "description": "11.0.0-beta.0 Astro: Add init support, doc mention and ecosystem CI sandbox - #37122, thanks @Sidnioulz! Core: Fix composition refs with camelCase keys crashing the sidebar - #36703, thanks @obvious-autobuild! Core: Remove unused docs images from the published package - #37138, thanks @kasperpeulen! Sidebar: Avoid infinite recursion in focus callback - #37073, thanks @Sidnioulz!",
           "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-beta.0",
           "source": "Storybook Releases",
-          "category": "engineering",
+          "category": "tooling",
           "publishedAt": "2026-11-03T19:32:47.000Z",
           "tags": [
             "github",
-            "rest"
+            "rest",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -4410,7 +4395,6 @@
             "node.js",
             "vitest",
             "performance",
-            "release",
             "ai"
           ],
           "score": 50,
@@ -4852,7 +4836,7 @@
           "description": "v9.33.1 (2026-11-02) 👓 Spec Compliancy wdio-protocols, webdriver, webdriverio #16018 fix(webdriver): regenerate BiDi types for the script.EvaluationResult rename (v9 backport of #15977) (@plum117) 💥 Breaking Change create-wdio, eslint-plugin-wdio, wdio-allure-reporter, wdio-appium-service, wdio-browser-runner, wdio-cli, wdio-concise-reporter, wdio-config, wdio-cucumber-framework,...",
           "url": "https://github.com/webdriverio/webdriverio/releases/tag/v9.33.1",
           "source": "WebdriverIO Releases",
-          "category": "qa-practice",
+          "category": "tooling",
           "publishedAt": "2026-11-03T00:24:27.000Z",
           "tags": [
             "typescript",
@@ -4861,11 +4845,11 @@
             "github",
             "api",
             "rest",
-            "release",
             "update",
             "feature",
             "bug",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -4941,7 +4925,6 @@
           "tags": [
             "react",
             "sql",
-            "release",
             "feature",
             "ai"
           ],
@@ -4978,7 +4961,7 @@
           "description": "🚀 Features Add --last-failed to run only failed tests - by @sheremet-va in #11558 (82f63) Support Temporal.Instant and Temporal.ZonedDateTime in vi.setSystemTime() - by @Prajwal2246, Prajwal2246, Claude Opus 5.5 (1M context), @hi-ogawa and Codex (GPT-6) in #11321 (f150f) Introduce --since-last-run flag - by @sheremet-va in #11516 (08bd9) Expose per-retry/repeat attempt result - by @hi-ogawa,...",
           "url": "https://github.com/vitest-dev/vitest/releases/tag/v5.1.0",
           "source": "Vitest Releases",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-11-02T16:03:20.000Z",
           "tags": [
             "playwright",
@@ -4989,7 +4972,8 @@
             "update",
             "feature",
             "bug",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -5020,7 +5004,7 @@
           "description": "11.0.0-alpha.9 Addon Docs: Keep the code toggle focus ring visible - #37001, thanks @BaconMan1168! Addon Vitest: Keep non-array test.projects applying when appending storybook project - #36822, thanks @obvious-autobuild! Addons: Reduce a11y report size and retention in Vitest - #36202, thanks @solp721!",
           "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-alpha.9",
           "source": "Storybook Releases",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-11-02T15:20:10.000Z",
           "tags": [
             "typescript",
@@ -5030,7 +5014,8 @@
             "github",
             "api",
             "rest",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -5160,11 +5145,12 @@
           "description": "v10.1.1 (2026-11-02) 🐛 Bug Fix wdio-appium-service #16048 @wdio/appium-service: smoothen out the appium-service (@wswebcreation) Committers: 1 Wim Selles (@wswebcreation)",
           "url": "https://github.com/webdriverio/webdriverio/releases/tag/v10.1.1",
           "source": "WebdriverIO Releases",
-          "category": "qa-practice",
+          "category": "tooling",
           "publishedAt": "2026-11-02T08:45:29.000Z",
           "tags": [
             "github",
-            "bug"
+            "bug",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -5474,7 +5460,7 @@
     },
     {
       "weekOf": "2026-10-26",
-      "summary": "119 stories. Latest: Quality leadership; Hotel booked for MoTaCon 2027; AI Literacy. Top categories: ai (45), engineering (41), qa-practice (14).",
+      "summary": "119 stories. Latest: Quality leadership; Hotel booked for MoTaCon 2027; AI Literacy. Top categories: ai (45), engineering (40), qa-practice (13).",
       "items": [
         {
           "id": "ministry-of-testing-9f38728287bf1c11",
@@ -5563,7 +5549,6 @@
           "publishedAt": "2026-11-01T06:32:00.000Z",
           "tags": [
             "performance",
-            "release",
             "ai"
           ],
           "score": 70,
@@ -5614,7 +5599,6 @@
             "rest",
             "graphql",
             "security",
-            "release",
             "ai"
           ],
           "score": 110,
@@ -6172,7 +6156,7 @@
           "description": "Detailed Changelogs by Component Java | Python | DotNet | Ruby | JavaScript What's Changed [py] use local self-signed certificate for tests by @titusfortner in #18148 [build] scope RBE internet access to the tests that exercise Selenium Manager by @titusfortner in #18147 [rb] Do not pass a bare --proxy to Selenium Manager by @Mochxd in #18150 [rb] deprecate current behavior of ignoring Grid...",
           "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.52.0",
           "source": "Selenium Releases",
-          "category": "qa-practice",
+          "category": "tooling",
           "publishedAt": "2026-10-29T13:16:00.000Z",
           "tags": [
             "typescript",
@@ -6180,10 +6164,10 @@
             "python",
             "testing",
             "github",
-            "release",
             "update",
             "bug",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -6283,7 +6267,6 @@
           "category": "ai",
           "publishedAt": "2026-10-29T09:00:00.000Z",
           "tags": [
-            "release",
             "ai"
           ],
           "score": 74,
@@ -6787,11 +6770,12 @@
           "description": "10.6.5 Typescript: Exclude all dunderscore prefixed folders from production compilation - #36740, thanks @mrginglymus!",
           "url": "https://github.com/storybookjs/storybook/releases/tag/v10.6.5",
           "source": "Storybook Releases",
-          "category": "engineering",
+          "category": "tooling",
           "publishedAt": "2026-10-27T16:27:27.000Z",
           "tags": [
             "typescript",
-            "github"
+            "github",
+            "release"
           ],
           "score": 65,
           "priority": "MEDIUM",
@@ -7190,7 +7174,6 @@
           "publishedAt": "2026-10-26T16:25:16.000Z",
           "tags": [
             "cypress",
-            "release",
             "ai"
           ],
           "score": 50,
@@ -7342,12 +7325,13 @@
           "description": "10.6.4 Core: Skip TypeScript loader hook registration under Jest - #36790, thanks @obvious-autobuild!",
           "url": "https://github.com/storybookjs/storybook/releases/tag/v10.6.4",
           "source": "Storybook Releases",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-26T10:35:22.000Z",
           "tags": [
             "typescript",
             "jest",
-            "github"
+            "github",
+            "release"
           ],
           "score": 65,
           "priority": "MEDIUM",
@@ -7410,8 +7394,7 @@
           "category": "tooling",
           "publishedAt": "2026-10-26T08:00:00.000Z",
           "tags": [
-            "api",
-            "release"
+            "api"
           ],
           "score": 75,
           "priority": "HIGH",
@@ -7463,7 +7446,7 @@
     },
     {
       "weekOf": "2026-10-19",
-      "summary": "124 stories. Latest: PHP Patches Two Critical RCE Flaws That Were Already Under Attack; PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs; Scareware. Top categories: ai (45), engineering (41), tooling (17).",
+      "summary": "124 stories. Latest: PHP Patches Two Critical RCE Flaws That Were Already Under Attack; PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs; Scareware. Top categories: ai (45), engineering (41), tooling (20).",
       "items": [
         {
           "id": "infoq-54e042a2f8293cf6",
@@ -7473,9 +7456,7 @@
           "source": "InfoQ",
           "category": "tooling",
           "publishedAt": "2026-10-25T18:07:00.000Z",
-          "tags": [
-            "release"
-          ],
+          "tags": [],
           "score": 71,
           "priority": "HIGH",
           "reason": [
@@ -7492,7 +7473,6 @@
           "category": "ai",
           "publishedAt": "2026-10-25T18:00:00.000Z",
           "tags": [
-            "release",
             "ai",
             "llm"
           ],
@@ -7818,7 +7798,6 @@
           "category": "qa-practice",
           "publishedAt": "2026-10-23T11:06:34.000Z",
           "tags": [
-            "release",
             "bug"
           ],
           "score": 70,
@@ -7923,7 +7902,7 @@
           "description": "11.0.0-alpha.8 Addon-Docs: Prevent source transform from being applied twice on docs pages - #36061, thanks @webdevsamran! Angular: Read Component Metadata From Ivy Declarations - #36780, thanks @dvmhmdsd! Builder Vite: Report silent vite config discovery misses with a named warning - #36788, thanks @obvious-autobuild! CSF: Run csf-tools on OXC instead of Babel - #36613, thanks @EastonShin!",
           "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-alpha.8",
           "source": "Storybook Releases",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-23T09:04:35.000Z",
           "tags": [
             "typescript",
@@ -8230,7 +8209,6 @@
           "category": "tooling",
           "publishedAt": "2026-10-22T09:33:00.000Z",
           "tags": [
-            "release",
             "ai"
           ],
           "score": 90,
@@ -8249,7 +8227,6 @@
           "category": "tooling",
           "publishedAt": "2026-10-22T09:33:00.000Z",
           "tags": [
-            "release",
             "ai"
           ],
           "score": 90,
@@ -8531,7 +8508,6 @@
           "tags": [
             "react",
             "api",
-            "release",
             "bug",
             "ai",
             "llm"
@@ -8699,8 +8675,7 @@
           "publishedAt": "2026-10-21T09:00:00.000Z",
           "tags": [
             "kubernetes",
-            "api",
-            "release"
+            "api"
           ],
           "score": 70,
           "priority": "HIGH",
@@ -8750,7 +8725,6 @@
           "category": "tooling",
           "publishedAt": "2026-10-21T08:15:00.000Z",
           "tags": [
-            "release",
             "update",
             "ai"
           ],
@@ -8952,7 +8926,6 @@
           "tags": [
             "github",
             "kubernetes",
-            "release",
             "ai"
           ],
           "score": 70,
@@ -9017,12 +8990,13 @@
           "description": "10.6.3 Addon Vitest: Support Vitest 5 - #36671, thanks @PaulMest! Next.js: Fix app-router mock crash on Next.js 16.4 - #36588, thanks @obvious-autobuild! Nextjs-Vite: Provide parentRenderTree.bfcacheId in app router mock - #36732, thanks @bhushan4work! TypeScript: Explicitly type returntype of ArgsStore#get - #36583, thanks @mrginglymus!",
           "url": "https://github.com/storybookjs/storybook/releases/tag/v10.6.3",
           "source": "Storybook Releases",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-20T09:50:15.000Z",
           "tags": [
             "typescript",
             "vitest",
-            "github"
+            "github",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -9072,9 +9046,9 @@
             "github",
             "api",
             "rest",
-            "release",
             "update",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -9139,7 +9113,6 @@
           "category": "tooling",
           "publishedAt": "2026-10-19T20:00:00.000Z",
           "tags": [
-            "release",
             "feature"
           ],
           "score": 70,
@@ -9190,7 +9163,7 @@
           "description": "🚀 Features Add --last-failed to run only failed tests - by @sheremet-va in #11558 (82f63) Support Temporal.Instant and Temporal.ZonedDateTime in vi.setSystemTime() - by @Prajwal2246, Prajwal2246, Claude Opus 5.5, Hiroshi Ogawa and Codex (GPT-6) in #11321 (f150f) Introduce --since-last-run flag - by @sheremet-va in #11516 (08bd9) Expose per-retry/repeat attempt result - by @hi-ogawa, Hiroshi...",
           "url": "https://github.com/vitest-dev/vitest/releases/tag/v5.1.0-beta.1",
           "source": "Vitest Releases",
-          "category": "test-automation",
+          "category": "tooling",
           "publishedAt": "2026-10-19T16:42:33.000Z",
           "tags": [
             "vitest",
@@ -9200,7 +9173,8 @@
             "update",
             "feature",
             "bug",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 50,
           "priority": "MEDIUM",
@@ -9397,8 +9371,7 @@
           "category": "ai",
           "publishedAt": "2026-10-19T10:00:00.000Z",
           "tags": [
-            "performance",
-            "release"
+            "performance"
           ],
           "score": 74,
           "priority": "HIGH",
@@ -9416,8 +9389,7 @@
           "category": "ai",
           "publishedAt": "2026-10-19T10:00:00.000Z",
           "tags": [
-            "performance",
-            "release"
+            "performance"
           ],
           "score": 70,
           "priority": "HIGH",
@@ -9453,7 +9425,6 @@
           "publishedAt": "2026-10-19T08:00:00.000Z",
           "tags": [
             "api",
-            "release",
             "update"
           ],
           "score": 73,
@@ -9488,7 +9459,6 @@
           "publishedAt": "2026-10-19T08:00:00.000Z",
           "tags": [
             "api",
-            "release",
             "update"
           ],
           "score": 70,
@@ -9507,7 +9477,6 @@
           "publishedAt": "2026-10-19T06:31:00.000Z",
           "tags": [
             "node.js",
-            "release",
             "update",
             "ai"
           ],
@@ -9538,7 +9507,8 @@
             "update",
             "feature",
             "bug",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 85,
           "priority": "HIGH",
