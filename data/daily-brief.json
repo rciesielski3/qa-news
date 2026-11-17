@@ -1,56 +1,62 @@
 {
   "date": "2026-11-17",
-  "updatedAt": "2026-11-17T08:23:09.992Z",
+  "updatedAt": "2026-11-17T17:13:01.187Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
-  "lede": "Daily brief highlighting news topics",
+  "lede": "Daily brief highlighting release and news topics",
   "items": [
     {
-      "id": "openai-2d7a5d6b20fff3cd",
-      "title": "Broadening access to AI for scientists",
-      "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "description": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "id": "vitest-releases-43c6806208d25a19",
+      "title": "v5.1.1",
+      "summary": "🚀 Features cache: Add fs module cache env variables - by @sheremet-va in #11859 (708c0) 🐞 Bug Fixes Rerun on file changes after a config restart - by @magurotuna in #11772 and #11829 (289ca) Avoid l...",
+      "description": "🚀 Features cache: Add fs module cache env variables - by @sheremet-va in #11859 (708c0) 🐞 Bug Fixes Rerun on file changes after a config restart - by @magurotuna in #11772 and #11829 (289ca) Avoid leaking the context expect - by @sheremet-va in #11845 (3c967) Report fixture teardown errors once - by @sheremet-va in #11857 (6b167) Improve diffs for asymmetric matchers - by @sheremet-va in...",
+      "url": "https://github.com/vitest-dev/vitest/releases/tag/v5.1.1",
+      "source": "Vitest Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-17T17:03:02.000Z",
       "tags": [
-        "ai"
+        "vitest",
+        "github",
+        "rest",
+        "performance",
+        "feature",
+        "bug",
+        "ai",
+        "release"
       ],
-      "score": 69,
+      "score": 54,
       "priority": "MEDIUM",
       "reason": [
-        "openai",
         "recent"
       ]
     },
     {
-      "id": "openai-dd659f011024f04f",
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
-      "description": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
-      "url": "https://openai.com/index/strengthening-online-child-safety",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-11-16T17:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 69,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-32ebe60d98b34a7b",
-      "title": "If Bug were an iceberg...BugBerg?",
+      "id": "ministry-of-testing-b5d542e45562da73",
+      "title": "BugBerg: What people see testing as versus what testing actually involves",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/if-bug-were-an-iceberg-bugberg",
+      "url": "https://www.ministryoftesting.com/moments/bugberg-what-people-see-testing-as-versus-what-testing-actually-involves",
       "source": "Ministry of Testing",
       "category": "qa-practice",
-      "publishedAt": "2026-11-16T15:28:25.000Z",
+      "publishedAt": "2026-11-17T16:53:53.000Z",
+      "tags": [
+        "testing",
+        "bug"
+      ],
+      "score": 79,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-7b51e896d22c12f8",
+      "title": "The Bugberg: The invisible weight of being a builder",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/the-bugberg-the-invisible-weight-of-being-a-builder",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-17T16:06:25.000Z",
       "tags": [
         "bug"
       ],
@@ -61,74 +67,30 @@
       ]
     },
     {
-      "id": "infoq-1163349a882ce8fa",
-      "title": "Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J",
-      "summary": "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of ...",
-      "description": "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of Spring AI and Spring Boot; first release candidates of Hibernate ORM and Hibernate Reactive; fourth milestone release of GlassFish; and the second milestone release of Apache TomEE. By Michael Redlich",
-      "url": "https://www.infoq.com/news/2026/11/java-news-roundup-nov09-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-16T15:25:00.000Z",
-      "tags": [
-        "react",
-        "feature",
-        "ai",
-        "llm"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-2b6d1f4408c492f7",
-      "title": "Uber’s Legal AI Agent Cuts Contract Review Time by 20% with Rules and RAG",
-      "summary": "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system r...",
-      "description": "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system reports more than 20% lower average contract review time and 91% accuracy in AI-generated decisions. Uber is exploring agentic harnesses, skills, legal ontologies, and knowledge graphs. By Leela Kumili",
-      "url": "https://www.infoq.com/news/2026/11/uber-legal-redlining-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-16T14:37:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-8a2f47c159e53d8a",
-      "title": "Learning with the system: breaking down the silos in how we learn and grow",
+      "id": "ministry-of-testing-41a53c90fe6a8cff",
+      "title": "Parasoft MeetUp in Amsterdam",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/learning-with-the-system-breaking-down-the-silos-in-how-we-learn-and-grow",
+      "url": "https://www.ministryoftesting.com/moments/parasoft-meetup-in-amsterdam",
       "source": "Ministry of Testing",
       "category": "engineering",
-      "publishedAt": "2026-11-16T13:29:23.000Z",
+      "publishedAt": "2026-11-17T15:11:11.000Z",
       "tags": [],
-      "score": 89,
-      "priority": "HIGH",
+      "score": 54,
+      "priority": "MEDIUM",
       "reason": [
-        "breaking",
         "recent"
       ]
     },
     {
-      "id": "infoq-61827bff0150a72b",
-      "title": "Airbnb Introduces CASTLE for Training Natural Language Search Models with Synthetic Data",
-      "summary": "Airbnb researchers have introduced CASTLE, a framework designed to address the cold-start problem in natural language search. The approach uses de-identified booking sessions and large language models...",
-      "description": "Airbnb researchers have introduced CASTLE, a framework designed to address the cold-start problem in natural language search. The approach uses de-identified booking sessions and large language models (LLMs) to jointly generate synthetic search queries and relevance labels, enabling model training before sufficient real search traffic is available. By Robert Krzaczyński",
-      "url": "https://www.infoq.com/news/2026/11/airbnb-castle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-16T12:25:00.000Z",
+      "id": "ministry-of-testing-9e486d5dad245553",
+      "title": "Bugberg: What lurks beneath",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/bugberg-what-lurks-beneath",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-17T15:10:57.000Z",
       "tags": [
-        "ai",
-        "llm"
+        "bug"
       ],
       "score": 54,
       "priority": "MEDIUM",
@@ -137,60 +99,88 @@
       ]
     },
     {
-      "id": "openai-d91fd06de7b8771e",
-      "title": "Science at the Frontier: How scientists use ChatGPT",
-      "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "description": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-11-16T12:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 69,
+      "id": "ministry-of-testing-686df0a2038eb136",
+      "title": "19th meetup of MoT Athens chapter",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/19th-meetup-of-mot-athens-chapter",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-17T14:52:33.000Z",
+      "tags": [],
+      "score": 54,
       "priority": "MEDIUM",
       "reason": [
-        "openai",
         "recent"
       ]
     },
     {
-      "id": "infoq-0e9ac986514e8aa5",
-      "title": "Podcast: Getting CRA Compliant Hardens the Code and Gets Your Company Closer to Digital Sovereignty",
-      "summary": "In this episode, Christopher \"CRob\" Robinson, CTO of OpenSSF, Akrites and Chief Security Architect of the Linux Foundation, explores the state of software supply chain security amid multiple security ...",
-      "description": "In this episode, Christopher \"CRob\" Robinson, CTO of OpenSSF, Akrites and Chief Security Architect of the Linux Foundation, explores the state of software supply chain security amid multiple security incidents and explains how tools like Scorecard, the Security Baseline framework, and SLSA help harden software. By Christopher Robinson",
-      "url": "https://www.infoq.com/podcasts/company-closer-digital-sovereignty/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-16T11:00:00.000Z",
+      "id": "martin-fowler-64322f58dae65d1f",
+      "title": "Deterministic Simulation Testing",
+      "summary": "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how determin...",
+      "description": "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how deterministic simulation testing addresses this by replacing real clocks, networks, and storage with simulated components driven by a single-threaded execution loop.",
+      "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+      "source": "Martin Fowler",
+      "category": "test-automation",
+      "publishedAt": "2026-11-17T14:33:00.000Z",
       "tags": [
-        "security",
+        "testing",
         "ai"
       ],
-      "score": 93,
-      "priority": "CRITICAL",
-      "reason": [
-        "security",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-1bd149295de94814",
-      "title": "Article: Governed Autonomous Intelligence for Mission-Critical Utility",
-      "summary": "The article describes an architecture for agentic AI in regulated utility operations. Agents reason and propose actions, but a deterministic policy gate and a governed tool gateway control execution, ...",
-      "description": "The article describes an architecture for agentic AI in regulated utility operations. Agents reason and propose actions, but a deterministic policy gate and a governed tool gateway control execution, with human approval where required. It covers an AWS reference implementation, grounding in runbooks, governed prediction, outcome validation, audit evidence, and phased autonomy. By Purnang Borah",
-      "url": "https://www.infoq.com/articles/utility-governed-autonomous-intelligence-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-16T11:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 73,
+      "score": 79,
       "priority": "HIGH",
       "reason": [
-        "agent",
+        "testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-ac22427c0a10a763",
+      "title": "Bugberg of ilities",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/bugberg-of-ilities",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-17T14:00:27.000Z",
+      "tags": [
+        "bug"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-ddbbfc1164fedfca",
+      "title": "9 reflections on being a solo quality engineer",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/insights/9-reflections-on-being-a-solo-quality-engineer",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-17T12:50:00.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-83cce513e67f6517",
+      "title": "The BugBerg: Beyond the Surface of Software Testing",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/the-bugberg-beyond-the-surface-of-software-testing",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-17T12:29:52.000Z",
+      "tags": [
+        "testing",
+        "bug"
+      ],
+      "score": 79,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
         "recent"
       ]
     }
