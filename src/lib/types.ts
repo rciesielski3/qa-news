@@ -16,6 +16,7 @@ export interface Article {
   category: Category;
   publishedAt: string; // ISO 8601 datetime
   tags?: string[];
+  score?: number; // Relevance score from the pipeline; higher is better
 }
 
 export interface DailyBrief {

@@ -108,6 +108,26 @@ export function getMonthArticles(articles: Article[]): Article[] {
 }
 
 /**
+ * Pick the top articles of a period by score (highest first). Ties go to the
+ * newer article; articles without a score rank last. The input is not changed.
+ *
+ * Every period page (today, week, month) uses this, so each shows the best
+ * articles of its own window instead of simply the newest ones.
+ *
+ * @param articles Articles of one period
+ * @param count Number of picks (default 3)
+ */
+export function selectTopPicks<T extends Article>(articles: T[], count = 3): T[] {
+  return [...articles]
+    .sort(
+      (a, b) =>
+        (b.score ?? -Infinity) - (a.score ?? -Infinity) ||
+        Date.parse(b.publishedAt) - Date.parse(a.publishedAt)
+    )
+    .slice(0, count);
+}
+
+/**
  * Apply category and tag filters to articles.
  *
  * **Filter Logic:**

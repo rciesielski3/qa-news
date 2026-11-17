@@ -7,7 +7,7 @@ import FilterBar from '@/components/FilterBar';
 import ArticleList from '@/components/ArticleList';
 import EmptyState from '@/components/EmptyState';
 import { useFiltering } from '@/hooks/useFiltering';
-import { applyFilters } from '@/lib/filtering';
+import { applyFilters, selectTopPicks } from '@/lib/filtering';
 import { getWeekArticles } from '@/lib/filtering';
 import { CATEGORIES_WITH_LABELS } from '@/lib/styles';
 
@@ -37,7 +37,7 @@ function WeeklyPageContent() {
   }, []);
 
   const weekArticles = getWeekArticles(articles);
-  const topPickArticles = weekArticles.slice(0, 3);
+  const topPickArticles = selectTopPicks(weekArticles);
   const topPickIds = new Set(topPickArticles.map((a) => a.id));
   const filteredArticles = applyFilters(weekArticles, filters);
 
