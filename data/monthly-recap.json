@@ -71,7 +71,6 @@
           "publishedAt": "2026-11-16T15:25:00.000Z",
           "tags": [
             "react",
-            "release",
             "feature",
             "ai",
             "llm"
@@ -260,9 +259,7 @@
           "source": "InfoQ",
           "category": "tooling",
           "publishedAt": "2026-11-16T09:07:00.000Z",
-          "tags": [
-            "release"
-          ],
+          "tags": [],
           "score": 53,
           "priority": "MEDIUM",
           "reason": [
@@ -391,9 +388,9 @@
             "github",
             "api",
             "rest",
-            "release",
             "update",
-            "ai"
+            "ai",
+            "release"
           ],
           "score": 52,
           "priority": "MEDIUM",
@@ -527,7 +524,6 @@
             "rest",
             "graphql",
             "security",
-            "release",
             "ai"
           ],
           "score": 110,
