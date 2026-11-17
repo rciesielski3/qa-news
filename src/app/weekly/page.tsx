@@ -7,8 +7,7 @@ import FilterBar from '@/components/FilterBar';
 import ArticleList from '@/components/ArticleList';
 import EmptyState from '@/components/EmptyState';
 import { useFiltering } from '@/hooks/useFiltering';
-import { applyFilters, selectTopPicks } from '@/lib/filtering';
-import { getWeekArticles } from '@/lib/filtering';
+import { applyFilters, getWeekArticles, selectTopPicks } from '@/lib/filtering';
 import { CATEGORIES_WITH_LABELS } from '@/lib/styles';
 
 function WeeklyPageContent() {

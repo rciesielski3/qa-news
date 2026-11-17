@@ -12,7 +12,6 @@ import RefreshIndicator from '@/components/RefreshIndicator';
 import { useFiltering } from '@/hooks/useFiltering';
 import { useArticleData } from '@/hooks/useArticleData';
 import { applyFilters, selectTopPicks } from '@/lib/filtering';
-import { getTodayArticles } from '@/lib/filtering';
 import { CATEGORIES_WITH_LABELS } from '@/lib/styles';
 
 function DailyPageContent() {

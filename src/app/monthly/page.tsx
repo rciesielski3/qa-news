@@ -7,8 +7,7 @@ import FilterBar from '@/components/FilterBar';
 import ArticleList from '@/components/ArticleList';
 import EmptyState from '@/components/EmptyState';
 import { useFiltering } from '@/hooks/useFiltering';
-import { applyFilters, selectTopPicks } from '@/lib/filtering';
-import { getMonthArticles } from '@/lib/filtering';
+import { applyFilters, getMonthArticles, selectTopPicks } from '@/lib/filtering';
 import { CATEGORIES_WITH_LABELS } from '@/lib/styles';
 
 function MonthlyPageContent() {

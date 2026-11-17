@@ -39,6 +39,32 @@ describe('selectTopPicks', () => {
     expect(selectTopPicks(articles).map((a) => a.id)).toEqual(['scored', 'unscored']);
   });
 
+  it('orders several unscored articles by date and keeps a score of 0 above them', () => {
+    const articles = [
+      article('unscored-old', '2026-11-10T10:00:00Z'),
+      article('zero', '2026-11-01T10:00:00Z', 0),
+      article('unscored-new', '2026-11-17T10:00:00Z'),
+    ];
+    expect(selectTopPicks(articles).map((a) => a.id)).toEqual(['zero', 'unscored-new', 'unscored-old']);
+  });
+
+  it('ranks an unreadable date last among equal scores', () => {
+    const articles = [
+      article('bad-date', 'not a date', 10),
+      article('dated', '2026-11-01T10:00:00Z', 10),
+      article('newer', '2026-11-02T10:00:00Z', 10),
+    ];
+    expect(selectTopPicks(articles).map((a) => a.id)).toEqual(['newer', 'dated', 'bad-date']);
+  });
+
+  it('treats a non-numeric score as unscored', () => {
+    const articles = [
+      { ...article('string-score', '2026-11-17T10:00:00Z'), score: 'abc' as unknown as number },
+      article('scored', '2026-11-01T10:00:00Z', 1),
+    ];
+    expect(selectTopPicks(articles).map((a) => a.id)).toEqual(['scored', 'string-score']);
+  });
+
   it('does not reorder the input list', () => {
     const articles = [article('a', '2026-11-17T10:00:00Z', 1), article('b', '2026-11-16T10:00:00Z', 9)];
     selectTopPicks(articles);
