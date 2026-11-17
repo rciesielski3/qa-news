@@ -11,8 +11,7 @@ import EmptyState from '@/components/EmptyState';
 import RefreshIndicator from '@/components/RefreshIndicator';
 import { useFiltering } from '@/hooks/useFiltering';
 import { useArticleData } from '@/hooks/useArticleData';
-import { applyFilters } from '@/lib/filtering';
-import { getTodayArticles } from '@/lib/filtering';
+import { applyFilters, selectTopPicks } from '@/lib/filtering';
 import { CATEGORIES_WITH_LABELS } from '@/lib/styles';
 
 function DailyPageContent() {
@@ -20,7 +19,7 @@ function DailyPageContent() {
   const { filters, updateFilters, clearFilters } = useFiltering();
 
   const todayArticles = articles; // Already filtered by hook
-  const topPickArticles = todayArticles.slice(0, 3);
+  const topPickArticles = selectTopPicks(todayArticles);
   const topPickIds = new Set(topPickArticles.map((a) => a.id));
   const filteredArticles = applyFilters(todayArticles, filters);
 
