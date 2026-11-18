@@ -9,6 +9,7 @@ import FilterBar from '@/components/FilterBar';
 import ArticleList from '@/components/ArticleList';
 import EmptyState from '@/components/EmptyState';
 import RefreshIndicator from '@/components/RefreshIndicator';
+import TrendingRepos from '@/components/TrendingRepos';
 import { useFiltering } from '@/hooks/useFiltering';
 import { useArticleData } from '@/hooks/useArticleData';
 import { applyFilters, selectTopPicks } from '@/lib/filtering';
@@ -54,6 +55,9 @@ function DailyPageContent() {
           <p className="text-paper-muted">No top picks for today.</p>
         )}
       </section>
+
+      {/* New & notable GitHub repos (hidden when trending.json is missing or empty) */}
+      <TrendingRepos />
 
       {/* Filters */}
       <section>
