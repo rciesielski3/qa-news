@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T06:07:32.523Z",
+  "updatedAt": "2026-11-18T07:44:11.811Z",
   "items": [
     {
       "id": "selenium-releases-a16d302add79223c",
@@ -9775,25 +9775,6 @@
       "score": 50,
       "priority": "MEDIUM",
       "reason": []
-    },
-    {
-      "id": "infoq-f6f87a3d0bc5b9f5",
-      "title": "NestJS 12: ESM Packages, Standard Schema Validation and Native Observability",
-      "summary": "NestJS version 12 has been released, transitioning core packages to ESM and adding Standard Schema validation. It updates the CLI and introduces an observability SDK. Key changes include project gener...",
-      "url": "https://www.infoq.com/news/2026/10/nestjs-12-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-10-19T06:31:00.000Z",
-      "tags": [
-        "node.js",
-        "update",
-        "ai"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "release"
-      ]
     }
   ]
 }
