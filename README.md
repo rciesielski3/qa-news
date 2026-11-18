@@ -1,8 +1,8 @@
 # QA News
 
-Public, read-only portal over the PAIOS Knowledge Layer. Daily Brief, Latest
-News, Weekly Highlights, Monthly Recap. No business logic, no AI execution —
-QA News only renders what PAIOS already curated.
+Public, read-only portal over the ChiefofStaff article pipeline: Daily,
+Weekly and Monthly views of curated QA news. No business logic, no AI
+execution — QA News only renders what the pipeline already curated.
 
 ## Stack
 
@@ -17,44 +17,16 @@ npm run dev       # http://localhost:3000
 npm run build     # writes the static site to ./out
 ```
 
-## Architecture: one seam, not a framework
+## Data
 
-Everything lives behind four functions in `src/lib/data.ts`:
+The site reads a single file, `public/latest.json`: every article from the
+last 30 days, written by the ChiefofStaff `export-qa-news` workflow (one PR
+per export, auto-merged). The Daily, Weekly and Monthly pages fetch it in the
+browser and filter by period (`src/lib/filtering.ts`), so there are no
+per-period JSON files. `src/lib/types.ts` describes the article shape.
 
-```ts
-getDailyBrief();
-getLatestNews();
-getWeeklyHighlights();
-getMonthlyRecaps();
-```
-
-Right now they read the JSON fixtures in `/data`. Those fixtures are
-placeholder content, written to match the real PAIOS response shape
-(`src/lib/types.ts`) so the frontend can be built and reviewed before the
-PAIOS Public API exists.
-
-**Wiring the real API later** means rewriting those 4 functions to fetch,
-e.g.:
-
-```ts
-export async function getDailyBrief(): Promise<DailyBrief> {
-  const res = await fetch(`${process.env.PAIOS_API_URL}/daily-brief`);
-  return res.json();
-}
-```
-
-Nothing else in the app should need to change — every component only knows
-about the types in `lib/types.ts`, never about where the data came from.
-
-## Why the data is fetched at build time, not runtime
-
-The site is a static export, so `getDailyBrief()` etc. run once, during
-`npm run build` — not per visitor. Freshness comes from re-running the
-build, not from client-side polling. `.github/workflows/deploy.yml` rebuilds
-on every push to `main`; there's a commented-out daily cron in there for
-once the real API is live, so the Daily Brief actually updates daily without
-a manual push. This mirrors the OCDP pattern: scheduled, autonomous, no
-standing server.
+Each merge to `main` triggers `.github/workflows/deploy.yml`, which rebuilds
+the static site.
 
 ## Deploying to GitHub Pages
 
@@ -84,8 +56,8 @@ custom-domain setup above.
 ## Explicitly out of scope for this stage
 
 Per the brief: search and a full archive are a later stage. `/weekly` and
-`/monthly` currently render everything in the fixture data inline — no
-per-week or per-month detail pages, no pagination. Adding those later means
+`/monthly` show the matching slice of `latest.json` — no per-week or
+per-month detail pages. Adding those later means
 adding `generateStaticParams` to new dynamic routes; nothing in the current
 structure blocks that, it's just not built yet.
 
