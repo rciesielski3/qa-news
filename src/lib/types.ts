@@ -27,16 +27,3 @@ export interface DailyBrief {
   lede: string; // 2-3 sentence human-readable summary of the day
   items: Article[];
 }
-
-export interface WeeklyHighlight {
-  weekOf: string; // ISO date of the Monday that starts the week
-  summary: string;
-  items: Article[];
-}
-
-export interface MonthlyRecap {
-  month: string; // "2026-06"
-  summary: string;
-  themes: { title: string; description: string }[];
-  items: Article[];
-}
