@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T08:09:03.121Z",
+  "updatedAt": "2026-11-18T10:39:24.951Z",
   "items": [
     {
       "id": "selenium-releases-a16d302add79223c",
@@ -9690,57 +9690,6 @@
       "score": 50,
       "priority": "MEDIUM",
       "reason": []
-    },
-    {
-      "id": "ministry-of-testing-f9208d0b1b718231",
-      "title": "The curious case of the self correcting bug",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/the-curious-case-of-the-self-correcting-bug",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-10-19T10:27:03.000Z",
-      "tags": [
-        "bug"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-1c85f41573c24e4c",
-      "title": "EmbeddingGemma 2 Expands Beyond Text to Support Code, Images, Video, and Audio",
-      "summary": "Based on Gemma 4 and released under the Apache 2.0 license, Google's EmbeddingGemma 2 is a compact, open-weight, multimodal embedding model designed to make semantic search and retrieval-augmented gen...",
-      "url": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-19T10:00:00.000Z",
-      "tags": [
-        "performance"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-f118c3f44c661381",
-      "title": "Buildkite Adds Scoped Secrets and New Agentic CI Tools",
-      "summary": "Continuous integration provider Buildkite has introduced pipeline-scoped secrets and new Model Context Protocol tools for validating pipelines, diagnosing failed builds and repairing webhooks. The com...",
-      "url": "https://www.infoq.com/news/2026/10/buildkite-ci-secrets-agentic/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-19T09:00:00.000Z",
-      "tags": [
-        "github",
-        "ai"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "agent"
-      ]
     }
   ]
 }
