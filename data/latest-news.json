@@ -1,7 +1,249 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T10:41:02.129Z",
+  "updatedAt": "2026-11-18T16:52:49.113Z",
   "items": [
+    {
+      "id": "ministry-of-testing-32f18ab3df682766",
+      "title": "Job title not found: careers beyond the label",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/job-title-not-found-careers-beyond-the-label",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-18T16:31:17.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-d682bafa3991c451",
+      "title": "You are slow. Use it wisely",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/you-are-slow-use-it-wisely",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-18T15:37:07.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-0e4ed03ce9d2d961",
+      "title": "Claude Meetings. My mind is blown.",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/claude-meetings-my-mind-is-blown",
+      "source": "Ministry of Testing",
+      "category": "ai",
+      "publishedAt": "2026-11-18T15:31:00.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-9852a80a732ebaf0",
+      "title": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
+      "summary": "LinkedIn deployed Apache Celeborn as a shared remote shuffle platform across most Spark and Flink workloads, reducing daily shuffle fetch failures from approximately 750 to 20. The deployment also low...",
+      "description": "LinkedIn deployed Apache Celeborn as a shared remote shuffle platform across most Spark and Flink workloads, reducing daily shuffle fetch failures from approximately 750 to 20. The deployment also lowered compute costs by 10%, improved application runtimes by 14%, and reduced shuffle costs per task by nearly 90% through dedicated storage, replication, and data-plane optimizations. By Leela Kumili",
+      "url": "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-18T15:05:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-e078bf88cc640c5a",
+      "title": "Why upgrades that look healthy still break production, and how to test for them",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/why-upgrades-that-look-healthy-still-break-production-and-how-to-test-for-them",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-18T14:44:06.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "martin-fowler-fb2525e22d3f7800",
+      "title": "Data Contracts",
+      "summary": "Data contracts are a way to describe the contents and guarantees of datasets. Simon Harrer and Arif Wider describe in detail what they are and how to use them. They apply practices from API design to ...",
+      "description": "Data contracts are a way to describe the contents and guarantees of datasets. Simon Harrer and Arif Wider describe in detail what they are and how to use them. They apply practices from API design to data by treating them as data-providing services - such as data products - whose interfaces we want to define as clearly as possible.",
+      "url": "https://martinfowler.com/articles/data-contracts.html",
+      "source": "Martin Fowler",
+      "category": "tooling",
+      "publishedAt": "2026-11-18T14:02:00.000Z",
+      "tags": [
+        "api",
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-91b7f9753939247c",
+      "title": "Being an editor is a privilege ",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/being-an-editor-is-a-privilege",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-18T13:49:17.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-af5dee29ed2f78e6",
+      "title": "Bugberg: Software Testing Live December 2026",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/bugberg-software-testing-live-december-2026",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-18T13:25:33.000Z",
+      "tags": [
+        "testing",
+        "bug"
+      ],
+      "score": 79,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-747df339fb28a5fe",
+      "title": "Presentation: Behind Booking.com's AI Evolution: The Unpolished Story",
+      "summary": "Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built hi...",
+      "description": "Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built high-throughput model serving and feature stores operating at 400B predictions per day. He also shares insights on personalization, interleaved experimentation, and their new agentic AI foundation.",
+      "url": "https://www.infoq.com/presentations/bookingcom-ml-data-platform-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-18T11:00:00.000Z",
+      "tags": [
+        "sql",
+        "feature",
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-a8b5d5f1ad95cd24",
+      "title": "Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors",
+      "summary": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can compos...",
+      "description": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can compose accessible components and operate them through a documented agent bridge. By Daniel Dominguez",
+      "url": "https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-18T10:12:00.000Z",
+      "tags": [
+        "typescript",
+        "react"
+      ],
+      "score": 108,
+      "priority": "CRITICAL",
+      "reason": [
+        "typescript",
+        "agent",
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-aa260738223323fc",
+      "title": "Meet Boach, your MoTaCon abstract coach",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/insights/meet-boach-your-motacon-abstract-coach",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-18T09:49:00.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-2638fa2d9b8f9b9f",
+      "title": "What if AI agents ran your manual test cases for you?",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/what-if-ai-agents-ran-your-manual-test-cases-for-you",
+      "source": "Ministry of Testing",
+      "category": "ai",
+      "publishedAt": "2026-11-18T09:45:29.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 73,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-250b20ee375f6181",
+      "title": "AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account",
+      "summary": "AWS has detailed tunnel endpoints, a PrivateLink endpoint type that gives a consumer VPC access to an entire network segment in another account rather than one resource at a time, over an overlapping ...",
+      "description": "AWS has detailed tunnel endpoints, a PrivateLink endpoint type that gives a consumer VPC access to an entire network segment in another account rather than one resource at a time, over an overlapping address space and with consumer-initiated connections only. The consumer must wrap traffic in GENEVE; only TCP and DNS pass, and access logs cannot attribute traffic to a workload behind the endpoint.",
+      "url": "https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-18T09:29:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-75b77add1f3f9168",
+      "title": "Yelp Migrates Cassandra to EKS by Moving EBS Volumes",
+      "summary": "Yelp has moved its Cassandra fleet from legacy self-managed Kubernetes clusters to Amazon EKS by re-pointing existing EBS volumes at new pods, rather than streaming data between nodes. By Claudio Maso...",
+      "description": "Yelp has moved its Cassandra fleet from legacy self-managed Kubernetes clusters to Amazon EKS by re-pointing existing EBS volumes at new pods, rather than streaming data between nodes. By Claudio Masolo",
+      "url": "https://www.infoq.com/news/2026/11/kubernetes-cassandra-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-18T09:00:00.000Z",
+      "tags": [
+        "kubernetes"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
     {
       "id": "selenium-releases-a16d302add79223c",
       "title": "Nightly",
@@ -16,9 +258,28 @@
         "ai",
         "release"
       ],
-      "score": 54,
+      "score": 52,
       "priority": "MEDIUM",
       "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "openai-a1de396d3910fa2e",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "description": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 67,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai",
         "recent"
       ]
     },
@@ -34,7 +295,7 @@
       "tags": [
         "ai"
       ],
-      "score": 73,
+      "score": 71,
       "priority": "HIGH",
       "reason": [
         "agent",
@@ -51,7 +312,7 @@
       "category": "engineering",
       "publishedAt": "2026-11-17T20:24:27.000Z",
       "tags": [],
-      "score": 63,
+      "score": 61,
       "priority": "MEDIUM",
       "reason": [
         "cloudflare",
@@ -78,7 +339,7 @@
         "ai",
         "release"
       ],
-      "score": 53,
+      "score": 51,
       "priority": "MEDIUM",
       "reason": [
         "recent"
@@ -96,7 +357,7 @@
       "tags": [
         "api"
       ],
-      "score": 67,
+      "score": 66,
       "priority": "MEDIUM",
       "reason": [
         "openai",
@@ -122,7 +383,7 @@
         "ai",
         "release"
       ],
-      "score": 52,
+      "score": 51,
       "priority": "MEDIUM",
       "reason": [
         "recent"
@@ -140,7 +401,7 @@
         "testing",
         "bug"
       ],
-      "score": 77,
+      "score": 76,
       "priority": "HIGH",
       "reason": [
         "testing",
@@ -158,11 +419,9 @@
       "tags": [
         "bug"
       ],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-41a53c90fe6a8cff",
@@ -173,11 +432,9 @@
       "category": "engineering",
       "publishedAt": "2026-11-17T15:11:11.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-9e486d5dad245553",
@@ -190,11 +447,9 @@
       "tags": [
         "bug"
       ],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-686df0a2038eb136",
@@ -205,11 +460,9 @@
       "category": "engineering",
       "publishedAt": "2026-11-17T14:52:33.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "martin-fowler-64322f58dae65d1f",
@@ -224,11 +477,10 @@
         "testing",
         "ai"
       ],
-      "score": 77,
+      "score": 75,
       "priority": "HIGH",
       "reason": [
-        "testing",
-        "recent"
+        "testing"
       ]
     },
     {
@@ -242,11 +494,9 @@
       "tags": [
         "bug"
       ],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-ddbbfc1164fedfca",
@@ -257,11 +507,9 @@
       "category": "engineering",
       "publishedAt": "2026-11-17T12:50:00.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-83cce513e67f6517",
@@ -275,11 +523,10 @@
         "testing",
         "bug"
       ],
-      "score": 77,
+      "score": 75,
       "priority": "HIGH",
       "reason": [
-        "testing",
-        "recent"
+        "testing"
       ]
     },
     {
@@ -295,11 +542,10 @@
         "javascript",
         "react"
       ],
-      "score": 72,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "recent"
+        "release"
       ]
     },
     {
@@ -314,11 +560,10 @@
       "tags": [
         "ai"
       ],
-      "score": 72,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -332,11 +577,9 @@
       "tags": [
         "bug"
       ],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-501d51dbf73f3e5c",
@@ -350,11 +593,10 @@
         "testing",
         "bug"
       ],
-      "score": 76,
+      "score": 75,
       "priority": "HIGH",
       "reason": [
-        "testing",
-        "recent"
+        "testing"
       ]
     },
     {
@@ -368,11 +610,10 @@
       "tags": [
         "testing"
       ],
-      "score": 76,
+      "score": 75,
       "priority": "HIGH",
       "reason": [
-        "testing",
-        "recent"
+        "testing"
       ]
     },
     {
@@ -387,11 +628,10 @@
       "tags": [
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -407,11 +647,9 @@
         "python",
         "llm"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-ba9d7118776cc79c",
@@ -440,11 +678,10 @@
       "tags": [
         "api"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "recent"
+        "release"
       ]
     },
     {
@@ -460,11 +697,9 @@
         "update",
         "ai"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-82a4d565371c10c9",
@@ -495,11 +730,10 @@
       "tags": [
         "update"
       ],
-      "score": 66,
+      "score": 65,
       "priority": "MEDIUM",
       "reason": [
-        "openai",
-        "recent"
+        "openai"
       ]
     },
     {
@@ -797,7 +1031,7 @@
     },
     {
       "id": "infoq-73e73b619b471201",
-      "title": "GitHub Rebuilds the Copilot App's Diff Surface to Open Million-Line Pull Requests Without Jank",
+      "title": "GitHub Rebuilds the Copilot App's Diff Surface to Open Million-Line Pull Requests without Jank",
       "summary": "GitHub engineers rebuilt the diff view in the Copilot app to handle a pull request with 2,200 files, over a million changed lines and 400 inline comments. The design separates fixed-height code rows f...",
       "description": "GitHub engineers rebuilt the diff view in the Copilot app to handle a pull request with 2,200 files, over a million changed lines and 400 inline comments. The design separates fixed-height code rows from variable-height comment blocks, which are measured in batches near the viewport. Performance is checked through CI budgets and automated app runs. By Daniel Curtis",
       "url": "https://www.infoq.com/news/2026/11/github-pull-requests-rebuild/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -849,7 +1083,7 @@
     },
     {
       "id": "infoq-ac8f573389b501de",
-      "title": "AWS Nitro Sandboxes Put Each EKS Pod in Its Own MicroVM with One RuntimeClass Field",
+      "title": "AWS Nitro Sandboxes Put Each EKS Pod in its Own MicroVM with One RuntimeClass Field",
       "summary": "AWS has launched Nitro Sandboxes, running each opted-in EKS pod, ECS task or EC2 workload in its own Firecracker microVM with a separate kernel, enabled by one runtimeClassName field at no extra charg...",
       "description": "AWS has launched Nitro Sandboxes, running each opted-in EKS pod, ECS task or EC2 workload in its own Firecracker microVM with a separate kernel, enabled by one runtimeClassName field at no extra charge. A confidential mode adds attestation-gated key release. The documentation lists the trade-offs: no GPU passthrough, at most five sandboxes per vCPU, and half the compute on SMT instances.",
       "url": "https://www.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1070,7 +1304,7 @@
     },
     {
       "id": "infoq-c27a281947e76042",
-      "title": "Anthropic Outlines Its AI-Powered Code Review Process for Claude Code",
+      "title": "Anthropic Outlines its AI-Powered Code Review Process for Claude Code",
       "summary": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered ...",
       "description": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and risk-based human approval, aiming to reduce manual review time without increasing regressions or production incidents. By Robert Krzaczyński",
       "url": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1080,11 +1314,10 @@
       "tags": [
         "ai"
       ],
-      "score": 74,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -1134,7 +1367,7 @@
     },
     {
       "id": "infoq-e09d2116e70d9f23",
-      "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules",
+      "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing into Core Modules",
       "summary": "Node.js 26.10.0 adds util.debounce() and util.throttle(), plus util.markPromiseAsHandled(), to the core library. It also introduces crypto.parsePKCS12() for reading .p12 and .pfx bundles, and extends ...",
       "description": "Node.js 26.10.0 adds util.debounce() and util.throttle(), plus util.markPromiseAsHandled(), to the core library. It also introduces crypto.parsePKCS12() for reading .p12 and .pfx bundles, and extends the experimental Virtual File System to node:ffi. The additions reduce the need for some userland dependencies. Node.js 26 is now Active LTS. By Daniel Curtis",
       "url": "https://www.infoq.com/news/2026/11/nodejs-debounce-throttle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2261,7 +2494,7 @@
     },
     {
       "id": "infoq-07d08833d4c26a0d",
-      "title": "Google Finds that Technical Debt Can Derail Coding Agents Through \"Agent Distraction\"",
+      "title": "Google Finds That Technical Debt Can Derail Coding Agents through \"Agent Distraction\"",
       "summary": "In a recent article, Google senior staff software engineer Sam Saccone and senior staff data scientist Madhuri Garikapati highlighted the cost of agent distraction, where AI coding agents get derailed...",
       "description": "In a recent article, Google senior staff software engineer Sam Saccone and senior staff data scientist Madhuri Garikapati highlighted the cost of agent distraction, where AI coding agents get derailed by stale technical debt, such as old TODO comments, obsolete bug references, and outdated specs, leading them to embark on unrequested \"side-quests\". By Sergio De Simone",
       "url": "https://www.infoq.com/news/2026/11/google-agent-distraction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -2272,11 +2505,10 @@
         "bug",
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -3841,7 +4073,7 @@
     },
     {
       "id": "infoq-d9abc4fc12e937c0",
-      "title": "Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets",
+      "title": "Varlock Releases Bumpy: a File-Based Versioning Alternative to Changesets",
       "summary": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog ...",
       "description": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog protocols, custom publish commands, and branch-based prereleases. Changesets v3, released in August 2026, closed many earlier gaps, though differences remain. By Daniel Curtis",
       "url": "https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -3879,7 +4111,7 @@
     },
     {
       "id": "infoq-55fb16a36f48a88c",
-      "title": "Yelp Combines Native and Server-Driven UI for Its AI Assistant",
+      "title": "Yelp Combines Native and Server-Driven UI for its AI Assistant",
       "summary": "Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supp...",
       "description": "Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supports backend-driven chat interactions, and enables faster UI updates without new app releases. Yelp also discusses cross-platform challenges and reuse for its Biz Ask Anything pilot. By Leela Kumili",
       "url": "https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -4128,8 +4360,9 @@
     },
     {
       "id": "infoq-f81891ad643c9180",
-      "title": "Edera's Object Capability Bounded Authority Promises to Isolate Credentials From AI Agent Workloads",
+      "title": "Edera's Object Capability Bounded Authority Promises to Isolate Credentials from AI Agent Workloads",
       "summary": "Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hypervisor-enforced capabilities l...",
+      "description": "Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hypervisor-enforced capabilities limit agents to specific actions without storing secrets in the workload. Initial releases cover scoped command execution and workload identity; credential-brokered API access will follow.",
       "url": "https://www.infoq.com/news/2026/11/ai-credentials-isolation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "ai",
@@ -4683,7 +4916,7 @@
     },
     {
       "id": "cloudflare-d13fbfe75d78ae19",
-      "title": "See the agents, set the terms: new visibility and control for personal agents",
+      "title": "See the agents, set the terms: New visibility and control for personal agents",
       "summary": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage persona...",
       "description": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
       "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
@@ -5975,7 +6208,7 @@
     },
     {
       "id": "infoq-a8628cd75d0c6b68",
-      "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
+      "title": "AWS Capacity Largely Sold out through 2027, with On-Demand Headroom Reserved",
       "summary": "Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC...",
       "url": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
@@ -6008,7 +6241,7 @@
     },
     {
       "id": "infoq-81dd87e1180dc3d9",
-      "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
+      "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta without Attribute-Based Encryption",
       "summary": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Ke...",
       "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
@@ -7414,7 +7647,7 @@
     },
     {
       "id": "infoq-e48ea7505a65ba11",
-      "title": "Developers Reporting Double-Digit Weekly Time Savings From AI Fell From 68% to 26%",
+      "title": "Developers Reporting Double-Digit Weekly Time Savings from AI Fell from 68% to 26%",
       "summary": "Atlassian’s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less frict...",
       "url": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
@@ -7423,11 +7656,9 @@
       "tags": [
         "ai"
       ],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "openai-c44dc9ed271ff418",
@@ -8543,7 +8774,7 @@
     },
     {
       "id": "cloudflare-405699f87f1c0744",
-      "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+      "title": "Localizing compliance at scale: Achieving South Korea’s ISMS certification",
       "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our g...",
       "description": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
       "url": "https://blog.cloudflare.com/k-isms/",
@@ -8597,7 +8828,7 @@
     },
     {
       "id": "infoq-511fa85cb889e1f3",
-      "title": "Vercel Labs Open-Sources fx: A Zig Coding Agent Designed to Be Embedded",
+      "title": "Vercel Labs Open-Sources fx: a Zig Coding Agent Designed to Be Embedded",
       "summary": "Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questi...",
       "url": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
@@ -8683,7 +8914,7 @@
     },
     {
       "id": "infoq-c72a96972d6a8b46",
-      "title": "Developer Behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready",
+      "title": "Developer behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready\"",
       "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker N...",
       "url": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
@@ -9516,164 +9747,6 @@
       "priority": "MEDIUM",
       "reason": [
         "cloudflare"
-      ]
-    },
-    {
-      "id": "vitest-releases-d450cda644e6a779",
-      "title": "v5.1.0-beta.1",
-      "summary": "🚀 Features Add --last-failed to run only failed tests - by @sheremet-va in #11558 (82f63) Support Temporal.Instant and Temporal.ZonedDateTime in vi.setSystemTime() - by @Prajwal2246, Prajwal2246, Cla...",
-      "description": "🚀 Features Add --last-failed to run only failed tests - by @sheremet-va in #11558 (82f63) Support Temporal.Instant and Temporal.ZonedDateTime in vi.setSystemTime() - by @Prajwal2246, Prajwal2246, Claude Opus 5.5, Hiroshi Ogawa and Codex (GPT-6) in #11321 (f150f) Introduce --since-last-run flag - by @sheremet-va in #11516 (08bd9) Expose per-retry/repeat attempt result - by @hi-ogawa, Hiroshi...",
-      "url": "https://github.com/vitest-dev/vitest/releases/tag/v5.1.0-beta.1",
-      "source": "Vitest Releases",
-      "category": "tooling",
-      "publishedAt": "2026-10-19T16:42:33.000Z",
-      "tags": [
-        "vitest",
-        "github",
-        "api",
-        "performance",
-        "update",
-        "feature",
-        "bug",
-        "ai",
-        "release"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-3c10e6db156c14b9",
-      "title": "Pinterest Uses Event Time Watermarks to Finalize Petabyte Scale Data Partitions",
-      "summary": "Pinterest has introduced event time-based partition finalization for its database ingestion framework. The mechanism uses Apache Flink to track event time and Apache Iceberg metadata to publish a non-...",
-      "url": "https://www.infoq.com/news/2026/10/pinterest-event-time-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-10-19T14:37:00.000Z",
-      "tags": [
-        "rest",
-        "database"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-7036fc53eb31bc7c",
-      "title": "JEP 543 Finalizes Structured Concurrency in JDK 28, Ending Seven Preview Rounds",
-      "summary": "JDK 28 finalizes structured concurrency through JEP 543, with no API changes from JDK 27. Teams on JDK 27 only need to drop --enable-preview and recompile. Code written for JDK 25 or 26 must adapt to ...",
-      "url": "https://www.infoq.com/news/2026/10/jep-543-jdk-28/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-10-19T14:30:00.000Z",
-      "tags": [
-        "api"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "cloudflare-72477d086944244f",
-      "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
-      "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
-      "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
-      "source": "Cloudflare",
-      "category": "ai",
-      "publishedAt": "2026-10-19T13:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 60,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
-      ]
-    },
-    {
-      "id": "openai-1dbe22633003a2af",
-      "title": "Advancing coding in low‑resource programming languages",
-      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "description": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "source": "OpenAI",
-      "category": "engineering",
-      "publishedAt": "2026-10-19T12:00:00.000Z",
-      "tags": [
-        "sql",
-        "ai"
-      ],
-      "score": 90,
-      "priority": "CRITICAL",
-      "reason": [
-        "migration",
-        "openai"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-a10ad55a4731d376",
-      "title": "Customer parking only",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/customer-parking-only",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-19T11:57:36.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-e52c8d23b6f060d8",
-      "title": "I was in the Pacific Northwest Software Quality Conference 2026 in Portland to present Lynqa",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/i-was-in-the-pacific-northwest-software-quality-conference-2026-in-portland-to-present-lynqa",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-19T11:34:22.000Z",
-      "tags": [],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "qa"
-      ]
-    },
-    {
-      "id": "infoq-c2ffa452ea7f15bc",
-      "title": "Article: From Microservices to Agents: The Next Evolution of Distributed Systems",
-      "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision deco...",
-      "url": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-19T11:00:00.000Z",
-      "tags": [
-        "update",
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-ed70e17cee53985a",
-      "title": "Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly?",
-      "summary": "Rachel Lee Nabors, former React core team member, dives into the architecture and philosophy behind local-first applications, exploring how small language models (SLMs) running directly on-device can ...",
-      "url": "https://www.infoq.com/podcasts/future-web-apps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-19T11:00:00.000Z",
-      "tags": [
-        "react",
-        "ai",
-        "llm"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "agent"
       ]
     }
   ]
