@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T07:43:52.651Z",
+  "updatedAt": "2026-11-18T08:01:10.881Z",
   "items": [
     {
       "id": "selenium-releases-a16d302add79223c",
@@ -9741,40 +9741,6 @@
       "reason": [
         "agent"
       ]
-    },
-    {
-      "id": "infoq-c7e50a309f082271",
-      "title": ".NET 11 Release Candidate 2: Go-Live License and Updates Across Libraries, F#, MAUI, and WinForms",
-      "summary": "Microsoft has released .NET 11 Release Candidate 2 under a go-live license, supported in Visual Studio 2026 Insiders. The release adds incremental CBOR reading, experimental post-quantum cryptography ...",
-      "url": "https://www.infoq.com/news/2026/10/dotnet-11-rc-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-10-19T08:00:00.000Z",
-      "tags": [
-        "api",
-        "update"
-      ],
-      "score": 73,
-      "priority": "HIGH",
-      "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-aefc34a2589c4bb9",
-      "title": "From test cases to AI-ready quality data: why structure matters ",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/newsletter/from-test-cases-to-ai-ready-quality-data-why-structure-matters",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-19T08:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
     }
   ]
 }
