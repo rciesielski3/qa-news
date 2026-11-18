@@ -1,10 +1,111 @@
 {
   "date": "2026-11-18",
-  "updatedAt": "2026-11-18T05:48:09.110Z",
+  "updatedAt": "2026-11-18T05:53:37.688Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting release and news topics",
   "items": [
+    {
+      "id": "selenium-releases-a16d302add79223c",
+      "title": "Nightly",
+      "summary": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] exten...",
+      "description": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 Full Changelog: selenium-4.53.0...nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-18T00:16:53.000Z",
+      "tags": [
+        "github",
+        "ai",
+        "release"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-ab05ea545983edc7",
+      "title": "How Shopify Orchestrates AI-Powered Mobile App Development Without Overloading Developers' Machines",
+      "summary": "To prevent AI development workflows from exhausting developer machines' resources, Shopify built Remote Dev, a remote mobile development environment that enables AI agents to independently build, test...",
+      "description": "To prevent AI development workflows from exhausting developer machines' resources, Shopify built Remote Dev, a remote mobile development environment that enables AI agents to independently build, test and maintain iOS and Android applications and in parallel. By Sergio De Simone",
+      "url": "https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-17T21:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 73,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "cloudflare-9fd23e018da5cf4f",
+      "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+      "summary": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the ...",
+      "description": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "source": "Cloudflare",
+      "category": "engineering",
+      "publishedAt": "2026-11-17T20:24:27.000Z",
+      "tags": [],
+      "score": 63,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "selenium-releases-93c7548a7f6a3aa4",
+      "title": "Selenium 4.53.0",
+      "summary": "Detailed Changelogs by Component Java | Python | DotNet | Ruby | JavaScript What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java...",
+      "description": "Detailed Changelogs by Component Java | Python | DotNet | Ruby | JavaScript What's Changed [rb] download the Server jar with Selenium Manager instead of the GitHub API by @titusfortner in #18245 [java] Escape quotes and backslashes in name locators sent to the driver by @Mochxd in #18151 [dotnet] [test] Unify assembly names for testing by @nvborisenko in #18261 [rb] Allocate websocket command...",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.53.0",
+      "source": "Selenium Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-17T18:23:19.000Z",
+      "tags": [
+        "javascript",
+        "python",
+        "testing",
+        "github",
+        "api",
+        "rest",
+        "update",
+        "ai",
+        "release"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "openai-8f6af8c44a4a1bfb",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "description": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "source": "OpenAI",
+      "category": "tooling",
+      "publishedAt": "2026-11-17T17:45:00.000Z",
+      "tags": [
+        "api"
+      ],
+      "score": 67,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai",
+        "recent"
+      ]
+    },
     {
       "id": "vitest-releases-43c6806208d25a19",
       "title": "v5.1.1",
@@ -24,7 +125,7 @@
         "ai",
         "release"
       ],
-      "score": 54,
+      "score": 52,
       "priority": "MEDIUM",
       "reason": [
         "recent"
@@ -42,7 +143,7 @@
         "testing",
         "bug"
       ],
-      "score": 79,
+      "score": 77,
       "priority": "HIGH",
       "reason": [
         "testing",
@@ -60,7 +161,7 @@
       "tags": [
         "bug"
       ],
-      "score": 54,
+      "score": 52,
       "priority": "MEDIUM",
       "reason": [
         "recent"
@@ -75,7 +176,7 @@
       "category": "engineering",
       "publishedAt": "2026-11-17T15:11:11.000Z",
       "tags": [],
-      "score": 54,
+      "score": 52,
       "priority": "MEDIUM",
       "reason": [
         "recent"
@@ -92,95 +193,9 @@
       "tags": [
         "bug"
       ],
-      "score": 54,
+      "score": 52,
       "priority": "MEDIUM",
       "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-686df0a2038eb136",
-      "title": "19th meetup of MoT Athens chapter",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/19th-meetup-of-mot-athens-chapter",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-17T14:52:33.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "martin-fowler-64322f58dae65d1f",
-      "title": "Deterministic Simulation Testing",
-      "summary": "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how determin...",
-      "description": "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how deterministic simulation testing addresses this by replacing real clocks, networks, and storage with simulated components driven by a single-threaded execution loop.",
-      "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
-      "source": "Martin Fowler",
-      "category": "test-automation",
-      "publishedAt": "2026-11-17T14:33:00.000Z",
-      "tags": [
-        "testing",
-        "ai"
-      ],
-      "score": 79,
-      "priority": "HIGH",
-      "reason": [
-        "testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-ac22427c0a10a763",
-      "title": "Bugberg of ilities",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/bugberg-of-ilities",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-17T14:00:27.000Z",
-      "tags": [
-        "bug"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-ddbbfc1164fedfca",
-      "title": "9 reflections on being a solo quality engineer",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/insights/9-reflections-on-being-a-solo-quality-engineer",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-17T12:50:00.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-83cce513e67f6517",
-      "title": "The BugBerg: Beyond the Surface of Software Testing",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/the-bugberg-beyond-the-surface-of-software-testing",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-17T12:29:52.000Z",
-      "tags": [
-        "testing",
-        "bug"
-      ],
-      "score": 79,
-      "priority": "HIGH",
-      "reason": [
-        "testing",
         "recent"
       ]
     }
