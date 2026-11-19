@@ -1,7 +1,233 @@
 {
-  "date": "2026-11-18",
-  "updatedAt": "2026-11-18T16:52:49.113Z",
+  "date": "2026-11-19",
+  "updatedAt": "2026-11-19T16:55:59.663Z",
   "articles": [
+    {
+      "id": "infoq-c4f2102747e85686",
+      "title": "Presentation: AI-Assisted Software Delivery: From Code to Production",
+      "summary": "The panelists explore how engineering teams adapt delivery architectures, pipelines, security, and governance for AI-assisted development. They share practical strategies for verifying AI-generated co...",
+      "description": "The panelists explore how engineering teams adapt delivery architectures, pipelines, security, and governance for AI-assisted development. They share practical strategies for verifying AI-generated code, solving testing and deployment bottlenecks, maintaining human oversight, and measuring AI’s true impact on software velocity, quality, reliability, and operational cost.",
+      "url": "https://www.infoq.com/presentations/ai-assisted-software-delivery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-19T14:30:00.000Z",
+      "tags": [
+        "testing",
+        "security",
+        "ai"
+      ],
+      "score": 94,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-1f6dd99dd78f54fc",
+      "title": "Want to be a DevRel? Start doing the work in the MoTaverse",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/insights/want-to-be-a-devrel-start-doing-the-work-in-the-motaverse",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-19T14:18:00.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "cloudflare-32c1e05692d04a88",
+      "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+      "summary": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+      "description": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+      "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+      "source": "Cloudflare",
+      "category": "engineering",
+      "publishedAt": "2026-11-19T14:00:00.000Z",
+      "tags": [],
+      "score": 64,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-87bbd93e76ab28a5",
+      "title": "QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer",
+      "summary": "At QCon San Francisco 2026, Jordan Cutler, Senior Staff Engineer and Web Platform Tech Lead at Pinterest, presented how the role of a staff engineer changes when every engineer has access to the same ...",
+      "description": "At QCon San Francisco 2026, Jordan Cutler, Senior Staff Engineer and Web Platform Tech Lead at Pinterest, presented how the role of a staff engineer changes when every engineer has access to the same AI tools. By Daniel Dominguez",
+      "url": "https://www.infoq.com/news/2026/11/ai-staff-engineer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-19T13:00:00.000Z",
+      "tags": [
+        "rest",
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-c748fe6a548cf0b7",
+      "title": ".NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and Blazor AI Components",
+      "summary": "Microsoft has released ASP.NET Core in .NET 11. The update adds C# union type support in JSON bodies, asynchronous validation for Minimal APIs, OpenAPI 3.2 by default, and SignalR authentication refre...",
+      "description": "Microsoft has released ASP.NET Core in .NET 11. The update adds C# union type support in JSON bodies, asynchronous validation for Minimal APIs, OpenAPI 3.2 by default, and SignalR authentication refresh. Blazor gains a CacheView component, client-side validation for static SSR forms, opt-in circuit pause for inactive tabs, and experimental AI components. Zstandard compression is on by default.",
+      "url": "https://www.infoq.com/news/2026/11/asp-net-11-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-19T11:27:00.000Z",
+      "tags": [
+        "api",
+        "update",
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-921e49ff41fbe8c7",
+      "title": "Producing Healthy Code with Artificial Intelligence Costs Fewer Tokens",
+      "summary": "Agentic AI can speed up velocity, but the gains vanish within months as code complexity grows. Healthy code makes AI perform better and costs fewer tokens. Safeguarding means keeping code health high ...",
+      "description": "Agentic AI can speed up velocity, but the gains vanish within months as code complexity grows. Healthy code makes AI perform better and costs fewer tokens. Safeguarding means keeping code health high through agentic refactoring, with an MCP supplying code health data, so AI can maintain the code it generates. By Ben Linders",
+      "url": "https://www.infoq.com/news/2026/11/healthy-code-AI-tokens/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-19T11:09:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-23ed9d216e1f43c5",
+      "title": "Presentation: RIIIR: Rewrite It In *Idiomatic* Rust (with AI)",
+      "summary": "Nicholas Matsakis shares why AI makes Rust the ideal choice for modern production systems, skipping steep adoption hurdles via compiler guardrails. He discusses Symposium - an open-source, agent-orien...",
+      "description": "Nicholas Matsakis shares why AI makes Rust the ideal choice for modern production systems, skipping steep adoption hurdles via compiler guardrails. He discusses Symposium - an open-source, agent-oriented toolchain from the Rust Foundation - and demonstrates how the Agent Client Protocol (ACP) standardizes agent-to-tool extensibility across diverse enterprise developer workflows. By Niko Matsakis",
+      "url": "https://www.infoq.com/presentations/rust-ai-symposium-agent-client-protocol/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-19T11:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-dc5e586e1d4a52dc",
+      "title": "🖖 MoTaCon 2027 Call for Contributions is open, with the help of Boach!",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/news/motacon-2027-call-for-contributions-is-open-with-the-help-of-boach",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-19T10:06:00.000Z",
+      "tags": [],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-27659d92542c3253",
+      "title": "NetWasm 0.10 Speeds Up C# on WebAssembly, Now Faster Than Mono AOT",
+      "summary": "Summary: NetWasm, an ahead-of-time compiler from C# to WebAssembly, has reworked exception handling, bounds-check elimination, SIMD and division in its 0.10 series. Across more than 2000 benchmark cas...",
+      "description": "Summary: NetWasm, an ahead-of-time compiler from C# to WebAssembly, has reworked exception handling, bounds-check elimination, SIMD and division in its 0.10 series. Across more than 2000 benchmark cases, the project reports running in 0.41 times the time of Mono AOT’s WASI build. By Edin Kapić",
+      "url": "https://www.infoq.com/news/2026/11/NetWasm-0-10-Faster/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-19T09:00:00.000Z",
+      "tags": [
+        "api"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "selenium-releases-a16d302add79223c",
+      "title": "Nightly",
+      "summary": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] exten...",
+      "description": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when starting a session fails with any error by @titusfortner in #18333 [js][bidi] Keep received node...",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-19T00:19:16.000Z",
+      "tags": [
+        "github",
+        "ai",
+        "release"
+      ],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "on-test-automation-c040f2d74940c1b1",
+      "title": "Why I prefer on-site over online training",
+      "summary": "I’ve been running workshops and training courses for close to 10 years now, and in that time, I have had the pleasure of working with teams on pretty much every continent, both on technical, hands-on ...",
+      "description": "I’ve been running workshops and training courses for close to 10 years now, and in that time, I have had the pleasure of working with teams on pretty much every continent, both on technical, hands-on programming courses as well as more strategical workshops.",
+      "url": "https://www.ontestautomation.com/why-i-prefer-on-site-over-online-training/",
+      "source": "On Test Automation",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "tags": [
+        "testing",
+        "automation",
+        "rest",
+        "ai"
+      ],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "cloudflare-c9098ac47ad21321",
+      "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+      "summary": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
+      "description": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
+      "url": "https://blog.cloudflare.com/open-clairic/",
+      "source": "Cloudflare",
+      "category": "tooling",
+      "publishedAt": "2026-11-18T22:00:00.000Z",
+      "tags": [
+        "update",
+        "ai"
+      ],
+      "score": 81,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "cloudflare",
+        "recent"
+      ]
+    },
     {
       "id": "ministry-of-testing-32f18ab3df682766",
       "title": "Job title not found: careers beyond the label",
@@ -59,11 +285,9 @@
       "tags": [
         "ai"
       ],
-      "score": 54,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-e078bf88cc640c5a",
@@ -93,11 +317,9 @@
         "api",
         "ai"
       ],
-      "score": 54,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-91b7f9753939247c",
@@ -147,11 +369,9 @@
         "feature",
         "ai"
       ],
-      "score": 54,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-a8b5d5f1ad95cd24",
@@ -166,13 +386,30 @@
         "typescript",
         "react"
       ],
-      "score": 108,
+      "score": 105,
       "priority": "CRITICAL",
       "reason": [
         "typescript",
         "agent",
-        "release",
-        "recent"
+        "release"
+      ]
+    },
+    {
+      "id": "openai-184d931227f2504d",
+      "title": "The Silent Consensus",
+      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "description": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 65,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai"
       ]
     },
     {
@@ -220,11 +457,9 @@
       "tags": [
         "ai"
       ],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-75b77add1f3f9168",
@@ -238,30 +473,78 @@
       "tags": [
         "kubernetes"
       ],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "openai-58da586369f33999",
+      "title": "Research acceleration: The jagged frontier",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "description": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "tags": [
+        "performance",
+        "ai"
+      ],
+      "score": 85,
+      "priority": "HIGH",
       "reason": [
-        "recent"
+        "agent",
+        "openai"
       ]
     },
     {
-      "id": "selenium-releases-a16d302add79223c",
-      "title": "Nightly",
-      "summary": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] exten...",
-      "description": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 Full Changelog: selenium-4.53.0...nightly",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium Releases",
-      "category": "tooling",
-      "publishedAt": "2026-11-18T00:16:53.000Z",
-      "tags": [
-        "github",
-        "ai",
-        "release"
-      ],
-      "score": 52,
+      "id": "openai-53d809d7420a3923",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "description": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "tags": [],
+      "score": 65,
       "priority": "MEDIUM",
       "reason": [
-        "recent"
+        "openai"
+      ]
+    },
+    {
+      "id": "openai-67952d9a918d2536",
+      "title": "Inside the Codex sandbox",
+      "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "description": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "tags": [],
+      "score": 65,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai"
+      ]
+    },
+    {
+      "id": "openai-99be0c0a7e074380",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "description": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "source": "OpenAI",
+      "category": "engineering",
+      "publishedAt": "2026-11-18T06:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 65,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai"
       ]
     },
     {
@@ -276,16 +559,33 @@
       "tags": [
         "ai"
       ],
-      "score": 67,
+      "score": 65,
       "priority": "MEDIUM",
       "reason": [
-        "openai",
-        "recent"
+        "openai"
+      ]
+    },
+    {
+      "id": "openai-68ddb817fe4001c0",
+      "title": "Advancing chip design with OpenAI models",
+      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "description": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 65,
+      "priority": "MEDIUM",
+      "reason": [
+        "openai"
       ]
     },
     {
       "id": "infoq-ab05ea545983edc7",
-      "title": "How Shopify Orchestrates AI-Powered Mobile App Development Without Overloading Developers' Machines",
+      "title": "How Shopify Orchestrates AI-Powered Mobile App Development without Overloading Developers' Machines",
       "summary": "To prevent AI development workflows from exhausting developer machines' resources, Shopify built Remote Dev, a remote mobile development environment that enables AI agents to independently build, test...",
       "description": "To prevent AI development workflows from exhausting developer machines' resources, Shopify built Remote Dev, a remote mobile development environment that enables AI agents to independently build, test and maintain iOS and Android applications and in parallel. By Sergio De Simone",
       "url": "https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -295,11 +595,10 @@
       "tags": [
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -312,11 +611,10 @@
       "category": "engineering",
       "publishedAt": "2026-11-17T20:24:27.000Z",
       "tags": [],
-      "score": 61,
+      "score": 60,
       "priority": "MEDIUM",
       "reason": [
-        "cloudflare",
-        "recent"
+        "cloudflare"
       ]
     },
     {
@@ -339,11 +637,9 @@
         "ai",
         "release"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "openai-8f6af8c44a4a1bfb",
@@ -357,11 +653,10 @@
       "tags": [
         "api"
       ],
-      "score": 66,
+      "score": 65,
       "priority": "MEDIUM",
       "reason": [
-        "openai",
-        "recent"
+        "openai"
       ]
     },
     {
@@ -383,11 +678,9 @@
         "ai",
         "release"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-b5d542e45562da73",
@@ -9455,299 +9748,6 @@
       "score": 50,
       "priority": "MEDIUM",
       "reason": []
-    },
-    {
-      "id": "ministry-of-testing-f905ce061309384c",
-      "title": "Engineering Manager",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/jobs/engineering-manager-01f0b278-e27b-45cf-a7dc-503064271830",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-20T16:33:58.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-5449d73fc3c0bf80",
-      "title": "Empathy, care and joy in building",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/empathy-care-and-joy-in-building",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-20T15:21:54.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-74169946981c6ce8",
-      "title": "Not so silently judging your untested merge requests",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/not-so-silently-judging-your-untested-merge-requests",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-20T14:46:37.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-4f2d2536c60c90eb",
-      "title": "RiskStorming decks: from swag to experiment",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/riskstorming-decks-from-swag-to-experiment",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-20T13:13:10.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-a241e5f431fe8aa3",
-      "title": "GitHub Actions Runner Controller 0.15.0 Targets Reliability at Scale",
-      "summary": "GitHub has released Actions Runner Controller (ARC) 0.15.0, introducing reliability, scalability, and observability improvements for organisations running self-hosted GitHub Actions runners on Kuberne...",
-      "url": "https://www.infoq.com/news/2026/10/github-runner-controller-0-15/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-10-20T12:00:00.000Z",
-      "tags": [
-        "github",
-        "kubernetes",
-        "ai"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "release"
-      ]
-    },
-    {
-      "id": "infoq-93af49ad1191d611",
-      "title": "Presentation: Beyond the Prototype: Scaling Framework Agnostic AI Agent Infrastructure with Ray",
-      "summary": "The speakers discuss transitioning AI agents from local FastAPI prototypes to resilient production systems on Kubernetes using Ray. They share operational insights on RayCluster topology, stateful mem...",
-      "url": "https://www.infoq.com/presentations/scale-llm-agents-production-ray/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-20T11:00:00.000Z",
-      "tags": [
-        "kubernetes",
-        "api",
-        "ai",
-        "llm"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "agent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-a1110c3317b6f340",
-      "title": "Hello I'm Eddie Stokes",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/hello-i-m-eddie-stokes",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-20T10:17:11.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "openai-1725d137aa3debc0",
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "description": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "url": "https://openai.com/index/ted-taylor-restaurant",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-10-20T10:00:00.000Z",
-      "tags": [],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "storybook-releases-c7d33937b91a8c5b",
-      "title": "v10.6.3",
-      "summary": "10.6.3 Addon Vitest: Support Vitest 5 - #36671, thanks @PaulMest! Next.js: Fix app-router mock crash on Next.js 16.4 - #36588, thanks @obvious-autobuild! Nextjs-Vite: Provide parentRenderTree.bfcacheI...",
-      "description": "10.6.3 Addon Vitest: Support Vitest 5 - #36671, thanks @PaulMest! Next.js: Fix app-router mock crash on Next.js 16.4 - #36588, thanks @obvious-autobuild! Nextjs-Vite: Provide parentRenderTree.bfcacheId in app router mock - #36732, thanks @bhushan4work! TypeScript: Explicitly type returntype of ArgsStore#get - #36583, thanks @mrginglymus!",
-      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.6.3",
-      "source": "Storybook Releases",
-      "category": "tooling",
-      "publishedAt": "2026-10-20T09:50:15.000Z",
-      "tags": [
-        "typescript",
-        "vitest",
-        "github",
-        "release"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-c63c005150c061a8",
-      "title": "99 Seconds at MoTaCon 2026",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/99-seconds-at-motacon-2026",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-20T09:28:48.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-112b37b661ef0afb",
-      "title": "TestMuAI 🧸 Swag 🖖",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/testmuai-swag",
-      "source": "Ministry of Testing",
-      "category": "ai",
-      "publishedAt": "2026-10-20T08:32:27.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "storybook-releases-31200859bd103d4c",
-      "title": "v11.0.0-alpha.7",
-      "summary": "11.0.0-alpha.7 Addon Themes: Declare the package as an ES module - #36721, thanks @ump45nose! Addon Vitest: Make the test run report agree with its outcome - #36697, thanks @kasperpeulen! Addon Vitest...",
-      "description": "11.0.0-alpha.7 Addon Themes: Declare the package as an ES module - #36721, thanks @ump45nose! Addon Vitest: Make the test run report agree with its outcome - #36697, thanks @kasperpeulen! Addon Vitest: Toggle coverage without restarting Vitest - #36294, thanks @barry166! Addon-docs: Skip re-parsing untransformed stories in the CSF plugin - #36468, thanks @EastonShin!",
-      "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-alpha.7",
-      "source": "Storybook Releases",
-      "category": "tooling",
-      "publishedAt": "2026-10-20T08:30:15.000Z",
-      "tags": [
-        "typescript",
-        "react",
-        "vitest",
-        "github",
-        "api",
-        "rest",
-        "update",
-        "ai",
-        "release"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "openai-aa8847d44cbae332",
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "description": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "url": "https://openai.com/index/terminal-x",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-10-20T07:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 85,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "openai"
-      ]
-    },
-    {
-      "id": "openai-1cfb6291fa158d05",
-      "title": "OpenAI acquires Orchestra Bio",
-      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "description": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-6f2a5070d78725eb",
-      "title": "Talent debt",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/software-testing-glossary/talent-debt",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-19T22:02:43.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-2baed2aa7e47fd1e",
-      "title": "Java News Roundup: JEPs for JDK 28, Azul Payara, Gatherers4j, Google ADK, Yupiik, Apache Camel CVEs",
-      "summary": "This week's Java roundup for October 12th, 2026, features news highlighting: three OpenJDK JEPs targeted for JDK 28; the October 2026 edition of Azul Payara; point releases of Gatherers4j, Yupiik Fusi...",
-      "url": "https://www.infoq.com/news/2026/10/java-news-roundup-oct12-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-10-19T20:00:00.000Z",
-      "tags": [
-        "feature"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "release"
-      ]
-    },
-    {
-      "id": "cloudflare-68e2ee5d21f7dc1b",
-      "title": "Cutting our inference bill by 68% by being obsessive about optimization",
-      "summary": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while s...",
-      "description": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
-      "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
-      "source": "Cloudflare",
-      "category": "ai",
-      "publishedAt": "2026-10-19T19:12:53.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 60,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
-      ]
-    },
-    {
-      "id": "cloudflare-40634a33b7feb1d3",
-      "title": "Introducing Clairic, a new System One class of extraction models",
-      "summary": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
-      "url": "https://blog.cloudflare.com/clairic-extraction-model/",
-      "source": "Cloudflare",
-      "category": "ai",
-      "publishedAt": "2026-10-19T17:48:26.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 60,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
-      ]
     }
   ]
 }
