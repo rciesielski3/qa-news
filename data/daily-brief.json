@@ -1,189 +1,170 @@
 {
-  "date": "2026-11-19",
-  "updatedAt": "2026-11-19T16:55:58.662Z",
+  "date": "2026-11-20",
+  "updatedAt": "2026-11-20T16:30:21.570Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
-  "lede": "Daily brief highlighting news and release topics",
+  "lede": "Daily brief highlighting news topics",
   "items": [
     {
-      "id": "infoq-c4f2102747e85686",
-      "title": "Presentation: AI-Assisted Software Delivery: From Code to Production",
-      "summary": "The panelists explore how engineering teams adapt delivery architectures, pipelines, security, and governance for AI-assisted development. They share practical strategies for verifying AI-generated co...",
-      "description": "The panelists explore how engineering teams adapt delivery architectures, pipelines, security, and governance for AI-assisted development. They share practical strategies for verifying AI-generated code, solving testing and deployment bottlenecks, maintaining human oversight, and measuring AI’s true impact on software velocity, quality, reliability, and operational cost.",
-      "url": "https://www.infoq.com/presentations/ai-assisted-software-delivery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
+      "id": "ministry-of-testing-277b6ebf6bbed015",
+      "title": "What if you didn’t have to write AI test cases from scratch?",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/what-if-you-didn-t-have-to-write-ai-test-cases-from-scratch",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-20T16:17:36.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-f3e50c84bcdeb5f2",
+      "title": "Boach, Bugbergs and bottlenecks: going deeper with AI, not just faster",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/boach-bugbergs-and-bottlenecks-going-deeper-with-ai-not-just-faster",
+      "source": "Ministry of Testing",
       "category": "qa-practice",
-      "publishedAt": "2026-11-19T14:30:00.000Z",
+      "publishedAt": "2026-11-20T16:04:07.000Z",
       "tags": [
+        "bug",
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-ef777c4d36d10af3",
+      "title": "Curiosity is the key",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/curiosity-is-the-key",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-20T14:57:38.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-305ffdd521a1d58d",
+      "title": "MoTaverse match, the accessibility connection",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/motaverse-match-the-accessibility-connection",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-20T14:13:48.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-86cf6b51c4a9acc0",
+      "title": "Luke's talk at MoT London",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/luke-s-talk-at-mot-london",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-20T14:08:52.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-4b2a9e4b6a4e29ee",
+      "title": "A great talk by Tunde at MoT London",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/a-great-talk-by-tunde-at-mot-london",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-20T14:04:56.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-2ef044d0756c3920",
+      "title": "Intro to Accessibility - Heywood's approach & an interactive prototype test",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/media-sessions/intro-to-accessibility-heywood-s-approach-an-interactive-prototype-test",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-20T13:51:23.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-5cbba7d778731961",
+      "title": "Google Donates Agent Substrate and gVisor to the CNCF to Secure AI Agents at Scale",
+      "summary": "Google has announced it is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF), placing two important components of its AI agent infrastructure under vendor-neutral ope...",
+      "description": "Google has announced it is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF), placing two important components of its AI agent infrastructure under vendor-neutral open-source governance. By Craig Risi",
+      "url": "https://www.infoq.com/news/2026/11/google-substrate-gvisor-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-20T12:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-481dda86144dba75",
+      "title": "Is going to in-person testing events worth it?",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/is-going-to-in-person-testing-events-worth-it",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-20T11:35:40.000Z",
+      "tags": [
+        "testing"
+      ],
+      "score": 79,
+      "priority": "HIGH",
+      "reason": [
         "testing",
-        "security",
-        "ai"
-      ],
-      "score": 94,
-      "priority": "CRITICAL",
-      "reason": [
-        "security",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-1f6dd99dd78f54fc",
-      "title": "Want to be a DevRel? Start doing the work in the MoTaverse",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/insights/want-to-be-a-devrel-start-doing-the-work-in-the-motaverse",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-19T14:18:00.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "cloudflare-32c1e05692d04a88",
-      "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
-      "summary": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
-      "description": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
-      "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
-      "source": "Cloudflare",
-      "category": "engineering",
-      "publishedAt": "2026-11-19T14:00:00.000Z",
-      "tags": [],
-      "score": 64,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-87bbd93e76ab28a5",
-      "title": "QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer",
-      "summary": "At QCon San Francisco 2026, Jordan Cutler, Senior Staff Engineer and Web Platform Tech Lead at Pinterest, presented how the role of a staff engineer changes when every engineer has access to the same ...",
-      "description": "At QCon San Francisco 2026, Jordan Cutler, Senior Staff Engineer and Web Platform Tech Lead at Pinterest, presented how the role of a staff engineer changes when every engineer has access to the same AI tools. By Daniel Dominguez",
-      "url": "https://www.infoq.com/news/2026/11/ai-staff-engineer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-f99e47b7e407792f",
+      "title": "Presentation: Modernising Retail at Scale: Architecting a Cloud‑to‑Edge Platform for a Global Enterprise",
+      "summary": "Jayesh Bhayani discusses Tesco’s decade-long enterprise transformation from fragmented legacy systems to a unified cloud-edge platform. He explains how aligning system, talent, and process modernizati...",
+      "description": "Jayesh Bhayani discusses Tesco’s decade-long enterprise transformation from fragmented legacy systems to a unified cloud-edge platform. He explains how aligning system, talent, and process modernizations allowed Tesco to scale mission-critical retail operations to millions of customers, while sharing practical lessons on build vs. buy, cloud cost management, and preparing for agentic commerce.",
+      "url": "https://www.infoq.com/presentations/tesco-enterprise-tech-transformation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-19T13:00:00.000Z",
+      "category": "engineering",
+      "publishedAt": "2026-11-20T11:00:00.000Z",
       "tags": [
-        "rest",
         "ai"
       ],
       "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-c748fe6a548cf0b7",
-      "title": ".NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and Blazor AI Components",
-      "summary": "Microsoft has released ASP.NET Core in .NET 11. The update adds C# union type support in JSON bodies, asynchronous validation for Minimal APIs, OpenAPI 3.2 by default, and SignalR authentication refre...",
-      "description": "Microsoft has released ASP.NET Core in .NET 11. The update adds C# union type support in JSON bodies, asynchronous validation for Minimal APIs, OpenAPI 3.2 by default, and SignalR authentication refresh. Blazor gains a CacheView component, client-side validation for static SSR forms, opt-in circuit pause for inactive tabs, and experimental AI components. Zstandard compression is on by default.",
-      "url": "https://www.infoq.com/news/2026/11/asp-net-11-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-19T11:27:00.000Z",
-      "tags": [
-        "api",
-        "update",
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-921e49ff41fbe8c7",
-      "title": "Producing Healthy Code with Artificial Intelligence Costs Fewer Tokens",
-      "summary": "Agentic AI can speed up velocity, but the gains vanish within months as code complexity grows. Healthy code makes AI perform better and costs fewer tokens. Safeguarding means keeping code health high ...",
-      "description": "Agentic AI can speed up velocity, but the gains vanish within months as code complexity grows. Healthy code makes AI perform better and costs fewer tokens. Safeguarding means keeping code health high through agentic refactoring, with an MCP supplying code health data, so AI can maintain the code it generates. By Ben Linders",
-      "url": "https://www.infoq.com/news/2026/11/healthy-code-AI-tokens/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-19T11:09:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-23ed9d216e1f43c5",
-      "title": "Presentation: RIIIR: Rewrite It In *Idiomatic* Rust (with AI)",
-      "summary": "Nicholas Matsakis shares why AI makes Rust the ideal choice for modern production systems, skipping steep adoption hurdles via compiler guardrails. He discusses Symposium - an open-source, agent-orien...",
-      "description": "Nicholas Matsakis shares why AI makes Rust the ideal choice for modern production systems, skipping steep adoption hurdles via compiler guardrails. He discusses Symposium - an open-source, agent-oriented toolchain from the Rust Foundation - and demonstrates how the Agent Client Protocol (ACP) standardizes agent-to-tool extensibility across diverse enterprise developer workflows. By Niko Matsakis",
-      "url": "https://www.infoq.com/presentations/rust-ai-symposium-agent-client-protocol/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-19T11:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-dc5e586e1d4a52dc",
-      "title": "🖖 MoTaCon 2027 Call for Contributions is open, with the help of Boach!",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/news/motacon-2027-call-for-contributions-is-open-with-the-help-of-boach",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-19T10:06:00.000Z",
-      "tags": [],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-27659d92542c3253",
-      "title": "NetWasm 0.10 Speeds Up C# on WebAssembly, Now Faster Than Mono AOT",
-      "summary": "Summary: NetWasm, an ahead-of-time compiler from C# to WebAssembly, has reworked exception handling, bounds-check elimination, SIMD and division in its 0.10 series. Across more than 2000 benchmark cas...",
-      "description": "Summary: NetWasm, an ahead-of-time compiler from C# to WebAssembly, has reworked exception handling, bounds-check elimination, SIMD and division in its 0.10 series. Across more than 2000 benchmark cases, the project reports running in 0.41 times the time of Mono AOT’s WASI build. By Edin Kapić",
-      "url": "https://www.infoq.com/news/2026/11/NetWasm-0-10-Faster/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-19T09:00:00.000Z",
-      "tags": [
-        "api"
-      ],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "selenium-releases-a16d302add79223c",
-      "title": "Nightly",
-      "summary": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] exten...",
-      "description": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when starting a session fails with any error by @titusfortner in #18333 [js][bidi] Keep received node...",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium Releases",
-      "category": "tooling",
-      "publishedAt": "2026-11-19T00:19:16.000Z",
-      "tags": [
-        "github",
-        "ai",
-        "release"
-      ],
-      "score": 52,
       "priority": "MEDIUM",
       "reason": [
         "recent"
