@@ -1,20 +1,21 @@
 {
-  "date": "2026-11-20",
-  "updatedAt": "2026-11-20T16:30:21.570Z",
+  "date": "2026-11-21",
+  "updatedAt": "2026-11-21T15:44:53.052Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
-  "lede": "Daily brief highlighting news topics",
+  "lede": "Daily brief highlighting news and release topics",
   "items": [
     {
-      "id": "ministry-of-testing-277b6ebf6bbed015",
-      "title": "What if you didn’t have to write AI test cases from scratch?",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/what-if-you-didn-t-have-to-write-ai-test-cases-from-scratch",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-20T16:17:36.000Z",
+      "id": "infoq-6e45bffadfeb4628",
+      "title": "Grafana 13.3 Adds Shared Dashboard Variables and Notebooks",
+      "summary": "Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-managed installations. ...",
+      "description": "Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-managed installations. By Mark Silvester",
+      "url": "https://www.infoq.com/news/2026/11/grafana-13-3-shared-variables/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-21T14:30:00.000Z",
       "tags": [
-        "ai"
+        "feature"
       ],
       "score": 54,
       "priority": "MEDIUM",
@@ -23,14 +24,36 @@
       ]
     },
     {
-      "id": "ministry-of-testing-f3e50c84bcdeb5f2",
-      "title": "Boach, Bugbergs and bottlenecks: going deeper with AI, not just faster",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/boach-bugbergs-and-bottlenecks-going-deeper-with-ai-not-just-faster",
-      "source": "Ministry of Testing",
+      "id": "infoq-885aa6b001335807",
+      "title": "QCon San Francisco 2026: Scaling Tech by Aligning Humans",
+      "summary": "At QCon San Francisco 2026, Scott Behrens, Principal Security Engineer at Netflix, presented how staff-plus engineers can define and align a company-wide technical strategy. By Daniel Dominguez",
+      "description": "At QCon San Francisco 2026, Scott Behrens, Principal Security Engineer at Netflix, presented how staff-plus engineers can define and align a company-wide technical strategy. By Daniel Dominguez",
+      "url": "https://www.infoq.com/news/2026/11/scalling-tech-humans/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
       "category": "qa-practice",
-      "publishedAt": "2026-11-20T16:04:07.000Z",
+      "publishedAt": "2026-11-21T13:30:00.000Z",
       "tags": [
+        "security"
+      ],
+      "score": 94,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-37398f2e8fd8ec8c",
+      "title": "How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug",
+      "summary": "Google recently detailed how three interacting bugs across Google Kubernetes Engine (GKE), Private Service Connect, and the Linux kernel caused intermittent Kubernetes API connectivity failures, block...",
+      "description": "Google recently detailed how three interacting bugs across Google Kubernetes Engine (GKE), Private Service Connect, and the Linux kernel caused intermittent Kubernetes API connectivity failures, blocking around 800 developers from deploying to production. By Renato Losio",
+      "url": "https://www.infoq.com/news/2026/11/gke-kernel-network-bug/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-21T09:44:00.000Z",
+      "tags": [
+        "kubernetes",
+        "api",
         "bug",
         "ai"
       ],
@@ -41,132 +64,128 @@
       ]
     },
     {
-      "id": "ministry-of-testing-ef777c4d36d10af3",
-      "title": "Curiosity is the key",
+      "id": "ministry-of-testing-4a11b707baf21284",
+      "title": "Ideas On How To Succeed As A Software Tester",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/curiosity-is-the-key",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-20T14:57:38.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-305ffdd521a1d58d",
-      "title": "MoTaverse match, the accessibility connection",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/motaverse-match-the-accessibility-connection",
+      "url": "https://www.ministryoftesting.com/insights/ideas-on-how-to-succeed-as-a-software-tester",
       "source": "Ministry of Testing",
       "category": "qa-practice",
-      "publishedAt": "2026-11-20T14:13:48.000Z",
+      "publishedAt": "2026-11-21T01:00:00.000Z",
       "tags": [],
-      "score": 54,
+      "score": 52,
       "priority": "MEDIUM",
       "reason": [
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-86cf6b51c4a9acc0",
-      "title": "Luke's talk at MoT London",
+      "id": "selenium-releases-a16d302add79223c",
+      "title": "Nightly",
+      "summary": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] exten...",
+      "description": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when starting a session fails with any error by @titusfortner in #18333 [js][bidi] Keep received node...",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-21T00:17:48.000Z",
+      "tags": [
+        "github",
+        "update",
+        "bug",
+        "ai",
+        "release"
+      ],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-3fcafcc541704c75",
+      "title": "Howden's QA Day with Zühlke's Aid-X Lab",
       "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/luke-s-talk-at-mot-london",
+      "url": "https://www.ministryoftesting.com/moments/howden-s-qa-day-with-zuhlke-s-aid-x-lab",
       "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-20T14:08:52.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-4b2a9e4b6a4e29ee",
-      "title": "A great talk by Tunde at MoT London",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/a-great-talk-by-tunde-at-mot-london",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-20T14:04:56.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-2ef044d0756c3920",
-      "title": "Intro to Accessibility - Heywood's approach & an interactive prototype test",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/media-sessions/intro-to-accessibility-heywood-s-approach-an-interactive-prototype-test",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-20T13:51:23.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-5cbba7d778731961",
-      "title": "Google Donates Agent Substrate and gVisor to the CNCF to Secure AI Agents at Scale",
-      "summary": "Google has announced it is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF), placing two important components of its AI agent infrastructure under vendor-neutral ope...",
-      "description": "Google has announced it is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF), placing two important components of its AI agent infrastructure under vendor-neutral open-source governance. By Craig Risi",
-      "url": "https://www.infoq.com/news/2026/11/google-substrate-gvisor-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-20T12:00:00.000Z",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-20T21:10:37.000Z",
       "tags": [
         "ai"
       ],
-      "score": 74,
+      "score": 71,
+      "priority": "HIGH",
+      "reason": [
+        "qa",
+        "recent"
+      ]
+    },
+    {
+      "id": "cloudflare-dee94a929dea9fb9",
+      "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+      "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP fl...",
+      "description": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+      "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+      "source": "Cloudflare",
+      "category": "ai",
+      "publishedAt": "2026-11-20T20:00:45.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 61,
+      "priority": "MEDIUM",
+      "reason": [
+        "cloudflare",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-0ef00ad313cb425d",
+      "title": "The Strawberry Thief",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/the-strawberry-thief",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-20T19:31:58.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-1b9c6e916640a7a4",
+      "title": "Well how correct do we need it to be?",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/well-how-correct-do-we-need-it-to-be",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-20T19:18:37.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "martin-fowler-a2a8be579621ccf2",
+      "title": "Fragments: November 20",
+      "summary": "Marcus Borg recounts an experiment to investigate if healthy code was cheaper for agents to review. Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), that adds...",
+      "description": "Marcus Borg recounts an experiment to investigate if healthy code was cheaper for agents to review. Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), that adds up to 22 to 35%. The measures of health come from CodeScene. The experiment looked at three LLMs, 465 pull requests on 246 open source repositories.",
+      "url": "https://martinfowler.com/fragments/2026-11-20.html",
+      "source": "Martin Fowler",
+      "category": "ai",
+      "publishedAt": "2026-11-20T18:38:00.000Z",
+      "tags": [
+        "api",
+        "rest",
+        "ai",
+        "llm"
+      ],
+      "score": 71,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-481dda86144dba75",
-      "title": "Is going to in-person testing events worth it?",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/is-going-to-in-person-testing-events-worth-it",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-20T11:35:40.000Z",
-      "tags": [
-        "testing"
-      ],
-      "score": 79,
-      "priority": "HIGH",
-      "reason": [
-        "testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-f99e47b7e407792f",
-      "title": "Presentation: Modernising Retail at Scale: Architecting a Cloud‑to‑Edge Platform for a Global Enterprise",
-      "summary": "Jayesh Bhayani discusses Tesco’s decade-long enterprise transformation from fragmented legacy systems to a unified cloud-edge platform. He explains how aligning system, talent, and process modernizati...",
-      "description": "Jayesh Bhayani discusses Tesco’s decade-long enterprise transformation from fragmented legacy systems to a unified cloud-edge platform. He explains how aligning system, talent, and process modernizations allowed Tesco to scale mission-critical retail operations to millions of customers, while sharing practical lessons on build vs. buy, cloud cost management, and preparing for agentic commerce.",
-      "url": "https://www.infoq.com/presentations/tesco-enterprise-tech-transformation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-20T11:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
         "recent"
       ]
     }
