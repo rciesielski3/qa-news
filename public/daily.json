@@ -1,7 +1,95 @@
 {
-  "date": "2026-11-21",
-  "updatedAt": "2026-11-21T15:44:53.052Z",
+  "date": "2026-11-22",
+  "updatedAt": "2026-11-22T15:47:28.545Z",
   "articles": [
+    {
+      "id": "infoq-21e7e8937ef47ee1",
+      "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+      "summary": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing a...",
+      "description": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controlling query plans. By Robert Krzaczyński",
+      "url": "https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-22T12:54:00.000Z",
+      "tags": [
+        "database",
+        "sql",
+        "performance",
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-209df3f0230546d9",
+      "title": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
+      "summary": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The...",
+      "description": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified 1,122 secrets in claude/settings.local.json files and another 1,160 in git history, in the shared settings.json, and in agent chat transcripts stored in repos. By Sergio De Simone",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-22T11:00:00.000Z",
+      "tags": [
+        "api",
+        "security",
+        "feature",
+        "ai"
+      ],
+      "score": 114,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-f749cab6bd9bf2a4",
+      "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+      "summary": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design kee...",
+      "description": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external Agent Gateway to authenticate requests and inject the required secrets. By Renato Losio",
+      "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-22T06:30:00.000Z",
+      "tags": [
+        "api",
+        "ai"
+      ],
+      "score": 73,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "selenium-releases-a16d302add79223c",
+      "title": "Nightly",
+      "summary": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] exten...",
+      "description": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when starting a session fails with any error by @titusfortner in #18333 [js][bidi] Keep received node...",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-22T00:15:21.000Z",
+      "tags": [
+        "github",
+        "api",
+        "update",
+        "bug",
+        "ai",
+        "release"
+      ],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
     {
       "id": "infoq-6e45bffadfeb4628",
       "title": "Grafana 13.3 Adds Shared Dashboard Variables and Notebooks",
@@ -14,11 +102,9 @@
       "tags": [
         "feature"
       ],
-      "score": 54,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-885aa6b001335807",
@@ -32,11 +118,10 @@
       "tags": [
         "security"
       ],
-      "score": 94,
+      "score": 90,
       "priority": "CRITICAL",
       "reason": [
-        "security",
-        "recent"
+        "security"
       ]
     },
     {
@@ -54,11 +139,9 @@
         "bug",
         "ai"
       ],
-      "score": 54,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-4a11b707baf21284",
@@ -69,33 +152,24 @@
       "category": "qa-practice",
       "publishedAt": "2026-11-21T01:00:00.000Z",
       "tags": [],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
-      "id": "selenium-releases-a16d302add79223c",
-      "title": "Nightly",
-      "summary": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] exten...",
-      "description": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when starting a session fails with any error by @titusfortner in #18333 [js][bidi] Keep received node...",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium Releases",
-      "category": "tooling",
-      "publishedAt": "2026-11-21T00:17:48.000Z",
+      "id": "ministry-of-testing-256d363db9ae4536",
+      "title": "How to obtain budgets for attending conferences",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/insights/how-to-obtain-budgets-for-attending-conferences",
+      "source": "Ministry of Testing",
+      "category": "ai",
+      "publishedAt": "2026-11-21T01:00:00.000Z",
       "tags": [
-        "github",
-        "update",
-        "bug",
-        "ai",
-        "release"
+        "ai"
       ],
-      "score": 52,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-3fcafcc541704c75",
@@ -108,82 +182,10 @@
       "tags": [
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "qa",
-        "recent"
-      ]
-    },
-    {
-      "id": "cloudflare-dee94a929dea9fb9",
-      "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
-      "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP fl...",
-      "description": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
-      "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
-      "source": "Cloudflare",
-      "category": "ai",
-      "publishedAt": "2026-11-20T20:00:45.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 61,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-0ef00ad313cb425d",
-      "title": "The Strawberry Thief",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/the-strawberry-thief",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-20T19:31:58.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-1b9c6e916640a7a4",
-      "title": "Well how correct do we need it to be?",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/well-how-correct-do-we-need-it-to-be",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-20T19:18:37.000Z",
-      "tags": [],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "martin-fowler-a2a8be579621ccf2",
-      "title": "Fragments: November 20",
-      "summary": "Marcus Borg recounts an experiment to investigate if healthy code was cheaper for agents to review. Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), that adds...",
-      "description": "Marcus Borg recounts an experiment to investigate if healthy code was cheaper for agents to review. Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), that adds up to 22 to 35%. The measures of health come from CodeScene. The experiment looked at three LLMs, 465 pull requests on 246 open source repositories.",
-      "url": "https://martinfowler.com/fragments/2026-11-20.html",
-      "source": "Martin Fowler",
-      "category": "ai",
-      "publishedAt": "2026-11-20T18:38:00.000Z",
-      "tags": [
-        "api",
-        "rest",
-        "ai",
-        "llm"
-      ],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
+        "qa"
       ]
     }
   ]
