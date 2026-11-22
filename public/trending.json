@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-11-22T16:23:03.665Z",
+  "items": [
+    {
+      "id": "github-32fe55bb813676c1",
+      "title": "KnifeLemon/Droidline",
+      "summary": "Android automation from code. Test your apps on real phones, script the tasks you repeat, run a shelf of phones, or let an AI agent use one, from Python, Node.js, the CLI, HTTP or Appium clients. No ADB, no USB cable, no root.",
+      "description": "Android automation from code. Test your apps on real phones, script the tasks you repeat, run a shelf of phones, or let an AI agent use one, from Python, Node.js, the CLI, HTTP or Appium clients. No ADB, no USB cable, no root.",
+      "url": "https://github.com/KnifeLemon/Droidline",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-10-07T04:54:21Z",
+      "tags": [
+        "test-automation"
+      ],
+      "stars": 558
+    },
+    {
+      "id": "github-fb89575b05f0672d",
+      "title": "pierridotite/mobile-agent-testers",
+      "summary": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+      "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+      "url": "https://github.com/pierridotite/mobile-agent-testers",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-11-16T19:11:44Z",
+      "tags": [
+        "test-automation"
+      ],
+      "stars": 179
+    },
+    {
+      "id": "github-5b11b065ae3bb2e7",
+      "title": "Bil0000/Hill-Climb",
+      "summary": "Make your coding agent prove \"done\". Each change is kept only if a locked test or benchmark scores it better. Claude Code and Codex skill.",
+      "description": "Make your coding agent prove \"done\". Each change is kept only if a locked test or benchmark scores it better. Claude Code and Codex skill.",
+      "url": "https://github.com/Bil0000/Hill-Climb",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-11-02T20:15:32Z",
+      "tags": [
+        "test-automation"
+      ],
+      "stars": 145
+    },
+    {
+      "id": "github-2388603d542f04fc",
+      "title": "hubastard/speedrun",
+      "summary": "Fastest cross-platform E2E Automation for Mobile & Web",
+      "description": "Fastest cross-platform E2E Automation for Mobile & Web",
+      "url": "https://github.com/hubastard/speedrun",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-10-24T17:05:57Z",
+      "tags": [
+        "test-automation"
+      ],
+      "stars": 113
+    },
+    {
+      "id": "github-1be97f1997ffdd1a",
+      "title": "Ursa-Minor-Beta/agent-factory-docker-api-ui",
+      "summary": "Agent Factory is an open-source studio for building, editing and chatting with AI agents. You build them from simple nodes: LLM calls, HTTP requests, JavaScript, memory and sub-agents. It runs locally with one docker-compose command, and ready-made testing agents are available in the shared agents-store repo.",
+      "description": "Agent Factory is an open-source studio for building, editing and chatting with AI agents. You build them from simple nodes: LLM calls, HTTP requests, JavaScript, memory and sub-agents. It runs locally with one docker-compose command, and ready-made testing agents are available in the shared agents-store repo.",
+      "url": "https://github.com/Ursa-Minor-Beta/agent-factory-docker-api-ui",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-09-25T11:00:13Z",
+      "tags": [
+        "test-automation"
+      ],
+      "stars": 101
+    },
+    {
+      "id": "github-998787d85cfe7544",
+      "title": "xcodebeast/flashwright",
+      "summary": "The fastest end-to-end testing framework: a drop-in Playwright with the same API and test runner, 2-4x faster than Playwright, Cypress, WebdriverIO, Selenium and Puppeteer",
+      "description": "The fastest end-to-end testing framework: a drop-in Playwright with the same API and test runner, 2-4x faster than Playwright, Cypress, WebdriverIO, Selenium and Puppeteer",
+      "url": "https://github.com/xcodebeast/flashwright",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-10-08T07:05:39Z",
+      "tags": [
+        "test-automation"
+      ],
+      "stars": 97
+    },
+    {
+      "id": "github-e21c8f834274070f",
+      "title": "Echoxiawan/Astra",
+      "summary": "Natural-language mobile UI testing with AI execution on real Android/iOS devices, generating standalone pytest + Appium scripts. 用自然语言写移动端测试用例，AI 在 Android / iOS 真机上执行，跑通后生成可独立运行的 pytest + Appium 脚本。",
+      "description": "Natural-language mobile UI testing with AI execution on real Android/iOS devices, generating standalone pytest + Appium scripts. 用自然语言写移动端测试用例，AI 在 Android / iOS 真机上执行，跑通后生成可独立运行的 pytest + Appium 脚本。",
+      "url": "https://github.com/Echoxiawan/Astra",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-11-18T13:05:00Z",
+      "tags": [
+        "test-automation"
+      ],
+      "stars": 68
+    },
+    {
+      "id": "github-068c4bcb386429ac",
+      "title": "Echoxiawan/echobench",
+      "summary": "EchoBench — local-first Android/iOS mobile test studio: recording, replay, locator validation, multi-device sync and AI CSV export; Electron desktop with GitHub Releases updates. 本机优先的 Android/iOS 移动测试工作台：录制、回放、定位器校验、多端同步、AI 用例导出，支持 Electron 桌面版和 GitHub 更新。",
+      "description": "EchoBench — local-first Android/iOS mobile test studio: recording, replay, locator validation, multi-device sync and AI CSV export; Electron desktop with GitHub Releases updates. 本机优先的 Android/iOS 移动测试工作台：录制、回放、定位器校验、多端同步、AI 用例导出，支持 Electron 桌面版和 GitHub 更新。",
+      "url": "https://github.com/Echoxiawan/echobench",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-11-14T08:28:10Z",
+      "tags": [
+        "test-automation"
+      ],
+      "stars": 52
+    },
+    {
+      "id": "github-1014f2220e29c645",
+      "title": "holycoder123/echo-test",
+      "summary": "EchoTest — Windows 桌面与安卓自动化测试工作台：操作录制与重放、原生 UI / 图像 / OCR 定位、低代码与 Python 用例、执行报告和 MCP 接入。",
+      "description": "EchoTest — Windows 桌面与安卓自动化测试工作台：操作录制与重放、原生 UI / 图像 / OCR 定位、低代码与 Python 用例、执行报告和 MCP 接入。",
+      "url": "https://github.com/holycoder123/echo-test",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-10-19T06:01:10Z",
+      "tags": [
+        "test-automation"
+      ],
+      "stars": 52
+    },
+    {
+      "id": "github-6fd7da3b622ae73d",
+      "title": "avivgerz-hue/ghost-qa",
+      "summary": "Autonomous headless Playwright QA agent & MCP server. Crawl localhost or staging URLs across Desktop, Tablet & Mobile to catch broken flows, console errors & layout bugs.",
+      "description": "Autonomous headless Playwright QA agent & MCP server. Crawl localhost or staging URLs across Desktop, Tablet & Mobile to catch broken flows, console errors & layout bugs.",
+      "url": "https://github.com/avivgerz-hue/ghost-qa",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-11-07T19:23:51Z",
+      "tags": [
+        "e2e-testing"
+      ],
+      "stars": 51
+    },
+    {
+      "id": "github-59662c1f44c375d2",
+      "title": "AndyShiu/claude-skill-playwright-browser",
+      "summary": "Claude Code skill: a background Playwright browser for screenshots (desktop/tablet/mobile), frontend health checks, visual diffs, scripted UI flows and logged-in pages — in any project. ｜ 讓 Claude Code 擁有背景瀏覽器：多尺寸截圖、前端健檢、視覺比對、操作流程與登入頁面，適用任何專案。",
+      "description": "Claude Code skill: a background Playwright browser for screenshots (desktop/tablet/mobile), frontend health checks, visual diffs, scripted UI flows and logged-in pages — in any project. ｜ 讓 Claude Code 擁有背景瀏覽器：多尺寸截圖、前端健檢、視覺比對、操作流程與登入頁面，適用任何專案。",
+      "url": "https://github.com/AndyShiu/claude-skill-playwright-browser",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-09-24T17:54:42Z",
+      "tags": [
+        "e2e-testing"
+      ],
+      "stars": 50
+    },
+    {
+      "id": "github-ebbeffe90ed5bf1f",
+      "title": "jwuthri-cloud/Tracely-ai",
+      "summary": "Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into replayable regression tests, and block PRs that regress. Self-hostable.",
+      "description": "Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into replayable regression tests, and block PRs that regress. Self-hostable.",
+      "url": "https://github.com/jwuthri-cloud/Tracely-ai",
+      "source": "GitHub",
+      "category": "ai",
+      "publishedAt": "2026-10-11T15:38:03Z",
+      "tags": [
+        "ai-testing"
+      ],
+      "stars": 848
+    },
+    {
+      "id": "github-05da8da9dd090f60",
+      "title": "dmoka/quicke2e",
+      "summary": "Plain-English end-to-end tests for web apps. A small decision model picks each click; code decides pass or fail; a passing run exports a Playwright spec.",
+      "description": "Plain-English end-to-end tests for web apps. A small decision model picks each click; code decides pass or fail; a passing run exports a Playwright spec.",
+      "url": "https://github.com/dmoka/quicke2e",
+      "source": "GitHub",
+      "category": "ai",
+      "publishedAt": "2026-09-24T15:45:48Z",
+      "tags": [
+        "ai-testing"
+      ],
+      "stars": 105
+    }
+  ]
+}
