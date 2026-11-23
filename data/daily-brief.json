@@ -1,194 +1,196 @@
 {
   "date": "2026-11-23",
-  "updatedAt": "2026-11-23T13:14:51.194Z",
+  "updatedAt": "2026-11-23T19:37:44.228Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news and release topics",
   "items": [
     {
-      "id": "infoq-21e7e8937ef47ee1",
-      "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
-      "summary": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing a...",
-      "description": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controlling query plans. By Robert Krzaczyński",
-      "url": "https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-4bda8844341320cd",
+      "title": "How LinkedIn Built a View-Agnostic Analytics System for Modern iOS UI Architectures",
+      "summary": "To address the challenge posed by modern iOS UI systems where the logical UI structure may not mirror the native UIKit hierarchy, LinkedIn engineers developed a view-agnostic analytics system build ar...",
+      "description": "To address the challenge posed by modern iOS UI systems where the logical UI structure may not mirror the native UIKit hierarchy, LinkedIn engineers developed a view-agnostic analytics system build around a shared MeasurableNode contract. By Sergio De Simone",
+      "url": "https://www.infoq.com/news/2026/11/linkedin-view-agnostic-analytics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "tooling",
-      "publishedAt": "2026-11-22T12:54:00.000Z",
+      "publishedAt": "2026-11-23T18:00:00.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-e0a94a4b60d6ff3d",
+      "title": "Bugberg ahead! Testability, feedback loops, culture",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/bugberg-ahead-testability-feedback-loops-culture",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-23T17:01:53.000Z",
       "tags": [
-        "database",
-        "sql",
-        "performance",
+        "bug"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-a036cb846897abc3",
+      "title": "Who's behind LuminosAI, and why we care so much about testing AI 🧪",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/who-s-behind-luminosai-and-why-we-care-so-much-about-testing-ai",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-23T16:07:51.000Z",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "score": 79,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-258605af1d878360",
+      "title": "Java News Roundup: Java4Shell, Oracle CSPUs, OpenJDK, Azul Payara, BellSoft, Helidon, LangChain4j",
+      "summary": "This week's Java roundup for November 16th, 2026, features news highlighting: the Java4Shell RCE vulnerability; Oracle CSPUs; Lazy Constants targeted for JDK 28; the November 2026 edition of Azul Paya...",
+      "description": "This week's Java roundup for November 16th, 2026, features news highlighting: the Java4Shell RCE vulnerability; Oracle CSPUs; Lazy Constants targeted for JDK 28; the November 2026 edition of Azul Payara; point releases of Java Operator SDK, LangChain4j and Micrometer; maintenance releases of Liberica JDK and Helidon; and second release candidates of Hibernate Reactive. By Michael Redlich",
+      "url": "https://www.infoq.com/news/2026/11/java-news-roundup-nov16-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-23T15:30:00.000Z",
+      "tags": [
+        "react",
+        "feature",
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-90ed6ea2a8e385a6",
+      "title": "Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents",
+      "summary": "At QCon San Francisco 2026, Mark Khuzam of Netflix explained how the Commerce team retrofitted its SDLC so AI coding agents and engineers could ship together. The team wrote 45 architecture decision r...",
+      "description": "At QCon San Francisco 2026, Mark Khuzam of Netflix explained how the Commerce team retrofitted its SDLC so AI coding agents and engineers could ship together. The team wrote 45 architecture decision records for people and agents, added a review agent that posts only verified blockers, and serves per-domain GraphRAG context through a single MCP tool. By Andrew Hoblitzell",
+      "url": "https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-23T14:58:00.000Z",
+      "tags": [
         "ai"
       ],
       "score": 74,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-209df3f0230546d9",
-      "title": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
-      "summary": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The...",
-      "description": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified 1,122 secrets in claude/settings.local.json files and another 1,160 in git history, in the shared settings.json, and in agent chat transcripts stored in repos. By Sergio De Simone",
-      "url": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-22T11:00:00.000Z",
-      "tags": [
-        "api",
-        "security",
-        "feature",
-        "ai"
-      ],
-      "score": 114,
-      "priority": "CRITICAL",
-      "reason": [
-        "security",
         "agent",
         "recent"
       ]
     },
     {
-      "id": "infoq-f749cab6bd9bf2a4",
-      "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
-      "summary": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design kee...",
-      "description": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external Agent Gateway to authenticate requests and inject the required secrets. By Renato Losio",
-      "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-2568be1abeb9f228",
+      "title": "Agoda Reduces API Code Review Time by 64% with Modular Architecture",
+      "summary": "Agoda introduced a modular monolith framework in its post-booking API to reduce coupling without a full rewrite. The platform uses domain components, Data Mapper patterns, typed builders, and ArchUnit...",
+      "description": "Agoda introduced a modular monolith framework in its post-booking API to reduce coupling without a full rewrite. The platform uses domain components, Data Mapper patterns, typed builders, and ArchUnit tests to enforce boundaries. Framework-backed changes showed 64% shorter median code reviews and 34% faster initial feedback than legacy changes. By Leela Kumili",
+      "url": "https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-22T06:30:00.000Z",
+      "category": "tooling",
+      "publishedAt": "2026-11-23T14:33:00.000Z",
       "tags": [
         "api",
         "ai"
       ],
-      "score": 73,
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-3cabbb2fcb021d20",
+      "title": "Karim on Into the MoTaverse: the quality architect role",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/karim-on-into-the-motaverse-the-quality-architect-role",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-23T13:39:18.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-d951714466c204bc",
+      "title": "We timed 50 end-to-end tests on Playwright, Selenium, Cypress and Thunders",
+      "summary": "",
+      "url": "https://www.ministryoftesting.com/moments/we-timed-50-end-to-end-tests-on-playwright-selenium-cypress-and-thunders",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-23T13:36:40.000Z",
+      "tags": [
+        "playwright",
+        "cypress"
+      ],
+      "score": 74,
       "priority": "HIGH",
       "reason": [
-        "agent",
+        "playwright",
         "recent"
       ]
     },
     {
-      "id": "selenium-releases-a16d302add79223c",
-      "title": "Nightly",
-      "summary": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] exten...",
-      "description": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when starting a session fails with any error by @titusfortner in #18333 [js][bidi] Keep received node...",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium Releases",
+      "id": "storybook-releases-1dec401271b02439",
+      "title": "v11.0.0-beta.4",
+      "summary": "11.0.0-beta.4 Addon A11y: Update vision simulators to be more rigorous - #37454, thanks @Sidnioulz! Addons: Keep transient panel state out of the manager store - #37391, thanks @Sidnioulz! Angular, Sa...",
+      "description": "11.0.0-beta.4 Addon A11y: Update vision simulators to be more rigorous - #37454, thanks @Sidnioulz! Addons: Keep transient panel state out of the manager store - #37391, thanks @Sidnioulz! Angular, Sandboxes: Port 10.6.8 CI fixes to next and deflake the Actions badge test - #37611, thanks @ndelangen! Angular: Remove destroyed applications from the renderer map - #37426, thanks @arturovt!",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-beta.4",
+      "source": "Storybook Releases",
       "category": "tooling",
-      "publishedAt": "2026-11-22T00:15:21.000Z",
+      "publishedAt": "2026-11-23T12:32:01.000Z",
       "tags": [
+        "typescript",
+        "react",
         "github",
         "api",
+        "rest",
         "update",
-        "bug",
         "ai",
         "release"
       ],
-      "score": 52,
+      "score": 53,
       "priority": "MEDIUM",
       "reason": [
         "recent"
       ]
     },
     {
-      "id": "infoq-6e45bffadfeb4628",
-      "title": "Grafana 13.3 Adds Shared Dashboard Variables and Notebooks",
-      "summary": "Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-managed installations. ...",
-      "description": "Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-managed installations. By Mark Silvester",
-      "url": "https://www.infoq.com/news/2026/11/grafana-13-3-shared-variables/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-998a32ea828efde1",
+      "title": "Claude Code Adds Experimental Code Mode to Orchestrate Tool Calls with JavaScript",
+      "summary": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls. By D...",
+      "description": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls. By Daniel Dominguez",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-mode/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-21T14:30:00.000Z",
-      "tags": [
-        "feature"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-885aa6b001335807",
-      "title": "QCon San Francisco 2026: Scaling Tech by Aligning Humans",
-      "summary": "At QCon San Francisco 2026, Scott Behrens, Principal Security Engineer at Netflix, presented how staff-plus engineers can define and align a company-wide technical strategy. By Daniel Dominguez",
-      "description": "At QCon San Francisco 2026, Scott Behrens, Principal Security Engineer at Netflix, presented how staff-plus engineers can define and align a company-wide technical strategy. By Daniel Dominguez",
-      "url": "https://www.infoq.com/news/2026/11/scalling-tech-humans/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-21T13:30:00.000Z",
-      "tags": [
-        "security"
-      ],
-      "score": 90,
-      "priority": "CRITICAL",
-      "reason": [
-        "security"
-      ]
-    },
-    {
-      "id": "infoq-37398f2e8fd8ec8c",
-      "title": "How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug",
-      "summary": "Google recently detailed how three interacting bugs across Google Kubernetes Engine (GKE), Private Service Connect, and the Linux kernel caused intermittent Kubernetes API connectivity failures, block...",
-      "description": "Google recently detailed how three interacting bugs across Google Kubernetes Engine (GKE), Private Service Connect, and the Linux kernel caused intermittent Kubernetes API connectivity failures, blocking around 800 developers from deploying to production. By Renato Losio",
-      "url": "https://www.infoq.com/news/2026/11/gke-kernel-network-bug/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-21T09:44:00.000Z",
-      "tags": [
-        "kubernetes",
-        "api",
-        "bug",
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-4a11b707baf21284",
-      "title": "Ideas On How To Succeed As A Software Tester",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/insights/ideas-on-how-to-succeed-as-a-software-tester",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-21T01:00:00.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-256d363db9ae4536",
-      "title": "How to obtain budgets for attending conferences",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/insights/how-to-obtain-budgets-for-attending-conferences",
-      "source": "Ministry of Testing",
       "category": "ai",
-      "publishedAt": "2026-11-21T01:00:00.000Z",
+      "publishedAt": "2026-11-23T12:17:00.000Z",
       "tags": [
+        "javascript",
         "ai"
       ],
-      "score": 50,
+      "score": 53,
       "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-3fcafcc541704c75",
-      "title": "Howden's QA Day with Zühlke's Aid-X Lab",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/howden-s-qa-day-with-zuhlke-s-aid-x-lab",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-20T21:10:37.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 70,
-      "priority": "HIGH",
       "reason": [
-        "qa"
+        "recent"
       ]
     }
   ]
