@@ -91,7 +91,7 @@ function DailyPageContent() {
             eyebrow="Highest signal"
             title="Today's Top Picks"
             titleId="picks-title"
-            sub="The three best-scored stories of the day, ranked by the pipeline's relevance score."
+            sub="The three best-scored stories of the day, at most one per source."
           />
           <TopPicks articles={topPickArticles} isLoading={isLoading} />
         </div>

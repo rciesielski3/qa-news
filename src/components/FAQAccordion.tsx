@@ -6,7 +6,7 @@ const faqs = [
   {
     question: 'How many articles do I see?',
     answer:
-      'Each period page highlights the three highest-scoring articles as Top Picks and lists the rest, filterable by category and tag. The site holds the last 30 days.',
+      'Each period page highlights the three highest-scoring articles as Top Picks (at most one per source) and lists the rest, filterable by category and tag. The site holds the last 30 days.',
   },
   {
     question: 'When does new data appear?',

@@ -80,7 +80,8 @@ describe('PeriodPage', () => {
     await waitFor(() => expect(container.querySelectorAll('.pickcard h3')).toHaveLength(3));
     const picks = Array.from(container.querySelectorAll('.pickcard h3')).map((h) => h.textContent);
     // 'old' (score 100) is outside the window and must not be picked
-    expect(picks).toEqual(['Title m1', 'Title w1', 'Title w2']);
+    // w2 (score 80) is skipped: its source (Alpha) already has a pick (w1); w3 (Beta) takes the slot
+    expect(picks).toEqual(['Title m1', 'Title w1', 'Title w3']);
 
     const nav = screen.getByRole('navigation', { name: 'Sections' });
     const links = within(nav).getAllByRole('link');
@@ -90,6 +91,16 @@ describe('PeriodPage', () => {
     expect(container.querySelector('section#picks')).toBeInTheDocument();
     expect(container.querySelector('section#feed.band')).toBeInTheDocument();
     expect(screen.getByText('02', { selector: '.sec-no' })).toBeInTheDocument();
+  });
+
+  it('does not show two top picks from the same source when another source qualifies, and the feed keeps the skipped one', async () => {
+    const { container } = render(<PeriodPage period="week" />);
+    await waitFor(() => expect(container.querySelectorAll('.pickcard h3')).toHaveLength(3));
+    const picks = Array.from(container.querySelectorAll('.pickcard h3')).map((h) => h.textContent);
+    expect(picks).toEqual(['Title w1', 'Title w3', 'Title w5']);
+    // w2 (Alpha, score 80) was skipped as a pick, so it appears in the feed
+    await waitFor(() => expect(container.querySelectorAll('.feed-row')).toHaveLength(2));
+    expect(within(container.querySelector('#feed') as HTMLElement).getByText('Title w2')).toBeInTheDocument();
   });
 
   it('shows skeletons while loading and the empty state without data', async () => {
