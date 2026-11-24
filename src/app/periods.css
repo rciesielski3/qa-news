@@ -1,0 +1,5 @@
+/* Weekly / monthly pages: additions on top of bento.css (tokens and tiles are reused as-is). */
+
+/* A 30-bar sparkline needs tighter gaps to stay legible inside a stat tile. */
+.spark.dense { gap: 2px; }
+.spark.dense b { border-radius: 2px 2px 1px 1px; }
