@@ -24,8 +24,16 @@ export default function Header() {
 
   return (
     <header className="site-header">
-      <div className="container">
-        <span className="site-title">QA News</span>
+      <div className="wrap">
+        <Link href="/" className="site-logo" aria-label="QA News">
+          <i aria-hidden="true">
+            <b />
+            <b />
+            <b />
+            <b />
+          </i>
+          <span className="site-title">QA News</span>
+        </Link>
         <nav className="nav" aria-label="Primary">
           {NAV.map((item) => {
             const active = isActive(pathname, item.href);

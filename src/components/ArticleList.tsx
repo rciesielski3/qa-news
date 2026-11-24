@@ -48,14 +48,21 @@ export default function ArticleList({ articles, topPickIds }: ArticleListProps) 
   };
 
   if (listArticles.length === 0) {
-    return <p className="text-ink-600 dark:text-paper-muted">No articles found.</p>;
+    return <p className="text-2">No articles found.</p>;
   }
 
   return (
-    <div className="space-y-4">
-      <ul className="space-y-1 min-h-[400px]">
-        {displayedArticles.map((article) => (
-          <PipelineEntry key={article.id} article={article} />
+    <div className="feed-table">
+      <div className="feed-head" aria-hidden="true">
+        <span>#</span>
+        <span>Category</span>
+        <span>Story</span>
+        <span>Source · Date</span>
+        <span />
+      </div>
+      <ul className="feed-list" role="list">
+        {displayedArticles.map((article, i) => (
+          <PipelineEntry key={article.id} article={article} index={i + 1} />
         ))}
 
         {isLoadingMore && (
@@ -67,11 +74,11 @@ export default function ArticleList({ articles, topPickIds }: ArticleListProps) 
       </ul>
 
       {hasMore && (
-        <div className="flex justify-center py-6">
+        <div className="loadmore-wrap">
           <button
             onClick={handleLoadMore}
             disabled={isLoadingMore}
-            className="px-6 py-2 font-mono text-xs uppercase tracking-widest border border-ink-200 dark:border-ink-600 rounded disabled:opacity-50 disabled:cursor-not-allowed hover:scale-105 hover:bg-ink-100 dark:hover:bg-ink-700 active:bg-ink-200 dark:active:bg-ink-600 transition-all duration-150"
+            className="loadmore hover:scale-105 hover:bg-[var(--surface-2)] active:bg-[var(--border)] transition-all duration-150 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {isLoadingMore ? 'Loading...' : 'Load More'}
           </button>

@@ -1,0 +1,65 @@
+import fs from 'fs';
+import path from 'path';
+
+/**
+ * WCAG contrast guard computed from the real custom properties in theme.css,
+ * so a token change that drops a text pair below 4.5:1 fails here.
+ */
+const css = fs.readFileSync(path.join(__dirname, '../app/theme.css'), 'utf8');
+
+function block(selector: string): Record<string, string> {
+  const start = css.indexOf('{', css.indexOf(selector));
+  const end = css.indexOf('\n}', start);
+  const out: Record<string, string> = {};
+  for (const m of css.slice(start, end).matchAll(/--([\w-]+):\s*(#[0-9A-Fa-f]{6})/g)) out[`--${m[1]}`] = m[2];
+  return out;
+}
+
+const dark = block(':root,\n[data-theme="dark"]');
+const themes: Record<string, Record<string, string>> = { dark, light: { ...dark, ...block('[data-theme="light"] {') } };
+
+type RGB = [number, number, number];
+const rgb = (hex: string): RGB => [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16)) as RGB;
+const mix = (a: RGB, b: RGB, p: number): RGB => a.map((v, i) => v * (1 - p) + b[i] * p) as RGB;
+const lum = (c: RGB) => {
+  const f = (v: number) => {
+    const s = v / 255;
+    return s <= 0.03928 ? s / 12.92 : ((s + 0.055) / 1.055) ** 2.4;
+  };
+  return 0.2126 * f(c[0]) + 0.7152 * f(c[1]) + 0.0722 * f(c[2]);
+};
+const ratio = (a: RGB, b: RGB) => (Math.max(lum(a), lum(b)) + 0.05) / (Math.min(lum(a), lum(b)) + 0.05);
+
+const CATS = ['test-automation', 'qa-practice', 'tooling', 'engineering', 'ai'];
+
+describe.each(Object.keys(themes))('%s theme contrast (>= 4.5:1)', (name) => {
+  const t = themes[name];
+  const C = (k: string) => rgb(t[k]);
+  const band = mix(C('--bg'), C('--text'), 0.035); // --band
+  const soft = (base: RGB) => mix(base, C('--accent'), 0.14); // --accent-soft over a base
+
+  it('accent text passes on surface, band and accent-soft', () => {
+    for (const bg of [C('--surface'), band, soft(C('--surface'))]) {
+      expect(ratio(C('--accent'), bg)).toBeGreaterThanOrEqual(4.5);
+    }
+  });
+
+  it('text-3 passes on surfaces and on the accent-soft hover tint', () => {
+    for (const bg of [C('--bg'), C('--surface'), C('--surface-2'), band, soft(C('--surface'))]) {
+      expect(ratio(C('--text-3'), bg)).toBeGreaterThanOrEqual(4.5);
+    }
+  });
+
+  it.each(CATS)('feed pill text (%s) passes on band, even rows and hover', (cat) => {
+    const cc = C(`--cat-${cat}`);
+    const even = mix(band, C('--text'), 0.02);
+    for (const row of [band, even, soft(band), soft(even)]) {
+      expect(ratio(C('--text'), mix(row, cc, 0.12))).toBeGreaterThanOrEqual(4.5);
+    }
+  });
+
+  it('category colour text passes on the first top-pick gradient', () => {
+    const grad = mix(C('--surface'), C('--accent'), 0.12);
+    for (const cat of CATS) expect(ratio(C(`--cat-${cat}`), grad)).toBeGreaterThanOrEqual(4.5);
+  });
+});

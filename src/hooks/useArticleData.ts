@@ -3,7 +3,12 @@ import type { Article } from '@/lib/types';
 import { getArticlesForDate, getUTCToday, getYesterdayUTC, isDayBeforeRefreshTime } from '@/lib/dateUtils';
 
 interface UseArticleDataResult {
+  /** Articles of the day being shown (today, or yesterday when using the fallback). */
   articles: Article[];
+  /** Every article in latest.json (used for the hero statistics). */
+  allArticles: Article[];
+  /** UTC day (YYYY-MM-DD) the feed is showing; null when nothing is shown. */
+  feedDay: string | null;
   updatedAt: string | null;
   isLoading: boolean;
   isUsingFallback: boolean;
@@ -11,6 +16,8 @@ interface UseArticleDataResult {
 
 export function useArticleData(): UseArticleDataResult {
   const [articles, setArticles] = useState<Article[]>([]);
+  const [allArticles, setAllArticles] = useState<Article[]>([]);
+  const [feedDay, setFeedDay] = useState<string | null>(null);
   const [updatedAt, setUpdatedAt] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [isUsingFallback, setIsUsingFallback] = useState(false);
@@ -26,6 +33,7 @@ export function useArticleData(): UseArticleDataResult {
         const timestamp = data.updatedAt ?? null;
 
         if (cancelled) return;
+        setAllArticles(allArticles);
 
         // Check if we have today's articles
         const today = getUTCToday();
@@ -34,6 +42,7 @@ export function useArticleData(): UseArticleDataResult {
         // If we have today's articles, use them
         if (todayArticles.length > 0) {
           setArticles(todayArticles);
+          setFeedDay(today.toISOString().slice(0, 10));
           setUpdatedAt(timestamp);
           setIsUsingFallback(false);
           setIsLoading(false);
@@ -47,6 +56,7 @@ export function useArticleData(): UseArticleDataResult {
 
         if (yesterdayArticles.length > 0) {
           setArticles(yesterdayArticles);
+          setFeedDay(yesterday.toISOString().slice(0, 10));
           setUpdatedAt(timestamp);
           setIsUsingFallback(true);
           setIsLoading(false);
@@ -73,5 +83,5 @@ export function useArticleData(): UseArticleDataResult {
     };
   }, []);
 
-  return { articles, updatedAt, isLoading, isUsingFallback };
+  return { articles, allArticles, feedDay, updatedAt, isLoading, isUsingFallback };
 }
