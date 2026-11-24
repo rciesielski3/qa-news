@@ -6,27 +6,21 @@ const faqs = [
   {
     question: 'How many articles do I see?',
     answer:
-      'Each period page (Today, Weekly, Monthly) highlights the three highest-scoring articles as Top Picks and lists the rest of that period below, filterable by category and tag. The site holds the last 30 days.',
+      'Each period page highlights the three highest-scoring articles as Top Picks and lists the rest, filterable by category and tag. The site holds the last 30 days.',
   },
   {
-    question: 'How are articles selected?',
+    question: 'When does new data appear?',
     answer:
-      'With fixed, rule-based scoring, not a language model: a base score plus weights for QA and testing keywords, a source weight and a small bonus for articles under 24 hours old. Hardware and networking items are filtered out unless they also cover testing.',
-  },
-  {
-    question: 'When does the pipeline run?',
-    answer:
-      'The daily-brief workflow starts at 08:00 UTC. Its data change goes through a pull request, and after tests pass and it is merged, an export workflow publishes the new data to the site. Publication follows those steps, not a fixed clock time.',
+      'The daily run starts at 08:00 UTC; the change then goes through a pull request, tests and an export workflow. Publication follows those steps, not a fixed clock time.',
   },
   {
     question: 'What about articles I miss?',
-    answer:
-      'Use the Weekly and Monthly views. They cover the last 7 and 30 days of the same data. Articles older than 30 days are pruned.',
+    answer: 'Use Weekly and Monthly: they cover the last 7 and 30 days. Articles older than 30 days are pruned.',
   },
   {
     question: 'Can I request sources?',
     answer:
-      'Sources are a curated list in the pipeline configuration, so there is no self-service option. Suggestions are welcome through the feedback link on the About page.',
+      'Sources are a curated list in the pipeline configuration. Suggestions are welcome through the feedback link on the About page.',
   },
 ];
 

@@ -34,8 +34,7 @@ export default function ScoreBreakdown() {
         ))}
       </ul>
       <p className="cp-score-foot">
-        Score = base + every keyword found in the title or summary + source prior + freshness. Keywords decide: the
-        source prior and freshness are deliberately small. These are the current defaults of the scoring config.
+        Score = base + keywords found in the title or summary + source prior + freshness. Current config defaults.
       </p>
     </ContentTile>
   );

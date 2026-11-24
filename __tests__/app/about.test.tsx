@@ -11,9 +11,11 @@ describe('About page', () => {
   it('renders headings and no PAIOS reference', () => {
     const { container } = render(<AboutPage />);
     expect(screen.getByRole('heading', { level: 1, name: 'About QA News' })).toBeInTheDocument();
-    // The old two-paragraph page became a case study; its sections replace "What Is QA News" / "Our Mission".
-    for (const name of ['Signal versus noise', 'The solution at a glance', 'From feed to page', 'Engineering decisions']) {
+    for (const name of ['From feed to page', 'Key decisions', 'Stack and quality']) {
       expect(screen.getByRole('heading', { level: 2, name })).toBeInTheDocument();
+    }
+    for (const gone of ['Signal versus noise', 'The solution at a glance', "What's next"]) {
+      expect(screen.queryByRole('heading', { name: gone })).not.toBeInTheDocument();
     }
     expect(container.textContent).not.toMatch(/PAIOS/i);
   });

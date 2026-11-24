@@ -9,9 +9,9 @@ describe('content pages share the Daily bento language', () => {
     expect(container.querySelector('.t-head h1')).toBeInTheDocument();
     const nav = screen.getByRole('navigation', { name: 'Sections' });
     const ids = Array.from(nav.querySelectorAll('a')).map((a) => a.getAttribute('href')?.slice(1));
-    expect(ids).toEqual(['pipeline', 'metrics', 'scoring', 'hood', 'faq']);
+    expect(ids).toEqual(['pipeline', 'scoring', 'numbers', 'faq']);
     for (const id of ids) expect(container.querySelector(`section#${id}`)).toBeInTheDocument();
-    expect(container.querySelectorAll('.sec-head')).toHaveLength(5);
+    expect(container.querySelectorAll('.sec-head')).toHaveLength(4);
     expect(container.querySelectorAll('.cp-step')).toHaveLength(4);
   });
 
@@ -26,32 +26,35 @@ describe('content pages share the Daily bento language', () => {
 });
 
 describe('About case study', () => {
-  it('has one h1, a section nav matching the numbered sections and the expected case-study headings', () => {
+  it('has one h1, no sticky section nav and numbered sections for architecture, decisions and stack', () => {
     const { container } = render(<AboutPage />);
     expect(container.querySelectorAll('h1')).toHaveLength(1);
-    const nav = screen.getByRole('navigation', { name: 'Sections' });
-    const ids = Array.from(nav.querySelectorAll('a')).map((a) => a.getAttribute('href')?.slice(1));
-    expect(ids).toEqual(['problem', 'solution', 'architecture', 'decisions', 'quality', 'stack', 'next']);
-    for (const id of ids) {
+    expect(screen.queryByRole('navigation', { name: 'Sections' })).not.toBeInTheDocument();
+    for (const id of ['architecture', 'decisions', 'stack']) {
       const section = container.querySelector(`section#${id}`);
       expect(section).toBeInTheDocument();
       expect(section).toHaveAttribute('aria-labelledby', `${id}-title`);
       expect(container.querySelector(`#${id}-title`)).toBeInTheDocument();
     }
-    expect(container.querySelectorAll('.sec-head')).toHaveLength(7);
-    for (const name of ['Engineering decisions', 'The quality bar', 'Tech stack', "What's next"]) {
-      expect(screen.getByRole('heading', { level: 2, name })).toBeInTheDocument();
-    }
+    expect(container.querySelectorAll('.sec-head')).toHaveLength(3);
   });
 
-  it('gives every engineering decision a why and a trade-off', () => {
+  it('keeps decisions to five compact rows, each a title and one short line', () => {
     const { container } = render(<AboutPage />);
-    const tiles = container.querySelectorAll('#decisions .cp-card');
-    expect(tiles.length).toBeGreaterThanOrEqual(4);
-    tiles.forEach((tile) => {
-      const keys = Array.from(tile.querySelectorAll('.cp-k')).map((k) => k.textContent);
-      expect(keys).toEqual(['Why', 'Trade-off']);
+    const rows = Array.from(container.querySelectorAll('#decisions .cp-row'));
+    expect(rows).toHaveLength(5);
+    rows.forEach((row) => {
+      expect(row.querySelectorAll('h3')).toHaveLength(1);
+      const words = (row.querySelector('p')?.textContent ?? '').trim().split(/\s+/);
+      expect(words.length).toBeLessThanOrEqual(20);
     });
+  });
+
+  it('lists stack and quality gates as labelled chip lists', () => {
+    const { container } = render(<AboutPage />);
+    expect(container.querySelectorAll('#stack ul[aria-label="Stack"] li').length).toBeGreaterThan(5);
+    const gates = Array.from(container.querySelectorAll('#stack ul[aria-label="Quality gates"] li')).map((li) => li.textContent);
+    expect(gates).toEqual(expect.arrayContaining(['gitleaks', 'npm audit', 'Coverage floor']));
   });
 
   it('describes the architecture in text: an ordered list of stages plus a caption', () => {
@@ -64,10 +67,8 @@ describe('About case study', () => {
     expect(figure.querySelector('svg')).toBeNull();
   });
 
-  it('labels roadmap items with a status and links the contact page safely', () => {
-    const { container } = render(<AboutPage />);
-    const pills = Array.from(container.querySelectorAll('#next .cp-pill')).map((p) => p.textContent);
-    expect(pills).toEqual(['Planned', 'Paused', 'Later']);
+  it('links the contact page safely', () => {
+    render(<AboutPage />);
     const contact = screen.getByRole('link', { name: /get in touch/i });
     expect(contact).toHaveAttribute('href', 'https://rciesielski.dev/contact');
     expect(contact).toHaveAttribute('rel', expect.stringContaining('noopener'));
@@ -107,6 +108,14 @@ describe('How it works visuals', () => {
       expect(r.querySelector('.track')).toHaveAttribute('aria-hidden', 'true');
     });
     expect(container.querySelector('a[href="/about#architecture"]')).toBeInTheDocument();
+  });
+
+  it('has four key-number tiles, three scoring rules and at most five FAQ questions', () => {
+    const { container } = render(<HowItWorksPage />);
+    expect(container.querySelectorAll('#numbers .cp-metric')).toHaveLength(4);
+    expect(container.querySelectorAll('#scoring .cp-rules li')).toHaveLength(3);
+    expect(container.querySelectorAll('#faq .faq-item').length).toBeLessThanOrEqual(5);
+    expect(container.querySelector('#hood')).toBeNull();
   });
 });
 

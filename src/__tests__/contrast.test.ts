@@ -83,9 +83,9 @@ describe.each(Object.keys(themes))('%s theme contrast (>= 4.5:1)', (name) => {
     // .cp-card/.cp-node text sits on --surface; the page band only tints the section behind it.
     const pairs: Array<[string, RGB[]]> = [
       ['--text', [C('--surface'), C('--surface-2'), band]],
-      ['--text-2', [C('--surface'), C('--surface-2'), band, soft(C('--surface'))]], // .cp-pill.muted, notes, captions
-      ['--text-3', [C('--surface'), band]], // .cp-k, .cp-where
-      ['--accent', [C('--surface'), band]], // .cp-pill.accent, .cp-note links
+      ['--text-2', [C('--surface'), C('--surface-2'), band, soft(C('--surface'))]], // notes, captions
+      ['--text-3', [C('--surface'), band]], // .cp-where
+      ['--accent', [C('--surface'), band]], // .cp-link
     ];
     for (const [fg, bgs] of pairs) {
       for (const bg of bgs) expect(ratio(C(fg), bg)).toBeGreaterThanOrEqual(4.5);

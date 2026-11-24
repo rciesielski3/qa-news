@@ -55,9 +55,7 @@ export default function ArchitectureDiagram() {
         </ol>
       </ContentTile>
       <figcaption id="arch-caption" className="cp-caption">
-        Architecture, left to right (top to bottom on small screens): feeds go through the pipeline into a Git-versioned
-        store, are exported as JSON and served by a static site. Every data change travels the delivery path as pull
-        requests that merge after tests pass.
+        Feeds go through the pipeline into a Git-versioned store, are exported as JSON and served by a static site.
       </figcaption>
     </figure>
   );

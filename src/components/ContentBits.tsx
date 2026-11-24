@@ -12,8 +12,3 @@ export function FactChips({ items, label }: { items: string[]; label: string }) 
     </ul>
   );
 }
-
-/** Status marker for roadmap items, e.g. "Planned". Always text, never colour alone. */
-export function StatusPill({ children, tone = 'accent' }: { children: string; tone?: 'accent' | 'muted' }) {
-  return <span className={`cp-pill ${tone}`}>{children}</span>;
-}
