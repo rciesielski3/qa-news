@@ -20,10 +20,10 @@ export default function AboutPage() {
           <div className="section-content-wrapper">
             <h2 className="section-title">What Is QA News</h2>
             <p className="prose mt-2">
-              QA News is a read-only view over the PAIOS Knowledge Layer - a daily digest built specifically for QA
-              engineers, test automation practitioners, and quality-focused engineering teams. Instead of scrolling
-              through dozens of feeds and newsletters, you get a single curated stream: the handful of articles each
-              day that are actually worth your time.
+              QA News is a daily digest for QA engineers, test automation practitioners, and quality-focused
+              engineering teams. A TypeScript pipeline on GitHub Actions collects testing and engineering feeds,
+              ranks them with transparent rules, and publishes the result here. Instead of scrolling through dozens
+              of feeds and newsletters, you get a single curated stream with the strongest items of each period on top.
             </p>
           </div>
         </section>

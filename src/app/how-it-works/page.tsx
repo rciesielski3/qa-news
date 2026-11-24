@@ -4,7 +4,7 @@ import FAQAccordion from '@/components/FAQAccordion';
 export const metadata = {
   title: 'How It Works | QA News Curation Pipeline',
   description:
-    'Deep dive into the PAIOS AI pipeline that curates and selects the best QA engineering news daily',
+    'How QA News collects, scores and publishes QA and test-automation news: a TypeScript pipeline on GitHub Actions with transparent, rule-based ranking.',
 };
 
 export default function HowItWorksPage() {
@@ -13,9 +13,9 @@ export default function HowItWorksPage() {
       <div className="mx-auto max-w-content">
         {/* Hero Section */}
         <section className="mb-12 sm:mb-16 text-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">How PAIOS Curates Your News</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">How QA News Curates the News</h1>
           <p className="mt-3 sm:mt-4 text-base sm:text-lg text-2">
-            A technical deep dive into the AI-driven curation pipeline
+            A technical look at the pipeline: scheduled fetch, rule-based scoring, de-duplication, daily export
           </p>
           <p className="mt-4">
             <Link href="/about" className="inline-block text-cyan-600 dark:text-cyan-400 hover:underline font-semibold">
@@ -33,22 +33,22 @@ export default function HowItWorksPage() {
                 {
                   step: 1,
                   title: 'Ingestion',
-                  description: '5 feeds tracked · 1,110+ articles fetched daily at 06:00 UTC',
+                  description: 'A TypeScript job on GitHub Actions fetches the configured RSS and Atom feeds daily at 08:00 UTC',
                 },
                 {
                   step: 2,
                   title: 'Scoring',
-                  description: 'AI multi-factor ranking: relevance, freshness, source quality, novelty',
+                  description: 'Transparent rules: keyword matches, source weight and a small freshness bonus',
                 },
                 {
                   step: 3,
-                  title: 'Selection',
-                  description: 'Top 50 articles ranked by predicted value to QA engineers',
+                  title: 'De-duplication',
+                  description: 'One story per source and normalized URL, kept in a 30-day NDJSON store',
                 },
                 {
                   step: 4,
                   title: 'Publication',
-                  description: 'Static site rebuilt and published at 08:00 UTC daily',
+                  description: 'Exported as JSON to this site once the daily-brief change is merged and tests pass',
                 },
               ].map(({ step, title, description }) => (
                 <div key={step} className="pipeline-step flex flex-col items-center justify-center text-center p-4 min-h-[140px]">
@@ -67,26 +67,24 @@ export default function HowItWorksPage() {
             <h2 className="section-title">Key Metrics</h2>
             <div className="metrics">
               <div className="metric-card flex flex-col items-center justify-center text-center p-4 min-h-[120px]">
-                <p className="label">Feeds Tracked</p>
-                <p className="value">5</p>
-                <p className="note">OpenAI Blog, Google AI, Cloudflare, Microsoft, Lobsters</p>
+                <p className="label">Daily Run</p>
+                <p className="value">08:00 UTC</p>
+                <p className="note">Scheduled GitHub Actions workflow</p>
               </div>
               <div className="metric-card flex flex-col items-center justify-center text-center p-4 min-h-[120px]">
-                <p className="label">Articles Scanned Daily</p>
-                <p className="value">1,110</p>
-                <p className="note">Aggregate across all sources</p>
+                <p className="label">Retention</p>
+                <p className="value">30 days</p>
+                <p className="note">Older articles are pruned from the store and the export</p>
               </div>
               <div className="metric-card flex flex-col items-center justify-center text-center p-4 min-h-[120px]">
-                <p className="label">Articles Selected Daily</p>
-                <p className="value">50</p>
-                <p className="note">4.5% selection rate for quality</p>
+                <p className="label">Top Picks</p>
+                <p className="value">3 per period</p>
+                <p className="note">Highest score in today, week and month views</p>
               </div>
               <div className="metric-card flex flex-col items-center justify-center text-center p-4 min-h-[120px]">
-                <p className="label">Update Cycle</p>
-                <p className="value" style={{ fontSize: '18px' }}>
-                  06:00 → 08:00 UTC
-                </p>
-                <p className="note">Fetch, process, publish daily</p>
+                <p className="label">New Repos Window</p>
+                <p className="value">60 days</p>
+                <p className="note">GitHub repos with 50+ stars</p>
               </div>
             </div>
           </div>
@@ -99,20 +97,20 @@ export default function HowItWorksPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
                 {
-                  title: 'Relevance',
-                  description: 'Articles are ranked by predicted value to QA engineers based on keywords, topics, and historical engagement.'
+                  title: 'Topic Keywords',
+                  description: 'Every score starts from a base of 50. Each QA or testing keyword found in the title or summary (test automation, e2e testing, security testing, Playwright and others) adds a fixed weight.'
+                },
+                {
+                  title: 'Source Weight',
+                  description: 'The scoring config can add a weight per source, so primary QA and testing publications can outrank general engineering feeds.'
                 },
                 {
                   title: 'Freshness',
-                  description: 'Recent articles receive a boost to ensure you see the latest news and developments in the field.'
+                  description: 'Articles under 24 hours old get a small bonus of up to 4 points. Older articles simply do not get the bonus.'
                 },
                 {
-                  title: 'Source Quality',
-                  description: 'Feeds are pre-curated for reliability and expertise. Higher-quality sources receive higher rankings.'
-                },
-                {
-                  title: 'Novelty',
-                  description: 'Articles covering new topics or unique angles rank higher than duplicates or rehashes of recent news.'
+                  title: 'Off-Topic Filter',
+                  description: 'Articles about hardware or networking topics are dropped unless they also mention testing or QA terms.'
                 },
               ].map((factor) => (
                 <div key={factor.title} className="border border-ink-200 dark:border-ink-600 rounded p-4 bg-ink-50 dark:bg-ink-900">
@@ -132,19 +130,19 @@ export default function HowItWorksPage() {
               {[
                 {
                   title: 'Data Pipeline',
-                  description: 'Feeds are fetched at 06:00 UTC daily. Articles are scored during the next two hours using multi-factor AI ranking.'
+                  description: 'The daily-brief workflow runs at 08:00 UTC. It fetches each feed (failing feeds are skipped, not fatal), normalizes the items, scores them and appends them to an NDJSON store versioned in Git.'
                 },
                 {
-                  title: 'Selection Algorithm',
-                  description: 'The top 50 articles (4.5% of ~1,110 fetched) are selected based on combined relevance, freshness, quality, and novelty scores.'
+                  title: 'De-duplication',
+                  description: 'A story is identified by its source plus its URL with fragments and utm_ tracking parameters removed. Re-seen articles keep their original ID, and the export fails loudly if two different URLs ever share an ID.'
                 },
                 {
-                  title: 'Daily Refresh',
-                  description: 'Results are published at 08:00 UTC daily to the QA News website. Fresh picks are ready every morning for your review.'
+                  title: 'Export and Windows',
+                  description: 'The site reads one latest.json holding the last 30 days. Today, Weekly and Monthly are views of that file, and each shows its own top three picks by score, newest first on ties.'
                 },
                 {
-                  title: 'Quality Metrics',
-                  description: 'The pipeline tracks 5 RSS feeds covering 1,110+ articles daily. An 4.5% selection rate ensures only the best make the cut.'
+                  title: 'New & Notable Repos',
+                  description: 'A separate export queries the GitHub search API for repos tagged test-automation, e2e-testing or ai-testing, created in the last 60 days with at least 50 stars. The Daily page shows up to six. Stars are a snapshot, not a growth rate.'
                 },
               ].map((concept) => (
                 <div key={concept.title} className="border border-ink-200 dark:border-ink-600 rounded p-4 bg-ink-50 dark:bg-ink-900">

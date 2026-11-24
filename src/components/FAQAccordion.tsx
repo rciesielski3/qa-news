@@ -4,29 +4,29 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'Why only 50 articles?',
+    question: 'How many articles do I see?',
     answer:
-      'Quality over quantity. We filter aggressively for signal, removing noise. You get the best 4.5% of articles instead of information overload. This ensures every article has genuine value to your work.',
+      'Each period page (Today, Weekly, Monthly) highlights the three highest-scoring articles as Top Picks and lists the rest of that period below, filterable by category and tag. The site holds the last 30 days.',
   },
   {
     question: 'How are articles selected?',
     answer:
-      'Multi-factor AI scoring: relevance to QA engineers, freshness, source quality, and novelty. Articles must rank highly across all factors to make the cut. This ensures balanced, high-quality selection.',
+      'With fixed, rule-based scoring, not a language model: a base score plus weights for QA and testing keywords, a source weight and a small bonus for articles under 24 hours old. Hardware and networking items are filtered out unless they also cover testing.',
   },
   {
     question: 'When does the pipeline run?',
     answer:
-      'The pipeline runs daily: feeds are fetched at 06:00 UTC, articles are scored and selected during the next two hours, and results are published at 08:00 UTC. Check back for fresh picks every morning.',
+      'The daily-brief workflow starts at 08:00 UTC. Its data change goes through a pull request, and after tests pass and it is merged, an export workflow publishes the new data to the site. Publication follows those steps, not a fixed clock time.',
   },
   {
     question: 'What about articles I miss?',
     answer:
-      'The QA News archive maintains all articles published over the past weeks. You can browse Weekly and Monthly views to catch up on stories you may have missed.',
+      'Use the Weekly and Monthly views. They cover the last 7 and 30 days of the same data. Articles older than 30 days are pruned.',
   },
   {
     question: 'Can I request sources?',
     answer:
-      'Not yet - this is a planned feature. For now, the 5 feeds are carefully curated for quality and relevance. We focus on maintaining high editorial standards over feed quantity.',
+      'Sources are a curated list in the pipeline configuration, so there is no self-service option. Suggestions are welcome through the feedback link on the About page.',
   },
 ];
 
