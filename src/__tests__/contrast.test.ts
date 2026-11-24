@@ -78,4 +78,27 @@ describe.each(Object.keys(themes))('%s theme contrast (>= 4.5:1)', (name) => {
       expect(ratio(C('--control-border'), bg)).toBeGreaterThanOrEqual(3);
     }
   });
+
+  it('content-page text pairs (case study tiles, tags, status pills, score rows) pass on tiles in and out of bands', () => {
+    // .cp-card/.cp-node text sits on --surface; the page band only tints the section behind it.
+    const pairs: Array<[string, RGB[]]> = [
+      ['--text', [C('--surface'), C('--surface-2'), band]],
+      ['--text-2', [C('--surface'), C('--surface-2'), band, soft(C('--surface'))]], // .cp-pill.muted, notes, captions
+      ['--text-3', [C('--surface'), band]], // .cp-k, .cp-where
+      ['--accent', [C('--surface'), band]], // .cp-pill.accent, .cp-note links
+    ];
+    for (const [fg, bgs] of pairs) {
+      for (const bg of bgs) expect(ratio(C(fg), bg)).toBeGreaterThanOrEqual(4.5);
+    }
+  });
+
+  it('hero chips (text over a surface tint on the hero gradient) pass', () => {
+    const hero = mix(C('--surface'), C('--accent'), 0.1); // end of the .t-head gradient
+    expect(ratio(C('--text'), mix(hero, C('--surface'), 0.88))).toBeGreaterThanOrEqual(4.5);
+  });
+
+  it('score bars and tag borders reach 3:1 against their track', () => {
+    expect(ratio(C('--accent'), C('--surface-2'))).toBeGreaterThanOrEqual(3);
+    expect(ratio(C('--border-strong'), C('--surface'))).toBeGreaterThanOrEqual(1); // decorative; values are text
+  });
 });
