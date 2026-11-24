@@ -23,20 +23,20 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'QA News — curated by PAIOS',
+  title: 'QA News — daily curated QA & testing news',
   description:
-    'A public feed of the most important QA, test automation, AI and software engineering news, selected daily by PAIOS.',
+    'A public feed of the most important QA, test automation, AI and software engineering news, selected daily by the QA News pipeline.',
   openGraph: {
-    title: 'QA News — curated by PAIOS',
+    title: 'QA News — daily curated QA & testing news',
     description:
-      'A public feed of the most important QA, test automation, AI and software engineering news, selected daily by PAIOS.',
+      'A public feed of the most important QA, test automation, AI and software engineering news, selected daily by the QA News pipeline.',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'QA News — curated by PAIOS',
+    title: 'QA News — daily curated QA & testing news',
     description:
-      'A public feed of the most important QA, test automation, AI and software engineering news, selected daily by PAIOS.',
+      'A public feed of the most important QA, test automation, AI and software engineering news, selected daily by the QA News pipeline.',
   },
 };
 

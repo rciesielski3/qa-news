@@ -1,6 +1,6 @@
-// These types are the contract between QA News and the PAIOS Knowledge
-// Layer. QA News owns none of this data — it only renders it. When the
-// real PAIOS Public API exists, its JSON responses should match these
+// These types are the contract between QA News and the ChiefofStaff
+// pipeline. QA News owns none of this data — it only renders it. When the
+// real public API exists, its JSON responses should match these
 // shapes exactly (or `lib/data.ts` gets a mapping layer, not this file).
 
 export type Category = 'test-automation' | 'ai' | 'engineering' | 'qa-practice' | 'tooling';
