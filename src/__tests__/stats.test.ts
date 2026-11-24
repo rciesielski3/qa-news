@@ -1,4 +1,4 @@
-import { computeStats, formatAgo, latestArticleDay, SPARK_DAYS } from '@/lib/stats';
+import { computeStats, computePeriodStats, formatAgo, latestArticleDay, SPARK_DAYS } from '@/lib/stats';
 import type { Article, Category } from '@/lib/types';
 
 let n = 0;
@@ -178,5 +178,45 @@ describe('formatAgo', () => {
     expect(formatAgo('2026-11-23T12:00:00Z', now)).toBe('1m ago');
     expect(formatAgo(null, now)).toBe('');
     expect(formatAgo('garbage', now)).toBe('');
+  });
+});
+
+describe('computePeriodStats', () => {
+  it('returns zeroed stats and a full-length daily series for empty input', () => {
+    const s = computePeriodStats([], 7, '2026-11-23');
+    expect(s.total).toBe(0);
+    expect(s.daily).toEqual([0, 0, 0, 0, 0, 0, 0]);
+    expect(s.peakDay).toBeNull();
+    expect(s.avgPerDay).toBe(0);
+    expect(s.startDay).toBe('2026-11-17');
+    expect(s.refDay).toBe('2026-11-23');
+  });
+
+  it('counts per day (oldest first), sources, categories, average and peak', () => {
+    const list = [
+      art('2026-11-23'),
+      art('2026-11-23', { source: 'Beta', category: 'tooling' as Category }),
+      art('2026-11-23', { source: 'Beta', category: 'tooling' as Category }),
+      art('2026-11-21'),
+    ];
+    const s = computePeriodStats(list, 7, '2026-11-23');
+    expect(s.total).toBe(4);
+    expect(s.sourceCount).toBe(2);
+    expect(s.daily).toEqual([0, 0, 0, 0, 1, 0, 3]);
+    expect(s.peakDay).toEqual({ day: '2026-11-23', count: 3 });
+    expect(s.avgPerDay).toBe(0.6);
+    expect(s.topSources.map((x) => x.name)).toEqual(['Alpha', 'Beta']);
+    expect(s.topSources[0].pct).toBe(50);
+    expect(s.categories).toEqual([
+      { category: 'ai', count: 2 },
+      { category: 'tooling', count: 2 },
+    ]);
+  });
+
+  it('supports a 30-day window', () => {
+    const s = computePeriodStats([art('2026-10-25')], 30, '2026-11-23');
+    expect(s.daily).toHaveLength(30);
+    expect(s.startDay).toBe('2026-10-25');
+    expect(s.daily[0]).toBe(1);
   });
 });

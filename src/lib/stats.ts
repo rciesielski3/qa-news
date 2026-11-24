@@ -137,6 +137,79 @@ export function computeStats(articles: Article[], refDay?: Date | string | null)
   };
 }
 
+export interface PeriodStats {
+  /** Last day of the window (UTC, YYYY-MM-DD). */
+  refDay: string;
+  /** First day of the window (UTC, YYYY-MM-DD). */
+  startDay: string;
+  /** Window length in days. */
+  days: number;
+  total: number;
+  sourceCount: number;
+  /** Per-day article counts, oldest first, one entry per day of the window. */
+  daily: number[];
+  /** Average articles per day over the whole window, rounded to one decimal. */
+  avgPerDay: number;
+  /** Busiest day of the window; null when the window has no articles. */
+  peakDay: { day: string; count: number } | null;
+  topSources: SourceStat[];
+  /** Articles per category, most covered first; empty categories are omitted. */
+  categories: CategoryStat[];
+}
+
+/**
+ * Statistics for a period page (week / month). `articles` should already be the
+ * period's articles; the window is the `days` UTC days ending on `refDay`
+ * (default: today). Pure: no wall-clock reads when `refDay` is given.
+ */
+export function computePeriodStats(articles: Article[], days: number, refDay?: Date | string | null): PeriodStats {
+  const ref =
+    refDay instanceof Date
+      ? refDay.toISOString().slice(0, 10)
+      : refDay || new Date().toISOString().slice(0, 10);
+  const refStart = dayStartMs(ref);
+  const startMs = refStart - (days - 1) * DAY_MS;
+
+  const perDay = new Map<string, number>();
+  const perSource = new Map<string, number>();
+  const perCategory = new Map<Category, number>();
+  for (const article of articles) {
+    const source = article.source?.trim();
+    if (source) perSource.set(source, (perSource.get(source) ?? 0) + 1);
+    perCategory.set(article.category, (perCategory.get(article.category) ?? 0) + 1);
+    const key = dayKey(article.publishedAt);
+    if (key) perDay.set(key, (perDay.get(key) ?? 0) + 1);
+  }
+
+  const daily: number[] = [];
+  let peakDay: PeriodStats['peakDay'] = null;
+  for (let i = 0; i < days; i++) {
+    const key = new Date(startMs + i * DAY_MS).toISOString().slice(0, 10);
+    const count = perDay.get(key) ?? 0;
+    daily.push(count);
+    if (count > 0 && (peakDay === null || count > peakDay.count)) peakDay = { day: key, count };
+  }
+
+  const total = articles.length;
+  return {
+    refDay: ref,
+    startDay: new Date(startMs).toISOString().slice(0, 10),
+    days,
+    total,
+    sourceCount: perSource.size,
+    daily,
+    avgPerDay: days > 0 ? Math.round((total / days) * 10) / 10 : 0,
+    peakDay,
+    topSources: [...perSource.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .slice(0, TOP_SOURCES)
+      .map(([name, count]) => ({ name, count, pct: total > 0 ? Math.round((count / total) * 100) : 0 })),
+    categories: [...perCategory.entries()]
+      .map(([category, count]) => ({ category, count }))
+      .sort((a, b) => b.count - a.count || String(a.category).localeCompare(String(b.category))),
+  };
+}
+
 /** "5m ago" / "3h ago" / "2d ago" for an ISO timestamp, relative to nowMs. Empty string if unreadable. */
 export function formatAgo(iso: string | null | undefined, nowMs: number): string {
   if (!iso) return '';
