@@ -13,7 +13,7 @@ export default function RefreshIndicator() {
   if (!refreshInfo) return null;
 
   return (
-    <div className="text-xs text-ink-500 dark:text-paper-muted text-center py-4">
+    <div className="refresh-indicator text-xs text-center">
       Next refresh: {refreshInfo.timeString} (at 05:00 UTC)
     </div>
   );

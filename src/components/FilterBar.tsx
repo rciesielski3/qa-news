@@ -25,7 +25,7 @@ export default function FilterBar({
 }: FilterBarProps) {
 
   return (
-    <div className="filters p-3 border border-ink-200 dark:border-ink-600 rounded">
+    <div className="filters">
       {/* Category chips row */}
       <div className="chip-row items-center">
         <span className="filters-label">Filter by category</span>
@@ -47,7 +47,7 @@ export default function FilterBar({
       {/* Tag chips row */}
       <div className="chip-row">
         <span className="filters-label">Filter by tags</span>
-        <div className="flex flex-wrap gap-2">
+        <div className="chip-row">
           {availableTags.map((tag) => {
             const isPressed = activeFilters.tags?.includes(tag) ?? false;
             return (
