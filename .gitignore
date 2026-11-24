@@ -4,3 +4,7 @@ out
 .env*.local
 .DS_Store
 *.log
+coverage
+
+# TypeScript incremental build info (rewritten by tsc on every run)
+tsconfig.tsbuildinfo

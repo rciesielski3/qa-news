@@ -114,7 +114,7 @@ describe('applyFilters', () => {
     const filters = { category: 'ai', tags: ['llm'] };
     const result = applyFilters(mockArticles, filters);
     expect(result).toHaveLength(2);
-    expect(result.every((a) => a.category === 'ai' && a.tags.includes('llm'))).toBe(true);
+    expect(result.every((a) => a.category === 'ai' && a.tags?.includes('llm'))).toBe(true);
     expect(result.map((a) => a.id).sort()).toEqual(['1', '3']);
   });
 });

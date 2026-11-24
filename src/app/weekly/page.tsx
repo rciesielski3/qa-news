@@ -43,7 +43,7 @@ function WeeklyPageContent() {
   return (
     <div className="w-full space-y-8">
       <section>
-        <h2 className="section-title mb-4 py-3">This Week's Top Picks</h2>
+        <h2 className="section-title mb-4 py-3">This Week&apos;s Top Picks</h2>
         {topPickArticles.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {topPickArticles.map((article, i) => (
@@ -76,7 +76,7 @@ function WeeklyPageContent() {
       </section>
 
       <section>
-        <h2 className="section-title mb-4">All This Week's Articles</h2>
+        <h2 className="section-title mb-4">All This Week&apos;s Articles</h2>
         {isLoading ? (
           <p className="text-paper-muted">Loading articles…</p>
         ) : filteredArticles.length > 0 ? (
