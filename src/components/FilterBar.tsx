@@ -23,6 +23,7 @@ export default function FilterBar({
   totalArticles,
   shownArticles,
 }: FilterBarProps) {
+  const filtering = Boolean(activeFilters.category || activeFilters.tags?.length);
 
   return (
     <div className="filters">
@@ -66,17 +67,22 @@ export default function FilterBar({
         </div>
       </div>
 
-      {/* Filter status & reset (show only if filters active) */}
-      {(activeFilters.category || activeFilters.tags?.length) && (
-        <div className="filter-status">
-          <span>
-            Showing <strong>{shownArticles}</strong> of <strong>{totalArticles}</strong> articles
-          </span>
+      {/* Filter status & reset. The status node is always mounted (empty when no
+          filter is active) so screen readers announce count changes politely. */}
+      <div className="filter-status">
+        <span role="status" aria-live="polite" aria-atomic="true">
+          {filtering && (
+            <>
+              Showing <strong>{shownArticles}</strong> of <strong>{totalArticles}</strong> articles
+            </>
+          )}
+        </span>
+        {filtering && (
           <button className="filter-reset" onClick={onReset}>
             Reset filters
           </button>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 }
