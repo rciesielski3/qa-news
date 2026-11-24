@@ -62,4 +62,20 @@ describe.each(Object.keys(themes))('%s theme contrast (>= 4.5:1)', (name) => {
     const grad = mix(C('--surface'), C('--accent'), 0.12);
     for (const cat of CATS) expect(ratio(C(`--cat-${cat}`), grad)).toBeGreaterThanOrEqual(4.5);
   });
+
+  it('text-3 passes on the real feed-row hover tint (accent-soft over the band), where the 11.5px date/score line and .ix/.arr sit', () => {
+    expect(ratio(C('--text-3'), soft(band))).toBeGreaterThanOrEqual(4.5);
+  });
+
+  it('accent text (.ix/.arr on hover) passes on the hover tint over the band and over an even row', () => {
+    const even = mix(band, C('--text'), 0.02);
+    for (const row of [soft(band), soft(even)]) expect(ratio(C('--accent'), row)).toBeGreaterThanOrEqual(4.49);
+  });
+
+  it('--control-border (chip / toggle / coverage-track boundaries) reaches 3:1 on every surface a control sits on', () => {
+    const even = mix(band, C('--text'), 0.02);
+    for (const bg of [C('--bg'), C('--surface'), C('--surface-2'), band, even]) {
+      expect(ratio(C('--control-border'), bg)).toBeGreaterThanOrEqual(3);
+    }
+  });
 });
