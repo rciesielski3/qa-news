@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-23",
-  "updatedAt": "2026-11-23T19:37:45.282Z",
+  "date": "2026-11-24",
+  "updatedAt": "2026-11-24T10:30:09.389Z",
   "articles": [
     {
       "id": "infoq-4bda8844341320cd",
@@ -9386,23 +9386,6 @@
       "category": "engineering",
       "publishedAt": "2026-10-25T17:21:31.000Z",
       "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-ae36a57b0072b8da",
-      "title": "PingCAP Breach Exposes Customer Records and Source Code",
-      "summary": "PingCAP recently confirmed unauthorized access to its internal systems and the theft of source code and customer-related data. The attacker, cyber extortion group FulcrumSec, claimed to have stolen 10...",
-      "url": "https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-10-25T06:27:00.000Z",
-      "tags": [
-        "api",
-        "sql",
-        "ai"
-      ],
       "score": 50,
       "priority": "MEDIUM",
       "reason": []
