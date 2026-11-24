@@ -88,6 +88,54 @@ describe('HeroBento', () => {
     expect(onSelectCategory).toHaveBeenCalledWith(null);
   });
 
+  it('keeps a static aria-label; aria-pressed carries the state', () => {
+    renderHero({ activeCategory: 'ai' });
+    const ai = screen.getByRole('button', { name: 'AI: 3 articles in the last 30 days' });
+    expect(ai).toHaveAttribute('aria-pressed', 'true');
+    expect(ai.getAttribute('aria-label')).not.toMatch(/filter/i);
+  });
+
+  it('disables bars with no articles on the feed day and does not filter', () => {
+    const { onSelectCategory } = renderHero();
+    // engineering has 1 article in 30 days (22nd) but none on the feed day (23rd)
+    const eng = screen.getByRole('button', { name: /^Engineering: 1 articles/ });
+    expect(eng).toHaveAttribute('aria-disabled', 'true');
+    expect(eng).toHaveAttribute('title', 'No articles on this day');
+    expect(eng).toHaveAccessibleDescription(/No articles on this day/);
+    fireEvent.click(eng);
+    expect(onSelectCategory).not.toHaveBeenCalled();
+    // a bar with articles today stays enabled and says how many
+    const ai = screen.getByRole('button', { name: /^AI: 3 articles/ });
+    expect(ai).not.toHaveAttribute('aria-disabled');
+    expect(ai).toHaveAccessibleDescription(/2 on this day/);
+  });
+
+  it('keeps an active bar clickable even with nothing on the feed day, so the filter can be cleared', () => {
+    const { onSelectCategory } = renderHero({ activeCategory: 'engineering' });
+    const eng = screen.getByRole('button', { name: /^Engineering: 1 articles/ });
+    expect(eng).not.toHaveAttribute('aria-disabled');
+    fireEvent.click(eng);
+    expect(onSelectCategory).toHaveBeenCalledWith(null);
+  });
+
+  it('labels the delta against the 13-day average and hides decorative dots', () => {
+    const { container } = render(
+      <HeroBento
+        stats={computeStats(articles, '2026-11-23')}
+        isLoading={false}
+        updatedAt={null}
+        onSelectCategory={jest.fn()}
+        now={NOW}
+      />,
+    );
+    expect(screen.getByText(/vs 13-day avg/)).toBeInTheDocument();
+    expect(screen.queryByText(/14-day avg/)).not.toBeInTheDocument();
+    const dots = container.querySelectorAll('.dot');
+    expect(dots.length).toBeGreaterThan(0);
+    dots.forEach((d) => expect(d).toHaveAttribute('aria-hidden', 'true'));
+    expect(container.querySelector('.srclist')).toHaveAttribute('role', 'list');
+  });
+
   it('shows skeletons instead of numbers while loading', () => {
     const { container } = render(
       <HeroBento stats={null} isLoading updatedAt={null} onSelectCategory={jest.fn()} now={NOW} />,

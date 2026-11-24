@@ -1,12 +1,13 @@
 'use client';
 
-import type { ReactNode } from 'react';
+import { useId, type ReactNode } from 'react';
 import Link from 'next/link';
 import type { Category } from '@/lib/types';
 import { formatAgo, type Stats } from '@/lib/stats';
 import { getCategoryLabel } from '@/lib/styles';
 import { useCountUp } from '@/hooks/useCountUp';
 import { staggerDelay, useReveal } from '@/hooks/useReveal';
+import { useOffscreenPause } from '@/hooks/useOffscreenPause';
 import SkeletonLoader from '@/components/SkeletonLoader';
 
 interface HeroBentoProps {
@@ -23,10 +24,22 @@ interface HeroBentoProps {
   now?: number;
 }
 
-function Tile({ className, index, children }: { className: string; index: number; children: ReactNode }) {
+function Tile({
+  className,
+  index,
+  pauseOffscreen = false,
+  children,
+}: {
+  className: string;
+  index: number;
+  /** Pause the tile's decorative animations while it is scrolled out of view. */
+  pauseOffscreen?: boolean;
+  children: ReactNode;
+}) {
   const { ref, className: reveal } = useReveal<HTMLDivElement>(staggerDelay(index));
+  const offscreen = useOffscreenPause(ref, pauseOffscreen);
   return (
-    <div ref={ref} className={`tile ${className} ${reveal}`.trim()}>
+    <div ref={ref} className={`tile ${className} ${reveal}${offscreen ? ' paused' : ''}`.trim()}>
       {children}
     </div>
   );
@@ -52,27 +65,39 @@ function formatShortDate(day: string): string {
 function CoverageBar({
   category,
   count,
+  todayCount,
   max,
   pressed,
   onSelect,
 }: {
   category: Category;
+  /** Articles in the 30-day coverage window. */
   count: number;
+  /** Articles on the feed day: what the filter can actually show. */
+  todayCount: number;
   max: number;
   pressed: boolean;
   onSelect: () => void;
 }) {
   const shown = useCountUp(count);
   const label = getCategoryLabel(category);
+  const noteId = useId();
+  // A bar with nothing on the feed day would lead to an empty feed. A pressed
+  // bar stays usable so the active filter can always be cleared.
+  const disabled = todayCount === 0 && !pressed;
   return (
     <button
       type="button"
       className="cov-bar"
       data-cat={category}
       aria-pressed={pressed}
-      title={`Filter feed: ${label}`}
-      aria-label={`${label}: ${count} articles in the last 30 days. ${pressed ? 'Clear filter' : 'Filter feed'}`}
-      onClick={onSelect}
+      aria-disabled={disabled || undefined}
+      aria-describedby={noteId}
+      title={disabled ? 'No articles on this day' : `Filter feed: ${label}`}
+      aria-label={`${label}: ${count} articles in the last 30 days`}
+      onClick={() => {
+        if (!disabled) onSelect();
+      }}
     >
       <span className="lab">{label}</span>
       <span className="track">
@@ -80,6 +105,11 @@ function CoverageBar({
       </span>
       <span className="n tnum" aria-hidden="true">
         {shown}
+      </span>
+      <span id={noteId} className="sr-only">
+        {disabled
+          ? 'No articles on this day, so the feed cannot be filtered by it.'
+          : `${todayCount} on this day. ${pressed ? 'Clear filter' : 'Filter feed'}.`}
       </span>
     </button>
   );
@@ -109,10 +139,10 @@ export default function HeroBento({
   return (
     <div className="bento" id="bento">
       {/* Hero tile: dominates the grid */}
-      <Tile className="t-head" index={0}>
+      <Tile className="t-head" index={0} pauseOffscreen>
         <div>
           <div className="tlabel">
-            <span className="dot" />
+            <span className="dot" aria-hidden="true" />
             Daily brief{stats ? ` · ${formatLongDate(stats.refDay)}` : ''}
           </div>
           <h1>
@@ -151,7 +181,7 @@ export default function HeroBento({
       {/* Published today + 14-day sparkline */}
       <Tile className="t-today hov" index={1}>
         <div className="tlabel">
-          <span className="dot" />
+          <span className="dot" aria-hidden="true" />
           {todayLabel}
         </div>
         {ready ? (
@@ -163,7 +193,7 @@ export default function HeroBento({
             {stats.deltaPct !== null && (
               <div className={`delta tnum${stats.deltaPct < 0 ? ' down' : ''}`}>
                 {stats.deltaPct >= 0 ? '▲ +' : '▼ '}
-                {stats.deltaPct}% vs 14-day avg
+                {stats.deltaPct}% vs 13-day avg
               </div>
             )}
             <div
@@ -194,13 +224,13 @@ export default function HeroBento({
       {/* Top 3 sources */}
       <Tile className="t-src" index={2}>
         <div className="tlabel">
-          <span className="dot" />
+          <span className="dot" aria-hidden="true" />
           Top sources
           {ready && <span className="go-n tnum">{stats.total} articles</span>}
         </div>
         {ready ? (
           stats.topSources.length > 0 ? (
-            <ol className="srclist">
+            <ol className="srclist" role="list">
               {stats.topSources.map((source, i) => (
                 <li key={source.name}>
                   <span className="sn tnum">{String(i + 1).padStart(2, '0')}</span>
@@ -229,7 +259,7 @@ export default function HeroBento({
       {/* Coverage by category, 30 days; bars filter the feed */}
       <Tile className="t-dist" index={3}>
         <div className="tlabel">
-          <span className="dot" />
+          <span className="dot" aria-hidden="true" />
           Coverage by category · 30d
         </div>
         {ready ? (
@@ -240,6 +270,7 @@ export default function HeroBento({
                   key={c.category}
                   category={c.category}
                   count={c.count}
+                  todayCount={stats.todayByCategory[c.category] ?? 0}
                   max={catMax}
                   pressed={activeCategory === c.category}
                   onSelect={() => onSelectCategory(activeCategory === c.category ? null : c.category)}

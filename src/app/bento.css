@@ -216,6 +216,7 @@
   letter-spacing: -.04em;
   margin: 14px 0 4px;
 }
+.bignum > span:first-child { display: inline-block; min-width: 3ch; } /* count-up must not shift the layout */
 .bignum small { font-size: .32em; color: var(--text-3); letter-spacing: 0; margin-left: 6px; font-weight: 500; }
 .delta { font: 500 12px var(--font-mono); color: var(--cat-engineering); }
 .delta.down { color: var(--cat-tooling); }
@@ -270,7 +271,9 @@
   font-size: 13px;
   text-align: left;
   cursor: pointer;
+  position: relative;
 }
+.cov-bar[aria-disabled="true"] { opacity: .55; cursor: not-allowed; }
 .cov-bar .lab { color: var(--text-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: color .15s; }
 .cov-bar:hover .lab, .cov-bar[aria-pressed="true"] .lab { color: var(--text); }
 .cov-bar[aria-pressed="true"] .lab { font-weight: 600; }
