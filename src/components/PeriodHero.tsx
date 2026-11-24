@@ -89,7 +89,7 @@ export default function PeriodHero({ copy, stats, isLoading, activeCategory, onS
           {after}
         </h1>
         <p className="sec-sub">
-          The best-scored testing, automation and AI-testing stories of the last {copy.noun}
+          The best-scored QA, AI and engineering stories of the last {copy.noun}
           {stats && stats.sourceCount > 0 ? (
             <>
               {' '}

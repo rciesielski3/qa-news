@@ -1,7 +1,7 @@
 # QA News
 
 Public, read-only portal over the ChiefofStaff article pipeline: Daily,
-Weekly and Monthly views of curated QA news. No business logic, no AI
+Weekly and Monthly views of curated QA, AI and engineering news. No business logic, no AI
 execution — QA News only renders what the pipeline already curated.
 
 ## Stack

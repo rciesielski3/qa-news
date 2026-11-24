@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <p>
-        QA News aggregates QA & testing articles from multiple RSS feeds into a read-only daily brief - articles are fetched, never edited or removed by this app.
+        QA News aggregates QA, AI & engineering articles from multiple RSS feeds into a read-only daily brief - articles are fetched, never edited or removed by this app.
       </p>
       <div className="footer-row">
         <span>© {currentYear} Adateo Rafał Ciesielski</span>

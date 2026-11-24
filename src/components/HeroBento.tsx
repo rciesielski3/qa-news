@@ -157,10 +157,10 @@ export default function HeroBento({
             Daily brief{stats ? ` · ${formatLongDate(stats.refDay)}` : ''}
           </div>
           <h1>
-            The signal in QA, <em>ranked</em> every morning.
+            The signal in QA, AI and engineering, <em>ranked</em> every morning.
           </h1>
           <p>
-            Curated testing, automation and AI-testing news
+            Curated QA, AI and engineering news
             {stats && stats.sourceCount > 0 ? (
               <>
                 {' '}

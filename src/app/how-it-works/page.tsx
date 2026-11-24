@@ -10,7 +10,7 @@ import SectionNav, { type SectionNavItem } from '@/components/SectionNav';
 export const metadata = {
   title: 'How It Works | QA News Curation Pipeline',
   description:
-    'How QA News collects, scores and publishes QA and test-automation news: a TypeScript pipeline on GitHub Actions with transparent, rule-based ranking.',
+    'How QA News collects, scores and publishes QA, AI and engineering news: a TypeScript pipeline on GitHub Actions with transparent, rule-based ranking.',
 };
 
 const NAV_ITEMS: SectionNavItem[] = [

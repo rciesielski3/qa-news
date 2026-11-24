@@ -85,7 +85,7 @@ describe('About case study', () => {
 
   it('exports metadata for both pages', () => {
     expect(aboutMetadata.title).toMatch(/About QA News/);
-    expect(aboutMetadata.description).toMatch(/QA and test-automation engineers/);
+    expect(aboutMetadata.description).toMatch(/QA, AI and software engineering/);
     expect(howMetadata.title).toMatch(/How It Works/);
   });
 });
