@@ -108,17 +108,28 @@ export function getMonthArticles(articles: Article[]): Article[] {
 }
 
 /**
- * Pick the top articles of a period by score (highest first). Ties go to the
+ * Pick the top articles of a period by score (highest first), at most
+ * `maxPerSource` per source so one feed cannot take every slot. Ties go to the
  * newer article; articles without a score (or with a non-numeric one) rank
- * last, and so do unreadable dates. The input is not changed.
+ * last, and so do unreadable dates. If fewer sources exist than `count`, the
+ * remaining slots are filled with the best remaining articles regardless of
+ * source, so the result always has min(count, articles.length) entries. The
+ * returned order is rank order (rank 1 = best overall). The input is not
+ * changed. Articles with a missing or empty source each count as their own
+ * source.
  *
  * Every period page (today, week, month) uses this, so each shows the best
  * articles of its own window instead of simply the newest ones.
  *
  * @param articles Articles of one period
  * @param count Number of picks (default 3)
+ * @param options `maxPerSource` per-source cap (default 1; Infinity = no cap)
  */
-export function selectTopPicks<T extends Article>(articles: T[], count = 3): T[] {
+export function selectTopPicks<T extends Article>(
+  articles: T[],
+  count = 3,
+  { maxPerSource = 1 }: { maxPerSource?: number } = {},
+): T[] {
   // Unscored or non-numeric scores and unreadable dates rank last, so the
   // comparator never returns NaN.
   const score = (a: Article) =>
@@ -129,9 +140,30 @@ export function selectTopPicks<T extends Article>(articles: T[], count = 3): T[]
   };
   const compare = (a: number, b: number) => (a === b ? 0 : a < b ? 1 : -1);
 
-  return [...articles]
-    .sort((a, b) => compare(score(a), score(b)) || compare(time(a), time(b)))
-    .slice(0, count);
+  const ranked = [...articles].sort((a, b) => compare(score(a), score(b)) || compare(time(a), time(b)));
+
+  const perSource = new Map<string, number>();
+  const chosen = new Set<T>();
+  for (const a of ranked) {
+    if (chosen.size >= count) break;
+    const key = typeof a.source === 'string' ? a.source.trim() : '';
+    if (key === '') {
+      chosen.add(a); // no usable source: never grouped with others
+      continue;
+    }
+    const n = perSource.get(key) ?? 0;
+    if (n < maxPerSource) {
+      perSource.set(key, n + 1);
+      chosen.add(a);
+    }
+  }
+  // Fewer distinct sources than slots: fill with the best remaining articles.
+  for (const a of ranked) {
+    if (chosen.size >= count) break;
+    chosen.add(a);
+  }
+  // Rank order, not selection order (fill articles may outscore later picks).
+  return ranked.filter((a) => chosen.has(a)).slice(0, Math.max(count, 0));
 }
 
 /**

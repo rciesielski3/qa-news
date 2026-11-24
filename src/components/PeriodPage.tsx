@@ -104,7 +104,7 @@ export default function PeriodPage({ period }: { period: Period }) {
             eyebrow="Highest signal"
             title={`${config.title}'s Top Picks`}
             titleId="picks-title"
-            sub={`The three best-scored stories of the ${config.noun}, ranked by the pipeline's relevance score.`}
+            sub={`The three best-scored stories of the ${config.noun}, at most one per source.`}
           />
           <TopPicks articles={topPickArticles} isLoading={isLoading} emptyLabel={`No top picks this ${config.noun}.`} />
         </div>
