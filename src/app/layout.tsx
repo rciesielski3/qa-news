@@ -3,9 +3,11 @@ import { Inter, JetBrains_Mono } from 'next/font/google';
 
 import './globals.css';
 import './theme.css';
+import './bento.css';
 import Header from '@/components/Header';
 import StatsBar from '@/components/StatsBar';
 import Footer from '@/components/Footer';
+import PageShell from '@/components/PageShell';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -54,11 +56,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="page">
           <Header />
           <StatsBar />
-          <main>
-            <div className="container">{children}</div>
+          <main id="top">
+            <PageShell>{children}</PageShell>
           </main>
           <footer className="site-footer">
-            <div className="container">
+            <div className="wrap">
               <Footer />
             </div>
           </footer>

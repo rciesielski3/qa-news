@@ -22,10 +22,16 @@
   /* Text */
   --text:      #E8EAF0;
   --text-2:    #9AA3B2;   /* meta, secondary */
-  --text-3:    #6B7383;   /* footer, timestamps */
+  --text-3:    #8590A2;   /* footer, timestamps — raised for AA (5.6:1 on --surface) */
 
   /* Accent (links, focus, "How it works") */
   --accent:    #7AA7FF;
+  --accent-ink: #0B0D10;  /* text on solid accent fills */
+
+  /* Elevation (bento tiles) */
+  --shadow:       0 1px 0 rgba(255,255,255,.03) inset, 0 12px 30px -18px rgba(0,0,0,.8);
+  --shadow-hover: 0 1px 0 rgba(255,255,255,.05) inset, 0 22px 40px -18px rgba(0,0,0,.9);
+  --shadow-step:  0 1px 0 color-mix(in srgb, var(--text) 4%, transparent) inset, 0 14px 28px -22px rgba(0,0,0,.5);
 
   /* Categories — bright variants for dark bg (all ≥ 4.5:1 on --surface) */
   --cat-test-automation: #4FC3F7;
@@ -55,9 +61,15 @@
      and sat too close to --text-3 for a clean two-step hierarchy.
      #55555F reaches ~7.4:1 on white, giving text/-2/-3 clearer separation. */
   --text-2:    #55555F;
-  --text-3:    #99999F;
+  /* Darkened from #99999F (2.7:1, failed AA) to 5.3:1 on white. */
+  --text-3:    #6B6B75;
 
   --accent:    #2563EB;
+  --accent-ink: #FFFFFF;
+
+  --shadow:       0 1px 2px rgba(20,24,40,.05), 0 10px 24px -16px rgba(20,24,40,.18);
+  --shadow-hover: 0 2px 4px rgba(20,24,40,.06), 0 20px 36px -16px rgba(37,99,235,.28);
+  --shadow-step:  0 1px 0 color-mix(in srgb, var(--text) 4%, transparent) inset, 0 14px 28px -22px rgba(20,24,40,.25);
 
   /* Categories — darkened variants, ≥ 4.5:1 on white (WCAG AA as text) */
   --cat-test-automation: #0369A1;
@@ -93,6 +105,14 @@
      removed, restore a literal fallback stack here. */
 
   --container: 880px;
+  --wrap: 1200px;
+
+  /* Derived accent tints and surfaces (same in both themes; resolved from the active --accent / --text / --bg) */
+  --accent-soft: color-mix(in srgb, var(--accent) 14%, transparent);
+  --accent-line: color-mix(in srgb, var(--accent) 38%, transparent);
+  --glow: radial-gradient(60% 80% at 15% 0%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 70%);
+  --band: color-mix(in srgb, var(--text) 3.5%, var(--bg));
+  --ease: cubic-bezier(.2, .8, .2, 1);
   --radius: 8px;
   --radius-sm: 6px;
 
@@ -135,8 +155,24 @@ a:hover { text-decoration: underline; }
   border-radius: 4px;
 }
 
+/* Wide wrapper used by the header, footer and the Daily page. */
+.wrap {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+@media (min-width: 720px) { .wrap { padding: 0 28px; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { transition: none !important; animation: none !important; }
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 /* Text utilities — for page-level copy that isn't covered by a dedicated
@@ -148,89 +184,103 @@ a:hover { text-decoration: underline; }
 .accent:hover { text-decoration: underline; }
 
 /* --------------------------------------------------------------------------
-   3. HEADER + NAV
+   3. HEADER + NAV — sticky, blurred, single row on every width
    -------------------------------------------------------------------------- */
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
 }
-.site-header .container {
+.site-header .wrap {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 64px;
+  gap: 12px;
+  height: 60px;
 }
 
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+}
+.site-logo:hover { text-decoration: none; }
+.site-logo i {
+  width: 24px; height: 24px;
+  border-radius: 7px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2px;
+  padding: 3px;
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+}
+.site-logo i b { border-radius: 2px; background: var(--accent); }
+.site-logo i b:nth-child(2) { opacity: .45; }
+.site-logo i b:nth-child(3) { opacity: .7; }
+.site-logo i b:nth-child(4) { opacity: .25; }
+
 .site-title {
-  font-weight: 700;
-  font-size: 17px;
+  font-weight: 650;
+  font-size: 16px;
   letter-spacing: -0.01em;
   color: var(--text);
 }
 
-.nav { display: flex; align-items: center; gap: 4px; }
-
-.nav-link {
-  padding: 7px 14px;
-  border-radius: var(--radius-sm);
-  border: 1px solid transparent;
-  color: var(--text-2);
-  font-size: 14px;
-  font-weight: 500;
-  transition: color var(--transition), border-color var(--transition),
-              background-color var(--transition);
-}
-.nav-link:hover {
-  color: var(--text);
-  background: var(--surface-2);
-  text-decoration: none;
-}
-.nav-link[aria-current="page"] {
-  color: var(--text);
-  border-color: var(--border-strong);
+.nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
   background: var(--surface);
 }
 
-/* Theme toggle sits next to nav, visually separated */
+.nav-link {
+  padding: 5px 11px;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  color: var(--text-2);
+  font-size: 13px;
+  font-weight: 500;
+  transition: color var(--transition), background-color var(--transition);
+}
+.nav-link:hover {
+  color: var(--text);
+  text-decoration: none;
+}
+.nav-link[aria-current="page"] {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* Theme toggle sits next to the nav */
 .theme-toggle {
-  margin-left: 12px;
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
+  flex: none;
   display: grid;
   place-items: center;
-  border-radius: var(--radius-sm);
+  border-radius: 10px;
   border: 1px solid var(--border);
-  background: transparent;
+  background: var(--surface);
   color: var(--text-2);
   cursor: pointer;
   transition: color var(--transition), border-color var(--transition);
 }
 .theme-toggle:hover { color: var(--text); border-color: var(--border-strong); }
 
-/* Mobile: header row doesn't fit logo + 4 nav links + toggle below ~640px.
-   Stack instead of forcing horizontal scroll on the whole page. The fixed
-   64px row height only works for the single-row layout, so it's released
-   to auto here. */
-@media (max-width: 640px) {
-  .site-header .container {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    padding-block: 12px;
-    gap: 12px;
-  }
-  .site-title { text-align: center; }
-  .nav {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .nav-link {
-    font-size: 12px;
-    padding: 5px 10px;
-  }
-  .site-header .theme-toggle {
-    align-self: center;
-  }
+@media (max-width: 560px) {
+  .site-title { display: none; }
+  .nav-link { padding: 5px 8px; font-size: 12px; }
 }
 
 /* --------------------------------------------------------------------------
@@ -241,7 +291,7 @@ a:hover { text-decoration: underline; }
   border-bottom: 1px solid var(--border);
   background: var(--surface);
 }
-.stats-bar .container {
+.stats-bar .wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -270,7 +320,7 @@ a:hover { text-decoration: underline; }
 }
 
 @media (max-width: 640px) {
-  .stats-bar .container { flex-wrap: wrap; padding-block: 8px; }
+  .stats-bar .wrap { flex-wrap: wrap; padding-block: 8px; }
 }
 
 /* --------------------------------------------------------------------------
@@ -359,31 +409,32 @@ a:hover { text-decoration: underline; }
   color: var(--text-3);
 }
 
-/* Category chip — dot + label, colored */
+/* Category chip — pill with a colored square marker */
 .chip-cat {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  padding: 5px 13px;
+  gap: 8px;
+  padding: 7px 12px;
   border-radius: 999px;
   border: 1px solid var(--border);
-  background: transparent;
-  color: var(--cat);
+  background: var(--surface);
+  color: var(--text-2);
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
-  transition: border-color var(--transition), background-color var(--transition);
+  transition: border-color var(--transition), background-color var(--transition), color var(--transition);
 }
 .chip-cat::before {
   content: "";
   width: 7px; height: 7px;
-  border-radius: 50%;
+  border-radius: 2px;
   background: var(--cat);
 }
-.chip-cat:hover { border-color: var(--cat); }
+.chip-cat:hover { border-color: var(--border-strong); color: var(--text); }
 .chip-cat[aria-pressed="true"] {
-  border-color: var(--cat);
-  background: color-mix(in srgb, var(--cat) 12%, transparent);
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+  color: var(--accent);
 }
 
 /* Tag chip — mono, neutral until active */
@@ -598,19 +649,25 @@ button.chip-tag:hover { border-color: var(--border-strong); color: var(--text); 
    -------------------------------------------------------------------------- */
 
 .site-footer {
-  margin-top: 56px;
   border-top: 1px solid var(--border);
-  padding: 24px 0 32px;
+  padding: 28px 0 40px;
 }
-.site-footer .container {
+.site-footer .wrap {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 12px;
   font-size: 13px;
   color: var(--text-3);
-  max-width: var(--container);
 }
 .site-footer a { color: var(--text-2); }
+.site-footer a:hover { color: var(--accent); }
+.site-footer .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  justify-content: space-between;
+}
+.site-footer .footer-links { display: flex; flex-wrap: wrap; gap: 8px 20px; }
 
 /* --------------------------------------------------------------------------
    11. SKELETON LOADER — pulse animation for loading states
