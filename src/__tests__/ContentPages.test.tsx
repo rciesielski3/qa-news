@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import AboutPage from '@/app/about/page';
-import HowItWorksPage from '@/app/how-it-works/page';
+import AboutPage, { metadata as aboutMetadata } from '@/app/about/page';
+import HowItWorksPage, { metadata as howMetadata } from '@/app/how-it-works/page';
 import FAQAccordion from '@/components/FAQAccordion';
 
 describe('content pages share the Daily bento language', () => {
@@ -9,9 +9,9 @@ describe('content pages share the Daily bento language', () => {
     expect(container.querySelector('.t-head h1')).toBeInTheDocument();
     const nav = screen.getByRole('navigation', { name: 'Sections' });
     const ids = Array.from(nav.querySelectorAll('a')).map((a) => a.getAttribute('href')?.slice(1));
-    expect(ids).toEqual(['pipeline', 'metrics', 'scoring', 'hood', 'faq']);
+    expect(ids).toEqual(['pipeline', 'scoring', 'numbers', 'faq']);
     for (const id of ids) expect(container.querySelector(`section#${id}`)).toBeInTheDocument();
-    expect(container.querySelectorAll('.sec-head')).toHaveLength(5);
+    expect(container.querySelectorAll('.sec-head')).toHaveLength(4);
     expect(container.querySelectorAll('.cp-step')).toHaveLength(4);
   });
 
@@ -22,6 +22,100 @@ describe('content pages share the Daily bento language', () => {
       expect(hrefs).toEqual(['/', '/weekly', '/monthly']);
       unmount();
     }
+  });
+});
+
+describe('About case study', () => {
+  it('has one h1, no sticky section nav and numbered sections for architecture, decisions and stack', () => {
+    const { container } = render(<AboutPage />);
+    expect(container.querySelectorAll('h1')).toHaveLength(1);
+    expect(screen.queryByRole('navigation', { name: 'Sections' })).not.toBeInTheDocument();
+    for (const id of ['architecture', 'decisions', 'stack']) {
+      const section = container.querySelector(`section#${id}`);
+      expect(section).toBeInTheDocument();
+      expect(section).toHaveAttribute('aria-labelledby', `${id}-title`);
+      expect(container.querySelector(`#${id}-title`)).toBeInTheDocument();
+    }
+    expect(container.querySelectorAll('.sec-head')).toHaveLength(3);
+  });
+
+  it('keeps decisions to five compact rows, each a title and one short line', () => {
+    const { container } = render(<AboutPage />);
+    const rows = Array.from(container.querySelectorAll('#decisions .cp-row'));
+    expect(rows).toHaveLength(5);
+    rows.forEach((row) => {
+      expect(row.querySelectorAll('h3')).toHaveLength(1);
+      const words = (row.querySelector('p')?.textContent ?? '').trim().split(/\s+/);
+      expect(words.length).toBeLessThanOrEqual(20);
+    });
+  });
+
+  it('lists stack and quality gates as labelled chip lists', () => {
+    const { container } = render(<AboutPage />);
+    expect(container.querySelectorAll('#stack ul[aria-label="Stack"] li').length).toBeGreaterThan(5);
+    const gates = Array.from(container.querySelectorAll('#stack ul[aria-label="Quality gates"] li')).map((li) => li.textContent);
+    expect(gates).toEqual(expect.arrayContaining(['gitleaks', 'npm audit', 'Coverage floor']));
+  });
+
+  it('describes the architecture in text: an ordered list of stages plus a caption', () => {
+    const { container } = render(<AboutPage />);
+    const figure = container.querySelector('figure.cp-arch') as HTMLElement;
+    expect(figure).toHaveAttribute('aria-labelledby', 'arch-caption');
+    expect(container.querySelector('#arch-caption')?.textContent).toMatch(/feeds go through the pipeline/i);
+    const stages = Array.from(figure.querySelectorAll('.cp-arch-flow > li h3')).map((h) => h.textContent);
+    expect(stages).toEqual(['Feeds', 'Pipeline', 'NDJSON in Git', 'JSON exports', 'Static site']);
+    expect(figure.querySelector('svg')).toBeNull();
+  });
+
+  it('links the contact page safely', () => {
+    render(<AboutPage />);
+    const contact = screen.getByRole('link', { name: /get in touch/i });
+    expect(contact).toHaveAttribute('href', 'https://rciesielski.dev/contact');
+    expect(contact).toHaveAttribute('rel', expect.stringContaining('noopener'));
+  });
+
+  it('keeps retired names and personal data out of both pages', () => {
+    for (const Page of [AboutPage, HowItWorksPage]) {
+      const { container, unmount } = render(<Page />);
+      expect(container.textContent).not.toMatch(/paios/i);
+      expect(container.textContent).not.toMatch(/@gmail|rafal|ciesielski/i);
+      unmount();
+    }
+  });
+
+  it('exports metadata for both pages', () => {
+    expect(aboutMetadata.title).toMatch(/About QA News/);
+    expect(aboutMetadata.description).toMatch(/QA and test-automation engineers/);
+    expect(howMetadata.title).toMatch(/How It Works/);
+  });
+});
+
+describe('How it works visuals', () => {
+  it('has one h1, a score breakdown whose rows state their contribution as text, and links to About', () => {
+    const { container } = render(<HowItWorksPage />);
+    expect(container.querySelectorAll('h1')).toHaveLength(1);
+    const rows = Array.from(container.querySelectorAll('.cp-score-row'));
+    expect(rows.map((r) => r.querySelector('.nm')?.textContent)).toEqual([
+      'Base',
+      'Core QA keywords',
+      'Method keywords',
+      'Context keywords',
+      'Source prior',
+      'Freshness',
+    ]);
+    rows.forEach((r) => {
+      expect(r.querySelector('.val')?.textContent).toBeTruthy();
+      expect(r.querySelector('.track')).toHaveAttribute('aria-hidden', 'true');
+    });
+    expect(container.querySelector('a[href="/about#architecture"]')).toBeInTheDocument();
+  });
+
+  it('has four key-number tiles, three scoring rules and at most five FAQ questions', () => {
+    const { container } = render(<HowItWorksPage />);
+    expect(container.querySelectorAll('#numbers .cp-metric')).toHaveLength(4);
+    expect(container.querySelectorAll('#scoring .cp-rules li')).toHaveLength(3);
+    expect(container.querySelectorAll('#faq .faq-item').length).toBeLessThanOrEqual(5);
+    expect(container.querySelector('#hood')).toBeNull();
   });
 });
 

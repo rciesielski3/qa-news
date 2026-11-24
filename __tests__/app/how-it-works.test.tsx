@@ -13,15 +13,10 @@ describe('How it works page', () => {
     expect(
       screen.getByRole('heading', { level: 1, name: 'How QA News Curates the News' }),
     ).toBeInTheDocument();
-    for (const name of [
-      'The Curation Pipeline',
-      'Key Metrics',
-      'Scoring Factors',
-      'Under the Hood',
-      'Frequently Asked Questions',
-    ]) {
-      expect(screen.getByRole('heading', { name })).toBeInTheDocument();
+    for (const name of ['Pipeline', 'Scoring', 'Key numbers', 'FAQ']) {
+      expect(screen.getByRole('heading', { level: 2, name })).toBeInTheDocument();
     }
+    expect(screen.queryByRole('heading', { name: 'Under the Hood' })).not.toBeInTheDocument();
     expect(container.textContent).not.toMatch(/PAIOS/i);
   });
 });
