@@ -8,9 +8,9 @@ describe('RefreshIndicator', () => {
     expect(text).toBeInTheDocument();
   });
 
-  it('displays time format "Next refresh: X min (at 05:00 UTC)"', () => {
+  it('displays time format "Next refresh: X min (daily ~08:00 UTC)"', () => {
     render(<RefreshIndicator />);
-    const text = screen.getByText(/Next refresh:.*\(at 05:00 UTC\)/);
+    const text = screen.getByText(/Next refresh:.*\(daily ~08:00 UTC\)/);
     expect(text).toBeInTheDocument();
   });
 
