@@ -22,7 +22,7 @@
   /* Text */
   --text:      #E8EAF0;
   --text-2:    #9AA3B2;   /* meta, secondary */
-  --text-3:    #8590A2;   /* footer, timestamps — raised for AA (5.6:1 on --surface) */
+  --text-3:    #8993A6;   /* footer, timestamps — raised for AA (>=4.5:1 on --surface and on accent-soft tints) */
 
   /* Accent (links, focus, "How it works") */
   --accent:    #7AA7FF;
@@ -61,10 +61,11 @@
      and sat too close to --text-3 for a clean two-step hierarchy.
      #55555F reaches ~7.4:1 on white, giving text/-2/-3 clearer separation. */
   --text-2:    #55555F;
-  /* Darkened from #99999F (2.7:1, failed AA) to 5.3:1 on white. */
-  --text-3:    #6B6B75;
+  /* Darkened from #99999F (2.7:1, failed AA); #65656F keeps >=4.5:1 on the accent-soft hover tint too. */
+  --text-3:    #65656F;
 
-  --accent:    #2563EB;
+  /* #1D4ED8: #2563EB was 4.25:1 on accent-soft and 4.43:1 on --band (11px eyebrow). */
+  --accent:    #1D4ED8;
   --accent-ink: #FFFFFF;
 
   --shadow:       0 1px 2px rgba(20,24,40,.05), 0 10px 24px -16px rgba(20,24,40,.18);
@@ -74,9 +75,9 @@
   /* Categories — darkened variants, ≥ 4.5:1 on white (WCAG AA as text) */
   --cat-test-automation: #0369A1;
   --cat-qa-practice:     #7E22CE;
-  --cat-tooling:         #C2410C;
+  --cat-tooling:         #BC3E0B;
   --cat-engineering:     #047857;
-  --cat-ai:              #0E7490;
+  --cat-ai:              #0C6C86;
 
   --toppick:   #A16207;
 
