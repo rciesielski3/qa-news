@@ -89,13 +89,8 @@
     0 0 0 1px color-mix(in srgb, var(--accent) 18%, transparent),
     0 30px 80px -30px color-mix(in srgb, var(--accent) 55%, transparent),
     var(--shadow);
-  animation: gridPan 6s linear infinite;
 }
 .t-head > * { position: relative; z-index: 1; }
-@keyframes gridPan {
-  from { background-position: 0 0, 0 0, 0 0, 0 0; }
-  to   { background-position: 0 0, 0 32px, 32px 0, 0 0; }
-}
 /* animated colour drift behind the content */
 .t-head::before {
   content: "";
@@ -109,7 +104,7 @@
     radial-gradient(35% 50% at 85% 80%, color-mix(in srgb, var(--cat-ai, var(--accent)) 22%, transparent), transparent 70%);
   background-size: 140% 140%;
   opacity: .65;
-  animation: heroDrift 22s ease-in-out infinite alternate;
+  animation: heroDrift 22s ease-in-out 3 alternate forwards; /* finite (WCAG 2.2.2): 3 alternations, then settles */
 }
 @keyframes heroDrift {
   0%   { background-position: 0% 0%, 100% 100%; }
@@ -130,9 +125,11 @@
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   opacity: .9;
-  animation: shine 18s linear infinite;
+  animation: shine 18s linear 2 forwards; /* finite: 2 laps, then settles */
 }
 @keyframes shine { to { --shine-a: 360deg; } }
+/* Pause the decorative loops while the hero is scrolled out of view (class set by useOffscreenPause) */
+.t-head.paused::before, .t-head.paused::after, .t-head.paused .live-pill i { animation-play-state: paused; }
 
 .t-head .tlabel {
   display: inline-flex;
@@ -200,7 +197,7 @@
   width: 7px; height: 7px;
   border-radius: 50%;
   background: var(--cat-engineering);
-  animation: pulse 2s infinite;
+  animation: pulse 2s 4; /* finite: 4 pulses */
 }
 @keyframes pulse {
   0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--cat-engineering) 55%, transparent); }
