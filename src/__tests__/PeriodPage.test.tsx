@@ -121,6 +121,32 @@ describe('PeriodPage', () => {
     fireEvent.click(bar);
   });
 
+  it('has exactly one h1 and a slim header with range and sibling link', async () => {
+    const { container } = render(<PeriodPage period="week" />);
+    await waitFor(() => expect(screen.getByTestId('period-count')).toHaveTextContent('5'));
+    expect(screen.getAllByRole('heading', { level: 1 })).toHaveLength(1);
+    const header = container.querySelector('header.period-head') as HTMLElement;
+    expect(header).toBeInTheDocument();
+    expect(header.querySelector('h1')).toBeInTheDocument();
+    expect(header.querySelector('.eyebrow')?.textContent).toMatch(/Weekly brief · \d{1,2} \w{3} – \d{1,2} \w{3}/);
+    expect(within(header).getByRole('link', { name: /Monthly brief/ })).toHaveAttribute('href', '/monthly');
+    expect(container.querySelector('.t-head')).not.toBeInTheDocument();
+  });
+
+  it('renders three stat tiles in order, fed by computePeriodStats', async () => {
+    const { container } = render(<PeriodPage period="month" />);
+    await waitFor(() => expect(screen.getByTestId('period-count')).toHaveTextContent('8'));
+    const tiles = Array.from(container.querySelectorAll('.period-stats > .tile'));
+    expect(tiles).toHaveLength(3);
+    expect(tiles[0]).toHaveTextContent(/Published this month/);
+    expect(tiles[0]).toHaveTextContent('8');
+    expect(tiles[0]).toHaveTextContent(/0\.3 per day|per day/);
+    expect(tiles[1]).toHaveTextContent('Top sources');
+    expect(tiles[1]).toHaveTextContent('Delta');
+    expect(tiles[2]).toHaveTextContent(/Coverage by category/);
+    expect(within(tiles[2] as HTMLElement).getAllByRole('button').length).toBeGreaterThan(0);
+  });
+
   it('links to the sibling period page', async () => {
     render(<PeriodPage period="week" />);
     expect(screen.getByRole('link', { name: 'Monthly brief' })).toHaveAttribute('href', '/monthly');
