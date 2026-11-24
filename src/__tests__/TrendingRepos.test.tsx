@@ -34,7 +34,7 @@ describe('TrendingRepos', () => {
     mockJson({ generatedAt: '2026-11-18T08:00:00Z', items: [repo(1, { stars: 1520 })] });
     render(<TrendingRepos />);
 
-    const link = await screen.findByRole('link', { name: 'acme/repo-1' });
+    const link = await screen.findByRole('link', { name: 'acme/repo-1 (opens in new tab)' });
     expect(link).toHaveAttribute('href', 'https://github.com/acme/repo-1');
     expect(link).toHaveAttribute('target', '_blank');
     expect(screen.getByText('New & notable repos')).toBeInTheDocument();
@@ -92,7 +92,7 @@ describe('TrendingRepos', () => {
 
     mockJson({ items: [{ title: 42 }, repo(3)] });
     render(<TrendingRepos />);
-    await screen.findByRole('link', { name: 'acme/repo-3' });
+    await screen.findByRole('link', { name: 'acme/repo-3 (opens in new tab)' });
     expect(screen.getAllByRole('listitem')).toHaveLength(1);
   });
 });

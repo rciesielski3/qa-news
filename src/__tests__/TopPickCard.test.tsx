@@ -34,7 +34,7 @@ describe('TopPickCard', () => {
 
   it('renders read article link', () => {
     render(<TopPickCard article={mockArticle} rank={1} />);
-    const link = screen.getByText('Read Article →');
+    const link = screen.getByRole('link', { name: 'Read Article : Test Article (opens in new tab)' });
     expect(link).toHaveAttribute('href', 'https://example.com');
     expect(link).toHaveAttribute('target', '_blank');
   });

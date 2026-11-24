@@ -35,7 +35,7 @@ describe('feed table', () => {
     expect(rows[0]).toHaveTextContent('AI');
     expect(rows[0]).toHaveTextContent('Src');
     expect(rows[0]).toHaveTextContent('score 50');
-    expect(screen.getByRole('link', { name: 'a story 1' })).toHaveAttribute('href', 'https://e.com/a1');
+    expect(screen.getByRole('link', { name: 'a story 1 (opens in new tab)' })).toHaveAttribute('href', 'https://e.com/a1');
   });
 
   it('excludes top picks from the table', () => {

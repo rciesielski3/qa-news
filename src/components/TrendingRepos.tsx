@@ -39,6 +39,7 @@ function RepoCard({ repo, index }: { repo: TrendingRepo; index: number }) {
       </div>
       <a href={repo.url} target="_blank" rel="noreferrer" className="nm feed-link">
         {repo.title}
+        <span className="sr-only"> (opens in new tab)</span>
       </a>
       {description && (
         <p className="sub" title={description}>

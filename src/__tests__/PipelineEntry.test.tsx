@@ -27,7 +27,15 @@ describe('PipelineEntry', () => {
 
   it('renders read button', () => {
     render(<PipelineEntry article={mockArticle} />);
-    expect(screen.getByText('Read')).toBeInTheDocument();
+    expect(screen.getByText('Read ↗')).toBeInTheDocument();
+  });
+
+  it('names the whole-row link after the title and announces the new tab; the visual Read cue is hidden from AT', () => {
+    render(<PipelineEntry article={mockArticle} />);
+    const link = screen.getByRole('link');
+    expect(link).toHaveAccessibleName(`${mockArticle.title} (opens in new tab)`);
+    expect(link).toHaveAttribute('target', '_blank');
+    expect(screen.getByText('Read ↗')).toHaveAttribute('aria-hidden', 'true');
   });
 
   it('prioritizes subtitle over summary', () => {
