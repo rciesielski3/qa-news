@@ -6,7 +6,7 @@ import type { Category } from '@/lib/types';
 
 describe('FilterBar Component - Comprehensive RTL Tests', () => {
   // Default props for testing
-  const defaultProps = {
+  const defaultProps: React.ComponentProps<typeof FilterBar> = {
     categories: [
       { id: 'test-automation', label: 'Test Automation' },
       { id: 'ai', label: 'AI' },
@@ -597,7 +597,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
       const props = {
         ...defaultProps,
         categories: [
-          { id: 'all', label: 'All & Others' },
+          { id: 'all' as Category, label: 'All & Others' },
         ],
       };
 
@@ -647,7 +647,7 @@ describe('FilterBar Component - Comprehensive RTL Tests', () => {
 
     test('handles large number of categories', () => {
       const manyCategories = Array.from({ length: 20 }, (_, i) => ({
-        id: `cat${i}`,
+        id: `cat${i}` as Category,
         label: `Category ${i}`,
       }));
 
