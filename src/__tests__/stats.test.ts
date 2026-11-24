@@ -84,6 +84,39 @@ describe('computeStats', () => {
     expect(drop.deltaPct).toBe(-100);
   });
 
+  it('excludes zero-article days from the delta baseline', () => {
+    // 2 active days with 4 articles each among the previous 13 (11 empty days), today = 6
+    const prev = [
+      ...Array.from({ length: 4 }, () => art('2026-11-15')),
+      ...Array.from({ length: 4 }, () => art('2026-11-20')),
+    ];
+    const today = Array.from({ length: 6 }, () => art('2026-11-23'));
+    const s = computeStats([...prev, ...today], '2026-11-23');
+    // avg over active days = 4 (not 8/13 = 0.6) -> +50%
+    expect(s.deltaPct).toBe(50);
+  });
+
+  it('has no delta when every baseline day is empty', () => {
+    expect(computeStats([art('2026-11-23')], '2026-11-23').deltaPct).toBeNull();
+  });
+
+  it('counts the reference day per category separately from the 30-day coverage', () => {
+    const s = computeStats(
+      [art('2026-11-23', { category: 'ai' }), art('2026-11-10', { category: 'tooling' }), art('2026-11-10', { category: 'tooling' })],
+      '2026-11-23',
+    );
+    expect(s.todayByCategory).toEqual({ ai: 1 });
+    expect(s.categories.find((c) => c.category === 'tooling')?.count).toBe(2);
+  });
+
+  it('does not throw when an article has no category', () => {
+    const s = computeStats(
+      [art('2026-11-23', { category: undefined as unknown as Category }), art('2026-11-23', { category: 'ai' })],
+      '2026-11-23',
+    );
+    expect(s.categories).toHaveLength(2);
+  });
+
   it('ranks the top 3 sources deterministically and gives their share', () => {
     const list = [
       ...Array.from({ length: 4 }, () => art('2026-11-23', { source: 'Zed' })),

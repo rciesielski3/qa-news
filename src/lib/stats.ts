@@ -32,12 +32,18 @@ export interface Stats {
   todayCount: number;
   /** Per-day counts for the SPARK_DAYS days ending on the reference day (oldest first). */
   spark: number[];
-  /** Reference day vs the average of the 13 days before it, in percent; null when there is no baseline. */
+  /**
+   * Reference day vs the average of the 13 days before it, in percent. Days with
+   * no articles are left out of that average (a pipeline outage is not a "quiet
+   * day"); null when none of the 13 days has articles.
+   */
   deltaPct: number | null;
   /** Top sources by article count (ties broken alphabetically). */
   topSources: SourceStat[];
   /** Articles per category within the last COVERAGE_DAYS days, most covered first; empty categories are omitted. */
   categories: CategoryStat[];
+  /** Articles per category on the reference day only (what the feed below can actually show). */
+  todayByCategory: Partial<Record<Category, number>>;
 }
 
 /** UTC day key (YYYY-MM-DD) for an ISO string, or null when it cannot be parsed. */
@@ -77,6 +83,7 @@ export function computeStats(articles: Article[], refDay?: Date | string | null)
   const perDay = new Map<string, number>();
   const perSource = new Map<string, number>();
   const perCategory = new Map<Category, number>();
+  const perCategoryToday: Partial<Record<Category, number>> = {};
   const coverageFrom = refStart - (COVERAGE_DAYS - 1) * DAY_MS;
 
   for (const article of articles) {
@@ -86,6 +93,8 @@ export function computeStats(articles: Article[], refDay?: Date | string | null)
     const key = dayKey(article.publishedAt);
     if (!key) continue;
     perDay.set(key, (perDay.get(key) ?? 0) + 1);
+
+    if (key === ref) perCategoryToday[article.category] = (perCategoryToday[article.category] ?? 0) + 1;
 
     const start = dayStartMs(key);
     if (start >= coverageFrom && start <= refStart) {
@@ -100,8 +109,9 @@ export function computeStats(articles: Article[], refDay?: Date | string | null)
   }
 
   const todayCount = spark[SPARK_DAYS - 1];
-  const baseline = spark.slice(0, SPARK_DAYS - 1);
-  const avg = baseline.reduce((sum, n) => sum + n, 0) / baseline.length;
+  // Baseline: the 13 days before the reference day, ignoring zero-article days.
+  const baseline = spark.slice(0, SPARK_DAYS - 1).filter((n) => n > 0);
+  const avg = baseline.length > 0 ? baseline.reduce((sum, n) => sum + n, 0) / baseline.length : 0;
   const deltaPct = avg > 0 ? Math.round(((todayCount - avg) / avg) * 100) : null;
 
   const total = articles.length;
@@ -112,7 +122,7 @@ export function computeStats(articles: Article[], refDay?: Date | string | null)
 
   const categories = [...perCategory.entries()]
     .map(([category, count]) => ({ category, count }))
-    .sort((a, b) => b.count - a.count || a.category.localeCompare(b.category));
+    .sort((a, b) => b.count - a.count || String(a.category).localeCompare(String(b.category)));
 
   return {
     refDay: ref,
@@ -123,6 +133,7 @@ export function computeStats(articles: Article[], refDay?: Date | string | null)
     deltaPct,
     topSources,
     categories,
+    todayByCategory: perCategoryToday,
   };
 }
 
