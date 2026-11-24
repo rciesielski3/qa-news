@@ -25,3 +25,7 @@
   .period-stats { grid-template-columns: minmax(0, 1fr); }
   .period-stats > .pstat:last-child { grid-column: auto; }
 }
+
+/* Narrower tiles than the Daily bento: keep the number and its unit on one line. */
+.period-stats .bignum { white-space: nowrap; }
+.period-stats .bignum > span:first-child { min-width: 2ch; }
