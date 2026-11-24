@@ -26,7 +26,7 @@ interface HeroBentoProps {
 
 const CLOCK_REFRESH_MS = 60_000;
 
-function Tile({
+export function Tile({
   className,
   index,
   pauseOffscreen = false,
@@ -47,7 +47,7 @@ function Tile({
   );
 }
 
-function formatLongDate(day: string): string {
+export function formatLongDate(day: string): string {
   return new Date(`${day}T00:00:00Z`).toLocaleDateString('en-GB', {
     day: 'numeric',
     month: 'long',
@@ -56,7 +56,7 @@ function formatLongDate(day: string): string {
   });
 }
 
-function formatShortDate(day: string): string {
+export function formatShortDate(day: string): string {
   return new Date(`${day}T00:00:00Z`).toLocaleDateString('en-GB', {
     day: 'numeric',
     month: 'short',

@@ -7,10 +7,12 @@ interface TopPicksProps {
   /** Already ranked, best first. The first one is rendered as the large featured card. */
   articles: Article[];
   isLoading?: boolean;
+  /** Shown when there are no picks. */
+  emptyLabel?: string;
 }
 
 /** Top picks grid: #1 large on the left (spans two rows), #2 and #3 stacked on the right. */
-export default function TopPicks({ articles, isLoading = false }: TopPicksProps) {
+export default function TopPicks({ articles, isLoading = false, emptyLabel = 'No top picks for today.' }: TopPicksProps) {
   if (isLoading) {
     return (
       <div className="picks" aria-busy="true">
@@ -22,7 +24,7 @@ export default function TopPicks({ articles, isLoading = false }: TopPicksProps)
   }
 
   if (articles.length === 0) {
-    return <p className="text-2">No top picks for today.</p>;
+    return <p className="text-2">{emptyLabel}</p>;
   }
 
   return (
