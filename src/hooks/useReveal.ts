@@ -8,14 +8,17 @@ export function motionAllowed(): boolean {
   return !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 }
 
+const REVEAL_FALLBACK_MS = 3000;
+
 type Phase = 'idle' | 'armed' | 'in' | 'done';
 
 /**
  * Blur-fade-in on first scroll into view.
  *
  * The hidden state is applied only after mount, only when IntersectionObserver
- * exists and motion is allowed, so server-rendered HTML, tests and reduced-motion
- * users always see the content. Returns a ref and the class names to put on the
+ * exists, motion is allowed and the element starts below the viewport, so
+ * server-rendered HTML, tests, above-the-fold tiles and reduced-motion users
+ * always see the content without a hide/show flash. Returns a ref and the class names to put on the
  * element (`reveal` hides it, `reveal in` shows it; both are removed once settled
  * so they never interfere with hover transforms).
  */
@@ -27,8 +30,25 @@ export function useReveal<T extends HTMLElement = HTMLElement>(delayMs = 0) {
     const el = ref.current;
     if (!el || !motionAllowed() || typeof IntersectionObserver === 'undefined') return;
 
+    // Content already in (or above) the first viewport must never flash
+    // visible -> hidden -> visible, and an element with no box (display:none
+    // ancestor, zero height) can never intersect, so neither is armed.
+    const rect = el.getBoundingClientRect();
+    const hasBox = el.getClientRects().length > 0 && rect.width > 0 && rect.height > 0;
+    if (!hasBox || rect.top < window.innerHeight) return;
+
     const timers: ReturnType<typeof setTimeout>[] = [];
     setPhase('armed');
+    // Safety net: if the element is still boxless later (it was laid out after
+    // mount, or hidden afterwards) the observer will not fire; show it anyway.
+    timers.push(
+      setTimeout(() => {
+        if (el.getClientRects().length === 0 || el.getBoundingClientRect().height === 0) {
+          observer.disconnect();
+          setPhase('done');
+        }
+      }, REVEAL_FALLBACK_MS),
+    );
     const observer = new IntersectionObserver(
       (entries) => {
         if (!entries.some((entry) => entry.isIntersecting)) return;

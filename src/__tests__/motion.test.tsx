@@ -20,7 +20,29 @@ function mockMatchMedia(reduce: boolean) {
   window.matchMedia = ((q: string) => ({ matches: reduce && q.includes('reduce'), media: q })) as unknown as typeof window.matchMedia;
 }
 
+const origRect = HTMLElement.prototype.getBoundingClientRect;
+const origRects = HTMLElement.prototype.getClientRects;
+
+/** jsdom has no layout: fake an element box at `top` px (viewport height is 768). */
+function mockBox(top: number, height = 100) {
+  HTMLElement.prototype.getBoundingClientRect = () =>
+    ({ top, bottom: top + height, left: 0, right: 200, width: height ? 200 : 0, height, x: 0, y: top }) as DOMRect;
+  HTMLElement.prototype.getClientRects = () => (height ? [{}] : []) as unknown as DOMRectList;
+}
+
+function mockIO(onCreate?: (cb: (e: Array<{ isIntersecting: boolean }>) => void) => void) {
+  global.IntersectionObserver = class {
+    constructor(c: (e: Array<{ isIntersecting: boolean }>) => void) {
+      onCreate?.(c);
+    }
+    observe() {}
+    disconnect() {}
+  } as unknown as typeof IntersectionObserver;
+}
+
 afterEach(() => {
+  HTMLElement.prototype.getBoundingClientRect = origRect;
+  HTMLElement.prototype.getClientRects = origRects;
   window.matchMedia = origMM;
   global.IntersectionObserver = origIO;
   jest.useRealTimers();
@@ -58,6 +80,7 @@ describe('motion hooks', () => {
       observe() {}
       disconnect() {}
     } as unknown as typeof IntersectionObserver;
+    mockBox(2000);
     window.requestAnimationFrame = ((f: FrameRequestCallback) => setTimeout(() => f(performance.now()), 16)) as unknown as typeof window.requestAnimationFrame;
     window.cancelAnimationFrame = ((id: number) => clearTimeout(id)) as unknown as typeof window.cancelAnimationFrame;
 
@@ -78,5 +101,48 @@ describe('motion hooks', () => {
     });
     expect(el.className).toBe('');
     expect(el).toHaveTextContent('10'); // counter finished
+  });
+
+  it('does not hide elements that start inside the first viewport', () => {
+    mockMatchMedia(false);
+    mockBox(200);
+    mockIO();
+    render(<Probe to={5} />);
+    expect(screen.getByTestId('probe').className).toBe('');
+  });
+
+  it('does not hide elements without a box (display:none ancestor, zero height)', () => {
+    mockMatchMedia(false);
+    mockBox(2000, 0);
+    mockIO();
+    render(<Probe to={5} />);
+    expect(screen.getByTestId('probe').className).toBe('');
+  });
+
+  it('reveals an armed element that never gets a box instead of keeping it hidden forever', () => {
+    jest.useFakeTimers();
+    mockMatchMedia(false);
+    mockBox(2000);
+    mockIO();
+    render(<Probe to={5} />);
+    const el = screen.getByTestId('probe');
+    expect(el).toHaveClass('reveal');
+    mockBox(2000, 0); // collapsed after mount
+    act(() => {
+      jest.advanceTimersByTime(3100);
+    });
+    expect(el.className).toBe('');
+  });
+
+  it('keeps a below-the-fold element hidden past the fallback while it still has a box', () => {
+    jest.useFakeTimers();
+    mockMatchMedia(false);
+    mockBox(2000);
+    mockIO();
+    render(<Probe to={5} />);
+    act(() => {
+      jest.advanceTimersByTime(5000);
+    });
+    expect(screen.getByTestId('probe')).toHaveClass('reveal');
   });
 });
