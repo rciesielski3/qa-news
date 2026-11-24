@@ -37,7 +37,7 @@ function renderHero(over: Partial<React.ComponentProps<typeof HeroBento>> = {}) 
 describe('HeroBento', () => {
   it('renders the hero tile with the computed source count and freshness', () => {
     renderHero();
-    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('The signal in QA, ranked every morning.');
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('The signal in QA, AI and engineering, ranked every morning.');
     expect(screen.getByText(/Daily brief · 23 November 2026/)).toBeInTheDocument();
     expect(
       screen.getByText((_, el) => el?.tagName === 'P' && /from 3 sources/.test(el.textContent ?? '')),

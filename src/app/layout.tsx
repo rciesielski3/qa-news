@@ -24,18 +24,18 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'QA News — daily curated QA & testing news',
+  title: 'QA News — daily QA, AI & engineering news',
   description:
     'A public feed of the most important QA, test automation, AI and software engineering news, selected daily by the QA News pipeline.',
   openGraph: {
-    title: 'QA News — daily curated QA & testing news',
+    title: 'QA News — daily QA, AI & engineering news',
     description:
       'A public feed of the most important QA, test automation, AI and software engineering news, selected daily by the QA News pipeline.',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'QA News — daily curated QA & testing news',
+    title: 'QA News — daily QA, AI & engineering news',
     description:
       'A public feed of the most important QA, test automation, AI and software engineering news, selected daily by the QA News pipeline.',
   },

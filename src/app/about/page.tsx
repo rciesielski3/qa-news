@@ -8,7 +8,7 @@ import SectionHead from '@/components/SectionHead';
 export const metadata = {
   title: 'About QA News | Case study',
   description:
-    'QA News is an automated, rule-based news curator for QA and test-automation engineers: architecture, key decisions, stack and quality gates.',
+    'QA News is an automated, rule-based news curator covering QA, AI and software engineering: architecture, key decisions, stack and quality gates.',
 };
 
 const FACTS = ['Static site', 'Rule-based ranking', 'Git-versioned data', '30-day window'];
@@ -66,7 +66,7 @@ export default function AboutPage() {
                 <h1>
                   About <em>QA News</em>
                 </h1>
-                <p>An automated, rule-based news curator for QA and test-automation engineers.</p>
+                <p>An automated, rule-based news curator for QA, AI and software engineering.</p>
                 <FactChips items={FACTS} label="Key facts" />
               </div>
               <div className="cta">
