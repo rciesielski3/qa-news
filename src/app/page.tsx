@@ -25,9 +25,11 @@ function DailyPageContent() {
   const repos = useTrendingRepos();
 
   const todayArticles = articles; // Already filtered by hook
-  const topPickArticles = selectTopPicks(todayArticles);
-  const topPickIds = new Set(topPickArticles.map((a) => a.id));
-  const filteredArticles = applyFilters(todayArticles, filters);
+  const topPickArticles = useMemo(() => selectTopPicks(todayArticles), [todayArticles]);
+  const topPickIds = useMemo(() => new Set(topPickArticles.map((a) => a.id)), [topPickArticles]);
+  // Memoised so unrelated re-renders (e.g. trending.json resolving) keep the same
+  // array identity; ArticleList resets its Load More progress when it changes.
+  const filteredArticles = useMemo(() => applyFilters(todayArticles, filters), [todayArticles, filters]);
 
   const stats = useMemo(
     () => (isLoading ? null : computeStats(allArticles, feedDay)),
