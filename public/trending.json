@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T12:50:27.561Z",
+  "generatedAt": "2026-11-24T16:14:19.610Z",
   "items": [
     {
       "id": "github-fb89575b05f0672d",
@@ -13,7 +13,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 1662
+      "stars": 1713
     },
     {
       "id": "github-32fe55bb813676c1",
@@ -41,7 +41,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 320
+      "stars": 341
     },
     {
       "id": "github-5b11b065ae3bb2e7",
@@ -72,6 +72,20 @@
       "stars": 113
     },
     {
+      "id": "github-068c4bcb386429ac",
+      "title": "Echoxiawan/echobench",
+      "summary": "EchoBench — local-first Android/iOS mobile test studio: recording, replay, locator validation, multi-device sync and AI CSV export; Electron desktop with GitHub Releases updates. 本机优先的 Android/iOS 移动测试工作台：录制、回放、定位器校验、多端同步、AI 用例导出，支持 Electron 桌面版和 GitHub 更新。",
+      "description": "EchoBench — local-first Android/iOS mobile test studio: recording, replay, locator validation, multi-device sync and AI CSV export; Electron desktop with GitHub Releases updates. 本机优先的 Android/iOS 移动测试工作台：录制、回放、定位器校验、多端同步、AI 用例导出，支持 Electron 桌面版和 GitHub 更新。",
+      "url": "https://github.com/Echoxiawan/echobench",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-11-14T08:28:10Z",
+      "tags": [
+        "test-automation"
+      ],
+      "stars": 69
+    },
+    {
       "id": "github-e21c8f834274070f",
       "title": "Echoxiawan/Astra",
       "summary": "Astra: open-source AI mobile UI automation testing. Write natural-language test cases, run them with AI on real Android/iOS devices via Appium, and generate standalone pytest + Appium scripts. 用自然语言写移动端测试用例，AI 在 Android / iOS 真机上执行，跑通后生成可独立运行的 pytest + Appium 脚本。",
@@ -84,20 +98,6 @@
         "test-automation"
       ],
       "stars": 68
-    },
-    {
-      "id": "github-068c4bcb386429ac",
-      "title": "Echoxiawan/echobench",
-      "summary": "EchoBench — local-first Android/iOS mobile test studio: recording, replay, locator validation, multi-device sync and AI CSV export; Electron desktop with GitHub Releases updates. 本机优先的 Android/iOS 移动测试工作台：录制、回放、定位器校验、多端同步、AI 用例导出，支持 Electron 桌面版和 GitHub 更新。",
-      "description": "EchoBench — local-first Android/iOS mobile test studio: recording, replay, locator validation, multi-device sync and AI CSV export; Electron desktop with GitHub Releases updates. 本机优先的 Android/iOS 移动测试工作台：录制、回放、定位器校验、多端同步、AI 用例导出，支持 Electron 桌面版和 GitHub 更新。",
-      "url": "https://github.com/Echoxiawan/echobench",
-      "source": "GitHub",
-      "category": "test-automation",
-      "publishedAt": "2026-11-14T08:28:10Z",
-      "tags": [
-        "test-automation"
-      ],
-      "stars": 67
     },
     {
       "id": "github-1014f2220e29c645",
@@ -139,7 +139,7 @@
       "tags": [
         "ai-testing"
       ],
-      "stars": 848
+      "stars": 847
     }
   ]
 }
