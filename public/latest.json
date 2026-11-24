@@ -1,6 +1,6 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T16:14:17.977Z",
+  "updatedAt": "2026-11-24T18:22:07.696Z",
   "articles": [
     {
       "id": "infoq-4bda8844341320cd",
@@ -9342,53 +9342,6 @@
         "security",
         "openai"
       ]
-    },
-    {
-      "id": "infoq-54e042a2f8293cf6",
-      "title": "PHP Patches Two Critical RCE Flaws That Were Already Under Attack",
-      "summary": "PHP released 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to fix two critical vulnerabilities allowing unauthenticated remote code execution. Amazon recorded an exploitation attempt four days before the patches...",
-      "url": "https://www.infoq.com/news/2026/10/php-critical-rce-patches/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-10-25T18:07:00.000Z",
-      "tags": [],
-      "score": 71,
-      "priority": "HIGH",
-      "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-81d4360a64a22917",
-      "title": "PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs",
-      "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS ...",
-      "url": "https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-25T18:00:00.000Z",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-f78ef33843e89d93",
-      "title": "Scareware",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/software-testing-glossary/scareware",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-25T17:21:31.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
     }
   ]
 }
