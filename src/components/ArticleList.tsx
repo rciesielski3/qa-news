@@ -60,7 +60,7 @@ export default function ArticleList({ articles, topPickIds }: ArticleListProps) 
         <span>Source · Date</span>
         <span />
       </div>
-      <ul className="feed-list">
+      <ul className="feed-list" role="list">
         {displayedArticles.map((article, i) => (
           <PipelineEntry key={article.id} article={article} index={i + 1} />
         ))}

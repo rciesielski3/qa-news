@@ -8,6 +8,7 @@ import Header from '@/components/Header';
 import StatsBar from '@/components/StatsBar';
 import Footer from '@/components/Footer';
 import PageShell from '@/components/PageShell';
+import SkipLink from '@/components/SkipLink';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -53,10 +54,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: noFlashScript }} />
       </head>
       <body>
+        <SkipLink />
         <div className="page">
           <Header />
           <StatsBar />
-          <main id="top">
+          <main id="top" tabIndex={-1}>
             <PageShell>{children}</PageShell>
           </main>
           <footer className="site-footer">

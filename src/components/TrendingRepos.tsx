@@ -73,7 +73,7 @@ export function TrendingReposView({ repos, band = false }: { repos: TrendingRepo
           titleId="trending-repos-title"
           sub="QA and AI-testing repos created in the last 60 days"
         />
-        <ul className="repos">
+        <ul className="repos" role="list">
           {shown.map((repo, i) => (
             <RepoCard key={repo.url} repo={repo} index={i} />
           ))}

@@ -126,7 +126,7 @@ function DailyPageContent() {
 
           {isLoading ? (
             <div className="feed-table" aria-busy="true">
-              <ul className="feed-list">
+              <ul className="feed-list" role="list">
                 <SkeletonPipelineEntry />
                 <SkeletonPipelineEntry />
                 <SkeletonPipelineEntry />

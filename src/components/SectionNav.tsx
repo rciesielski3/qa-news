@@ -10,6 +10,11 @@ export interface SectionNavItem {
   count?: number | string;
 }
 
+/**
+ * No link is marked current until the spy has seen a section: at the top of the
+ * page the hero is in view, not section 01, so defaulting to the first link
+ * would announce the wrong location.
+ */
 /** Sticky in-page navigation with scroll-spy: the link of the section in view is marked current. */
 export default function SectionNav({ items }: { items: SectionNavItem[] }) {
   const [active, setActive] = useScrollSpy(items.map((item) => item.id));
