@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T19:37:46.309Z",
+  "generatedAt": "2026-11-24T10:30:10.530Z",
   "items": [
     {
       "id": "github-fb89575b05f0672d",
@@ -13,7 +13,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 1381
+      "stars": 1628
     },
     {
       "id": "github-32fe55bb813676c1",
@@ -27,13 +27,13 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 558
+      "stars": 559
     },
     {
       "id": "github-998787d85cfe7544",
       "title": "xcodebeast/flashwright",
-      "summary": "The fastest end-to-end testing framework: a drop-in Playwright with the same API and test runner, 2-4x faster than Playwright, Cypress, WebdriverIO, Selenium and Puppeteer",
-      "description": "The fastest end-to-end testing framework: a drop-in Playwright with the same API and test runner, 2-4x faster than Playwright, Cypress, WebdriverIO, Selenium and Puppeteer",
+      "summary": "The fastest e2e testing framework: a drop-in replacement for Playwright. 2-4x faster than Playwright and insanely faster than Cypress, WebdriverIO, Selenium and Puppeteer. The best Playwright alternative.",
+      "description": "The fastest e2e testing framework: a drop-in replacement for Playwright. 2-4x faster than Playwright and insanely faster than Cypress, WebdriverIO, Selenium and Puppeteer. The best Playwright alternative.",
       "url": "https://github.com/xcodebeast/flashwright",
       "source": "GitHub",
       "category": "test-automation",
@@ -41,7 +41,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 223
+      "stars": 307
     },
     {
       "id": "github-5b11b065ae3bb2e7",
@@ -55,7 +55,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 146
+      "stars": 147
     },
     {
       "id": "github-2388603d542f04fc",
@@ -70,20 +70,6 @@
         "test-automation"
       ],
       "stars": 113
-    },
-    {
-      "id": "github-1be97f1997ffdd1a",
-      "title": "Ursa-Minor-Beta/agent-factory-docker-api-ui",
-      "summary": "Agent Factory is an open-source studio for building, editing and chatting with AI agents. You build them from simple nodes: LLM calls, HTTP requests, JavaScript, memory and sub-agents. It runs locally with one docker-compose command, and ready-made testing agents are available in the shared agents-store repo.",
-      "description": "Agent Factory is an open-source studio for building, editing and chatting with AI agents. You build them from simple nodes: LLM calls, HTTP requests, JavaScript, memory and sub-agents. It runs locally with one docker-compose command, and ready-made testing agents are available in the shared agents-store repo.",
-      "url": "https://github.com/Ursa-Minor-Beta/agent-factory-docker-api-ui",
-      "source": "GitHub",
-      "category": "test-automation",
-      "publishedAt": "2026-09-25T11:00:13Z",
-      "tags": [
-        "test-automation"
-      ],
-      "stars": 101
     },
     {
       "id": "github-e21c8f834274070f",
@@ -111,7 +97,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 61
+      "stars": 66
     },
     {
       "id": "github-1014f2220e29c645",
@@ -139,7 +125,7 @@
       "tags": [
         "e2e-testing"
       ],
-      "stars": 55
+      "stars": 56
     },
     {
       "id": "github-ebbeffe90ed5bf1f",
