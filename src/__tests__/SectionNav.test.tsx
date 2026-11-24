@@ -82,4 +82,35 @@ describe('SectionNav', () => {
     fireEvent.click(screen.getByRole('link', { name: /New repos/ }));
     expect(screen.getByRole('link', { name: /New repos/ })).toHaveAttribute('aria-current', 'location');
   });
+
+  it('clears the current link when the first section drops below the reading line (scrolled back to the hero)', () => {
+    render(<SectionNav items={items} />);
+    act(() => {
+      callback?.([{ isIntersecting: true, target: document.getElementById('picks')! }]);
+    });
+    expect(screen.getByRole('link', { name: /Top picks/ })).toHaveAttribute('aria-current', 'location');
+    act(() => {
+      callback?.([
+        { isIntersecting: false, target: document.getElementById('picks')!, boundingClientRect: { top: 400 } as DOMRect },
+      ]);
+    });
+    screen.getAllByRole('link').forEach((a) => {
+      expect(a).not.toHaveAttribute('aria-current');
+      expect(a).not.toHaveClass('on');
+    });
+  });
+
+  it('keeps the current link when a section leaves upward (scrolling down) or a later section leaves below', () => {
+    render(<SectionNav items={items} />);
+    act(() => {
+      callback?.([{ isIntersecting: true, target: document.getElementById('feed')! }]);
+    });
+    act(() => {
+      callback?.([
+        { isIntersecting: false, target: document.getElementById('picks')!, boundingClientRect: { top: -300 } as DOMRect },
+        { isIntersecting: false, target: document.getElementById('repos')!, boundingClientRect: { top: 900 } as DOMRect },
+      ]);
+    });
+    expect(screen.getByRole('link', { name: /Pipeline/ })).toHaveAttribute('aria-current', 'location');
+  });
 });
