@@ -1,7 +1,337 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T18:26:48.384Z",
+  "updatedAt": "2026-11-24T19:12:35.738Z",
   "articles": [
+    {
+      "id": "ministry-of-testing-41b596c899b0d14a",
+      "title": "A new look for the MoTaverse Chapters",
+      "summary": "Chapter pages have changed! Check them out and let us know your thoughts,",
+      "description": "Chapter pages have changed! Check them out and let us know your thoughts,",
+      "url": "https://www.ministryoftesting.com/news/a-new-look-for-the-motaverse-chapters",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-24T16:44:00.000Z",
+      "tags": [],
+      "score": 59,
+      "priority": "MEDIUM",
+      "reason": [
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-8f8ff14660eee4e3",
+      "title": "Being an MoT Ambassador be like...",
+      "summary": "Being a Ministry of Testing Ambassador, now for 2 years running, has been a wild, and fulfilling ride.Outwardly, it probably looks a lot like I repost MoT events on LinkedIn, and I do that for sure...",
+      "description": "Being a Ministry of Testing Ambassador, now for 2 years running, has been a wild, and fulfilling ride.Outwardly, it probably looks a lot like I repost MoT events on LinkedIn, and I do that for sure...",
+      "url": "https://www.ministryoftesting.com/moments/being-an-mot-ambassador-be-like",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-24T16:21:18.000Z",
+      "tags": [
+        "testing"
+      ],
+      "score": 84,
+      "priority": "HIGH",
+      "reason": [
+        "testing",
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "storybook-releases-e6e1d7bf02ad3a87",
+      "title": "v11.0.0-rc.0",
+      "summary": "11.0.0-rc.0 Addon-MCP: Remove toolsets option and X-MCP-Toolsets header - #37676, thanks @kasperpeulen! Agent skills: Test command in AGENTS.md, review only when asked - #37421, thanks @kasperpeulen! ...",
+      "description": "11.0.0-rc.0 Addon-MCP: Remove toolsets option and X-MCP-Toolsets header - #37676, thanks @kasperpeulen! Agent skills: Test command in AGENTS.md, review only when asked - #37421, thanks @kasperpeulen! CLI: Install the skills when an agent upgrades with CI=true - #37404, thanks @kasperpeulen! CLI: Let installs update the lockfile when CI is set - #37428, thanks @kasperpeulen!",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-rc.0",
+      "source": "Storybook Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-24T13:39:25.000Z",
+      "tags": [
+        "react",
+        "github",
+        "update",
+        "release"
+      ],
+      "score": 99,
+      "priority": "CRITICAL",
+      "reason": [
+        "mcp",
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-d46d658b2b448b8d",
+      "title": "CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve",
+      "summary": "New research from the Cloud Native Computing Foundation (CNCF) and Linux Foundation Research finds that VMs host an average of 53% of production applications, while emerging AI and agentic workloads a...",
+      "description": "New research from the Cloud Native Computing Foundation (CNCF) and Linux Foundation Research finds that VMs host an average of 53% of production applications, while emerging AI and agentic workloads are creating additional demand for virtualisation, particularly where stronger execution isolation is required. By Craig Risi",
+      "url": "https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-24T12:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 73,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-30a5d398970fdbfc",
+      "title": "OpenAI Scales Git for Coding Agents with Pando",
+      "summary": "OpenAI has detailed Pando, a new backend that scales Git for concurrent coding-agent workloads without replacing familiar Git workflows. The company reports nearly 80% lower median push latency by coo...",
+      "description": "OpenAI has detailed Pando, a new backend that scales Git for concurrent coding-agent workloads without replacing familiar Git workflows. The company reports nearly 80% lower median push latency by coordinating branch updates independently and reusing stored packfiles across fetches. By Eran Stiller",
+      "url": "https://www.infoq.com/news/2026/11/openai-git-pando/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-24T11:55:00.000Z",
+      "tags": [
+        "update",
+        "ai"
+      ],
+      "score": 73,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-55d749f1ba3b339a",
+      "title": "Can everyone use what we build? ",
+      "summary": "At last week's MoT Manchester Chapter event, Fiona Stewart presented an intro to Accessibility. She explored what is Heywood's approach and got the audience to test out a prototype app! Thanks...",
+      "description": "At last week's MoT Manchester Chapter event, Fiona Stewart presented an intro to Accessibility. She explored what is Heywood's approach and got the audience to test out a prototype app! Thanks...",
+      "url": "https://www.ministryoftesting.com/moments/can-everyone-use-what-we-build",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-24T10:43:07.000Z",
+      "tags": [],
+      "score": 58,
+      "priority": "MEDIUM",
+      "reason": [
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-701334d2d951b937",
+      "title": "I slopstrapped the MoTaverse homepage and you'll never guess what happened",
+      "summary": "Slopstrap will take your website to the next level. Trust me!Very happy to reveal the new MoTaverse homepage. I'm impressed how hastily vibecoded it looks. 😍Select the image to zoom around the det...",
+      "description": "Slopstrap will take your website to the next level. Trust me!Very happy to reveal the new MoTaverse homepage. I'm impressed how hastily vibecoded it looks. 😍Select the image to zoom around the det...",
+      "url": "https://www.ministryoftesting.com/moments/i-slopstrapped-the-motaverse-homepage-and-you-ll-never-guess-what-happened",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-24T10:20:46.000Z",
+      "tags": [],
+      "score": 58,
+      "priority": "MEDIUM",
+      "reason": [
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-429a7872948b14a9",
+      "title": "Article: Engineering Around Non-Determinism: Evals, Grounding, and Release Gates for AI-Drafted Suspicious Reports",
+      "summary": "Moving GenAI into high-stakes production requires treating non-determinism as an engineering problem. This architectural blueprint shows engineering leaders and architects how to build trustworthy age...",
+      "description": "Moving GenAI into high-stakes production requires treating non-determinism as an engineering problem. This architectural blueprint shows engineering leaders and architects how to build trustworthy agentic workflows using knowledge graphs, dual-layer eval judges, CI/CD release gates, and regression testing against golden datasets to automate drafting while maintaining zero-hallucination compliance.",
+      "url": "https://www.infoq.com/articles/llm-agent-architecture-evals-grounding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-24T09:30:00.000Z",
+      "tags": [
+        "testing",
+        "ci/cd",
+        "ai",
+        "llm"
+      ],
+      "score": 98,
+      "priority": "CRITICAL",
+      "reason": [
+        "release",
+        "evals",
+        "recent"
+      ]
+    },
+    {
+      "id": "mcp-blog-e40b49d16c2970b1",
+      "title": "Two Years of MCP Builders",
+      "summary": "This week, our little open-source project, the Model Context Protocol (MCP), turns two years old. And what better way to mark this occasion than by celebrating the people who helped us build it and ev...",
+      "description": "This week, our little open-source project, the Model Context Protocol (MCP), turns two years old. And what better way to mark this occasion than by celebrating the people who helped us build it and everyone building with it.",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-turns-two/",
+      "source": "MCP Blog",
+      "category": "tooling",
+      "publishedAt": "2026-11-24T09:00:00.000Z",
+      "tags": [
+        "typescript",
+        "react",
+        "node.js",
+        "python",
+        "github",
+        "kubernetes",
+        "api",
+        "rest",
+        "database",
+        "bug",
+        "ai"
+      ],
+      "score": 78,
+      "priority": "HIGH",
+      "reason": [
+        "mcp",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-9eae58f6815a48a7",
+      "title": "QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI",
+      "summary": "At QCon San Francisco 2026, OpenAI's Brian Yang described building the ChatGPT ads product with Codex agents and no human-written code. He outlined layered testing, sandboxes, and batched pull request...",
+      "description": "At QCon San Francisco 2026, OpenAI's Brian Yang described building the ChatGPT ads product with Codex agents and no human-written code. He outlined layered testing, sandboxes, and batched pull request reviews, and noted failure modes such as code \"slop\" and unsafe agent actions. He advised gradual adoption and framed engineers as managers of agents. By Daniel Curtis",
+      "url": "https://www.infoq.com/news/2026/11/qcon-sf-openai-lessons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-24T06:32:00.000Z",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "score": 97,
+      "priority": "CRITICAL",
+      "reason": [
+        "testing",
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "selenium-releases-a16d302add79223c",
+      "title": "Nightly",
+      "summary": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 Full Changelog: selenium-4.54.0...nightly",
+      "description": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 Full Changelog: selenium-4.54.0...nightly",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-24T00:15:50.000Z",
+      "tags": [
+        "github",
+        "ai",
+        "release"
+      ],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "openai-8655fa232145e922",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "summary": "",
+      "url": "https://openai.com/index/ifood",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "tags": [],
+      "score": 71,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "simon-willison-e59fe8be067f4ab6",
+      "title": "Ladybird's first alpha release",
+      "summary": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It s...",
+      "description": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite.",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "source": "Simon Willison",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-23T21:46:35.000Z",
+      "tags": [
+        "javascript",
+        "python",
+        "testing",
+        "github",
+        "api",
+        "rest",
+        "sql",
+        "security",
+        "ai"
+      ],
+      "score": 71,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "storybook-releases-f365a754b8f11cb6",
+      "title": "v11.0.0-beta.5",
+      "summary": "11.0.0-beta.5 Addon Vitest: Report a mismatching storybook version at startup - #37626, thanks @huang-julien! Angular-Vite: Resolve styles against bridged workspace root in addon-vitest - #37637, than...",
+      "description": "11.0.0-beta.5 Addon Vitest: Report a mismatching storybook version at startup - #37626, thanks @huang-julien! Angular-Vite: Resolve styles against bridged workspace root in addon-vitest - #37637, thanks @Hricha-Sharma! CLI: List failed automigrations in the upgrade summary - #37635, thanks @omerfarukgurbuz! CLI: Refactor dep tree search to be breadth-first - #37618, thanks @Sidnioulz!",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-beta.5",
+      "source": "Storybook Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-23T21:29:12.000Z",
+      "tags": [
+        "typescript",
+        "react",
+        "vitest",
+        "github",
+        "ai",
+        "release"
+      ],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "openai-b0689cf87ab570a4",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "description": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-23T21:20:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-ec2db74d0daf563c",
+      "title": "QCon San Francisco 2026: Securing AI Agents in Production",
+      "summary": "At QCon San Francisco, Google's Amanda Walker framed AI agents as an insider-risk problem operating at machine speed, and described identity, credential and containment patterns for running them safel...",
+      "description": "At QCon San Francisco, Google's Amanda Walker framed AI agents as an insider-risk problem operating at machine speed, and described identity, credential and containment patterns for running them safely in production. By Mark Silvester",
+      "url": "https://www.infoq.com/news/2026/11/qcon-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-23T20:00:00.000Z",
+      "tags": [
+        "security",
+        "ai"
+      ],
+      "score": 71,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
     {
       "id": "infoq-4bda8844341320cd",
       "title": "How LinkedIn Built a View-Agnostic Analytics System for Modern iOS UI Architectures",
@@ -12,33 +342,37 @@
       "category": "tooling",
       "publishedAt": "2026-11-23T18:00:00.000Z",
       "tags": [],
-      "score": 54,
+      "score": 65,
       "priority": "MEDIUM",
       "reason": [
-        "recent"
+        "architecture"
       ]
     },
     {
       "id": "ministry-of-testing-e0a94a4b60d6ff3d",
       "title": "Bugberg ahead! Testability, feedback loops, culture",
-      "summary": "",
+      "summary": "Checks that confirm what we already expect, especially when AI cheerfully churns them out in bulk, are just the tip of the Bugberg. Below the waterline lie the systemic problems that damage release...",
+      "description": "Checks that confirm what we already expect, especially when AI cheerfully churns them out in bulk, are just the tip of the Bugberg. Below the waterline lie the systemic problems that damage release...",
       "url": "https://www.ministryoftesting.com/moments/bugberg-ahead-testability-feedback-loops-culture",
       "source": "Ministry of Testing",
       "category": "qa-practice",
       "publishedAt": "2026-11-23T17:01:53.000Z",
       "tags": [
-        "bug"
+        "bug",
+        "ai"
       ],
-      "score": 54,
-      "priority": "MEDIUM",
+      "score": 75,
+      "priority": "HIGH",
       "reason": [
-        "recent"
+        "release",
+        "Ministry of Testing"
       ]
     },
     {
       "id": "ministry-of-testing-a036cb846897abc3",
       "title": "Who's behind LuminosAI, and why we care so much about testing AI 🧪",
-      "summary": "",
+      "summary": "We're new to the MoTaverse, so here's a quick intro to who we are and where we come from 👋 Luminos started as Luminos.Law, the first law firm run by lawyers and data scientists. Our team spent year.....",
+      "description": "We're new to the MoTaverse, so here's a quick intro to who we are and where we come from 👋 Luminos started as Luminos.Law, the first law firm run by lawyers and data scientists. Our team spent year...",
       "url": "https://www.ministryoftesting.com/moments/who-s-behind-luminosai-and-why-we-care-so-much-about-testing-ai",
       "source": "Ministry of Testing",
       "category": "qa-practice",
@@ -47,11 +381,11 @@
         "testing",
         "ai"
       ],
-      "score": 79,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
         "testing",
-        "recent"
+        "Ministry of Testing"
       ]
     },
     {
@@ -68,11 +402,9 @@
         "feature",
         "ai"
       ],
-      "score": 54,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-90ed6ea2a8e385a6",
@@ -86,11 +418,11 @@
       "tags": [
         "ai"
       ],
-      "score": 74,
+      "score": 85,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "recent"
+        "architecture"
       ]
     },
     {
@@ -106,31 +438,36 @@
         "api",
         "ai"
       ],
-      "score": 54,
-      "priority": "MEDIUM",
+      "score": 85,
+      "priority": "HIGH",
       "reason": [
-        "recent"
+        "code review",
+        "architecture"
       ]
     },
     {
       "id": "ministry-of-testing-3cabbb2fcb021d20",
       "title": "Karim on Into the MoTaverse: the quality architect role",
-      "summary": "",
+      "summary": "Karim Jouini, CEO of Thunders, joined Rosie Sherry on Into the MoTaverse. They discussed why AI takes over tasks rather than jobs, and why the quality architect could become a defining role in test...",
+      "description": "Karim Jouini, CEO of Thunders, joined Rosie Sherry on Into the MoTaverse. They discussed why AI takes over tasks rather than jobs, and why the quality architect could become a defining role in test...",
       "url": "https://www.ministryoftesting.com/moments/karim-on-into-the-motaverse-the-quality-architect-role",
       "source": "Ministry of Testing",
-      "category": "engineering",
+      "category": "test-automation",
       "publishedAt": "2026-11-23T13:39:18.000Z",
-      "tags": [],
-      "score": 54,
+      "tags": [
+        "ai"
+      ],
+      "score": 55,
       "priority": "MEDIUM",
       "reason": [
-        "recent"
+        "Ministry of Testing"
       ]
     },
     {
       "id": "ministry-of-testing-d951714466c204bc",
       "title": "We timed 50 end-to-end tests on Playwright, Selenium, Cypress and Thunders",
-      "summary": "",
+      "summary": "We ran the same 50 end-to-end tests on Playwright, Selenium, Cypress and Thunders, 10 at a time. Then we measured the time from trigger to result.Thunders: 64 s. Selenium: 106 s. Cypress: 178 s. Pl...",
+      "description": "We ran the same 50 end-to-end tests on Playwright, Selenium, Cypress and Thunders, 10 at a time. Then we measured the time from trigger to result.Thunders: 64 s. Selenium: 106 s. Cypress: 178 s. Pl...",
       "url": "https://www.ministryoftesting.com/moments/we-timed-50-end-to-end-tests-on-playwright-selenium-cypress-and-thunders",
       "source": "Ministry of Testing",
       "category": "test-automation",
@@ -139,11 +476,11 @@
         "playwright",
         "cypress"
       ],
-      "score": 74,
+      "score": 75,
       "priority": "HIGH",
       "reason": [
         "playwright",
-        "recent"
+        "Ministry of Testing"
       ]
     },
     {
@@ -165,11 +502,9 @@
         "ai",
         "release"
       ],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-998a32ea828efde1",
@@ -184,25 +519,28 @@
         "javascript",
         "ai"
       ],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-b842a65b0f1b10ab",
       "title": "Start with One Flow. See How ACCELQ Turns It into a Test.",
-      "summary": "",
+      "summary": "You know the business flow you want to test. The unfamiliar part is turning it into automation you can run and maintain. Where do Contexts and Views fit? When should a step become a reusable Action...",
+      "description": "You know the business flow you want to test. The unfamiliar part is turning it into automation you can run and maintain. Where do Contexts and Views fit? When should a step become a reusable Action...",
       "url": "https://www.ministryoftesting.com/moments/start-with-one-flow-see-how-accelq-turns-it-into-a-test",
       "source": "Ministry of Testing",
       "category": "test-automation",
       "publishedAt": "2026-11-23T12:05:07.000Z",
-      "tags": [],
-      "score": 53,
-      "priority": "MEDIUM",
+      "tags": [
+        "automation",
+        "ai"
+      ],
+      "score": 80,
+      "priority": "HIGH",
       "reason": [
-        "recent"
+        "automation",
+        "Ministry of Testing"
       ]
     },
     {
@@ -228,70 +566,54 @@
     {
       "id": "ministry-of-testing-4c2b34b25e07b9e2",
       "title": "Your one tough cookie....",
-      "summary": "",
+      "summary": "A nice sentiment but sadly a spelling mistakeYour one tough cookie, get well soonShould read \"you're\"Who knows if AI was used here, but we need to know what's right so we can correct AI when it's w...",
+      "description": "A nice sentiment but sadly a spelling mistakeYour one tough cookie, get well soonShould read \"you're\"Who knows if AI was used here, but we need to know what's right so we can correct AI when it's w...",
       "url": "https://www.ministryoftesting.com/moments/your-one-tough-cookie",
       "source": "Ministry of Testing",
-      "category": "engineering",
+      "category": "ai",
       "publishedAt": "2026-11-23T10:07:51.000Z",
-      "tags": [],
-      "score": 53,
+      "tags": [
+        "ai"
+      ],
+      "score": 55,
       "priority": "MEDIUM",
       "reason": [
-        "recent"
+        "Ministry of Testing"
       ]
     },
     {
       "id": "ministry-of-testing-1e4ca6dbd653bc63",
       "title": "Are these the _only_ things allowed?",
-      "summary": "",
+      "summary": "This bin had a list of 5 things tickets as suitable to throw in the General Waste bin.But is this a complete list or are there other things that can go in this bin.Would it be useful to have a list...",
+      "description": "This bin had a list of 5 things tickets as suitable to throw in the General Waste bin.But is this a complete list or are there other things that can go in this bin.Would it be useful to have a list...",
       "url": "https://www.ministryoftesting.com/moments/are-these-the-_only_-things-allowed",
       "source": "Ministry of Testing",
       "category": "engineering",
       "publishedAt": "2026-11-23T10:03:44.000Z",
       "tags": [],
-      "score": 53,
+      "score": 55,
       "priority": "MEDIUM",
       "reason": [
-        "recent"
+        "Ministry of Testing"
       ]
     },
     {
       "id": "ministry-of-testing-af0fd6ca49adc5c7",
       "title": "A chance to win tickets to a show in 2025?!",
-      "summary": "",
+      "summary": "Upon purchasing a ticket for a 2027 Fair, the confirmation page showed me the option to share to win tickets to the 2025 show?!Does this also mean this bug was present last year?!",
+      "description": "Upon purchasing a ticket for a 2027 Fair, the confirmation page showed me the option to share to win tickets to the 2025 show?!Does this also mean this bug was present last year?!",
       "url": "https://www.ministryoftesting.com/moments/a-chance-to-win-tickets-to-a-show-in-2025",
       "source": "Ministry of Testing",
-      "category": "engineering",
+      "category": "qa-practice",
       "publishedAt": "2026-11-23T09:57:31.000Z",
-      "tags": [],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "selenium-releases-a16d302add79223c",
-      "title": "Nightly",
-      "summary": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] exten...",
-      "description": "What's Changed [dotnet] [bidi] Add missing userContexts in Subscribe command by @nvborisenko in #18330 [build] extend the EngFlow cache for GHA to all bindings by @titusfortner in #18331 [build] extend the EngFlow cache for GHA to Rust by @titusfortner in #18332 [rb] stop the driver service when starting a session fails with any error by @titusfortner in #18333 [js][bidi] Keep received node...",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium Releases",
-      "category": "tooling",
-      "publishedAt": "2026-11-23T09:14:17.000Z",
       "tags": [
-        "github",
-        "api",
-        "rest",
-        "update",
         "bug",
-        "ai",
-        "release"
+        "ai"
       ],
-      "score": 53,
+      "score": 55,
       "priority": "MEDIUM",
       "reason": [
-        "recent"
+        "Ministry of Testing"
       ]
     },
     {
@@ -314,11 +636,43 @@
         "ai",
         "release"
       ],
-      "score": 53,
+      "score": 50,
       "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "openai-1259b534687dd8b3",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "description": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 70,
+      "priority": "HIGH",
       "reason": [
-        "recent"
+        "agent"
       ]
+    },
+    {
+      "id": "openai-10878202550bbbf9",
+      "title": "Connected intelligence for in-house legal",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get ...",
+      "description": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "source": "OpenAI",
+      "category": "tooling",
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     },
     {
       "id": "infoq-a53737ee646c4bb4",
@@ -332,11 +686,10 @@
       "tags": [
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -413,11 +766,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-6e45bffadfeb4628",
@@ -529,11 +880,9 @@
       "tags": [
         "ai"
       ],
-      "score": 60,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-0ef00ad313cb425d",
@@ -576,10 +925,11 @@
         "ai",
         "llm"
       ],
-      "score": 70,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
-        "agent"
+        "agent",
+        "Martin Fowler"
       ]
     },
     {
@@ -777,11 +1127,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-c7c8e2c5de6ff793",
@@ -864,11 +1212,10 @@
       "tags": [
         "ai"
       ],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "openai"
+        "release"
       ]
     },
     {
@@ -883,11 +1230,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-2f243b801b172927",
@@ -906,6 +1251,41 @@
       "reason": [
         "testing"
       ]
+    },
+    {
+      "id": "pragmatic-engineer-6bdd117d6a37820d",
+      "title": "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
+      "summary": "Also: Anthropic goes public with the largest-ever IPO, Meta frantically reverses shutdown of popular AI coding harness Conductor, and more",
+      "description": "Also: Anthropic goes public with the largest-ever IPO, Meta frantically reverses shutdown of popular AI coding harness Conductor, and more",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
+      "source": "Pragmatic Engineer",
+      "category": "ai",
+      "publishedAt": "2026-11-19T17:08:59.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "Pragmatic Engineer"
+      ]
+    },
+    {
+      "id": "github-blog-5f364a8612fd0351",
+      "title": "The best things in open source are built together",
+      "summary": "Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on ...",
+      "description": "Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on The GitHub Blog.",
+      "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+      "source": "GitHub Blog",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-19T16:00:00.000Z",
+      "tags": [
+        "github",
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     },
     {
       "id": "infoq-c4f2102747e85686",
@@ -950,11 +1330,9 @@
       "category": "engineering",
       "publishedAt": "2026-11-19T14:00:00.000Z",
       "tags": [],
-      "score": 60,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-87bbd93e76ab28a5",
@@ -1071,11 +1449,9 @@
         "performance",
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "on-test-automation-c040f2d74940c1b1",
@@ -1108,11 +1484,11 @@
       "tags": [
         "security"
       ],
-      "score": 105,
+      "score": 95,
       "priority": "CRITICAL",
       "reason": [
         "security",
-        "openai"
+        "architecture"
       ]
     },
     {
@@ -1127,11 +1503,10 @@
       "tags": [
         "security"
       ],
-      "score": 105,
-      "priority": "CRITICAL",
+      "score": 80,
+      "priority": "HIGH",
       "reason": [
-        "security",
-        "openai"
+        "security"
       ]
     },
     {
@@ -1144,11 +1519,9 @@
       "category": "ai",
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-da30645137037f00",
@@ -1160,11 +1533,9 @@
       "category": "ai",
       "publishedAt": "2026-11-19T00:00:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "cloudflare-c9098ac47ad21321",
@@ -1179,11 +1550,29 @@
         "update",
         "ai"
       ],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "release"
+      ]
+    },
+    {
+      "id": "pragmatic-engineer-8f48c3599f5e6e23",
+      "title": "Software factories and code reviews with Harjot Gill",
+      "summary": "CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI.",
+      "description": "CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI.",
+      "url": "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
+      "source": "Pragmatic Engineer",
+      "category": "ai",
+      "publishedAt": "2026-11-18T18:08:52.000Z",
+      "tags": [
+        "ai"
+      ],
       "score": 80,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "cloudflare"
+        "code review",
+        "Pragmatic Engineer"
       ]
     },
     {
@@ -1275,9 +1664,11 @@
         "api",
         "ai"
       ],
-      "score": 50,
+      "score": 60,
       "priority": "MEDIUM",
-      "reason": []
+      "reason": [
+        "Martin Fowler"
+      ]
     },
     {
       "id": "ministry-of-testing-91b7f9753939247c",
@@ -1364,11 +1755,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-aa260738223323fc",
@@ -1448,11 +1837,10 @@
         "performance",
         "ai"
       ],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "openai"
+        "agent"
       ]
     },
     {
@@ -1465,11 +1853,9 @@
       "category": "ai",
       "publishedAt": "2026-11-18T08:00:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-67952d9a918d2536",
@@ -1481,11 +1867,9 @@
       "category": "ai",
       "publishedAt": "2026-11-18T08:00:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-99be0c0a7e074380",
@@ -1499,11 +1883,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-a1de396d3910fa2e",
@@ -1517,11 +1899,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-68ddb817fe4001c0",
@@ -1535,11 +1915,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-ab05ea545983edc7",
@@ -1569,11 +1947,27 @@
       "category": "engineering",
       "publishedAt": "2026-11-17T20:24:27.000Z",
       "tags": [],
-      "score": 60,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
-      ]
+      "reason": []
+    },
+    {
+      "id": "github-blog-de1a299348ffc0d1",
+      "title": "Maintainers don’t need more AI bug reports. They need fixes. ",
+      "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have a...",
+      "description": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don&#8217;t need more AI bug reports. They need fixes. appeared first on The GitHub Blog.",
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "source": "GitHub Blog",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-17T18:29:29.000Z",
+      "tags": [
+        "github",
+        "bug",
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     },
     {
       "id": "selenium-releases-93c7548a7f6a3aa4",
@@ -1600,6 +1994,24 @@
       "reason": []
     },
     {
+      "id": "github-blog-2f1c65ad4b7ec380",
+      "title": "Building the Agent Host Protocol for sessions that continue across devices",
+      "summary": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that conti...",
+      "description": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog.",
+      "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "publishedAt": "2026-11-17T18:20:40.000Z",
+      "tags": [
+        "github"
+      ],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "agent"
+      ]
+    },
+    {
       "id": "openai-8f6af8c44a4a1bfb",
       "title": "Introducing GPT-6.2 Astra and Sol",
       "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
@@ -1611,11 +2023,9 @@
       "tags": [
         "api"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "vitest-releases-43c6806208d25a19",
@@ -1641,6 +2051,29 @@
       "reason": []
     },
     {
+      "id": "netflix-techblog-e9660b224dd9b7af",
+      "title": "Engineering AI Discover",
+      "summary": "The challenges and decisions behind AI Discover’s intelligence layerBy Varun Khaitan, Peng Ren, Gary Tang, Itay Teller, Atif Faheem, Nipun Kumar, Donnie DeBoer, Eduardo Lundgren, Matteo Rinaldi, Ragha...",
+      "description": "The challenges and decisions behind AI Discover’s intelligence layerBy Varun Khaitan, Peng Ren, Gary Tang, Itay Teller, Atif Faheem, Nipun Kumar, Donnie DeBoer, Eduardo Lundgren, Matteo Rinaldi, Raghav BakshiWe recently introduced AI Discover, a new tab in our TV app where a small group of members can try new ways to find something to watch.",
+      "url": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4",
+      "source": "Netflix TechBlog",
+      "category": "engineering",
+      "publishedAt": "2026-11-17T17:01:02.000Z",
+      "tags": [
+        "api",
+        "rest",
+        "performance",
+        "update",
+        "ai",
+        "llm"
+      ],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "Netflix"
+      ]
+    },
+    {
       "id": "ministry-of-testing-b5d542e45562da73",
       "title": "BugBerg: What people see testing as versus what testing actually involves",
       "summary": "",
@@ -1660,6 +2093,52 @@
       ]
     },
     {
+      "id": "simon-willison-9e24bec0316d82cc",
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "summary": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide. I've released a complete rewrite of Datasette Lite using service workers, an...",
+      "description": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application.",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "publishedAt": "2026-11-17T16:48:33.000Z",
+      "tags": [
+        "javascript",
+        "python",
+        "github",
+        "api",
+        "database",
+        "sql",
+        "feature",
+        "bug",
+        "ai",
+        "llm"
+      ],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "release"
+      ]
+    },
+    {
+      "id": "pragmatic-engineer-0d6609eafd66d0b2",
+      "title": "Inference engineering for software engineers",
+      "summary": "When is the right time to drop APIs provided by the frontier AI labs, and what about choosing models & providers, caching, dedicated GPUs, KV cache concerns, and more? A practical deepdive",
+      "description": "When is the right time to drop APIs provided by the frontier AI labs, and what about choosing models & providers, caching, dedicated GPUs, KV cache concerns, and more? A practical deepdive",
+      "url": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
+      "source": "Pragmatic Engineer",
+      "category": "tooling",
+      "publishedAt": "2026-11-17T16:11:23.000Z",
+      "tags": [
+        "api",
+        "ai"
+      ],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "Pragmatic Engineer"
+      ]
+    },
+    {
       "id": "ministry-of-testing-7b51e896d22c12f8",
       "title": "The Bugberg: The invisible weight of being a builder",
       "summary": "",
@@ -1673,6 +2152,25 @@
       "score": 50,
       "priority": "MEDIUM",
       "reason": []
+    },
+    {
+      "id": "test-guild-4cf591cdec4ae17a",
+      "title": "Robot Framework Test Automation: Automate Web, Desktop, Mobile, and Embedded Systems",
+      "summary": "About This Episode: What makes Robot Framework flexible enough to test medical devices, low code bots, monitoring systems, and embedded [&hellip;]",
+      "description": "About This Episode: What makes Robot Framework flexible enough to test medical devices, low code bots, monitoring systems, and embedded [&hellip;]",
+      "url": "https://testguild.com/podcast/a612-robocon2027/",
+      "source": "Test Guild",
+      "category": "test-automation",
+      "publishedAt": "2026-11-17T15:43:23.000Z",
+      "tags": [
+        "automation"
+      ],
+      "score": 125,
+      "priority": "CRITICAL",
+      "reason": [
+        "test automation",
+        "automation"
+      ]
     },
     {
       "id": "ministry-of-testing-41a53c90fe6a8cff",
@@ -1728,10 +2226,11 @@
         "testing",
         "ai"
       ],
-      "score": 75,
+      "score": 85,
       "priority": "HIGH",
       "reason": [
-        "testing"
+        "testing",
+        "Martin Fowler"
       ]
     },
     {
@@ -1981,11 +2480,9 @@
       "tags": [
         "update"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-0e7f690aa4ff229b",
@@ -1999,11 +2496,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-3b3be741a87f5e21",
@@ -2017,11 +2512,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-b43ef08ac3ed4f7a",
@@ -2033,10 +2526,26 @@
       "category": "ai",
       "publishedAt": "2026-11-17T00:00:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "checkly-73ce4aea559ae5b5",
+      "title": "Why I Built My Own AI Agent Orchestration Tool",
+      "summary": "A Checkly engineer on building Agentic Crafting Table, an open source map for running many AI coding agents, and what he would do differently.",
+      "description": "A Checkly engineer on building Agentic Crafting Table, an open source map for running many AI coding agents, and what he would do differently.",
+      "url": "https://www.checklyhq.com/blog/agentic-crafting-table-ai-agent-orchestration",
+      "source": "Checkly",
+      "category": "ai",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 70,
+      "priority": "HIGH",
       "reason": [
-        "openai"
+        "agent"
       ]
     },
     {
@@ -2083,6 +2592,28 @@
       "reason": []
     },
     {
+      "id": "test-guild-06beeed8cd1c038d",
+      "title": "AI Tests You Can’t Trust? Flaky Agents, Playwright MCP, Google EGM TGNS",
+      "summary": "About This Episode: What’s new with Playwright MCP? Can you trust tests that AI keeps rewriting? Have you seen the [&hellip;]",
+      "description": "About This Episode: What’s new with Playwright MCP? Can you trust tests that AI keeps rewriting? Have you seen the [&hellip;]",
+      "url": "https://testguild.com/podcast/n200-nov16/",
+      "source": "Test Guild",
+      "category": "test-automation",
+      "publishedAt": "2026-11-16T19:36:18.000Z",
+      "tags": [
+        "playwright",
+        "ai"
+      ],
+      "score": 145,
+      "priority": "CRITICAL",
+      "reason": [
+        "playwright",
+        "mcp",
+        "agent",
+        "flaky"
+      ]
+    },
+    {
       "id": "openai-2d7a5d6b20fff3cd",
       "title": "Broadening access to AI for scientists",
       "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
@@ -2094,11 +2625,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-dd659f011024f04f",
@@ -2112,11 +2641,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-32ebe60d98b34a7b",
@@ -2173,6 +2700,25 @@
       ]
     },
     {
+      "id": "pragmatic-engineer-6ab5d7679dc03dec",
+      "title": "Software engineering after code becomes cheap with Satya Nadella",
+      "summary": "Microsoft CEO Satya Nadella on AI&#8217;s impact on software engineering, code verification, and engineers&#8217; careers.",
+      "description": "Microsoft CEO Satya Nadella on AI&#8217;s impact on software engineering, code verification, and engineers&#8217; careers.",
+      "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes",
+      "source": "Pragmatic Engineer",
+      "category": "engineering",
+      "publishedAt": "2026-11-16T13:33:48.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 75,
+      "priority": "HIGH",
+      "reason": [
+        "software engineering",
+        "Pragmatic Engineer"
+      ]
+    },
+    {
       "id": "ministry-of-testing-8a2f47c159e53d8a",
       "title": "Learning with the system: breaking down the silos in how we learn and grow",
       "summary": "",
@@ -2216,11 +2762,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-0e9ac986514e8aa5",
@@ -2325,11 +2869,10 @@
         "security",
         "ai"
       ],
-      "score": 105,
-      "priority": "CRITICAL",
+      "score": 80,
+      "priority": "HIGH",
       "reason": [
-        "security",
-        "openai"
+        "security"
       ]
     },
     {
@@ -2358,11 +2901,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-bebdcd8461da6563",
@@ -2411,11 +2952,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-21b4758ab52123ac",
@@ -2426,11 +2965,10 @@
       "category": "ai",
       "publishedAt": "2026-11-16T06:00:00.000Z",
       "tags": [],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "openai"
+        "agent"
       ]
     },
     {
@@ -2443,11 +2981,10 @@
       "category": "ai",
       "publishedAt": "2026-11-16T06:00:00.000Z",
       "tags": [],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "openai"
+        "agent"
       ]
     },
     {
@@ -2462,11 +2999,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-3d4aeac88b69acfa",
@@ -2478,11 +3013,9 @@
       "category": "ai",
       "publishedAt": "2026-11-16T00:00:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-2e8f421d2ee2a3df",
@@ -2496,11 +3029,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-33b95c2112c46efd",
@@ -2514,11 +3045,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-35cae3becfd4e2bb",
@@ -2685,9 +3214,11 @@
         "ai",
         "release"
       ],
-      "score": 50,
+      "score": 60,
       "priority": "MEDIUM",
-      "reason": []
+      "reason": [
+        "Playwright"
+      ]
     },
     {
       "id": "cloudflare-5ab783dcdbdb11e3",
@@ -2701,11 +3232,10 @@
       "tags": [
         "ai"
       ],
-      "score": 80,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "cloudflare"
+        "agent"
       ]
     },
     {
@@ -2722,13 +3252,12 @@
         "security",
         "ai"
       ],
-      "score": 155,
+      "score": 135,
       "priority": "CRITICAL",
       "reason": [
         "testing",
         "penetration testing",
-        "security",
-        "cloudflare"
+        "security"
       ]
     },
     {
@@ -2829,11 +3358,10 @@
       "category": "ai",
       "publishedAt": "2026-11-13T15:00:00.000Z",
       "tags": [],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "openai"
+        "agent"
       ]
     },
     {
@@ -2859,10 +3387,32 @@
       "category": "engineering",
       "publishedAt": "2026-11-13T14:00:00.000Z",
       "tags": [],
-      "score": 60,
+      "score": 50,
       "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "test-guild-254f235c9a086f0e",
+      "title": "12 BEST AI Test Automation Tools for 2026 The Third Wave",
+      "summary": "The Bottom Line for 2026: The best AI test automation tools for 2026, by category: agentic testing with no script [&hellip;]",
+      "description": "The Bottom Line for 2026: The best AI test automation tools for 2026, by category: agentic testing with no script [&hellip;]",
+      "url": "https://testguild.com/7-innovative-ai-test-automation-tools-future-third-wave/",
+      "source": "Test Guild",
+      "category": "test-automation",
+      "publishedAt": "2026-11-13T13:57:20.000Z",
+      "tags": [
+        "testing",
+        "automation",
+        "ai"
+      ],
+      "score": 130,
+      "priority": "CRITICAL",
       "reason": [
-        "cloudflare"
+        "test automation",
+        "testing",
+        "automation",
+        "agent",
+        "listicle"
       ]
     },
     {
@@ -2901,7 +3451,7 @@
         "ai",
         "release"
       ],
-      "score": 110,
+      "score": 100,
       "priority": "CRITICAL",
       "reason": [
         "security",
@@ -3013,11 +3563,10 @@
       "tags": [
         "ai"
       ],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "openai"
+        "agent"
       ]
     },
     {
@@ -3052,6 +3601,25 @@
       "reason": []
     },
     {
+      "id": "github-blog-8bc9138e516754eb",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run...",
+      "description": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "source": "GitHub Blog",
+      "category": "ai",
+      "publishedAt": "2026-11-12T22:54:52.000Z",
+      "tags": [
+        "github",
+        "ai"
+      ],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "agent"
+      ]
+    },
+    {
       "id": "cypress-a0eb65c9ecedca25",
       "title": "Multi-tab testing in Cypress: @cypress/puppeteer 1.0 is generally available",
       "summary": "Cypress runs each test in one tab, so flows that open a new tab or popup have been hard to test. @cypress/puppeteer 1.0 is now generally available, with a stable API, Puppeteer v24, and a new multi-ta...",
@@ -3066,10 +3634,11 @@
         "api",
         "ai"
       ],
-      "score": 75,
+      "score": 85,
       "priority": "HIGH",
       "reason": [
-        "testing"
+        "testing",
+        "Cypress"
       ]
     },
     {
@@ -3084,11 +3653,28 @@
       "tags": [
         "ai"
       ],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "openai"
+        "agent"
+      ]
+    },
+    {
+      "id": "pragmatic-engineer-153fefdefb20d203",
+      "title": "The Pulse: What can we learn from the Railway hack?",
+      "summary": "Also: native mobile and frontend jobs are disappearing, how trust helps an &#8220;AI-native&#8221; engineering team to succeed, Carta starts selling a coding harness, and more",
+      "description": "Also: native mobile and frontend jobs are disappearing, how trust helps an &#8220;AI-native&#8221; engineering team to succeed, Carta starts selling a coding harness, and more",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-114",
+      "source": "Pragmatic Engineer",
+      "category": "engineering",
+      "publishedAt": "2026-11-12T18:53:19.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "Pragmatic Engineer"
       ]
     },
     {
@@ -3107,10 +3693,11 @@
         "feature",
         "ai"
       ],
-      "score": 75,
+      "score": 85,
       "priority": "HIGH",
       "reason": [
-        "testing"
+        "testing",
+        "Cypress"
       ]
     },
     {
@@ -3193,9 +3780,28 @@
         "ai",
         "llm"
       ],
-      "score": 50,
+      "score": 80,
+      "priority": "HIGH",
+      "reason": [
+        "llm",
+        "Martin Fowler"
+      ]
+    },
+    {
+      "id": "kent-beck-31c956f0cbe6f38f",
+      "title": "“Toil” is Contextual",
+      "summary": "While my kids were growing up they were all in 4-H.",
+      "description": "While my kids were growing up they were all in 4-H.",
+      "url": "https://newsletter.kentbeck.com/p/toil-is-contextual",
+      "source": "Kent Beck",
+      "category": "engineering",
+      "publishedAt": "2026-11-12T14:04:00.000Z",
+      "tags": [],
+      "score": 60,
       "priority": "MEDIUM",
-      "reason": []
+      "reason": [
+        "Kent Beck"
+      ]
     },
     {
       "id": "grafana-k6-releases-a2b11e5bf338e8fd",
@@ -3253,11 +3859,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-157413b864e99e0d",
@@ -3336,11 +3940,9 @@
       "category": "tooling",
       "publishedAt": "2026-11-12T09:30:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-8a1db92956189a87",
@@ -3428,11 +4030,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-d7c1da8cb7dc41da",
@@ -3446,11 +4046,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "on-test-automation-795ec981313cef46",
@@ -3481,11 +4079,9 @@
       "category": "ai",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-62d63434885b5c31",
@@ -3534,12 +4130,13 @@
         "testing",
         "ai"
       ],
-      "score": 130,
+      "score": 140,
       "priority": "CRITICAL",
       "reason": [
         "automated testing",
         "testing",
-        "agent"
+        "agent",
+        "Martin Fowler"
       ]
     },
     {
@@ -3598,11 +4195,9 @@
       "tags": [
         "ai"
       ],
-      "score": 60,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-8d54d9b8da3150f7",
@@ -3657,6 +4252,32 @@
       "reason": []
     },
     {
+      "id": "mcp-blog-4e8ff5001241b415",
+      "title": "A More Predictable Release Cycle for MCP",
+      "summary": "We&rsquo;ve spent a lot of time over the past two years talking about ways to improve MCP, add new features and capabilities, and get on a more predictable release cadence. Clearly, there has been no ...",
+      "description": "We&rsquo;ve spent a lot of time over the past two years talking about ways to improve MCP, add new features and capabilities, and get on a more predictable release cadence. Clearly, there has been no shortage of ideas both from the maintainer and broader developer community.",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-release-cycle/",
+      "source": "MCP Blog",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-11T09:00:00.000Z",
+      "tags": [
+        "testing",
+        "github",
+        "rest",
+        "security",
+        "update",
+        "feature",
+        "bug",
+        "ai"
+      ],
+      "score": 95,
+      "priority": "CRITICAL",
+      "reason": [
+        "mcp",
+        "release"
+      ]
+    },
+    {
       "id": "ministry-of-testing-2cc65c81aff079f4",
       "title": "The Next Evolution of Manual Testing: Introducing Katalon AI Test Runner (live launch, Nov 16)",
       "summary": "",
@@ -3703,11 +4324,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-55ff14dc4213127d",
@@ -3721,10 +4340,28 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
-      "priority": "MEDIUM",
+      "score": 75,
+      "priority": "HIGH",
       "reason": [
-        "openai"
+        "evals"
+      ]
+    },
+    {
+      "id": "test-guild-52997e768e3c2cb9",
+      "title": "Playwright at Scale: Run 500 Tests in Minutes with Oliver Stenbom",
+      "summary": "About This Episode: Is your Playwright suite slowing you down instead of speeding you up? In this episode, Oliver Stenbom, [&hellip;]",
+      "description": "About This Episode: Is your Playwright suite slowing you down instead of speeding you up? In this episode, Oliver Stenbom, [&hellip;]",
+      "url": "https://testguild.com/podcast/a611-oliver/",
+      "source": "Test Guild",
+      "category": "test-automation",
+      "publishedAt": "2026-11-10T21:28:15.000Z",
+      "tags": [
+        "playwright"
+      ],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "playwright"
       ]
     },
     {
@@ -3763,6 +4400,46 @@
       ]
     },
     {
+      "id": "github-blog-2c15f23ac7aa344c",
+      "title": "Git security vulnerabilities announced",
+      "summary": "Git is releasing updates addressing six security vulnerabilities affecting clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulne...",
+      "description": "Git is releasing updates addressing six security vulnerabilities affecting clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog.",
+      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+      "source": "GitHub Blog",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-10T18:00:00.000Z",
+      "tags": [
+        "github",
+        "security",
+        "update"
+      ],
+      "score": 80,
+      "priority": "HIGH",
+      "reason": [
+        "security"
+      ]
+    },
+    {
+      "id": "pragmatic-engineer-bf6eb052113b0f48",
+      "title": "Software correctness & supply chain security, with Sean Allen",
+      "summary": "A deep conversation on the biggest challenges of developing with AI &#8211; while trying not to mention the phrase &#8220;AI&#8221; once. Why? To dig up the fundamentals that are as important as ever",
+      "description": "A deep conversation on the biggest challenges of developing with AI &#8211; while trying not to mention the phrase &#8220;AI&#8221; once. Why? To dig up the fundamentals that are as important as ever",
+      "url": "https://newsletter.pragmaticengineer.com/p/software-correctness",
+      "source": "Pragmatic Engineer",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-10T15:00:21.000Z",
+      "tags": [
+        "security",
+        "ai"
+      ],
+      "score": 90,
+      "priority": "CRITICAL",
+      "reason": [
+        "security",
+        "Pragmatic Engineer"
+      ]
+    },
+    {
       "id": "martin-fowler-e05115fe9bc7cc15",
       "title": "Fragments: November 10",
       "summary": "It’s that time of the year when the November Thoughtworks Technology Radar appears. Again my colleagues have taken a sweep of the technologies that our teams have used in the field, and pulled togethe...",
@@ -3778,9 +4455,11 @@
         "ai",
         "llm"
       ],
-      "score": 50,
+      "score": 60,
       "priority": "MEDIUM",
-      "reason": []
+      "reason": [
+        "Martin Fowler"
+      ]
     },
     {
       "id": "martin-fowler-409e41c640fc45ee",
@@ -3794,10 +4473,11 @@
       "tags": [
         "ai"
       ],
-      "score": 70,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
-        "agent"
+        "agent",
+        "Martin Fowler"
       ]
     },
     {
@@ -3812,11 +4492,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-e70c7e543efbd8a4",
@@ -3887,11 +4565,9 @@
       "tags": [
         "rest"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-69d4d9d74efa0162",
@@ -3905,11 +4581,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-a72aececf12f6f5e",
@@ -3927,6 +4601,29 @@
       "score": 50,
       "priority": "MEDIUM",
       "reason": []
+    },
+    {
+      "id": "mcp-blog-eda0d1a0e089e311",
+      "title": "Exploring File Uploads and Downloads in MCP",
+      "summary": "The Model Context Protocol (MCP) started out as a simple way to connect models to tools, and that principle is still very much at its heart. Over the past two years, the things people build with the p...",
+      "description": "The Model Context Protocol (MCP) started out as a simple way to connect models to tools, and that principle is still very much at its heart. Over the past two years, the things people build with the protocol have become more ambitious. Much more ambitious. Many of those MCP server projects now need to work with files - often driven by increasing agent capabilities and autonomy.",
+      "url": "https://blog.modelcontextprotocol.io/posts/exploring-file-uploads-and-downloads-in-mcp/",
+      "source": "MCP Blog",
+      "category": "ai",
+      "publishedAt": "2026-11-10T09:00:00.000Z",
+      "tags": [
+        "python",
+        "github",
+        "rest",
+        "database",
+        "security",
+        "ai"
+      ],
+      "score": 75,
+      "priority": "HIGH",
+      "reason": [
+        "mcp"
+      ]
     },
     {
       "id": "infoq-a57121d50fbee07e",
@@ -3958,11 +4655,9 @@
         "api",
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-bf3a8d085e5df01c",
@@ -3991,11 +4686,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-c943e7062307e37b",
@@ -4028,12 +4721,35 @@
       "tags": [
         "ai"
       ],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "openai"
+        "agent"
       ]
+    },
+    {
+      "id": "simon-willison-ffd0277ad7cd64c2",
+      "title": "Locating the source of a mysterious beep with Claude",
+      "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart ...",
+      "description": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes.",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "publishedAt": "2026-11-09T23:57:21.000Z",
+      "tags": [
+        "javascript",
+        "python",
+        "github",
+        "rest",
+        "update",
+        "feature",
+        "bug",
+        "ai",
+        "llm"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     },
     {
       "id": "playwright-5750753d8910b463",
@@ -4055,11 +4771,12 @@
         "ai",
         "release"
       ],
-      "score": 85,
-      "priority": "HIGH",
+      "score": 95,
+      "priority": "CRITICAL",
       "reason": [
         "playwright",
-        "typescript"
+        "typescript",
+        "Playwright"
       ]
     },
     {
@@ -4074,11 +4791,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-8d0e000924d9a591",
@@ -4096,6 +4811,28 @@
       "priority": "HIGH",
       "reason": [
         "release"
+      ]
+    },
+    {
+      "id": "netflix-techblog-29f784a4aa30c64f",
+      "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
+      "summary": "By Shreya S Ramanujam, Yongce Li, Afshine Amidi, Sina Ghiassian, Benjamin Klein.IntroductionPicture this — you’re home after a long day at work and can’t wait to catch up on Bridgerton. You log on to ...",
+      "description": "By Shreya S Ramanujam, Yongce Li, Afshine Amidi, Sina Ghiassian, Benjamin Klein.IntroductionPicture this — you’re home after a long day at work and can’t wait to catch up on Bridgerton. You log on to Netflix, search for “Bridgerton” and land on this screen:If this sounds familiar, you already know what a synopsis is — it’s a short glimpse into what a viewer can expect to see in a show.",
+      "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4",
+      "source": "Netflix TechBlog",
+      "category": "engineering",
+      "publishedAt": "2026-11-09T17:01:02.000Z",
+      "tags": [
+        "rest",
+        "performance",
+        "security",
+        "ai",
+        "llm"
+      ],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "Netflix"
       ]
     },
     {
@@ -4172,6 +4909,24 @@
       ]
     },
     {
+      "id": "kent-beck-25178e2f187986be",
+      "title": "Thinkie: What Fact?",
+      "summary": "&#8220;When you have eliminated the impossible, whatever remains, however improbable, must be the truth.&#8221;",
+      "description": "&#8220;When you have eliminated the impossible, whatever remains, however improbable, must be the truth.&#8221;",
+      "url": "https://newsletter.kentbeck.com/p/thinkie-what-fact",
+      "source": "Kent Beck",
+      "category": "ai",
+      "publishedAt": "2026-11-09T13:37:31.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "Kent Beck"
+      ]
+    },
+    {
       "id": "cloudflare-f27ad28b0c4db975",
       "title": "Launching the Vite Ecosystem Fund",
       "summary": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maint...",
@@ -4183,11 +4938,9 @@
       "tags": [
         "ai"
       ],
-      "score": 60,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
-      ]
+      "reason": []
     },
     {
       "id": "openai-952d2516af2e9054",
@@ -4203,11 +4956,10 @@
         "security",
         "ai"
       ],
-      "score": 105,
-      "priority": "CRITICAL",
+      "score": 80,
+      "priority": "HIGH",
       "reason": [
-        "security",
-        "openai"
+        "security"
       ]
     },
     {
@@ -4538,11 +5290,10 @@
       "tags": [
         "ai"
       ],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "openai"
+        "agent"
       ]
     },
     {
@@ -4558,11 +5309,9 @@
         "api",
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-7fb23e9499bb9987",
@@ -4604,6 +5353,27 @@
       ]
     },
     {
+      "id": "simon-willison-cfd192eda4f22e6c",
+      "title": "Hide your slop PR descriptions behind <details><summary>",
+      "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them...",
+      "description": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions.",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "publishedAt": "2026-11-09T04:25:05.000Z",
+      "tags": [
+        "react",
+        "github",
+        "database",
+        "feature",
+        "ai",
+        "llm"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
       "id": "openai-81209450b91a7acb",
       "title": "How VistaPrint helps small businesses get the word out",
       "summary": "Small business owners preparing for a launch or an event often know what they want to accomplish before they know what to print. VistaPrint uses ChatGPT Ads to show how products like signs and branded...",
@@ -4613,11 +5383,9 @@
       "category": "ai",
       "publishedAt": "2026-11-09T00:00:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-a79db40329ff0cce",
@@ -5343,6 +6111,41 @@
       ]
     },
     {
+      "id": "github-blog-aff32afb63af01e7",
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. Th...",
+      "description": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer&#8217;s guide to agentic engineering appeared first on The GitHub Blog.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "source": "GitHub Blog",
+      "category": "engineering",
+      "publishedAt": "2026-11-06T22:15:59.000Z",
+      "tags": [
+        "github",
+        "ai"
+      ],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "agent"
+      ]
+    },
+    {
+      "id": "pragmatic-engineer-d7c5b3bb5fb6a648",
+      "title": "The Pragmatic Summit 2027",
+      "summary": "The Summit is back in San Francisco, for the second year, and registrations are open for February 10, 2027",
+      "description": "The Summit is back in San Francisco, for the second year, and registrations are open for February 10, 2027",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-summit-2027",
+      "source": "Pragmatic Engineer",
+      "category": "engineering",
+      "publishedAt": "2026-11-06T19:39:15.000Z",
+      "tags": [],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "Pragmatic Engineer"
+      ]
+    },
+    {
       "id": "ministry-of-testing-4748ad5900d7e31d",
       "title": "The CI/CD pipeline of people",
       "summary": "",
@@ -5406,11 +6209,9 @@
       "category": "engineering",
       "publishedAt": "2026-11-06T14:00:00.000Z",
       "tags": [],
-      "score": 60,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-346baa1b588204c9",
@@ -5603,11 +6404,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-f81891ad643c9180",
@@ -5671,11 +6470,29 @@
       "tags": [
         "ai"
       ],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "agent"
+      ]
+    },
+    {
+      "id": "github-blog-51dc1d2f6b3bd6df",
+      "title": "Inside GitHub’s new Git storage architecture",
+      "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub&#8217;s new Git storage architecture appeared...",
+      "description": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub&#8217;s new Git storage architecture appeared first on The GitHub Blog.",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "source": "GitHub Blog",
+      "category": "tooling",
+      "publishedAt": "2026-11-05T20:23:21.000Z",
+      "tags": [
+        "github"
+      ],
       "score": 85,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "openai"
+        "architecture"
       ]
     },
     {
@@ -5688,11 +6505,9 @@
       "category": "tooling",
       "publishedAt": "2026-11-05T20:00:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-ae48a4d381963b12",
@@ -5844,11 +6659,10 @@
       "tags": [
         "ai"
       ],
-      "score": 80,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "cloudflare"
+        "agent"
       ]
     },
     {
@@ -5878,11 +6692,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "storybook-releases-e392b1dd4863ca72",
@@ -5917,6 +6729,43 @@
       "score": 50,
       "priority": "MEDIUM",
       "reason": []
+    },
+    {
+      "id": "github-blog-1558c78d072630b6",
+      "title": "Accessibility statements now have a home on GitHub",
+      "summary": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Acc...",
+      "description": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog.",
+      "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+      "source": "GitHub Blog",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-05T16:00:00.000Z",
+      "tags": [
+        "github",
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "pragmatic-engineer-6295c7899ef21b24",
+      "title": "Scaling Slack and GitHub with Maude Lemaire",
+      "summary": "Maude Lemaire shares lessons from scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "description": "Maude Lemaire shares lessons from scaling Slack and GitHub, improving performance at Cursor, and using AI while keeping engineering judgment in human hands.",
+      "url": "https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude",
+      "source": "Pragmatic Engineer",
+      "category": "engineering",
+      "publishedAt": "2026-11-05T15:58:00.000Z",
+      "tags": [
+        "github",
+        "performance",
+        "ai"
+      ],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "Pragmatic Engineer"
+      ]
     },
     {
       "id": "infoq-ddbd69af2ae80075",
@@ -5997,9 +6846,11 @@
       "category": "engineering",
       "publishedAt": "2026-11-05T14:11:00.000Z",
       "tags": [],
-      "score": 50,
+      "score": 60,
       "priority": "MEDIUM",
-      "reason": []
+      "reason": [
+        "Martin Fowler"
+      ]
     },
     {
       "id": "infoq-c015647452754f82",
@@ -6048,12 +6899,11 @@
         "security",
         "ai"
       ],
-      "score": 125,
+      "score": 100,
       "priority": "CRITICAL",
       "reason": [
         "security",
-        "agent",
-        "openai"
+        "agent"
       ]
     },
     {
@@ -6069,11 +6919,9 @@
         "update",
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-25fa4dd18ec78a48",
@@ -6087,11 +6935,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-2d1d326185a62641",
@@ -6105,11 +6951,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-a8e215d1c3fca63a",
@@ -6123,11 +6967,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-b0b08ef17bcac3db",
@@ -6159,11 +7001,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "cloudflare-d13fbfe75d78ae19",
@@ -6177,11 +7017,10 @@
       "tags": [
         "ai"
       ],
-      "score": 80,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "cloudflare"
+        "agent"
       ]
     },
     {
@@ -6244,11 +7083,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-a3433e936d2c04bf",
@@ -6263,11 +7100,10 @@
         "security",
         "ai"
       ],
-      "score": 105,
-      "priority": "CRITICAL",
+      "score": 80,
+      "priority": "HIGH",
       "reason": [
-        "security",
-        "openai"
+        "security"
       ]
     },
     {
@@ -6282,11 +7118,9 @@
       "tags": [
         "api"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-981785a01550309d",
@@ -6298,11 +7132,25 @@
       "category": "ai",
       "publishedAt": "2026-11-04T00:00:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
+    },
+    {
+      "id": "developsense-7f26c60a5154e8e2",
+      "title": "Yeah, I Know.  Stop Bugging Me.",
+      "summary": "I have an observation: people all over the world are cranky and short-tempered these days. Of course, much of that is due to big, serious things: the economy, and politics, and looming climate catastr...",
+      "description": "I have an observation: people all over the world are cranky and short-tempered these days. Of course, much of that is due to big, serious things: the economy, and politics, and looming climate catastrophe; people feeling like they haven&#8217;t been heard; that their time and effort and freedom and privacy are being undermined. Severity 1 bugs, as it were.",
+      "url": "https://developsense.com/blog/2026/11/yeah-i-know-stop-bugging-me",
+      "source": "DevelopSense",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-03T22:13:22.000Z",
+      "tags": [
+        "bug"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     },
     {
       "id": "storybook-releases-d1424ea94b38085a",
@@ -6338,6 +7186,23 @@
       "reason": []
     },
     {
+      "id": "pragmatic-engineer-89c8baa8c00d43ec",
+      "title": "How software engineering is changing: a tale of two eras",
+      "summary": "We invited readers to write about how building software changed, in an essay challenge. Many of you took part, and today we&#8217;re sharing the winning piece from a strong set of entries",
+      "description": "We invited readers to write about how building software changed, in an essay challenge. Many of you took part, and today we&#8217;re sharing the winning piece from a strong set of entries",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing",
+      "source": "Pragmatic Engineer",
+      "category": "engineering",
+      "publishedAt": "2026-11-03T16:58:22.000Z",
+      "tags": [],
+      "score": 75,
+      "priority": "HIGH",
+      "reason": [
+        "software engineering",
+        "Pragmatic Engineer"
+      ]
+    },
+    {
       "id": "infoq-c1282433896351cf",
       "title": "Vitest 5: Prioritises Performance with a Shared Vite Server, Trace View, and Stricter Test Defaults",
       "summary": "Vitest 5.0 focuses on speed, with reported gains of 8 to 25 percent in most setups and up to 53 percent in VM pools. It adds a vitest doctor command, Browser Mode Trace View, and vi.when. Defaults are...",
@@ -6354,6 +7219,28 @@
       "score": 50,
       "priority": "MEDIUM",
       "reason": []
+    },
+    {
+      "id": "simon-willison-f1a111e72742f0df",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the auth...",
+      "description": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model -...",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "publishedAt": "2026-11-03T16:29:48.000Z",
+      "tags": [
+        "github",
+        "rest",
+        "update",
+        "ai",
+        "llm"
+      ],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "llm"
+      ]
     },
     {
       "id": "ministry-of-testing-7ef9c2037f7fc05a",
@@ -6691,10 +7578,26 @@
       "tags": [
         "ai"
       ],
-      "score": 60,
+      "score": 50,
       "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "test-guild-1baaa3f5a8ae7820",
+      "title": "How to Prove Your Release Is Ready When AI Writes the Code",
+      "summary": "About This Episode: How to Prove Your Release Is Ready When AI Writes the Code? Can you prove your software is ready to ship, or does that answer still depend on a meeting and a spreadsheet? Want to s...",
+      "description": "About This Episode: How to Prove Your Release Is Ready When AI Writes the Code? Can you prove your software is ready to ship, or does that answer still depend on a meeting and a spreadsheet? Want to see if your team can prove a release is ready? Book a custom LoopIQ demo with Ashwin: https://testgld.link/loopiqdemo In this episode, [&hellip;]",
+      "url": "https://testguild.com/podcast/a610-ashwin/",
+      "source": "Test Guild",
+      "category": "tooling",
+      "publishedAt": "2026-11-03T13:07:49.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 70,
+      "priority": "HIGH",
       "reason": [
-        "cloudflare"
+        "release"
       ]
     },
     {
@@ -6722,11 +7625,9 @@
       "category": "engineering",
       "publishedAt": "2026-11-03T12:00:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-5986909f3d35aef6",
@@ -6757,11 +7658,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-34e7d62615202d0d",
@@ -6776,11 +7675,10 @@
         "security",
         "ai"
       ],
-      "score": 105,
-      "priority": "CRITICAL",
+      "score": 80,
+      "priority": "HIGH",
       "reason": [
-        "security",
-        "openai"
+        "security"
       ]
     },
     {
@@ -6821,11 +7719,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-0d297090385ad5a7",
@@ -6840,11 +7736,10 @@
         "security",
         "ai"
       ],
-      "score": 105,
-      "priority": "CRITICAL",
+      "score": 80,
+      "priority": "HIGH",
       "reason": [
-        "security",
-        "openai"
+        "security"
       ]
     },
     {
@@ -6861,11 +7756,30 @@
         "bug",
         "ai"
       ],
-      "score": 105,
+      "score": 80,
+      "priority": "HIGH",
+      "reason": [
+        "security"
+      ]
+    },
+    {
+      "id": "developsense-18f13baa69016238",
+      "title": "Interview on “Software Testing Unleashed” Podcast",
+      "summary": "Richard Seidl hosts interviews and podcasts them on Software Testing Unleashed. This one happened at EuroSTAR 2026, on June 18, and was released on November 2, 2026. Testing AI Models as Magic Boxes: ...",
+      "description": "Richard Seidl hosts interviews and podcasts them on Software Testing Unleashed. This one happened at EuroSTAR 2026, on June 18, and was released on November 2, 2026. Testing AI Models as Magic Boxes: Why Checks FailA language model is a box that nobody controls or fully understands. Testing AI models therefore means exploring, experimenting and weighing the risk. Watch the interview here.",
+      "url": "https://developsense.com/blog/2026/11/interview-on-software-testing-unleashed-podcast",
+      "source": "DevelopSense",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-02T17:00:59.000Z",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "score": 95,
       "priority": "CRITICAL",
       "reason": [
-        "security",
-        "openai"
+        "testing",
+        "release"
       ]
     },
     {
@@ -6905,7 +7819,8 @@
       "score": 90,
       "priority": "CRITICAL",
       "reason": [
-        "security"
+        "security",
+        "Cypress"
       ]
     },
     {
@@ -6945,11 +7860,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "storybook-releases-b6a2f8ee2691bf6c",
@@ -6987,10 +7900,26 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "reliab"
+      ]
+    },
+    {
+      "id": "kent-beck-4b4d2047b4acd482",
+      "title": "Not A Copier",
+      "summary": "A highly skilled product manager, former colleague, told me they wanted to treat the genie like a copier.",
+      "description": "A highly skilled product manager, former colleague, told me they wanted to treat the genie like a copier.",
+      "url": "https://newsletter.kentbeck.com/p/not-a-copier",
+      "source": "Kent Beck",
+      "category": "engineering",
+      "publishedAt": "2026-11-02T14:17:37.000Z",
+      "tags": [],
+      "score": 60,
       "priority": "MEDIUM",
       "reason": [
-        "openai"
+        "Kent Beck"
       ]
     },
     {
@@ -7011,6 +7940,24 @@
         "mcp",
         "agent"
       ]
+    },
+    {
+      "id": "simon-willison-93776c9c2a6b392f",
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adopt...",
+      "description": "I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart to demonstrate GPT-5 data analysis, and then to experiment with Claude's new Code Interpreter.",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "publishedAt": "2026-11-02T13:31:26.000Z",
+      "tags": [
+        "rest",
+        "update",
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     },
     {
       "id": "infoq-1c63ea72abf159b0",
@@ -7086,11 +8033,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "webdriverio-releases-609c46f3f32c1bf1",
@@ -7385,11 +8330,10 @@
         "security",
         "ai"
       ],
-      "score": 105,
-      "priority": "CRITICAL",
+      "score": 80,
+      "priority": "HIGH",
       "reason": [
-        "security",
-        "openai"
+        "security"
       ]
     },
     {
@@ -7404,10 +8348,10 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
-      "priority": "MEDIUM",
+      "score": 70,
+      "priority": "HIGH",
       "reason": [
-        "openai"
+        "code review"
       ]
     },
     {
@@ -7590,10 +8534,27 @@
         "rest",
         "ai"
       ],
-      "score": 60,
+      "score": 50,
       "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "pragmatic-engineer-d1663b84e6b05808",
+      "title": "The Pulse: Anthropic kills the coding interview",
+      "summary": "AI is rendering the Leetcode-style interview pointless and now Anthropic has deleted it from its interview loop. Also: details of incident.io&#8217;s AI spend, Microsoft&#8217;s exit offer to engineer...",
+      "description": "AI is rendering the Leetcode-style interview pointless and now Anthropic has deleted it from its interview loop. Also: details of incident.io&#8217;s AI spend, Microsoft&#8217;s exit offer to engineers, and more",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding",
+      "source": "Pragmatic Engineer",
+      "category": "ai",
+      "publishedAt": "2026-10-30T16:37:51.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 80,
+      "priority": "HIGH",
       "reason": [
-        "cloudflare"
+        "incident",
+        "Pragmatic Engineer"
       ]
     },
     {
@@ -7753,11 +8714,9 @@
       "tags": [
         "ai"
       ],
-      "score": 60,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-f125f2cf0459ed0a",
@@ -7788,6 +8747,24 @@
       "priority": "HIGH",
       "reason": [
         "agent"
+      ]
+    },
+    {
+      "id": "kent-beck-b4e70c03c3f841e8",
+      "title": "Trust Is the Binding Constraint",
+      "summary": "Teams accumulate code faster than they accumulate trust.",
+      "description": "Teams accumulate code faster than they accumulate trust.",
+      "url": "https://newsletter.kentbeck.com/p/trust-is-the-binding-constraint",
+      "source": "Kent Beck",
+      "category": "ai",
+      "publishedAt": "2026-10-30T13:02:54.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "Kent Beck"
       ]
     },
     {
@@ -7900,11 +8877,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-a86d24c59c826150",
@@ -7918,11 +8893,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-ca9278f2ddc2eb39",
@@ -7956,6 +8929,32 @@
       "reason": []
     },
     {
+      "id": "mcp-blog-642f6575f4dc4b3b",
+      "title": "The Official Ruby SDK for MCP Reaches Tier 1",
+      "summary": "The official Ruby SDK for Model Context Protocol is now a Tier 1 SDK, as defined in our SDK tiering system. Ruby is not alone here, and joins the company of our TypeScript, Python, C#, Go, and Rust SD...",
+      "description": "The official Ruby SDK for Model Context Protocol is now a Tier 1 SDK, as defined in our SDK tiering system. Ruby is not alone here, and joins the company of our TypeScript, Python, C#, Go, and Rust SDKs.",
+      "url": "https://blog.modelcontextprotocol.io/posts/ruby-sdk-tier-1/",
+      "source": "MCP Blog",
+      "category": "qa-practice",
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "tags": [
+        "typescript",
+        "python",
+        "github",
+        "security",
+        "update",
+        "feature",
+        "bug",
+        "ai"
+      ],
+      "score": 90,
+      "priority": "CRITICAL",
+      "reason": [
+        "typescript",
+        "mcp"
+      ]
+    },
+    {
       "id": "infoq-c0b2dd9017f55f71",
       "title": "Microsoft Retires Azure Deployment Environments with No Replacement Product",
       "summary": "Azure Deployment Environments retires on February 22, 2027 and Microsoft names no successor, telling teams to use Bicep or ARM templates directly. Microsoft Dev Box follows on September 18, 2028, poin...",
@@ -7982,11 +8981,26 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
+    },
+    {
+      "id": "developsense-d601ef4152f0235c",
+      "title": "In Praise of the Pause",
+      "summary": "Something just happened that I think is worthy of note. On LinkedIn, a young tester asked to connect, and I accepted his request. (He actually has six years of experience, but from my perspective, alm...",
+      "description": "Something just happened that I think is worthy of note. On LinkedIn, a young tester asked to connect, and I accepted his request. (He actually has six years of experience, but from my perspective, almost all testers are young these days.) He presented me with a list of things that he&#8217;s done, focused on tools and technologies he&#8217;s applied.",
+      "url": "https://developsense.com/blog/2026/10/in-praise-of-the-pause",
+      "source": "DevelopSense",
+      "category": "qa-practice",
+      "publishedAt": "2026-10-29T19:09:08.000Z",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     },
     {
       "id": "openai-9349f418e7bc7ab4",
@@ -8001,11 +9015,9 @@
         "update",
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "cypress-a8c66100f577fae6",
@@ -8021,9 +9033,11 @@
         "cypress",
         "automation"
       ],
-      "score": 50,
+      "score": 60,
       "priority": "MEDIUM",
-      "reason": []
+      "reason": [
+        "Cypress"
+      ]
     },
     {
       "id": "martin-fowler-815e9f76383a9012",
@@ -8040,9 +9054,12 @@
         "ai",
         "llm"
       ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
+      "score": 80,
+      "priority": "HIGH",
+      "reason": [
+        "llm",
+        "Martin Fowler"
+      ]
     },
     {
       "id": "martin-fowler-540b1c17cdd19889",
@@ -8061,10 +9078,31 @@
         "ai",
         "machine-learning"
       ],
-      "score": 70,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
-        "agent"
+        "agent",
+        "Martin Fowler"
+      ]
+    },
+    {
+      "id": "pragmatic-engineer-ffc191e430349a61",
+      "title": "Software engineering at Google & CS education with Titus Winters",
+      "summary": "Titus Winters shares lessons from engineering at Google&#8217;s scale and explores how AI is reshaping developer productivity and computer science education.",
+      "description": "Titus Winters shares lessons from engineering at Google&#8217;s scale and explores how AI is reshaping developer productivity and computer science education.",
+      "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-at-google-and",
+      "source": "Pragmatic Engineer",
+      "category": "engineering",
+      "publishedAt": "2026-10-29T13:37:13.000Z",
+      "tags": [
+        "api",
+        "ai"
+      ],
+      "score": 75,
+      "priority": "HIGH",
+      "reason": [
+        "software engineering",
+        "Pragmatic Engineer"
       ]
     },
     {
@@ -8206,11 +9244,11 @@
       "tags": [
         "ai"
       ],
-      "score": 85,
-      "priority": "HIGH",
+      "score": 90,
+      "priority": "CRITICAL",
       "reason": [
         "agent",
-        "openai"
+        "incident"
       ]
     },
     {
@@ -8244,11 +9282,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "openai-85f94c0fe8f02a81",
@@ -8262,11 +9298,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "on-test-automation-b1e0fce8a203c8bf",
@@ -8299,11 +9333,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-2fff0aae00c88ada",
@@ -8459,6 +9491,33 @@
       ]
     },
     {
+      "id": "simon-willison-7f577f4b01c6fc58",
+      "title": "The October inflection point for vibe game development",
+      "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became re...",
+      "description": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for vibe coding computer games.",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "publishedAt": "2026-10-28T13:55:15.000Z",
+      "tags": [
+        "javascript",
+        "testing",
+        "github",
+        "api",
+        "rest",
+        "update",
+        "feature",
+        "bug",
+        "ai",
+        "llm"
+      ],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "agent"
+      ]
+    },
+    {
       "id": "infoq-e9a3e9ee976fb916",
       "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
       "summary": "Airbnb extended its Chronon feature platform with Push Mode and Near Real-Time Model Transform to update sequence-based recommendation embeddings within seconds. The architecture reduced embedding sta...",
@@ -8488,11 +9547,26 @@
       "tags": [
         "ai"
       ],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "openai"
+        "agent"
+      ]
+    },
+    {
+      "id": "kent-beck-c923e4bfea4a89f4",
+      "title": "We're Renaming This Newsletter (and You Get First Word)",
+      "summary": "When I started this Substack in 2021 it had one job: keep me writing by creating community, feedback, and energy.",
+      "description": "When I started this Substack in 2021 it had one job: keep me writing by creating community, feedback, and energy.",
+      "url": "https://newsletter.kentbeck.com/p/were-renaming-this-newsletter-and",
+      "source": "Kent Beck",
+      "category": "engineering",
+      "publishedAt": "2026-10-28T13:04:05.000Z",
+      "tags": [],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "Kent Beck"
       ]
     },
     {
@@ -8513,9 +9587,12 @@
         "llm",
         "machine-learning"
       ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
+      "score": 80,
+      "priority": "HIGH",
+      "reason": [
+        "llm",
+        "Martin Fowler"
+      ]
     },
     {
       "id": "ministry-of-testing-f604fe7b9df78326",
@@ -8578,11 +9655,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-4d65fa4d2bc10f58",
@@ -8625,11 +9700,10 @@
       "tags": [
         "ai"
       ],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "openai"
+        "agent"
       ]
     },
     {
@@ -8682,6 +9756,20 @@
       "reason": []
     },
     {
+      "id": "developsense-d6a5e79ff1c242ef",
+      "title": "Ed Zitron Reads My Mind",
+      "summary": "Something very much like this post originally appeared on LinkedIn. Ed Zitron is reading my mind. Well&#8230; maybe not reading it, but he&#8217;s for sure writing it. Here are the contents of my mind...",
+      "description": "Something very much like this post originally appeared on LinkedIn. Ed Zitron is reading my mind. Well&#8230; maybe not reading it, but he&#8217;s for sure writing it. Here are the contents of my mind every day, in just under three paragraphs of Ed&#8217;s words. I&#8217;ve added a bit of emphasis.",
+      "url": "https://developsense.com/blog/2026/10/ed-zitron-reads-my-mind",
+      "source": "DevelopSense",
+      "category": "engineering",
+      "publishedAt": "2026-10-27T18:10:43.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
       "id": "storybook-releases-13d17f1ffdb54fca",
       "title": "v10.6.5",
       "summary": "10.6.5 Typescript: Exclude all dunderscore prefixed folders from production compilation - #36740, thanks @mrginglymus!",
@@ -8702,6 +9790,24 @@
       ]
     },
     {
+      "id": "pragmatic-engineer-65bf7f4a7a387b55",
+      "title": "AI SRE: what is it, how could it change on-call – and does it work?",
+      "summary": "&#8220;AI SRE&#8221; is fast becoming a trending term fueled by flashy demos from vendors, but has an AI SRE ever really been on-call while engineers slept? Deepdive",
+      "description": "&#8220;AI SRE&#8221; is fast becoming a trending term fueled by flashy demos from vendors, but has an AI SRE ever really been on-call while engineers slept? Deepdive",
+      "url": "https://newsletter.pragmaticengineer.com/p/ai-sre",
+      "source": "Pragmatic Engineer",
+      "category": "ai",
+      "publishedAt": "2026-10-27T16:19:22.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "Pragmatic Engineer"
+      ]
+    },
+    {
       "id": "openai-1e3ebf94e41ebe19",
       "title": "Retell uses OpenAI models to help power 100M monthly calls",
       "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
@@ -8713,12 +9819,28 @@
       "tags": [
         "ai"
       ],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "openai"
+        "agent"
       ]
+    },
+    {
+      "id": "test-guild-0a9911baad24de69",
+      "title": "Why Your AI Tests Pass When Your Features Fail with Donovan Brady",
+      "summary": "About This Episode: Why Your AI Tests Pass When Your Features Fail? Donovan Brady of Leapwork shows how to make [&hellip;]",
+      "description": "About This Episode: Why Your AI Tests Pass When Your Features Fail? Donovan Brady of Leapwork shows how to make [&hellip;]",
+      "url": "https://testguild.com/podcast/a609-donovan/",
+      "source": "Test Guild",
+      "category": "ai",
+      "publishedAt": "2026-10-27T14:34:17.000Z",
+      "tags": [
+        "feature",
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     },
     {
       "id": "ministry-of-testing-573146c2e0388a08",
@@ -8889,11 +10011,10 @@
       "tags": [
         "ai"
       ],
-      "score": 85,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "openai"
+        "agent"
       ]
     },
     {
@@ -8924,11 +10045,28 @@
         "security",
         "ai"
       ],
-      "score": 105,
-      "priority": "CRITICAL",
+      "score": 80,
+      "priority": "HIGH",
       "reason": [
-        "security",
-        "openai"
+        "security"
+      ]
+    },
+    {
+      "id": "checkly-913160790d2e17d5",
+      "title": "Checkly Is Now a Connector in Honeycomb Canvas",
+      "summary": "The Checkly connector for Honeycomb Canvas lets the Canvas Agent read failing checks and root causes, and create new checks, during an investigation.",
+      "description": "The Checkly connector for Honeycomb Canvas lets the Canvas Agent read failing checks and root causes, and create new checks, during an investigation.",
+      "url": "https://www.checklyhq.com/blog/checkly-honeycomb-canvas-connector",
+      "source": "Checkly",
+      "category": "ai",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "agent"
       ]
     },
     {
@@ -8983,11 +10121,11 @@
         "security",
         "bug"
       ],
-      "score": 105,
+      "score": 100,
       "priority": "CRITICAL",
       "reason": [
         "security",
-        "openai"
+        "code review"
       ]
     },
     {
@@ -9045,10 +10183,34 @@
       "category": "engineering",
       "publishedAt": "2026-10-26T18:00:00.000Z",
       "tags": [],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "netflix-techblog-65a328ac4f85deaf",
+      "title": "Making Failure Diagnosis Reliable with Pensive AI",
+      "summary": "By Praneeth Yenugutala, Victor Dusa, Anastasia Samoilova, Megan Ren, Justin Wei, Marcelo MaywormAt Netflix, data and machine learning practitioners run millions of workloads each day across orchestrat...",
+      "description": "By Praneeth Yenugutala, Victor Dusa, Anastasia Samoilova, Megan Ren, Justin Wei, Marcelo MaywormAt Netflix, data and machine learning practitioners run millions of workloads each day across orchestration systems and compute engines such as Titus, Spark, Trino, and Druid. On peak days, roughly 100,000 workloads fail. When workloads fail, the failure itself is only the beginning.",
+      "url": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4",
+      "source": "Netflix TechBlog",
+      "category": "ai",
+      "publishedAt": "2026-10-26T17:04:57.000Z",
+      "tags": [
+        "api",
+        "rest",
+        "graphql",
+        "sql",
+        "feature",
+        "bug",
+        "ai",
+        "llm"
+      ],
+      "score": 80,
+      "priority": "HIGH",
       "reason": [
-        "openai"
+        "reliab",
+        "Netflix"
       ]
     },
     {
@@ -9077,9 +10239,29 @@
         "cypress",
         "ai"
       ],
-      "score": 50,
+      "score": 60,
       "priority": "MEDIUM",
-      "reason": []
+      "reason": [
+        "Cypress"
+      ]
+    },
+    {
+      "id": "netflix-techblog-93ced13be7b23963",
+      "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing",
+      "summary": "Serdar Cellat, Yuchen Xie, Bernadette Marcu, Blaid Burgess, Cody Jarrett, Carlos Pereira, Qing Shi, Samuel Carvajal, Manuel Pamplona, Dorothy Jung, Feiko Ritsema, Benjamin Klein, Alex Woo, Eugene Lok,...",
+      "description": "Serdar Cellat, Yuchen Xie, Bernadette Marcu, Blaid Burgess, Cody Jarrett, Carlos Pereira, Qing Shi, Samuel Carvajal, Manuel Pamplona, Dorothy Jung, Feiko Ritsema, Benjamin Klein, Alex Woo, Eugene Lok, Anna Pulido, Rebecka Swe, Sanford Holsapple, Ranjith Kumar ShettyIntroductionClips in the Netflix mobile app.At Netflix, a crucial part of our mission is ensuring our content looks stunning on...",
+      "url": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4",
+      "source": "Netflix TechBlog",
+      "category": "ai",
+      "publishedAt": "2026-10-26T16:01:02.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 60,
+      "priority": "MEDIUM",
+      "reason": [
+        "Netflix"
+      ]
     },
     {
       "id": "ministry-of-testing-804a3052e32d2879",
@@ -9126,11 +10308,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-fbef7bfdcb8f0aba",
@@ -9165,12 +10345,11 @@
       "tags": [
         "security"
       ],
-      "score": 125,
+      "score": 100,
       "priority": "CRITICAL",
       "reason": [
         "security",
-        "agent",
-        "openai"
+        "agent"
       ]
     },
     {
@@ -9252,11 +10431,9 @@
       "tags": [
         "ai"
       ],
-      "score": 65,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "openai"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-598bfd1da99414c7",
@@ -9316,11 +10493,10 @@
         "testing",
         "ai"
       ],
-      "score": 90,
-      "priority": "CRITICAL",
+      "score": 75,
+      "priority": "HIGH",
       "reason": [
-        "testing",
-        "openai"
+        "testing"
       ]
     },
     {
@@ -9336,11 +10512,12 @@
         "security",
         "ai"
       ],
-      "score": 105,
+      "score": 120,
       "priority": "CRITICAL",
       "reason": [
         "security",
-        "openai"
+        "incident",
+        "refactoring"
       ]
     }
   ]

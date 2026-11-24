@@ -1,92 +1,80 @@
 {
   "date": "2026-11-24",
-  "updatedAt": "2026-11-24T18:26:46.763Z",
+  "updatedAt": "2026-11-24T19:12:34.752Z",
   "articles": [
     {
-      "id": "infoq-4bda8844341320cd",
-      "title": "How LinkedIn Built a View-Agnostic Analytics System for Modern iOS UI Architectures",
-      "summary": "To address the challenge posed by modern iOS UI systems where the logical UI structure may not mirror the native UIKit hierarchy, LinkedIn engineers developed a view-agnostic analytics system build ar...",
-      "description": "To address the challenge posed by modern iOS UI systems where the logical UI structure may not mirror the native UIKit hierarchy, LinkedIn engineers developed a view-agnostic analytics system build around a shared MeasurableNode contract. By Sergio De Simone",
-      "url": "https://www.infoq.com/news/2026/11/linkedin-view-agnostic-analytics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-23T18:00:00.000Z",
+      "id": "ministry-of-testing-41b596c899b0d14a",
+      "title": "A new look for the MoTaverse Chapters",
+      "summary": "Chapter pages have changed! Check them out and let us know your thoughts,",
+      "description": "Chapter pages have changed! Check them out and let us know your thoughts,",
+      "url": "https://www.ministryoftesting.com/news/a-new-look-for-the-motaverse-chapters",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-24T16:44:00.000Z",
       "tags": [],
-      "score": 54,
+      "score": 59,
       "priority": "MEDIUM",
       "reason": [
+        "Ministry of Testing",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-e0a94a4b60d6ff3d",
-      "title": "Bugberg ahead! Testability, feedback loops, culture",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/bugberg-ahead-testability-feedback-loops-culture",
+      "id": "ministry-of-testing-8f8ff14660eee4e3",
+      "title": "Being an MoT Ambassador be like...",
+      "summary": "Being a Ministry of Testing Ambassador, now for 2 years running, has been a wild, and fulfilling ride.Outwardly, it probably looks a lot like I repost MoT events on LinkedIn, and I do that for sure...",
+      "description": "Being a Ministry of Testing Ambassador, now for 2 years running, has been a wild, and fulfilling ride.Outwardly, it probably looks a lot like I repost MoT events on LinkedIn, and I do that for sure...",
+      "url": "https://www.ministryoftesting.com/moments/being-an-mot-ambassador-be-like",
       "source": "Ministry of Testing",
       "category": "qa-practice",
-      "publishedAt": "2026-11-23T17:01:53.000Z",
+      "publishedAt": "2026-11-24T16:21:18.000Z",
       "tags": [
-        "bug"
+        "testing"
       ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-a036cb846897abc3",
-      "title": "Who's behind LuminosAI, and why we care so much about testing AI 🧪",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/who-s-behind-luminosai-and-why-we-care-so-much-about-testing-ai",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-23T16:07:51.000Z",
-      "tags": [
-        "testing",
-        "ai"
-      ],
-      "score": 79,
+      "score": 84,
       "priority": "HIGH",
       "reason": [
         "testing",
+        "Ministry of Testing",
         "recent"
       ]
     },
     {
-      "id": "infoq-258605af1d878360",
-      "title": "Java News Roundup: Java4Shell, Oracle CSPUs, OpenJDK, Azul Payara, BellSoft, Helidon, LangChain4j",
-      "summary": "This week's Java roundup for November 16th, 2026, features news highlighting: the Java4Shell RCE vulnerability; Oracle CSPUs; Lazy Constants targeted for JDK 28; the November 2026 edition of Azul Paya...",
-      "description": "This week's Java roundup for November 16th, 2026, features news highlighting: the Java4Shell RCE vulnerability; Oracle CSPUs; Lazy Constants targeted for JDK 28; the November 2026 edition of Azul Payara; point releases of Java Operator SDK, LangChain4j and Micrometer; maintenance releases of Liberica JDK and Helidon; and second release candidates of Hibernate Reactive. By Michael Redlich",
-      "url": "https://www.infoq.com/news/2026/11/java-news-roundup-nov16-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-23T15:30:00.000Z",
+      "id": "storybook-releases-e6e1d7bf02ad3a87",
+      "title": "v11.0.0-rc.0",
+      "summary": "11.0.0-rc.0 Addon-MCP: Remove toolsets option and X-MCP-Toolsets header - #37676, thanks @kasperpeulen! Agent skills: Test command in AGENTS.md, review only when asked - #37421, thanks @kasperpeulen! ...",
+      "description": "11.0.0-rc.0 Addon-MCP: Remove toolsets option and X-MCP-Toolsets header - #37676, thanks @kasperpeulen! Agent skills: Test command in AGENTS.md, review only when asked - #37421, thanks @kasperpeulen! CLI: Install the skills when an agent upgrades with CI=true - #37404, thanks @kasperpeulen! CLI: Let installs update the lockfile when CI is set - #37428, thanks @kasperpeulen!",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-rc.0",
+      "source": "Storybook Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-24T13:39:25.000Z",
       "tags": [
         "react",
-        "feature",
-        "ai"
+        "github",
+        "update",
+        "release"
       ],
-      "score": 54,
-      "priority": "MEDIUM",
+      "score": 99,
+      "priority": "CRITICAL",
       "reason": [
+        "mcp",
+        "agent",
         "recent"
       ]
     },
     {
-      "id": "infoq-90ed6ea2a8e385a6",
-      "title": "Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents",
-      "summary": "At QCon San Francisco 2026, Mark Khuzam of Netflix explained how the Commerce team retrofitted its SDLC so AI coding agents and engineers could ship together. The team wrote 45 architecture decision r...",
-      "description": "At QCon San Francisco 2026, Mark Khuzam of Netflix explained how the Commerce team retrofitted its SDLC so AI coding agents and engineers could ship together. The team wrote 45 architecture decision records for people and agents, added a review agent that posts only verified blockers, and serves per-domain GraphRAG context through a single MCP tool. By Andrew Hoblitzell",
-      "url": "https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-d46d658b2b448b8d",
+      "title": "CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve",
+      "summary": "New research from the Cloud Native Computing Foundation (CNCF) and Linux Foundation Research finds that VMs host an average of 53% of production applications, while emerging AI and agentic workloads a...",
+      "description": "New research from the Cloud Native Computing Foundation (CNCF) and Linux Foundation Research finds that VMs host an average of 53% of production applications, while emerging AI and agentic workloads are creating additional demand for virtualisation, particularly where stronger execution isolation is required. By Craig Risi",
+      "url": "https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-23T14:58:00.000Z",
+      "category": "engineering",
+      "publishedAt": "2026-11-24T12:00:00.000Z",
       "tags": [
         "ai"
       ],
-      "score": 74,
+      "score": 73,
       "priority": "HIGH",
       "reason": [
         "agent",
@@ -94,99 +82,129 @@
       ]
     },
     {
-      "id": "infoq-2568be1abeb9f228",
-      "title": "Agoda Reduces API Code Review Time by 64% with Modular Architecture",
-      "summary": "Agoda introduced a modular monolith framework in its post-booking API to reduce coupling without a full rewrite. The platform uses domain components, Data Mapper patterns, typed builders, and ArchUnit...",
-      "description": "Agoda introduced a modular monolith framework in its post-booking API to reduce coupling without a full rewrite. The platform uses domain components, Data Mapper patterns, typed builders, and ArchUnit tests to enforce boundaries. Framework-backed changes showed 64% shorter median code reviews and 34% faster initial feedback than legacy changes. By Leela Kumili",
-      "url": "https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-30a5d398970fdbfc",
+      "title": "OpenAI Scales Git for Coding Agents with Pando",
+      "summary": "OpenAI has detailed Pando, a new backend that scales Git for concurrent coding-agent workloads without replacing familiar Git workflows. The company reports nearly 80% lower median push latency by coo...",
+      "description": "OpenAI has detailed Pando, a new backend that scales Git for concurrent coding-agent workloads without replacing familiar Git workflows. The company reports nearly 80% lower median push latency by coordinating branch updates independently and reusing stored packfiles across fetches. By Eran Stiller",
+      "url": "https://www.infoq.com/news/2026/11/openai-git-pando/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-23T14:33:00.000Z",
+      "category": "ai",
+      "publishedAt": "2026-11-24T11:55:00.000Z",
       "tags": [
-        "api",
+        "update",
         "ai"
       ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-3cabbb2fcb021d20",
-      "title": "Karim on Into the MoTaverse: the quality architect role",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/karim-on-into-the-motaverse-the-quality-architect-role",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-23T13:39:18.000Z",
-      "tags": [],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-d951714466c204bc",
-      "title": "We timed 50 end-to-end tests on Playwright, Selenium, Cypress and Thunders",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/we-timed-50-end-to-end-tests-on-playwright-selenium-cypress-and-thunders",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-11-23T13:36:40.000Z",
-      "tags": [
-        "playwright",
-        "cypress"
-      ],
-      "score": 74,
+      "score": 73,
       "priority": "HIGH",
       "reason": [
-        "playwright",
+        "agent",
         "recent"
       ]
     },
     {
-      "id": "storybook-releases-1dec401271b02439",
-      "title": "v11.0.0-beta.4",
-      "summary": "11.0.0-beta.4 Addon A11y: Update vision simulators to be more rigorous - #37454, thanks @Sidnioulz! Addons: Keep transient panel state out of the manager store - #37391, thanks @Sidnioulz! Angular, Sa...",
-      "description": "11.0.0-beta.4 Addon A11y: Update vision simulators to be more rigorous - #37454, thanks @Sidnioulz! Addons: Keep transient panel state out of the manager store - #37391, thanks @Sidnioulz! Angular, Sandboxes: Port 10.6.8 CI fixes to next and deflake the Actions badge test - #37611, thanks @ndelangen! Angular: Remove destroyed applications from the renderer map - #37426, thanks @arturovt!",
-      "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-beta.4",
-      "source": "Storybook Releases",
+      "id": "ministry-of-testing-55d749f1ba3b339a",
+      "title": "Can everyone use what we build? ",
+      "summary": "At last week's MoT Manchester Chapter event, Fiona Stewart presented an intro to Accessibility. She explored what is Heywood's approach and got the audience to test out a prototype app! Thanks...",
+      "description": "At last week's MoT Manchester Chapter event, Fiona Stewart presented an intro to Accessibility. She explored what is Heywood's approach and got the audience to test out a prototype app! Thanks...",
+      "url": "https://www.ministryoftesting.com/moments/can-everyone-use-what-we-build",
+      "source": "Ministry of Testing",
+      "category": "test-automation",
+      "publishedAt": "2026-11-24T10:43:07.000Z",
+      "tags": [],
+      "score": 58,
+      "priority": "MEDIUM",
+      "reason": [
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-701334d2d951b937",
+      "title": "I slopstrapped the MoTaverse homepage and you'll never guess what happened",
+      "summary": "Slopstrap will take your website to the next level. Trust me!Very happy to reveal the new MoTaverse homepage. I'm impressed how hastily vibecoded it looks. 😍Select the image to zoom around the det...",
+      "description": "Slopstrap will take your website to the next level. Trust me!Very happy to reveal the new MoTaverse homepage. I'm impressed how hastily vibecoded it looks. 😍Select the image to zoom around the det...",
+      "url": "https://www.ministryoftesting.com/moments/i-slopstrapped-the-motaverse-homepage-and-you-ll-never-guess-what-happened",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-24T10:20:46.000Z",
+      "tags": [],
+      "score": 58,
+      "priority": "MEDIUM",
+      "reason": [
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-429a7872948b14a9",
+      "title": "Article: Engineering Around Non-Determinism: Evals, Grounding, and Release Gates for AI-Drafted Suspicious Reports",
+      "summary": "Moving GenAI into high-stakes production requires treating non-determinism as an engineering problem. This architectural blueprint shows engineering leaders and architects how to build trustworthy age...",
+      "description": "Moving GenAI into high-stakes production requires treating non-determinism as an engineering problem. This architectural blueprint shows engineering leaders and architects how to build trustworthy agentic workflows using knowledge graphs, dual-layer eval judges, CI/CD release gates, and regression testing against golden datasets to automate drafting while maintaining zero-hallucination compliance.",
+      "url": "https://www.infoq.com/articles/llm-agent-architecture-evals-grounding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-24T09:30:00.000Z",
+      "tags": [
+        "testing",
+        "ci/cd",
+        "ai",
+        "llm"
+      ],
+      "score": 98,
+      "priority": "CRITICAL",
+      "reason": [
+        "release",
+        "evals",
+        "recent"
+      ]
+    },
+    {
+      "id": "mcp-blog-e40b49d16c2970b1",
+      "title": "Two Years of MCP Builders",
+      "summary": "This week, our little open-source project, the Model Context Protocol (MCP), turns two years old. And what better way to mark this occasion than by celebrating the people who helped us build it and ev...",
+      "description": "This week, our little open-source project, the Model Context Protocol (MCP), turns two years old. And what better way to mark this occasion than by celebrating the people who helped us build it and everyone building with it.",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-turns-two/",
+      "source": "MCP Blog",
       "category": "tooling",
-      "publishedAt": "2026-11-23T12:32:01.000Z",
+      "publishedAt": "2026-11-24T09:00:00.000Z",
       "tags": [
         "typescript",
         "react",
+        "node.js",
+        "python",
         "github",
+        "kubernetes",
         "api",
         "rest",
-        "update",
-        "ai",
-        "release"
+        "database",
+        "bug",
+        "ai"
       ],
-      "score": 53,
-      "priority": "MEDIUM",
+      "score": 78,
+      "priority": "HIGH",
       "reason": [
+        "mcp",
         "recent"
       ]
     },
     {
-      "id": "infoq-998a32ea828efde1",
-      "title": "Claude Code Adds Experimental Code Mode to Orchestrate Tool Calls with JavaScript",
-      "summary": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls. By D...",
-      "description": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls. By Daniel Dominguez",
-      "url": "https://www.infoq.com/news/2026/11/claude-code-mode/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-9eae58f6815a48a7",
+      "title": "QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI",
+      "summary": "At QCon San Francisco 2026, OpenAI's Brian Yang described building the ChatGPT ads product with Codex agents and no human-written code. He outlined layered testing, sandboxes, and batched pull request...",
+      "description": "At QCon San Francisco 2026, OpenAI's Brian Yang described building the ChatGPT ads product with Codex agents and no human-written code. He outlined layered testing, sandboxes, and batched pull request reviews, and noted failure modes such as code \"slop\" and unsafe agent actions. He advised gradual adoption and framed engineers as managers of agents. By Daniel Curtis",
+      "url": "https://www.infoq.com/news/2026/11/qcon-sf-openai-lessons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "ai",
-      "publishedAt": "2026-11-23T12:17:00.000Z",
+      "publishedAt": "2026-11-24T06:32:00.000Z",
       "tags": [
-        "javascript",
+        "testing",
         "ai"
       ],
-      "score": 53,
-      "priority": "MEDIUM",
+      "score": 97,
+      "priority": "CRITICAL",
       "reason": [
+        "testing",
+        "agent",
         "recent"
       ]
     }
