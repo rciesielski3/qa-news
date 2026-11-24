@@ -7,6 +7,8 @@ const FULL_BLEED_ROUTES = new Set([
   '/',
   '/weekly',
   '/monthly',
+  '/about',
+  '/how-it-works',
 ]);
 
 /** Every other route keeps the narrow shared container. */

@@ -4,6 +4,7 @@ import { Inter, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 import './theme.css';
 import './bento.css';
+import './content-pages.css';
 import Header from '@/components/Header';
 import StatsBar from '@/components/StatsBar';
 import Footer from '@/components/Footer';
