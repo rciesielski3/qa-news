@@ -68,7 +68,7 @@
 .cp-card p { font-size: 14.5px; color: var(--text-2); line-height: 1.6; }
 
 /* --- FAQ accordion -------------------------------------------------------- */
-.faq { display: grid; gap: 10px; max-width: 860px; }
+.faq { display: grid; gap: 10px; }
 .faq-item { padding: 0; overflow: hidden; }
 .faq-item.open { border-color: var(--accent-line); }
 .faq-q { margin: 0; font-size: inherit; }
