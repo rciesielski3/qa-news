@@ -8,3 +8,6 @@ coverage
 
 # TypeScript incremental build info (rewritten by tsc on every run)
 tsconfig.tsbuildinfo
+
+# AI task briefs
+.superpowers/
