@@ -1,4 +1,7 @@
 import Link from 'next/link';
+import ContentTile from '@/components/ContentTile';
+import ContentCtas from '@/components/ContentCtas';
+import SectionHead from '@/components/SectionHead';
 
 export const metadata = {
   title: 'About QA News',
@@ -7,56 +10,86 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="w-full px-5 py-8 sm:px-8 sm:py-12 bg-gradient-to-br from-paper to-ink-50 dark:from-ink-900 dark:to-ink-800">
-      <div className="mx-auto max-w-content">
-        {/* Hero Section */}
-        <section className="mb-12 sm:mb-16 text-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">About QA News</h1>
-          <p className="mt-3 sm:mt-4 text-base sm:text-lg text-2">Your personal AI news curator for QA engineers</p>
-        </section>
+    <div className="home content-page">
+      {/* Hero */}
+      <div className="hero">
+        <div className="wrap">
+          <div className="bento">
+            <ContentTile className="t-head cp-head" index={0} pauseOffscreen>
+              <div>
+                <div className="tlabel">
+                  <span className="dot" aria-hidden="true" />
+                  About
+                </div>
+                <h1>
+                  About <em>QA News</em>
+                </h1>
+                <p>Your personal AI news curator for QA engineers</p>
+              </div>
+              <div className="cta">
+                <Link className="btn" href="/how-it-works">
+                  Learn about our pipeline <span aria-hidden="true">→</span>
+                </Link>
+              </div>
+            </ContentTile>
+          </div>
+        </div>
+      </div>
 
-        {/* Description */}
-        <section className="mb-12 sm:mb-16 border-l-4 border-blue-500 dark:border-blue-400 bg-blue-50 dark:bg-blue-950 px-4 py-4 sm:py-6 rounded">
-          <div className="section-content-wrapper">
-            <h2 className="section-title">What Is QA News</h2>
-            <p className="prose mt-2">
+      {/* 01 What it is */}
+      <section id="what" className="sec first" aria-labelledby="what-title">
+        <div className="wrap">
+          <SectionHead no="01" eyebrow="About" title="What Is QA News" titleId="what-title" />
+          <ContentTile className="cp-prose" index={0}>
+            <p className="prose">
               QA News is a daily digest for QA engineers, test automation practitioners, and quality-focused
               engineering teams. A TypeScript pipeline on GitHub Actions collects testing and engineering feeds,
               ranks them with transparent rules, and publishes the result here. Instead of scrolling through dozens
               of feeds and newsletters, you get a single curated stream with the strongest items of each period on top.
             </p>
-          </div>
-        </section>
+          </ContentTile>
+        </div>
+      </section>
 
-        {/* Mission */}
-        <section className="mb-12 sm:mb-16 border-l-4 border-green-500 dark:border-green-400 bg-green-50 dark:bg-green-950 px-4 py-4 sm:py-6 rounded">
-          <div className="section-content-wrapper">
-            <h2 className="section-title">Our Mission</h2>
-            <p className="prose mt-2">
+      {/* 02 Mission */}
+      <section id="mission" className="sec band" aria-labelledby="mission-title">
+        <div className="wrap">
+          <SectionHead no="02" eyebrow="Mission" title="Our Mission" titleId="mission-title" />
+          <ContentTile className="cp-prose" index={0}>
+            <p className="prose">
               Engineering news is abundant; attention is not. Our mission is to cut through the noise and surface only
               what genuinely matters to QA and quality engineering - so you can stay current without spending your day
               triaging feeds. Quality over quantity, every single day.
             </p>
+          </ContentTile>
+        </div>
+      </section>
+
+      {/* Contact + next steps */}
+      <section className="sec" aria-label="Feedback and next steps">
+        <div className="wrap">
+          <div className="cp-ctas">
+            <ContentTile className="cp-cta hov" index={0}>
+              <div className="tlabel">
+                <span className="dot" aria-hidden="true" />
+                Feedback
+              </div>
+              <p className="cp-cta-text">
+                Have feedback?{' '}
+                <a
+                  href="https://rciesielski.dev/contact"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cp-link"
+                >
+                  Suggest improvements
+                </a>
+              </p>
+            </ContentTile>
+            <ContentCtas startIndex={1} />
           </div>
-        </section>
-
-        {/* Contact */}
-        <section className="text-center mt-8">
-          <p className="text-sm text-ink-600 dark:text-ink-400">
-            Have feedback? <a href="https://rciesielski.dev/contact" target="_blank" rel="noopener noreferrer" className="text-cyan-600 dark:text-cyan-400 hover:underline font-semibold">Suggest improvements</a>
-          </p>
-        </section>
-
-        {/* Call to Action */}
-        <section className="text-center">
-          <Link
-            href="/how-it-works"
-            className="inline-block text-cyan-600 dark:text-cyan-400 hover:underline font-semibold"
-          >
-            Learn about our pipeline →
-          </Link>
-        </section>
-      </div>
+        </div>
+      </section>
     </div>
   );
 }

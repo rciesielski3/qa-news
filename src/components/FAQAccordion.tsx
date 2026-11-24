@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useId, useState } from 'react';
 
 const faqs = [
   {
@@ -35,29 +35,39 @@ const faqs = [
  * at a time. Lives in its own 'use client' file (rather than inline in
  * page.tsx) because page.tsx is a Server Component that exports
  * `metadata` — a file can't be both 'use client' and export metadata.
+ *
+ * Each question is a real button (Enter/Space toggle, focus-visible ring)
+ * with aria-expanded and aria-controls pointing at its answer region.
  */
 export default function FAQAccordion() {
   const [expanded, setExpanded] = useState<number | null>(null);
+  const baseId = useId();
 
   return (
-    <div className="space-y-2">
+    <div className="faq">
       {faqs.map((faq, idx) => {
         const isOpen = expanded === idx;
+        const panelId = `${baseId}-panel-${idx}`;
+        const buttonId = `${baseId}-btn-${idx}`;
         return (
-          <div key={faq.question} className="border border-ink-200 dark:border-ink-600 rounded bg-ink-50 dark:bg-ink-900">
-            <button
-              type="button"
-              onClick={() => setExpanded(isOpen ? null : idx)}
-              aria-expanded={isOpen}
-              className="w-full px-4 py-3 text-left font-semibold text-base bg-ink-100 dark:bg-ink-800 hover:brightness-95 dark:hover:brightness-110 transition-colors flex items-center justify-between"
-            >
-              {faq.question}
-              <span className="text-sm ml-2" aria-hidden="true">
-                {isOpen ? '−' : '+'}
-              </span>
-            </button>
+          <div key={faq.question} className={`tile faq-item${isOpen ? ' open' : ''}`}>
+            <h3 className="faq-q">
+              <button
+                type="button"
+                id={buttonId}
+                onClick={() => setExpanded(isOpen ? null : idx)}
+                aria-expanded={isOpen}
+                aria-controls={isOpen ? panelId : undefined}
+              >
+                <b className="tnum" aria-hidden="true">
+                  {String(idx + 1).padStart(2, '0')}
+                </b>
+                <span className="faq-text">{faq.question}</span>
+                <span className="faq-icon" aria-hidden="true" />
+              </button>
+            </h3>
             {isOpen && (
-              <div className="px-4 py-3 bg-ink-50 dark:bg-ink-800 border-t border-ink-200 dark:border-ink-600">
+              <div id={panelId} role="region" aria-labelledby={buttonId} className="faq-a">
                 <p className="prose">{faq.answer}</p>
               </div>
             )}

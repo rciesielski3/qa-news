@@ -1,0 +1,152 @@
+/* ==========================================================================
+   Content pages (About, How it works): the Daily bento language applied to
+   long-form pages. Reuses theme.css / bento.css tokens and classes (.hero,
+   .bento, .tile, .t-head, .sec, .sec-head, .secnav, .btn); only the page
+   specific pieces live here. No new colour tokens.
+   ========================================================================== */
+
+/* Hero tile spans the whole grid and sits shorter than the Daily one */
+.content-page .t-head.cp-head { grid-column: 1 / -1; grid-row: auto; gap: 24px; padding: 40px 34px; }
+.content-page .t-head.cp-head h1 { max-width: 20ch; }
+
+/* The first section follows the hero (or sticky nav) directly */
+.content-page .sec.first { border-top: 0; padding-top: 64px; }
+.content-page .secnav + .sec.first { padding-top: 64px; }
+
+/* --- prose tiles ---------------------------------------------------------- */
+.cp-prose { padding: 26px 28px; }
+.cp-prose .prose { max-width: 72ch; font-size: 16px; line-height: 1.7; color: var(--text-2); }
+
+/* --- pipeline strip: four step tiles joined by a dashed rail --------------- */
+.cp-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  position: relative;
+}
+.cp-steps::before {
+  content: "";
+  position: absolute;
+  left: 12.5%;
+  right: 12.5%;
+  top: 46px;
+  height: 2px;
+  background: repeating-linear-gradient(90deg, var(--accent-line) 0 6px, transparent 6px 12px);
+}
+.cp-steps > li { display: flex; min-width: 0; }
+.cp-step { flex: 1; display: flex; flex-direction: column; gap: 10px; padding: 20px 18px; }
+.cp-step .ico {
+  position: relative;
+  z-index: 1;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  color: var(--accent);
+  box-shadow: 0 0 0 6px var(--surface);
+}
+.cp-step .ico svg { width: 24px; height: 24px; }
+.cp-step .no { position: absolute; top: 18px; right: 18px; font-size: 12px; color: var(--text-3); }
+.cp-step h3 { margin-top: 6px; font-size: 17px; letter-spacing: -.015em; font-weight: 600; }
+.cp-step p { font-size: 13.5px; color: var(--text-2); line-height: 1.55; }
+
+/* --- metric + card grids -------------------------------------------------- */
+.cp-grid { display: grid; gap: 12px; min-width: 0; }
+.cp-metrics { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.cp-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.cp-metric { display: flex; flex-direction: column; gap: 10px; padding: 20px; }
+.cp-metric .v { font-size: clamp(24px, 3vw, 32px); font-weight: 600; letter-spacing: -.03em; line-height: 1.1; color: var(--text); overflow-wrap: anywhere; }
+.cp-metric .n { font-size: 13px; color: var(--text-2); line-height: 1.5; }
+.cp-card { display: flex; flex-direction: column; gap: 10px; padding: 22px; }
+.cp-card h3 { font-size: 18px; letter-spacing: -.02em; font-weight: 600; line-height: 1.25; }
+.cp-card p { font-size: 14.5px; color: var(--text-2); line-height: 1.6; }
+
+/* --- FAQ accordion -------------------------------------------------------- */
+.faq { display: grid; gap: 10px; max-width: 860px; }
+.faq-item { padding: 0; overflow: hidden; }
+.faq-item.open { border-color: var(--accent-line); }
+.faq-q { margin: 0; font-size: inherit; }
+.faq-q button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  background: transparent;
+  border: 0;
+  border-radius: inherit;
+  color: var(--text);
+  font: inherit;
+  font-weight: 600;
+  font-size: 15.5px;
+  text-align: left;
+  cursor: pointer;
+  transition: background .2s;
+}
+.faq-q button:hover { background: var(--accent-soft); }
+.faq-q button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.faq-q b { font-weight: 500; font-size: 12px; color: var(--text-3); transition: color .2s; }
+.faq-item.open .faq-q b { color: var(--accent); }
+.faq-text { flex: 1; min-width: 0; }
+.faq-icon { position: relative; flex: none; width: 14px; height: 14px; color: var(--accent); }
+.faq-icon::before, .faq-icon::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; top: 50%;
+  height: 2px;
+  margin-top: -1px;
+  border-radius: 2px;
+  background: currentColor;
+  transition: transform .25s var(--ease);
+}
+.faq-icon::after { transform: rotate(90deg); }
+.faq-item.open .faq-icon::after { transform: rotate(0deg); }
+.faq-a { padding: 0 18px 18px 54px; border-top: 1px solid var(--border); padding-top: 14px; margin-top: 0; animation: cpFade .3s var(--ease); }
+.faq-a .prose { font-size: 15px; line-height: 1.7; max-width: 66ch; }
+@keyframes cpFade { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+
+/* --- CTA tiles linking back to Daily / Weekly / Monthly -------------------- */
+.cp-ctas { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.cp-cta { display: flex; flex-direction: column; gap: 14px; padding: 20px; }
+.cp-cta-link, .cp-link { font-weight: 600; font-size: 17px; letter-spacing: -.015em; color: var(--accent); }
+.cp-cta-link::after { content: ""; position: absolute; inset: 0; border-radius: 14px; /* = .tile radius, so the focus ring follows the tile */ }
+.cp-cta-link:focus-visible { outline: none; }
+.cp-cta-link:focus-visible::after { outline: 2px solid var(--accent); outline-offset: 2px; }
+.cp-cta:hover .cp-cta-link { text-decoration: underline; }
+.cp-cta-text { font-size: 15px; color: var(--text-2); }
+.cp-cta-text .cp-link { font-size: inherit; text-decoration: underline; text-underline-offset: 3px; }
+
+/* --- responsive ----------------------------------------------------------- */
+@media (max-width: 1020px) {
+  .cp-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cp-steps::before { display: none; }
+  .cp-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cp-ctas { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 720px) {
+  .content-page .t-head.cp-head { padding: 26px 22px; }
+}
+@media (max-width: 640px) {
+  .cp-steps { grid-template-columns: 1fr; gap: 14px; }
+  /* vertical rail through the icons */
+  .cp-steps::before { display: block; left: 45px; right: auto; top: 40px; bottom: 40px; width: 2px; height: auto; background: repeating-linear-gradient(180deg, var(--accent-line) 0 6px, transparent 6px 12px); }
+  .cp-step { display: grid; grid-template-columns: 52px minmax(0, 1fr); column-gap: 14px; row-gap: 4px; }
+  .cp-step .ico { grid-row: span 2; }
+  .cp-step h3 { margin-top: 0; padding-right: 28px; }
+  .cp-step p { grid-column: 2; }
+  .cp-cards, .cp-metrics, .cp-ctas { grid-template-columns: 1fr; }
+  .cp-prose { padding: 20px; }
+  .faq-a { padding-left: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-a { animation: none; }
+  .faq-icon::before, .faq-icon::after { transition: none; }
+  .tile.hov:hover { transform: none; }
+}
