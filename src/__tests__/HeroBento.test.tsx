@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent, act } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import HeroBento from '@/components/HeroBento';
 import { computeStats } from '@/lib/stats';
@@ -149,5 +149,39 @@ describe('HeroBento', () => {
     expect(screen.getByTestId('today-count')).toHaveTextContent('0');
     expect(screen.getByText('No sources yet.')).toBeInTheDocument();
     expect(screen.getByText('No category data yet.')).toBeInTheDocument();
+  });
+
+  describe('live clock (no now prop)', () => {
+    afterEach(() => jest.useRealTimers());
+
+    it('reads the clock after mount and ages the updated pill every minute', () => {
+      jest.useFakeTimers();
+      jest.setSystemTime(Date.parse('2026-11-23T09:05:00Z'));
+      render(
+        <HeroBento
+          stats={computeStats(articles, '2026-11-23')}
+          isLoading={false}
+          updatedAt="2026-11-23T09:00:00Z"
+          onSelectCategory={jest.fn()}
+        />,
+      );
+      expect(screen.getByText('updated 5m ago')).toBeInTheDocument();
+      expect(screen.getByText('Published today')).toBeInTheDocument();
+      act(() => {
+        jest.advanceTimersByTime(60_000);
+      });
+      expect(screen.getByText('updated 6m ago')).toBeInTheDocument();
+    });
+
+    it('clears the interval on unmount', () => {
+      jest.useFakeTimers();
+      jest.setSystemTime(Date.parse('2026-11-23T09:05:00Z'));
+      const { unmount } = render(
+        <HeroBento stats={null} isLoading updatedAt={null} onSelectCategory={jest.fn()} />,
+      );
+      expect(jest.getTimerCount()).toBeGreaterThan(0);
+      unmount();
+      expect(jest.getTimerCount()).toBe(0);
+    });
   });
 });

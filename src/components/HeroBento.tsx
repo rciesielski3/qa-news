@@ -1,6 +1,6 @@
 'use client';
 
-import { useId, type ReactNode } from 'react';
+import { useEffect, useId, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import type { Category } from '@/lib/types';
 import { formatAgo, type Stats } from '@/lib/stats';
@@ -23,6 +23,8 @@ interface HeroBentoProps {
   /** Wall-clock override (ms) for deterministic rendering in tests. */
   now?: number;
 }
+
+const CLOCK_REFRESH_MS = 60_000;
 
 function Tile({
   className,
@@ -123,14 +125,23 @@ export default function HeroBento({
   onSelectCategory,
   now,
 }: HeroBentoProps) {
-  const nowMs = now ?? Date.now();
-  const todayKey = new Date(nowMs).toISOString().slice(0, 10);
+  // Wall clock lives in state, set after mount and refreshed every minute: no
+  // Date.now() during render (hydration-safe) and the "updated Xm ago" pill ages.
+  const [clock, setClock] = useState<number | null>(null);
+  useEffect(() => {
+    if (now !== undefined) return;
+    setClock(Date.now());
+    const id = setInterval(() => setClock(Date.now()), CLOCK_REFRESH_MS);
+    return () => clearInterval(id);
+  }, [now]);
+  const nowMs = now ?? clock;
+  const todayKey = nowMs === null ? null : new Date(nowMs).toISOString().slice(0, 10);
   const todayShown = useCountUp(stats?.todayCount ?? 0);
   const ready = !isLoading && stats !== null;
 
   const isToday = stats?.refDay === todayKey;
   const todayLabel = !stats ? 'Published today' : isToday ? 'Published today' : `Latest day · ${formatShortDate(stats.refDay)}`;
-  const ago = formatAgo(updatedAt, nowMs);
+  const ago = nowMs === null ? '' : formatAgo(updatedAt, nowMs);
 
   const sparkMax = stats ? Math.max(...stats.spark, 0) : 0;
   const catMax = stats?.categories[0]?.count ?? 0;

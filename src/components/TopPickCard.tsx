@@ -59,7 +59,8 @@ export default function TopPickCard({ article, rank, revealDelay = 0 }: TopPickC
         rel="noreferrer"
         className="flex-shrink-0 pick-link"
       >
-        Read Article →
+        Read Article <span aria-hidden="true">→</span>
+        <span className="sr-only">: {article.title} (opens in new tab)</span>
       </a>
     </article>
   );

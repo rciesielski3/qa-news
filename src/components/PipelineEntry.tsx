@@ -38,6 +38,7 @@ export default function PipelineEntry({ article, index }: PipelineEntryProps) {
         <h3>
           <a href={article.url} target="_blank" rel="noreferrer" className="feed-link">
             {article.title}
+            <span className="sr-only"> (opens in new tab)</span>
           </a>
         </h3>
         {showSubtitle && <p className="sub line-clamp-2">{subtitle}</p>}
@@ -52,8 +53,8 @@ export default function PipelineEntry({ article, index }: PipelineEntryProps) {
         </span>
       </div>
 
-      <span className="arr">
-        Read<span aria-hidden="true"> ↗</span>
+      <span className="arr" aria-hidden="true">
+        Read ↗
       </span>
     </li>
   );

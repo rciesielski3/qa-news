@@ -18,6 +18,8 @@
   --surface-2: #191D25;   /* hover / nested elements */
   --border:    #262B35;
   --border-strong: #333A47;
+  /* Boundary of interactive controls (chips, toggle, bar tracks): >=3:1 (WCAG 1.4.11) on bg, surface and band. Dividers keep --border. */
+  --control-border: #626D82;
 
   /* Text */
   --text:      #E8EAF0;
@@ -55,14 +57,15 @@
      --surface, well under the 3:1 WCAG AA minimum for UI-component
      boundaries (1.4.11). #8C8C99 clears 3.3:1 on white and ~3.1:1 on --bg. */
   --border-strong: #8C8C99;
+  --control-border: #767684;
 
   --text:      #1A1A1F;
   /* Darkened from #666673 — that value cleared 4.5:1 but only barely,
      and sat too close to --text-3 for a clean two-step hierarchy.
      #55555F reaches ~7.4:1 on white, giving text/-2/-3 clearer separation. */
   --text-2:    #55555F;
-  /* Darkened from #99999F (2.7:1, failed AA); #65656F keeps >=4.5:1 on the accent-soft hover tint too. */
-  --text-3:    #65656F;
+  /* Darkened from #99999F (2.7:1, failed AA) and again from #65656F (3.7-4.0:1 on the feed-row hover tint over the band); #5C5C66 keeps >=4.5:1 there. */
+  --text-3:    #5C5C66;
 
   /* #1D4ED8: #2563EB was 4.25:1 on accent-soft and 4.43:1 on --band (11px eyebrow). */
   --accent:    #1D4ED8;
@@ -196,6 +199,7 @@ a:hover { text-decoration: underline; }
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
+  /* The only backdrop-filter on the site; the section nav and hero pills use solid tints */
 }
 .site-header .wrap {
   display: flex;
@@ -243,9 +247,15 @@ a:hover { text-decoration: underline; }
   border: 1px solid var(--border);
   border-radius: 10px;
   background: var(--surface);
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
+.nav::-webkit-scrollbar { display: none; }
+.site-logo { flex: none; }
 
 .nav-link {
+  flex: none;
   padding: 5px 11px;
   border-radius: 7px;
   border: 1px solid transparent;
@@ -254,6 +264,7 @@ a:hover { text-decoration: underline; }
   font-weight: 500;
   transition: color var(--transition), background-color var(--transition);
 }
+.nav-link:focus-visible { outline-offset: -2px; } /* .nav scrolls, so an outer ring would be clipped */
 .nav-link:hover {
   color: var(--text);
   text-decoration: none;
@@ -271,17 +282,25 @@ a:hover { text-decoration: underline; }
   display: grid;
   place-items: center;
   border-radius: 10px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--control-border);
   background: var(--surface);
   color: var(--text-2);
   cursor: pointer;
   transition: color var(--transition), border-color var(--transition);
 }
-.theme-toggle:hover { color: var(--text); border-color: var(--border-strong); }
+.theme-toggle:hover { color: var(--text); border-color: var(--text-3); }
 
 @media (max-width: 560px) {
   .site-title { display: none; }
   .nav-link { padding: 5px 8px; font-size: 12px; }
+}
+@media (max-width: 380px) {
+  .site-header .wrap { gap: 8px; }
+  .nav { gap: 0; }
+  .nav-link { padding: 5px 6px; }
+}
+@media (max-width: 340px) {
+  .nav-link { padding: 5px 5px; }
 }
 
 /* --------------------------------------------------------------------------
@@ -417,7 +436,7 @@ a:hover { text-decoration: underline; }
   gap: 8px;
   padding: 7px 12px;
   border-radius: 999px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--control-border);
   background: var(--surface);
   color: var(--text-2);
   font-size: 13px;
@@ -431,7 +450,7 @@ a:hover { text-decoration: underline; }
   border-radius: 2px;
   background: var(--cat);
 }
-.chip-cat:hover { border-color: var(--border-strong); color: var(--text); }
+.chip-cat:hover { border-color: var(--text-3); color: var(--text); }
 .chip-cat[aria-pressed="true"] {
   border-color: var(--accent-line);
   background: var(--accent-soft);
@@ -442,7 +461,7 @@ a:hover { text-decoration: underline; }
 .chip-tag {
   padding: 4px 11px;
   border-radius: 999px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--control-border);
   background: transparent;
   color: var(--text-2);
   font-family: var(--font-mono);
@@ -454,7 +473,7 @@ a:hover { text-decoration: underline; }
 button.chip-tag {
   cursor: pointer;
 }
-button.chip-tag:hover { border-color: var(--border-strong); color: var(--text); }
+button.chip-tag:hover { border-color: var(--text-3); color: var(--text); }
 .chip-tag[aria-pressed="true"] {
   border-color: var(--accent);
   color: var(--accent);
