@@ -63,10 +63,11 @@ structure blocks that, it's just not built yet.
 
 ## Design system
 
-Dark, log-style layout: every news item is one entry in a vertical
-"pipeline" (a nod to CI/CD run logs, the audience's native habitat), with a
-colored dot per category. Type: IBM Plex Serif for headlines, IBM Plex Sans
-for body, IBM Plex Mono for timestamps/tags/metadata — self-hosted via
-`@fontsource` (not `next/font/google`), so the build doesn't depend on
-outbound access to Google Fonts at build time. Tokens live in
-`tailwind.config.ts`.
+Bento-tile layout: a hero with period stats, a sticky section nav, numbered
+sections and a feed table, in dark and light themes (`data-theme` on `<html>`,
+remembered under the `qa-news-theme` storage key). Type: Inter for text and
+JetBrains Mono for numbers and labels, loaded with `next/font/google` (Next
+self-hosts the files, but the build needs access to Google Fonts). Design
+tokens are CSS custom properties in `src/app/theme.css`; layout and component
+styles live in `bento.css`, `periods.css` and `content-pages.css`, with
+Tailwind for utilities. All motion honours `prefers-reduced-motion`.
