@@ -16,6 +16,7 @@ import { useArticleData } from '@/hooks/useArticleData';
 import { useTrendingRepos } from '@/hooks/useTrendingRepos';
 import { motionAllowed } from '@/hooks/useReveal';
 import { applyFilters, selectTopPicks } from '@/lib/filtering';
+import { formatRefreshHourUTC } from '@/lib/dateUtils';
 import { computeStats } from '@/lib/stats';
 import { CATEGORIES_WITH_LABELS } from '@/lib/styles';
 
@@ -77,7 +78,7 @@ function DailyPageContent() {
       {isUsingFallback && (
         <div className="wrap">
           <div className="notice" role="status">
-            Showing yesterday&apos;s articles. Today&apos;s refresh coming at 05:00 UTC.
+            Showing yesterday&apos;s articles. Today&apos;s refresh expected around {formatRefreshHourUTC()}.
           </div>
         </div>
       )}

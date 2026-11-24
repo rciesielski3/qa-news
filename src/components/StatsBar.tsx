@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { formatTimeInBothZones, getNextRefreshTimeWithZones } from '@/lib/dateUtils';
+import { formatTimeInBothZones, getWarsawZoneLabel, getNextRefreshTimeWithZones } from '@/lib/dateUtils';
 import { computeStats } from '@/lib/stats';
 import type { Article } from '@/lib/types';
 
@@ -45,7 +45,7 @@ export default function StatsBar() {
 
   if (pathname === '/') return null;
 
-  const updatedDisplay = updatedAt ? `${formatTimeInBothZones(updatedAt)} GMT+2` : 'loading...';
+  const updatedDisplay = updatedAt ? `${formatTimeInBothZones(updatedAt)} ${getWarsawZoneLabel(updatedAt)}` : 'loading...';
   const summary = counts ? `${counts.sources} sources · ${counts.total} articles · ` : '';
 
   return (

@@ -1,4 +1,4 @@
-import { getUTCToday, getYesterdayUTC, getNextRefreshTime, getArticlesForDate, isDayBeforeRefreshTime, formatTimeInBothZones, getNextRefreshTimeWithZones } from '@/lib/dateUtils';
+import { getUTCToday, getYesterdayUTC, getNextRefreshTime, getArticlesForDate, isDayBeforeRefreshTime, formatTimeInBothZones, getNextRefreshTimeWithZones, REFRESH_HOUR_UTC, formatRefreshHourUTC, getWarsawZoneLabel } from '@/lib/dateUtils';
 import type { Article } from '@/lib/types';
 
 describe('dateUtils', () => {
@@ -45,14 +45,87 @@ describe('dateUtils', () => {
     expect(todayArticles.map(a => a.id)).toContain('3');
   });
 
-  it('isDayBeforeRefreshTime correctly identifies time windows', () => {
-    const result = isDayBeforeRefreshTime();
-    expect(typeof result).toBe('boolean');
+  describe('refresh time (08:00 UTC), deterministic', () => {
+    const at = (iso: string) => {
+      jest.useFakeTimers();
+      jest.setSystemTime(new Date(iso));
+    };
+    afterEach(() => jest.useRealTimers());
 
-    // Validate logic: returns true before 05:00 UTC, false after
-    const now = new Date();
-    const isBeforeFive = now.getUTCHours() < 5;
-    expect(result).toBe(isBeforeFive);
+    it('REFRESH_HOUR_UTC is 8', () => {
+      expect(REFRESH_HOUR_UTC).toBe(8);
+      expect(formatRefreshHourUTC()).toBe('08:00 UTC');
+    });
+
+    it('before 08:00 counts down to same day', () => {
+      at('2026-08-04T06:30:00Z');
+      expect(getNextRefreshTime()).toEqual({ minutesUntil: 90, timeString: '1h 30m' });
+    });
+
+    it('exactly 08:00 is 0 minutes (refresh is now)', () => {
+      at('2026-08-04T08:00:00Z');
+      expect(getNextRefreshTime()).toEqual({ minutesUntil: 0, timeString: '0m' });
+    });
+
+    it('after 08:00 counts down to next day', () => {
+      at('2026-08-04T09:15:00Z');
+      expect(getNextRefreshTime()).toEqual({ minutesUntil: 22 * 60 + 45, timeString: '22h 45m' });
+    });
+
+    it('rolls over month end', () => {
+      at('2026-08-31T20:00:00Z');
+      expect(getNextRefreshTime().minutesUntil).toBe(12 * 60);
+    });
+
+    it('rolls over year end', () => {
+      at('2026-12-31T23:00:00Z');
+      expect(getNextRefreshTime()).toEqual({ minutesUntil: 9 * 60, timeString: '9h 0m' });
+    });
+
+    it('isDayBeforeRefreshTime boundaries', () => {
+      at('2026-08-04T00:00:00Z');
+      expect(isDayBeforeRefreshTime()).toBe(true);
+      at('2026-08-04T07:59:00Z');
+      expect(isDayBeforeRefreshTime()).toBe(true);
+      at('2026-08-04T08:00:00Z');
+      expect(isDayBeforeRefreshTime()).toBe(false);
+      at('2026-08-04T23:59:00Z');
+      expect(isDayBeforeRefreshTime()).toBe(false);
+    });
+
+    it('Warsaw display in summer (CEST, GMT+2)', () => {
+      at('2026-08-04T06:00:00Z');
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~10:00 GMT+2');
+    });
+
+    it('Warsaw display in winter (CET, GMT+1)', () => {
+      at('2026-12-10T06:00:00Z');
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~09:00 GMT+1');
+    });
+
+    it('DST day: spring forward 2026-03-29 (refresh 08:00Z = 10:00 CEST)', () => {
+      at('2026-03-28T06:00:00Z');
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~09:00 GMT+1');
+      at('2026-03-28T20:00:00Z'); // next refresh is on the DST day itself
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~10:00 GMT+2');
+      at('2026-03-29T06:00:00Z');
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~10:00 GMT+2');
+    });
+
+    it('DST day: fall back 2026-10-25', () => {
+      at('2026-10-24T06:00:00Z');
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~10:00 GMT+2');
+      at('2026-10-24T20:00:00Z'); // next refresh is on the DST day itself
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~09:00 GMT+1');
+      at('2026-10-25T06:00:00Z');
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~09:00 GMT+1');
+    });
+
+    it('formatTimeInBothZones and zone label respect DST', () => {
+      expect(formatTimeInBothZones('2026-12-10T06:00:00Z')).toBe('07:00');
+      expect(getWarsawZoneLabel('2026-12-10T06:00:00Z')).toBe('GMT+1');
+      expect(getWarsawZoneLabel('2026-08-04T06:00:00Z')).toBe('GMT+2');
+    });
   });
 
   it('formatTimeInBothZones formats ISO string in Warsaw time', () => {
@@ -83,7 +156,6 @@ describe('dateUtils', () => {
     expect(result).toHaveProperty('minutesUntil');
     expect(result).toHaveProperty('timeString');
     expect(result).toHaveProperty('displayString');
-    expect(result.displayString).toContain('GMT+2');
-    expect(result.displayString).toMatch(/at \d{2}:\d{2} GMT\+2/);
+    expect(result.displayString).toMatch(/^daily ~\d{2}:\d{2} GMT\+[12]$/);
   });
 });
