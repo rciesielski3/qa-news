@@ -1,7 +1,9 @@
 import Link from 'next/link';
+import { FactChips } from '@/components/ContentBits';
 import ContentCtas from '@/components/ContentCtas';
 import ContentTile from '@/components/ContentTile';
 import FAQAccordion from '@/components/FAQAccordion';
+import ScoreBreakdown from '@/components/ScoreBreakdown';
 import SectionHead from '@/components/SectionHead';
 import SectionNav, { type SectionNavItem } from '@/components/SectionNav';
 
@@ -53,24 +55,19 @@ const METRICS = [
   { label: 'New Repos Window', value: '60 days', note: 'GitHub repos with 50+ stars' },
 ];
 
-const FACTORS = [
+const RULES = [
   {
-    title: 'Topic Keywords',
+    title: 'How keywords match',
     description:
-      'Every score starts from a base of 50. Each QA or testing keyword found in the title or summary (test automation, e2e testing, security testing, Playwright and others) adds a fixed weight.',
+      'Keywords are matched case-insensitively against the title and summary. Each distinct keyword found adds its weight once, and the matched keywords are recorded as the reasons for the score.',
   },
   {
-    title: 'Source Weight',
+    title: 'Source prior',
     description:
-      'The scoring config can add a weight per source, so primary QA and testing publications can outrank general engineering feeds.',
+      'A few primary QA and testing sources carry a small prior. Source names are matched case-insensitively as substrings. It nudges the ranking and never decides it.',
   },
   {
-    title: 'Freshness',
-    description:
-      'Articles under 24 hours old get a small bonus of up to 4 points. Older articles simply do not get the bonus.',
-  },
-  {
-    title: 'Off-Topic Filter',
+    title: 'Off-topic filter',
     description:
       'Articles about hardware or networking topics are dropped unless they also mention testing or QA terms.',
   },
@@ -118,10 +115,11 @@ export default function HowItWorksPage() {
                 <p>
                   A technical look at the pipeline: scheduled fetch, rule-based scoring, de-duplication, daily export
                 </p>
+                <FactChips items={['Daily at 08:00 UTC', 'Rule-based scoring', 'NDJSON in Git', '30-day window']} label="Key facts" />
               </div>
               <div className="cta">
                 <Link className="btn ghost" href="/about">
-                  <span aria-hidden="true">←</span> Back to About
+                  <span aria-hidden="true">←</span> Read the case study
                 </Link>
               </div>
             </ContentTile>
@@ -178,9 +176,16 @@ export default function HowItWorksPage() {
       {/* 03 Scoring factors */}
       <section id="scoring" className="sec" aria-labelledby="scoring-title">
         <div className="wrap">
-          <SectionHead no="03" eyebrow="Scoring" title="Scoring Factors" titleId="scoring-title" />
-          <div className="cp-grid cp-cards">
-            {FACTORS.map(({ title, description }, i) => (
+          <SectionHead
+            no="03"
+            eyebrow="Scoring"
+            title="Scoring Factors"
+            titleId="scoring-title"
+            sub="A score is a sum of a few readable parts. Keyword relevance does most of the work."
+          />
+          <ScoreBreakdown />
+          <div className="cp-grid cp-three cp-after">
+            {RULES.map(({ title, description }, i) => (
               <ContentTile key={title} className="cp-card hov" index={i}>
                 <div className="tlabel">
                   <span className="dot" aria-hidden="true" />
@@ -197,7 +202,13 @@ export default function HowItWorksPage() {
       {/* 04 Under the hood */}
       <section id="hood" className="sec band" aria-labelledby="hood-title">
         <div className="wrap">
-          <SectionHead no="04" eyebrow="Internals" title="Under the Hood" titleId="hood-title" />
+          <SectionHead
+            no="04"
+            eyebrow="Internals"
+            title="Under the Hood"
+            titleId="hood-title"
+            sub="The mechanics. For the system view and the reasoning behind it, see the case study."
+          />
           <div className="cp-grid cp-cards">
             {CONCEPTS.map(({ title, description }, i) => (
               <ContentTile key={title} className="cp-card hov" index={i}>
@@ -218,6 +229,10 @@ export default function HowItWorksPage() {
         <div className="wrap">
           <SectionHead no="05" eyebrow="FAQ" title="Frequently Asked Questions" titleId="faq-title" />
           <FAQAccordion />
+          <p className="cp-note">
+            Looking for the why? The <Link href="/about#architecture">architecture and engineering decisions</Link> are
+            on the About page.
+          </p>
         </div>
       </section>
 
