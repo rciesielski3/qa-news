@@ -18,6 +18,8 @@ export default function StatsBar() {
   const [nextRefresh, setNextRefresh] = useState<string>('');
 
   useEffect(() => {
+    // The Daily page renders its own hero (which fetches latest.json); the bar is hidden there.
+    if (pathname === '/') return;
     let cancelled = false;
     const fetchStats = async () => {
       try {
@@ -39,7 +41,7 @@ export default function StatsBar() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [pathname]);
 
   if (pathname === '/') return null;
 
