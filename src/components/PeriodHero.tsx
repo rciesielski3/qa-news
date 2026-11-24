@@ -65,7 +65,7 @@ function CategoryBar({
   );
 }
 
-/** Compact version of the Daily hero: period brief tile plus three stat tiles computed from the period's articles. */
+/** Slim page header plus three stat tiles side by side, computed from the period's articles. */
 export default function PeriodHero({ copy, stats, isLoading, activeCategory, onSelectCategory }: PeriodHeroProps) {
   const total = useCountUp(stats?.total ?? 0);
   const ready = !isLoading && stats !== null;
@@ -77,44 +77,34 @@ export default function PeriodHero({ copy, stats, isLoading, activeCategory, onS
   const [before, emphasis, after] = copy.headline;
 
   return (
-    <div className="bento" id="bento">
-      <Tile className="t-head" index={0} pauseOffscreen>
-        <div>
-          <div className="tlabel">
-            <span className="dot" aria-hidden="true" />
-            {copy.label}
-            {stats ? ` · ${formatShortDate(stats.startDay)} – ${formatShortDate(stats.refDay)}` : ''}
-          </div>
-          <h1>
-            {before}
-            <em>{emphasis}</em>
-            {after}
-          </h1>
-          <p>
-            The best-scored testing, automation and AI-testing stories of the last {copy.noun}
-            {stats && stats.sourceCount > 0 ? (
-              <>
-                {' '}
-                from <span className="tnum">{stats.sourceCount}</span> sources
-              </>
-            ) : null}
-            , ranked by relevance and de-duplicated.
-          </p>
+    <>
+      <header className="period-head">
+        <div className="eyebrow">
+          {copy.label}
+          {stats ? ` · ${formatShortDate(stats.startDay)} – ${formatShortDate(stats.refDay)}` : ''}
         </div>
-        <div className="cta">
-          <a className="btn" href="#picks">
-            Top picks <span aria-hidden="true">→</span>
-          </a>
-          <a className="btn ghost" href="#feed">
-            Browse the feed
-          </a>
-          <Link className="btn ghost" href={copy.other.href}>
-            {copy.other.label}
-          </Link>
-        </div>
-      </Tile>
+        <h1>
+          {before}
+          <em>{emphasis}</em>
+          {after}
+        </h1>
+        <p className="sec-sub">
+          The best-scored testing, automation and AI-testing stories of the last {copy.noun}
+          {stats && stats.sourceCount > 0 ? (
+            <>
+              {' '}
+              from <span className="tnum">{stats.sourceCount}</span> sources
+            </>
+          ) : null}
+          , ranked by relevance and de-duplicated.
+        </p>
+        <Link className="period-switch" href={copy.other.href}>
+          {copy.other.label} <span aria-hidden="true">→</span>
+        </Link>
+      </header>
 
-      <Tile className="t-today hov" index={1}>
+      <div className="period-stats" id="bento">
+      <Tile className="pstat hov" index={0}>
         <div className="tlabel">
           <span className="dot" aria-hidden="true" />
           Published this {copy.noun}
@@ -154,7 +144,7 @@ export default function PeriodHero({ copy, stats, isLoading, activeCategory, onS
         )}
       </Tile>
 
-      <Tile className="t-src" index={2}>
+      <Tile className="pstat" index={1}>
         <div className="tlabel">
           <span className="dot" aria-hidden="true" />
           Top sources
@@ -187,7 +177,7 @@ export default function PeriodHero({ copy, stats, isLoading, activeCategory, onS
         )}
       </Tile>
 
-      <Tile className="t-dist" index={3}>
+      <Tile className="pstat" index={2}>
         <div className="tlabel">
           <span className="dot" aria-hidden="true" />
           Coverage by category · {days > 0 ? `${days}d` : copy.noun}
@@ -218,6 +208,7 @@ export default function PeriodHero({ copy, stats, isLoading, activeCategory, onS
           </div>
         )}
       </Tile>
-    </div>
+      </div>
+    </>
   );
 }
