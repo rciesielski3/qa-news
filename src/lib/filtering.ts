@@ -107,13 +107,20 @@ export function getMonthArticles(articles: Article[]): Article[] {
   return getArticlesSince(articles, 30);
 }
 
+/** Tag the pipeline puts on items from GitHub releases feeds (see ChiefofStaff RELEASE_TAG). */
+const RELEASE_TAG = 'release';
+
+const isReleaseNote = (a: Article) => Array.isArray(a.tags) && a.tags.includes(RELEASE_TAG);
+
 /**
  * Pick the top articles of a period by score (highest first), at most
- * `maxPerSource` per source so one feed cannot take every slot. Ties go to the
+ * `maxPerSource` per source so one feed cannot take every slot. Items tagged
+ * `release` (tool release notes from GitHub releases feeds) are not stories and
+ * are never picked; they stay in the regular feed. Ties go to the
  * newer article; articles without a score (or with a non-numeric one) rank
  * last, and so do unreadable dates. If fewer sources exist than `count`, the
  * remaining slots are filled with the best remaining articles regardless of
- * source, so the result always has min(count, articles.length) entries. The
+ * source, so the result has min(count, eligible articles) entries. The
  * returned order is rank order (rank 1 = best overall). The input is not
  * changed. Articles with a missing or empty source each count as their own
  * source.
@@ -140,7 +147,10 @@ export function selectTopPicks<T extends Article>(
   };
   const compare = (a: number, b: number) => (a === b ? 0 : a < b ? 1 : -1);
 
-  const ranked = [...articles].sort((a, b) => compare(score(a), score(b)) || compare(time(a), time(b)));
+  // filter() returns a new array, so sorting it leaves the input untouched.
+  const ranked = articles
+    .filter((a) => !isReleaseNote(a))
+    .sort((a, b) => compare(score(a), score(b)) || compare(time(a), time(b)));
 
   const perSource = new Map<string, number>();
   const chosen = new Set<T>();
