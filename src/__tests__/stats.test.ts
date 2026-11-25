@@ -20,7 +20,7 @@ describe('computeStats', () => {
     const s = computeStats([], '2026-11-23');
     expect(s.total).toBe(0);
     expect(s.sourceCount).toBe(0);
-    expect(s.todayCount).toBe(0);
+    expect(s.windowCount).toBe(0);
     expect(s.spark).toEqual(new Array(SPARK_DAYS).fill(0));
     expect(s.deltaPct).toBeNull();
     expect(s.topSources).toEqual([]);
@@ -31,13 +31,13 @@ describe('computeStats', () => {
   it('defaults the reference day to the newest day in the data', () => {
     const s = computeStats([art('2026-11-20'), art('2026-11-22'), art('2026-11-21')]);
     expect(s.refDay).toBe('2026-11-22');
-    expect(s.todayCount).toBe(1);
+    expect(s.windowCount).toBe(1);
   });
 
   it('accepts a Date as reference day', () => {
     const s = computeStats([art('2026-11-22')], new Date('2026-11-22T15:00:00Z'));
     expect(s.refDay).toBe('2026-11-22');
-    expect(s.todayCount).toBe(1);
+    expect(s.windowCount).toBe(1);
   });
 
   it('counts only the reference day as today, using UTC days', () => {
@@ -50,7 +50,7 @@ describe('computeStats', () => {
       ],
       '2026-11-23',
     );
-    expect(s.todayCount).toBe(2);
+    expect(s.windowCount).toBe(2);
   });
 
   it('builds a 14-day spark ending on the reference day, with zero days', () => {
@@ -105,7 +105,7 @@ describe('computeStats', () => {
       [art('2026-11-23', { category: 'ai' }), art('2026-11-10', { category: 'tooling' }), art('2026-11-10', { category: 'tooling' })],
       '2026-11-23',
     );
-    expect(s.todayByCategory).toEqual({ ai: 1 });
+    expect(s.windowByCategory).toEqual({ ai: 1 });
     expect(s.categories.find((c) => c.category === 'tooling')?.count).toBe(2);
   });
 
@@ -152,8 +152,59 @@ describe('computeStats', () => {
   it('ignores unreadable dates in per-day figures but still counts them in the total', () => {
     const s = computeStats([art('2026-11-23'), art('x', { publishedAt: 'not-a-date' }), art('y', { publishedAt: '' })], '2026-11-23');
     expect(s.total).toBe(3);
-    expect(s.todayCount).toBe(1);
+    expect(s.windowCount).toBe(1);
     expect(s.categories).toEqual([{ category: 'ai', count: 1 }]);
+  });
+});
+
+describe('computeStats with a 24h window', () => {
+  const END = Date.parse('2026-11-25T06:30:00Z');
+  const win = { startMs: END - 24 * 3600 * 1000, endMs: END };
+  const at = (iso: string, over: Partial<Article> = {}) => art('x', { publishedAt: iso, ...over });
+
+  it('counts the window, takes refDay from the window end and exposes the end', () => {
+    const s = computeStats(
+      [at('2026-11-25T02:00:00Z'), at('2026-11-24T08:00:00Z'), at('2026-11-24T06:00:00Z')],
+      null,
+      win,
+    );
+    expect(s.refDay).toBe('2026-11-25');
+    expect(s.windowEndMs).toBe(END);
+    expect(s.windowCount).toBe(2); // the 06:00 article on the 24th is older than 24h
+  });
+
+  it('makes the window count the last spark bar instead of the partial calendar day', () => {
+    const s = computeStats(
+      [at('2026-11-25T02:00:00Z'), at('2026-11-24T08:00:00Z'), at('2026-11-24T09:00:00Z')],
+      null,
+      win,
+    );
+    expect(s.spark).toHaveLength(SPARK_DAYS);
+    expect(s.spark[SPARK_DAYS - 1]).toBe(3);
+    expect(s.spark[SPARK_DAYS - 2]).toBe(2); // 24th as a full calendar day
+  });
+
+  it('compares the 24h count with the average full calendar day before the reference day', () => {
+    const prev = Array.from({ length: 4 }, (_, i) => at(`2026-11-${20 + i}T10:00:00Z`)); // 1 per day
+    const inWin = [at('2026-11-24T10:00:00Z'), at('2026-11-25T01:00:00Z'), at('2026-11-25T02:00:00Z')];
+    const s = computeStats([...prev, ...inWin], null, win);
+    // baseline days with articles: 20,21,22,23 = 1 each, 24th = 1 -> avg 1; window = 3 -> +200%
+    expect(s.windowCount).toBe(3);
+    expect(s.deltaPct).toBe(200);
+  });
+
+  it('counts window articles per category', () => {
+    const s = computeStats(
+      [at('2026-11-25T01:00:00Z', { category: 'ai' }), at('2026-11-25T02:00:00Z', { category: 'tooling' }), at('2026-11-20T02:00:00Z', { category: 'ai' })],
+      null,
+      win,
+    );
+    expect(s.windowByCategory).toEqual({ ai: 1, tooling: 1 });
+  });
+
+  it('includes the window end instant and excludes the start instant', () => {
+    const s = computeStats([at('2026-11-25T06:30:00Z'), at('2026-11-24T06:30:00Z')], null, win);
+    expect(s.windowCount).toBe(1);
   });
 });
 

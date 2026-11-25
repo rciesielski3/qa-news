@@ -4,6 +4,7 @@ import { useEffect, useId, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import type { Category } from '@/lib/types';
 import { formatAgo, type Stats } from '@/lib/stats';
+import { formatUtcTime } from '@/lib/dailyWindow';
 import { getCategoryLabel } from '@/lib/styles';
 import { useCountUp } from '@/hooks/useCountUp';
 import { staggerDelay, useReveal } from '@/hooks/useReveal';
@@ -67,7 +68,7 @@ export function formatShortDate(day: string): string {
 function CoverageBar({
   category,
   count,
-  todayCount,
+  windowCount,
   max,
   pressed,
   onSelect,
@@ -76,7 +77,7 @@ function CoverageBar({
   /** Articles in the 30-day coverage window. */
   count: number;
   /** Articles on the feed day: what the filter can actually show. */
-  todayCount: number;
+  windowCount: number;
   max: number;
   pressed: boolean;
   onSelect: () => void;
@@ -86,7 +87,7 @@ function CoverageBar({
   const noteId = useId();
   // A bar with nothing on the feed day would lead to an empty feed. A pressed
   // bar stays usable so the active filter can always be cleared.
-  const disabled = todayCount === 0 && !pressed;
+  const disabled = windowCount === 0 && !pressed;
   return (
     <button
       type="button"
@@ -95,7 +96,7 @@ function CoverageBar({
       aria-pressed={pressed}
       aria-disabled={disabled || undefined}
       aria-describedby={noteId}
-      title={disabled ? 'No articles on this day' : `Filter feed: ${label}`}
+      title={disabled ? 'No articles in the last 24 hours' : `Filter feed: ${label}`}
       aria-label={`${label}: ${count} articles in the last 30 days`}
       onClick={() => {
         if (!disabled) onSelect();
@@ -110,8 +111,8 @@ function CoverageBar({
       </span>
       <span id={noteId} className="sr-only">
         {disabled
-          ? 'No articles on this day, so the feed cannot be filtered by it.'
-          : `${todayCount} on this day. ${pressed ? 'Clear filter' : 'Filter feed'}.`}
+          ? 'No articles in the last 24 hours, so the feed cannot be filtered by it.'
+          : `${windowCount} in the last 24 hours. ${pressed ? 'Clear filter' : 'Filter feed'}.`}
       </span>
     </button>
   );
@@ -135,12 +136,16 @@ export default function HeroBento({
     return () => clearInterval(id);
   }, [now]);
   const nowMs = now ?? clock;
-  const todayKey = nowMs === null ? null : new Date(nowMs).toISOString().slice(0, 10);
-  const todayShown = useCountUp(stats?.todayCount ?? 0);
+  const todayShown = useCountUp(stats?.windowCount ?? 0);
   const ready = !isLoading && stats !== null;
 
-  const isToday = stats?.refDay === todayKey;
-  const todayLabel = !stats ? 'Published today' : isToday ? 'Published today' : `Latest day · ${formatShortDate(stats.refDay)}`;
+  // The window ends at the data's updatedAt; when it had to fall back to the
+  // newest article the label says "to" and names the day instead of "updated".
+  const windowLabel = !stats
+    ? 'Last 24 hours'
+    : Date.parse(updatedAt ?? '') === stats.windowEndMs
+      ? `Last 24 hours · updated ${formatUtcTime(stats.windowEndMs)}`
+      : `Last 24 hours · to ${formatUtcTime(stats.windowEndMs)}, ${formatShortDate(stats.refDay)}`;
   const ago = nowMs === null ? '' : formatAgo(updatedAt, nowMs);
 
   const sparkMax = stats ? Math.max(...stats.spark, 0) : 0;
@@ -172,7 +177,7 @@ export default function HeroBento({
         </div>
         <div className="cta">
           <a className="btn" href="#picks">
-            Today&apos;s top picks <span aria-hidden="true">→</span>
+            Top picks <span aria-hidden="true">→</span>
           </a>
           <a className="btn ghost" href="#feed">
             Browse the feed
@@ -189,11 +194,11 @@ export default function HeroBento({
         </div>
       </Tile>
 
-      {/* Published today + 14-day sparkline */}
+      {/* Last 24 hours + 14-bar sparkline */}
       <Tile className="t-today hov" index={1}>
         <div className="tlabel">
           <span className="dot" aria-hidden="true" />
-          {todayLabel}
+          {windowLabel}
         </div>
         {ready ? (
           <>
@@ -210,7 +215,7 @@ export default function HeroBento({
             <div
               className="spark"
               role="img"
-              aria-label={`Articles per day, last ${stats.spark.length} days: ${stats.spark.join(', ')}`}
+              aria-label={`Articles per day, last ${stats.spark.length} days (latest bar: last 24 hours): ${stats.spark.join(', ')}`}
             >
               {stats.spark.map((v, i) => (
                 <b
@@ -281,7 +286,7 @@ export default function HeroBento({
                   key={c.category}
                   category={c.category}
                   count={c.count}
-                  todayCount={stats.todayByCategory[c.category] ?? 0}
+                  windowCount={stats.windowByCategory[c.category] ?? 0}
                   max={catMax}
                   pressed={activeCategory === c.category}
                   onSelect={() => onSelectCategory(activeCategory === c.category ? null : c.category)}

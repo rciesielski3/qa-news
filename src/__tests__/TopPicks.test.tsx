@@ -45,6 +45,6 @@ describe('TopPicks', () => {
 
   it('shows an empty message when there are no picks', () => {
     render(<TopPicks articles={[]} />);
-    expect(screen.getByText('No top picks for today.')).toBeInTheDocument();
+    expect(screen.getByText('No top picks in the last 24 hours.')).toBeInTheDocument();
   });
 });

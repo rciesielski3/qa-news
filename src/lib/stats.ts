@@ -2,7 +2,7 @@ import type { Article, Category } from '@/lib/types';
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
-/** Days shown in the "Published today" sparkline. */
+/** Bars in the "Last 24 hours" sparkline. */
 export const SPARK_DAYS = 14;
 /** Window (in days, reference day included) for the category coverage bars. */
 export const COVERAGE_DAYS = 30;
@@ -22,28 +22,35 @@ export interface CategoryStat {
 }
 
 export interface Stats {
-  /** Reference day (UTC, YYYY-MM-DD) that "today" figures are computed for. */
+  /** UTC date (YYYY-MM-DD) of the end of the window; the day the sparkline and its baseline are anchored to. */
   refDay: string;
+  /** End of the 24h window (inclusive), epoch ms. */
+  windowEndMs: number;
   /** All articles in the dataset. */
   total: number;
   /** Distinct source names. */
   sourceCount: number;
-  /** Articles published on the reference day. */
-  todayCount: number;
-  /** Per-day counts for the SPARK_DAYS days ending on the reference day (oldest first). */
+  /** Articles published inside the 24h window. */
+  windowCount: number;
+  /**
+   * SPARK_DAYS bars, oldest first: the 13 full UTC calendar days before the
+   * reference day, then the 24h window count as the last bar (not the partial
+   * calendar day, which is nearly empty early in the morning).
+   */
   spark: number[];
   /**
-   * Reference day vs the average of the 13 days before it, in percent. Days with
-   * no articles are left out of that average (a pipeline outage is not a "quiet
-   * day"); null when none of the 13 days has articles.
+   * The 24h window count vs the average of the 13 full calendar days before the
+   * reference day, in percent. Both are whole-day-sized counts, so the comparison
+   * is like with like. Days with no articles are left out of the average (a
+   * pipeline outage is not a "quiet day"); null when none of the 13 has articles.
    */
   deltaPct: number | null;
   /** Top sources by article count (ties broken alphabetically). */
   topSources: SourceStat[];
   /** Articles per category within the last COVERAGE_DAYS days, most covered first; empty categories are omitted. */
   categories: CategoryStat[];
-  /** Articles per category on the reference day only (what the feed below can actually show). */
-  todayByCategory: Partial<Record<Category, number>>;
+  /** Articles per category inside the 24h window (what the feed below can actually show). */
+  windowByCategory: Partial<Record<Category, number>>;
 }
 
 /** UTC day key (YYYY-MM-DD) for an ISO string, or null when it cannot be parsed. */
@@ -68,22 +75,40 @@ export function latestArticleDay(articles: Article[]): string | null {
   return best;
 }
 
+/** The 24h window the hero counts: (startMs, endMs], as produced by computeDailyWindow. */
+export interface StatsWindow {
+  startMs: number;
+  endMs: number;
+}
+
 /**
  * Derive every number shown in the hero tiles from the article list. Pure: the
- * reference day is an argument (defaults to the newest day in the data), so the
- * result never depends on the wall clock.
+ * window is an argument, so the result never depends on the wall clock. Without
+ * a window, the reference day (default: the newest day in the data) is counted
+ * as a whole UTC calendar day. With a window, the reference day is the UTC date
+ * of the window end unless given explicitly.
  */
-export function computeStats(articles: Article[], refDay?: Date | string | null): Stats {
+export function computeStats(
+  articles: Article[],
+  refDay?: Date | string | null,
+  window?: StatsWindow | null,
+): Stats {
   const ref =
     refDay instanceof Date
       ? refDay.toISOString().slice(0, 10)
-      : refDay || latestArticleDay(articles) || new Date().toISOString().slice(0, 10);
+      : refDay ||
+        (window ? new Date(window.endMs).toISOString().slice(0, 10) : null) ||
+        latestArticleDay(articles) ||
+        new Date().toISOString().slice(0, 10);
   const refStart = dayStartMs(ref);
+  const winStart = window ? window.startMs : refStart - 1;
+  const winEnd = window ? window.endMs : refStart + DAY_MS - 1;
 
   const perDay = new Map<string, number>();
   const perSource = new Map<string, number>();
   const perCategory = new Map<Category, number>();
-  const perCategoryToday: Partial<Record<Category, number>> = {};
+  const perCategoryWindow: Partial<Record<Category, number>> = {};
+  let windowCount = 0;
   const coverageFrom = refStart - (COVERAGE_DAYS - 1) * DAY_MS;
 
   for (const article of articles) {
@@ -94,7 +119,11 @@ export function computeStats(articles: Article[], refDay?: Date | string | null)
     if (!key) continue;
     perDay.set(key, (perDay.get(key) ?? 0) + 1);
 
-    if (key === ref) perCategoryToday[article.category] = (perCategoryToday[article.category] ?? 0) + 1;
+    const ms = Date.parse(article.publishedAt);
+    if (ms > winStart && ms <= winEnd) {
+      windowCount += 1;
+      perCategoryWindow[article.category] = (perCategoryWindow[article.category] ?? 0) + 1;
+    }
 
     const start = dayStartMs(key);
     if (start >= coverageFrom && start <= refStart) {
@@ -107,12 +136,12 @@ export function computeStats(articles: Article[], refDay?: Date | string | null)
     const key = new Date(refStart - i * DAY_MS).toISOString().slice(0, 10);
     spark.push(perDay.get(key) ?? 0);
   }
+  spark[SPARK_DAYS - 1] = windowCount;
 
-  const todayCount = spark[SPARK_DAYS - 1];
-  // Baseline: the 13 days before the reference day, ignoring zero-article days.
+  // Baseline: the 13 full days before the reference day, ignoring zero-article days.
   const baseline = spark.slice(0, SPARK_DAYS - 1).filter((n) => n > 0);
   const avg = baseline.length > 0 ? baseline.reduce((sum, n) => sum + n, 0) / baseline.length : 0;
-  const deltaPct = avg > 0 ? Math.round(((todayCount - avg) / avg) * 100) : null;
+  const deltaPct = avg > 0 ? Math.round(((windowCount - avg) / avg) * 100) : null;
 
   const total = articles.length;
   const topSources = [...perSource.entries()]
@@ -126,14 +155,15 @@ export function computeStats(articles: Article[], refDay?: Date | string | null)
 
   return {
     refDay: ref,
+    windowEndMs: winEnd,
     total,
     sourceCount: perSource.size,
-    todayCount,
+    windowCount,
     spark,
     deltaPct,
     topSources,
     categories,
-    todayByCategory: perCategoryToday,
+    windowByCategory: perCategoryWindow,
   };
 }
 
