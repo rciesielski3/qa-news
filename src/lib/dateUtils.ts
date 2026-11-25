@@ -10,8 +10,8 @@ export function getYesterdayUTC(): Date {
   return new Date(today.getTime() - 24 * 60 * 60 * 1000);
 }
 
-/** Hour (UTC) at which the daily-brief pipeline is scheduled (cron '0 8 * * *'). The site goes live some minutes later. */
-export const REFRESH_HOUR_UTC = 8;
+/** Hour (UTC) at which the daily-brief pipeline is scheduled (cron '37 2 * * *', i.e. 02:37 UTC; GitHub may start scheduled runs late, so treat it as approximate). The site goes live some minutes later. */
+export const REFRESH_HOUR_UTC = 3;
 
 const WARSAW_TZ = 'Europe/Warsaw';
 

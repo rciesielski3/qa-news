@@ -11,7 +11,7 @@ const faqs = [
   {
     question: 'When does new data appear?',
     answer:
-      'The daily run starts at 08:00 UTC; the change then goes through a pull request, tests and an export workflow. Publication follows those steps, not a fixed clock time.',
+      'The daily run is scheduled early in the morning UTC (around 03:00 UTC, and GitHub may start it late); the change then goes through a pull request, tests and an export workflow. Publication follows those steps, not a fixed clock time.',
   },
   {
     question: 'What about articles I miss?',

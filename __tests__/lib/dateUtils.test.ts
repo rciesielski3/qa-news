@@ -45,80 +45,80 @@ describe('dateUtils', () => {
     expect(todayArticles.map(a => a.id)).toContain('3');
   });
 
-  describe('refresh time (08:00 UTC), deterministic', () => {
+  describe('refresh time (03:00 UTC), deterministic', () => {
     const at = (iso: string) => {
       jest.useFakeTimers();
       jest.setSystemTime(new Date(iso));
     };
     afterEach(() => jest.useRealTimers());
 
-    it('REFRESH_HOUR_UTC is 8', () => {
-      expect(REFRESH_HOUR_UTC).toBe(8);
-      expect(formatRefreshHourUTC()).toBe('08:00 UTC');
+    it('REFRESH_HOUR_UTC is 3', () => {
+      expect(REFRESH_HOUR_UTC).toBe(3);
+      expect(formatRefreshHourUTC()).toBe('03:00 UTC');
     });
 
-    it('before 08:00 counts down to same day', () => {
-      at('2026-08-04T06:30:00Z');
+    it('before 03:00 counts down to same day', () => {
+      at('2026-08-04T01:30:00Z');
       expect(getNextRefreshTime()).toEqual({ minutesUntil: 90, timeString: '1h 30m' });
     });
 
-    it('exactly 08:00 is 0 minutes (refresh is now)', () => {
-      at('2026-08-04T08:00:00Z');
+    it('exactly 03:00 is 0 minutes (refresh is now)', () => {
+      at('2026-08-04T03:00:00Z');
       expect(getNextRefreshTime()).toEqual({ minutesUntil: 0, timeString: '0m' });
     });
 
-    it('after 08:00 counts down to next day', () => {
-      at('2026-08-04T09:15:00Z');
+    it('after 03:00 counts down to next day', () => {
+      at('2026-08-04T04:15:00Z');
       expect(getNextRefreshTime()).toEqual({ minutesUntil: 22 * 60 + 45, timeString: '22h 45m' });
     });
 
     it('rolls over month end', () => {
       at('2026-08-31T20:00:00Z');
-      expect(getNextRefreshTime().minutesUntil).toBe(12 * 60);
+      expect(getNextRefreshTime().minutesUntil).toBe(7 * 60);
     });
 
     it('rolls over year end', () => {
       at('2026-12-31T23:00:00Z');
-      expect(getNextRefreshTime()).toEqual({ minutesUntil: 9 * 60, timeString: '9h 0m' });
+      expect(getNextRefreshTime()).toEqual({ minutesUntil: 4 * 60, timeString: '4h 0m' });
     });
 
     it('isDayBeforeRefreshTime boundaries', () => {
       at('2026-08-04T00:00:00Z');
       expect(isDayBeforeRefreshTime()).toBe(true);
-      at('2026-08-04T07:59:00Z');
+      at('2026-08-04T02:59:00Z');
       expect(isDayBeforeRefreshTime()).toBe(true);
-      at('2026-08-04T08:00:00Z');
+      at('2026-08-04T03:00:00Z');
       expect(isDayBeforeRefreshTime()).toBe(false);
       at('2026-08-04T23:59:00Z');
       expect(isDayBeforeRefreshTime()).toBe(false);
     });
 
     it('Warsaw display in summer (CEST, GMT+2)', () => {
-      at('2026-08-04T06:00:00Z');
-      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~10:00 GMT+2');
+      at('2026-08-04T01:00:00Z');
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~05:00 GMT+2');
     });
 
     it('Warsaw display in winter (CET, GMT+1)', () => {
-      at('2026-12-10T06:00:00Z');
-      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~09:00 GMT+1');
+      at('2026-12-10T01:00:00Z');
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~04:00 GMT+1');
     });
 
-    it('DST day: spring forward 2026-03-29 (refresh 08:00Z = 10:00 CEST)', () => {
-      at('2026-03-28T06:00:00Z');
-      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~09:00 GMT+1');
+    it('DST day: spring forward 2026-03-29 (refresh 03:00Z = 05:00 CEST)', () => {
+      at('2026-03-28T01:00:00Z');
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~04:00 GMT+1');
       at('2026-03-28T20:00:00Z'); // next refresh is on the DST day itself
-      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~10:00 GMT+2');
-      at('2026-03-29T06:00:00Z');
-      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~10:00 GMT+2');
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~05:00 GMT+2');
+      at('2026-03-29T02:00:00Z'); // after the 01:00Z switch, before the refresh
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~05:00 GMT+2');
     });
 
-    it('DST day: fall back 2026-10-25', () => {
-      at('2026-10-24T06:00:00Z');
-      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~10:00 GMT+2');
+    it('DST day: fall back 2026-10-25 (refresh 03:00Z = 04:00 CET)', () => {
+      at('2026-10-24T01:00:00Z');
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~05:00 GMT+2');
       at('2026-10-24T20:00:00Z'); // next refresh is on the DST day itself
-      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~09:00 GMT+1');
-      at('2026-10-25T06:00:00Z');
-      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~09:00 GMT+1');
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~04:00 GMT+1');
+      at('2026-10-25T02:00:00Z'); // after the 01:00Z switch, before the refresh
+      expect(getNextRefreshTimeWithZones().displayString).toBe('daily ~04:00 GMT+1');
     });
 
     it('formatTimeInBothZones and zone label respect DST', () => {
