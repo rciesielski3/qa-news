@@ -24,7 +24,7 @@ const STEPS = [
   {
     step: 1,
     title: 'Ingestion',
-    description: 'Daily at 08:00 UTC on GitHub Actions; a failing feed is skipped, not fatal',
+    description: 'Scheduled early in the morning UTC (around 03:00) on GitHub Actions; a failing feed is skipped, not fatal',
     icon: <path d="M5 5a14 14 0 0 1 14 14M5 11a8 8 0 0 1 8 8M6 18h.01" />,
   },
   {
@@ -48,7 +48,7 @@ const STEPS = [
 ];
 
 const NUMBERS = [
-  { label: 'Daily run', value: '08:00 UTC' },
+  { label: 'Daily run', value: '~03:00 UTC' },
   { label: 'Retention', value: '30 days' },
   { label: 'Top picks', value: '3 per period' },
   { label: 'New repos, 60 days', value: '50+ stars' },
@@ -77,7 +77,7 @@ export default function HowItWorksPage() {
                   How QA News <em>Curates</em> the News
                 </h1>
                 <p>Scheduled fetch, rule-based scoring, de-duplication, daily export.</p>
-                <FactChips items={['Daily at 08:00 UTC', 'Rule-based scoring', 'NDJSON in Git', '30-day window']} label="Key facts" />
+                <FactChips items={['Daily, around 03:00 UTC', 'Rule-based scoring', 'NDJSON in Git', '30-day window']} label="Key facts" />
               </div>
               <div className="cta">
                 <Link className="btn ghost" href="/about#architecture">
