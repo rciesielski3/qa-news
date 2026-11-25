@@ -1,7 +1,148 @@
 {
-  "date": "2026-11-24",
-  "updatedAt": "2026-11-24T19:12:35.738Z",
+  "date": "2026-11-25",
+  "updatedAt": "2026-11-25T06:29:15.615Z",
   "items": [
+    {
+      "id": "infoq-c2ca376e736db118",
+      "title": "QCon San Francisco 2026: Automating Spark Upgrades with Codex Agents at OpenAI",
+      "summary": "At QCon San Francisco 2026, Mouli Mukherjee, Engineering Manager for Data Infrastructure at OpenAI, argued that AI agents are most useful not for rebuilding a data platform, but for the open-ended ope...",
+      "description": "At QCon San Francisco 2026, Mouli Mukherjee, Engineering Manager for Data Infrastructure at OpenAI, argued that AI agents are most useful not for rebuilding a data platform, but for the open-ended operational work that is hard to turn into fixed playbooks. By Robert Krzaczyński",
+      "url": "https://www.infoq.com/news/2026/11/openai-spark-fleet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-25T06:20:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "selenium-releases-a16d302add79223c",
+      "title": "Nightly",
+      "summary": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 [rb] generate memoized BiDi domain accessors and include the...",
+      "description": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 [rb] generate memoized BiDi domain accessors and include them in the bridge by @titusfortner in #18376 [rb] move the BiDi command overrides out of BiDiBridge into a BiDiCommands module by @titusfortner in #18379 [js][bidi] Throw WebDriverError from...",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-25T00:17:18.000Z",
+      "tags": [
+        "github",
+        "ai",
+        "release"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "simon-willison-0b260d07579db847",
+      "title": "Three LLM inflection points in twelve months",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents i...",
+      "description": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "source": "Simon Willison",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-24T23:02:07.000Z",
+      "tags": [
+        "testing",
+        "api",
+        "rest",
+        "security",
+        "update",
+        "feature",
+        "bug",
+        "ai",
+        "llm"
+      ],
+      "score": 93,
+      "priority": "CRITICAL",
+      "reason": [
+        "agent",
+        "llm",
+        "recent"
+      ]
+    },
+    {
+      "id": "test-guild-4d9fc013feba6342",
+      "title": "Your Coding Agent Wrote the Test. Who Checks It? with Donovan Brady",
+      "summary": "About This Episode: Your coding agent just wrote the test. Who checks it? Donovan Brady of Leapwork is back on [&hellip;]",
+      "description": "About This Episode: Your coding agent just wrote the test. Who checks it? Donovan Brady of Leapwork is back on [&hellip;]",
+      "url": "https://testguild.com/podcast/a613-donovan/",
+      "source": "Test Guild",
+      "category": "test-automation",
+      "publishedAt": "2026-11-24T21:17:30.000Z",
+      "tags": [],
+      "score": 73,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-22c44545ae1b21dd",
+      "title": "London Chapter. Engineering owns release decision. QA owns risk evidence",
+      "summary": "That was a very good reminder that will hold truth no matter what technological advancement era we are living in. The tools are changing, ways of working might change, the outcomes aren't changing....",
+      "description": "That was a very good reminder that will hold truth no matter what technological advancement era we are living in. The tools are changing, ways of working might change, the outcomes aren't changing....",
+      "url": "https://www.ministryoftesting.com/moments/london-chapter-engineering-owns-release-decision-qa-owns-risk-evidence",
+      "source": "Ministry of Testing",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-24T20:52:07.000Z",
+      "tags": [],
+      "score": 98,
+      "priority": "CRITICAL",
+      "reason": [
+        "qa",
+        "release",
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-16f97caeb342d326",
+      "title": "London Chapter. Keep asking why",
+      "summary": "Luke gently walked us through the idea how teams work, who hold what and what news things to try. My main takeaway is: Keep asking \"why\" to stay engaged. Thank you very much Luke for creating a spa...",
+      "description": "Luke gently walked us through the idea how teams work, who hold what and what news things to try. My main takeaway is: Keep asking \"why\" to stay engaged. Thank you very much Luke for creating a spa...",
+      "url": "https://www.ministryoftesting.com/moments/london-chapter-keep-asking-why",
+      "source": "Ministry of Testing",
+      "category": "ai",
+      "publishedAt": "2026-11-24T20:40:46.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 58,
+      "priority": "MEDIUM",
+      "reason": [
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "pragmatic-engineer-dc798caa487b731e",
+      "title": "The Pragmatic Engineer Essay Challenge: Category Winners (Part 1)",
+      "summary": "How is AI changing the way we build software? Excerpts from three category winners of our recent essay contest, with links to 40 more by software engineers and experts",
+      "description": "How is AI changing the way we build software? Excerpts from three category winners of our recent essay contest, with links to 40 more by software engineers and experts",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
+      "source": "Pragmatic Engineer",
+      "category": "tooling",
+      "publishedAt": "2026-11-24T19:16:38.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 63,
+      "priority": "MEDIUM",
+      "reason": [
+        "Pragmatic Engineer",
+        "recent"
+      ]
+    },
     {
       "id": "ministry-of-testing-41b596c899b0d14a",
       "title": "A new look for the MoTaverse Chapters",
@@ -12,7 +153,7 @@
       "category": "engineering",
       "publishedAt": "2026-11-24T16:44:00.000Z",
       "tags": [],
-      "score": 59,
+      "score": 57,
       "priority": "MEDIUM",
       "reason": [
         "Ministry of Testing",
@@ -31,7 +172,7 @@
       "tags": [
         "testing"
       ],
-      "score": 84,
+      "score": 82,
       "priority": "HIGH",
       "reason": [
         "testing",
@@ -54,11 +195,27 @@
         "update",
         "release"
       ],
-      "score": 99,
+      "score": 97,
       "priority": "CRITICAL",
       "reason": [
         "mcp",
         "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "openai-ac2f786b30f6d457",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "description": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-24T13:00:00.000Z",
+      "tags": [],
+      "score": 52,
+      "priority": "MEDIUM",
+      "reason": [
         "recent"
       ]
     },
@@ -74,7 +231,7 @@
       "tags": [
         "ai"
       ],
-      "score": 73,
+      "score": 71,
       "priority": "HIGH",
       "reason": [
         "agent",
@@ -94,10 +251,26 @@
         "update",
         "ai"
       ],
-      "score": 73,
+      "score": 71,
       "priority": "HIGH",
       "reason": [
         "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "openai-7758c04a629331bf",
+      "title": "Searching for distant planets with Astra",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "description": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-24T11:00:00.000Z",
+      "tags": [],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
         "recent"
       ]
     },
@@ -111,7 +284,7 @@
       "category": "test-automation",
       "publishedAt": "2026-11-24T10:43:07.000Z",
       "tags": [],
-      "score": 58,
+      "score": 56,
       "priority": "MEDIUM",
       "reason": [
         "Ministry of Testing",
@@ -128,7 +301,7 @@
       "category": "engineering",
       "publishedAt": "2026-11-24T10:20:46.000Z",
       "tags": [],
-      "score": 58,
+      "score": 56,
       "priority": "MEDIUM",
       "reason": [
         "Ministry of Testing",
@@ -150,7 +323,7 @@
         "ai",
         "llm"
       ],
-      "score": 98,
+      "score": 96,
       "priority": "CRITICAL",
       "reason": [
         "release",
@@ -180,7 +353,7 @@
         "bug",
         "ai"
       ],
-      "score": 78,
+      "score": 76,
       "priority": "HIGH",
       "reason": [
         "mcp",
@@ -200,31 +373,11 @@
         "testing",
         "ai"
       ],
-      "score": 97,
+      "score": 96,
       "priority": "CRITICAL",
       "reason": [
         "testing",
         "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "selenium-releases-a16d302add79223c",
-      "title": "Nightly",
-      "summary": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 Full Changelog: selenium-4.54.0...nightly",
-      "description": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 Full Changelog: selenium-4.54.0...nightly",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium Releases",
-      "category": "tooling",
-      "publishedAt": "2026-11-24T00:15:50.000Z",
-      "tags": [
-        "github",
-        "ai",
-        "release"
-      ],
-      "score": 51,
-      "priority": "MEDIUM",
-      "reason": [
         "recent"
       ]
     },
@@ -243,6 +396,49 @@
         "agent",
         "recent"
       ]
+    },
+    {
+      "id": "openai-89a905d5eae9fa3e",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "summary": "",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "tags": [],
+      "score": 70,
+      "priority": "HIGH",
+      "reason": [
+        "agent"
+      ]
+    },
+    {
+      "id": "openai-7e14b56be6744308",
+      "title": "How Intentful uses dots to make more time for growth",
+      "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "description": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "source": "OpenAI",
+      "category": "tooling",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
+    },
+    {
+      "id": "openai-a3c9028eefd69cfd",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "description": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "source": "OpenAI",
+      "category": "ai",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "tags": [],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     },
     {
       "id": "simon-willison-e59fe8be067f4ab6",
@@ -264,11 +460,10 @@
         "security",
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "recent"
+        "release"
       ]
     },
     {
@@ -288,11 +483,9 @@
         "ai",
         "release"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "openai-b0689cf87ab570a4",
@@ -306,11 +499,9 @@
       "tags": [
         "ai"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "infoq-ec2db74d0daf563c",
@@ -325,11 +516,10 @@
         "security",
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T19:12:36.699Z",
+  "generatedAt": "2026-11-25T06:29:16.681Z",
   "items": [
     {
       "id": "github-fb89575b05f0672d",
@@ -13,7 +13,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 1759
+      "stars": 1927
     },
     {
       "id": "github-32fe55bb813676c1",
@@ -27,7 +27,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 559
+      "stars": 561
     },
     {
       "id": "github-998787d85cfe7544",
@@ -41,7 +41,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 349
+      "stars": 362
     },
     {
       "id": "github-5b11b065ae3bb2e7",
@@ -83,7 +83,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 69
+      "stars": 75
     },
     {
       "id": "github-e21c8f834274070f",
@@ -97,7 +97,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 68
+      "stars": 69
     },
     {
       "id": "github-1014f2220e29c645",
@@ -139,7 +139,7 @@
       "tags": [
         "ai-testing"
       ],
-      "stars": 847
+      "stars": 846
     }
   ]
 }
