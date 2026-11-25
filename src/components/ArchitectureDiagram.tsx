@@ -18,7 +18,7 @@ const NODES = [
   { kind: 'Serve', title: 'Static site', detail: 'Next.js static export on GitHub Pages, reading the JSON in the browser', where: 'Site repo' },
 ];
 
-const PATH = ['Daily run, 08:00 UTC', 'Pull request', 'Tests pass', 'Merge', 'Export pull request', 'Site deploy'];
+const PATH = ['Daily run, ~03:00 UTC', 'Pull request', 'Tests pass', 'Merge', 'Export pull request', 'Site deploy'];
 
 /**
  * System architecture as plain HTML: the diagram is an ordered list of stages, so the
