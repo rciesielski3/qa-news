@@ -138,3 +138,44 @@ describe('selectTopPicks per-source cap', () => {
     expect(articles).toEqual(copy);
   });
 });
+
+describe('selectTopPicks and release notes', () => {
+  const item = (id: string, source: string, score: number, tags?: string[]): Article => ({
+    id,
+    title: `Item ${id}`,
+    url: `https://example.com/${id}`,
+    source,
+    category: 'tooling',
+    publishedAt: '2026-11-24T10:00:00Z',
+    score,
+    ...(tags ? { tags } : {}),
+  });
+
+  it('never picks an item tagged release, even when it scores highest', () => {
+    const articles = [
+      item('rc', 'Storybook Releases', 99, ['react', 'release']),
+      item('a', 'InfoQ', 98),
+      item('b', 'Ministry of Testing', 84),
+      item('c', 'MCP Blog', 70),
+    ];
+    expect(selectTopPicks(articles).map((a) => a.id)).toEqual(['a', 'b', 'c']);
+  });
+
+  it('returns no picks when the pool only has release notes', () => {
+    const articles = [item('r1', 'Selenium Releases', 60, ['release']), item('r2', 'Vitest Releases', 55, ['release'])];
+    expect(selectTopPicks(articles)).toEqual([]);
+  });
+
+  it('does not fill free slots with release notes', () => {
+    const articles = [item('rc', 'Storybook Releases', 99, ['release']), item('a', 'InfoQ', 80)];
+    expect(selectTopPicks(articles).map((a) => a.id)).toEqual(['a']);
+  });
+
+  it('keeps articles whose title or other tags merely mention a release', () => {
+    const articles = [
+      { ...item('notes', 'InfoQ', 90, ['releases', 'update']), title: 'Release notes for everyone' },
+      item('plain', 'MoT', 80),
+    ];
+    expect(selectTopPicks(articles).map((a) => a.id)).toEqual(['notes', 'plain']);
+  });
+});
