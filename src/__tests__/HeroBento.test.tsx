@@ -17,13 +17,14 @@ const articles = [
   art('2026-11-22', 'Alpha', 'engineering'),
   art('2026-11-20', 'Gamma', 'ai'),
 ];
+const WINDOW = { startMs: Date.parse('2026-11-22T09:00:00Z'), endMs: Date.parse('2026-11-23T09:00:00Z') };
 const NOW = Date.parse('2026-11-23T12:00:00Z');
 
 function renderHero(over: Partial<React.ComponentProps<typeof HeroBento>> = {}) {
   const onSelectCategory = jest.fn();
   render(
     <HeroBento
-      stats={computeStats(articles, '2026-11-23')}
+      stats={computeStats(articles, null, WINDOW)}
       isLoading={false}
       updatedAt="2026-11-23T09:00:00Z"
       onSelectCategory={onSelectCategory}
@@ -47,18 +48,23 @@ describe('HeroBento', () => {
     expect(screen.getByRole('link', { name: 'Browse the feed' })).toHaveAttribute('href', '#feed');
   });
 
-  it('shows the published-today count and a 14-day sparkline from the data', () => {
+  it('shows the last-24-hours count, labelled with the update time in UTC, and a 14-bar sparkline', () => {
     renderHero();
-    expect(screen.getByText('Published today')).toBeInTheDocument();
+    expect(screen.getByText('Last 24 hours · updated 09:00 UTC')).toBeInTheDocument();
     expect(screen.getByTestId('today-count')).toHaveTextContent('3');
     const spark = screen.getByRole('img', { name: /last 14 days/ });
     expect(spark.querySelectorAll('b')).toHaveLength(14);
     expect(spark.getAttribute('aria-label')).toContain('3'); // today is last
   });
 
-  it('labels the tile with the latest day when the data is not from today', () => {
-    renderHero({ now: Date.parse('2026-11-24T12:00:00Z') });
-    expect(screen.getByText(/Latest day · 23 Nov/)).toBeInTheDocument();
+  it('labels the tile with the window end when it is not the update time', () => {
+    renderHero({ updatedAt: '2026-11-25T09:00:00Z' });
+    expect(screen.getByText('Last 24 hours · to 09:00 UTC, 23 Nov')).toBeInTheDocument();
+  });
+
+  it('shows a plain label without data', () => {
+    renderHero({ stats: null, isLoading: true });
+    expect(screen.getByText('Last 24 hours')).toBeInTheDocument();
   });
 
   it('lists the top 3 sources with counts and share', () => {
@@ -95,22 +101,22 @@ describe('HeroBento', () => {
     expect(ai.getAttribute('aria-label')).not.toMatch(/filter/i);
   });
 
-  it('disables bars with no articles on the feed day and does not filter', () => {
+  it('disables bars with no articles in the window and does not filter', () => {
     const { onSelectCategory } = renderHero();
-    // engineering has 1 article in 30 days (22nd) but none on the feed day (23rd)
+    // engineering has 1 article in 30 days (22nd) but none in the 23rd window
     const eng = screen.getByRole('button', { name: /^Engineering: 1 articles/ });
     expect(eng).toHaveAttribute('aria-disabled', 'true');
-    expect(eng).toHaveAttribute('title', 'No articles on this day');
-    expect(eng).toHaveAccessibleDescription(/No articles on this day/);
+    expect(eng).toHaveAttribute('title', 'No articles in the last 24 hours');
+    expect(eng).toHaveAccessibleDescription(/No articles in the last 24 hours/);
     fireEvent.click(eng);
     expect(onSelectCategory).not.toHaveBeenCalled();
     // a bar with articles today stays enabled and says how many
     const ai = screen.getByRole('button', { name: /^AI: 3 articles/ });
     expect(ai).not.toHaveAttribute('aria-disabled');
-    expect(ai).toHaveAccessibleDescription(/2 on this day/);
+    expect(ai).toHaveAccessibleDescription(/2 in the last 24 hours/);
   });
 
-  it('keeps an active bar clickable even with nothing on the feed day, so the filter can be cleared', () => {
+  it('keeps an active bar clickable even with nothing in the window, so the filter can be cleared', () => {
     const { onSelectCategory } = renderHero({ activeCategory: 'engineering' });
     const eng = screen.getByRole('button', { name: /^Engineering: 1 articles/ });
     expect(eng).not.toHaveAttribute('aria-disabled');
@@ -121,7 +127,7 @@ describe('HeroBento', () => {
   it('labels the delta against the 13-day average and hides decorative dots', () => {
     const { container } = render(
       <HeroBento
-        stats={computeStats(articles, '2026-11-23')}
+        stats={computeStats(articles, null, WINDOW)}
         isLoading={false}
         updatedAt={null}
         onSelectCategory={jest.fn()}
@@ -159,14 +165,14 @@ describe('HeroBento', () => {
       jest.setSystemTime(Date.parse('2026-11-23T09:05:00Z'));
       render(
         <HeroBento
-          stats={computeStats(articles, '2026-11-23')}
+          stats={computeStats(articles, null, WINDOW)}
           isLoading={false}
           updatedAt="2026-11-23T09:00:00Z"
           onSelectCategory={jest.fn()}
         />,
       );
       expect(screen.getByText('updated 5m ago')).toBeInTheDocument();
-      expect(screen.getByText('Published today')).toBeInTheDocument();
+      expect(screen.getByText('Last 24 hours · updated 09:00 UTC')).toBeInTheDocument();
       act(() => {
         jest.advanceTimersByTime(60_000);
       });

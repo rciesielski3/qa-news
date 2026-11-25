@@ -1,26 +1,25 @@
 import { useState, useEffect } from 'react';
 import type { Article } from '@/lib/types';
-import { getArticlesForDate, getUTCToday, getYesterdayUTC, isDayBeforeRefreshTime } from '@/lib/dateUtils';
+import { computeDailyWindow, type DailyWindow } from '@/lib/dailyWindow';
 
 interface UseArticleDataResult {
-  /** Articles of the day being shown (today, or yesterday when using the fallback). */
+  /** Articles of the Daily window (the 24 hours ending at `updatedAt`). */
   articles: Article[];
   /** Every article in latest.json (used for the hero statistics). */
   allArticles: Article[];
-  /** UTC day (YYYY-MM-DD) the feed is showing; null when nothing is shown. */
-  feedDay: string | null;
+  /** The window the feed shows; null while loading or when there is no data to anchor it. */
+  window: DailyWindow | null;
   updatedAt: string | null;
   isLoading: boolean;
-  isUsingFallback: boolean;
 }
 
+const NO_ARTICLES: Article[] = [];
+
 export function useArticleData(): UseArticleDataResult {
-  const [articles, setArticles] = useState<Article[]>([]);
   const [allArticles, setAllArticles] = useState<Article[]>([]);
-  const [feedDay, setFeedDay] = useState<string | null>(null);
+  const [window, setWindow] = useState<DailyWindow | null>(null);
   const [updatedAt, setUpdatedAt] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [isUsingFallback, setIsUsingFallback] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -29,50 +28,17 @@ export function useArticleData(): UseArticleDataResult {
       try {
         const response = await fetch('/latest.json');
         const data = (await response.json()) as { updatedAt?: string; articles: Article[] };
-        const allArticles = data.articles ?? [];
-        const timestamp = data.updatedAt ?? null;
-
         if (cancelled) return;
-        setAllArticles(allArticles);
-
-        // Check if we have today's articles
-        const today = getUTCToday();
-        const todayArticles = getArticlesForDate(allArticles, today);
-
-        // If we have today's articles, use them
-        if (todayArticles.length > 0) {
-          setArticles(todayArticles);
-          setFeedDay(today.toISOString().slice(0, 10));
-          setUpdatedAt(timestamp);
-          setIsUsingFallback(false);
-          setIsLoading(false);
-          return;
-        }
-
-        // If no today's articles, try fallback to yesterday immediately
-        // (show previous day's data while waiting for fresh data)
-        const yesterday = getYesterdayUTC();
-        const yesterdayArticles = getArticlesForDate(allArticles, yesterday);
-
-        if (yesterdayArticles.length > 0) {
-          setArticles(yesterdayArticles);
-          setFeedDay(yesterday.toISOString().slice(0, 10));
-          setUpdatedAt(timestamp);
-          setIsUsingFallback(true);
-          setIsLoading(false);
-          return;
-        }
-
-        // Otherwise use empty array (no data available at all)
-        setArticles([]);
-        setUpdatedAt(timestamp);
-        setIsUsingFallback(false);
+        const list = data.articles ?? [];
+        setAllArticles(list);
+        setUpdatedAt(data.updatedAt ?? null);
+        setWindow(computeDailyWindow(list, data.updatedAt));
         setIsLoading(false);
-      } catch (error) {
+      } catch {
         if (!cancelled) {
-          setArticles([]);
+          setAllArticles([]);
+          setWindow(null);
           setUpdatedAt(null);
-          setIsUsingFallback(false);
           setIsLoading(false);
         }
       }
@@ -83,5 +49,5 @@ export function useArticleData(): UseArticleDataResult {
     };
   }, []);
 
-  return { articles, allArticles, feedDay, updatedAt, isLoading, isUsingFallback };
+  return { articles: window?.articles ?? NO_ARTICLES, allArticles, window, updatedAt, isLoading };
 }

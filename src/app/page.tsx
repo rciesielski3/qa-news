@@ -1,6 +1,6 @@
 'use client';
 
-import { Suspense, useMemo } from 'react';
+import { Suspense, useEffect, useMemo, useState } from 'react';
 import SkeletonPipelineEntry from '@/components/SkeletonPipelineEntry';
 import FilterBar from '@/components/FilterBar';
 import ArticleList from '@/components/ArticleList';
@@ -18,14 +18,21 @@ import { motionAllowed } from '@/hooks/useReveal';
 import { applyFilters, selectTopPicks } from '@/lib/filtering';
 import { formatRefreshHourUTC } from '@/lib/dateUtils';
 import { computeStats } from '@/lib/stats';
+import { staleHours } from '@/lib/dailyWindow';
 import { CATEGORIES_WITH_LABELS } from '@/lib/styles';
 
 function DailyPageContent() {
-  const { articles, allArticles, feedDay, updatedAt, isLoading, isUsingFallback } = useArticleData();
+  const { articles, allArticles, window: feedWindow, updatedAt, isLoading } = useArticleData();
   const { filters, updateFilters, clearFilters } = useFiltering();
   const repos = useTrendingRepos();
 
-  const todayArticles = articles; // Already filtered by hook
+  // Browser clock, read after mount only (hydration-safe); it drives the stale notice
+  // and nothing else, the feed window itself comes from the data.
+  const [nowMs, setNowMs] = useState<number | null>(null);
+  useEffect(() => setNowMs(Date.now()), []);
+  const staleBy = staleHours(updatedAt, nowMs);
+
+  const todayArticles = articles; // Already filtered by hook: the last 24 hours
   const topPickArticles = useMemo(() => selectTopPicks(todayArticles), [todayArticles]);
   const topPickIds = useMemo(() => new Set(topPickArticles.map((a) => a.id)), [topPickArticles]);
   // Memoised so unrelated re-renders (e.g. trending.json resolving) keep the same
@@ -33,8 +40,17 @@ function DailyPageContent() {
   const filteredArticles = useMemo(() => applyFilters(todayArticles, filters), [todayArticles, filters]);
 
   const stats = useMemo(
-    () => (isLoading ? null : computeStats(allArticles, feedDay)),
-    [isLoading, allArticles, feedDay],
+    () =>
+      isLoading
+        ? null
+        : computeStats(
+            allArticles,
+            null,
+            feedWindow && feedWindow.startMs !== null && feedWindow.endMs !== null
+              ? { startMs: feedWindow.startMs, endMs: feedWindow.endMs }
+              : null,
+          ),
+    [isLoading, allArticles, feedWindow],
   );
 
   const selectCategory = (category: string | null) => {
@@ -74,11 +90,11 @@ function DailyPageContent() {
 
       <SectionNav items={navItems} />
 
-      {/* Fallback Indicator */}
-      {isUsingFallback && (
+      {/* Stale-data notice: only when the last update is older than the usual daily cadence */}
+      {staleBy !== null && (
         <div className="wrap">
           <div className="notice" role="status">
-            Showing yesterday&apos;s articles. Today&apos;s refresh expected around {formatRefreshHourUTC()}.
+            The latest update is {staleBy} hours old. The next refresh is expected around {formatRefreshHourUTC()}.
           </div>
         </div>
       )}
@@ -89,9 +105,9 @@ function DailyPageContent() {
           <SectionHead
             no="01"
             eyebrow="Highest signal"
-            title="Today's Top Picks"
+            title="Top Picks of the Last 24 Hours"
             titleId="picks-title"
-            sub="The three best-scored stories of the day, at most one per source."
+            sub="The three best-scored stories of the last 24 hours, at most one per source."
           />
           <TopPicks articles={topPickArticles} isLoading={isLoading} />
         </div>
@@ -103,7 +119,7 @@ function DailyPageContent() {
           <SectionHead
             no="02"
             eyebrow="The pipeline"
-            title="All Today's Articles"
+            title="All Articles from the Last 24 Hours"
             titleId="feed-title"
             sub="Everything else that cleared the score threshold. Filter by topic or tag."
           />
