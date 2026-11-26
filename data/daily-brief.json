@@ -1,19 +1,99 @@
 {
-  "date": "2026-11-25",
-  "updatedAt": "2026-11-25T06:46:16.275Z",
+  "date": "2026-11-26",
+  "updatedAt": "2026-11-26T11:27:50.029Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news and release topics",
   "items": [
     {
-      "id": "infoq-c2ca376e736db118",
-      "title": "QCon San Francisco 2026: Automating Spark Upgrades with Codex Agents at OpenAI",
-      "summary": "At QCon San Francisco 2026, Mouli Mukherjee, Engineering Manager for Data Infrastructure at OpenAI, argued that AI agents are most useful not for rebuilding a data platform, but for the open-ended ope...",
-      "description": "At QCon San Francisco 2026, Mouli Mukherjee, Engineering Manager for Data Infrastructure at OpenAI, argued that AI agents are most useful not for rebuilding a data platform, but for the open-ended operational work that is hard to turn into fixed playbooks. By Robert Krzaczyński",
-      "url": "https://www.infoq.com/news/2026/11/openai-spark-fleet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-7f6a2ea47c40db92",
+      "title": "Building a Production-Ready Culture and Skills Through SRE-based Training",
+      "summary": "Training can act as a confidence engine, turning repeated behaviors into habits and culture. We can tailor training programs that equip developers and operators with the skills to run their services i...",
+      "description": "Training can act as a confidence engine, turning repeated behaviors into habits and culture. We can tailor training programs that equip developers and operators with the skills to run their services in line with the organization’s maturity and growth, and apply SRE principles to the training itself. By Ben Linders",
+      "url": "https://www.infoq.com/news/2026/11/SRE-based-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "engineering",
-      "publishedAt": "2026-11-25T06:20:00.000Z",
+      "publishedAt": "2026-11-26T11:09:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-d778fe80da3b85ab",
+      "title": "The AI rollercoaster - blowing our minds one day, causing panic the next",
+      "summary": "Tune-in to share or hear stories from the trenches.",
+      "description": "Tune-in to share or hear stories from the trenches.",
+      "url": "https://www.ministryoftesting.com/news/the-ai-rollercoaster-blowing-our-minds-one-day-causing-panic-the-next",
+      "source": "Ministry of Testing",
+      "category": "ai",
+      "publishedAt": "2026-11-26T10:20:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 59,
+      "priority": "MEDIUM",
+      "reason": [
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-5d5236271f94a4d4",
+      "title": ".NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XAML Hot Reload",
+      "summary": "Microsoft released .NET 11 with a .NET MAUI update focused on product quality. CoreCLR is now the default runtime on all platforms, and XAML gets incremental hot reload, implicit namespaces and faster...",
+      "description": "Microsoft released .NET 11 with a .NET MAUI update focused on product quality. CoreCLR is now the default runtime on all platforms, and XAML gets incremental hot reload, implicit namespaces and faster resource dictionaries. The release also adds device test templates and passkey support, and raises the minimum Android and Apple platform versions. By Edin Kapić",
+      "url": "https://www.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-26T08:00:00.000Z",
+      "tags": [
+        "api",
+        "update",
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-0937411094905068",
+      "title": "Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs",
+      "summary": "Mock Service Worker 3.0 is now ESM-only, requires Node.js 22 or later, and cuts package size from 416KB to 234KB. It adds GraphQL subscription support, protocol-specific entrypoints, and an experiment...",
+      "description": "Mock Service Worker 3.0 is now ESM-only, requires Node.js 22 or later, and cuts package size from 416KB to 234KB. It adds GraphQL subscription support, protocol-specific entrypoints, and an experimental defineNetwork API. Node.js interception now works at the TCP and TLS level. Some users report test failures from newly intercepted OPTIONS preflight requests. By Daniel Curtis",
+      "url": "https://www.infoq.com/news/2026/11/mock-service-worker-v3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-26T06:59:00.000Z",
+      "tags": [
+        "node.js",
+        "api",
+        "graphql",
+        "ai"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "release",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-24757260e5b15e7e",
+      "title": "Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance",
+      "summary": "At Ignite 2026, Microsoft positioned Copilot as the operating system for work and extended agent identity, governance, and cost controls across Azure, Foundry, Entra, and Defender. Highlights include ...",
+      "description": "At Ignite 2026, Microsoft positioned Copilot as the operating system for work and extended agent identity, governance, and cost controls across Azure, Foundry, Entra, and Defender. Highlights include Cobalt 200 VMs, Azure HorizonDB, a continuous improvement loop in Foundry, Microsoft IQ, a standalone Azure AI Gateway, and Windows Server 2028. By Steef-Jan Wiggers",
+      "url": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-26T06:45:00.000Z",
       "tags": [
         "ai"
       ],
@@ -32,7 +112,7 @@
       "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
       "source": "Selenium Releases",
       "category": "tooling",
-      "publishedAt": "2026-11-25T00:17:18.000Z",
+      "publishedAt": "2026-11-26T00:17:08.000Z",
       "tags": [
         "github",
         "ai",
@@ -45,116 +125,14 @@
       ]
     },
     {
-      "id": "simon-willison-0b260d07579db847",
-      "title": "Three LLM inflection points in twelve months",
-      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents i...",
-      "description": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.",
-      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
-      "source": "Simon Willison",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-24T23:02:07.000Z",
-      "tags": [
-        "testing",
-        "api",
-        "rest",
-        "security",
-        "update",
-        "feature",
-        "bug",
-        "ai",
-        "llm"
-      ],
-      "score": 93,
-      "priority": "CRITICAL",
-      "reason": [
-        "agent",
-        "llm",
-        "recent"
-      ]
-    },
-    {
-      "id": "test-guild-4d9fc013feba6342",
-      "title": "Your Coding Agent Wrote the Test. Who Checks It? with Donovan Brady",
-      "summary": "About This Episode: Your coding agent just wrote the test. Who checks it? Donovan Brady of Leapwork is back on [&hellip;]",
-      "description": "About This Episode: Your coding agent just wrote the test. Who checks it? Donovan Brady of Leapwork is back on [&hellip;]",
-      "url": "https://testguild.com/podcast/a613-donovan/",
-      "source": "Test Guild",
-      "category": "test-automation",
-      "publishedAt": "2026-11-24T21:17:30.000Z",
-      "tags": [],
-      "score": 73,
-      "priority": "HIGH",
-      "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-22c44545ae1b21dd",
-      "title": "London Chapter. Engineering owns release decision. QA owns risk evidence",
-      "summary": "That was a very good reminder that will hold truth no matter what technological advancement era we are living in. The tools are changing, ways of working might change, the outcomes aren't changing....",
-      "description": "That was a very good reminder that will hold truth no matter what technological advancement era we are living in. The tools are changing, ways of working might change, the outcomes aren't changing....",
-      "url": "https://www.ministryoftesting.com/moments/london-chapter-engineering-owns-release-decision-qa-owns-risk-evidence",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-24T20:52:07.000Z",
-      "tags": [],
-      "score": 98,
-      "priority": "CRITICAL",
-      "reason": [
-        "qa",
-        "release",
-        "Ministry of Testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-16f97caeb342d326",
-      "title": "London Chapter. Keep asking why",
-      "summary": "Luke gently walked us through the idea how teams work, who hold what and what news things to try. My main takeaway is: Keep asking \"why\" to stay engaged. Thank you very much Luke for creating a spa...",
-      "description": "Luke gently walked us through the idea how teams work, who hold what and what news things to try. My main takeaway is: Keep asking \"why\" to stay engaged. Thank you very much Luke for creating a spa...",
-      "url": "https://www.ministryoftesting.com/moments/london-chapter-keep-asking-why",
-      "source": "Ministry of Testing",
-      "category": "ai",
-      "publishedAt": "2026-11-24T20:40:46.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 58,
-      "priority": "MEDIUM",
-      "reason": [
-        "Ministry of Testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "pragmatic-engineer-dc798caa487b731e",
-      "title": "The Pragmatic Engineer Essay Challenge: Category Winners (Part 1)",
-      "summary": "How is AI changing the way we build software? Excerpts from three category winners of our recent essay contest, with links to 40 more by software engineers and experts",
-      "description": "How is AI changing the way we build software? Excerpts from three category winners of our recent essay contest, with links to 40 more by software engineers and experts",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
-      "source": "Pragmatic Engineer",
-      "category": "tooling",
-      "publishedAt": "2026-11-24T19:16:38.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 63,
-      "priority": "MEDIUM",
-      "reason": [
-        "Pragmatic Engineer",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-41b596c899b0d14a",
-      "title": "A new look for the MoTaverse Chapters",
-      "summary": "Chapter pages have changed! Check them out and let us know your thoughts,",
-      "description": "Chapter pages have changed! Check them out and let us know your thoughts,",
-      "url": "https://www.ministryoftesting.com/news/a-new-look-for-the-motaverse-chapters",
+      "id": "ministry-of-testing-79e05ee017ed4619",
+      "title": "Dev got a fast car, now what?",
+      "summary": "I am seeing a lot of stress lately. Our product people are stressed, because the backlog is evaporating faster than 99 on a summers day. Our account managers are stressed because users...",
+      "description": "I am seeing a lot of stress lately. Our product people are stressed, because the backlog is evaporating faster than 99 on a summers day. Our account managers are stressed because users...",
+      "url": "https://www.ministryoftesting.com/moments/dev-got-a-fast-car-now-what",
       "source": "Ministry of Testing",
       "category": "engineering",
-      "publishedAt": "2026-11-24T16:44:00.000Z",
+      "publishedAt": "2026-11-25T22:06:19.000Z",
       "tags": [],
       "score": 57,
       "priority": "MEDIUM",
@@ -164,45 +142,63 @@
       ]
     },
     {
-      "id": "ministry-of-testing-8f8ff14660eee4e3",
-      "title": "Being an MoT Ambassador be like...",
-      "summary": "Being a Ministry of Testing Ambassador, now for 2 years running, has been a wild, and fulfilling ride.Outwardly, it probably looks a lot like I repost MoT events on LinkedIn, and I do that for sure...",
-      "description": "Being a Ministry of Testing Ambassador, now for 2 years running, has been a wild, and fulfilling ride.Outwardly, it probably looks a lot like I repost MoT events on LinkedIn, and I do that for sure...",
-      "url": "https://www.ministryoftesting.com/moments/being-an-mot-ambassador-be-like",
+      "id": "ministry-of-testing-be86140e30219cb8",
+      "title": "From backlog to build log: why conversations still lead our community",
+      "summary": "Reflect on a year of community conversations, from podcasts and chapters to AI workflows, and why real voices still shape what we build next",
+      "description": "Reflect on a year of community conversations, from podcasts and chapters to AI workflows, and why real voices still shape what we build next",
+      "url": "https://www.ministryoftesting.com/media-sessions/from-backlog-to-build-log-why-conversations-still-lead-our-community",
       "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-11-24T16:21:18.000Z",
+      "category": "tooling",
+      "publishedAt": "2026-11-25T18:20:00.000Z",
       "tags": [
-        "testing"
+        "ai"
       ],
-      "score": 82,
-      "priority": "HIGH",
+      "score": 57,
+      "priority": "MEDIUM",
       "reason": [
-        "testing",
         "Ministry of Testing",
         "recent"
       ]
     },
     {
-      "id": "storybook-releases-e6e1d7bf02ad3a87",
-      "title": "v11.0.0-rc.0",
-      "summary": "11.0.0-rc.0 Addon-MCP: Remove toolsets option and X-MCP-Toolsets header - #37676, thanks @kasperpeulen! Agent skills: Test command in AGENTS.md, review only when asked - #37421, thanks @kasperpeulen! ...",
-      "description": "11.0.0-rc.0 Addon-MCP: Remove toolsets option and X-MCP-Toolsets header - #37676, thanks @kasperpeulen! Agent skills: Test command in AGENTS.md, review only when asked - #37421, thanks @kasperpeulen! CLI: Install the skills when an agent upgrades with CI=true - #37404, thanks @kasperpeulen! CLI: Let installs update the lockfile when CI is set - #37428, thanks @kasperpeulen!",
-      "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-rc.0",
-      "source": "Storybook Releases",
-      "category": "tooling",
-      "publishedAt": "2026-11-24T13:39:25.000Z",
+      "id": "pragmatic-engineer-cbbac7c3e4543d8e",
+      "title": "How Anthropic builds software in 2026 with Katelyn Lesse",
+      "summary": "Katelyn Lesse explains how Anthropic rewrote Claude&#8217;s API in Rust and how AI agents are changing engineering at the company.",
+      "description": "Katelyn Lesse explains how Anthropic rewrote Claude&#8217;s API in Rust and how AI agents are changing engineering at the company.",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+      "source": "Pragmatic Engineer",
+      "category": "ai",
+      "publishedAt": "2026-11-25T17:31:32.000Z",
       "tags": [
-        "react",
-        "github",
-        "update",
-        "release"
+        "api",
+        "ai"
       ],
-      "score": 97,
+      "score": 82,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "Pragmatic Engineer",
+        "recent"
+      ]
+    },
+    {
+      "id": "cypress-4703356ff494069c",
+      "title": "Cypress Ambassador Spotlight: Saran Kumar",
+      "summary": "Every strong community has people who show up for others. They answer the question in the channel, review the flaky test, and walk a new teammate through their first spec. The Cypress Ambassador progr...",
+      "description": "Every strong community has people who show up for others. They answer the question in the channel, review the flaky test, and walk a new teammate through their first spec. The Cypress Ambassador program recognizes those people, and our Ambassador Spotlight series introduces you to them: how they got into testing, what it has taught them, and what they&#x2019;d tell someone writing their first...",
+      "url": "https://www.cypress.io/blog/cypress-ambassador-spotlight-saran-kumar/",
+      "source": "Cypress",
+      "category": "test-automation",
+      "publishedAt": "2026-11-25T17:10:48.000Z",
+      "tags": [
+        "testing",
+        "cypress"
+      ],
+      "score": 91,
       "priority": "CRITICAL",
       "reason": [
-        "mcp",
-        "agent",
+        "flaky",
+        "Cypress",
         "recent"
       ]
     }
