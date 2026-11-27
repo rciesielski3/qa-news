@@ -1,7 +1,175 @@
 {
-  "date": "2026-11-26",
-  "updatedAt": "2026-11-26T11:27:51.640Z",
+  "date": "2026-11-27",
+  "updatedAt": "2026-11-27T11:23:03.202Z",
   "items": [
+    {
+      "id": "ministry-of-testing-c007fa262df57312",
+      "title": "Push your agents towards self improvement",
+      "summary": "You're daily reminder, to purposefully pay attention to how your coding agent, ai reviewers, and other agentic helpers are working for you, and question it. Clude (and others I imagine), will carry...",
+      "description": "You're daily reminder, to purposefully pay attention to how your coding agent, ai reviewers, and other agentic helpers are working for you, and question it. Clude (and others I imagine), will carry...",
+      "url": "https://www.ministryoftesting.com/moments/push-your-agents-towards-self-improvement",
+      "source": "Ministry of Testing",
+      "category": "ai",
+      "publishedAt": "2026-11-27T11:14:18.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 79,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-f0cf1145be39e8b3",
+      "title": "Your art lessons didn't start in the classroom",
+      "summary": "A lovely reminder from another Esso advert today that you don't start learning at school.You can be practising skills and learning essential knowledge in unofficial ways.Whether it's drawing on the...",
+      "description": "A lovely reminder from another Esso advert today that you don't start learning at school.You can be practising skills and learning essential knowledge in unofficial ways.Whether it's drawing on the...",
+      "url": "https://www.ministryoftesting.com/moments/your-art-lessons-didn-t-start-in-the-classroom",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-27T10:43:18.000Z",
+      "tags": [],
+      "score": 59,
+      "priority": "MEDIUM",
+      "reason": [
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-3d490fee61cf8071",
+      "title": "Article: Engineering Reliable Telematics from Smartphone Sensors",
+      "summary": "Smartphones make telematics more accessible by combining location, motion sensors, computing power, and connectivity in a single device. But the convenience comes with a trade-off: device placement va...",
+      "description": "Smartphones make telematics more accessible by combining location, motion sensors, computing power, and connectivity in a single device. But the convenience comes with a trade-off: device placement varies, sampling behavior is managed by the mobile platform, and measurements have different timing and coordinate semantics. This article explores a six-stage architecture to address these challenges.",
+      "url": "https://www.infoq.com/articles/engineering-reliable-smartphone-sensor-telematics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-27T09:00:00.000Z",
+      "tags": [],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "reliab",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-7096794d50d66fb3",
+      "title": "Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window",
+      "summary": "Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Use...",
+      "description": "Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Users can choose among several models, and Mistral agreed to zero data retention. Beta feedback is mixed. By Daniel Curtis",
+      "url": "https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-27T06:58:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "selenium-releases-a16d302add79223c",
+      "title": "Nightly",
+      "summary": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 [rb] generate memoized BiDi domain accessors and include the...",
+      "description": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 [rb] generate memoized BiDi domain accessors and include them in the bridge by @titusfortner in #18376 [rb] move the BiDi command overrides out of BiDiBridge into a BiDiCommands module by @titusfortner in #18379 [js][bidi] Throw WebDriverError from...",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
+      "source": "Selenium Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-27T00:16:21.000Z",
+      "tags": [
+        "github",
+        "ai",
+        "release"
+      ],
+      "score": 53,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-509388d4cbe2442a",
+      "title": "Friction Impacting Quality Engineering",
+      "summary": "Friction can be both positive and negative impact on quality. In this map we explore how unnecessary friction has an impact on our software delivery.more on the topic in this collection:https://www...",
+      "description": "Friction can be both positive and negative impact on quality. In this map we explore how unnecessary friction has an impact on our software delivery.more on the topic in this collection:https://www...",
+      "url": "https://www.ministryoftesting.com/moments/friction-impacting-quality-engineering",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-26T19:45:03.000Z",
+      "tags": [],
+      "score": 57,
+      "priority": "MEDIUM",
+      "reason": [
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-db074d735d71aa92",
+      "title": "Friction to Improve Quality Engineering",
+      "summary": "Friction can be both positive and negative impact on quality. In this map we explore how introducing friction intentionally can make a positive impact on our software deliverymore on the topic in t...",
+      "description": "Friction can be both positive and negative impact on quality. In this map we explore how introducing friction intentionally can make a positive impact on our software deliverymore on the topic in t...",
+      "url": "https://www.ministryoftesting.com/moments/friction-to-improve-quality-engineering",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-26T19:22:42.000Z",
+      "tags": [],
+      "score": 57,
+      "priority": "MEDIUM",
+      "reason": [
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-451edf4cc82ad4d0",
+      "title": "QCon San Francisco 2026: How to Kill the Code Review",
+      "summary": "Ankit Jain of Aviator told QCon San Francisco 2026 that line-by-line code review is already fading, since most review comments concern knowledge sharing rather than defects and over 75% of PRs merge w...",
+      "description": "Ankit Jain of Aviator told QCon San Francisco 2026 that line-by-line code review is already fading, since most review comments concern knowledge sharing rather than defects and over 75% of PRs merge without human review. He proposed six layers: argue, capture, codify, prove, debate, own. His team merges four times more PRs, with about 40% fewer reverts. By Daniel Curtis",
+      "url": "https://www.infoq.com/news/2026/11/qcon-sf-26-kill-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-26T17:16:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 71,
+      "priority": "HIGH",
+      "reason": [
+        "code review",
+        "recent"
+      ]
+    },
+    {
+      "id": "storybook-releases-032b9566605586c7",
+      "title": "v11.0.0-rc.1",
+      "summary": "11.0.0-rc.1 Addon Vitest: Run selected story files as Vitest runs test files - #37777, thanks @kasperpeulen! Angular: Bind inputs and outputs exposed through host directives - #37650, thanks @valentin...",
+      "description": "11.0.0-rc.1 Addon Vitest: Run selected story files as Vitest runs test files - #37777, thanks @kasperpeulen! Angular: Bind inputs and outputs exposed through host directives - #37650, thanks @valentinpalkovic! Angular: Document inputs and outputs exposed through hostDirectives - #36655, thanks @pennydesigns! Builder-Vite: Explain story files that fail to parse - #37515, thanks @shubham-cpp!",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-rc.1",
+      "source": "Storybook Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-26T16:36:44.000Z",
+      "tags": [
+        "react",
+        "vitest",
+        "github",
+        "security",
+        "ai",
+        "release"
+      ],
+      "score": 51,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
     {
       "id": "infoq-7f6a2ea47c40db92",
       "title": "Building a Production-Ready Culture and Skills Through SRE-based Training",
@@ -14,11 +182,9 @@
       "tags": [
         "ai"
       ],
-      "score": 54,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "ministry-of-testing-d778fe80da3b85ab",
@@ -32,11 +198,10 @@
       "tags": [
         "ai"
       ],
-      "score": 59,
+      "score": 55,
       "priority": "MEDIUM",
       "reason": [
-        "Ministry of Testing",
-        "recent"
+        "Ministry of Testing"
       ]
     },
     {
@@ -53,11 +218,10 @@
         "update",
         "ai"
       ],
-      "score": 74,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "recent"
+        "release"
       ]
     },
     {
@@ -75,11 +239,10 @@
         "graphql",
         "ai"
       ],
-      "score": 74,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "release",
-        "recent"
+        "release"
       ]
     },
     {
@@ -94,31 +257,10 @@
       "tags": [
         "ai"
       ],
-      "score": 74,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
-      ]
-    },
-    {
-      "id": "selenium-releases-a16d302add79223c",
-      "title": "Nightly",
-      "summary": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 [rb] generate memoized BiDi domain accessors and include the...",
-      "description": "What's Changed [rb] track the current window in the BiDi bridge so navigation skips the window handle round trip by @titusfortner in #18374 [rb] generate memoized BiDi domain accessors and include them in the bridge by @titusfortner in #18376 [rb] move the BiDi command overrides out of BiDiBridge into a BiDiCommands module by @titusfortner in #18379 [js][bidi] Throw WebDriverError from...",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
-      "source": "Selenium Releases",
-      "category": "tooling",
-      "publishedAt": "2026-11-26T00:17:08.000Z",
-      "tags": [
-        "github",
-        "ai",
-        "release"
-      ],
-      "score": 53,
-      "priority": "MEDIUM",
-      "reason": [
-        "recent"
+        "agent"
       ]
     },
     {
@@ -131,11 +273,10 @@
       "category": "engineering",
       "publishedAt": "2026-11-25T22:06:19.000Z",
       "tags": [],
-      "score": 57,
+      "score": 55,
       "priority": "MEDIUM",
       "reason": [
-        "Ministry of Testing",
-        "recent"
+        "Ministry of Testing"
       ]
     },
     {
@@ -150,11 +291,10 @@
       "tags": [
         "ai"
       ],
-      "score": 57,
+      "score": 55,
       "priority": "MEDIUM",
       "reason": [
-        "Ministry of Testing",
-        "recent"
+        "Ministry of Testing"
       ]
     },
     {
@@ -170,12 +310,11 @@
         "api",
         "ai"
       ],
-      "score": 82,
+      "score": 80,
       "priority": "HIGH",
       "reason": [
         "agent",
-        "Pragmatic Engineer",
-        "recent"
+        "Pragmatic Engineer"
       ]
     },
     {
@@ -191,12 +330,11 @@
         "testing",
         "cypress"
       ],
-      "score": 91,
+      "score": 90,
       "priority": "CRITICAL",
       "reason": [
         "flaky",
-        "Cypress",
-        "recent"
+        "Cypress"
       ]
     },
     {
@@ -211,11 +349,10 @@
       "tags": [
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "reliab",
-        "recent"
+        "reliab"
       ]
     },
     {
@@ -228,16 +365,15 @@
       "category": "qa-practice",
       "publishedAt": "2026-11-25T16:01:34.000Z",
       "tags": [],
-      "score": 56,
+      "score": 55,
       "priority": "MEDIUM",
       "reason": [
-        "Ministry of Testing",
-        "recent"
+        "Ministry of Testing"
       ]
     },
     {
       "id": "infoq-ef27df3c7fb4b44f",
-      "title": "GitHub Ditches CSS-in-JS for CSS Modules, Reports 55% Faster SSR After Three-Year Migration",
+      "title": "GitHub Ditches CSS-in-JS for CSS Modules, Reports 55% Faster SSR after Three-Year Migration",
       "summary": "GitHub migrated github.com from styled-components to CSS Modules over three years, reporting a 55% cut in server-side rendering time and 25% faster component initialisation. Primer components were con...",
       "description": "GitHub migrated github.com from styled-components to CSS Modules over three years, reporting a 55% cut in server-side rendering time and 25% faster component initialisation. Primer components were converted behind feature flags, and about 7,760 sx prop usages were migrated with codemods and Copilot agents. Commenters questioned user impact and hashed class names. By Daniel Curtis",
       "url": "https://www.infoq.com/news/2026/11/github-css-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -248,11 +384,10 @@
         "github",
         "feature"
       ],
-      "score": 76,
+      "score": 75,
       "priority": "HIGH",
       "reason": [
-        "migration",
-        "recent"
+        "migration"
       ]
     },
     {
@@ -268,11 +403,10 @@
         "github",
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -287,11 +421,10 @@
       "tags": [
         "ai"
       ],
-      "score": 56,
+      "score": 55,
       "priority": "MEDIUM",
       "reason": [
-        "Ministry of Testing",
-        "recent"
+        "Ministry of Testing"
       ]
     },
     {
@@ -306,11 +439,10 @@
       "tags": [
         "ai"
       ],
-      "score": 66,
+      "score": 65,
       "priority": "MEDIUM",
       "reason": [
-        "architecture",
-        "recent"
+        "architecture"
       ]
     },
     {
@@ -325,11 +457,10 @@
       "tags": [
         "ai"
       ],
-      "score": 61,
+      "score": 60,
       "priority": "MEDIUM",
       "reason": [
-        "Kent Beck",
-        "recent"
+        "Kent Beck"
       ]
     },
     {
@@ -345,16 +476,15 @@
         "api",
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
       "id": "infoq-dbba24a27db6807c",
-      "title": "Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents",
+      "title": "Vercel Launched Experimental Board to Coordinate Tasks across Humans and Coding Agents",
       "summary": "Vercel's experimental Board is a headless message store where people and coding agents claim leased tasks, declare dependencies, and sync threads with Slack, GitHub, and Linear. By Daniel Dominguez",
       "description": "Vercel's experimental Board is a headless message store where people and coding agents claim leased tasks, declare dependencies, and sync threads with Slack, GitHub, and Linear. By Daniel Dominguez",
       "url": "https://www.infoq.com/news/2026/11/vercel-board-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -365,11 +495,10 @@
         "github",
         "ai"
       ],
-      "score": 71,
+      "score": 70,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "recent"
+        "agent"
       ]
     },
     {
@@ -391,11 +520,9 @@
         "ai",
         "release"
       ],
-      "score": 51,
+      "score": 50,
       "priority": "MEDIUM",
-      "reason": [
-        "recent"
-      ]
+      "reason": []
     },
     {
       "id": "storybook-releases-034ae93ce8740b21",
@@ -417,7 +544,7 @@
     },
     {
       "id": "infoq-76a96105e6fccba6",
-      "title": "Rust 1.100 Ships the Never Type After Ten Years and Five Failed Attempts",
+      "title": "Rust 1.100 Ships the Never Type after Ten Years and Five Failed Attempts",
       "summary": "Rust 1.100.0, released 12 November 2026, stabilises the never type (!) after ten years of work and makes Infallible an alias for it. The release also stabilises the core of the allocator API, adds Dro...",
       "description": "Rust 1.100.0, released 12 November 2026, stabilises the never type (!) after ten years of work and makes Infallible an alias for it. The release also stabilises the core of the allocator API, adds DropGuard, and gives Cargo an opt-in dependency cooldown setting. Some critics note the allocator design still lacks inline storage support. By Daniel Curtis",
       "url": "https://www.infoq.com/news/2026/11/rust-1-100-never-types/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -10212,317 +10339,6 @@
         "api",
         "ai"
       ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-ba056714cdb7086f",
-      "title": "Presentation: Wrangling Telemetry at Scale: A Guide to Self-Hosted Observability",
-      "summary": "Colin Douch shares battle-tested strategies for building and scaling self-hosted observability stacks. He explains how to effectively correlate metrics, structured logs, and distributed traces using o...",
-      "url": "https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-10-28T11:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-8731427655af99dc",
-      "title": "Microsoft's October Security Update Fixes 1,400+ Vulnerabilities, One Exploited in the Wild",
-      "summary": "Microsoft's latest monthly security update addresses 1415 vulnerabilities across multiple products. One vulnerability affecting Windows Shell has been exploited in the wild, while 85 are classified as...",
-      "url": "https://www.infoq.com/news/2026/10/microsoft-october-2026-patch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "qa-practice",
-      "publishedAt": "2026-10-28T10:30:00.000Z",
-      "tags": [
-        "security",
-        "update"
-      ],
-      "score": 90,
-      "priority": "CRITICAL",
-      "reason": [
-        "security"
-      ]
-    },
-    {
-      "id": "openai-e2ed7680c50ae3f0",
-      "title": "The future of the firm",
-      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
-      "description": "How AI might enter the org chart—beneath, beside, and between us.",
-      "url": "https://openai.com/index/the-future-of-the-firm",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-10-28T10:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-4d65fa4d2bc10f58",
-      "title": "Do not expect to learn fast. Find joy in the process",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/do-not-expect-to-learn-fast-find-joy-in-the-process",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-28T09:47:20.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-3734b29c8775a8ac",
-      "title": "Chrome Opens Trial for the Email Verification API: Letting Sites Verify Without Sending Emails",
-      "summary": "Google has opened a Chrome origin trial for the Email Verification API, a WICG proposal that lets the browser confirm email ownership without sending a message. Gmail is the first provider. Developers...",
-      "url": "https://www.infoq.com/news/2026/10/chrome-email-verification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-10-28T09:32:00.000Z",
-      "tags": [
-        "api",
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "openai-67c6b18b0a76451d",
-      "title": "Legora is building the agentic operating system for legal work",
-      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "description": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "url": "https://openai.com/index/legora",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-10-28T09:30:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "agent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-92b43cec6eea7813",
-      "title": " New certificate: Rediscover exploratory testing for the age of AI",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/news/new-certificate-rediscover-exploratory-testing-for-the-age-of-ai",
-      "source": "Ministry of Testing",
-      "category": "qa-practice",
-      "publishedAt": "2026-10-28T09:00:00.000Z",
-      "tags": [
-        "testing",
-        "ai"
-      ],
-      "score": 75,
-      "priority": "HIGH",
-      "reason": [
-        "testing"
-      ]
-    },
-    {
-      "id": "infoq-0082254d4803d6b9",
-      "title": "Article: Building an Offline-First AI Coding Tutor for Low-End Android Phones",
-      "summary": "This article is about engineering an offline-first app for low-end devices based on our experience in Nigeria and India. The interesting problems in this space are storage, quota, cold start, and fail...",
-      "url": "https://www.infoq.com/articles/building-offline-first-android-app-low-end-devices/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-10-28T09:00:00.000Z",
-      "tags": [
-        "rest",
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "infoq-f59c358a48014f6f",
-      "title": "Cloudflare Opens Quicksilver to Customers as Workers KV Instant, Inside a 1 MB Envelope",
-      "summary": "Cloudflare has put Quicksilver, the internal key-value store behind nearly every request it serves, into private beta as a Workers KV mode. Reads resolve in 1.62 ms at p99 against 287 ms for classic K...",
-      "url": "https://www.infoq.com/news/2026/10/workers-kv-instant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-10-28T08:57:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "developsense-d6a5e79ff1c242ef",
-      "title": "Ed Zitron Reads My Mind",
-      "summary": "Something very much like this post originally appeared on LinkedIn. Ed Zitron is reading my mind. Well&#8230; maybe not reading it, but he&#8217;s for sure writing it. Here are the contents of my mind...",
-      "description": "Something very much like this post originally appeared on LinkedIn. Ed Zitron is reading my mind. Well&#8230; maybe not reading it, but he&#8217;s for sure writing it. Here are the contents of my mind every day, in just under three paragraphs of Ed&#8217;s words. I&#8217;ve added a bit of emphasis.",
-      "url": "https://developsense.com/blog/2026/10/ed-zitron-reads-my-mind",
-      "source": "DevelopSense",
-      "category": "engineering",
-      "publishedAt": "2026-10-27T18:10:43.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "storybook-releases-13d17f1ffdb54fca",
-      "title": "v10.6.5",
-      "summary": "10.6.5 Typescript: Exclude all dunderscore prefixed folders from production compilation - #36740, thanks @mrginglymus!",
-      "description": "10.6.5 Typescript: Exclude all dunderscore prefixed folders from production compilation - #36740, thanks @mrginglymus!",
-      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.6.5",
-      "source": "Storybook Releases",
-      "category": "tooling",
-      "publishedAt": "2026-10-27T16:27:27.000Z",
-      "tags": [
-        "typescript",
-        "github",
-        "release"
-      ],
-      "score": 65,
-      "priority": "MEDIUM",
-      "reason": [
-        "typescript"
-      ]
-    },
-    {
-      "id": "pragmatic-engineer-65bf7f4a7a387b55",
-      "title": "AI SRE: what is it, how could it change on-call – and does it work?",
-      "summary": "&#8220;AI SRE&#8221; is fast becoming a trending term fueled by flashy demos from vendors, but has an AI SRE ever really been on-call while engineers slept? Deepdive",
-      "description": "&#8220;AI SRE&#8221; is fast becoming a trending term fueled by flashy demos from vendors, but has an AI SRE ever really been on-call while engineers slept? Deepdive",
-      "url": "https://newsletter.pragmaticengineer.com/p/ai-sre",
-      "source": "Pragmatic Engineer",
-      "category": "ai",
-      "publishedAt": "2026-10-27T16:19:22.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 60,
-      "priority": "MEDIUM",
-      "reason": [
-        "Pragmatic Engineer"
-      ]
-    },
-    {
-      "id": "openai-1e3ebf94e41ebe19",
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-      "description": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-      "url": "https://openai.com/index/retell-ai",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-10-27T15:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 70,
-      "priority": "HIGH",
-      "reason": [
-        "agent"
-      ]
-    },
-    {
-      "id": "test-guild-0a9911baad24de69",
-      "title": "Why Your AI Tests Pass When Your Features Fail with Donovan Brady",
-      "summary": "About This Episode: Why Your AI Tests Pass When Your Features Fail? Donovan Brady of Leapwork shows how to make [&hellip;]",
-      "description": "About This Episode: Why Your AI Tests Pass When Your Features Fail? Donovan Brady of Leapwork shows how to make [&hellip;]",
-      "url": "https://testguild.com/podcast/a609-donovan/",
-      "source": "Test Guild",
-      "category": "ai",
-      "publishedAt": "2026-10-27T14:34:17.000Z",
-      "tags": [
-        "feature",
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-573146c2e0388a08",
-      "title": "Your Guidewire Test Says the Claim Failed. What If It Didn't?",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/your-guidewire-test-says-the-claim-failed-what-if-it-didn-t",
-      "source": "Ministry of Testing",
-      "category": "test-automation",
-      "publishedAt": "2026-10-27T14:26:12.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "ministry-of-testing-743e8cfcb7f26878",
-      "title": "Timber!  ",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/timber",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-27T13:24:04.000Z",
-      "tags": [],
-      "score": 50,
-      "priority": "MEDIUM",
-      "reason": []
-    },
-    {
-      "id": "cloudflare-b98b75e5e3efe8c1",
-      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-      "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to he...",
-      "description": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
-      "url": "https://blog.cloudflare.com/php-ctf/",
-      "source": "Cloudflare",
-      "category": "qa-practice",
-      "publishedAt": "2026-10-27T13:00:00.000Z",
-      "tags": [
-        "security",
-        "bug"
-      ],
-      "score": 100,
-      "priority": "CRITICAL",
-      "reason": [
-        "security",
-        "cloudflare"
-      ]
-    },
-    {
-      "id": "cloudflare-f21bc890ebec1e8c",
-      "title": "What took the Internet offline in Q3 2026",
-      "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impact...",
-      "description": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
-      "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
-      "source": "Cloudflare",
-      "category": "ai",
-      "publishedAt": "2026-10-27T13:00:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 60,
-      "priority": "MEDIUM",
-      "reason": [
-        "cloudflare"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-34592672acb91ada",
-      "title": "New Chapter at work",
-      "summary": "",
-      "url": "https://www.ministryoftesting.com/moments/new-chapter-at-work",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-10-27T11:35:17.000Z",
-      "tags": [],
       "score": 50,
       "priority": "MEDIUM",
       "reason": []
