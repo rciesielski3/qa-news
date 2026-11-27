@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T11:27:53.223Z",
+  "generatedAt": "2026-11-27T11:23:04.820Z",
   "items": [
     {
       "id": "github-fb89575b05f0672d",
@@ -13,7 +13,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 2421
+      "stars": 2563
     },
     {
       "id": "github-32fe55bb813676c1",
@@ -27,7 +27,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 564
+      "stars": 565
     },
     {
       "id": "github-998787d85cfe7544",
@@ -41,7 +41,7 @@
       "tags": [
         "test-automation"
       ],
-      "stars": 369
+      "stars": 386
     },
     {
       "id": "github-5b11b065ae3bb2e7",
@@ -112,6 +112,20 @@
         "test-automation"
       ],
       "stars": 52
+    },
+    {
+      "id": "github-48d333686134ab08",
+      "title": "nemo-crypto/QA-Automation",
+      "summary": "AI-assisted test automation framework with Playwright, Appium and pytest for Web UI, REST APIs and Android/iOS. 自动化测试教学：Agent 工作流、页面对象、接口测试、测试报告与 CI。",
+      "description": "AI-assisted test automation framework with Playwright, Appium and pytest for Web UI, REST APIs and Android/iOS. 自动化测试教学：Agent 工作流、页面对象、接口测试、测试报告与 CI。",
+      "url": "https://github.com/nemo-crypto/QA-Automation",
+      "source": "GitHub",
+      "category": "test-automation",
+      "publishedAt": "2026-11-08T04:56:51Z",
+      "tags": [
+        "test-automation"
+      ],
+      "stars": 50
     },
     {
       "id": "github-6fd7da3b622ae73d",

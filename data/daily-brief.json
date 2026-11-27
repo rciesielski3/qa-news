@@ -1,40 +1,40 @@
 {
-  "date": "2026-11-26",
-  "updatedAt": "2026-11-26T11:27:50.029Z",
+  "date": "2026-11-27",
+  "updatedAt": "2026-11-27T11:23:01.584Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news and release topics",
   "items": [
     {
-      "id": "infoq-7f6a2ea47c40db92",
-      "title": "Building a Production-Ready Culture and Skills Through SRE-based Training",
-      "summary": "Training can act as a confidence engine, turning repeated behaviors into habits and culture. We can tailor training programs that equip developers and operators with the skills to run their services i...",
-      "description": "Training can act as a confidence engine, turning repeated behaviors into habits and culture. We can tailor training programs that equip developers and operators with the skills to run their services in line with the organization’s maturity and growth, and apply SRE principles to the training itself. By Ben Linders",
-      "url": "https://www.infoq.com/news/2026/11/SRE-based-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-26T11:09:00.000Z",
+      "id": "ministry-of-testing-c007fa262df57312",
+      "title": "Push your agents towards self improvement",
+      "summary": "You're daily reminder, to purposefully pay attention to how your coding agent, ai reviewers, and other agentic helpers are working for you, and question it. Clude (and others I imagine), will carry...",
+      "description": "You're daily reminder, to purposefully pay attention to how your coding agent, ai reviewers, and other agentic helpers are working for you, and question it. Clude (and others I imagine), will carry...",
+      "url": "https://www.ministryoftesting.com/moments/push-your-agents-towards-self-improvement",
+      "source": "Ministry of Testing",
+      "category": "ai",
+      "publishedAt": "2026-11-27T11:14:18.000Z",
       "tags": [
         "ai"
       ],
-      "score": 54,
-      "priority": "MEDIUM",
+      "score": 79,
+      "priority": "HIGH",
       "reason": [
+        "agent",
+        "Ministry of Testing",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-d778fe80da3b85ab",
-      "title": "The AI rollercoaster - blowing our minds one day, causing panic the next",
-      "summary": "Tune-in to share or hear stories from the trenches.",
-      "description": "Tune-in to share or hear stories from the trenches.",
-      "url": "https://www.ministryoftesting.com/news/the-ai-rollercoaster-blowing-our-minds-one-day-causing-panic-the-next",
+      "id": "ministry-of-testing-f0cf1145be39e8b3",
+      "title": "Your art lessons didn't start in the classroom",
+      "summary": "A lovely reminder from another Esso advert today that you don't start learning at school.You can be practising skills and learning essential knowledge in unofficial ways.Whether it's drawing on the...",
+      "description": "A lovely reminder from another Esso advert today that you don't start learning at school.You can be practising skills and learning essential knowledge in unofficial ways.Whether it's drawing on the...",
+      "url": "https://www.ministryoftesting.com/moments/your-art-lessons-didn-t-start-in-the-classroom",
       "source": "Ministry of Testing",
-      "category": "ai",
-      "publishedAt": "2026-11-26T10:20:00.000Z",
-      "tags": [
-        "ai"
-      ],
+      "category": "engineering",
+      "publishedAt": "2026-11-27T10:43:18.000Z",
+      "tags": [],
       "score": 59,
       "priority": "MEDIUM",
       "reason": [
@@ -43,64 +43,37 @@
       ]
     },
     {
-      "id": "infoq-5d5236271f94a4d4",
-      "title": ".NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XAML Hot Reload",
-      "summary": "Microsoft released .NET 11 with a .NET MAUI update focused on product quality. CoreCLR is now the default runtime on all platforms, and XAML gets incremental hot reload, implicit namespaces and faster...",
-      "description": "Microsoft released .NET 11 with a .NET MAUI update focused on product quality. CoreCLR is now the default runtime on all platforms, and XAML gets incremental hot reload, implicit namespaces and faster resource dictionaries. The release also adds device test templates and passkey support, and raises the minimum Android and Apple platform versions. By Edin Kapić",
-      "url": "https://www.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-3d490fee61cf8071",
+      "title": "Article: Engineering Reliable Telematics from Smartphone Sensors",
+      "summary": "Smartphones make telematics more accessible by combining location, motion sensors, computing power, and connectivity in a single device. But the convenience comes with a trade-off: device placement va...",
+      "description": "Smartphones make telematics more accessible by combining location, motion sensors, computing power, and connectivity in a single device. But the convenience comes with a trade-off: device placement varies, sampling behavior is managed by the mobile platform, and measurements have different timing and coordinate semantics. This article explores a six-stage architecture to address these challenges.",
+      "url": "https://www.infoq.com/articles/engineering-reliable-smartphone-sensor-telematics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-26T08:00:00.000Z",
-      "tags": [
-        "api",
-        "update",
-        "ai"
-      ],
+      "category": "engineering",
+      "publishedAt": "2026-11-27T09:00:00.000Z",
+      "tags": [],
       "score": 74,
       "priority": "HIGH",
       "reason": [
-        "release",
+        "reliab",
         "recent"
       ]
     },
     {
-      "id": "infoq-0937411094905068",
-      "title": "Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs",
-      "summary": "Mock Service Worker 3.0 is now ESM-only, requires Node.js 22 or later, and cuts package size from 416KB to 234KB. It adds GraphQL subscription support, protocol-specific entrypoints, and an experiment...",
-      "description": "Mock Service Worker 3.0 is now ESM-only, requires Node.js 22 or later, and cuts package size from 416KB to 234KB. It adds GraphQL subscription support, protocol-specific entrypoints, and an experimental defineNetwork API. Node.js interception now works at the TCP and TLS level. Some users report test failures from newly intercepted OPTIONS preflight requests. By Daniel Curtis",
-      "url": "https://www.infoq.com/news/2026/11/mock-service-worker-v3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "tooling",
-      "publishedAt": "2026-11-26T06:59:00.000Z",
-      "tags": [
-        "node.js",
-        "api",
-        "graphql",
-        "ai"
-      ],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "release",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-24757260e5b15e7e",
-      "title": "Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance",
-      "summary": "At Ignite 2026, Microsoft positioned Copilot as the operating system for work and extended agent identity, governance, and cost controls across Azure, Foundry, Entra, and Defender. Highlights include ...",
-      "description": "At Ignite 2026, Microsoft positioned Copilot as the operating system for work and extended agent identity, governance, and cost controls across Azure, Foundry, Entra, and Defender. Highlights include Cobalt 200 VMs, Azure HorizonDB, a continuous improvement loop in Foundry, Microsoft IQ, a standalone Azure AI Gateway, and Windows Server 2028. By Steef-Jan Wiggers",
-      "url": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-7096794d50d66fb3",
+      "title": "Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window",
+      "summary": "Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Use...",
+      "description": "Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Users can choose among several models, and Mistral agreed to zero data retention. Beta feedback is mixed. By Daniel Curtis",
+      "url": "https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "ai",
-      "publishedAt": "2026-11-26T06:45:00.000Z",
+      "publishedAt": "2026-11-27T06:58:00.000Z",
       "tags": [
         "ai"
       ],
-      "score": 74,
-      "priority": "HIGH",
+      "score": 54,
+      "priority": "MEDIUM",
       "reason": [
-        "agent",
         "recent"
       ]
     },
@@ -112,7 +85,7 @@
       "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
       "source": "Selenium Releases",
       "category": "tooling",
-      "publishedAt": "2026-11-26T00:17:08.000Z",
+      "publishedAt": "2026-11-27T00:16:21.000Z",
       "tags": [
         "github",
         "ai",
@@ -125,14 +98,14 @@
       ]
     },
     {
-      "id": "ministry-of-testing-79e05ee017ed4619",
-      "title": "Dev got a fast car, now what?",
-      "summary": "I am seeing a lot of stress lately. Our product people are stressed, because the backlog is evaporating faster than 99 on a summers day. Our account managers are stressed because users...",
-      "description": "I am seeing a lot of stress lately. Our product people are stressed, because the backlog is evaporating faster than 99 on a summers day. Our account managers are stressed because users...",
-      "url": "https://www.ministryoftesting.com/moments/dev-got-a-fast-car-now-what",
+      "id": "ministry-of-testing-509388d4cbe2442a",
+      "title": "Friction Impacting Quality Engineering",
+      "summary": "Friction can be both positive and negative impact on quality. In this map we explore how unnecessary friction has an impact on our software delivery.more on the topic in this collection:https://www...",
+      "description": "Friction can be both positive and negative impact on quality. In this map we explore how unnecessary friction has an impact on our software delivery.more on the topic in this collection:https://www...",
+      "url": "https://www.ministryoftesting.com/moments/friction-impacting-quality-engineering",
       "source": "Ministry of Testing",
       "category": "engineering",
-      "publishedAt": "2026-11-25T22:06:19.000Z",
+      "publishedAt": "2026-11-26T19:45:03.000Z",
       "tags": [],
       "score": 57,
       "priority": "MEDIUM",
@@ -142,17 +115,15 @@
       ]
     },
     {
-      "id": "ministry-of-testing-be86140e30219cb8",
-      "title": "From backlog to build log: why conversations still lead our community",
-      "summary": "Reflect on a year of community conversations, from podcasts and chapters to AI workflows, and why real voices still shape what we build next",
-      "description": "Reflect on a year of community conversations, from podcasts and chapters to AI workflows, and why real voices still shape what we build next",
-      "url": "https://www.ministryoftesting.com/media-sessions/from-backlog-to-build-log-why-conversations-still-lead-our-community",
+      "id": "ministry-of-testing-db074d735d71aa92",
+      "title": "Friction to Improve Quality Engineering",
+      "summary": "Friction can be both positive and negative impact on quality. In this map we explore how introducing friction intentionally can make a positive impact on our software deliverymore on the topic in t...",
+      "description": "Friction can be both positive and negative impact on quality. In this map we explore how introducing friction intentionally can make a positive impact on our software deliverymore on the topic in t...",
+      "url": "https://www.ministryoftesting.com/moments/friction-to-improve-quality-engineering",
       "source": "Ministry of Testing",
-      "category": "tooling",
-      "publishedAt": "2026-11-25T18:20:00.000Z",
-      "tags": [
-        "ai"
-      ],
+      "category": "engineering",
+      "publishedAt": "2026-11-26T19:22:42.000Z",
+      "tags": [],
       "score": 57,
       "priority": "MEDIUM",
       "reason": [
@@ -161,46 +132,62 @@
       ]
     },
     {
-      "id": "pragmatic-engineer-cbbac7c3e4543d8e",
-      "title": "How Anthropic builds software in 2026 with Katelyn Lesse",
-      "summary": "Katelyn Lesse explains how Anthropic rewrote Claude&#8217;s API in Rust and how AI agents are changing engineering at the company.",
-      "description": "Katelyn Lesse explains how Anthropic rewrote Claude&#8217;s API in Rust and how AI agents are changing engineering at the company.",
-      "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
-      "source": "Pragmatic Engineer",
+      "id": "infoq-451edf4cc82ad4d0",
+      "title": "QCon San Francisco 2026: How to Kill the Code Review",
+      "summary": "Ankit Jain of Aviator told QCon San Francisco 2026 that line-by-line code review is already fading, since most review comments concern knowledge sharing rather than defects and over 75% of PRs merge w...",
+      "description": "Ankit Jain of Aviator told QCon San Francisco 2026 that line-by-line code review is already fading, since most review comments concern knowledge sharing rather than defects and over 75% of PRs merge without human review. He proposed six layers: argue, capture, codify, prove, debate, own. His team merges four times more PRs, with about 40% fewer reverts. By Daniel Curtis",
+      "url": "https://www.infoq.com/news/2026/11/qcon-sf-26-kill-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
       "category": "ai",
-      "publishedAt": "2026-11-25T17:31:32.000Z",
+      "publishedAt": "2026-11-26T17:16:00.000Z",
       "tags": [
-        "api",
         "ai"
       ],
-      "score": 82,
+      "score": 71,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "Pragmatic Engineer",
+        "code review",
         "recent"
       ]
     },
     {
-      "id": "cypress-4703356ff494069c",
-      "title": "Cypress Ambassador Spotlight: Saran Kumar",
-      "summary": "Every strong community has people who show up for others. They answer the question in the channel, review the flaky test, and walk a new teammate through their first spec. The Cypress Ambassador progr...",
-      "description": "Every strong community has people who show up for others. They answer the question in the channel, review the flaky test, and walk a new teammate through their first spec. The Cypress Ambassador program recognizes those people, and our Ambassador Spotlight series introduces you to them: how they got into testing, what it has taught them, and what they&#x2019;d tell someone writing their first...",
-      "url": "https://www.cypress.io/blog/cypress-ambassador-spotlight-saran-kumar/",
-      "source": "Cypress",
-      "category": "test-automation",
-      "publishedAt": "2026-11-25T17:10:48.000Z",
+      "id": "storybook-releases-032b9566605586c7",
+      "title": "v11.0.0-rc.1",
+      "summary": "11.0.0-rc.1 Addon Vitest: Run selected story files as Vitest runs test files - #37777, thanks @kasperpeulen! Angular: Bind inputs and outputs exposed through host directives - #37650, thanks @valentin...",
+      "description": "11.0.0-rc.1 Addon Vitest: Run selected story files as Vitest runs test files - #37777, thanks @kasperpeulen! Angular: Bind inputs and outputs exposed through host directives - #37650, thanks @valentinpalkovic! Angular: Document inputs and outputs exposed through hostDirectives - #36655, thanks @pennydesigns! Builder-Vite: Explain story files that fail to parse - #37515, thanks @shubham-cpp!",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-rc.1",
+      "source": "Storybook Releases",
+      "category": "tooling",
+      "publishedAt": "2026-11-26T16:36:44.000Z",
       "tags": [
-        "testing",
-        "cypress"
+        "react",
+        "vitest",
+        "github",
+        "security",
+        "ai",
+        "release"
       ],
-      "score": 91,
-      "priority": "CRITICAL",
+      "score": 51,
+      "priority": "MEDIUM",
       "reason": [
-        "flaky",
-        "Cypress",
         "recent"
       ]
+    },
+    {
+      "id": "infoq-7f6a2ea47c40db92",
+      "title": "Building a Production-Ready Culture and Skills Through SRE-based Training",
+      "summary": "Training can act as a confidence engine, turning repeated behaviors into habits and culture. We can tailor training programs that equip developers and operators with the skills to run their services i...",
+      "description": "Training can act as a confidence engine, turning repeated behaviors into habits and culture. We can tailor training programs that equip developers and operators with the skills to run their services in line with the organization’s maturity and growth, and apply SRE principles to the training itself. By Ben Linders",
+      "url": "https://www.infoq.com/news/2026/11/SRE-based-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-26T11:09:00.000Z",
+      "tags": [
+        "ai"
+      ],
+      "score": 50,
+      "priority": "MEDIUM",
+      "reason": []
     }
   ]
 }
