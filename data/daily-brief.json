@@ -1,79 +1,61 @@
 {
-  "date": "2026-11-27",
-  "updatedAt": "2026-11-27T11:23:01.584Z",
+  "date": "2026-11-28",
+  "updatedAt": "2026-11-28T10:50:34.034Z",
   "sourcesScanned": 0,
   "storiesSelected": 10,
   "lede": "Daily brief highlighting news and release topics",
   "items": [
     {
-      "id": "ministry-of-testing-c007fa262df57312",
-      "title": "Push your agents towards self improvement",
-      "summary": "You're daily reminder, to purposefully pay attention to how your coding agent, ai reviewers, and other agentic helpers are working for you, and question it. Clude (and others I imagine), will carry...",
-      "description": "You're daily reminder, to purposefully pay attention to how your coding agent, ai reviewers, and other agentic helpers are working for you, and question it. Clude (and others I imagine), will carry...",
-      "url": "https://www.ministryoftesting.com/moments/push-your-agents-towards-self-improvement",
-      "source": "Ministry of Testing",
+      "id": "infoq-298c37c5388e1045",
+      "title": "Anthropic Introduces Claude Ship to Review, Fix, and Approve Pull Requests by Policy",
+      "summary": "Anthropic has introduced Claude Ship, a set of agents that can review GitHub pull requests, push fixes, and approve the changes a team's policy allows, on Claude Team and Enterprise plans. By Daniel D...",
+      "description": "Anthropic has introduced Claude Ship, a set of agents that can review GitHub pull requests, push fixes, and approve the changes a team's policy allows, on Claude Team and Enterprise plans. By Daniel Dominguez",
+      "url": "https://www.infoq.com/news/2026/11/anthropic-claude-ship/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
       "category": "ai",
-      "publishedAt": "2026-11-27T11:14:18.000Z",
+      "publishedAt": "2026-11-28T10:08:00.000Z",
+      "tags": [
+        "github"
+      ],
+      "score": 74,
+      "priority": "HIGH",
+      "reason": [
+        "agent",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-f4ebd1c2d081b4f8",
+      "title": "AWS Introduces Centralized Workforce Access to IAM Roles Across Accounts",
+      "summary": "AWS recently introduced Account Access Manager to centrally assign workforce users and groups to existing IAM roles across an organization, preserving custom trust policies and ABAC configurations whi...",
+      "description": "AWS recently introduced Account Access Manager to centrally assign workforce users and groups to existing IAM roles across an organization, preserving custom trust policies and ABAC configurations while improving individual identity attribution and auditability. By Renato Losio",
+      "url": "https://www.infoq.com/news/2026/11/aws-centralized-workforce-access/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "engineering",
+      "publishedAt": "2026-11-28T07:57:00.000Z",
+      "tags": [],
+      "score": 54,
+      "priority": "MEDIUM",
+      "reason": [
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-ff62d852cf9e2b27",
+      "title": "Azure AI Gateway Reaches General Availability as a Standalone Service",
+      "summary": "Microsoft has made Azure AI Gateway generally available as a standalone Azure service for governing access to AI models and MCP tools across providers. A free tier covers 10,000 requests per gateway p...",
+      "description": "Microsoft has made Azure AI Gateway generally available as a standalone Azure service for governing access to AI models and MCP tools across providers. A free tier covers 10,000 requests per gateway per month; paid billing starts January 1, 2027; and private networking remains in preview. By Steef-Jan Wiggers",
+      "url": "https://www.infoq.com/news/2026/11/azure-ai-gateway-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "ai",
+      "publishedAt": "2026-11-28T06:47:00.000Z",
       "tags": [
         "ai"
       ],
       "score": 79,
       "priority": "HIGH",
       "reason": [
-        "agent",
-        "Ministry of Testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "ministry-of-testing-f0cf1145be39e8b3",
-      "title": "Your art lessons didn't start in the classroom",
-      "summary": "A lovely reminder from another Esso advert today that you don't start learning at school.You can be practising skills and learning essential knowledge in unofficial ways.Whether it's drawing on the...",
-      "description": "A lovely reminder from another Esso advert today that you don't start learning at school.You can be practising skills and learning essential knowledge in unofficial ways.Whether it's drawing on the...",
-      "url": "https://www.ministryoftesting.com/moments/your-art-lessons-didn-t-start-in-the-classroom",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-27T10:43:18.000Z",
-      "tags": [],
-      "score": 59,
-      "priority": "MEDIUM",
-      "reason": [
-        "Ministry of Testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-3d490fee61cf8071",
-      "title": "Article: Engineering Reliable Telematics from Smartphone Sensors",
-      "summary": "Smartphones make telematics more accessible by combining location, motion sensors, computing power, and connectivity in a single device. But the convenience comes with a trade-off: device placement va...",
-      "description": "Smartphones make telematics more accessible by combining location, motion sensors, computing power, and connectivity in a single device. But the convenience comes with a trade-off: device placement varies, sampling behavior is managed by the mobile platform, and measurements have different timing and coordinate semantics. This article explores a six-stage architecture to address these challenges.",
-      "url": "https://www.infoq.com/articles/engineering-reliable-smartphone-sensor-telematics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "engineering",
-      "publishedAt": "2026-11-27T09:00:00.000Z",
-      "tags": [],
-      "score": 74,
-      "priority": "HIGH",
-      "reason": [
-        "reliab",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-7096794d50d66fb3",
-      "title": "Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window",
-      "summary": "Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Use...",
-      "description": "Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Users can choose among several models, and Mistral agreed to zero data retention. Beta feedback is mixed. By Daniel Curtis",
-      "url": "https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
-      "category": "ai",
-      "publishedAt": "2026-11-27T06:58:00.000Z",
-      "tags": [
-        "ai"
-      ],
-      "score": 54,
-      "priority": "MEDIUM",
-      "reason": [
+        "mcp",
         "recent"
       ]
     },
@@ -85,7 +67,7 @@
       "url": "https://github.com/SeleniumHQ/selenium/releases/tag/nightly",
       "source": "Selenium Releases",
       "category": "tooling",
-      "publishedAt": "2026-11-27T00:16:21.000Z",
+      "publishedAt": "2026-11-28T00:15:12.000Z",
       "tags": [
         "github",
         "ai",
@@ -98,50 +80,37 @@
       ]
     },
     {
-      "id": "ministry-of-testing-509388d4cbe2442a",
-      "title": "Friction Impacting Quality Engineering",
-      "summary": "Friction can be both positive and negative impact on quality. In this map we explore how unnecessary friction has an impact on our software delivery.more on the topic in this collection:https://www...",
-      "description": "Friction can be both positive and negative impact on quality. In this map we explore how unnecessary friction has an impact on our software delivery.more on the topic in this collection:https://www...",
-      "url": "https://www.ministryoftesting.com/moments/friction-impacting-quality-engineering",
+      "id": "ministry-of-testing-908ed106c09c56e1",
+      "title": "Showing up and shutting down: The importance of community conversations and the rise of cyber attacks",
+      "summary": "A look at personal growth, community contributions, cybersecurity concerns, and the importance of trust, collaboration, and empowerment in quality engineering.",
+      "description": "A look at personal growth, community contributions, cybersecurity concerns, and the importance of trust, collaboration, and empowerment in quality engineering.",
+      "url": "https://www.ministryoftesting.com/media-sessions/showing-up-and-shutting-down-the-importance-of-community-conversations-and-the-rise-of-cyber-attacks",
       "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-26T19:45:03.000Z",
-      "tags": [],
-      "score": 57,
-      "priority": "MEDIUM",
+      "category": "qa-practice",
+      "publishedAt": "2026-11-27T15:39:12.000Z",
+      "tags": [
+        "security"
+      ],
+      "score": 86,
+      "priority": "HIGH",
       "reason": [
+        "security",
         "Ministry of Testing",
         "recent"
       ]
     },
     {
-      "id": "ministry-of-testing-db074d735d71aa92",
-      "title": "Friction to Improve Quality Engineering",
-      "summary": "Friction can be both positive and negative impact on quality. In this map we explore how introducing friction intentionally can make a positive impact on our software deliverymore on the topic in t...",
-      "description": "Friction can be both positive and negative impact on quality. In this map we explore how introducing friction intentionally can make a positive impact on our software deliverymore on the topic in t...",
-      "url": "https://www.ministryoftesting.com/moments/friction-to-improve-quality-engineering",
-      "source": "Ministry of Testing",
-      "category": "engineering",
-      "publishedAt": "2026-11-26T19:22:42.000Z",
-      "tags": [],
-      "score": 57,
-      "priority": "MEDIUM",
-      "reason": [
-        "Ministry of Testing",
-        "recent"
-      ]
-    },
-    {
-      "id": "infoq-451edf4cc82ad4d0",
-      "title": "QCon San Francisco 2026: How to Kill the Code Review",
-      "summary": "Ankit Jain of Aviator told QCon San Francisco 2026 that line-by-line code review is already fading, since most review comments concern knowledge sharing rather than defects and over 75% of PRs merge w...",
-      "description": "Ankit Jain of Aviator told QCon San Francisco 2026 that line-by-line code review is already fading, since most review comments concern knowledge sharing rather than defects and over 75% of PRs merge without human review. He proposed six layers: argue, capture, codify, prove, debate, own. His team merges four times more PRs, with about 40% fewer reverts. By Daniel Curtis",
-      "url": "https://www.infoq.com/news/2026/11/qcon-sf-26-kill-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "id": "infoq-7b849e27159a03c0",
+      "title": "Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight",
+      "summary": "PyTorch now lets an AI reviewer approve pull requests from its own maintainers. GreenLight is an open-source take on RADAR, the system Meta uses to auto-land low-risk diffs after safety checks, a risk...",
+      "description": "PyTorch now lets an AI reviewer approve pull requests from its own maintainers. GreenLight is an open-source take on RADAR, the system Meta uses to auto-land low-risk diffs after safety checks, a risk score and an LLM review. OpenAI, Anthropic and Sonar describe similar ways to automate approval while keeping humans on risky changes. By Andrew Hoblitzell",
+      "url": "https://www.infoq.com/news/2026/11/uber-agent-spend-steady/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "source": "InfoQ",
       "category": "ai",
-      "publishedAt": "2026-11-26T17:16:00.000Z",
+      "publishedAt": "2026-11-27T14:36:00.000Z",
       "tags": [
-        "ai"
+        "ai",
+        "llm"
       ],
       "score": 71,
       "priority": "HIGH",
@@ -151,21 +120,17 @@
       ]
     },
     {
-      "id": "storybook-releases-032b9566605586c7",
-      "title": "v11.0.0-rc.1",
-      "summary": "11.0.0-rc.1 Addon Vitest: Run selected story files as Vitest runs test files - #37777, thanks @kasperpeulen! Angular: Bind inputs and outputs exposed through host directives - #37650, thanks @valentin...",
-      "description": "11.0.0-rc.1 Addon Vitest: Run selected story files as Vitest runs test files - #37777, thanks @kasperpeulen! Angular: Bind inputs and outputs exposed through host directives - #37650, thanks @valentinpalkovic! Angular: Document inputs and outputs exposed through hostDirectives - #36655, thanks @pennydesigns! Builder-Vite: Explain story files that fail to parse - #37515, thanks @shubham-cpp!",
-      "url": "https://github.com/storybookjs/storybook/releases/tag/v11.0.0-rc.1",
-      "source": "Storybook Releases",
+      "id": "infoq-ed98b77202f7f3b7",
+      "title": "Netflix Builds Quasar to Measure the Blast Radius of Library API Changes",
+      "summary": "Netflix developed Quasar, an internal tool that combines semantic code indexing and API comparisons to identify downstream consumers affected by library changes. Using SCIP, Amazon S3, and Athena, it ...",
+      "description": "Netflix developed Quasar, an internal tool that combines semantic code indexing and API comparisons to identify downstream consumers affected by library changes. Using SCIP, Amazon S3, and Athena, it traces API references across repositories, helping maintainers assess migration impact and make informed release decisions. Netflix is also exploring agent-assisted consumer migrations.",
+      "url": "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
       "category": "tooling",
-      "publishedAt": "2026-11-26T16:36:44.000Z",
+      "publishedAt": "2026-11-27T14:35:00.000Z",
       "tags": [
-        "react",
-        "vitest",
-        "github",
-        "security",
-        "ai",
-        "release"
+        "api",
+        "ai"
       ],
       "score": 51,
       "priority": "MEDIUM",
@@ -174,20 +139,61 @@
       ]
     },
     {
-      "id": "infoq-7f6a2ea47c40db92",
-      "title": "Building a Production-Ready Culture and Skills Through SRE-based Training",
-      "summary": "Training can act as a confidence engine, turning repeated behaviors into habits and culture. We can tailor training programs that equip developers and operators with the skills to run their services i...",
-      "description": "Training can act as a confidence engine, turning repeated behaviors into habits and culture. We can tailor training programs that equip developers and operators with the skills to run their services in line with the organization’s maturity and growth, and apply SRE principles to the training itself. By Ben Linders",
-      "url": "https://www.infoq.com/news/2026/11/SRE-based-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "source": "InfoQ",
+      "id": "ministry-of-testing-06b28dbcaa2b5a64",
+      "title": "MoT Leeds Retrospective 2026 ",
+      "summary": "Firstly, a huge thank you to Hippo for their ongoing support. We really appreciate everything you do. Secondly, thanks to my co-hosts Scott and Colin for all your contributions. Yesterday we h...",
+      "description": "Firstly, a huge thank you to Hippo for their ongoing support. We really appreciate everything you do. Secondly, thanks to my co-hosts Scott and Colin for all your contributions. Yesterday we h...",
+      "url": "https://www.ministryoftesting.com/moments/mot-leeds-retrospective-2026",
+      "source": "Ministry of Testing",
       "category": "engineering",
-      "publishedAt": "2026-11-26T11:09:00.000Z",
+      "publishedAt": "2026-11-27T14:22:23.000Z",
+      "tags": [],
+      "score": 56,
+      "priority": "MEDIUM",
+      "reason": [
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "ministry-of-testing-3e8212f0a2288154",
+      "title": "Lean lager with MoT Edinburgh ",
+      "summary": "On Thursday 26th November, several folk from MoT Edinburgh met up for a fun social event with a lean coffee approach to keep the conversation flowing. We talked about AI, automation, careers, acces...",
+      "description": "On Thursday 26th November, several folk from MoT Edinburgh met up for a fun social event with a lean coffee approach to keep the conversation flowing. We talked about AI, automation, careers, acces...",
+      "url": "https://www.ministryoftesting.com/moments/lean-lager-with-mot-edinburgh",
+      "source": "Ministry of Testing",
+      "category": "engineering",
+      "publishedAt": "2026-11-27T13:05:13.000Z",
       "tags": [
+        "automation",
         "ai"
       ],
-      "score": 50,
+      "score": 81,
+      "priority": "HIGH",
+      "reason": [
+        "automation",
+        "Ministry of Testing",
+        "recent"
+      ]
+    },
+    {
+      "id": "infoq-f06a46ba7fbf85ef",
+      "title": "Grafana Begins Its Biggest UI Refresh Since Version 7",
+      "summary": "Grafana Labs has introduced the first phase of its biggest visual refresh since Grafana 7, bringing updated themes, more consistent interface components, and improved visual hierarchy to its observabi...",
+      "description": "Grafana Labs has introduced the first phase of its biggest visual refresh since Grafana 7, bringing updated themes, more consistent interface components, and improved visual hierarchy to its observability platform. By Craig Risi",
+      "url": "https://www.infoq.com/news/2026/11/grfana-ui-refresh/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "tooling",
+      "publishedAt": "2026-11-27T12:00:00.000Z",
+      "tags": [
+        "update",
+        "ai"
+      ],
+      "score": 51,
       "priority": "MEDIUM",
-      "reason": []
+      "reason": [
+        "recent"
+      ]
     }
   ]
 }
